@@ -20,6 +20,7 @@ fg.description('Latest updates and release notes for Firebase.')
 # リリースノートを抽出
 for release in soup.find_all('div', class_='devsite-article-body'):
     subtitles = release.find_all('h2')
+    # 最初のサブタイトルは `Latest versions of Firebase SDKs and versioned tooling` なので無視する
     releases = subtitles[1:]
     for item in releases:
         fe = fg.add_entry()
