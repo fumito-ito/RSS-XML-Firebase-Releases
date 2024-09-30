@@ -43,4 +43,4 @@ for release in soup.find_all('div', class_='devsite-article-body'):
         fe.summary(summary, type='html')
 
 # RSSフィードを保存
-fg.rss_file('firebase_releases.xml')
+fg.rss_file('docs/firebase_releases.xml')
