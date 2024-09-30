@@ -30,4 +30,4 @@ jobs:
           git config --local user.name "GitHub Actions"
           git add docs
           git commit -m "Update RSS feed"
-          git push origin main
+          git push origin master
