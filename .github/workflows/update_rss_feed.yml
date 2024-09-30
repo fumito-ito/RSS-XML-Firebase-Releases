@@ -15,12 +15,15 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-      - run: |
-        pip install --user pipx
-        pipx ensurepath
-      - run: pipx install poetry
-      - run: poetry install
-      - run: poetry run python3 generate_rss.py  # RSSフィード生成スクリプトの実行
+      - name: Install poetry via pipx
+        run: |
+          pip install --user pipx
+          pipx ensurepath
+          pipx install poetry
+      - name: install dependencies
+        run: poetry install
+      - name: generate rss feed
+        run: poetry run python3 generate_rss.py
       - name: Commit RSS feed
         run: |
           git config --local user.email "actions@github.com"
