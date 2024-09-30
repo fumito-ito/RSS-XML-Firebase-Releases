@@ -1,0 +1,26 @@
+name: Update RSS Feed
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 毎日0時に実行
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - run: poetry install
+      - run: poetry run python3 generate_rss.py  # RSSフィード生成スクリプトの実行
+      - name: Commit RSS feed
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add rss_feed.xml
+          git commit -m "Update RSS feed"
+          git push origin main
