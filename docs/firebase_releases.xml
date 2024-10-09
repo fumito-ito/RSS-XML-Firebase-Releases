@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 08 Oct 2024 21:13:24 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 09 Oct 2024 01:04:06 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -3713,7 +3713,7 @@ and how to
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#11.2.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 11, 2024</title><link>https://firebase.google.com/support/releases#september_11_2024</link><description>&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 11, 2024</title><link>https://firebase.google.com/support/releases#september_11_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.17.0)" id="cli-v13.17.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.17.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.17.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.17.0)&lt;/a&gt;
 is now available.
@@ -3752,16 +3752,44 @@ the conditions you define. Learn more at
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#10.13.2"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 23, 2024</title><link>https://firebase.google.com/support/releases#september_23_2024</link><description>&lt;h3 data-text="Firebase console" id="password-policy-ui" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.18.0)" id="cli-v13.18.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.18.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#13.18.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.18.0)&lt;/a&gt;
+is now available.
+This version includes support for &lt;code dir="ltr" translate="no"&gt;firebase deploy --dry-run&lt;/code&gt;, and  fixes for &lt;code dir="ltr" translate="no"&gt;init firestore&lt;/code&gt;, web frameworks, and Data Connect.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 22, 2024</title><link>https://firebase.google.com/support/releases#september_22_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.19.0)" id="cli-v13.19.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.19.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#13.19.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.19.0)&lt;/a&gt;
+is now available.
+This version includes support for extensions SDKs.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 23, 2024</title><link>https://firebase.google.com/support/releases#september_23_2024</link><description>&lt;h3 data-text="Firebase console" id="password-policy-ui" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now configure your projects' &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; password
 policy using the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console. To do so, open the &lt;strong&gt;Password policy&lt;/strong&gt;
 tab on the &lt;a href="//console.firebase.google.com/project/_/authentication/settings"&gt;Authentication Settings&lt;/a&gt;
 page.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 26, 2024</title><link>https://firebase.google.com/support/releases#september_26_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 25, 2024</title><link>https://firebase.google.com/support/releases#september_25_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.20.0)" id="cli-v13.20.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.20.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#13.20.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.20.0)&lt;/a&gt;
+is now available.
+This version includes many new features for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 26, 2024</title><link>https://firebase.google.com/support/releases#september_26_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#12.3.0"&gt;Firebase SDK for C++
 (v12.3.0)&lt;/a&gt; is now available.
 This release includes bug fixes in &lt;span class="notranslate"&gt;FCM&lt;/span&gt; and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;,
 an updated Android minSdkVersion, and other changes.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.20.1)" id="cli-v13.20.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.20.1)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#13.20.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.20.1)&lt;/a&gt;
+is now available.
+This version includes bug fixes for the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 30, 2024</title><link>https://firebase.google.com/support/releases#september_30_2024</link><description>&lt;h3 data-text="Performance Monitoring" id="retention-period-changes" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The data retention period for &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; will change from 90 days
 to 60 days starting October 30, 2024. To retain your data after 60 days,
@@ -3797,6 +3825,13 @@ To install this SDK, see
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#11.3.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.20.2)" id="cli-v13.20.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.20.2)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#13.20.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.20.2)&lt;/a&gt;
+is now available.
+This version includes bug fixes for the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate></item><item><title>October 01, 2024</title><link>https://firebase.google.com/support/releases#october_01_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
@@ -3808,4 +3843,13 @@ To get started with Firebase in Android, see
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v33.4.0. Learn how to
 &lt;a href="/docs/android/learn-more#bom"&gt;add SDKs to your app using the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 08, 2024</title><link>https://firebase.google.com/support/releases#october_08_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.21.0)" id="cli-v13.21.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.21.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#13.21.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.21.0)&lt;/a&gt;
+is now available.
+This version includes the new &lt;code dir="ltr" translate="no"&gt;apphosting:rollouts:create&lt;/code&gt; command, support
+for generating Dart SDKs for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;, and emulator support
+for extensions SDKs.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate></item></channel></rss>
