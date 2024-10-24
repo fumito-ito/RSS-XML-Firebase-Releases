@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 24 Oct 2024 18:18:30 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 24 Oct 2024 21:16:50 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -4003,6 +4003,13 @@ has been updated to v33.5.1. Learn how to
 providing code and additional context when using Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; with
 &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;. Learn more at &lt;a href="/docs/crashlytics/ai-assistance"&gt;Get
 AI assistance in &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions for Firebase" id="auth-blocking-sms" tabindex="-1"&gt;Cloud Functions for Firebase&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; has added two new Auth blocking event
+types for Node.js: &lt;code dir="ltr" translate="no"&gt;beforeSmsSent&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;beforeEmailSent&lt;/code&gt;. These event types,
+provided for both 2nd and 1st gen, allow you to trigger functions prior to
+messaging users for cases such as password reset or multifactor
+authentication. See
+&lt;a href="/docs/functions/auth-blocking-events"&gt;Auth blocking triggers&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/go#4.15.0"&gt;Firebase Admin Go SDK (v4.15.0)&lt;/a&gt;
 is now available. The Admin SDK for Go now requires Go 1.21 or higher.
@@ -4014,4 +4021,8 @@ is now available. This release comes with improvements in
 the &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#12.4.0"&gt;Firebase SDK for C++
+(v12.4.0)&lt;/a&gt; is now available.
+This release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, changes to &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;,
+and other changes.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate></item></channel></rss>
