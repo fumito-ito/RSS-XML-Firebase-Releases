@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 01 Nov 2024 15:14:22 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 01 Nov 2024 18:18:32 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -4025,7 +4025,7 @@ To install this SDK, see
 (v12.4.0)&lt;/a&gt; is now available.
 This release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, changes to &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;,
 and other changes.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 30, 2024</title><link>https://firebase.google.com/support/releases#october_30_2024</link><description>&lt;h3 data-text="Cloud Storage" id="storage-blaze-required-to-onboard-and-default-bucket-name-change" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Learn more about the &lt;span class="notranslate"&gt;Cloud Storage for Firebase&lt;/span&gt; changes for pricing plan
+&lt;/ul&gt;</description><pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 30, 2024</title><link>https://firebase.google.com/support/releases#october_30_2024</link><description>&lt;h3 data-text="Cloud Storage for Firebase" id="storage-blaze-required-to-onboard-and-default-bucket-name-change" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage for Firebase&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Learn more about the &lt;span class="notranslate"&gt;Cloud Storage for Firebase&lt;/span&gt; changes for pricing plan
 requirements and default buckets in our
 &lt;a href="/docs/storage/faqs-storage-changes-announced-sept-2024"&gt;FAQs&lt;/a&gt;.&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; A Firebase project must now be on the &lt;a href="/pricing"&gt;pay-as-you-go Blaze pricing plan&lt;/a&gt;
@@ -4042,16 +4042,19 @@ which provides an &lt;a class="external" href="https://cloud.google.com/storage/
 buckets will experience &lt;em&gt;&lt;strong&gt;no changes&lt;/strong&gt;&lt;/em&gt; right now. However, note that by
 &lt;nobr&gt;October 1, 2025&lt;/nobr&gt;, all Firebase projects must
 be on the pay-as-you-go Blaze pricing plan to continue using &lt;span class="notranslate"&gt;Cloud Storage for Firebase&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Cloud Storage for Firebase&lt;/span&gt; API now provisions default buckets
-with the name format of &lt;nobr&gt;&lt;code dir="ltr" translate="no"&gt;&lt;var translate="no"&gt;PROJECT_ID&lt;/var&gt;.firebasestorage.app&lt;/code&gt;&lt;/nobr&gt;. This API
-also now requires the &lt;a href="/pricing"&gt;pay-as-you-go Blaze pricing plan&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Cloud Storage for Firebase&lt;/span&gt; REST endpoint
+&lt;a href="/docs/reference/rest/storage/rest/v1alpha/projects.defaultBucket/create"&gt;&lt;code dir="ltr" translate="no"&gt;projects.defaultBucket.create&lt;/code&gt;&lt;/a&gt;
+now provisions default buckets with the name format of
+&lt;nobr&gt;&lt;code dir="ltr" translate="no"&gt;&lt;var translate="no"&gt;PROJECT_ID&lt;/var&gt;.firebasestorage.app&lt;/code&gt;&lt;/nobr&gt;. Also, using this API now requires the
+&lt;a href="/pricing"&gt;pay-as-you-go Blaze pricing plan&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following REST endpoints from the Firebase Management API are
-now shutdown and will return 404s:&lt;/p&gt;
+now decommissioned and will return 404 errors:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;projects.defaultLocation.finalize&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;projects.availableLocations.list&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/docs/reference/firebase-management/rest/v1beta1/projects.availableLocations/list"&gt;&lt;code dir="ltr" translate="no"&gt;projects.availableLocations.list&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/docs/reference/firebase-management/rest/v1beta1/projects.defaultLocation/finalize"&gt;&lt;code dir="ltr" translate="no"&gt;projects.defaultLocation.finalize&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Instead, use a product-specific API to work with the location of a resource.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;Instead, use a product-specific API to work with the location of each
+resource in a project.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 31, 2024</title><link>https://firebase.google.com/support/releases#october_31_2024</link><description>&lt;h3 data-text="Data Connect" id="dataconnect-gemini-in-firebase" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; now provides AI assistance for
 &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; queries and mutations in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console. Use
