@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 21 Nov 2024 21:13:23 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 22 Nov 2024 01:08:46 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -4158,7 +4158,14 @@ To get started with Firebase in Android, see
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v33.6.0. Learn how to
 &lt;a href="/docs/android/learn-more#bom"&gt;add SDKs to your app using the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate></item><item><title>November 20, 2024</title><link>https://firebase.google.com/support/releases#november_20_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate></item><item><title>November 19, 2024</title><link>https://firebase.google.com/support/releases#november_19_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.26.0)" id="cli-v13.26.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.26.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#13.26.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.26.0)&lt;/a&gt;
+is now available. This version includes new commands for &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;
+and bug fixes for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate></item><item><title>November 20, 2024</title><link>https://firebase.google.com/support/releases#november_20_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.0.1"&gt;Firebase Admin Node.js SDK (v13.0.1)&lt;/a&gt;
 is now available. This release includes a fix in the core SDK.
 To install this SDK, see
@@ -4170,4 +4177,11 @@ repo:
 &lt;a class="external" href="https://github.com/firebase/firebase-ios-sdk"&gt;Apple platforms&lt;/a&gt;,
 &lt;a class="external" href="https://github.com/firebase/firebase-android-sdk"&gt;Android&lt;/a&gt;, and
 &lt;a class="external" href="https://github.com/firebase/firebase-js-sdk"&gt;JS&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.27.0)" id="cli-v13.27.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.27.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#13.27.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.27.0)&lt;/a&gt;
+is now available. This version adds an emulator for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; and
+import/export support for the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate></item></channel></rss>
