@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 05 Dec 2024 18:18:29 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 05 Dec 2024 21:13:46 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -4188,13 +4188,20 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; For users developing on macOS or Linux, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; now
 offers an automatic installation option for local tooling. Learn how to use
 this feature in the &lt;a href="/docs/data-connect/quickstart-local"&gt;getting started guide for local development&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate></item><item><title>December 3, 2024</title><link>https://firebase.google.com/support/releases#december_3_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_2" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate></item><item><title>December 03, 2024</title><link>https://firebase.google.com/support/releases#december_03_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_2" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#11.6.0"&gt;Firebase Apple SDK (v11.6.0)&lt;/a&gt;
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#11.6.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 05, 2024</title><link>https://firebase.google.com/support/releases#december_05_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 04, 2024</title><link>https://firebase.google.com/support/releases#december_04_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.28.0)" id="cli-v13.28.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.28.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#13.28.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.28.0)&lt;/a&gt;
+is now available. This version includes fixes for {app_hosting}, &lt;span class="notranslate"&gt;Genkit&lt;/span&gt;,
+and {data_connect_short}.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 05, 2024</title><link>https://firebase.google.com/support/releases#december_05_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/go#4.15.1"&gt;Firebase Admin Go SDK (v4.15.1)&lt;/a&gt;
 is now available. This release updates a dependency used by the
 &lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt; API.
