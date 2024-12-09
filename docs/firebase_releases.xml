@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 09 Dec 2024 18:20:52 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 09 Dec 2024 21:13:54 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -3242,7 +3242,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.10.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.10.1)&lt;/a&gt;
 is now available.
-This version includes includes fixes for {firebase_data_connect}}.
+This version includes includes fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate></item><item><title>May 27, 2024</title><link>https://firebase.google.com/support/releases#may_27_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_46" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -3265,7 +3265,7 @@ requests, which is required for authorization when using
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.10.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.10.2)&lt;/a&gt;
 is now available.
-This version includes includes fixes for {firebase_data_connect}}.
+This version includes includes fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate></item><item><title>May 29, 2024</title><link>https://firebase.google.com/support/releases#may_29_2024</link><description>&lt;ul&gt;
@@ -3321,7 +3321,7 @@ to learn about how to opt out, how delegation affects reporting, and more.&lt;/p
 is now available.
 This version includes support for the &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; Node 22 runtime,
 support for &lt;code dir="ltr" translate="no"&gt;withAuthContext&lt;/code&gt; function triggers in the &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; emulator,
-and fixes for {firebase_data_connect}}, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, and
+and fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, and
 the &lt;span class="notranslate"&gt;Pub/Sub&lt;/span&gt; emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -3329,14 +3329,14 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.11.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.11.1)&lt;/a&gt;
 is now available.
-This version includes includes fixes for {firebase_data_connect}}.
+This version includes includes fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate></item><item><title>June 07, 2024</title><link>https://firebase.google.com/support/releases#june_07_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.11.2)" id="cli-v13.11.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.11.2)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.11.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.11.2)&lt;/a&gt;
 is now available.
-This version includes fixes for {firebase_data_connect}}.
+This version includes fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate></item><item><title>June 10, 2024</title><link>https://firebase.google.com/support/releases#june_10_2024</link><description>&lt;h3 data-text="Firebase" id="billing-android-device-streaming" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3381,14 +3381,14 @@ To install this SDK, see
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.11.3"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.11.3)&lt;/a&gt;
 is now available.
-This version includes fixes for {firebase_data_connect}}.
+This version includes fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate></item><item><title>June 21, 2024</title><link>https://firebase.google.com/support/releases#june_21_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.11.4)" id="cli-v13.11.4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.11.4)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.11.4"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.11.4)&lt;/a&gt;
 is now available.
-This version includes fixes for {firebase_data_connect}} and &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;.
+This version includes fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate></item><item><title>June 24, 2024</title><link>https://firebase.google.com/support/releases#june_24_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_39" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -3412,14 +3412,14 @@ release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/s
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.12.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.12.0)&lt;/a&gt;
 is now available.
-This version includes improvements for {firebase_data_connect}} and &lt;span class="notranslate"&gt;Hosting&lt;/span&gt;.
+This version includes improvements for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Hosting&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate></item><item><title>July 01, 2024</title><link>https://firebase.google.com/support/releases#july_01_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.13.0)" id="cli-v13.13.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.13.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.13.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.13.0)&lt;/a&gt;
 is now available.
-This version includes improvements for {firebase_data_connect}} and Web Frameworks.
+This version includes improvements for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and Web Frameworks.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate></item><item><title>July 03, 2024</title><link>https://firebase.google.com/support/releases#july_03_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_36" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -3439,7 +3439,7 @@ This release is available via CocoaPods and Swift Package Manager only.&lt;/li&g
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.13.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.13.1)&lt;/a&gt;
 is now available.
-This version includes improvements for {firebase_data_connect}} and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
+This version includes improvements for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate></item><item><title>July 11, 2024</title><link>https://firebase.google.com/support/releases#july_11_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_34" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4197,8 +4197,8 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;/ul&gt;</description><pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 04, 2024</title><link>https://firebase.google.com/support/releases#december_04_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.28.0)" id="cli-v13.28.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.28.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.28.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.28.0)&lt;/a&gt;
-is now available. This version includes fixes for {app_hosting}, &lt;span class="notranslate"&gt;Genkit&lt;/span&gt;,
-and {data_connect_short}.
+is now available. This version includes fixes for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;, &lt;span class="notranslate"&gt;Genkit&lt;/span&gt;,
+and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 05, 2024</title><link>https://firebase.google.com/support/releases#december_05_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4220,4 +4220,14 @@ To install this SDK, see
 is now available. This release comes with improvements in the core SDK.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 09, 2024</title><link>https://firebase.google.com/support/releases#december_09_2024</link><description>&lt;h3 data-text="Gemini in Firebase" id="gemini-in-firebase-no-cost" tabindex="-1"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;a href="/docs/gemini-in-firebase"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;, available
+with
+&lt;a href="https://cloud.google.com/products/gemini/code-assist"&gt;&lt;span class="notranslate"&gt;Gemini Code Assist&lt;/span&gt;&lt;/a&gt;,
+is now also available at no cost for individual users. Google Workspace
+users can continue using Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; as part of their subscription
+to
+&lt;a href="https://cloud.google.com/products/gemini/code-assist"&gt;&lt;span class="notranslate"&gt;Gemini Code Assist&lt;/span&gt;&lt;/a&gt;.
+Learn more at
+&lt;a href="/docs/gemini-in-firebase#pricing"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; pricing&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate></item></channel></rss>
