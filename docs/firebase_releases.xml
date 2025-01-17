@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 17 Jan 2025 15:13:29 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 17 Jan 2025 18:17:57 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -4274,7 +4274,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 is now available. This release includes a fix in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate></item><item><title>January 6, 2025</title><link>https://firebase.google.com/support/releases#january_6_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-q2q-30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate></item><item><title>January 06, 2025</title><link>https://firebase.google.com/support/releases#january_06_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-q2q-30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device has been deprecated and will
 be removed on 2025-02-05: &lt;code dir="ltr" translate="no"&gt;q2q/30&lt;/code&gt;. If you are currently using
 this device, please move to a different device.&lt;/li&gt;
@@ -4294,9 +4294,25 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;a href="/docs/crashlytics/ai-assistance"&gt;AI assistance in &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/a&gt;
 now provides insights for crashes and ANRs produced by Flutter and Unity apps.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
+&lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
+&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;,
+&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
+For more details, check out the latest
+&lt;a href="/support/release-notes/android#2025-01-16"&gt;Android Release Notes&lt;/a&gt;.
+To get started with Firebase in Android, see
+&lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
+has been updated to v33.8.0. Learn how to
+&lt;a href="/docs/android/learn-more#bom"&gt;add SDKs to your app using the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/js#11.2.0"&gt;Firebase JavaScript SDK (v11.2.0)&lt;/a&gt;
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#11.2.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
-To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate></item></channel></rss>
+To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate></item><item><title>January 17, 2025</title><link>https://firebase.google.com/support/releases#january_17_2025</link><description>&lt;h3 data-text="Cloud Firestore" id="firestore-backups-permissions-in-viewer-roles" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The
+&lt;code dir="ltr" translate="no"&gt;roles/firebase.developViewer&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;roles/firebase.viewer&lt;/code&gt; roles now include
+the &lt;code dir="ltr" translate="no"&gt;datastore.backups.get&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;datastore.backups.list&lt;/code&gt; permissions. These
+permissions are required to view &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; database backup schedules.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate></item></channel></rss>
