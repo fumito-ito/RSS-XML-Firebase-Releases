@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 20 Feb 2025 18:18:54 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 20 Feb 2025 21:11:35 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -3132,15 +3132,15 @@ is now available.
 This version includes bug fixes for the &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate></item><item><title>May 13, 2024</title><link>https://firebase.google.com/support/releases#may_13_2024</link><description>&lt;h3 data-text="Vertex AI in Firebase" id="vertexai-preview-announcement" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt; is now available in preview.
-&lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt; provides a suite of client SDKs for your favorite
+&lt;/ul&gt;</description><pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate></item><item><title>May 13, 2024</title><link>https://firebase.google.com/support/releases#may_13_2024</link><description>&lt;h3 data-text="Vertex AI in Firebase" id="vertexai-preview-announcement" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; is now available in preview.
+&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; provides a suite of client SDKs for your favorite
 languages — Swift, Kotlin, Java, Dart, and JavaScript — so you can securely
-access the &lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt; directly from your mobile and web
+access the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt; directly from your mobile and web
 apps. Using the power of the latest Gemini models, you can add AI
 personalization to your app, build an AI chat experience, create
 AI-powered optimizations and automation, and much more! Learn more in the
-&lt;a href="/docs/vertex-ai"&gt;&lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt; documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;a href="/docs/vertex-ai"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; documentation&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase console" id="console-gemini-in-firebase-ga" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; is now generally available.
 Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; is an AI-powered collaborative assistant that
@@ -3165,7 +3165,7 @@ is now available. For more details, see the
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.
 This release is available via Swift Package Manager only.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDK for
-&lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt; (public preview) is now available. The &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;
+&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; (public preview) is now available. The &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;
 Gradle plugin has also been updated.
 For more details, check out the latest
 &lt;a href="/support/release-notes/android#2024-05-13"&gt;Android Release Notes&lt;/a&gt;.
@@ -3174,10 +3174,10 @@ To get started with Firebase in Android, see
 &lt;li&gt;&lt;p&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/js#10.12.0"&gt;Firebase JavaScript SDK (v10.12.0)&lt;/a&gt;
 is now available. This release includes a preview version of the
-&lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt; SDK. For more details, see the
+&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; SDK. For more details, see the
 &lt;a href="/support/release-notes/js#10.12.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; Initial release of the &lt;a href="https://pub.dev/packages/firebase_vertexai"&gt;&lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt; SDK
+&lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; Initial release of the &lt;a href="https://pub.dev/packages/firebase_vertexai"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; SDK
 (public preview)&lt;/a&gt; is now
 available. Learn how to
 &lt;a href="/docs/vertex-ai/get-started?platform=flutter"&gt;get started&lt;/a&gt; with the SDK in
@@ -3219,7 +3219,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;/ul&gt;</description><pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate></item><item><title>May 21, 2024</title><link>https://firebase.google.com/support/releases#may_21_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_61" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="https://github.com/firebase/flutterfire/blob/master/VERSIONS.md#flutter-bom-101-2024-05-21"&gt;Firebase Flutter SDK (BoM v1.0.1)&lt;/a&gt;
 is now available.&lt;/p&gt;
-&lt;p&gt;This release includes the &lt;a href="https://pub.dev/packages/firebase_vertexai"&gt;&lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt; SDK
+&lt;p&gt;This release includes the &lt;a href="https://pub.dev/packages/firebase_vertexai"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; SDK
 (public preview)&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#12.1.1"&gt;Firebase Admin Node.js SDK (v12.1.1)&lt;/a&gt;
 is now available. This release comes with fixes and improvements
@@ -3256,7 +3256,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 is available.&lt;/p&gt;
 &lt;p&gt;This release includes the following:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The &lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt; plugin now supports &lt;code dir="ltr" translate="no"&gt;UsageMetaData&lt;/code&gt; and more model
+&lt;li&gt;The &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; plugin now supports &lt;code dir="ltr" translate="no"&gt;UsageMetaData&lt;/code&gt; and more model
 parameters. In addition, you can now attach user credentials to Vertex
 requests, which is required for authorization when using
 &lt;a href="/docs/vertex-ai/solutions/cloud-storage?platform=flutter"&gt;Cloud Storage for multi-modal input&lt;/a&gt;.&lt;/li&gt;
@@ -3364,7 +3364,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 If you have not already done so, please migrate to Xcode 15.3.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate></item><item><title>June 20, 2024</title><link>https://firebase.google.com/support/releases#june_20_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_54" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, and &lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt;
+&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. The &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;
 Gradle plugin has also been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2024-06-20"&gt;Android Release Notes&lt;/a&gt;.
@@ -3444,7 +3444,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate></item><item><title>July 11, 2024</title><link>https://firebase.google.com/support/releases#july_11_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_48" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, and &lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt;
+&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2024-07-11"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -3535,7 +3535,7 @@ is now available. For more details, see the
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate></item><item><title>August 01, 2024</title><link>https://firebase.google.com/support/releases#august_01_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_44" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDK for
-&lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt;
+&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 has been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2024-08-01"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -3724,7 +3724,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 12, 2024</title><link>https://firebase.google.com/support/releases#september_12_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_34" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, and &lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt;
+&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2024-09-12"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -3836,7 +3836,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;/ul&gt;</description><pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate></item><item><title>October 01, 2024</title><link>https://firebase.google.com/support/releases#october_01_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_30" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
-&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and &lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt;
+&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2024-10-01"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -3903,11 +3903,11 @@ specific services for production use.&lt;/li&gt;
 &lt;a href="/docs/crashlytics/bigquery-export"&gt;export of &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; data to &lt;span class="notranslate"&gt;BigQuery&lt;/span&gt;&lt;/a&gt;.
 If you've already set up export to &lt;span class="notranslate"&gt;BigQuery&lt;/span&gt;, you can optionally
 &lt;a href="/docs/projects/bigquery-export?product=crashlytics#change-dataset-location"&gt;change the location for existing data exports&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 21, 2024</title><link>https://firebase.google.com/support/releases#october_21_2024</link><description>&lt;h3 data-text="Vertex AI in Firebase" id="vertexai-ga-announcement" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt; is now Generally Available (GA) and can be
+&lt;/ul&gt;</description><pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 21, 2024</title><link>https://firebase.google.com/support/releases#october_21_2024</link><description>&lt;h3 data-text="Vertex AI in Firebase" id="vertexai-ga-announcement" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; is now Generally Available (GA) and can be
 used in production apps.&lt;/p&gt;
-&lt;p&gt;Use the &lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt; client SDKs to call the
-&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt; directly from your app. They're available for
+&lt;p&gt;Use the &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; client SDKs to call the
+&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt; directly from your app. They're available for
 &lt;a href="/docs/vertex-ai/get-started?platform=ios"&gt;Swift&lt;/a&gt;,
 &lt;a href="/docs/vertex-ai/get-started?platform=android"&gt;Android&lt;/a&gt;,
 &lt;a href="/docs/vertex-ai/get-started?platform=web"&gt;Web&lt;/a&gt;,
@@ -3917,7 +3917,7 @@ These client libraries are built specifically for use with mobile and web
 apps, and they offer important integrations with other Firebase services:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="/docs/vertex-ai/app-check"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/a&gt;: Help secure the
-&lt;span class="notranslate"&gt;Gemini API&lt;/span&gt; against unauthorized clients.&lt;/p&gt;&lt;/li&gt;
+&lt;span class='\"notranslate\"'&gt;Gemini API&lt;/span&gt; against unauthorized clients.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="/docs/vertex-ai/solutions/remote-config"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/a&gt;:
 Dynamically and conditionally control your prompts, as well as model names,
 versions, and configurations — all without releasing a new version of your
@@ -3942,7 +3942,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;,
-&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and &lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt;
+&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2024-10-21"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -3990,7 +3990,7 @@ is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#11.4.2"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDK for
-&lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt;
+&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 has been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2024-10-23"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -4150,7 +4150,7 @@ release includes general fixes.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate></item><item><title>November 15, 2024</title><link>https://firebase.google.com/support/releases#november_15_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_18" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and
-&lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt;
+&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2024-11-15"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -4358,7 +4358,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-6-0"&gt;Firebase SDK for Flutter
 (v3.6.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and
-&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and bug fixes in &lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and bug fixes in &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.1.0"&gt;Firebase Admin Node.js SDK (v13.1.0)&lt;/a&gt;
 is now available. This release includes the deprecation of &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; in the
 &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
@@ -4366,7 +4366,7 @@ To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 06, 2025</title><link>https://firebase.google.com/support/releases#february_06_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_5" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt;
+&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin and &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle
 plugin have also been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2025-02-06"&gt;Android Release Notes&lt;/a&gt;.
@@ -4397,7 +4397,15 @@ In order to use these features after the shutdown of &lt;span class="notranslate
 use a newer SDK version and complete some additional steps. For specific
 information and migration guidance, visit the &lt;a href="/support/dynamic-links-faq#impacts-on-email-link-authentication"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; Deprecation
 FAQ&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 11, 2025</title><link>https://firebase.google.com/support/releases#february_11_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_4" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 11, 2025</title><link>https://firebase.google.com/support/releases#february_11_2025</link><description>&lt;h3 data-text="Performance Monitoring" id="web-vital-support" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Performance Monitoring added 3 new Core Web Vital metrics, largest
+contentful paint, interaction to next paint, and cumulative layout shift, to
+the page load trace metrics page. For more details on these Core Web Vital
+metrics, see &lt;a href="/docs/perf-mon/page-load-traces"&gt;Learn about page loading performace data (web
+apps)&lt;/a&gt;. Note that the size of your app will
+increase due to an added dependency on the new Performance Monitoring SDK
+version.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_4" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/js#11.3.1"&gt;Firebase JavaScript SDK (v11.3.1)&lt;/a&gt;
 is now available. For more details, see the
@@ -4449,6 +4457,6 @@ for recommended replacements.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-7-0"&gt;Firebase SDK for Flutter
 (v3.7.0)&lt;/a&gt; is now available.
-This release includes changes in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;Vertex AI in Firebase&lt;/span&gt;, and
+This release includes changes in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;, and
 bug fixes in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, and &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item></channel></rss>
