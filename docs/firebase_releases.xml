@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 25 Feb 2025 21:13:08 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 26 Feb 2025 01:06:38 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -4465,4 +4465,11 @@ bug fixes in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;s
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#11.9.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-RED8BEL1-33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices have been removed: &lt;code dir="ltr" translate="no"&gt;OnePlus9Pro/33&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;q2q/30&lt;/code&gt;. The following devices have been deprecated and will
+be removed on 2025-03-25: &lt;code dir="ltr" translate="no"&gt;RED8BEL1/33&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;starqlteue/26&lt;/code&gt;. If you are currently using these devices, consider
+moving to a different device. Please refer to
+&lt;a href="/docs/test-lab/android/available-testing-devices#deprecated_devices"&gt;Deprecated devices&lt;/a&gt;
+for recommended replacements.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate></item></channel></rss>
