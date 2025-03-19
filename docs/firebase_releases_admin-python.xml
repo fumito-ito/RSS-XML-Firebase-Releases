@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-python</title><link>https://firebase.google.com/support/release-notes/admin/python</link><description>Latest updates and release notes for Firebase Admin-python.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 19 Mar 2025 17:43:08 +0000</lastBuildDate><item><title>Version 1.0.0 - April 04, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_100_-_april_04_2017</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Admin Python SDK. See
+&lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your Server&lt;/a&gt;
+to get started.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Initialization" id="initialization_2" tabindex="-1"&gt;Initialization&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Implemented the
+&lt;a href="/docs/reference/admin/python/firebase_admin"&gt;&lt;code dir="ltr" translate="no"&gt;firebase_admin&lt;/code&gt;&lt;/a&gt;
+module, which provides the &lt;code dir="ltr" translate="no"&gt;initialize_app()&lt;/code&gt; function for initializing the
+SDK with a credential.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Implemented the
+&lt;a href="/docs/reference/admin/python/firebase_admin.credentials"&gt;&lt;code dir="ltr" translate="no"&gt;firebase_admin.credentials&lt;/code&gt;&lt;/a&gt;
+module, which contains constructors for &lt;code dir="ltr" translate="no"&gt;Certificate&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;ApplicationDefault&lt;/code&gt;
+and &lt;code dir="ltr" translate="no"&gt;RefreshToken&lt;/code&gt; credential types.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Implemented the
+&lt;a href="/docs/reference/admin/python/firebase_admin.auth"&gt;&lt;code dir="ltr" translate="no"&gt;firebase_admin.auth&lt;/code&gt;&lt;/a&gt;
+module, which provides &lt;code dir="ltr" translate="no"&gt;create_custom_token()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;verify_id_token()&lt;/code&gt;
+functions for minting custom authentication tokens and verifying Firebase ID
+tokens.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.0.0 - May 17, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_200_-_may_17_2017</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; This SDK has been migrated from &lt;code dir="ltr" translate="no"&gt;oauth2client&lt;/code&gt; to the new
+&lt;code dir="ltr" translate="no"&gt;google-auth&lt;/code&gt; library.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; This SDK now supports verifying ID tokens when initialized with
+application default credentials.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.1.0 - June 28, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_210_-_june_28_2017</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/static/docs/reference/admin/python/firebase_admin.db"&gt;database API&lt;/a&gt;
+that facilitates basic data manipulation
+operations (create, read, update and delete), and advanced queries. Currently,
+this API does not support realtime event listeners. See
+&lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your Server&lt;/a&gt;
+to get started.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.1.1 - July 25, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_211_-_july_25_2017</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Constructors of
+&lt;a href="/docs/reference/admin/python/firebase_admin.credentials#certificate"&gt;&lt;code dir="ltr" translate="no"&gt;Certificate&lt;/code&gt;&lt;/a&gt; and
+&lt;a href="/docs/reference/admin/python/firebase_admin.credentials#refreshtoken"&gt;&lt;code dir="ltr" translate="no"&gt;RefreshToken&lt;/code&gt;&lt;/a&gt;
+credential types can now be invoked with either a file path or a parsed JSON object.
+This facilitates the consumption of service account credentials and refresh token
+credentials from sources other than the local file system.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Better integration with the &lt;code dir="ltr" translate="no"&gt;google-auth&lt;/code&gt; library for making authenticated
+HTTP requests from the SDK.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.2.0 - August 14, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_220_-_august_14_2017</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.storage"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; API&lt;/a&gt;
+that facilitates accessing Google Cloud Storage buckets using the
+&lt;a href="https://googlecloudplatform.github.io/google-cloud-python/latest/storage/client.html"&gt;&lt;code dir="ltr" translate="no"&gt;google-cloud-storage&lt;/code&gt;&lt;/a&gt;
+library.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new user management API that allows provisioning and managing
+Firebase users from Python applications. This API adds &lt;code dir="ltr" translate="no"&gt;get_user()&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;get_user_by_email()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;get_user_by_phone_number()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;create_user()&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;update_user()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;delete_dser()&lt;/code&gt; methods
+to the &lt;a href="/docs/reference/admin/python/firebase_admin.auth"&gt;&lt;code dir="ltr" translate="no"&gt;firebase_admin.auth&lt;/code&gt;&lt;/a&gt;
+module.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/python/firebase_admin.db#reference"&gt;&lt;code dir="ltr" translate="no"&gt;db.Reference&lt;/code&gt;&lt;/a&gt;
+class now exposes a &lt;code dir="ltr" translate="no"&gt;transaction()&lt;/code&gt; method, which can be used to execute atomic updates
+on database references.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.3.0 - August 30, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_230_-_august_30_2017</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now get the ETag value of a database reference by passing
+&lt;code dir="ltr" translate="no"&gt;etag=True&lt;/code&gt; to the &lt;code dir="ltr" translate="no"&gt;get()&lt;/code&gt; method of a
+&lt;a href="/docs/reference/admin/python/firebase_admin.db#reference"&gt;&lt;code dir="ltr" translate="no"&gt;db.Reference&lt;/code&gt;&lt;/a&gt;
+object.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/python/firebase_admin.db#reference"&gt;&lt;code dir="ltr" translate="no"&gt;db.Reference&lt;/code&gt;&lt;/a&gt;
+class now has a &lt;code dir="ltr" translate="no"&gt;set_if_unchanged()&lt;/code&gt; method, which you can use to write to a
+database location only when the location has the ETag value you specify.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the &lt;code dir="ltr" translate="no"&gt;transaction()&lt;/code&gt; method that prevented you
+from updating scalar values in a transaction.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.4.0 - September 21, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_240_-_september_21_2017</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/python/firebase_admin.db#reference"&gt;&lt;code dir="ltr" translate="no"&gt;db.Reference&lt;/code&gt;&lt;/a&gt;
+class now has a &lt;code dir="ltr" translate="no"&gt;get_if_changed()&lt;/code&gt; method, which retrieves a
+database value only if the value has changed since last read.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The options dictionary passed to
+&lt;a href="/docs/reference/admin/python/firebase_admin#initialize_app"&gt;&lt;code dir="ltr" translate="no"&gt;initialize_app()&lt;/code&gt;&lt;/a&gt;
+function can now contain an &lt;code dir="ltr" translate="no"&gt;httpTimeout&lt;/code&gt; option, which sets
+the timeout (in seconds) for outbound HTTP connections started by the SDK.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.5.0 - November 07, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_250_-_november_07_2017</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.firestore"&gt;&lt;code dir="ltr" translate="no"&gt;Firestore&lt;/code&gt; API&lt;/a&gt;
+that enables access to &lt;a href="/docs/firestore"&gt;Cloud Firestore&lt;/a&gt; databases.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.6.0 - December 08, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_260_-_december_08_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the
+&lt;a href="/docs/reference/admin/python/firebase_admin.auth#list_users"&gt;&lt;code dir="ltr" translate="no"&gt;list_users()&lt;/code&gt;&lt;/a&gt;
+function to the &lt;code dir="ltr" translate="no"&gt;firebase_admin.auth&lt;/code&gt; module. This function enables listing
+or iterating over all user accounts in a Firebase project.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the
+&lt;a href="/docs/reference/admin/python/firebase_admin.auth#set_custom_user_claims"&gt;&lt;code dir="ltr" translate="no"&gt;set_custom_user_claims()&lt;/code&gt;&lt;/a&gt;
+function to the &lt;code dir="ltr" translate="no"&gt;firebase_admin.auth&lt;/code&gt; module. This function enables setting
+custom claims on a Firebase user. The custom claims can be accessed via that
+user's ID token.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;code dir="ltr" translate="no"&gt;start_at()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;end_at()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;equal_to()&lt;/code&gt; methods of
+the &lt;a href="/docs/reference/admin/python/firebase_admin.db#query"&gt;&lt;code dir="ltr" translate="no"&gt;db.Query&lt;/code&gt;&lt;/a&gt; class
+so they can accept empty string arguments.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.7.0 - December 21, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_270_-_december_21_2017</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.instance_id"&gt;&lt;code dir="ltr" translate="no"&gt;instance_id&lt;/code&gt;&lt;/a&gt;
+API that facilitates deleting instance IDs and associated user data from
+Firebase projects.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.8.0 - January 11, 2018</title><link>https://firebase.google.com/support/release-notes/admin/python#version_280_-_january_11_2018</link><description>&lt;h3 data-text="Initialization" id="initialization" tabindex="-1"&gt;Initialization&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/node/admin#.initializeApp"&gt;&lt;code dir="ltr" translate="no"&gt;initialize_app()&lt;/code&gt;&lt;/a&gt;
+method can now be invoked without any arguments. This initializes an app
+using Google Application Default Credentials, and other
+options loaded from the &lt;code dir="ltr" translate="no"&gt;FIREBASE_CONFIG&lt;/code&gt; environment variable.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/python/firebase_admin.db#reference"&gt;&lt;code dir="ltr" translate="no"&gt;db.Reference.get()&lt;/code&gt;&lt;/a&gt;
+method now accepts an optional &lt;code dir="ltr" translate="no"&gt;shallow&lt;/code&gt;
+argument. If set to &lt;code dir="ltr" translate="no"&gt;True&lt;/code&gt; this causes the SDK to execute a shallow read,
+which does not retrieve the child node values of the current reference.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.9.0 - February 14, 2018</title><link>https://firebase.google.com/support/release-notes/admin/python#version_290_-_february_14_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.messaging"&gt;&lt;code dir="ltr" translate="no"&gt;firebase_admin.messaging&lt;/code&gt;&lt;/a&gt;
+module for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages and managing topic subscriptions.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#send"&gt;&lt;code dir="ltr" translate="no"&gt;send()&lt;/code&gt;&lt;/a&gt;
+function for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#subscribe_to_topic"&gt;&lt;code dir="ltr" translate="no"&gt;subscribe_to_topic()&lt;/code&gt;&lt;/a&gt;
+function for subscribing a list of device registration tokens to a
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt; topic.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#unsubscribe_from_topic"&gt;&lt;code dir="ltr" translate="no"&gt;unsubscribe_from_topic()&lt;/code&gt;&lt;/a&gt;
+function for unsubscribing a list of device registration tokens from a
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt; topic.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/python/firebase_admin.auth#verify_id_token"&gt;&lt;code dir="ltr" translate="no"&gt;verify_id_token()&lt;/code&gt;&lt;/a&gt;
+function now accepts an optional &lt;code dir="ltr" translate="no"&gt;check_revoked&lt;/code&gt; parameter. When &lt;code dir="ltr" translate="no"&gt;True&lt;/code&gt;, an
+additional check is performed to see whether the token has been revoked.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.auth#revoke_refresh_tokens"&gt;&lt;code dir="ltr" translate="no"&gt;revoke_refresh_tokens()&lt;/code&gt;&lt;/a&gt;
+function to invalidate all tokens issued to a user.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;code dir="ltr" translate="no"&gt;tokens_valid_after_timestamp&lt;/code&gt; property has been added to the
+&lt;a href="/docs/reference/admin/python/firebase_admin.auth#userrecord"&gt;&lt;code dir="ltr" translate="no"&gt;UserRecord&lt;/code&gt;&lt;/a&gt;
+class to indicate the time before which tokens are not valid.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.9.1 - March 15, 2018</title><link>https://firebase.google.com/support/release-notes/admin/python#version_291_-_march_15_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved error handling in the &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#send"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.send()&lt;/code&gt;&lt;/a&gt;
+API. Exceptions raised by this API now contain the correct error codes
+as defined in the &lt;a href="/docs/cloud-messaging/admin/errors"&gt;documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;messaging&lt;/code&gt; module now supports specifying an HTTP timeout
+for all egress requests. Pass the &lt;code dir="ltr" translate="no"&gt;httpTimeout&lt;/code&gt; option
+to &lt;code dir="ltr" translate="no"&gt;firebase_admin.initialize_app()&lt;/code&gt; before invoking any functions in
+&lt;code dir="ltr" translate="no"&gt;messaging&lt;/code&gt;. Thanks &lt;a href="https://github.com/carsongee"&gt;carsongee&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/132"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.10.0 - April 12, 2018</title><link>https://firebase.google.com/support/release-notes/admin/python#version_2100_-_april_12_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.auth#create_session_cookie"&gt;&lt;code dir="ltr" translate="no"&gt;create_session_cookie()&lt;/code&gt;&lt;/a&gt;
+method for creating a session cookie from a Firebase ID token.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.auth#verify_session_cookie"&gt;&lt;code dir="ltr" translate="no"&gt;verify_session_cookie()&lt;/code&gt;&lt;/a&gt;
+method for validating a given session cookie string.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;auth&lt;/code&gt; module now caches the public key certificates
+used to verify ID tokens and session cookies, thus avoiding a
+network call everytime a credential needs to be verified.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;mutable_content&lt;/code&gt; optional field to the
+&lt;a href="/docs/reference/admin/python/firebase_admin.messaging#aps"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.Aps&lt;/code&gt;&lt;/a&gt;
+type. This can be used to set the &lt;code dir="ltr" translate="no"&gt;mutable-content&lt;/code&gt; property when sending
+FCM messages to APNs targets.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for specifying arbitrary key-value fields in the
+&lt;code dir="ltr" translate="no"&gt;messaging.Aps&lt;/code&gt; type.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.11.0 - May 31, 2018</title><link>https://firebase.google.com/support/release-notes/admin/python#version_2110_-_may_31_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
+&lt;a href="/docs/reference/admin/python/firebase_admin.auth#import_users"&gt;&lt;code dir="ltr" translate="no"&gt;import_users()&lt;/code&gt;&lt;/a&gt;
+method for &lt;a href="/docs/auth/admin/import-users"&gt;importing users&lt;/a&gt; to Firebase Auth
+in bulk.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;Reference.update()&lt;/code&gt; method can now be invoked with
+dictionaries containing &lt;code dir="ltr" translate="no"&gt;None&lt;/code&gt; values. Child keys with &lt;code dir="ltr" translate="no"&gt;None&lt;/code&gt; values are
+deleted from the database.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.12.0 - July 17, 2018</title><link>https://firebase.google.com/support/release-notes/admin/python#version_2120_-_july_17_2018</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The Admin SDK can now read the Firebase/Google Cloud Platform
+project ID from both &lt;code dir="ltr" translate="no"&gt;GCLOUD_PROJECT&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;GOOGLE_CLOUD_PROJECT&lt;/code&gt; environment
+variables.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Admin SDK can now create custom tokens without being
+initialized with service account credentials.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The SDK now accepts a &lt;code dir="ltr" translate="no"&gt;serviceAccountId&lt;/code&gt; app option,
+which can be used to set just the client email of a service account.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; When deployed in an environment managed by Google (e.g. Google
+App Engine), the SDK can auto discover a service account ID without
+any explicit configuration.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.13.0 - August 21, 2018</title><link>https://firebase.google.com/support/release-notes/admin/python#version_2130_-_august_21_2018</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/python/firebase_admin.db#reference"&gt;&lt;code dir="ltr" translate="no"&gt;db.Reference&lt;/code&gt;&lt;/a&gt;
+type now provides a &lt;code dir="ltr" translate="no"&gt;listen()&lt;/code&gt; API for
+receiving realtime update events from the Firebase Database.
+Thanks &lt;a href="https://github.com/the-c0d3r"&gt;the-c0d3r&lt;/a&gt; and &lt;a href="https://github.com/rizasif"&gt;rizasif&lt;/a&gt;
+for the &lt;a href="https://github.com/firebase/firebase-admin-python/pull/183"&gt;contributions&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/python/firebase_admin.db#reference_1"&gt;&lt;code dir="ltr" translate="no"&gt;db.reference()&lt;/code&gt;&lt;/a&gt;
+method now optionally takes a URL
+parameter. This can be used to access multiple Firebase Realtime Database
+instances in the same project more easily.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#webpushnotification"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.WebpushNotification&lt;/code&gt;&lt;/a&gt;
+type now supports additional parameters.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.14.0 - December 04, 2018</title><link>https://firebase.google.com/support/release-notes/admin/python#version_2140_-_december_04_2018</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.project_management"&gt;&lt;code dir="ltr" translate="no"&gt;project_management&lt;/code&gt;&lt;/a&gt;
+API for managing apps in a Firebase project.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; New &lt;code dir="ltr" translate="no"&gt;list_android_apps()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;list_ios_apps()&lt;/code&gt; methods for
+listing the existing apps in a project.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; New &lt;code dir="ltr" translate="no"&gt;create_android_app()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;create_ios_app()&lt;/code&gt; methods
+for creating new apps in a project.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; New &lt;a href="/docs/reference/admin/python/firebase_admin.project_management#androidapp"&gt;&lt;code dir="ltr" translate="no"&gt;AndroidApp&lt;/code&gt;&lt;/a&gt;
+and &lt;a href="/docs/reference/admin/python/firebase_admin.project_management#iosapp"&gt;&lt;code dir="ltr" translate="no"&gt;IosApp&lt;/code&gt;&lt;/a&gt;
+APIs for updating individual apps.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a performance issue in the &lt;code dir="ltr" translate="no"&gt;db.listen()&lt;/code&gt; API
+where it was taking a long time to process large RTDB nodes.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed how the SDK handles special characters in node
+names.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;messaging.AndroidNotification&lt;/code&gt; type now supports
+specifying a &lt;code dir="ltr" translate="no"&gt;channel_id&lt;/code&gt; when sending messages to Android O
+devices. Thanks &lt;a href="https://github.com/chemidy"&gt;chemidy&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/227"&gt;contribution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved error handling by requesting a more verbose
+error response from the FCM backend service.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the property &lt;code dir="ltr" translate="no"&gt;UserRecord.tokens_valid_after_time&lt;/code&gt;
+so that it always returns an integer, and never returns &lt;code dir="ltr" translate="no"&gt;None&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.15.0 - January 16, 2019</title><link>https://firebase.google.com/support/release-notes/admin/python#version_2150_-_january_16_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped support for Python 3.3. Developers on Python 3
+must use 3.4 or higher. Support for Python 2.7 has not changed.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Declared a direct dependency on &lt;code dir="ltr" translate="no"&gt;google-api-core[grpc]&lt;/code&gt;
+in order to resolve some long-standing Firestore installation
+problems.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#aps"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.Aps&lt;/code&gt;&lt;/a&gt;
+class now supports configuring a
+critical alert sound. A new
+&lt;a href="/docs/reference/admin/python/firebase_admin.messaging#criticalsound"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.CriticalSound&lt;/code&gt;&lt;/a&gt;
+class has been introduced for this purpose.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#webpushconfig"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.WebpushConfig&lt;/code&gt;&lt;/a&gt;
+class now supports
+configuring additional FCM options for the features supported by
+the Firebase web SDK. A new
+&lt;a href="/docs/reference/admin/python/firebase_admin.messaging#webpushfcmoptions"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.WebpushFcmOptions&lt;/code&gt;&lt;/a&gt;
+class has been introduced for this purpose.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.15.1 - January 23, 2019</title><link>https://firebase.google.com/support/release-notes/admin/python#version_2151_-_january_23_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Implemented HTTP retries. The SDK now automatically retries
+HTTP calls on low-level connection and socket read errors as well as
+HTTP 500 and 503 errors.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.16.0 - February 21, 2019</title><link>https://firebase.google.com/support/release-notes/admin/python#version_2160_-_february_21_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The Admin SDK now automatically retries HTTP requests on all 500
+and 503 errors, regardless of the HTTP method.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The Admin SDK no longer bundles the &lt;code dir="ltr" translate="no"&gt;integration&lt;/code&gt; module into the
+release artifact.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the email action link generation APIs for creating links
+for password reset, email verification and email link sign-in.
+See &lt;a href="/docs/auth/admin/email-action-links"&gt;documentation&lt;/a&gt; for more
+details and code samples. Thanks &lt;a href="https://github.com/hardikns"&gt;hardikns&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/258"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The user management API now uses the new Google Identity Toolkit
+REST API. Thanks &lt;a href="https://github.com/hardikns"&gt;hardikns&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/256"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.17.0 - May 23, 2019</title><link>https://firebase.google.com/support/release-notes/admin/python#version_2170_-_may_23_2019</link><description>&lt;h3 data-text="Firebase Cloud Messaging" id="firebase-cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
+&lt;a href="/docs/reference/admin/python/firebase_admin.messaging#send_multicast"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.send_multicast()&lt;/code&gt;&lt;/a&gt;
+API for sending a message to a list of device registration tokens. Thanks
+&lt;a href="https://github.com/ZachOrr"&gt;ZachOrr&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/283"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
+&lt;a href="/docs/reference/admin/python/firebase_admin.messaging#send_all"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.send_all()&lt;/code&gt;&lt;/a&gt;
+API for sending a list of messages as a single batch.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;code dir="ltr" translate="no"&gt;auth.DELETE_ATTRIBUTE&lt;/code&gt; constant that
+can be used with the &lt;code dir="ltr" translate="no"&gt;update_user()&lt;/code&gt; API to remove certain attributes from
+user accounts. This is now the preferred way to delete attributes like
+&lt;code dir="ltr" translate="no"&gt;display_name&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;photo_url&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;custom_claims&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.18.0 - 21 August, 2019</title><link>https://firebase.google.com/support/release-notes/admin/python#version_2180_-_21_august_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;WebpushFcmOptions&lt;/code&gt; type is now deprecated. Developers should use
+the PEP8 compliant type name &lt;code dir="ltr" translate="no"&gt;WebpushFCMOptions&lt;/code&gt; instead.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for specifying the &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; label for notifications.
+Thanks &lt;a href="https://github.com/willawang8908"&gt;willawang8908&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/310"&gt;contribution&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for arbitrary key-value pairs in &lt;code dir="ltr" translate="no"&gt;messaging.ApsAlert&lt;/code&gt;.
+Thanks &lt;a href="https://github.com/viktorasl"&gt;viktorasl&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/322"&gt;contribution&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Developers can now test &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; API calls by directing
+the SDK traffic to the RTDB emulator. Set the &lt;code dir="ltr" translate="no"&gt;FIREBASE_DATABASE_EMULATOR_HOST&lt;/code&gt;
+environment variable to specify the emulator endpoint in &lt;code dir="ltr" translate="no"&gt;host:port&lt;/code&gt; format.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.0.0 - 11 September, 2019</title><link>https://firebase.google.com/support/release-notes/admin/python#version_300_-_11_september_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Python 2.7 support is now deprecated. Developers are advised to use
+Python 3.4 or higher to run the Admin SDK.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed old module-level exception types &lt;code dir="ltr" translate="no"&gt;auth.AuthError&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;db.ApiCallError&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;messaging.ApiCallError&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;instance_id.ApiCallError&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;project_management.ApiCallError&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a new
+&lt;a href="/docs/reference/admin/python/firebase_admin.exceptions"&gt;&lt;code dir="ltr" translate="no"&gt;exceptions&lt;/code&gt;&lt;/a&gt; module
+that defines base exception types for the entire SDK. Public APIs now raise
+exceptions defined in the new &lt;code dir="ltr" translate="no"&gt;exceptions&lt;/code&gt; module (or subtypes of them). This
+facilitates implementing fine-grained error handling logic for a wide range of
+scenarios that was not supported before. See the
+&lt;a href="/docs/admin/migrate-python-v3"&gt;migration guide&lt;/a&gt; for
+instructions on how to port your existing error handling code.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded &lt;code dir="ltr" translate="no"&gt;google-cloud-firestore&lt;/code&gt; dependency version to to 1.14.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded &lt;code dir="ltr" translate="no"&gt;google-cloud-storage&lt;/code&gt; dependency version to 1.18.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Project Management" id="project_management" tabindex="-1"&gt;Project Management&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;IosApp&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;IosAppMetadata&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;ShaCertificate&lt;/code&gt; types in the
+&lt;a href="/docs/reference/admin/python/firebase_admin.project_management"&gt;&lt;code dir="ltr" translate="no"&gt;project_management&lt;/code&gt;&lt;/a&gt;
+module have been renamed to &lt;code dir="ltr" translate="no"&gt;IOSApp&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;IOSAppMetadata&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;SHACertificate&lt;/code&gt;
+respectively.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; It is no longer possible to delete user properties with the
+&lt;a href="/docs/reference/admin/python/firebase_admin.auth#update_user"&gt;&lt;code dir="ltr" translate="no"&gt;update_user()&lt;/code&gt;&lt;/a&gt;
+API by setting properties to &lt;code dir="ltr" translate="no"&gt;None&lt;/code&gt;. Setting properties to &lt;code dir="ltr" translate="no"&gt;None&lt;/code&gt; leaves those
+properties unchanged. They must be explicitly set to &lt;code dir="ltr" translate="no"&gt;auth.DELETE_ATTRIBUTE&lt;/code&gt; to
+delete them.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for sending an image URL in notifications. Thanks
+&lt;a href="https://github.com/cchamm"&gt;cchamm&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/332"&gt;contribution&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The deprecated &lt;code dir="ltr" translate="no"&gt;WebpushFcmOptions&lt;/code&gt; type has been removed. Developers
+must use the PEP8 compliant type name &lt;code dir="ltr" translate="no"&gt;WebpushFCMOptions&lt;/code&gt; instead.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.1.0 - 23 October, 2019</title><link>https://firebase.google.com/support/release-notes/admin/python#version_310_-_23_october_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;auth.InsufficientPermissionError&lt;/code&gt; type to represent
+operations that fail due to the credential lacking a required permission.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; User management APIs now correctly raise
+&lt;code dir="ltr" translate="no"&gt;auth.EmailAlreadyExistsError&lt;/code&gt; when an already in-use email address is specified
+for a user.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;Message&lt;/code&gt; class now implements the &lt;code dir="ltr" translate="no"&gt;__str__()&lt;/code&gt; contract which can be
+used to obtain a string representation of a &lt;code dir="ltr" translate="no"&gt;Message&lt;/code&gt; instance.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.2.0 - 13 November, 2019</title><link>https://firebase.google.com/support/release-notes/admin/python#version_320_-_13_november_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a series of new parameters to the &lt;code dir="ltr" translate="no"&gt;AndroidNotification&lt;/code&gt; class
+that allow further customization of notifications that target Android devices.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Batch messaging APIs &lt;code dir="ltr" translate="no"&gt;send_all()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;send_multicast()&lt;/code&gt; now support
+sending up to 500 messages in a single call.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.2.1 - 11 December, 2019</title><link>https://firebase.google.com/support/release-notes/admin/python#version_321_-_11_december_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Boolean parameters in &lt;code dir="ltr" translate="no"&gt;AndroidNotification&lt;/code&gt; are now correctly encoded.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.0.0 - 24 February, 2020</title><link>https://firebase.google.com/support/release-notes/admin/python#version_400_-_24_february_2020</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Python 2 and 3.4 are no longer supported. Developers must use
+Python 3.5 or higher when using the Python &lt;span class="notranslate"&gt;Admin SDK&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;cachecontrol&lt;/code&gt; dependency to the latest available.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Admin SDK&lt;/span&gt; now sets a default timeout of 120 seconds on all outgoing
+HTTP requests.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;AndroidNotification&lt;/code&gt; class now correctly formats the &lt;code dir="ltr" translate="no"&gt;event_time&lt;/code&gt;
+field sent to the &lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt; service.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an incorrect error message logged by the &lt;code dir="ltr" translate="no"&gt;messaging&lt;/code&gt; module
+when calling the batch send APIs.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.0.1 - 26 March, 2020</title><link>https://firebase.google.com/support/release-notes/admin/python#version_401_-_26_march_2020</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Returning more descriptive error messages from the topic management
+APIs.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression in the &lt;code dir="ltr" translate="no"&gt;listen()&lt;/code&gt; API that prevented its use in
+the v4.0.0 release.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.1.0 - 21 April, 2020</title><link>https://firebase.google.com/support/release-notes/admin/python#version_410_-_21_april_2020</link><description>&lt;h3 data-text="Firebase ML" id="firebase-ml_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;a href="/docs/reference/admin/python/firebase_admin.ml"&gt;&lt;code dir="ltr" translate="no"&gt;ml&lt;/code&gt;&lt;/a&gt;
+module for creating, updating, getting, listing, publishing, unpublishing, and
+deleting Firebase-hosted custom ML models.
+See the Firebase documentation to learn more about how to
+&lt;a href="/docs/ml/manage-hosted-models"&gt;use the Admin SDK&lt;/a&gt;
+to manage ML models.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.2.0 - 30 April, 2020</title><link>https://firebase.google.com/support/release-notes/admin/python#version_420_-_30_april_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;tenant_mgt&lt;/code&gt; module that provides APIs for creating,
+updating, retrieving, and deleting authentication tenants.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;tenant_mgt.auth_for_tenant()&lt;/code&gt; function that returns a
+client object scoped to a specific tenant for performing tenant-aware user
+management operations.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;auth.OIDCProviderConfig&lt;/code&gt; type and related functions to
+create, retrieve, update and delete OIDC auth provider configurations.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;auth.SAMLProviderConfig&lt;/code&gt; type and related functions to
+create, retrieve, update and delete SAML auth provider configurations.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.3.0 - 14 May, 2020</title><link>https://firebase.google.com/support/release-notes/admin/python#version_430_-_14_may_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;get_users()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;delete_users()&lt;/code&gt; APIs for retrieving and
+deleting user accounts in bulk.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.4.0 - 15 September, 2020</title><link>https://firebase.google.com/support/release-notes/admin/python#version_440_-_15_september_2020</link><description>&lt;h3 data-text="Firebase ML" id="firebase-ml_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for creating, updating, getting, listing,
+publishing, unpublishing, and deleting Firebase-hosted custom ML models
+created with AutoML.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.5.0 - 09 December, 2020</title><link>https://firebase.google.com/support/release-notes/admin/python#version_450_-_09_december_2020</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated support for Python 3.5. Developers are advised to use
+Python 3.6 or higher when deploying the Admin SDK.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The SDK now correctly handles low-level runtime errors raised by the
+&lt;code dir="ltr" translate="no"&gt;googleapiclient&lt;/code&gt; package while sending batch requests.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.5.1 - 12 January, 2021</title><link>https://firebase.google.com/support/release-notes/admin/python#version_451_-_12_january_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added support for handling RTDB URLs that point to instances hosted
+in non-US regions.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.5.2 - 18 February, 2021</title><link>https://firebase.google.com/support/release-notes/admin/python#version_452_-_18_february_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that prevented the proper operation of the SDK when used
+with certain versions of the &lt;code dir="ltr" translate="no"&gt;urllib3&lt;/code&gt; package. Thanks
+&lt;a href="https://github.com/xmo-odoo"&gt;xmo-odoo&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/532"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.5.3 - 18 March, 2021</title><link>https://firebase.google.com/support/release-notes/admin/python#version_453_-_18_march_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API now respects the &lt;code dir="ltr" translate="no"&gt;httpTimeout&lt;/code&gt; set in app options.
+Thanks &lt;a href="https://github.com/daniellehanks"&gt;daniellehanks&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/536"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.0.0 - 28 April, 2021</title><link>https://firebase.google.com/support/release-notes/admin/python#version_500_-_28_april_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped support for Python 3.5. Developers should use Python 3.6
+or higher when deploying the Admin SDK.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded &lt;code dir="ltr" translate="no"&gt;google-cloud-firestore&lt;/code&gt; dependency version to to 2.1.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded &lt;code dir="ltr" translate="no"&gt;google-cloud-storage&lt;/code&gt; dependency version to 1.37.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded &lt;code dir="ltr" translate="no"&gt;google-api-core&lt;/code&gt; dependency version to 1.22.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The SDK now accepts path-like objects in credential factory functions.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator support via the &lt;code dir="ltr" translate="no"&gt;FIREBASE_AUTH_EMULATOR_HOST&lt;/code&gt;
+environment variable. Thanks &lt;a href="https://github.com/muru"&gt;muru&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/531"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.0.1 - 17 June, 2021</title><link>https://firebase.google.com/support/release-notes/admin/python#version_501_-_17_june_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added the missing &lt;code dir="ltr" translate="no"&gt;EMAIL_NOT_FOUND&lt;/code&gt; error code.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.0.2 - 13 August, 2021</title><link>https://firebase.google.com/support/release-notes/admin/python#version_502_-_13_august_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; When &lt;code dir="ltr" translate="no"&gt;check_revoked&lt;/code&gt; is set to &lt;code dir="ltr" translate="no"&gt;True&lt;/code&gt;, the &lt;code dir="ltr" translate="no"&gt;verify_id_token()&lt;/code&gt;
+and &lt;code dir="ltr" translate="no"&gt;verify_session_cookie()&lt;/code&gt; APIs now throw an error if the user record
+is disabled.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a concurrency issue in the &lt;code dir="ltr" translate="no"&gt;send_all()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;send_multicast()&lt;/code&gt;
+APIs by instantiating a new &lt;code dir="ltr" translate="no"&gt;googleapiclient&lt;/code&gt; transport instance for each
+invocation of those functions.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.0.3 - 23 September, 2021</title><link>https://firebase.google.com/support/release-notes/admin/python#version_503_-_23_september_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved the performance of the &lt;code dir="ltr" translate="no"&gt;list_users()&lt;/code&gt; API by reducing the
+amount of repeated processing that happens during pagination.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.1.0 - 04 November, 2021</title><link>https://firebase.google.com/support/release-notes/admin/python#version_510_-_04_november_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the ability to delete providers from a user record by
+passing a list of provider IDs to the &lt;code dir="ltr" translate="no"&gt;update_user()&lt;/code&gt; API. Thanks
+&lt;a href="https://github.com/hardikns"&gt;hardikns&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/579"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.2.0 - 15 December, 2021</title><link>https://firebase.google.com/support/release-notes/admin/python#version_520_-_15_december_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for configuring the authorization code flow for OIDC
+providers.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.3.0 - 25 August, 2022</title><link>https://firebase.google.com/support/release-notes/admin/python#version_530_-_25_august_2022</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added asynchronous support for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; APIs.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.4.0 - 22 September, 2022</title><link>https://firebase.google.com/support/release-notes/admin/python#version_540_-_22_september_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated support for Python 3.6. Developers are advised to use
+Python 3.7 or higher when deploying the Admin SDK.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an incorrect key used to set &lt;code dir="ltr" translate="no"&gt;memory_cost&lt;/code&gt; config in the
+&lt;code dir="ltr" translate="no"&gt;auth.UserImportHash.standard_scrypt()&lt;/code&gt; API.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.0.0 - 06 October, 2022</title><link>https://firebase.google.com/support/release-notes/admin/python#version_600_-_06_october_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped support for Python 3.6. Developers should use
+Python 3.7 or higher with the Admin SDK.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;app_check.verify_token()&lt;/code&gt; API to verify App Check
+tokens.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.0.1 - 17 October, 2022</title><link>https://firebase.google.com/support/release-notes/admin/python#version_601_-_17_october_2022</link><description>&lt;h3 data-text="App Check" id="app-check_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Included &lt;code dir="ltr" translate="no"&gt;PyJWT&lt;/code&gt; dependency in the distribution artifacts.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.1.0 - 02 February, 2023</title><link>https://firebase.google.com/support/release-notes/admin/python#version_610_-_02_february_2023</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;google-cloud-firestore&lt;/code&gt; dependency to &lt;code dir="ltr" translate="no"&gt;v2.9.1&lt;/code&gt; to
+support the &lt;code dir="ltr" translate="no"&gt;COUNT&lt;/code&gt; queries API.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase ML" id="firebase-ml" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated AutoML model support. AutoML model support will be
+removed in the next major version.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.2.0 - 22 June, 2023</title><link>https://firebase.google.com/support/release-notes/admin/python#version_620_-_22_june_2023</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;send_each()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;send_each_for_multicast()&lt;/code&gt; APIs.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;send_all()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;send_multicast()&lt;/code&gt; APIs are now deprecated. Use
+&lt;code dir="ltr" translate="no"&gt;send_each()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;send_each_for_multicast()&lt;/code&gt; APIs instead.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update Auth APIs to use &lt;code dir="ltr" translate="no"&gt;v2&lt;/code&gt; service endpoints.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.3.0 - 05 December, 2023</title><link>https://firebase.google.com/support/release-notes/admin/python#version_630_-_05_december_2023</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated support for Python 3.7. Use Python 3.8 or higher when
+deploying the Admin SDK.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Correctly catch &lt;code dir="ltr" translate="no"&gt;DefaultCredentialsError&lt;/code&gt; when looking up 
+&lt;code dir="ltr" translate="no"&gt;project_id&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added optional &lt;code dir="ltr" translate="no"&gt;clock_skew_seconds&lt;/code&gt; parameter for token generation
+in the &lt;code dir="ltr" translate="no"&gt;verify_id_token()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;verify_session_cookie()&lt;/code&gt; APIs. Thanks
+&lt;a href="https://github.com/stillmatic"&gt;stillmatic&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/714"&gt;contribution&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Add &lt;code dir="ltr" translate="no"&gt;PyJWKClientError&lt;/code&gt; to raised errors documentation and handle
+possible uncaught errors.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.4.0 - 23 January, 2024</title><link>https://firebase.google.com/support/release-notes/admin/python#version_640_-_23_january_2024</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Exported &lt;code dir="ltr" translate="no"&gt;send_each&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;send_each_for_multicast&lt;/code&gt; APIs from the
+&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; module. Thanks
+&lt;a href="https://github.com/MarcoTomasRodriguez"&gt;MarcoTomasRodriguez&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/749"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Enabled the &lt;code dir="ltr" translate="no"&gt;direct_boot_ok&lt;/code&gt; parameter for FCM Android config.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.5.0 - 11 March, 2024</title><link>https://firebase.google.com/support/release-notes/admin/python#version_650_-_11_march_2024</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added new exceptions to handle rate limiting auth errors. Thanks
+&lt;a href="https://github.com/skion"&gt;skion&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/695"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Exported rate limiting auth errors types
+&lt;code dir="ltr" translate="no"&gt;TooManyAttemptsTryLaterError&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;ResetPasswordExceedLimitError&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an API to enqueue functions with Cloud Tasks.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.6.0 - 07 November, 2024</title><link>https://firebase.google.com/support/release-notes/admin/python#version_660_-_07_november_2024</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for passing &lt;code dir="ltr" translate="no"&gt;google.auth&lt;/code&gt; typed credentials directly
+into &lt;code dir="ltr" translate="no"&gt;initialize_app()&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;google-cloud-firestore&lt;/code&gt; dependency to &lt;code dir="ltr" translate="no"&gt;v2.19.0&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for multiple &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; named databases.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.7.0 - 12 March, 2025</title><link>https://firebase.google.com/support/release-notes/admin/python#version_670_-_12_march_2025</link><description>&lt;h3 data-text="Remote Config" id="remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for configuring &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
+&lt;a href="/docs/remote-config/server?serverplatform=python"&gt;server applications&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that caused reference listeners to ignore the database name
+set when connected to the &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; emulator. Thanks
+&lt;a href="https://github.com/aiueo-1234"&gt;aiueo-1234&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-python/pull/845"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

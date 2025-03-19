@@ -1,0 +1,1380 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cpp</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes</link><description>Latest updates and release notes for Firebase Cpp.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 19 Mar 2025 17:43:05 +0000</lastBuildDate><item><title>Version 1.0.1 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_101_-_june_27_2016</link><description>&lt;p&gt;This update includes a variety of documentation updates and minor bug fixes.
+This update primarily fixes bugs in the &lt;span class="notranslate"&gt;AdMob&lt;/span&gt; portion of the C++ SDK. These
+fixes are described below:&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Modified &lt;code dir="ltr" translate="no"&gt;firebase::App&lt;/code&gt; to check for the required version of Google
+Play services on creation to prevent &lt;code dir="ltr" translate="no"&gt;firebase::App&lt;/code&gt; creation from failing if
+a user's device is out of date. If Google Play services is out of date,
+a dialog will prompt the user to install a new version. With the previous
+version of this SDK, you needed needed to manually check for an up-to-date
+Google Play services SDK using &lt;code dir="ltr" translate="no"&gt;GoogleApiClient&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential deadlock when using SetListener from a
+notification callback in &lt;code dir="ltr" translate="no"&gt;firebase::admob::InterstitialAd&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;firebase::admob::BannerView&lt;/code&gt; on iOS.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition on destruction of &lt;code dir="ltr" translate="no"&gt;admob::BannerView&lt;/code&gt; on
+Android.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;Future&lt;/code&gt; handle leak.  An internal memory leak occurred
+for objects or modules that use futures for the lifetime of the object or
+module. For example, during the lifetime of a &lt;code dir="ltr" translate="no"&gt;BannerView&lt;/code&gt; object, each call
+to a method which returns a Future could potentially allocate memory which
+wouldn't be reclaimed until the &lt;code dir="ltr" translate="no"&gt;BannerView&lt;/code&gt; object is destroyed.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.1.0 - August 1, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_110_-_august_1_2016</link><description>&lt;h3 data-text="App" id="app" tabindex="-1"&gt;App&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added utility functions to check whether Google Play services is
+available. See &lt;code dir="ltr" translate="no"&gt;google_play_services::CheckAvailability()&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;google_play_services::MakeAvailable()&lt;/code&gt; for more information.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;App::Create()&lt;/code&gt; will no longer check for Google Play services, nor
+will it return &lt;code dir="ltr" translate="no"&gt;nullptr&lt;/code&gt;. It will always return an App, and the individual
+Firebase features will check for Google Play services at initialization if
+required.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash that occurs when logging string events.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_43" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;firebase::auth::GetAuth()&lt;/code&gt; now has an option to return a result
+that indicates whether initialization was successful, and to return &lt;code dir="ltr" translate="no"&gt;nullptr&lt;/code&gt;
+if initialization failed.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase Cloud Messaging" id="firebase-cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;firebase::messaging::Initialize()&lt;/code&gt; now returns a result that
+indicates whether initialization was successful.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase::invites::Initialize()&lt;/code&gt;, which you must call once
+prior to creating &lt;code dir="ltr" translate="no"&gt;InvitesSender&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;InvitesReceiver&lt;/code&gt; instances. This
+function returns a result that indicates whether initialization was
+successful.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; If you call &lt;code dir="ltr" translate="no"&gt;InvitesReceiver::Fetch()&lt;/code&gt; or
+&lt;code dir="ltr" translate="no"&gt;InvitesReceiver::ConvertInvitation()&lt;/code&gt; without first calling
+&lt;code dir="ltr" translate="no"&gt;firebase::invites::Initialize()&lt;/code&gt;, the operation will never complete. To work
+around this issue, ensure that &lt;code dir="ltr" translate="no"&gt;firebase::invites::Initialize()&lt;/code&gt; is called
+once before creating any &lt;code dir="ltr" translate="no"&gt;InvitesReceiver&lt;/code&gt; instances.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; If you create &lt;code dir="ltr" translate="no"&gt;InvitesSender&lt;/code&gt; and then &lt;code dir="ltr" translate="no"&gt;InvitesReceiver&lt;/code&gt;, the
+&lt;code dir="ltr" translate="no"&gt;InvitesReceiver&lt;/code&gt; may fail to connect, and be unable to fetch results. To
+work around this issue, you can delay creating the &lt;code dir="ltr" translate="no"&gt;InvitesSender&lt;/code&gt; until
+after the future returned by &lt;code dir="ltr" translate="no"&gt;InvitesReceiver::Fetch()&lt;/code&gt; has completed.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;firebase::remote_config::Initialize()&lt;/code&gt; now returns a result that
+indicates whether initialization was successful.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;firebase::admob::Initialize()&lt;/code&gt; now returns a result that
+indicates whether initialization was successful.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.2.1 - October 3, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_121_-_october_3_2016</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a bug that prevented apps from terminating properly.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Added missing copy constructor implementation in iOS and stub
+libraries.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Version 1.2.0 - September 21, 2016" id="version_120_-_september_21_2016" tabindex="-1"&gt;&lt;a name="1.2.0"&gt;Version 1.2.0 - September 21, 2016&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Android) Added &lt;code dir="ltr" translate="no"&gt;firebase::ModuleInitializer&lt;/code&gt;, a helper class to
+initialize Firebase modules and handle any missing dependency on Google Play
+services.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase::messaging::Notification&lt;/code&gt; and associated methods
+to allow retrieval of the contents of a notification.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Added support for iOS 10 notifications.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue that caused a crash if &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;
+was initialized before the native library was loaded.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Android) Added new API methods, &lt;code dir="ltr" translate="no"&gt;User::SendEmailVerification()&lt;/code&gt;
+and &lt;code dir="ltr" translate="no"&gt;User::EmailVerified()&lt;/code&gt; to verify a user's email address.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;GetKeys()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;GetKeysByPrefix()&lt;/code&gt; methods to allow
+developers to find parameter keys based on a key prefix.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue that could potentially crash an app during
+shutdown when the &lt;code dir="ltr" translate="no"&gt;InvitesReceiver::Fetch()&lt;/code&gt; method is pending.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that occurred when initializing &lt;code dir="ltr" translate="no"&gt;InvitesSender&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;InvitesReceiver&lt;/code&gt; simultaneously.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the Rewarded Video Mediation feature to the C++ SDK. For
+more information, see the
+&lt;a href="https://firebase.google.com/docs/admob/cpp/rewarded-video"&gt;Rewarded Video C++ guide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now pass your
+&lt;a href="https://support.google.com/admob/answer/6232340"&gt;AdMob App ID&lt;/a&gt;
+to &lt;code dir="ltr" translate="no"&gt;firebase::admob::Initialize()&lt;/code&gt; to help reduce latency for the initial ad
+request.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) You must now call &lt;code dir="ltr" translate="no"&gt;BannerView::Show()&lt;/code&gt; to display an ad.
+Previously, this was only required on Android.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;BannerView::Listener()&lt;/code&gt; received an incorrect
+bounding box.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_200_-_november_7_2016</link><description>&lt;h3 data-text="AdMob" id="admob_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added support for &lt;span class="notranslate"&gt;AdMob&lt;/span&gt; Native Express Ads.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_41" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;AuthStateListener&lt;/code&gt; class that provides notifications
+when a user is logged in or logged out.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a C++ client library for &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;. To get started, see
+&lt;a href="/docs/database/cpp/start"&gt;Get Started with Firebase Realtime Database for C++&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Made breaking changes to simplify the &lt;span class="notranslate"&gt;Invites&lt;/span&gt; API. To learn
+more, see the
+&lt;a href="/docs/reference/cpp/namespace/firebase/invites"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt; C++ API overview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.1.0 - December 9, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_210_-_december_9_2016</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a C++ client library for &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;. To get started, see
+&lt;a href="/docs/storage/cpp/start"&gt;Get Started with &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; for C++&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; (Android) Pausing and resuming storage operations will cause the
+data transfer to fail with the error code &lt;code dir="ltr" translate="no"&gt;kErrorUnknown&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_40" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a check for saved user credentials when &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; is
+initialized.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.1.1 - January 18, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_211_-_january_18_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_39" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue that caused a future to never complete
+when signing in while a user is already signed in.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue with method swizzling that caused some
+of the application's &lt;code dir="ltr" translate="no"&gt;UIApplicationDelegate&lt;/code&gt; methods to not be called.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue which caused a crash when initializing the
+library when building with Xcode 8 for iOS 10.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed  an issue with method swizzling that caused some
+of the application's &lt;code dir="ltr" translate="no"&gt;UIApplicationDelegate&lt;/code&gt; methods to not be called.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.1.2 - January 20, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_212_-_january_20_2017</link><description>&lt;h3 data-text="AdMob" id="admob_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue in &lt;code dir="ltr" translate="no"&gt;firebase::admob::InterstitialAd&lt;/code&gt; that
+caused a crash after displaying multiple interstitial ads.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.1.3 - February 6, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_213_-_february_6_2017</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential deadlock when running callbacks registered via
+&lt;code dir="ltr" translate="no"&gt;firebase::Future::OnCompletion&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an error in &lt;code dir="ltr" translate="no"&gt;firebase::auth::User::PhotoUri&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Removed hard dependency on Xcode 8.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue where the application would receive an
+empty message on startup.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.0.0 - February 27, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_300_-_february_27_2017</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Renamed and deprecated methods that were inconsistent with the
+Google C++ Style Guide. Deprecated methods will be removed in a future release
+(approximately 2-3 releases from now).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;SetCurrentScreen()&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_37" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition accessing user data in callbacks.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Added &lt;code dir="ltr" translate="no"&gt;is_valid()&lt;/code&gt; to check if a credential returned by
+&lt;code dir="ltr" translate="no"&gt;GetCredential()&lt;/code&gt; is valid.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Added a &lt;code dir="ltr" translate="no"&gt;Fetch()&lt;/code&gt; function to fetch incoming invitations
+at times other than application start. You must call this on Android when your
+app returns to the foreground (on iOS, this is handled automatically).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed regression since 2.1.1 that broke &lt;span class="notranslate"&gt;Invites&lt;/span&gt; if the
+AppDelegate did not implement the open URL method.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a field to &lt;code dir="ltr" translate="no"&gt;firebase::messaging::Message&lt;/code&gt; specifying whether
+the message was received when the app was in the background.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Added an AAR file containing the Android manifest
+changes needed for receiving notifications. You can add this to your project
+instead of modifying the manifest directly.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed regression since 2.1.1 that broke &lt;span class="notranslate"&gt;FCM&lt;/span&gt; on iOS
+8 &amp;amp; 9 when an AppDelegate did not implement remote notification methods.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added support for initializing &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; defaults from
+&lt;code dir="ltr" translate="no"&gt;firebase::Variant&lt;/code&gt; values, including binary data.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.1.0 - March 8, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_310_-_march_8_2017</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added an overload for &lt;code dir="ltr" translate="no"&gt;Storage::GetInstance()&lt;/code&gt; that accepts a
+&lt;code dir="ltr" translate="no"&gt;gs://...&lt;/code&gt; URL, so you can use Cloud Storage with multiple buckets.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue where invitations with empty links would
+fail to be received.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.1.1 - May 9, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_311_-_may_9_2017</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a crash in the Google Play services updater that
+occurred when clicking outside of the dialog on Android 4.x devices.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_36" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused users to be invalidated when a linking
+credential fails.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated the &lt;code dir="ltr" translate="no"&gt;User::refresh_token()&lt;/code&gt; method.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Resolved an issue which caused an app to receive an
+empty message when a notification message is received while the app is in the
+background and the user then taps on the app icon rather than on the
+notification message.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue which resulted in the app delegate method
+&lt;code dir="ltr" translate="no"&gt;application:openURL:sourceApplication:annotation:&lt;/code&gt; not being called
+when linking the invites library.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Modified the API so that it's possible to construct metadata
+without a storage reference.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.1.2 - May 11, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_312_-_may_11_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash caused by a stale memory reference when a
+&lt;code dir="ltr" translate="no"&gt;firebase::auth::Auth&lt;/code&gt; object is destroyed and then recreated for the same
+&lt;code dir="ltr" translate="no"&gt;App&lt;/code&gt; object.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential memory corruption when &lt;code dir="ltr" translate="no"&gt;AuthStateListener&lt;/code&gt; is
+destroyed.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.0.0 - Jun 9, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_400_-_jun_9_2017</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed crash in some circumstances after resolving
+dependencies by updating Google Play services.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for phone number authentication.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the ability to retrieve user metadata.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Moved token notification to a separate listener object.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a standalone library separate from &lt;span class="notranslate"&gt;Invites&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue in the Analytics SDK's method swizzling
+which resulted in Dynamic Links / Invites not being sent to the application.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a regression introduced in 3.0.3 which caused
+a crash when opening up a notification when the app is running in the
+background.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed interoperation with other users of local notifications.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.0.1 - Jun 16, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_401_-_jun_16_2017</link><description>&lt;h3 data-text="FCM" id="fcm_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed an issue where &lt;code dir="ltr" translate="no"&gt;Terminate()&lt;/code&gt; was not correctly
+shutting down the &lt;span class="notranslate"&gt;FCM&lt;/span&gt; library.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS): Fixed an issue where library would crash on start up if
+there was no registration token.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Dynamic Links and Invites" id="and" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; and &lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue which caused an app to not receive a
+&lt;span class="notranslate"&gt;Dynamic Link&lt;/span&gt; if it's opened when the app is installed and not running.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.0.2 - Jul 7, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_402_-_jul_7_2017</link><description>&lt;h3 data-text="Analytics" id="analytics_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;SetCurrentScreen&lt;/code&gt; to work from any thread.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue which incorrectly invalidated the current user
+if credential linking fails.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue which caused an app to sometimes crash or not
+receive a &lt;span class="notranslate"&gt;Dynamic Link&lt;/span&gt; if it's opened when the app is installed and not running.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a crash when no &lt;code dir="ltr" translate="no"&gt;Listener&lt;/code&gt; is set.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;Listener::OnTokenReceived&lt;/code&gt; occasionally being called twice
+with the same token.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.0.3 - Aug 1, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_403_-_aug_1_2017</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue which resulted in custom options not being
+applied to firebase::App instances.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a bug which caused method implementation look ups to
+fail when other iOS SDKs rename the selectors of swizzled methods.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed future completion if short link creation fails.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed message handling when messages they are received via the
+direct channel to the FCM backend (i.e not via APNS).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.1.0 - Aug 23, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_410_-_aug_23_2017</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;std::function&lt;/code&gt; support to &lt;code dir="ltr" translate="no"&gt;Future::OnCompletion&lt;/code&gt;, to allow
+use of C++11 lambdas with captures.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Futures are now invalidated when their underlying Firebase API is
+destroyed.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated to &lt;a href="/support/release-notes/ios#4.1.0"&gt;iOS 4.1.0 SDK&lt;/a&gt; and
+&lt;a href="/support/release-notes/android#20170814"&gt;Android 11.2.0 SDK&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a crash if a BannerView is deleted while a call to
+&lt;code dir="ltr" translate="no"&gt;Destroy()&lt;/code&gt; is still pending.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a context pointer to &lt;code dir="ltr" translate="no"&gt;DatabaseReference::RunTransaction&lt;/code&gt;,
+as well as &lt;code dir="ltr" translate="no"&gt;std::function&lt;/code&gt; support to allow use of C++11 lambdas with
+captures.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;DataSnapshot&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;DatabaseReference&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Query&lt;/code&gt;, and other objects
+are invalidated when their &lt;code dir="ltr" translate="no"&gt;Database&lt;/code&gt; instance is destroyed.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;PollableListener&lt;/code&gt; to make it easier to poll for messages
+in an update loop.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a bug where &lt;code dir="ltr" translate="no"&gt;message_type&lt;/code&gt; was not set in the
+Message struct.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a race condition if a message is received before
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt; is initialized.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a bug detecting whether the notification was opened
+if the app was running in the background.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; When listing keys, the list now includes keys with defaults set,
+even if they were not present in the fetched config.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;StorageReference&lt;/code&gt; objects are invalidated when their Storage
+instance is destroyed.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.2.0 - Oct 2, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_420_-_oct_2_2017</link><description>&lt;h3 data-text="Analytics" id="analytics_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug which prevented the user ID and user properties being
+cleared.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Failed operations now return more specific error codes.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Phone Authentication no longer requires push notifications.
+When push notifications aren't available, reCAPTCHA verification is used
+instead.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed &lt;code dir="ltr" translate="no"&gt;MutableData::children_count()&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Messages sent to users can now contain a link URL.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a bug which prevented the message ID field being
+set.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.3.0 - Nov 30, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_430_-_nov_30_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for accessing user metadata.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed &lt;code dir="ltr" translate="no"&gt;remote_config::ValueSource&lt;/code&gt; conversion.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.4.0 - Jan 3, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_440_-_jan_3_2018</link><description>&lt;h3 data-text="Instance ID" id="instance_id_5" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added Instance ID library.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.4.1 - Jan 26, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_441_-_jan_26_2018</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;SetPersistenceEnabled&lt;/code&gt; now sets persistence enabled.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Instance ID" id="instance_id_4" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) &lt;code dir="ltr" translate="no"&gt;GetToken&lt;/code&gt; no longer fails without an APNS certificate, and no
+longer forces registering for notifications.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.4.2 - Feb 23, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_442_-_feb_23_2018</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Windows) Updated all static libs to support different C runtime
+libraries and correspondingly updated the package directory structure.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Linux) Fixed linking problems with all of the C++ stub libraries.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Now fetches the invite ID when using universal links.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed crash on failure of dynamic link completion.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue where some errors weren't correctly
+reported.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed SendInvite never completing in the stub implementation.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Remote Config (iOS) Fixed an issue where some errors weren't correctly
+reported.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed Metadata::content_language returning the wrong data.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Reference paths formats are now consistent with other
+platforms.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue where trying to upload to a non-existent
+path would not complete the Future.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a crash when a download fails.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.4.3 - Mar 5, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_443_-_mar_5_2018</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Removed unresolved symbols in the App library that could
+cause errors when forcing resolution.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.5.0 - Mar 19, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_450_-_mar_19_2018</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Stub implementations of &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;,
+&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; have been replaced with functional
+&lt;a href="/docs/cpp/setup#desktop-workflow"&gt;desktop workflow implementations&lt;/a&gt;
+on Windows, OS X, and Linux.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Native Express ads have been discontinued, so
+&lt;code dir="ltr" translate="no"&gt;NativeExpressAdView&lt;/code&gt; has been marked deprecated and will be removed in a
+future version.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Android) Added support for
+&lt;a href="/docs/auth/cpp/play-games"&gt;Google Play Games authentication&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Stub implementation has been replaced with a functional
+&lt;a href="/docs/cpp/setup#desktop-workflow"&gt;desktop workflow implementation&lt;/a&gt;
+on Windows, OS X, and Linux.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition initializing/destroying Auth instances.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Stub implementation has been replaced with a functional
+&lt;a href="/docs/cpp/setup#desktop-workflow"&gt;desktop workflow implementation&lt;/a&gt;
+on Windows, OS X, and Linux.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; (Desktop) When using &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; on desktop, only one Transaction
+may be run on a given subtree at the same time.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; (Desktop) When using &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; on desktop, data persistence is not
+available.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Stub implementation has been replaced with a functional
+&lt;a href="/docs/cpp/setup#desktop-workflow"&gt;desktop workflow implementation&lt;/a&gt;
+on Windows, OS X, and Linux.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Stub implementation has been replaced with a functional
+&lt;a href="/docs/cpp/setup#desktop-workflow"&gt;desktop workflow implementation&lt;/a&gt;
+on Windows, OS X, and Linux.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added MD5 hash to Metadata.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when deleting listeners and other object instances.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Controller can now be used from any thread.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed incorrect content type when uploading.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.5.1 - April 16, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_451_-_april_16_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Added support for accessing user metadata.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a bug to make creation of database instances with
+invalid URLs return nullptr.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue where incorrect values could be passed to
+OnChildAdded.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the SetAutoTokenRegistrationOnInitEnabled() and
+IsAutoTokenRegistrationOnInitEnabled() methods to enable or disable
+auto-token generation.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug causing incorrect reporting of success or failure during
+a Fetch().&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.0.0 - June 5, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_500_-_june_5_2018</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android/iOS) Library names have been prefixed with
+"firebase_", for example libapp.a is now libfirebase_app.a. This brings them
+in line with the naming scheme used on desktop, and iOS frameworks.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Improved error handling when device is out of space.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated accessor methods from Future.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated accessor methods from BannerView and
+InterstitialAd.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated accessors from Auth, Credential, User, and
+UserInfoInterface, including User::refresh_token().&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated accessors from DatabaseReference, Query,
+DataSnapshot, and MutableData.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a field to received dynamic links describing the strength
+of the match.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an optional initialization options struct. This can be
+used to suppress the prompt on iOS that requests permission to receive
+notifications at start up. Permission can be requested manually using the
+function firebase::messaging::RequestPermission().&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added OnInviteReceived to Listener base class that includes the
+strength of the match on the received invite as an enum. Deprecated prior
+function that received it as a boolean value.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated accessors from StorageReference.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed Metadata::download_url() and Metadata::download_urls().
+Please use StorageReference::GetDownloadUrl() instead.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.1.0 - June 22, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_510_-_june_22_2018</link><description>&lt;h3 data-text="Cloud Functions" id="cloud-functions_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; on iOS, Android, and desktop.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;ResetAnalyticsData()&lt;/code&gt; to clear all analytics data
+for an app from the device.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;GetAppInstanceId()&lt;/code&gt; which allows developers to retrieve the
+current app's analytics instance ID.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Linking a credential with a provider that has already been linked
+now produces an error.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed crashes in &lt;code dir="ltr" translate="no"&gt;User::LinkAndRetrieveDataWithCredential()&lt;/code&gt;
+and &lt;code dir="ltr" translate="no"&gt;User::ReauthenticateAndRetrieveData()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed photo URL never returning a value on iOS.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed setting profile photo URL with
+&lt;code dir="ltr" translate="no"&gt;UpdateUserProfile()&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for ServerValues in &lt;code dir="ltr" translate="no"&gt;SetPriority()&lt;/code&gt; methods.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.1.1 - June 27, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_511_-_june_27_2018</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated Android and iOS dependency versions only.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.2.0 - July 20, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_520_-_july_20_2018</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a null reference in the Google Play Services
+availability checker.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a crash in &lt;code dir="ltr" translate="no"&gt;User::UpdatePhoneNumberCredential()&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a version of &lt;code dir="ltr" translate="no"&gt;GetInstance()&lt;/code&gt; that allows passing in the URL
+of the database to use.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a way to specify which region to run the function in.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;Subscribe()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Unsubscribe()&lt;/code&gt; to return a Future.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.2.1 - August 16, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_521_-_august_16_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition that was returning the wrong Future when you
+called the same method twice in quick succession.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition that was returning the wrong Future when you
+called the same method twice in quick succession.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed support for &lt;code dir="ltr" translate="no"&gt;ChildListener&lt;/code&gt; when used with
+&lt;code dir="ltr" translate="no"&gt;Query::EqualTo()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Query::StartAt()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Query::EndAt()&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;Query::LimitToFirst()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Query::LimitToLast()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash in DatabaseReference/Query copy assignment
+operator and copy constructor.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.3.0 - September 20, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_530_-_september_20_2018</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) The minimum supported Xcode version is 9.4.1.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed issues in &lt;code dir="ltr" translate="no"&gt;ChildListener&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed crash that could occur if the Database was deleted
+while an asynchronous operation was still in progress.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue when a function returns an array.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.3.1 - October 3, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_531_-_october_3_2018</link><description>&lt;h3 data-text="Invites" id="invites_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;(Android) Fixed an exception when the Android Minimum Version code option is
+used on the Android.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.4.0 - October 19, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_540_-_october_19_2018</link><description>&lt;h3 data-text="Dynamic Links" id="dynamic-links_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed short link generation failing with "error 8".&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; (Desktop) The &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; Desktop SDK uses REST to access your
+database. Because of this, you must
+&lt;a href="https://firebase.google.com/docs/database/security/#section-defining-indexes"&gt;declare the indexes you use&lt;/a&gt;
+with Query::OrderByChild() on Desktop or your listeners will fail.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.4.2 - November 15, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_542_-_november_15_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Removed an irrelevant error about the Java class
+FirebaseAuthWebException.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.4.3 - November 30, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_543_-_november_30_2018</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS): Fixed an issue when downloading files with &lt;code dir="ltr" translate="no"&gt;GetBytes&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.4.4 - January 18, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_544_-_january_18_2019</link><description>&lt;h3 data-text="AdMob" id="admob_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue with Rewarded Video ad unit string going out of
+scope.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue with error handling.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.5.0 - February 19, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_550_-_february_19_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Added a gradle file to the SDK that handles adding
+Firebase Android dependencies to your Firebase C++ apps. See the &lt;a href="https://github.com/firebase/quickstart-cpp"&gt;Firebase C++
+Samples&lt;/a&gt; for example usage.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Invites&lt;/span&gt; is deprecated. Please refer to
+https://firebase.google.com/docs/invites for details.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.6.0 - March 18, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_560_-_march_18_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Firebase C++ is now
+&lt;a href="https://github.com/firebase/firebase-cpp-sdk"&gt;open source&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when deleting &lt;code dir="ltr" translate="no"&gt;firebase::App&lt;/code&gt; before deleting other
+Firebase subsystems.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Added Game Center authentication.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Reworked how cached server values work to be more in
+line with mobile implementations.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Simultaneous transactions are now supported.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) The special Timestamp ServerValue is now supported.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) KeepSynchronized is now supported.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.6.1 - April 5, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_561_-_april_5_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Updated to the latest iOS SDK to fix a crash on
+&lt;code dir="ltr" translate="no"&gt;firebase::App&lt;/code&gt; creation caused by a race condition. The crash could occur
+when accessing the [FIRApp firebaseUserAgent] property of the iOS FIRApp.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.7.0 - April 19, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_570_-_april_19_2019</link><description>&lt;p&gt;As this release of the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; &lt;span class="notranslate"&gt;C++&lt;/span&gt; SDK is the final version to support
+&lt;span class="notranslate"&gt;Firebase Invites&lt;/span&gt;, it will remain available for download
+&lt;a href="https://dl.google.com/firebase/sdk/cpp/firebase_cpp_sdk_5.7.0.zip"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;h3 data-text="Remote Config" id="remote-config_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Config namespaces are now deprecated. You'll need to switch to
+methods that use the default namespace.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; (Android) To work around a incompatible dependency, AdMob
+temporarily requires an additional dependency on
+com.google.android.gms:play-services-measurement-sdk-api:16.4.0&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.0.0 - May 7, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_600_-_may_7_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;a href="/support/release-notes/ios#6.0.0"&gt;Firebase iOS&lt;/a&gt; and
+&lt;a href="/support/release-notes/ios#2019-05-07"&gt;Firebase Android&lt;/a&gt; dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition updating the current user.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS/Android) Fix an issue where Subscribe and Unsubscribe
+never returned if you were set not to receive a registration token.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Invites" id="invites" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed &lt;span class="notranslate"&gt;Firebase Invites&lt;/span&gt; library, as it is no longer
+supported.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed functions using config namespaces, which were deprecated
+in a previous release.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated SetMinimumSessionDuration.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; (Android) To work around a incompatible dependency, &lt;span class="notranslate"&gt;AdMob&lt;/span&gt;
+temporarily requires an additional dependency on
+com.google.android.gms:play-services-measurement-sdk-api:16.5.0&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.1.0 - June 6, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_610_-_june_6_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;a href="/support/release-notes/ios#6.1.0"&gt;Firebase iOS&lt;/a&gt; and
+&lt;a href="/support/release-notes/ios#2019-05-28"&gt;Firebase Android&lt;/a&gt; dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; User's credentials will now persist between sessions.  See
+the &lt;a href="http://firebase.google.com/docs/auth/cpp/manage-users#persist_a_users_credential"&gt;documentation&lt;/a&gt;
+for more information.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; As part of the above change, if you call current_user()
+immediately after creating the Auth instance, it will block until the
+saved user's state is finished loading.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Database/Functions/Storage might not
+use the latest auth token immediately after sign-in.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where an error code could get reported incorrectly
+on Android.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue that could cause a crash during
+shutdown.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a race condition that could cause a crash
+when cleaning up database listeners on iOS.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue where long (64-bit) values could get
+written to the database incorrectly (truncated to 32-bits).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Change assert to log warning when App is deleted before
+Cloud Functions instance is deleted.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added channel_id to Messaging notifications.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.2.0 - July 2, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_620_-_july_2_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;a href="/support/release-notes/ios#6.3.0"&gt;Firebase iOS&lt;/a&gt; and
+&lt;a href="/support/release-notes/ios#2019-06-24"&gt;Firebase Android&lt;/a&gt; dependencies.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a way to configure SDK-wide log verbosity.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Instance ID" id="instance_id_3" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a crash when destroying InstanceID objects.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for custom domains.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a way to configure log verbosity of Realtime Database
+instances.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.2.2 - July 26, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_622_-_july_26_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) After loading a persisted user data, ensure token is not
+expired.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed use of an expired auth token after it's loaded
+from persistent storage.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed DatabaseReference::RunTransaction() sending
+invalid data to the server which causes error message "Error on
+incoming message" and freeze.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed use of an expired auth token after it's loaded
+from persistent storage.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed use of an expired auth token after it's loaded
+from persistent storage.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.3.0 - August 14, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_630_-_august_14_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS/Android) Fixed a bug that allows custom firebase::App
+instances to be created after the app has been restarted.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Changed destruction behavior. Instead of waiting for
+all async operations to finish, now Auth will cancel all async operations
+and quit. For callbacks that are already running, this will protect against
+cases where auth instances might not exist anymore.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an exception in firebase::auth::VerifyPhoneNumber.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Stopped Auth from hanging on destruction if any local
+futures remain in scope.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue that could cause a crash when updating
+the descendant of a location with a listener attached.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.4.0 - August 26, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_640_-_august_26_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue causing Futures to clear their data even if a
+reference was still being held.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with updated user info not being persisted.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash when saving a ServerTimestamp during a
+transaction.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.5.0 - September 10, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_650_-_september_10_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Linux) Improved error logging if libsecret (required for login
+  persistence) is not installed on Linux.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The database now supports setting the log level independently of
+  the system level logger.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.6.0 - September 25, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_660_-_september_25_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed assert when not using default app instance.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed not loading provider list from cached user data.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Queries on locations in the database with query rules
+  now function properly, instead of always returning "Permission denied".&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed the map-to-vector conversion when firing events
+  that have maps containing enitrely integer keys.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a bug when passing a Variant of type Blob
+  to SetDefaults() on Android.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.6.1 - October 2, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_661_-_october_2_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential undefined reference in Future::OnCompletion.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.7.0 - November 13, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_670_-_november_13_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added noexcept to move constructors to ensure STL uses move where
+possible.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Windows) Fixed bug where literal value 0 will call string
+constructor for Variant class.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added small string optimisation for &lt;code dir="ltr" translate="no"&gt;Variant&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Reduced number of new/delete for &lt;code dir="ltr" translate="no"&gt;Variant&lt;/code&gt; if copying same type.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Ensure map sort order for variant is consistent.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed the racy behavior of
+&lt;code dir="ltr" translate="no"&gt;analytics::GetAnalyticsInstanceId()&lt;/code&gt; after calling
+&lt;code dir="ltr" translate="no"&gt;analytics::ResetAnalyticsData()&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue causing timestamps to not be populated correctly
+when using DatabaseReference::UpdateChildren().&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue preventing listener events from being
+triggered after DatabaseReference::UpdateChildren() is called.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Functions that take &lt;code dir="ltr" translate="no"&gt;const char*&lt;/code&gt; parameters will now
+fail gracefully if passed a null pointer.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue causing.
+&lt;code dir="ltr" translate="no"&gt;DatabaseReference::RunTransaction()&lt;/code&gt; to fail due to datastale when the
+location previously stored a vector with more than 10 items or a map with
+integer keys.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue that could result in an incorrect
+snapshot being passed to listeners under specific circumstances.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop): Fixed ordering issue of children when using OrderBy on
+double or int64 types with large values.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS/Android) Fixed an issue where &lt;code dir="ltr" translate="no"&gt;Storage::GetReferenceFromUrl&lt;/code&gt;
+would return an invalid &lt;code dir="ltr" translate="no"&gt;StorageReference&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Changed &lt;code dir="ltr" translate="no"&gt;url()&lt;/code&gt; to return the empty string if the
+&lt;code dir="ltr" translate="no"&gt;Storage&lt;/code&gt; instance was created with the default (null) URL.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.8.0 - December 3, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_680_-_december_3_2019</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Linux) Added compiler/stdlib check to ensure both the
+developer's executable and Firebase library are compiled with the same
+compiler and stdlib.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where resource generation from google-services.json
+would fail if python3 was used to execute the
+resource generation script.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed a potentially non thread safe operation in the
+destruction of BannerViews.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.9.0 - December 27, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_690_-_december_27_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;Auth::SignInWithProvider&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;User::LinkWithProvider&lt;/code&gt;,
+ and &lt;code dir="ltr" translate="no"&gt;User::ReauthenticateWithProvider&lt;/code&gt;, allowing sign-in with third-party
+ auth providers.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added constant &lt;code dir="ltr" translate="no"&gt;kProviderId&lt;/code&gt; strings to auth provider classes.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS): Added support for linking Apple Sign-in credentials.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Android): Added the option to enable or disable message
+ delivery metrics export to BigQuery. This functionality is currently only
+ available on Android. Stubs are provided on iOS for cross platform
+ compatibility.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.10.0 - January 30, 2020</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_6100_-_january_30_2020</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Updated the CMakeLists.txt to link static libraries
+ stored under libs/ios/universal for iOS targets.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Reverted the API of an experimental FederatedAuthHandler
+ callback handler.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Added a new version of &lt;code dir="ltr" translate="no"&gt;OAuthProvider::GetCredential&lt;/code&gt;,
+ which takes a nonce parameter as required by Apple Sign-in.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.11.0 - February 20, 2020</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_6110_-_february_20_2020</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) The minimum supported Xcode version is 10.3.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; When creating an App, the project_id from the default App is
+ now used if one is not provided.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue with Database connecting to the server
+ after the Auth token is revoked.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.12.0 - March 5, 2020</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_6120_-_march_5_2020</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added experimental support for Cloud Firestore SDK, available
+ on all supported platforms. Please note that the API is subject to change.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.14.0 - April 23, 2020</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_6140_-_april_23_2020</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;Firestore.LoggingEnabled&lt;/code&gt; is replaced by &lt;code dir="ltr" translate="no"&gt;Firestore.LogLevel&lt;/code&gt;
+ for consistency with other Firebase Unity APIs. The getter for this
+ property has been removed.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Authentication</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#authentication_13</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added SignInResult.UserInfo.updated_credential field. On iOS,
+  kAuthErrorCredentialAlreadyInUse errors when linking with Apple may
+  contain a valid updated_credential for use in signing-in the Apple-linked
+  user.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.14.1 - May 18, 2020</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_6141_-_may_18_2020</link></item><item><title>Version 6.15.0 - June 2, 2020</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_6150_-_june_2_2020</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an assert creating a custom App when there is no default
+ App.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed &lt;code dir="ltr" translate="no"&gt;*LastResult&lt;/code&gt; functions from the public API.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped the &lt;code dir="ltr" translate="no"&gt;From&lt;/code&gt; prefix from the static functions in
+ &lt;code dir="ltr" translate="no"&gt;FieldValue&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;CollectionReference::id&lt;/code&gt; now returns a const reference.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Fixed absl &lt;code dir="ltr" translate="no"&gt;time_internal&lt;/code&gt; linker error on Windows.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed the signature of the callback passed to
+ &lt;code dir="ltr" translate="no"&gt;Firestore::RunTransaction&lt;/code&gt; to pass the parameters by mutable reference,
+ not by pointer.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.15.1 - June 29, 2020</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_6151_-_june_29_2020</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that warns about Future handle not released
+  properly.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; all members of &lt;code dir="ltr" translate="no"&gt;Error&lt;/code&gt; enumeration are now prefixed with
+  &lt;code dir="ltr" translate="no"&gt;kError&lt;/code&gt;; for example, &lt;code dir="ltr" translate="no"&gt;Error::kUnavailable&lt;/code&gt; is now
+  &lt;code dir="ltr" translate="no"&gt;Error::kErrorUnavailable&lt;/code&gt;, which is more consistent with other Firebase
+  C++ SDKs.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Firestore can now be compiled on Windows even in presence of
+  &lt;code dir="ltr" translate="no"&gt;min&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;max&lt;/code&gt; macros defined in &lt;code dir="ltr" translate="no"&gt;&amp;lt;windows.h&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.16.0 - October 2, 2020</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_6160_-_october_2_2020</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) The minimum supported Xcode version for the prebuilt SDK
+ is 11.6.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue when creating and loading interstitial ads.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed compiler error related to SignInResult.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Enabled offline persistence.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a deadlock issue caused by not using an event loop.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;error_message&lt;/code&gt; parameter to snapshot listener callbacks.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the library to be compatible with Android O.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated the &lt;code dir="ltr" translate="no"&gt;Send&lt;/code&gt; function.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.16.1 - October 20, 2020</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_6161_-_october_20_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with persistent storage.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a problem with missing symbols on Windows.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.0.0 - January 28, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_700_-_january_28_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) iOS SDKs are now built using Xcode 11.7.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Windows libraries are now built using Visual
+ Studio 2019. While VS 2019 is binary-compatible with VS 2015 and VS
+ 2017, you must use VS 2019 or newer to link the desktop SDK. The
+ libraries have been moved from &lt;code dir="ltr" translate="no"&gt;libs/windows/VS2015&lt;/code&gt; to
+ &lt;code dir="ltr" translate="no"&gt;libs/windows/VS2019&lt;/code&gt; to reflect this.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Linux libraries are now built with both the C++11
+ ABI and the legacy ABI. The libraries have been moved from
+ &lt;code dir="ltr" translate="no"&gt;libs/linux/${arch}&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;libs/linux/${arch}/legacy&lt;/code&gt; and
+ &lt;code dir="ltr" translate="no"&gt;libs/linux/${arch}/cxx11&lt;/code&gt; to reflect this.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a JNI error when initializing without Firebase
+ App.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated &lt;code dir="ltr" translate="no"&gt;SetMinimumSessionDuration&lt;/code&gt; call.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase installations" id="firebase-installations_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations SDK. See
+ &lt;a href="http://firebase.google.com/docs/reference/cpp/namespace/firebase/installations"&gt;Documentation&lt;/a&gt;
+ for details.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Instance ID" id="instance_id_2" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Marked Instance ID SDK as deprecated.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;GetToken&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;DeleteToken&lt;/code&gt; APIs.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated &lt;code dir="ltr" translate="no"&gt;Send()&lt;/code&gt; function.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;raw_data&lt;/code&gt; has been changed from a &lt;code dir="ltr" translate="no"&gt;std::string&lt;/code&gt; to a
+ &lt;code dir="ltr" translate="no"&gt;std::vector&amp;lt;uint8_t&amp;gt;&lt;/code&gt;, and can now be populated.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; C++ is now in Beta.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;Query::WhereNotEqualTo&lt;/code&gt; and
+ &lt;code dir="ltr" translate="no"&gt;Query::WhereNotIn&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;Settings::set_cache_size_bytes&lt;/code&gt; and
+ &lt;code dir="ltr" translate="no"&gt;Settings::cache_size_bytes&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;Query&lt;/code&gt; methods that return new &lt;code dir="ltr" translate="no"&gt;Query&lt;/code&gt; objects are now
+ &lt;code dir="ltr" translate="no"&gt;const&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added new internal HTTP headers to the gRPC connection.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when writing to a document after having been
+ offline for long enough that the auth token expired
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/issues/182"&gt;#182&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.0.1 - February 1, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_701_-_february_1_2021</link><description>&lt;h3 data-text="Firebase installations" id="firebase-installations" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed incorrect STL variants, which fixes
+ a linker error on Android.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.1.0 - February 16, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_710_-_february_16_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Re-enabled Bitcode in iOS builds
+ ([#266][https://github.com/firebase/firebase-cpp-sdk/issues/266]).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now specify a language for emails and text messages
+ sent from your apps using &lt;code dir="ltr" translate="no"&gt;UseAppLanguage()&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;set_language_code()&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed partial updates in &lt;code dir="ltr" translate="no"&gt;Update()&lt;/code&gt; with &lt;code dir="ltr" translate="no"&gt;FieldValue::Delete()&lt;/code&gt;
+ (&lt;a href="https://github.com/firebase/quickstart-unity/issues/882"&gt;#882&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Now uses &lt;code dir="ltr" translate="no"&gt;enqueueWork&lt;/code&gt; instead of &lt;code dir="ltr" translate="no"&gt;startService&lt;/code&gt;. This
+ fixes lost messages with data payloads received when the app is in the
+ background.
+ (&lt;a href="https://github.com/firebase/quickstart-unity/issues/877"&gt;#877&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase::remote_config::RemoteConfig&lt;/code&gt; class with new
+ instance-based APIs to better manage fetching config data.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated old module-based API in favor of the new
+ instance-based API instead.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed multiple definition of Nanopb symbols in binary
+ SDK ([#271][https://github.com/firebase/firebase-cpp-sdk/issues/271]).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.1.1 - March 02, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_711_-_march_02_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Now uses non-conflicting file names for embedded
+ resources in Android builds. This fixes segfault crashes on old Android
+ devices (Android 5.x and below).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.2.0 - April 14, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_720_-_april_14_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; (Android) Firebase support for STLPort is deprecated and
+ will be removed in the next major release. Please &lt;a href="https://developer.android.com/ndk/guides/cpp-support#cs"&gt;use libc++
+ instead&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) iOS SDKs are now built using Xcode 12.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) iOS SDKs are now providing XCFrameworks instead of
+ Frameworks.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed rare crashes at application exit when destructors were
+ being executed
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/345"&gt;#345&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Removed checks for Google Play services for Auth,
+ Database, Functions and Storage as the native Android packages no longer
+ need it. (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/361"&gt;#361&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential crash that can occur as a result of a race
+ condition when adding, removing and deleting &lt;code dir="ltr" translate="no"&gt;ValueListener&lt;/code&gt;s or
+ &lt;code dir="ltr" translate="no"&gt;ChildListener&lt;/code&gt;s rapidly.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when setting large values on Windows and Mac
+ systems (&lt;a href="https://github.com/firebase/quickstart-unity/issues/517"&gt;#517&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.3.0 - April 27, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_730_-_april_27_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update dependencies.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fix a gradle error if &lt;code dir="ltr" translate="no"&gt;ANDROID_NDK_HOME&lt;/code&gt; is not set.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.0.0 - June 18, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_800_-_june_18_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; (Android) Firebase no longer supports STLPort. &lt;a href="https://developer.android.com/ndk/guides/cpp-support#cs"&gt;Use
+ libc++ instead&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; (Android) Firebase support for gnustl (also known as
+ libstdc++) is deprecated and will be removed in the next major release.
+ Use libc++ instead.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a potential SIGABRT when an app was created with
+ a non-default app name on Android KitKat
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/429"&gt;#429&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) A database URL is no longer required to be present in
+ GoogleService-Info.plist when not using the Realtime Database.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Temporarily pinned AdMob dependency to a special version
+ of the Google-Mobile-Ads-SDK Cocoapod, "7.69.0-cppsdk", to maintain
+ compatibility with version 8.x of the Firebase iOS SDK.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed &lt;code dir="ltr" translate="no"&gt;SetCurrentScreen()&lt;/code&gt; following its removal from the iOS
+ SDK and deprecation in the Android SDK. Use &lt;code dir="ltr" translate="no"&gt;LogEvent&lt;/code&gt; with the
+ ScreenView event to manually log screen changes.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;Firestore::LoadBundle&lt;/code&gt; to enable loading Firestore data
+ bundles into the SDK cache. &lt;code dir="ltr" translate="no"&gt;Firestore::NamedQuery&lt;/code&gt; will be available in a
+ future release.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Instance ID" id="instance_id" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Removed support for the previously-deprecated Instance ID
+ SDK.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The previously-deprecated static methods have been removed.
+ Use the new instance-based &lt;code dir="ltr" translate="no"&gt;firebase::remote_config::RemoteConfig&lt;/code&gt;
+ API instead.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fix for getting Remote Config instances for specific
+ app objects.
+ (&lt;a href="https://github.com/firebase/quickstart-unity/issues/991"&gt;#991&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.1.0 - June 30, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_810_-_june_30_2021</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a linker error when &lt;code dir="ltr" translate="no"&gt;DocumentChange::npos&lt;/code&gt; was used.
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/474"&gt;#474&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;Firestore::NamedQuery&lt;/code&gt; that allows reading the queries
+ used to build a Firestore Data Bundle.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.2.0 - July 14, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_820_-_july_14_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated Flatbuffers internal dependency from version
+ 1.9 to 1.12.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated the
+ &lt;code dir="ltr" translate="no"&gt;Firestore::RunTransaction(TransactionFunction*)&lt;/code&gt; function. Please use the
+ overload that takes a &lt;code dir="ltr" translate="no"&gt;std::function&lt;/code&gt; argument instead.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Removed the deprecated &lt;code dir="ltr" translate="no"&gt;EventListener&lt;/code&gt; class.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Removed the deprecated overloads of &lt;code dir="ltr" translate="no"&gt;AddSnapshotListener&lt;/code&gt;
+ and &lt;code dir="ltr" translate="no"&gt;AddSnapshotsInSyncListener&lt;/code&gt; functions that take an &lt;code dir="ltr" translate="no"&gt;EventListener*&lt;/code&gt;
+ argument. Please use the overloads that take a &lt;code dir="ltr" translate="no"&gt;std::function&lt;/code&gt; argument
+ instead.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.3.0 - July 27, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_830_-_july_27_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; This release adds tvOS C++ libraries that wrap the
+ community-supported Firebase tvOS SDK. &lt;code dir="ltr" translate="no"&gt;libs/tvos&lt;/code&gt; contains tvOS-specific
+ libraries, and the &lt;code dir="ltr" translate="no"&gt;xcframeworks&lt;/code&gt; directory now includes support for both
+ iOS and tvOS. The following products are currently included for tvOS:
+ Auth, Database, Firestore, Functions, Installations, Messaging, Remote
+ Config, Storage.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; When building from source, the compiler setting of "no
+ exceptions" on app is PRIVATE now and will not affect any other  targets
+ in the build.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Removed the deprecated
+ &lt;code dir="ltr" translate="no"&gt;Firestore::RunTransaction(TransactionFunction*)&lt;/code&gt; function. Please use the
+ overload that takes a &lt;code dir="ltr" translate="no"&gt;std::function&lt;/code&gt; argument instead.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;FieldValue::Increment&lt;/code&gt; functions are no longer guarded by the
+ &lt;code dir="ltr" translate="no"&gt;INTERNAL_EXPERIMENTAL&lt;/code&gt; macro.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; added more validation of invalid input.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; added an &lt;code dir="ltr" translate="no"&gt;is_valid&lt;/code&gt; method to the public API classes that can
+ be in an invalid state.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.4.0 - August 27, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_840_-_august_27_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updating Android and iOS dependencies to the latest.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;operator==&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;operator!=&lt;/code&gt; for &lt;code dir="ltr" translate="no"&gt;SnapshotMetadata&lt;/code&gt;,
+ &lt;code dir="ltr" translate="no"&gt;Settings&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;QuerySnapshot&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;DocumentSnapshot&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;SetOptions&lt;/code&gt;, and
+ &lt;code dir="ltr" translate="no"&gt;DocumentChange&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.5.0 - September 15, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_850_-_september_15_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updating Android and iOS dependencies to the latest.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixes an issue with generating Proguard files.
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/664"&gt;#664&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.6.0 - October 5, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_860_-_october_5_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) MacOS SDKs are now built using Xcode 12.2, and
+ include support for ARM-based Mac systems.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) iOS SDKs are now built using Xcode 12.2.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fix a crash that would occur if parsing the JSON
+ response from the server failed
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/692"&gt;#692&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Fixes an issue to receive token when initialize the
+ app.  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/667"&gt;#667&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.7.0 - November 4, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_870_-_november_4_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Minimum SDK version is now 19.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Variant double type now support 64-bit while saving to json.
+ (&lt;a href="https://github.com/firebase/quickstart-unity/issues/1133"&gt;#1133&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (tvOS) Analytics is now supported on tvOS.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Released to general availability for Android and iOS (desktop
+ support remains in beta).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fix a crash when &lt;code dir="ltr" translate="no"&gt;Transaction.GetSnapshotAsync()&lt;/code&gt; was
+ invoked after &lt;code dir="ltr" translate="no"&gt;FirebaseFirestore.TerminateAsync()&lt;/code&gt;
+ (&lt;a href="https://github.com/firebase/firebase-ios-sdk/pull/8760"&gt;#8760&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.8.0 - December 2, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_880_-_december_2_2021</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a data race that could manifest as null pointer
+ dereference in &lt;code dir="ltr" translate="no"&gt;FutureBase::Release()&lt;/code&gt;.
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/747"&gt;#747&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) iOS SDKs are now built using Xcode 12.4.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) macOS SDKs are now built using Xcode 12.4.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash in &lt;code dir="ltr" translate="no"&gt;error_code()&lt;/code&gt; when a request is
+ cancelled or times out.
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/issues/737"&gt;#737&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix "unaligned pointers" build error on macOS Monterey
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/issues/712"&gt;#712&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed crash during termination.
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/739"&gt;#739&lt;/a&gt;)
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/745"&gt;#745&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed crash during initialization.
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/760"&gt;#760&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed cache expiration time value used by
+ &lt;code dir="ltr" translate="no"&gt;RemoteConfig::FetchAndActivate()&lt;/code&gt;.
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/767"&gt;#767&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.9.0 - January 25, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_890_-_january_25_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an intermittent crash on iOS 15 caused by
+ constructing C++ objects during Objective-C's &lt;code dir="ltr" translate="no"&gt;+load&lt;/code&gt; method.
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/706"&gt;#706&lt;/a&gt;)
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/783"&gt;#783&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal changes to Mutex class.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.10.0 - March 27, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_8100_-_march_27_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed additional issues on iOS 15 caused by early
+ initialization of Firebase iOS SDK.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed default &lt;code dir="ltr" translate="no"&gt;Fetch()&lt;/code&gt; timeout being 1000 times too high.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Added retry logic to PutFile, GetFile, and other
+ operations.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.11.0 - April 21, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_8110_-_april_21_2022</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Upgrade LevelDb dependency to 1.23
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/886"&gt;#886&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Enabled Snappy compression support in LevelDb
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/885"&gt;#885&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Upgrade LevelDb dependency to 1.23
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/886"&gt;#886&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Enabled Snappy compression support in LevelDb
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/885"&gt;#885&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.0.0 - May 10, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_900_-_may_10_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Firebase C++ on iOS is now built using Xcode 13.3.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Firebase C++ on Android is now built against NDK
+ version r21e.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Support for gnustl (also known as libstdc++) has
+ been removed. Please use libc++ instead. Android libraries have been moved
+ from libs/android/ARCH/STL to libs/android/ARCH.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Temporarily pinned AdMob dependency to a special version
+ of the Google-Mobile-Ads-SDK Cocoapod, "7.69.0-cppsdk2", to maintain
+ compatibility with version 9.x of the Firebase iOS SDK.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Removed deprecated event names and parameters.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a bug handling server timestamps on 32-bit CPUs.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Set Content-Type HTTP header when uploading with
+ custom metadata.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.1.0 - June 6, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_910_-_june_6_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a bug that required Android apps to include
+ &lt;code dir="ltr" translate="no"&gt;com.google.android.gms:play-services-base&lt;/code&gt; as an explicit dependency when
+ only using AdMob, Analytics, Remote Config, or Messaging.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Added InitiateOnDeviceConversionMeasurementWithEmail
+ function to facilitate the &lt;a href="https://support.google.com/google-ads/answer/12119136"&gt;on-device conversion
+ measurement&lt;/a&gt; API.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) On Windows, you must additionally link against the
+ bcrypt and dbghelp system libraries.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add a new method &lt;code dir="ltr" translate="no"&gt;GetHttpsCallableFromURL&lt;/code&gt;, to create
+ callables with URLs other than cloudfunctions.net.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.2.0 - June 28, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_920_-_june_28_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Switched over to Android BoM (Bill of Materials) for
+ dependency versions. This requires Gradle 5.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_15" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the Google Mobile Ads SDK with updated support for
+ AdMob. See the &lt;a href="https://firebase.google.com/docs/admob/cpp/quick-start"&gt;Get Started
+ Guide&lt;/a&gt; for more
+ information.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The old AdMob SDK has been deprecated. Please update your
+ app to use the new Google Mobile Ads SDK, which facilitates similar
+ functionality.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) If the app data directory doesn't exist, create it.
+ This fixes an issue with disk persistence on Linux.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;TransactionOptions&lt;/code&gt; to control how many times a
+ transaction will retry commits before failing
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/966"&gt;#966&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed #973. Make sure all the resources are closed in
+ &lt;code dir="ltr" translate="no"&gt;RegistrationIntentService&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.3.0 - July 20, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_930_-_july_20_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android, Linux) Fixed a concurrency bug where waiting for an
+ event with a timeout could occasionally return prematurely, as if the
+ timeout had occurred
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/1021"&gt;#1021&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.4.0 - August 9, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_940_-_august_9_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue with embedded dependencies that could
+ cause duplicate symbol linker errors in conjunction with other libraries
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/issues/989"&gt;#989&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android, iOS, Linux, macOS 32-bit) Fixed an integer overflow which
+ could result in a crash or premature return when waiting for a &lt;code dir="ltr" translate="no"&gt;Future&lt;/code&gt;
+ with a timeout
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/1042"&gt;#1042&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_14" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated iOS dependency to Google Mobile Ads SDK version
+ 9.7.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.5.0 - September 8, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_950_-_september_8_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 30.4.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 9.5.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.6.0 - September 22, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_960_-_september_22_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 30.5.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 9.6.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_13" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated iOS dependency to Google Mobile Ads SDK version
+ 9.9.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated Android dependency to Google Mobile Ads SDK
+ version 21.2.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.0.0 - October 13, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1000_-_october_13_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 31.0.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.0.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remove unused headers for Performance Monitoring and Test Lab
+ from the package.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Temporarily pinned AdMob dependency to a special version
+ of the Google-Mobile-Ads-SDK Cocoapod, "7.69.0-cppsdk3", to maintain
+ compatibility with version 10.x of the Firebase iOS SDK.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android/iOS) Deprecating &lt;code dir="ltr" translate="no"&gt;PhoneAuthProvider::kMaxTimeoutMs&lt;/code&gt;.
+ The actual range is determined by the underlying SDK, ex.
+ &lt;a href="https://firebase.google.com/docs/reference/android/com/google/firebase/auth/PhoneAuthOptions.Builder"&gt;&lt;code dir="ltr" translate="no"&gt;PhoneAuthOptions.Builder&lt;/code&gt; from Android
+ SDK&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_12" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated iOS dependency to Google Mobile Ads SDK version
+ 9.11.0.1.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.1.0 - November 1, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1010_-_november_1_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 31.0.2.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.1.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; Linux x86 builds are broken since C++ SDK version 9.6.0. A fix
+ is in progress.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Reduce the number of JNI global references consumed
+ when creating or updating documents
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/1111"&gt;#1111&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.2.0 - November 29, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1020_-_november_29_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 31.1.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.2.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Linux x86 libraries have been fixed.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="NOTE" id="note" tabindex="-1"&gt;NOTE&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The next major release of the Firebase C++ SDK will drop
+ support for C++11, setting the new minimum C++ version to C++14. For more
+ information please see our &lt;a href="https://opensource.google/documentation/policies/cplusplus-support#c_language_standard"&gt;C++ Language Standard Support
+ Criteria&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.3.0 - December 13, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1030_-_december_13_2022</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 31.1.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.3.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.4.0 - January 24, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1040_-_january_24_2023</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 31.2.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.4.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) On macOS, in order to support sandbox mode, apps can
+ define a key/value pair for &lt;code dir="ltr" translate="no"&gt;FBAppGroupEntitlementName&lt;/code&gt; in Info.plist. The
+ value associated with this key will be used to prefix semaphore names
+ created internally by the Firebase C++ SDK so that they conform with
+ &lt;a href="https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AppSandboxInDepth/AppSandboxInDepth.html#//apple_ref/doc/uid/TP40011183-CH3-SW24"&gt;macOS sandbox
+ requirements&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add &lt;code dir="ltr" translate="no"&gt;analytics::SetConsent()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;analytics::GetSessionId()&lt;/code&gt;
+ APIs.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_11" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated dependency to play-services-ads version
+ 21.4.0. This new version requires Multidex to be enabled in your Android
+ builds.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated dependency to Google-Mobile-Ads-SDK version
+ 9.14.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.5.0 - February 14, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1050_-_february_14_2023</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 31.2.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.5.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.6.0 - March 7, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1060_-_march_7_2023</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 31.2.3.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.6.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.7.0 - March 28, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1070_-_march_28_2023</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 31.3.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.7.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add build time warning for C++11, since the next major release
+ of the Firebase C++ SDK will set the new minimum C++ version to C++14.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.0.0 - May 04, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1100_-_may_04_2023</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update minimum supported C++ standard to C++14.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 32.0.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.9.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS, tvOS, Desktop) iOS, tvOS, and macOS SDKs are now built
+ using Xcode 14.1.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Removed deprecated AdMob SDK. Please use the included
+ Google Mobile Ads SDK ("GMA") instead.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_2" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Adds support for Firebase App Check on Android, iOS, tvOS, and
+ desktop platforms.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated a number of methods, appending &lt;code dir="ltr" translate="no"&gt;_DEPRECATED&lt;/code&gt; to
+ some of their names. This is a breaking change; you must either modify
+ your code to refer to the &lt;code dir="ltr" translate="no"&gt;_DEPRECATED&lt;/code&gt; methods, or switch to the new
+ methods, which have new return types &lt;code dir="ltr" translate="no"&gt;AuthResult&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;User&lt;/code&gt; (rather than
+ &lt;code dir="ltr" translate="no"&gt;SignInResult&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;User *&lt;/code&gt;). The deprecated methods will be removed in
+ the &lt;em&gt;next&lt;/em&gt; major release of the Firebase C++ SDK. &lt;em&gt;(Note: do not mix and
+ match using the old and new methods or undefined behavior may result.)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;Query::Count()&lt;/code&gt;, which fetches the number of documents
+ in the result set without actually downloading the documents
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/1207"&gt;#1207&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_10" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated dependency to play-services-ads version
+ 22.0.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated dependency to Google-Mobile-Ads-SDK version
+ 10.4.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Android/iOS) Added support for real-time config updates. Use
+ the new &lt;code dir="ltr" translate="no"&gt;AddOnConfigUpdateListener&lt;/code&gt; API to get real-time updates. Existing
+ &lt;a href="https://firebase.google.com/docs/reference/cpp/class/firebase/remote-config/remote-config#fetch"&gt;&lt;code dir="ltr" translate="no"&gt;Fetch&lt;/code&gt;&lt;/a&gt;
+ and
+ &lt;a href="https://firebase.google.com/docs/reference/cpp/class/firebase/remote-config/remote-config#activate"&gt;&lt;code dir="ltr" translate="no"&gt;Activate&lt;/code&gt;&lt;/a&gt;
+ APIs aren't affected by this change. To learn more, see &lt;a href="https://firebase.google.com/docs/remote-config/get-started?platform=cpp#add-real-time-listener"&gt;Get started with
+ Firebase Remote
+ Config&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.0.1 - May 9, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1101_-_may_9_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a crash in &lt;code dir="ltr" translate="no"&gt;Credential::is_valid()&lt;/code&gt; when an
+ &lt;code dir="ltr" translate="no"&gt;AuthResult&lt;/code&gt; contains an invalid credential, such as when signing in
+ anonymously.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.1.0 - May 31, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1110_-_may_31_2023</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 32.1.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.10.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fix for deadlock within JniResultCallback, commonly
+ seen within Messaging, but affecting other products as well.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash on Windows when the user's home
+ directory contains non-ANSI characters (Unicode above U+00FF).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash on Windows when the user's home
+ directory contains non-ANSI characters (Unicode above U+00FF).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added MultiDb support.
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/1321"&gt;#1321&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_9" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated dependency to play-services-ads version
+ 22.1.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated dependency to Google-Mobile-Ads-SDK version
+ 10.5.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash on Windows when uploading files from a
+ path containing non-ANSI characters (Unicode above U+00FF).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.2.0 - June 21, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1120_-_june_21_2023</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 32.1.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.11.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed expired tokens being cached on 32-bit systems.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_8" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated dependency to Google-Mobile-Ads-SDK version
+ 10.6.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed the ConfigUpdate classes being missing from the
+ proguard files.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed handling of time zones on Windows when the time
+ zone name in the current system language contains an accented character or
+ apostrophe. This adds a requirement for applications using Remote Config
+ on Windows desktop to link the "icu.dll" system library.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.3.0 - July 17, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1130_-_july_17_2023</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 32.2.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.12.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an error loading google-services.json and
+ google-services-desktop.json from paths with international characters on
+ Windows.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue where VerifyPhoneNumber's internal
+ builder failed to create PhoneAuthOptions with certain compiler settings.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue where functions that return AuthResult were
+ not including updated credentials when encountering errors.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fix the intermittent global references exhaustion crash
+ when working with documents with a large number of keys and/or large map
+ and/or array fields. 
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/1364"&gt;#1364&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_7" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated dependency to Google-Mobile-Ads-SDK version
+ 10.8.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated dependency to play-services-ads version
+ 22.2.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Additional fix for handling of non-English time zone
+ names on Windows.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.4.0 - August 09, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1140_-_august_09_2023</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 32.2.2.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.13.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) 32-bit iOS builds (i386 and armv7) are no longer
+ supported.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add &lt;code dir="ltr" translate="no"&gt;FirebaseApp.GetApps()&lt;/code&gt;, to return the list of
+ &lt;code dir="ltr" translate="no"&gt;firebase::App&lt;/code&gt; instances.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for disjunctions in queries (OR queries)
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/1335"&gt;#1335&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_6" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a crash when initializing GMA without a Firebase
+ App.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.5.0 - September 19, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1150_-_september_19_2023</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.15.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 32.3.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Made dynamic code files read only to comply with new
+ Android 14 security requirements. This fixes a crash at API level 34+.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Added
+ InitiateOnDeviceConversionMeasurementWithPhoneNumber function to
+ facilitate the &lt;a href="https://support.google.com/google-ads/answer/12119136"&gt;on-device conversion
+ measurement&lt;/a&gt; API.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add Firebase Auth Emulator support. Set the environment
+ variable &lt;code dir="ltr" translate="no"&gt;USE_AUTH_EMULATOR=yes&lt;/code&gt; (and optionally &lt;code dir="ltr" translate="no"&gt;AUTH_EMULATOR_PORT&lt;/code&gt;,
+ default 9099)  to connect to the local Firebase Auth Emulator.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_5" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated dependency to Google-Mobile-Ads-SDK version
+ 10.10.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated dependency to play-services-ads version
+ 22.3.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.6.0 - October 17, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1160_-_october_17_2023</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.16.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for disjunctions in queries (OR queries)
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/1453"&gt;#1453&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_4" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the User Messaging Platform (UMP) SDK, required for
+ obtaining consent from users before showing ads. See the &lt;a href="https://firebase.google.com/docs/admob/cpp/privacy/"&gt;Get Started
+ Guide&lt;/a&gt; for more
+ information.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Added a new Cocoapod dependency for the UMP SDK:
+ GoogleUserMessagingPlatform version 2.1.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Added a new Maven package dependency for the UMP
+ SDK: com.google.android.ump:user-messaging-platform version 2.1.0. This
+ dependency will automatically be included if you include "gma" in the
+ firebaseCpp.dependencies list in your build.gradle file.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.7.0 - January 04, 2024</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1170_-_january_04_2024</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Firebase C++ on Android is now built using Android
+ API level 33 and Gradle 6.7.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 32.7.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.19.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the consent management API to include new consent
+ signals.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix a bug where an anonymous account can't be linked with email
+ password credential. For background, see &lt;a href="https://cloud.google.com/identity-platform/docs/admin/email-enumeration-protection"&gt;Email Enumeration
+ Protection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_3" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated dependency to play-services-ads version
+ 22.6.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated dependency to Google-Mobile-Ads-SDK version
+ 10.14.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.8.0 - January 23, 2024</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1180_-_january_23_2024</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 32.7.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.20.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The Dynamic Links SDK is now deprecated. See the &lt;a href="https://firebase.google.com/support/dynamic-links-faq"&gt;support
+ documentation&lt;/a&gt; for
+ more information.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed minSdkVersion in the &lt;code dir="ltr" translate="no"&gt;firebase_messaging&lt;/code&gt;.aar
+ manifest file.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.9.0 - March 13, 2024</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1190_-_march_13_2024</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 32.7.4.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.22.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add &lt;code dir="ltr" translate="no"&gt;User::SendEmailVerificationBeforeUpdatingEmail&lt;/code&gt;, a new
+ method to verify and change the User's email.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecate the older method of updating emails,
+ &lt;code dir="ltr" translate="no"&gt;User::UpdateEmail&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.10.0 - April 17, 2024</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_11100_-_april_17_2024</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 32.8.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.24.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS, tvOS, Desktop) iOS, tvOS, and macOS SDKs are now built
+ using Xcode 15.1.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_2" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated dependency to Google-Mobile-Ads-SDK version
+ 11.2.0 and GoogleUserMessagingPlatform version 2.3.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated dependency to play-services-ads version
+ 23.0.0 and user-messaging-platform version 2.2.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Removed 5-minute timeout for uploads and downloads.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.0.0 - May 07, 2024</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1200_-_may_07_2024</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.0.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated minSdkVersion to 23, and targetSdkVersion
+ and compileSdkVersion to 34.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.25.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Minimum iOS deployment target is now 13.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Removed methods that were deprecated in v11.0.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fix invalid pointer in &lt;code dir="ltr" translate="no"&gt;StorageReference::GetFile()&lt;/code&gt; when
+ running in a secondary thread
+ (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/issues/1570"&gt;#1570&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.1.0 - June 26, 2024</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1210_-_june_26_2024</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.1.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.28.1.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Add support for
+ &lt;code dir="ltr" translate="no"&gt;InitiateOnDeviceConversionMeasurementWithHashedEmailAddress&lt;/code&gt; and
+ &lt;code dir="ltr" translate="no"&gt;InitiateOnDeviceConversionMeasurementWithHashedPhoneNumber&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The GMA C++ SDK is now deprecated. For more information,
+ see the &lt;a href="https://developers.google.com/admob/cpp/sdk"&gt;SDK documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a potential race condition on receiving messages
+ after cleanup.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue with notifications being lost if they were
+ received before Firebase Messaging was initialized.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.2.0 - August 06, 2024</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1220_-_august_06_2024</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 11.0.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.3.0 - September 26, 2024</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1230_-_september_26_2024</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 11.2.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.3.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated minSdkVersion to 24.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed SetListener to send the last token received before the
+ listener was set.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed ConfigInfo fields to default to 0 when not throttled or
+ having previous fetch data.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.4.0 - October 24, 2024</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1240_-_october_24_2024</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 11.4.2.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.5.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Reduced minSdkVersion back to 23.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for Parameters of Lists of Dictionaries, needed by
+ some events such as ViewCart.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Setting &lt;code dir="ltr" translate="no"&gt;photo_url&lt;/code&gt; to empty string with
+ UpdateUserProfile clears the field, making it consistent with the other
+ platforms.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.5.0 - December 10, 2024</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1250_-_december_10_2024</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 11.6.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.7.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.6.0 - February 12, 2025</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1260_-_february_12_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 11.8.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.9.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
