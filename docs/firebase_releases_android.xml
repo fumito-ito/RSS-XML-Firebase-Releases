@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 20 Mar 2025 21:13:55 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 21 Mar 2025 01:09:46 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -7064,4 +7064,37 @@ models.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-vertexai&lt;/code&gt; artifacts are now published with
 accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
 &lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - February 27, 2025</title><link>https://firebase.google.com/support/release-notes/android#2025-02-27</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.10.0" id="bom_v33-10-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.10.0&lt;/h3&gt;&lt;h3 data-text="Analytics version 22.3.0" id="analytics_v22-3-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt; version 22.3.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Server-side Tag Manager now supports direct data uploads.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Internal code cleanup and improvement.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-analytics&lt;/code&gt; library. The Kotlin extensions library has no
+additional updates.&lt;/p&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK version 21.1.1" id="functions-client_v21-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt; version 21.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed the visibility of &lt;code dir="ltr" translate="no"&gt;HttpsCallableResult#data&lt;/code&gt; back to public.
+It was incorrectly marked as private in version 21.1.0
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6522"&gt;#6522&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-functions&lt;/code&gt; artifacts are now published with
+accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
+&lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-functions&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics version 19.4.1" id="crashlytics_v19-4-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 19.4.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-sessions&lt;/code&gt; dependency to v2.0.9&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; artifacts are now published with
+accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
+&lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.4.1" id="crashlytics-ndk_v19-4-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 19.4.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to v19.4.1&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics-ndk&lt;/code&gt; artifacts are now published with
+accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
+&lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.2.0" id="vertex-ai_v16-2-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.2.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added support for new values sent by the server for &lt;code dir="ltr" translate="no"&gt;FinishReason&lt;/code&gt;
+(&lt;code dir="ltr" translate="no"&gt;PROHIBITED_CONTENT&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;SPII&lt;/code&gt;) and &lt;code dir="ltr" translate="no"&gt;BlockReason&lt;/code&gt; (&lt;code dir="ltr" translate="no"&gt;PROHIBITED_CONTENT&lt;/code&gt;
+and &lt;code dir="ltr" translate="no"&gt;BLOCKLIST&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added support for modality-based token count.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6658"&gt;#6658&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for generating images with Imagen models.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
