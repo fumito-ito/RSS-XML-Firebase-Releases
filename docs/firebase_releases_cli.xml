@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 21 Mar 2025 15:15:31 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 21 Mar 2025 18:19:48 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -1214,4 +1214,60 @@ when all fields are optional.&lt;/li&gt;
 &lt;li&gt;Fixed an issue where &lt;code dir="ltr" translate="no"&gt;FirebaseError&lt;/code&gt; wasn't being passed into
 &lt;code dir="ltr" translate="no"&gt;UseMutationOptions&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.34.0 - March 11, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_13340_-_march_11_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed web frameworks deployments when using &lt;code dir="ltr" translate="no"&gt;site&lt;/code&gt; in
+&lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8295"&gt;#8295&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for getting started with existing projects using
+&lt;code dir="ltr" translate="no"&gt;dataconnect:sql:setup&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8150"&gt;#8150&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.8.5,
+which includes the following changes:
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8310"&gt;#8310&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;Fixed the &lt;code dir="ltr" translate="no"&gt;Int&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Int64&lt;/code&gt; scalars to correctly validate the &lt;code dir="ltr" translate="no"&gt;int32&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;int64&lt;/code&gt; ranges, respectively.&lt;/li&gt;
+&lt;li&gt;Fixed the generated web SDK so that &lt;code dir="ltr" translate="no"&gt;pnpm&lt;/code&gt; properly uses the &lt;code dir="ltr" translate="no"&gt;link&lt;/code&gt;
+functionality.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.35.0 - March 20, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_13350_-_march_20_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for generated Angular SDKs for
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support in the &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; emulator for loading secret
+env vars.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8305"&gt;#8305&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed web frameworks deployments when using multiple hosting sites
+in &lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8314"&gt;#8314&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new command to set up a cleanup policy for functions
+artifacts.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8268"&gt;#8268&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for 3rd party builders for Angular.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7557"&gt;#7557&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed Google Cloud Functions (2nd gen) artifact cleanup by
+correctly encoding artifact names to match the format for
+Google Cloud Functions (2nd gen).
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8318"&gt;#8318&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Increased emulator UI body parser limit to match &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;
+emulator maximum.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8329"&gt;#8329&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; setup issues for fresh databases due
+to IAM user not being created.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8335"&gt;#8335&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;ext:install&lt;/code&gt; used POSIX file separators on
+Windows machines.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8326"&gt;#8326&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.9.2,
+which adds support for generated Angular SDKs and updates Dart SDK fields to
+follow best practices.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8347"&gt;#8347&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where credentials from &lt;code dir="ltr" translate="no"&gt;firebase login&lt;/code&gt; were not
+provided to the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed misleading comments in the &lt;code dir="ltr" translate="no"&gt;connector.yaml&lt;/code&gt; template for
+&lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; SQL permissions to better handle
+tables owned by IAM roles.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8339"&gt;#8339&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator would
+crash after some SQL errors.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
