@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 27 Mar 2025 12:29:56 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 27 Mar 2025 15:16:05 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -3199,7 +3199,7 @@ product into your mobile and web apps with type-safe SDKs. Understand the
 product workflow by reading the &lt;a href="//firebase.google.com/docs/data-connect/quickstart"&gt;Get started guide&lt;/a&gt;,
 and sign up for the preview!&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Genkit" id="genkit-announcement" tabindex="-1"&gt;Genkit&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Firebase Genkit is now available in beta.
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Genkit is now available in beta.
 Genkit is an open-source, code-first framework for building and deploying
 AI-powered apps. Learn more in the &lt;a href="/docs/genkit"&gt;Genkit&lt;/a&gt; documentation.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.9.0)" id="cli-v13.9.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.9.0)&lt;/h3&gt;&lt;ul&gt;
@@ -3207,7 +3207,7 @@ AI-powered apps. Learn more in the &lt;a href="/docs/genkit"&gt;Genkit&lt;/a&gt;
 &lt;a href="/support/release-notes/cli#13.9.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.9.0)&lt;/a&gt;
 is now available.
 This version adds new commands for Firebase App Hosting and
-Firebase Genkit.
+Genkit.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate></item><item><title>May 20, 2024</title><link>https://firebase.google.com/support/releases#may_20_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_71" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4242,7 +4242,7 @@ Learn more at
 This release includes dependency updates only.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 12, 2024</title><link>https://firebase.google.com/support/releases#december_12_2024</link><description>&lt;h3 data-text="Genkit" id="genkit-monitoring-public-preview" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Genkit&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The public preview of AI monitoring for &lt;span class="notranslate"&gt;Genkit&lt;/span&gt; is now
-available. If your deployed app uses &lt;span class="notranslate"&gt;Firebase Genkit&lt;/span&gt; for Node.js, you can
+available. If your deployed app uses &lt;span class="notranslate"&gt;Genkit&lt;/span&gt; for Node.js, you can
 now monitor and debug your generative AI features in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console
 via the &lt;span class="notranslate"&gt;Genkit&lt;/span&gt; page. Learn more about the
 &lt;a href="/docs/genkit/monitoring"&gt;monitoring features for &lt;span class="notranslate"&gt;Genkit&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
