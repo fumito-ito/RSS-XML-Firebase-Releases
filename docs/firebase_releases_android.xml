@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 31 Mar 2025 21:14:14 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 01 Apr 2025 01:18:30 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -7101,4 +7101,107 @@ GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/i
 &lt;aside class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;span&gt; This feature is in Public Preview, which means that it is not
 subject to any SLA or deprecation policy and could change in
 backwards-incompatible ways.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+&lt;/ul&gt;</description></item><item><title>Update - March 20, 2025</title><link>https://firebase.google.com/support/release-notes/android#2025-03-20</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.11.0" id="bom_v33-11-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.11.0&lt;/h3&gt;&lt;h3 data-text="Analytics version 22.4.0" id="analytics_v22-4-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt; version 22.4.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue preventing direct data uploads to
+Server-side Tag Manager.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal changes to improve new customer acquisition measurement.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-analytics&lt;/code&gt; library. The Kotlin extensions library has no
+additional updates.&lt;/p&gt;&lt;h3 data-text="App Distribution version 16.0.0-beta15" id="app-distro_v16-0-0-beta15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; version 16.0.0-beta15&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that prevented the SDK from opening custom tabs in
+browsers other than Chrome.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6692"&gt;#6692&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-appdistribution&lt;/code&gt; artifacts are now published with
+accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
+&lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Distribution API version 16.0.0-beta15" id="app-distro-api_v16-0-0-beta15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; API version 16.0.0-beta15&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to accommodate the release of the updated
+&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; library.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-appdistribution&lt;/code&gt; artifacts are now published with
+accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
+&lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-appdistribution-api&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Cloud Firestore version 25.1.3" id="firestore_v25-1-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 25.1.3&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed to use lazy encoding in UTF-8 encoded byte comparison for
+strings to solve performance issues.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6706"&gt;#6706&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;protolite-well-known-types&lt;/code&gt; dependency to v18.0.1.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6716"&gt;#6716&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK version 21.2.0" id="functions-client_v21-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt; version 21.2.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for streaming callable functions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that prevented the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; token from being
+handled correctly in case of error.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-functions&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Cloud Messaging version 24.1.1" id="messaging_v24-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 24.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Fixed issue in SyncTask so that it always unregisters the receiver
+on the same context on which it was registered.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-messaging&lt;/code&gt; artifacts are now published with
+accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
+&lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-messaging&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Cloud Messaging Direct Boot version 24.1.1" id="messaging-directboot_v24-1-1" tabindex="-1"&gt;Cloud Messaging Direct Boot version 24.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal changes to ensure functionality alignment with other SDK
+releases. For more details, refer to the
+&lt;a href="/support/release-notes/android#messaging_v24-1-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; v24.1.1 release notes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-messaging&lt;/code&gt; artifacts are now published with
+accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
+&lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics version 19.4.2" id="crashlytics_v19-4-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 19.4.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal changes to read version control info more efficiently.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6754"&gt;#6754&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;NoSuchMethodError&lt;/code&gt; when getting process info on Android 13 on
+some devices.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6720"&gt;#6720&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-sessions&lt;/code&gt; dependency to v2.1.0, with the
+following changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Added warning for known issue that happens when the app's Compose version
+is upgraded.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6755"&gt;#6755&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Updated datastore dependency to v1.1.3 to fix
+&lt;a href="https://github.com/advisories/GHSA-735f-pc8j-v9w8"&gt;CVE-2024-7254&lt;/a&gt;.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6688"&gt;#6688&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.4.2" id="crashlytics-ndk_v19-4-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 19.4.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to v19.4.2&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect version 16.0.0-beta05" id="data-connect_v16-0-0-beta05" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 16.0.0-beta05&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed gRPC proto package to v1 (it was v1beta).
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6729"&gt;#6729&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-data-connect&lt;/code&gt; artifacts are now published with
+accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
+&lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="In-App Messaging version 21.0.2" id="inappmessaging_v21-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; version 21.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;protolite-well-known-types&lt;/code&gt; dependency to v18.0.1.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6716"&gt;#6716&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-inappmessaging&lt;/code&gt; artifacts are now published with
+accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
+&lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-inappmessaging&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="In-App Messaging Display version 21.0.2" id="inappmessaging-display_v21-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; Display version 21.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;protolite-well-known-types&lt;/code&gt; dependency to v18.0.1.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6716"&gt;#6716&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-inappmessaging&lt;/code&gt; artifacts are now published with
+accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
+&lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-inappmessaging-display&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Performance Monitoring version 21.0.5" id="performance_v21-0-5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; version 21.0.5&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;protolite-well-known-types&lt;/code&gt; dependency to v18.0.1.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6716"&gt;#6716&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that allowed invalid payload bytes value in network
+request metrics.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6721"&gt;#6721&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-perf&lt;/code&gt; artifacts are now published with accompanying
+&lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
+&lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-perf&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;</description></item></channel></rss>

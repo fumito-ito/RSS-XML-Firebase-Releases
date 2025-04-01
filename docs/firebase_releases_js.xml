@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 31 Mar 2025 21:14:15 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 01 Apr 2025 01:18:30 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Launch of new APIs and &lt;a class="link external gc-analytics-event" data-action="linkClick" data-category="console" href="//console.firebase.google.com/"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_74" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The way you install and initialize the SDK has changed and several
@@ -12,7 +12,7 @@ instead of a secret or custom token. When you choose to upgrade, please see
 the &lt;a href="/docs/database/server/start"&gt;Database Server SDK Setup Guide&lt;/a&gt; and use the
 &lt;a href="/support/guides/firebase-web"&gt;Web Migration Guide&lt;/a&gt; to help you update your
 Node.js code to the latest APIs.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_120" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_121" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The way you install and initialize the SDK has changed and most
 APIs have been renamed. When you decide to upgrade, please see the
 &lt;a href="/support/guides/firebase-web"&gt;Web Migration Guide&lt;/a&gt; for details.&lt;/li&gt;
@@ -39,7 +39,7 @@ and cost-effective object storage service.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Node.js version 0.10 support.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.0.2 - May 19, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_302_-_may_19_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Browserify and webpack compatibility.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.0.3 - May 24, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_303_-_may_24_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_119" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.0.3 - May 24, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_303_-_may_24_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_120" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication for Servers" id="authentication-for-servers_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; for Servers&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Global &lt;code dir="ltr" translate="no"&gt;Promise&lt;/code&gt; object is no longer overwritten.&lt;/li&gt;
@@ -49,7 +49,7 @@ invalid service account.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;a href="/docs/reference/js"&gt;reference documentation&lt;/a&gt; to include more
 extensive API descriptions and examples.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; authentication-expiration retry logic.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_118" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_119" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; When using Firebase Web SDK in a non http or https environment (Cordova or
 Electron apps for instance), instead of raising a confusing error on
 initialization, it will silently ignore it. It will only throw an
@@ -58,13 +58,13 @@ unsupported operations (&lt;code dir="ltr" translate="no"&gt;signInWithPopup&lt;
 &lt;code dir="ltr" translate="no"&gt;linkWithPopup&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;linkWithRedirect&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;getRedirectResult&lt;/code&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_39" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Generate more specific error message when quota is exceeded.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.0.5 - June 14, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_305_-_june_14_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_117" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.0.5 - June 14, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_305_-_june_14_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_118" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed JSON parsing error when used in Chrome extensions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Corrected server URLs used by library when using localhost for
 debugging.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Allows use of &lt;code dir="ltr" translate="no"&gt;"gs://bucket"&lt;/code&gt; instead of &lt;code dir="ltr" translate="no"&gt;"bucket"&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;storageBucket&lt;/code&gt; config.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.1.0 - June 28, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_310_-_june_28_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_116" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.1.0 - June 28, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_310_-_june_28_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_117" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Replace use of browser-specific APIs that were blocking use of
 &lt;a href="https://facebook.github.io/react-native/"&gt;React Native&lt;/a&gt; from the JavaScript
 SDK.&lt;/li&gt;
@@ -76,7 +76,7 @@ and verifying tokens) will throw an error.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;a href="/docs/reference/js/firebase.storage.UploadTask"&gt;&lt;code dir="ltr" translate="no"&gt;UploadTask&lt;/code&gt;&lt;/a&gt; can
 now be used like a Promise, and resolves with its snapshot data when the upload
 completes.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_115" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_116" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Github login responsiveness.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Missing display names in profile scope for some Google accounts.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication for Servers" id="authentication-for-servers_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; for Servers&lt;/h3&gt;&lt;ul&gt;
@@ -84,10 +84,10 @@ completes.&lt;/li&gt;
 is set to the ID token's &lt;code dir="ltr" translate="no"&gt;sub&lt;/code&gt; (subject) claim.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.2.1 - July 26, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_321_-_july_26_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; TypeScript 2.0 type definitions added to npm package.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_114" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_115" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issues with Safari private mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; More detailed debugging messages for internal errors.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.3.0 - August 16, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_330_-_august_16_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_113" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.3.0 - August 16, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_330_-_august_16_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_114" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Client &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; APIs are now available in Node.js. When
 you call &lt;code dir="ltr" translate="no"&gt;initializeApp()&lt;/code&gt;, pass a &lt;code dir="ltr" translate="no"&gt;serviceAccount&lt;/code&gt; to use the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; for Servers
 APIs in your app, or pass an &lt;code dir="ltr" translate="no"&gt;apiKey&lt;/code&gt; to use the client &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; APIs.&lt;/li&gt;
@@ -109,7 +109,7 @@ provide an &lt;code dir="ltr" translate="no"&gt;apiKey&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.3.1 - September 7, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_331_-_september_7_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added an error message when attempting to use a service account in
 non-Node.js environments.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_112" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_113" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed backend error messages that were being truncated.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an error where user properties were not automatically
 refreshed on page reload.&lt;/li&gt;
@@ -125,7 +125,7 @@ earlier until this is fixed in a future release.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;contentType&lt;/code&gt; in custom metadata was being
 ignored for string-format uploads.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.3.2 - September 8, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_332_-_september_8_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_111" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.3.2 - September 8, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_332_-_september_8_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_112" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with
 &lt;a href="/docs/reference/js/firebase.auth.Auth#signInWithPopup"&gt;&lt;code dir="ltr" translate="no"&gt;signInWithPopup()&lt;/code&gt;&lt;/a&gt;
 not working with Internet Explorer.&lt;/li&gt;
@@ -147,7 +147,7 @@ transactions at &lt;code dir="ltr" translate="no"&gt;/&lt;/code&gt;, &lt;code di
 such as &lt;code dir="ltr" translate="no"&gt;/move/run&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved network utilization for file uploads.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.5.0 - October 14, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_350_-_october_14_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_110" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.5.0 - October 14, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_350_-_october_14_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_111" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for custom OAuth parameters using the
 &lt;a href="/docs/reference/js/firebase.auth.GoogleAuthProvider#setCustomParameters"&gt;&lt;code dir="ltr" translate="no"&gt;GoogleAuthProvider.setCustomParameters()&lt;/code&gt;&lt;/a&gt;,
 &lt;a href="/docs/reference/js/firebase.auth.FacebookAuthProvider#setCustomParameters"&gt;&lt;code dir="ltr" translate="no"&gt;FacebookAuthProvider.setCustomParameters()&lt;/code&gt;&lt;/a&gt;,
@@ -162,12 +162,12 @@ the JavaScript SDK.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a check to validate the &lt;code dir="ltr" translate="no"&gt;gcm_sender_id&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition that occurs when using the Firefox web
 browser.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.5.2 - October 24, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_352_-_october_24_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_109" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.5.2 - October 24, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_352_-_october_24_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_110" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Increase the request timeout interval for mobile devices to
 improve performance on high-latency networks.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.5.3 - November 1, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_353_-_november_1_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Reduced the SDK download size.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_108" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_109" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issues with redirect and pop-up sign-in methods when using
 browsers that block third-party cookies and site data.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.6.0 - November 8, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_360_-_november_8_2016</link><description>&lt;h3 data-text="Authentication for Servers" id="authentication-for-servers_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; for Servers&lt;/h3&gt;&lt;ul&gt;
@@ -176,13 +176,13 @@ the corresponding token minting and verification methods, has been deprecated
 in favor of a new Node.js Admin SDK. To learn more, go to
 &lt;a href="/docs/admin/setup"&gt;Admin SDK Setup&lt;/a&gt;. To see the Node.js Admin API reference,
 go to &lt;a href="/docs/reference/admin/node"&gt;Admin SDK API Reference&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_107" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_108" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an incorrect &lt;b&gt;popup blocked&lt;/b&gt; error that occurred in the
 Chrome browser on iOS 7 and 8.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.6.1 - November 15, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_361_-_november_15_2016</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Reduced the SDK download size.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed networking issues affecting React Native on Android.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_106" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_107" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added missing definitions for &lt;code dir="ltr" translate="no"&gt;setCustomParameters()&lt;/code&gt; methods
 in the firebase.d.ts file for TypeScript users.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.6.2 - November 29, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_362_-_november_29_2016</link><description>&lt;ul&gt;
@@ -192,7 +192,7 @@ compatible with the
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated
 the &lt;a href="https://www.npmjs.com/package/jsonwebtoken"&gt;jsonwebtoken&lt;/a&gt; version used in
 the Firebase npm package.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_105" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_106" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that prevented user authentication states from
 persisting when using &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; with React Native versions 0.37 and
 higher.&lt;/li&gt;
@@ -208,7 +208,7 @@ property to the TypeScript type declarations (&lt;code dir="ltr" translate="no"&
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where percent-encoded data in a
 &lt;a href="/docs/reference/js/firebase.storage#.StringFormat"&gt;data URL&lt;/a&gt;
 was not decoded.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_104" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_105" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Optimized offline detection to reduce the frequency of network
 timeouts.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.6.5 - January 10, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_365_-_january_10_2017</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -222,7 +222,7 @@ methods.&lt;/li&gt;
 modules (see the
 &lt;a href="https://www.npmjs.com/package/firebase#include-only-the-features-you-need"&gt;npm package README&lt;/a&gt;
 for more information).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_103" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_104" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue on Chrome for iOS where a blank gray screen was being
 displayed when &lt;code dir="ltr" translate="no"&gt;signInWithPopup()&lt;/code&gt; does not require additional user
 interaction (because the user is already signed in and has previously
@@ -234,7 +234,7 @@ consented to the requested scopes).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with some module bundlers.  The npm (commonjs)
 modules no longer require a &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt; variable to be set explicitly and
 fallback to &lt;code dir="ltr" translate="no"&gt;window&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;self&lt;/code&gt; if &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt; is not defined.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_102" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_103" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Increased authentication timeouts for network requests to handle
 slow network connections.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed authentication module Node.js detection to be compatible with
@@ -249,7 +249,7 @@ embedded in a sandboxed iframe.&lt;/li&gt;
 chrome-extensions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed progress bar styling in the OAuth helper for popup/redirect
 operations.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.6.9 - February 7, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_369_-_february_7_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_101" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.6.9 - February 7, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_369_-_february_7_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_102" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that broke
 &lt;code dir="ltr" translate="no"&gt;firebase.auth().signInWithCredential()&lt;/code&gt; in a browser environment when the
 current URL has the OAuth 2.0-specific &lt;code dir="ltr" translate="no"&gt;state&lt;/code&gt; query parameter.&lt;/li&gt;
@@ -259,7 +259,7 @@ current URL has the OAuth 2.0-specific &lt;code dir="ltr" translate="no"&gt;stat
 method didn't exist on &lt;code dir="ltr" translate="no"&gt;UploadTask&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.7.0 - March 1, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_370_-_march_1_2017</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for using multiple buckets within &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.7.1 - March 9, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_371_-_march_9_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_100" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.7.1 - March 9, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_371_-_march_9_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_101" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase.auth().signInWithPopup()&lt;/code&gt; to work properly in
 Chrome extensions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved session handling for prolonged usage of the &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;.&lt;/li&gt;
@@ -272,13 +272,13 @@ creation of multiple instances.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;firebase.database().ref().push()&lt;/code&gt;,
 would trigger an infinite loop if the returned &lt;code dir="ltr" translate="no"&gt;.then()&lt;/code&gt;
 function was called.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_99" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_100" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;firebase.User.reauthenticate()&lt;/code&gt; was
 creating new users if passed an OAuth credential for a user that
 didn't exist.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.7.5 - April 4, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_375_-_april_4_2017</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Provide higher-granularity progress updates for object uploads.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.7.6 - April 11, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_376_-_april_11_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_98" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.7.6 - April 11, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_376_-_april_11_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_99" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where removal of a legacy options object broke older clients.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.7.7 - April 14, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_377_-_april_14_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where undefined symbols caused an error to be
@@ -288,7 +288,7 @@ thrown in older browsers.&lt;/li&gt;
 correctly.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.8.0 - April 18, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_380_-_april_18_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Provide source maps for firebase-app.js.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_97" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_98" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new APIs
 &lt;a href="/docs/reference/js/firebase.User#reauthenticateWithPopup"&gt;&lt;code dir="ltr" translate="no"&gt;reauthenticateWithPopup&lt;/code&gt;&lt;/a&gt;
 and
@@ -311,7 +311,7 @@ method.&lt;/li&gt;
 the
 &lt;a href="/docs/reference/js/firebase.User#reauthenticateWithCredential"&gt;&lt;code dir="ltr" translate="no"&gt;firebase.User.prototype.reauthenticateWithCredential&lt;/code&gt;&lt;/a&gt;
 method.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.9.0 - April 25, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_390_-_april_25_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_96" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.9.0 - April 25, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_390_-_april_25_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_97" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated &lt;code dir="ltr" translate="no"&gt;firebase.auth.authCredential.prototype.provider&lt;/code&gt; in
 favor of the &lt;code dir="ltr" translate="no"&gt;firebase.auth.AuthCredential.prototype.providerId&lt;/code&gt; property.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Cordova apps were seeing unusual delays in
@@ -321,7 +321,7 @@ authentication.&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;credential&lt;/code&gt; properties from the Node.js SDK. If you were previously using the
 Firebase JavaScript SDK to use these properties, use the
 &lt;a href="/docs/admin/setup"&gt;Firebase Admin Node.js SDK&lt;/a&gt; instead.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_95" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_96" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for
 &lt;a href="/docs/auth/web/phone-auth"&gt;phone number authentication&lt;/a&gt; using the
 following APIs:
@@ -361,7 +361,7 @@ removed in favor of
 &lt;/ul&gt;</description></item><item><title>Version 4.1.0 - May 30, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_410_-_may_30_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Allow for lazy initialization of Firebase components (i.e. &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;FCM&lt;/span&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_94" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_95" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the SDK could trigger an infinite loop when
 loaded in an iFrame on Safari.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.1.1 - May 31, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_411_-_may_31_2017</link><description>&lt;ul&gt;
@@ -377,7 +377,7 @@ providing a chunked webpack build, was duplicating the &lt;code dir="ltr" transl
 namespace.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.1.3 - June 21, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_413_-_june_21_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where certain app names were invalid&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_93" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_94" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the PhoneAuthProvider typings&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where network errors from &lt;code dir="ltr" translate="no"&gt;signInWithRedirect&lt;/code&gt; were
 cached even after the network connection stabilized.&lt;/li&gt;
@@ -388,10 +388,10 @@ failing due iOS bundle ID case sensitive checks.&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;firebase-messaging.js&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_66" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Refactored internal implementation to TypeScript.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.1.5 - July 25, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_415_-_july_25_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_92" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.1.5 - July 25, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_415_-_july_25_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_93" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where authenticated realtime database access wasn't
 possible.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.2.0 - July 27, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_420_-_july_27_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_91" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.2.0 - July 27, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_420_-_july_27_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_92" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added ability to configure state persistence. See &lt;a href="/docs/auth/web/auth-state-persistence"&gt;the
 docs&lt;/a&gt; for
 more information.&lt;/li&gt;
@@ -403,7 +403,7 @@ Cordova environments.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_65" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where database references were missing a &lt;code dir="ltr" translate="no"&gt;toJSON&lt;/code&gt;
 method.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.3.0 - August 17, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_430_-_august_17_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_90" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.3.0 - August 17, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_430_-_august_17_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_91" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added client side localization for email actions (password reset,
 email verification, etc), phone authentication SMS messages, OAuth flows and
 reCAPTCHA verification.&lt;/li&gt;
@@ -414,9 +414,9 @@ these links directly from a mobile app instead of a web flow using Firebase
 Dynamic Links. See the &lt;a href="/docs/auth/web/passing-state-in-email-actions"&gt;docs&lt;/a&gt;
 for more information.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue with IE10 state synchronization across tabs&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.3.1 - September 7, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_431_-_september_7_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_89" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.3.1 - September 7, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_431_-_september_7_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_90" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue with typings for features released in 4.3.0&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.4.0 - September 21, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_440_-_september_21_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_88" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.4.0 - September 21, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_440_-_september_21_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_89" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed some issues with null initialization of several classes in the
 externs files.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_64" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -442,7 +442,7 @@ clause in a query.&lt;/li&gt;
 the firebase package.json.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;firebase.SDK_VERSION&lt;/code&gt; was returning the
 placeholder string.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.6.0 - October 19, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_460_-_october_19_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_87" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.6.0 - October 19, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_460_-_october_19_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_88" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added
 &lt;a href="/docs/reference/js/firebase.User#metadata"&gt;&lt;code dir="ltr" translate="no"&gt;firebase.User.prototype.metadata&lt;/code&gt;&lt;/a&gt;
 which includes information about user creation time and last sign in time.&lt;/li&gt;
@@ -461,12 +461,12 @@ writes to fail with &lt;code dir="ltr" translate="no"&gt;permission_denied&lt;/c
 with &lt;code dir="ltr" translate="no"&gt;{merge:true}&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.6.1 - November 2, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_461_-_november_2_2017</link><description>&lt;ul&gt;
 &lt;li&gt;Updated dependency versions across the different sub packages.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_86" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_87" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Released the Open Source auth codebase.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Automatically resets the reCAPTCHA after the phone authentication
 flow is triggered to prevent the same reCAPTCHA token from being sent in
 subsequent calls.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.6.2 - November 9, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_462_-_november_9_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_85" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.6.2 - November 9, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_462_-_november_9_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_86" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;localStorage&lt;/code&gt; errors were not being caught
 properly.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Return auth/user-disabled instead of auth/internal-error when
@@ -482,7 +482,7 @@ from React Native.&lt;/li&gt;
 offline persistence).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Refactor Webchannel integration to avoid extra CORS preflight
 requests.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.8.0 - December 7, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_480_-_december_7_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_84" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.8.0 - December 7, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_480_-_december_7_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_85" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new APIs
 &lt;a href="/docs/reference/js/firebase.auth.Auth#createUserAndRetrieveDataWithEmailAndPassword"&gt;&lt;code dir="ltr" translate="no"&gt;firebase.auth.Auth.prototype.createUserAndRetrieveDataWithEmailAndPassword&lt;/code&gt;&lt;/a&gt;,
 &lt;a href="/docs/reference/js/firebase.auth.Auth#signInAndRetrieveDataWithCustomToken"&gt;&lt;code dir="ltr" translate="no"&gt;firebase.auth.Auth.prototype.signInAndRetrieveDataWithCustomToken&lt;/code&gt;&lt;/a&gt;,
@@ -535,7 +535,7 @@ error from the backend.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where ES6 wildcard imports were breaking Closure
 Compiler (thanks &lt;a href="https://github.com/Doehl"&gt;@Doehl&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/370"&gt;PR&lt;/a&gt;!)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_83" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_84" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with universal link subscriptions when multiple
 listeners are registered.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_62" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -577,7 +577,7 @@ database reference.&lt;/li&gt;
 doesn't succeed or fails within 10 seconds, the SDK will consider itself
 "offline", causing get() calls to resolve with cached results, rather than
 continuing to wait.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.12.0 - March 20, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_4120_-_march_20_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_82" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.12.0 - March 20, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_4120_-_march_20_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_83" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added several APIs to support the new passwordless email sign in
 feature.
 &lt;ul&gt;
@@ -596,7 +596,7 @@ listen_stream_connection_backoff".&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.12.1 - March 29, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_4121_-_march_29_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/474"&gt;issue&lt;/a&gt;
 where TypeScript would throw errors due to duplicate symbols.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_81" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_82" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/573"&gt;issue&lt;/a&gt;
 where several of the new APIs were missing from the firebase package typings.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_170" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -617,7 +617,7 @@ facilitate additional config options.&lt;/li&gt;
 ensure that build/test changes are picked up in future releases.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Refactored to use &lt;a href="https://github.com/zloirock/core-js"&gt;core-js&lt;/a&gt;
 for our Polyfills/Shims.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_80" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_81" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;navigator.onLine&lt;/code&gt; sometimes errantly reports
 &lt;code dir="ltr" translate="no"&gt;false&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Firefox multi-tab/private mode browsing threw
@@ -656,7 +656,7 @@ Firestore and Functions components which were previously excluded by default.
 Developers using these bundles will find a warning in the browser console
 instructing them how to include only the components they are using, which will
 improve the performance of their applications.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_79" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_80" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Exposes the new &lt;code dir="ltr" translate="no"&gt;Auth.settings.appVerificationDisabledForTesting&lt;/code&gt;
 flag for disabling reCAPTCHA app verification used for phone authentication
 integration testing with whitelisted phone numbers.&lt;/li&gt;
@@ -725,7 +725,7 @@ support all valid return types.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.1.0 - June 21, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_510_-_june_21_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Fixed an issue with the typings where the firebase namespace
 wasn't being exported.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_78" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_79" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an ES Module export of Firebase Auth&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the IndexedDB fallback logic&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.2.0 - June 28, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_520_-_june_28_2018</link><description>&lt;h3 data-text="Cloud Functions for Firebase Client SDK" id="cloud-functions-for-firebase-client-sdk_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -734,7 +734,7 @@ local Functions Emulator.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for specifying a region for a given function.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_56" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused database to not work on IE 11.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.3.0 - July 19, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_530_-_july_19_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_77" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.3.0 - July 19, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_530_-_july_19_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_78" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where redirect results were being handled incorrectly for
 deleted Auth instances.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_165" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -765,11 +765,11 @@ take effect until you did a full sign-out and sign-in.
 &lt;/ul&gt;</description></item><item><title>Version 5.4.1 - August 23, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_541_-_august_23_2018</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_162" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression that prevented use of &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; on ReactNative's
 Expo platform (#1138).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_76" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_77" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue in the IndexedDB implementation that was slow for
 some browsers.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a memory leak in the IndexedDB implementation.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.4.2 - August 30, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_542_-_august_30_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_75" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.4.2 - August 30, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_542_-_august_30_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_76" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;code dir="ltr" translate="no"&gt;navigator&lt;/code&gt; global was unavailable in some
 environments.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.5.0 - Sep 12, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_550_-_sep_12_2018</link><description>&lt;ul&gt;
@@ -806,7 +806,7 @@ with Java 10.&lt;/li&gt;
 individual components using the CDN.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_159" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where native ES6 module loading was not working.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_74" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_75" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a new phone auth error message for malformed or mismatching
 credentials.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.5.3 - Oct 4, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_553_-_oct_4_2018</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_158" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -814,7 +814,7 @@ credentials.&lt;/li&gt;
 tabs.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Start tracking document usage in preparation for LRU Garbage
 Collection.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.5.4 - Oct 11, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_554_-_oct_11_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_73" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.5.4 - Oct 11, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_554_-_oct_11_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_74" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;code dir="ltr" translate="no"&gt;this&lt;/code&gt; variable was changed to undefined incorrectly.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_157" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed fallback based on &lt;code dir="ltr" translate="no"&gt;eval()&lt;/code&gt; for JSON parsing, allowing SDK to
@@ -830,14 +830,14 @@ CDN.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the library is not compatible with IE 11.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.5.7 - Nov 1, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_557_-_nov_1_2018</link><description>&lt;h3 data-text="Cloud Functions for Firebase Client SDK" id="cloud-functions-for-firebase-client-sdk_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added the type definition for the &lt;code dir="ltr" translate="no"&gt;useFunctionsEmulator&lt;/code&gt; method in the &lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.5.8 - Nov 8, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_558_-_nov_8_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_72" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.5.8 - Nov 8, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_558_-_nov_8_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_73" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a source map to facilitate easy debugging.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.5.9 - Nov 20, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_559_-_nov_20_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated mocha to version 5.2.0.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Corrected syntax errors for &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; example in rxFire documentation.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_155" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Capped the amount of exponential backoff gRPC will use for reconnection attempts to 100ms.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.6.0 - Nov 29, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_560_-_nov_29_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_71" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.6.0 - Nov 29, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_560_-_nov_29_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_72" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the ability to customize the dynamic link domain for email actions.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.7.0 - Dec 6, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_570_-_dec_6_2018</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_154" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a garbage collection process to on-disk persistence that
@@ -849,7 +849,7 @@ the settings passed to &lt;code dir="ltr" translate="no"&gt;Firestore.settings()
 1 MB. The garbage collection process can be disabled entirely by setting
 &lt;code dir="ltr" translate="no"&gt;cacheSizeBytes&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;CACHE_SIZE_UNLIMITED&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated gRPC version to support Node 11.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.7.1 - Dec 20, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_571_-_dec_20_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_70" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.7.1 - Dec 20, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_571_-_dec_20_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_71" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added SAML providers and exposed the API to enable OIDC providers.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed the email validation logic to allow international email addresses.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_153" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -884,7 +884,7 @@ was called in a second tab.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.8.5 - Mar 1, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_585_-_mar_1_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a warning that appears in the console at runtime if a
 Firebase browser bundle is loaded in a node environment.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_69" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_70" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;OAuthCredential&lt;/code&gt; type as an exposed type.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;updateProfile()&lt;/code&gt; so each property passed to it is optional.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK" id="cloud-functions-for-firebase-client-sdk_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -919,13 +919,13 @@ assert for Queries that use nested &lt;code dir="ltr" translate="no"&gt;Document
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Refactored to use const enum for &lt;code dir="ltr" translate="no"&gt;ErrorCode&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.9.4 - April 11, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_594_-_april_11_2019</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an incorrect type definition in &lt;code dir="ltr" translate="no"&gt;UploadTask.on()&lt;/code&gt; params.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.10.0 - April 18, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_5100_-_april_18_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_68" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.10.0 - April 18, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_5100_-_april_18_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_69" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added serialization and deserialization methods to AuthCredential classes.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_144" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an &lt;code dir="ltr" translate="no"&gt;experimentalForceLongPolling&lt;/code&gt; setting that can be
 used to work around proxies that prevent the Firestore client from connecting
 to the Firestore backend.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.10.1 - April 25, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_5101_-_april_25_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_67" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.10.1 - April 25, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_5101_-_april_25_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_68" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where duplicate auth events could cause errors
 when using &lt;code dir="ltr" translate="no"&gt;signInWithPopup()&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the SDK could fail to detect that it is in
@@ -941,7 +941,7 @@ Now developers must decide which polyfills to include based on the
 environments they need to support. This ensures only required polyfills are
 included, reducing application size.
 See &lt;a href="/support/guides/environments_js-sdk"&gt;Environment Support&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_66" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_67" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Removed previously deprecated APIs.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1014,7 +1014,7 @@ if you continue to use &lt;code dir="ltr" translate="no"&gt;experimentalTabSynch
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; This release contains the new &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; Client SDK.
 Visit the &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; for Web &lt;a href="/docs/perf-mon/get-started-web"&gt;Getting Started guide&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.0.1 - May 8, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_601_-_may_8_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_65" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.0.1 - May 8, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_601_-_may_8_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_66" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression introduced in 6.0.0 that caused code to access a
 removed property.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.0.2 - May 9, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_602_-_may_9_2019</link><description>&lt;ul&gt;
@@ -1066,7 +1066,7 @@ when Firebase is bundled into user code (using tools such as Rollup).&lt;/p&gt;&
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_136" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Made error messages more informative for &lt;code dir="ltr" translate="no"&gt;AsyncQueue&lt;/code&gt; errors
 on iOS.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.2.3 - June 24, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_623_-_june_24_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_64" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.2.3 - June 24, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_623_-_june_24_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_65" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug causing errors in Node.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_135" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue causing some queries to return no
@@ -1099,7 +1099,7 @@ when run in a browser environment.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.3.4 - August 1, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_634_-_august_1_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_51" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where multi-byte UTF-8 characters were not written
 correctly when using &lt;code dir="ltr" translate="no"&gt;firebase.js&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;firebase-database.js&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.3.5 - August 8, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_635_-_august_8_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_63" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.3.5 - August 8, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_635_-_august_8_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_64" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where cached redirect results were not cleared
 after calling &lt;code dir="ltr" translate="no"&gt;signOut()&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;getRedirectResult()&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.4.0 - August 15, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_640_-_august_15_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_50" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1132,7 +1132,7 @@ Firestore backend.&lt;/li&gt;
 the instance, releasing any held resources. Once it completes, you can
 optionally call &lt;code dir="ltr" translate="no"&gt;Firestore.clearPersistence()&lt;/code&gt; to wipe persisted Firestore
 data from disk.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.6.0 - September 5, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_660_-_september_5_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_62" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.6.0 - September 5, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_660_-_september_5_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_63" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;a href="https://cloud.google.com/identity-platform/docs/multi-tenancy"&gt;multi-tenancy&lt;/a&gt;
 for Google Cloud Identity Platform developers.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_131" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1217,7 +1217,7 @@ specified array. The &lt;code dir="ltr" translate="no"&gt;array-contains-any&lt;
 is an array and contains any element of a specified array.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;Query.limitToLast(n: number)&lt;/code&gt; which returns the last
 &lt;code dir="ltr" translate="no"&gt;n&lt;/code&gt; documents as the result.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.4.0 - November 14, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_740_-_november_14_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_61" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.4.0 - November 14, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_740_-_november_14_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_62" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added nonce support for sign-in with OIDC ID token credentials.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the OAuth sign-in support for apps served from origins with the
 &lt;code dir="ltr" translate="no"&gt;ionic://&lt;/code&gt; scheme for latest Ionic framework.&lt;/li&gt;
@@ -1282,7 +1282,7 @@ transaction must also be written. This requirement has been removed, and
 you can now read a document in a transaction without writing to it.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated internal transport protocol from proto2 to proto3.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_60" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_61" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added missing constructor for &lt;code dir="ltr" translate="no"&gt;SAMLAuthProvider&lt;/code&gt; type.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.8.0 - January 30, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_780_-_january_30_2020</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_119" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;strong&gt;Experimental:&lt;/strong&gt; Added an alternative minified import for the
@@ -1332,7 +1332,7 @@ Node and CJS bundles do not work.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Implemented &lt;code dir="ltr" translate="no"&gt;Timestamp.valueOf()&lt;/code&gt; so that &lt;code dir="ltr" translate="no"&gt;Timestamp&lt;/code&gt; objects can be
 compared for relative ordering using the JavaScript arithmetic comparison
 operators. Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/2632"&gt;GitHub issue #2632&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.11.0 - March 12, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7110_-_march_12_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_59" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.11.0 - March 12, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7110_-_march_12_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_60" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added multi-factor authentication support for
 &lt;a href="https://cloud.google.com/identity-platform/docs/web/mfa"&gt;Google Cloud Identity Platform&lt;/a&gt; projects.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.12.0 - March 19, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7120_-_march_19_2020</link><description>&lt;ul&gt;
@@ -1397,7 +1397,7 @@ without transactions.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.14.1 - April 16, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7141_-_april_16_2020</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that occurred when users tried to retrieve data from
 multiple &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; instances.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_58" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_59" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that occurred when users set persistence to &lt;code dir="ltr" translate="no"&gt;LOCAL&lt;/code&gt; in
 a worker environment. See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/2903"&gt;GitHub issue #2903&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.14.2 - April 23, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7142_-_april_23_2020</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_107" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1481,7 +1481,7 @@ Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/3144"&gt;Gi
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the TypeScript types for all APIs using &lt;code dir="ltr" translate="no"&gt;Observer&lt;/code&gt;s to allow callback omission.
 Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/3158"&gt;GitHub issue #3158&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_57" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_58" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;browser&lt;/code&gt; field in package.json.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.17.0 - July 23, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7170_-_july_23_2020</link><description>&lt;h3 data-text="Analytics" id="analytics_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an &lt;code dir="ltr" translate="no"&gt;analytics.isSupported()&lt;/code&gt; method which returns true if
@@ -1583,7 +1583,7 @@ in background tabs when multi-tab is used.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/3816"&gt;GitHub issue #3816&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a "Comparison with -0" lint warning for customers that build from source.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/3814"&gt;GitHub issue #3814&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_56" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_57" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an encoding issue in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; CDN script for environments
 that require UTF-8, for example, Chrome extensions.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/414"&gt;GitHub issue #414&lt;/a&gt;.&lt;/li&gt;
@@ -1607,7 +1607,7 @@ value in the &lt;code dir="ltr" translate="no"&gt;trace.record()&lt;/code&gt; AP
 &lt;/ul&gt;&lt;h3 data-text="Testing SDK" id="testing-sdk_8" tabindex="-1"&gt;Testing SDK&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added stronger types to the &lt;code dir="ltr" translate="no"&gt;options.auth&lt;/code&gt; option for
 &lt;code dir="ltr" translate="no"&gt;initializeTestApp()&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.24.0 - October 15, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7240_-_october_15_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_55" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.24.0 - October 15, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7240_-_october_15_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_56" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the ability to configure the SDK to communicate with the Firebase
 Emulator.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_87" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1672,7 +1672,7 @@ user-provided setup function with emulated Cloud Functions triggers disabled.
 This can be used to import data into the &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; or &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;
 emulators without triggering locally emulated functions. This method only
 works with Firebase CLI version 8.13.0 or higher.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.0.2 - November 12, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_802_-_november_12_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_54" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.0.2 - November 12, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_802_-_november_12_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_55" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The SDK now retries IndexedDB errors a fixed number of times to
 handle connection issues in mobile WebKit.
 Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/1926"&gt;GitHub issue #1926&lt;/a&gt;.&lt;/li&gt;
@@ -1690,7 +1690,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4071"&gt;GitH
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added the missing type definition for &lt;code dir="ltr" translate="no"&gt;Query.get()&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_83" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that prevented &lt;code dir="ltr" translate="no"&gt;experimentalAutoDetectLongPolling&lt;/code&gt; from working correctly.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.1.2 - December 3, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_812_-_december_3_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_53" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.1.2 - December 3, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_812_-_december_3_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_54" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with IndexedDB retry logic causing uncaught errors.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_82" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that prevented usage of &lt;code dir="ltr" translate="no"&gt;FieldPath&lt;/code&gt; objects with
@@ -1701,7 +1701,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4125"&gt;GitH
 &lt;/ul&gt;&lt;h3 data-text="Testing SDK" id="testing-sdk_5" tabindex="-1"&gt;Testing SDK&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;assertFails&lt;/code&gt; not recognizing &lt;code dir="ltr" translate="no"&gt;permission-denied&lt;/code&gt; errors from
 &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.2.0 - December 11, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_820_-_december_11_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_52" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.2.0 - December 11, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_820_-_december_11_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_53" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an option to hide the banner in Auth when using the emulator.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_81" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Released Firestore Bundles (pre-packaged Firestore data). For NPM users, this can
@@ -1715,7 +1715,7 @@ of how many &lt;code dir="ltr" translate="no"&gt;FieldValue&lt;/code&gt; transfo
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed to dispatch no more than 1000 collected performance events
 for each network request. Events over the cap will be
 queued and sent with the next dispatch.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.2.1 - December 17, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_821_-_december_17_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_51" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.2.1 - December 17, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_821_-_december_17_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_52" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated auth token logic to rely on device clock time instead of
 server time. This fixes an issue seen when a device's clock is skewed by a lot:
 see &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/3222"&gt;GitHub issue #3222&lt;/a&gt;&lt;/li&gt;
@@ -1740,7 +1740,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4226"&gt;GitH
 &lt;/ul&gt;</description></item><item><title>Version 8.2.4 - January 21, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_824_-_january_21_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;startAfter&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;endBefore&lt;/code&gt; filters for paginating
 &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; queries.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_50" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_51" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;useEmulator()&lt;/code&gt; function and &lt;code dir="ltr" translate="no"&gt;emulatorConfig&lt;/code&gt; to the
 &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; package externs.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_78" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1752,7 +1752,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4278"&gt;GitH
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_77" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Classes like &lt;code dir="ltr" translate="no"&gt;DocumentReference&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Query&lt;/code&gt; can now be serialized to JSON.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4258"&gt;GitHub issue #4258&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.2.6 - February 04, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_826_-_february_04_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_49" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.2.6 - February 04, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_826_-_february_04_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_50" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where UTF-8 encoded strings were not decoded in
 &lt;code dir="ltr" translate="no"&gt;getIdTokenResult&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4174"&gt;GitHub issue #4174&lt;/a&gt;.&lt;/li&gt;
@@ -1854,7 +1854,7 @@ the correct version number.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression that prevented &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; from detecting
 the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; service during initialization, which prevented
 some writes from being sent.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.6.8 - June 17, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_868_-_june_17_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_48" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.6.8 - June 17, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_868_-_june_17_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_49" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where &lt;code dir="ltr" translate="no"&gt;linkWithPopup&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;linkWithRedirect&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;reauthenticateWithPopup&lt;/code&gt;,
 and &lt;code dir="ltr" translate="no"&gt;reauthenticateWithRedirect&lt;/code&gt; weren't correctly picking up the emulator configuration.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4879"&gt;GitHub issue #4879&lt;/a&gt;.&lt;/li&gt;
@@ -1866,7 +1866,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5018"&gt;GitH
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an &lt;code dir="ltr" translate="no"&gt;onTokenChanged()&lt;/code&gt; method that adds listeners to App Check token changes.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an error causing &lt;code dir="ltr" translate="no"&gt;HTTP status 429&lt;/code&gt; errors in debug mode.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5052"&gt;GitHub issue #5052&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_47" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_48" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; didn't detect &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, which led to permission denied errors.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4932"&gt;GitHub issue #4932&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.7.1 - July 8, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_871_-_july_8_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1953,7 +1953,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5382"&gt;GitH
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed incorrect import of &lt;code dir="ltr" translate="no"&gt;node-fetch&lt;/code&gt; polyfill that caused uncaught
 exceptions when using &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; and the &lt;code dir="ltr" translate="no"&gt;firestore/lite&lt;/code&gt; package from
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_46" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_47" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a typing issue caused by a missing constructor for
 &lt;code dir="ltr" translate="no"&gt;OAuthProvider&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_62" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1961,7 +1961,7 @@ exceptions when using &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/5400"&gt;GitHub PR #5400&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed incorrect import of &lt;code dir="ltr" translate="no"&gt;node-fetch&lt;/code&gt; polyfill that caused uncaught
 exceptions when using &lt;code dir="ltr" translate="no"&gt;firestore/lite&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.0.2 - September 9, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_902_-_september_9_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_45" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.0.2 - September 9, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_902_-_september_9_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_46" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where custom errors from blocking functions were being
 dropped.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5386"&gt;GitHub issue #5386&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -1987,7 +1987,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5384"&gt;GitH
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that incorrectly threw an error when using &lt;code dir="ltr" translate="no"&gt;refFromUrl()&lt;/code&gt;
 with &lt;code dir="ltr" translate="no"&gt;connectStorageEmulator()&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-tools/issues/3715"&gt;Github issue #3715 in firebase-tools&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.1.0 - September 24, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_910_-_september_24_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_44" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.1.0 - September 24, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_910_-_september_24_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_45" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; All browser persistence implementations such as &lt;code dir="ltr" translate="no"&gt;indexedDBLocalPersistence&lt;/code&gt;
 are mapped to &lt;code dir="ltr" translate="no"&gt;inMemoryPersistence&lt;/code&gt; in Node.js to allow isomorphic code that works well
 with use cases like server-side rendering.&lt;/p&gt;&lt;/li&gt;
@@ -2015,7 +2015,7 @@ environment supports &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;,
 instances returned by &lt;code dir="ltr" translate="no"&gt;RulesTestContext&lt;/code&gt; are not compatible with v9 modular APIs.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Set &lt;code dir="ltr" translate="no"&gt;RTDB&lt;/code&gt; namespace to be same as &lt;code dir="ltr" translate="no"&gt;projectId&lt;/code&gt; by default instead of &lt;code dir="ltr" translate="no"&gt;${projectId}-default-rtdb&lt;/code&gt;.
 This fixes rules not being applied and other issues related to namespace mismatch.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.1.1 - September 30, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_911_-_september_30_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_43" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.1.1 - September 30, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_911_-_september_30_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_44" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug on iOS causing incorrectly formatted links to be sent in emails.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5541"&gt;GitHub issue #5541&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.1.2 - October 07, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_912_-_october_07_2021</link><description>&lt;h3 data-text="App Check" id="app-check_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2023,7 +2023,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5541"&gt;GitH
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5569"&gt;GitHub issue #5569&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;@firebase/app-check-compat&lt;/code&gt; to correctly export and handle
 &lt;code dir="ltr" translate="no"&gt;ReCaptchaV3Provider&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;CustomProvider&lt;/code&gt; classes.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_43" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Calls to &lt;code dir="ltr" translate="no"&gt;connectAuthEmulator&lt;/code&gt; with the &lt;code dir="ltr" translate="no"&gt;disableWarnings&lt;/code&gt; flag set to true
 will no longer cause a &lt;code dir="ltr" translate="no"&gt;console.info&lt;/code&gt; warning to be printed.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug in the &lt;code dir="ltr" translate="no"&gt;OAuthProvider.prototype.credential&lt;/code&gt; method that
@@ -2039,7 +2039,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5372"&gt;Gith
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added an empty typings file to the &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; package to fix
 autocomplete problems in some IDEs.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5649"&gt;Github issue #5649&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_41" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed behavior on subsequent calls to &lt;code dir="ltr" translate="no"&gt;getRedirectResult()&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5610"&gt;Github issue #5610&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the public &lt;code dir="ltr" translate="no"&gt;AuthError&lt;/code&gt; typing and update the &lt;code dir="ltr" translate="no"&gt;MultiFactorError&lt;/code&gt;
@@ -2069,7 +2069,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/1674"&gt;Gith
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added ESM entry point for Node.js and added &lt;code dir="ltr" translate="no"&gt;exports&lt;/code&gt; field support to all packages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added ReCAPTCHA Enterprise as an attestation option.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_40" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_41" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added the missing &lt;code dir="ltr" translate="no"&gt;SAMLAuthProvider&lt;/code&gt; to the compatibility layer.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed bug that caused &lt;code dir="ltr" translate="no"&gt;onAuthStateChanged&lt;/code&gt; to be fired twice.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5685"&gt;Github issue #5685&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -2081,7 +2081,7 @@ see &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/1487"&gt;Gith
 This allows developers to delegate &lt;code dir="ltr" translate="no"&gt;WithFieldValue&amp;lt;T&amp;gt;&lt;/code&gt; inside wrappers of
 type &lt;code dir="ltr" translate="no"&gt;T&lt;/code&gt; to avoid exposing Firebase types beyond Firebase-specific logic.
 see &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5661"&gt;Github issue #5661&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.4.1 - November 11, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_941_-_november_11_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_39" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.4.1 - November 11, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_941_-_november_11_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_40" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;getReactNativePersistence()&lt;/code&gt; as an export from the React
 Native bundle.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/1847"&gt;Github issue #1847&lt;/a&gt;.&lt;/li&gt;
@@ -2106,14 +2106,14 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5716"&gt;Gith
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5687"&gt;Github issue #5687&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.6.0 - December 2, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_960_-_december_2_2021</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_56" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;span class="notranslate"&gt;App Check&lt;/span&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.6.1 - December 9, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_961_-_december_9_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.6.1 - December 9, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_961_-_december_9_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_39" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed errors that occurred during initialization of the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; SDK when the
 network is unavailable.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5720"&gt;Github issue #5720&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_55" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Hardcoded the version of grpc-js sent to logs as a temporary fix
 for &lt;code dir="ltr" translate="no"&gt;createRequire&lt;/code&gt; issues in the Node.js CJS bundle.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.6.2 - January 7, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_962_-_january_7_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_37" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.6.2 - January 7, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_962_-_january_7_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix persistence selection in compatibility layer in worker scripts.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5791"&gt;Github issue #5791&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_54" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2136,7 +2136,7 @@ incorrectly defined as &lt;code dir="ltr" translate="no"&gt;fcm_message_id&lt;/c
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Add a CJS bundle for &lt;code dir="ltr" translate="no"&gt;messaging/sw&lt;/code&gt;. This enables some SSR
 frameworks to run their Node.js pipelines without erroring.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5854"&gt;Github issue #5854&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.6.4 - January 20, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_964_-_january_20_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_36" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.6.4 - January 20, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_964_-_january_20_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_37" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the error code thrown when the network times out.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5874"&gt;Github issue #5874&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;./cordova&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;./react-native&lt;/code&gt; paths to the &lt;code dir="ltr" translate="no"&gt;exports&lt;/code&gt; field
@@ -2150,7 +2150,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5839"&gt;Gith
 &lt;/ul&gt;</description></item><item><title>Version 9.6.5 - January 27, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_965_-_january_27_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;node-fetch&lt;/code&gt; dependency due to a security issue
 (&lt;a href="https://nvd.nist.gov/vuln/detail/CVE-2022-0235"&gt;CVE-2022-0235&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_36" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed errors in &lt;code dir="ltr" translate="no"&gt;auth-compat&lt;/code&gt; when cookies are fully disabled in
 Chrome.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5913"&gt;Github issue #5913&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -2168,7 +2168,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5842"&gt;Gith
 &lt;/ul&gt;</description></item><item><title>Version 8.10.1 - January 28, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_8101_-_january_28_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;node-fetch&lt;/code&gt; dependency due to a security issue
 (&lt;a href="https://nvd.nist.gov/vuln/detail/CVE-2022-0235"&gt;CVE-2022-0235&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.6.6 - February 3, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_966_-_february_3_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.6.6 - February 3, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_966_-_february_3_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where the &lt;code dir="ltr" translate="no"&gt;user.providerData&lt;/code&gt; field was being improperly
 initialized.
 See &lt;a href="https://github.com/firebase/firebaseui-web/issues/917"&gt;firebaseui-web Github issue #917&lt;/a&gt;.&lt;/li&gt;
@@ -2239,7 +2239,7 @@ supported by the Firebase JavaScript SDK.&lt;/p&gt;&lt;/li&gt;
 which supports ESM. This affects &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;,
 &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6154"&gt;Github issue #6154&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a &lt;code dir="ltr" translate="no"&gt;beforeAuthStateChanged()&lt;/code&gt; middleware function which
 allows you to provide callbacks that are run before an auth state change
 sets a new user.&lt;/li&gt;
@@ -2247,11 +2247,11 @@ sets a new user.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;forceWebSockets()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;forceLongPolling()&lt;/code&gt; methods.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_47" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a &lt;code dir="ltr" translate="no"&gt;TransactionOptions&lt;/code&gt; param to the &lt;code dir="ltr" translate="no"&gt;runTransaction()&lt;/code&gt; method.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.8.1 - May 09, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_981_-_may_09_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.8.1 - May 09, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_981_-_may_09_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed some typings issues that caused compile errors for
 TypeScript users.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6246"&gt;Github issue #6246&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.8.2 - May 27, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_982_-_may_27_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.8.2 - May 27, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_982_-_may_27_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added missing &lt;code dir="ltr" translate="no"&gt;identities&lt;/code&gt; field to &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; claim in the
 typings for the ID token result.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6218"&gt;Github issue #6218&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -2294,7 +2294,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6273"&gt;Github
 "consent" state.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added function &lt;code dir="ltr" translate="no"&gt;setDefaultEventParameters()&lt;/code&gt; to set data that
 is logged on every &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; event.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that caused ReCAPTCHA conflicts between &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and
 &lt;span class="notranslate"&gt;App Check&lt;/span&gt; when using ReCAPTCHA Enterprise in &lt;span class="notranslate"&gt;App Check&lt;/span&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6133"&gt;Github issue #6133&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -2344,7 +2344,7 @@ override default queries.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6508"&gt;Github PR #6508&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Reverted the type of &lt;code dir="ltr" translate="no"&gt;action&lt;/code&gt; parameter for &lt;code dir="ltr" translate="no"&gt;DataSnapshot.forEach()&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6368"&gt;Github issue #6368&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.9.4 - September 1, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_994_-_september_1_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.9.4 - September 1, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_994_-_september_1_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed proactive refresh logic in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; when &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, or &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; are in use.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6544"&gt;Github PR #6544&lt;/a&gt;.&lt;/li&gt;
@@ -2355,7 +2355,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6560"&gt;Github
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that threw a &lt;code dir="ltr" translate="no"&gt;FAILED_PRECONDITION&lt;/code&gt; error when writing
 to a deleted document in a transaction.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6550"&gt;Github issue #6550&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.10.0 - September 15, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_9100_-_september_15_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.10.0 - September 15, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_9100_-_september_15_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated custom claim type of &lt;code dir="ltr" translate="no"&gt;ParsedToken&lt;/code&gt; to be &lt;code dir="ltr" translate="no"&gt;any&lt;/code&gt;. This more
 accurately reflects that a JWT may contain any valid JSON object.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6553"&gt;Github issue #6553&lt;/a&gt;.&lt;/li&gt;
@@ -2476,7 +2476,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6838"&gt;Gith
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed unused &lt;code dir="ltr" translate="no"&gt;peerDependencies&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;@firebase/auth-interop-types&lt;/code&gt;.
 This should remove installation warnings for &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt; users.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6940"&gt;Github PR #6940&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a fix to minimize a potential race condition between
 initialization of the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; SDK and &lt;code dir="ltr" translate="no"&gt;signInWithRedirect&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6827"&gt;Github issue #6827&lt;/a&gt;.&lt;/li&gt;
@@ -2496,7 +2496,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6935"&gt;Gith
 &lt;/ul&gt;</description></item><item><title>Version 9.17.0 - February 2, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_9170_-_february_2_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added browser CJS entry points (expected by Jest when using JSDOM mode).
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6981"&gt;Github PR #6981&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Exposed &lt;code dir="ltr" translate="no"&gt;TOKEN_EXPIRED&lt;/code&gt; error when multi-factor authentication (MFA) unenroll logs out the user.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6973"&gt;Github PR #6973&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2513,7 +2513,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6944"&gt;Gith
 fixes a bug introduced in 9.17.0 that prevented some bundlers and frameworks
 from building. For these build failures, the error text is: "Default
 condition should be last one".&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.17.2 - March 2, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_9172_-_march_2_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.17.2 - March 2, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_9172_-_march_2_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Modified &lt;code dir="ltr" translate="no"&gt;_fail(...)&lt;/code&gt; to use &lt;code dir="ltr" translate="no"&gt;AuthErrorCode.INTERNAL_ERROR&lt;/code&gt; and
 accept an error message.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7038"&gt;Github PR #7038&lt;/a&gt;.&lt;/li&gt;
@@ -2538,7 +2538,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6952"&gt;Github
 &lt;code dir="ltr" translate="no"&gt;toByteStreamReaderHelper&lt;/code&gt; which previously only raised an &lt;code dir="ltr" translate="no"&gt;unimplemented&lt;/code&gt;
 error.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7058"&gt;Github PR #7058&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.18.0 - March 16, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_9180_-_march_16_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.18.0 - March 16, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_9180_-_march_16_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where &lt;code dir="ltr" translate="no"&gt;updateCurrentUser&lt;/code&gt; set user metadata to &lt;code dir="ltr" translate="no"&gt;undefined&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/7066"&gt;Github issue #7066&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2551,7 +2551,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7076"&gt;Github
 This is helpful for Cordova apps that lack &lt;code dir="ltr" translate="no"&gt;appVersion&lt;/code&gt; in their
 webview but need to apply the workaround.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6509"&gt;Github issue #6509&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.19.0 - March 30, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_9190_-_march_30_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.19.0 - March 30, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_9190_-_march_30_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Support &lt;code dir="ltr" translate="no"&gt;TOTP&lt;/code&gt; as a multi-factor option in Firebase Auth/GCIP.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7146"&gt;Github PR #7146&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Modify &lt;code dir="ltr" translate="no"&gt;_fail(...)&lt;/code&gt; to use  &lt;code dir="ltr" translate="no"&gt;AuthErrorCode.NETWORK_REQUEST_FAILED&lt;/code&gt; and accept an error message.
@@ -2564,7 +2564,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7155"&gt;Github
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7015"&gt;Github PR #7015&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Verify &lt;code dir="ltr" translate="no"&gt;DOMException&lt;/code&gt; exists before referencing it.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7130"&gt;Github PR #7130&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.19.1 - March 31, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_9191_-_march_31_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.19.1 - March 31, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_9191_-_march_31_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed typings for &lt;code dir="ltr" translate="no"&gt;TotpMultiFactorGenerator&lt;/code&gt;.
 This fixes a reversion in 9.19.0.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/7174"&gt;Github issue #7174&lt;/a&gt;.&lt;/li&gt;
@@ -2574,7 +2574,7 @@ errors and then prevents the SDK from making a request to
 the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; exchange endpoint, which prevents unnecessary 403 errors
 and throttling.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7203"&gt;Github PR #7203&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;span class="notranslate"&gt;App Check&lt;/span&gt; support in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added ReCAPTCHA Enterprise support.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2606,7 +2606,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7170"&gt;Github
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated exports of &lt;code dir="ltr" translate="no"&gt;webchannel-wrapper&lt;/code&gt; (a Firestore dependency) to
 conform to Node ESM standards.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7228"&gt;Github PR #7228&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Increased the popup poller timeout to 8s to support blocking functions
 for Firefox.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7140"&gt;Github PR #7140&lt;/a&gt;.&lt;/li&gt;
@@ -2615,7 +2615,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7140"&gt;Github
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7263"&gt;Github PR #7263&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved error handling for heartbeat read/write errors.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6871"&gt;Github issue #6871&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The SDK now allows port numbers in &lt;code dir="ltr" translate="no"&gt;authDomain&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/7233"&gt;Github issue #7233&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2647,7 +2647,7 @@ to the compat packages. See &lt;a href="https://github.com/firebase/firebase-js-
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7356"&gt;Github PR #7356&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.0.0 - July 6, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_1000_-_july_6_2023</link><description>&lt;p&gt;The Firebase JavaScript SDK v10.0.0 has a number of &lt;strong&gt;breaking changes&lt;/strong&gt;
 related to the React Native bundle for &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, as well as typings changes
-across several products.&lt;/p&gt;&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+across several products.&lt;/p&gt;&lt;h3 data-text="Authentication" id="authentication_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed explicit &lt;code dir="ltr" translate="no"&gt;firebase/auth/react-native&lt;/code&gt; entry point. The
 React Native bundle should be automatically picked up by React Native build
 tools which recognize the &lt;code dir="ltr" translate="no"&gt;react-native&lt;/code&gt; fields in &lt;code dir="ltr" translate="no"&gt;package.json&lt;/code&gt; (at the top
@@ -2673,7 +2673,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7318"&gt;Github
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed some incorrectly generated source maps for the following
 bundles: &lt;code dir="ltr" translate="no"&gt;index.esm2017.js&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;index.cjs.js&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;index.node.mjs&lt;/code&gt;, and
 &lt;code dir="ltr" translate="no"&gt;index.browser.esm2017.js&lt;/code&gt; (lite SDK only).&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.1.0 - July 20, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_1010_-_july_20_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.1.0 - July 20, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_1010_-_july_20_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Implemented &lt;code dir="ltr" translate="no"&gt;authStateReady()&lt;/code&gt;, which returns a promise that
 resolves immediately when the initial auth state is settled and &lt;code dir="ltr" translate="no"&gt;currentUser&lt;/code&gt;
 is available. When the promise is resolved, &lt;code dir="ltr" translate="no"&gt;currentUser&lt;/code&gt; might be a
@@ -2688,7 +2688,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7452"&gt;Github
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;count&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;firestore-lite&lt;/code&gt; API queries did not work with
 named databases.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7440"&gt;Github PR #7440&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.2.0 - August 17, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_1020_-_august_17_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.2.0 - August 17, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_1020_-_august_17_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a
 &lt;a href="https://firebase.google.com/docs/reference/js/auth.md#validatepassword"&gt;&lt;code dir="ltr" translate="no"&gt;validatePassword&lt;/code&gt;&lt;/a&gt; method for validating passwords against
 the password policy configured for the project or a tenant. This method
@@ -2701,7 +2701,7 @@ in a Node.js environment.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;@grpc/proto-loader&lt;/code&gt; from v0.6.13 to v0.7.8. This addresses
 a vulnerability in an older version of the transitive dependency &lt;code dir="ltr" translate="no"&gt;protobufjs&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.3.0 - August 22, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_1030_-_august_22_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.3.0 - August 22, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_1030_-_august_22_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression in version 10.0.0 caused by adding
 a hard dependency on &lt;code dir="ltr" translate="no"&gt;@react-native-async-storage/async-storage&lt;/code&gt;
 as a convenience for React Native developers. This caused
@@ -2735,13 +2735,13 @@ instead of &lt;code dir="ltr" translate="no"&gt;fetch&lt;/code&gt; for streaming
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;sum&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;average&lt;/code&gt; aggregations.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a default template type parameter to &lt;code dir="ltr" translate="no"&gt;withConverter()&lt;/code&gt;
 methods to allow backward compatibility with version 9 of the SDK.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.5.1 - October 26, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_1051_-_october_26_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.5.1 - October 26, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_1051_-_october_26_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issues with &lt;code dir="ltr" translate="no"&gt;FetchProvider&lt;/code&gt; in non-browser environments. See
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/7633"&gt;Github issue #7633&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Clarified API documentation around &lt;code dir="ltr" translate="no"&gt;getFirestore()&lt;/code&gt; and 
 &lt;code dir="ltr" translate="no"&gt;initializeFirestore()&lt;/code&gt; functions.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.5.2 - October 26, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_1052_-_october_26_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.5.2 - October 26, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_1052_-_october_26_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;TotpMultiFactorGenerator&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;TotpSecret&lt;/code&gt; exports
 that were missing from the React Native entry point.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2750,7 +2750,7 @@ queries. This bug was introduced in 10.4.0.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.6.0 - November 9, 2023</title><link>https://firebase.google.com/support/release-notes/js#version_1060_-_november_9_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Provide a more robust check to cover more cases of empty heartbeat
 data.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add Sign in with Apple token revocation support.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Allow converter return value of undefined. See
@@ -2761,7 +2761,7 @@ of &lt;code dir="ltr" translate="no"&gt;undici&lt;/code&gt; in Node.js SDK build
 Storage. See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/7280"&gt;GitHub issue #7280&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Introduced more safeguards to ensure that heartbeat objects
 queried from IndexedDB include a heartbeats field.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Exposed &lt;code dir="ltr" translate="no"&gt;INVALID_LOGIN_CREDENTIALS&lt;/code&gt; as &lt;code dir="ltr" translate="no"&gt;auth/invalid-credential&lt;/code&gt;
 error and updated docs for various Auth SDK methods.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2772,7 +2772,7 @@ error and updated docs for various Auth SDK methods.&lt;/li&gt;
 cancelled promises are part of App Check's expected behavior, and their
 cancellation wasn't intended to produce errors or warnings. See 
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/7805"&gt;GitHub issue #7805&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added protections when enumerating an empty list in Auth's reading
 of IndexedDB results, as this causes errors in some macOS and iOS browser
 runtimes. See 
@@ -2796,7 +2796,7 @@ optimal values for the platform/browser detected at runtime.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed to catch &lt;code dir="ltr" translate="no"&gt;transaction.done&lt;/code&gt; errors in
 &lt;code dir="ltr" translate="no"&gt;readHeartbeatsFromIndexedDB&lt;/code&gt; and log them as a warning, because platform
 logging errors should never block user app functionality.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a &lt;code dir="ltr" translate="no"&gt;firebase/auth/web-extension&lt;/code&gt; entry point for web
 extension developers. This entry point does not include any code that loads
 remote scripts, which are disallowed under
@@ -2816,7 +2816,7 @@ and developers should not try to use both in the same app. See
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgrade &lt;code dir="ltr" translate="no"&gt;undici&lt;/code&gt; version to &lt;code dir="ltr" translate="no"&gt;5.28.3&lt;/code&gt; due to the low severity
 security issue
 &lt;a href="https://github.com/advisories/GHSA-3787-6prv-h9w3"&gt;CVE-2024-24758&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.9.0 - March 14, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_1090_-_march_14_2024</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.9.0 - March 14, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_1090_-_march_14_2024</link><description>&lt;h3 data-text="Authentication" id="authentication_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential XSS vulnerability through &lt;code dir="ltr" translate="no"&gt;FIREBASE_DEFAULTS&lt;/code&gt;
 settings. See 
 &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8056"&gt;PR #8056&lt;/a&gt; for more
@@ -2828,7 +2828,7 @@ provide an option to retrieve data from local cache only.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the new &lt;code dir="ltr" translate="no"&gt;FirebaseServerApp&lt;/code&gt; interface to bridge state data
 between client and server runtime environments. This interface extends
 &lt;code dir="ltr" translate="no"&gt;FirebaseApp&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated transitive dependencies based on generated dependabot
 security reports. See
 &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8088"&gt;GitHub PR #8088&lt;/a&gt;.&lt;/li&gt;
@@ -2850,7 +2850,7 @@ to incorrect query results. See
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Revised token update logic to prevent unnecessary token deletions
 during transient network issues. See 
 &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8141"&gt;GitHub PR #8141&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.11.1 - April 25, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_10111_-_april_25_2024</link><description>&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.11.1 - April 25, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_10111_-_april_25_2024</link><description>&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The SDK now emits a module package file with &lt;code dir="ltr" translate="no"&gt;esm2017&lt;/code&gt; browser
 extension builds. See
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8115"&gt;GitHub Issue #8115&lt;/a&gt;.&lt;/li&gt;
@@ -2882,7 +2882,7 @@ parameters to &lt;code dir="ltr" translate="no"&gt;gtag()&lt;/code&gt;. See
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8210"&gt;GitHub Issue #8210&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a multi-tab persistence issue that caused empty snapshots.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.12.2 - May 27, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_10122_-_may_27_2024</link><description>&lt;h3 data-text="Authentication" id="authentication_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.12.2 - May 27, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_10122_-_may_27_2024</link><description>&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;types&lt;/code&gt; paths to point to rolled-up public &lt;code dir="ltr" translate="no"&gt;d.ts&lt;/code&gt; files.
 This fixes TypeScript compilation errors in the web extension and cordova
 bundles. See
@@ -2917,7 +2917,7 @@ parameters.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Prevent heartbeats from throwing errors. Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8407"&gt;GitHub Issue #8407&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for reading and writing Firestore vectors. See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8215"&gt;GitHub PR #8215&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remove &lt;code dir="ltr" translate="no"&gt;localStorage&lt;/code&gt; synchronization on storage events in Safari iframes. See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8408"&gt;GitHub PR #8408&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Migrate from the Node to the Web ReadableStream. See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8410"&gt;GitHub PR #8410&lt;/a&gt;.&lt;/li&gt;
@@ -2926,7 +2926,7 @@ parameters.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;undici&lt;/code&gt; dependency to 6.19.7 due to a memory leak in older versions. See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8431"&gt;GitHub Issue #8431&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK" id="cloud-functions-for-firebase-client-sdk_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Allow a custom path in Firebase Functions custom domain. See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8440"&gt;GitHub Issue #8440&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.13.2 - September 18, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_10132_-_september_18_2024</link><description>&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.13.2 - September 18, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_10132_-_september_18_2024</link><description>&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Suppress the use of the parameter &lt;code dir="ltr" translate="no"&gt;referrerPolicy&lt;/code&gt; within &lt;code dir="ltr" translate="no"&gt;fetch&lt;/code&gt;
 requests originating from Cloudflare Workers. Cloudflare Worker environments
 do not support this parameter and all Auth operations would silently fail.
@@ -2935,7 +2935,7 @@ Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8355"&gt;Gi
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix an issue with metadata &lt;code dir="ltr" translate="no"&gt;fromCache&lt;/code&gt; defaulting to &lt;code dir="ltr" translate="no"&gt;true&lt;/code&gt; when
 listening to cache in multiple browser tabs. See
 &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8343"&gt;GitHub PR #8343&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.14.0 - September 30, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_10140_-_september_30_2024</link><description>&lt;h3 data-text="Data Connect" id="data-connect_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.14.0 - September 30, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_10140_-_september_30_2024</link><description>&lt;h3 data-text="Data Connect" id="data-connect_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; package to the SDK.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;span class="notranslate"&gt;App Check&lt;/span&gt; support.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2966,7 +2966,7 @@ this.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed ES5 bundles. The minimum required ES version is now ES2017.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed usage of &lt;code dir="ltr" translate="no"&gt;undici&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;node-fetch&lt;/code&gt; dependencies in our Node.js
 bundles, replacing them with the native Node.js &lt;code dir="ltr" translate="no"&gt;fetch&lt;/code&gt; implementation.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added ReCAPTCHA Enterprise support for app verification during
 phone authentication.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK" id="cloud-functions-for-firebase-client-sdk_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2981,24 +2981,24 @@ Node.js &lt;code dir="ltr" translate="no"&gt;engines&lt;/code&gt; update in &lt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded to TypeScript 5.5.4.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Prevent a possible condition of slow snapshots, caused by a rapid series of document update(s) followed by a delete. Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8474"&gt;GitHub Issue #8474&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai_3" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai_4" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Update to new base URL in documentation.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Remove indentation in &lt;code dir="ltr" translate="no"&gt;API Not Enabled&lt;/code&gt; error.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Send App Check dummy token in header if there is an App Check &lt;code dir="ltr" translate="no"&gt;getToken&lt;/code&gt; error.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.1.0 - December 12, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_1110_-_december_12_2024</link><description>&lt;h3 data-text="Cloud Functions for Firebase Client SDK" id="cloud-functions-for-firebase-client-sdk" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;.stream()&lt;/code&gt; API for callable functions to consume stream
 responses.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where multiple calls to &lt;code dir="ltr" translate="no"&gt;connectDataConnectEmulator&lt;/code&gt;
 caused an exception.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;PushManager.subscribe()&lt;/code&gt; is called too soon
 after registering the default service worker. Fixes
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/7784"&gt;GitHub Issue #7784&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai_3" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Clear &lt;code dir="ltr" translate="no"&gt;fetch&lt;/code&gt; &lt;code dir="ltr" translate="no"&gt;timeout&lt;/code&gt; after request completion. Fixes an issue
 that caused Node.js scripts to hang on exit due to a pending timeout.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.2.0 - January 16, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1120_-_january_16_2025</link><description>&lt;h3 data-text="Data Connect" id="data-connect_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.2.0 - January 16, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1120_-_january_16_2025</link><description>&lt;h3 data-text="Data Connect" id="data-connect_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Usage of &lt;code dir="ltr" translate="no"&gt;PromiseLike&lt;/code&gt; has been replaced with &lt;code dir="ltr" translate="no"&gt;Promise&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for custom signal targeting. Use the
@@ -3006,7 +3006,7 @@ that caused Node.js scripts to hang on exit due to a pending timeout.&lt;/li&gt;
 the new custom signal condition type in the Remote Config console.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.3.0 - February 6, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1130_-_february_6_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an &lt;code dir="ltr" translate="no"&gt;appCheckToken&lt;/code&gt; parameter to &lt;code dir="ltr" translate="no"&gt;FirebaseServerAppSettings&lt;/code&gt;. &lt;code dir="ltr" translate="no"&gt;FirebaseServerApp&lt;/code&gt; will use the token when making service requests, unblocking the use of App Check enforced products in SSR environments.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;ActionCodeSettings.linkDomain&lt;/code&gt; to customize the Firebase Hosting link domain that is used in mobile out-of-band email action flows. Also, deprecated &lt;code dir="ltr" translate="no"&gt;ActionCodeSettings.dynamicLinkDomain&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Collect web vital metrics (INP,CLS,LCP) as part of page load event.&lt;/li&gt;
@@ -3020,7 +3020,7 @@ the new custom signal condition type in the Remote Config console.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the &lt;code dir="ltr" translate="no"&gt;FIREBASE_WEBAPP_CONFIG&lt;/code&gt; environment
 variable at install time. This feature supports auto-initialization for SSR
 apps using &lt;span class="notranslate"&gt;Firebase App Hosting&lt;/span&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Invoking &lt;code dir="ltr" translate="no"&gt;connectAuthEmulator&lt;/code&gt; multiple times with the same
 parameters will no longer cause an error.
 Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6824"&gt;GitHub issue #6824&lt;/a&gt;.&lt;/li&gt;
@@ -3031,7 +3031,7 @@ exchange request failed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Invoking &lt;code dir="ltr" translate="no"&gt;connectDatabaseEmulator&lt;/code&gt; multiple times with the same
 parameters will no longer cause an error.
 Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6824"&gt;GitHub issue #6824&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;strong&gt;Public Preview&lt;/strong&gt;: Added support for
 &lt;a href="/docs/vertex-ai/generate-images-imagen"&gt;generating images using the Imagen 3 models&lt;/a&gt;.&lt;/p&gt;
 &lt;aside class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;span&gt; This feature is in Public Preview, which means that it is not
@@ -3053,7 +3053,7 @@ were previously internally suppressed. Fixes
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Implemented lazy UTF-8 encoded byte comparison for strings. Fixes
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8774"&gt;GitHub issue #8774&lt;/a&gt;
 and &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8778"&gt;#8778&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated requests to point to the &lt;code dir="ltr" translate="no"&gt;v1&lt;/code&gt; backend endpoints instead of
 &lt;code dir="ltr" translate="no"&gt;v1beta&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3061,8 +3061,19 @@ and &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8778"&gt;#877
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8813"&gt;GitHub issue #8813&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added non-null parent properties to &lt;code dir="ltr" translate="no"&gt;ThenableReference&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added missing &lt;code dir="ltr" translate="no"&gt;BlockReason&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;FinishReason&lt;/code&gt; enum values.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;systemInstruction&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;tools&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;generationConfig&lt;/code&gt; have been
 added to &lt;code dir="ltr" translate="no"&gt;CountTokensRequest&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.6.0 - March 31, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1160_-_march_31_2025</link><description>&lt;h3 data-text="Authentication" id="authentication" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;Persistence.COOKIE&lt;/code&gt;, a new persistence method backed by
+cookies. The &lt;code dir="ltr" translate="no"&gt;browserCookiePersistence&lt;/code&gt; implementation is designed to be used
+in conjunction with middleware that ensures both your front and backend
+authentication state remain synchronized.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Exposed partial errors to the user.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The SDK now throws an error when initializing models if &lt;code dir="ltr" translate="no"&gt;appId&lt;/code&gt;
+is not defined in the given &lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; instance.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Labeled &lt;code dir="ltr" translate="no"&gt;GroundingAttribution&lt;/code&gt; as deprecated.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
