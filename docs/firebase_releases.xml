@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 03 Apr 2025 15:14:15 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 03 Apr 2025 18:20:10 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -4689,4 +4689,13 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 This release includes changes in &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, Core, and
 &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;, as well as bug fixes in &lt;span class="notranslate"&gt;App Check&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate></item><item><title>April 03, 2025</title><link>https://firebase.google.com/support/releases#april_03_2025</link><description>&lt;h3 data-text="Gemini in Firebase" id="gemini-in-firebase-messaging-context" tabindex="-1"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; (no-cost) now provides contextual awareness
+and access to &lt;a href="/docs/cloud-messaging/ai-insights"&gt;Messaging
+insights&lt;/a&gt;. Learn more at
+&lt;a href="/docs/gemini-in-firebase"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-J606F-30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device has been deprecated and will
+be removed on 2025-05-03: J606F/30. If you are currently using
+this device, please move to a different device.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate></item></channel></rss>
