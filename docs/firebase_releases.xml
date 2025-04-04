@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 04 Apr 2025 15:15:34 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 04 Apr 2025 18:20:04 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -4616,8 +4616,8 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 both the
 Gemini Developer API (Google AI) and the Gemini Enterprise API (Vertex AI).&lt;/p&gt;
 &lt;p&gt;If you use these models with &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; or with &lt;span class="notranslate"&gt;Genkit&lt;/span&gt;, make
-sure to &lt;strong&gt;update to a &lt;span class='\"notranslate\"'&gt;Gemini 2.0&lt;/span&gt; model to avoid service disruption.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Here are the upcoming discontinuation dates for the 1.5 and 1.0 models:&lt;/p&gt;
+sure to &lt;strong&gt;update to a newer model to avoid service disruption.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here are the upcoming &lt;strong&gt;discontinuation&lt;/strong&gt; dates for the 1.5 and 1.0 models:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class='\"notranslate\"'&gt;Gemini 1.5 Pro&lt;/span&gt; models:&lt;/p&gt;
 &lt;ul&gt;
@@ -4629,8 +4629,8 @@ sure to &lt;strong&gt;update to a &lt;span class='\"notranslate\"'&gt;Gemini 2.
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-1.5-flash-002&lt;/code&gt; (and &lt;code dir="ltr" translate="no"&gt;gemini-1.5-flash&lt;/code&gt;): September 24, 2025&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-1.5-flash-001&lt;/code&gt;: May 24, 2025&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class='\"notranslate\"'&gt;Gemini 1.0 Pro Vision&lt;/span&gt; models: April 09, 2025&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class='\"notranslate\"'&gt;Gemini 1.0 Pro&lt;/span&gt; models: April 09, 2025&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class='\"notranslate\"'&gt;Gemini 1.0 Pro Vision&lt;/span&gt; models: April 21, 2025 &lt;em&gt;(previously scheduled for April 09, 2025)&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class='\"notranslate\"'&gt;Gemini 1.0 Pro&lt;/span&gt; models: April 21, 2025 &lt;em&gt;(previously scheduled for April 09, 2025)&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate></item><item><title>March 24, 2025</title><link>https://firebase.google.com/support/releases#march_24_2025</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; now supports multi-region &lt;code dir="ltr" translate="no"&gt;nam7&lt;/code&gt; United States
