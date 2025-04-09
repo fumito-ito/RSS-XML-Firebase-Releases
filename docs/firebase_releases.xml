@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 09 Apr 2025 15:18:32 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 09 Apr 2025 18:20:47 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -4705,4 +4705,103 @@ this device, please move to a different device.&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone11pro/14.7&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone12pro/14.8&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate></item><item><title>April 09, 2025</title><link>https://firebase.google.com/support/releases#april_09_2025</link><description>&lt;h3 data-text="Firebase Studio" id="firebase-studio-public-preview" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; We're excited to announce that &lt;span class="notranslate"&gt;Project IDX&lt;/span&gt; is now part of
+&lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;! &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt; is an agentic, cloud-based
+development environment that helps you build and ship production-quality,
+full-stack AI apps, including APIs, backends, frontends, mobile, and more.&lt;/p&gt;
+&lt;p&gt;With &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;, you can use
+&lt;a href="/docs/studio/get-started-ai"&gt;the &lt;span class="notranslate"&gt;App Prototyping agent&lt;/span&gt;&lt;/a&gt; to rapidly
+prototype and generate AI-forward web apps using multimodal prompts,
+including natural language, images, and drawing tools.&lt;/p&gt;
+&lt;p&gt;While &lt;span class="notranslate"&gt;Project IDX&lt;/span&gt; is now part of Firebase, the core features remain the
+same, including the ability to build new apps, import existing projects, and
+work in a familiar Code OSS environment, running fully in the cloud and
+accessible from your browser.&lt;/p&gt;
+&lt;p&gt;Learn more at &lt;a href="/docs/studio"&gt;&lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Hosting" id="app-hosting-generally-available" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; We're excited to announce that &lt;span class="notranslate"&gt;Firebase App Hosting&lt;/span&gt; is now
+Generally Available (GA) and can be used for production apps.
+&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; is a serverless web hosting service for modern, full-stack web
+frameworks.&lt;/p&gt;
+&lt;p&gt;With the GA release of &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;, you can now:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Migrate your domain with zero downtime for your app&lt;/li&gt;
+&lt;li&gt;Monitor requests, logs, and usage in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/li&gt;
+&lt;li&gt;Instantly roll back to a previous version of your app&lt;/li&gt;
+&lt;li&gt;Iterate rapidly with the local emulator&lt;/li&gt;
+&lt;li&gt;Connect your app to a VPC network, to access backend services that aren't
+accessible on public IP addresses&lt;/li&gt;
+&lt;li&gt;Customize your app’s build and start commands&lt;/li&gt;
+&lt;li&gt;Deploy to regions in the United States, Europe, and Asia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more information, see
+&lt;a href="http://firebase.blog/posts/2025/04/apphosting-general-availability"&gt;&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; is now generally available&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect-generally-available" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; We're excited to announce that &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; is now
+Generally Available (GA) and can be used for production apps.
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; is a relational database service for mobile and web
+apps that lets you build and scale using a fully-managed PostgreSQL database
+powered by GraphQL and Cloud SQL.&lt;/p&gt;
+&lt;p&gt;With the GA release of &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, you can now:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use natural language to describe your app's data model and
+Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; will provide you with a schema that matches the data
+model&lt;/li&gt;
+&lt;li&gt;Take advantage of more query and mutation features&lt;/li&gt;
+&lt;li&gt;Connect to existing Cloud SQL databases&lt;/li&gt;
+&lt;li&gt;Start building with newly supported web frameworks: Angular and React&lt;/li&gt;
+&lt;li&gt;Manage your schemas and connectors as they evolve with new helpful tooling&lt;/li&gt;
+&lt;li&gt;At deploy time, get audits of your queries and mutations that prompt you to
+review security of your operations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We've also
+&lt;a href="/docs/data-connect/pricing"&gt;updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; pricing&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more information, see
+&lt;a href="https://firebase.blog/posts/2025/04/dataconnect-general-availability"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; is now generally available&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Distribution" id="app-distribution-app-testing-agent-preview" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Introducing the Firebase App Testing agent, now available in
+Preview. You can use the power of AI to create and run tests based on
+natural language prompts that you provide.&lt;/p&gt;
+&lt;p&gt;The agent creates step by step tests that you can run on various virtual and
+physical devices to make sure your app is of the highest quality.
+For more information,
+see &lt;a href="/docs/app-distribution/android/app-testing-agent"&gt;App Testing agent&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Gemini in Firebase" id="gemini-in-firebase-cloud-next-2025" tabindex="-1"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; AI assistance is now integrated within the
+following Firebase products and features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/docs/studio/get-started-ai"&gt;The &lt;span class="no translate"&gt;App Prototyping agent&lt;/span&gt;&lt;/a&gt; and
+&lt;a href="/docs/studio/get-started-workspace"&gt;&lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt; workspaces&lt;/a&gt;&lt;br/&gt;
+You can use agentic development experiences, directly in your workspace
+using Gemini in Firebase. Learn more at
+&lt;a href="/docs/studio/ai-assistance"&gt;AI assistance in &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; schema generation in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;br/&gt;
+You can use natural language to describe your app's data model and
+Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; will provide you with a schema that matches the data
+model. Learn more at
+&lt;a href="/docs/data-connect/ai-assistance#schemas"&gt;Use AI assistance for schemas&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The Firebase App Testing agent&lt;br/&gt;
+You can use the power of AI to create and run tests based on natural
+language prompts that you provide. The agent will create step by step tests
+that you can run on various virtual and physical devices to make sure your
+app is of the highest quality. Learn more at
+&lt;a href="/docs/app-distribution/android/app-testing-agent"&gt;App Testing agent&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-live-api-public-preview-flutter-android" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; now supports using the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt; directly
+from your mobile and web client apps. With the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt; you can build
+low-latency, two-way interactions where you can stream both input and output –
+both text and audio.&lt;/p&gt;
+&lt;p&gt;Support for the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt; is in Public Preview. Also, in this initial
+release, only Android and Flutter are supported (Apple platforms and Web are
+coming soon!)&lt;/p&gt;
+&lt;p&gt;Learn more in
+&lt;a href="/docs/vertex-ai/live-api"&gt;Stream inputs and outputs using the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;, make sure that you're using &lt;em&gt;at minimum&lt;/em&gt; these
+versions of the Firebase libraries:&lt;br/&gt;
+&lt;strong&gt;iOS+&lt;/strong&gt;: &lt;em&gt;not yet supported&lt;/em&gt; |
+&lt;strong&gt;Android&lt;/strong&gt;: v16.3.0+ (&lt;span class="notranslate"&gt;BoM&lt;/span&gt;: v33.12.0+) |
+&lt;strong&gt;Web&lt;/strong&gt;: &lt;em&gt;not yet supported&lt;/em&gt; |
+&lt;strong&gt;Flutter&lt;/strong&gt;: v1.5.0+ (BoM: v3.9.0+)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate></item></channel></rss>
