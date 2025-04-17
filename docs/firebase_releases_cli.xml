@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 17 Apr 2025 18:20:38 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 17 Apr 2025 21:14:09 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -1318,9 +1318,51 @@ there were no testers.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where Vertex AI API would not be automatically enabled
 when emulating &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; services that use it.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.0.1 - March 28, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1401_-_march_28_2025</link><description>&lt;ul&gt;
-&lt;li&gt;Fixed a bug where the Admin SDK would not automatically connect to the
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where the Admin SDK would not automatically connect to the
 &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator when run in the &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; emulator.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8379"&gt;#8379&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Fixed &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; deployment failure when service account is null.
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; deployment failure when service account is null.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8378"&gt;#8378&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.1.0 - April 03, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1410_-_april_03_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Extensions&lt;/span&gt; emulator did not provide
+fallback values for v2 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; event triggers.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8390"&gt;#8390&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with prompt when &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; prompts
+developer for framework generation.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where the Admin SDK fails with &lt;code dir="ltr" translate="no"&gt;ENOTFOUND&lt;/code&gt; when
+automatically connecting to the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator when run in
+the Functions emulator.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8379"&gt;#8379&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.1.0 which
+includes the following changes:
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8400"&gt;#8400&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;Added support for update transforms.&lt;/li&gt;
+&lt;li&gt;Added support for server value expressions for Int, Float, String, Date,
+Timestamp, and UUID data types.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where CommonJS modules don't reference ref functions
+properly.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.2.0 - April 16, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1420_-_april_16_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue in the &lt;span class="notranslate"&gt;Extensions&lt;/span&gt; emulator where parameter
+default values would not be substituted into resource definitions.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed so that artifact registry dry run is kept off for policy
+changes.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8419"&gt;#8419&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for creation of paid Cloud SQL instances for
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; when the free trial has already been used.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.2.0, which
+contains the following changes:
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8434"&gt;#8434&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;Added support for aggregate functions on singular fields.&lt;/li&gt;
+&lt;li&gt;Added the ability to get an operation name without calling the &lt;code dir="ltr" translate="no"&gt;ref&lt;/code&gt;
+function in the generated web SDK.&lt;/li&gt;
+&lt;li&gt;Properly enforced one-of validation on &lt;code dir="ltr" translate="no"&gt;inc&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;dec&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;append&lt;/code&gt;, and
+&lt;code dir="ltr" translate="no"&gt;prepend&lt;/code&gt; update transforms. Existing deployed connectors that violate this
+constraint will still work, but will need to be fixed to use list syntax
+before being re-deployed.&lt;/li&gt;
+&lt;li&gt;Fixed an issue so that when using mutations with no variables, correct
+types are passed in.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
