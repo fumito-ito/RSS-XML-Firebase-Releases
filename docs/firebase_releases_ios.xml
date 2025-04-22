@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 22 Apr 2025 18:21:05 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_114" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 22 Apr 2025 21:14:20 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_114" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -4588,7 +4588,7 @@ types in the SDK's networking layer, and moving synchronous work off of
 the shared Swift concurrency queue (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13650"&gt;#13650&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Restore Firebase 10 behavior by forwarding errors from interrupted
 reCAPTCHA or OIDC login flows (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13645"&gt;#13645&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial public preview release of the SDK. For more information see the &lt;a href="//firebase.google.com/products/data-connect"&gt;Firebase Data Connect&lt;/a&gt; documentation.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improve efficiency of memory persistence when processing a large number of writes (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13572"&gt;#13572&lt;/a&gt;).&lt;/li&gt;
@@ -4723,7 +4723,7 @@ that this fix will not be in the 11.5.0 zip and Carthage distributions, but
 will be included from 11.6.0 onwards (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14067"&gt;#14067&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;upload-symbols&lt;/code&gt; to version 3.19, removed all methods requiring CFRelease and switched to modern classes (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13420"&gt;#13420&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Support for Swift 6 strict concurrency.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Logging within SDKs.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; SDK will throw errors if partial GraphQL errors are detected during operation execution.&lt;/li&gt;
@@ -4758,6 +4758,9 @@ from being decoded as &lt;code dir="ltr" translate="no"&gt;nil&lt;/code&gt; when
 that this fix was only needed for cases where Firebase 11 was reading data
 written by Firebase 10. Note that this fix will not be in the 11.6.0 zip and
 Carthage distributions, but will be included from 11.6.0 onwards (&lt;a href="/support/release-notes/(/github.com/firebase/firebase-ios-sdk/issues/14011)"&gt;#14011&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; FriendlyFlix - a comprehensive SwiftUI sample app.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Switched to using AppCheckInterop APIs to remove hard dependency on FirebaseAppCheck library.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Add conditional &lt;code dir="ltr" translate="no"&gt;Sendable&lt;/code&gt; conformance so &lt;code dir="ltr" translate="no"&gt;ServerTimestamp&amp;lt;T&amp;gt;&lt;/code&gt; is
 &lt;code dir="ltr" translate="no"&gt;Sendable&lt;/code&gt; if &lt;code dir="ltr" translate="no"&gt;T&lt;/code&gt; is &lt;code dir="ltr" translate="no"&gt;Sendable&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14042"&gt;#14042&lt;/a&gt;).&lt;/li&gt;
@@ -4848,6 +4851,8 @@ backwards-incompatible ways.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.10.0 - March 17, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_11100_-_march_17_2025</link><description>&lt;h3 data-text="Analytics" id="analytics_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal changes to improve new customer acquisition measurement.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dependency on Firebase iOS SDK changed to 'minimum version required' instead of an 'exact version'. This lets apps use the latest version of the Firebase iOS SDK.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Streaming callable functions are now supported.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4880,6 +4885,11 @@ for more info.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix the parameters for requestType in ActionCodeOperation (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14665"&gt;#14665&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;AnyValue&lt;/code&gt; type fixes to support decoding values fetched using PostgreSQL &lt;code dir="ltr" translate="no"&gt;jsonb_build_object&lt;/code&gt;. &lt;code dir="ltr" translate="no"&gt;AnyValue&lt;/code&gt; now internally stores data as a JSON value / dictionary instead of &lt;code dir="ltr" translate="no"&gt;Swift.Data&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Firebase Data Connect has exited beta and is now generally available for use.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change:&lt;/strong&gt; Refactored the base &lt;code dir="ltr" translate="no"&gt;DataConnectError&lt;/code&gt; error type to be a protocol instead of an enum and introduced concrete error types &lt;code dir="ltr" translate="no"&gt;DataConnectInitError&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;DataConnectCodecError&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;DataConnectOperationError&lt;/code&gt;. Note that if you have code using a &lt;code dir="ltr" translate="no"&gt;switch&lt;/code&gt; on the previous error enum, you will need to update that code. See the &lt;a class="external" href="//github.com/firebase/data-connect-ios-sdk/pull/42"&gt;PR&lt;/a&gt; for a usage example and &lt;code dir="ltr" translate="no"&gt;DataConnectError.swift&lt;/code&gt; for implementation details.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Support for partial errors via the above mentioned &lt;code dir="ltr" translate="no"&gt;DataConnectOperationError&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt; value handling in &lt;code dir="ltr" translate="no"&gt;isNotEqualTo&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;notIn&lt;/code&gt; filters.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
