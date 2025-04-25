@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 25 Apr 2025 09:16:01 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 25 Apr 2025 12:30:45 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -7204,4 +7204,35 @@ GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/i
 &lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-perf&lt;/code&gt; library. The Kotlin extensions library has no additional
-updates.&lt;/p&gt;</description></item></channel></rss>
+updates.&lt;/p&gt;</description></item><item><title>Update - March 31, 2025</title><link>https://firebase.google.com/support/release-notes/android#2025-03-31</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.12.0" id="bom_v33-12-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.12.0&lt;/h3&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK version 21.2.1" id="functions-client_v21-2-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt; version 21.2.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue that caused the SDK to crash when trying to stream a
+function that does not exist.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-functions&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Data Connect version 16.0.0" id="data-connect_v16-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 16.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;DataConnectOperationException&lt;/code&gt;, enabling support for
+partial errors; that is, any data that was received and/or was able to be
+decoded is now available via the "response" property of the exception thrown
+when a query or mutation is executed.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6794"&gt;#6794&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.3.0" id="vertex-ai_v16-3-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.3.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a warning when attempting to use an incompatible model with
+&lt;code dir="ltr" translate="no"&gt;GenerativeModel&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;ImagenModel&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added new exception type for quota-exceeded scenarios.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;CountTokenRequest&lt;/code&gt; to now include
+&lt;code dir="ltr" translate="no"&gt;GenerationConfig&lt;/code&gt; from the model.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Public Preview: Added support for low-latency bidirectional
+streaming (including audio) using the
+&lt;a href="/docs/vertex-ai/live-api"&gt;Gemini Live API&lt;/a&gt;.&lt;/p&gt;
+&lt;aside class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;span&gt; This feature is in Public Preview, which means that it is not subject to
+any SLA or deprecation policy and could change in backwards-incompatible ways.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Changed &lt;code dir="ltr" translate="no"&gt;ImagenInlineImage.data&lt;/code&gt; to now
+return the raw image bytes (in JPEG or PNG format, as specified in
+&lt;code dir="ltr" translate="no"&gt;ImagenInlineImage.mimeType&lt;/code&gt;) instead of Base64-encoded data.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6800"&gt;#6800&lt;/a&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Action Required:&lt;/strong&gt; Remove any Base64 decoding from your
+&lt;code dir="ltr" translate="no"&gt;ImagenInlineImage.data&lt;/code&gt; usage.&lt;/li&gt;
+&lt;li&gt;The &lt;code dir="ltr" translate="no"&gt;asBitmap()&lt;/code&gt; helper method is unaffected and requires no code changes.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
