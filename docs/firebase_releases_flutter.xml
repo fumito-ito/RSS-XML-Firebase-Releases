@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Flutter</title><link>https://firebase.google.com/support/release-notes/flutter</link><description>Latest updates and release notes for Firebase Flutter.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 28 Apr 2025 18:21:51 +0000</lastBuildDate><item><title>Flutter BoM version 1.0.0 - May 07, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-0</link></item><item><title>Flutter BoM version 1.0.1 - May 21, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-1</link></item><item><title>Flutter BoM version 1.1.0 - May 28, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-1-0</link><description>&lt;h3 data-text="Changelog" id="bom-v1-1-0_changelog" tabindex="-1"&gt;Changelog&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Flutter</title><link>https://firebase.google.com/support/release-notes/flutter</link><description>Latest updates and release notes for Firebase Flutter.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 28 Apr 2025 21:12:53 +0000</lastBuildDate><item><title>Flutter BoM version 1.0.0 - May 07, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-0</link></item><item><title>Flutter BoM version 1.0.1 - May 21, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-1</link></item><item><title>Flutter BoM version 1.1.0 - May 28, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-1-0</link><description>&lt;h3 data-text="Changelog" id="bom-v1-1-0_changelog" tabindex="-1"&gt;Changelog&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (android): remove unnecessary error type guarding (&lt;a href="https://github.com/firebase/flutterfire/issues/12816"&gt;#12816&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/7d4c200ac6f06a50c2e7ee852aea2c9fa7bcb0ff"&gt;7d4c200a&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (General): update Pigeon version to 19 (&lt;a href="https://github.com/firebase/flutterfire/issues/12828"&gt;#12828&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/5e76153fbcd337a26e83abc2b43b651ab6c501bc"&gt;5e76153f&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;ul&gt;
@@ -690,5 +690,34 @@ any SLA or deprecation policy and could change in backwards-incompatible ways.&l
 &lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_vertexai - v1.5.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Flutter BoM version 3.10.0 - April 28, 2025</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v3-10-0</link><description>&lt;h3 data-text="Changelog" id="bom-v3-10-0_changelog" tabindex="-1"&gt;Changelog&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (General): Change asserts to throw argumentError (&lt;a href="https://github.com/firebase/flutterfire/issues/17302"&gt;#17302&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/ec1e6a5eef149680b2750900d1f16d8074e09b38"&gt;ec1e6a5e&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (cloud_firestore): correct nanoseconds calculation for pre-1970 dates (&lt;a href="https://github.com/firebase/flutterfire/issues/17195"&gt;#17195&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/a13deae3334045fb1a48817ff9300cbe0696d177"&gt;a13deae3&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;cloud_firestore - v5.6.7&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;cloud_firestore_platform_interface - v6.6.7&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (General): add support for cloud functions stream (&lt;a href="https://github.com/firebase/flutterfire/issues/17214"&gt;#17214&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/509e0f3cc984a7b56a67979b4b27aff72defdd55"&gt;509e0f3c&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;cloud_functions - v5.5.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;cloud_functions_platform_interface - v5.7.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;cloud_functions_web - v4.11.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS): include missing email and credential in account-exists-with-different-credential error (&lt;a href="https://github.com/firebase/flutterfire/issues/17180"&gt;#17180&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/2a0bdc64086e99f8a98bd18b472b36bcfe05a9a4"&gt;2a0bdc64&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_auth - v5.5.3&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (General): add missing HarmBlockThreshold to exported APIs (&lt;a href="https://github.com/firebase/flutterfire/issues/17249"&gt;#17249&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/59d902c63bd1bd040f5357cb6a341db446429430"&gt;59d902c6&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; BREAKING (General): Live API breaking changes (&lt;a href="https://github.com/firebase/flutterfire/issues/17299"&gt;#17299&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/69cd2a640d25e0f2b623f2e631d090ead8af140d"&gt;69cd2a64&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_vertexai - v1.6.0&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
