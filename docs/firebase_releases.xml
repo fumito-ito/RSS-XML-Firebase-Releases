@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 02 May 2025 15:15:37 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 02 May 2025 18:20:42 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -4866,7 +4866,7 @@ To install this SDK, see
 (v3.10.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, and bug fixes in
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate></item><item><title>May 1, 2025</title><link>https://firebase.google.com/support/releases#may_1_2025</link><description>&lt;h3 data-text="Firebase Data Connect" id="mutation-operation-update" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate></item><item><title>May 01, 2025</title><link>https://firebase.google.com/support/releases#may_01_2025</link><description>&lt;h3 data-text="Firebase Data Connect" id="mutation-operation-update" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; To speed implementation of mutations, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; has
 expanded built-in update operation support:&lt;/p&gt;
 &lt;ul&gt;
@@ -4874,4 +4874,13 @@ expanded built-in update operation support:&lt;/p&gt;
 &lt;li&gt;Mutations can now contain &lt;code dir="ltr" translate="no"&gt;add&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;remove&lt;/code&gt; operators to supplement
 the existing &lt;code dir="ltr" translate="no"&gt;append&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;prepend&lt;/code&gt; operators.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate></item><item><title>May 02, 2025</title><link>https://firebase.google.com/support/releases#may_02_2025</link><description>&lt;h3 data-text="Gemini in Firebase" id="gif-personalization" tabindex="-1"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console now uses
+&lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; 2.5.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console now personalizes
+your experience by leveraging data across Firebase products that you're
+already using. This gives &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; a deeper understanding of your
+specific project and development needs to deliver more contextually-relevant
+and helpful responses. Learn more at &lt;a href="/docs/gemini-in-firebase/try-gemini#personalization"&gt;Use personalization in
+Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate></item></channel></rss>
