@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 02 May 2025 21:14:04 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 03 May 2025 01:11:46 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -3136,7 +3136,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; is now available in preview.
 &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; provides a suite of client SDKs for your favorite
 languages — Swift, Kotlin, Java, Dart, and JavaScript — so you can securely
-access the &lt;span class='\"notranslate\"'&gt;Gemini API in &lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/span&gt; directly from your mobile and web
+access the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt; directly from your mobile and web
 apps. Using the power of the latest Gemini models, you can add AI
 personalization to your app, build an AI chat experience, create
 AI-powered optimizations and automation, and much more! Learn more in the
@@ -3907,7 +3907,7 @@ If you've already set up export to &lt;span class="notranslate"&gt;BigQuery&lt;/
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; is now Generally Available (GA) and can be
 used in production apps.&lt;/p&gt;
 &lt;p&gt;Use the &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; client SDKs to call the
-&lt;span class='\"notranslate\"'&gt;Gemini API in &lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/span&gt; directly from your app. They're available for
+&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt; directly from your app. They're available for
 &lt;a href="/docs/vertex-ai/get-started?platform=ios"&gt;Swift&lt;/a&gt;,
 &lt;a href="/docs/vertex-ai/get-started?platform=android"&gt;Android&lt;/a&gt;,
 &lt;a href="/docs/vertex-ai/get-started?platform=web"&gt;Web&lt;/a&gt;,
