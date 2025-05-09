@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 09 May 2025 15:15:59 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 09 May 2025 18:21:01 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -1365,4 +1365,46 @@ before being re-deployed.&lt;/li&gt;
 &lt;li&gt;Fixed an issue so that when using mutations with no variables, correct
 types are passed in.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.2.1 - April 23, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1421_-_april_23_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;init genkit&lt;/code&gt; checked the version of &lt;code dir="ltr" translate="no"&gt;genkit&lt;/code&gt;
+instead of &lt;code dir="ltr" translate="no"&gt;genkit-cli&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.3.1, which
+contains the following changes:
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8455"&gt;#8455&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;Added support for &lt;code dir="ltr" translate="no"&gt;inc&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;dec&lt;/code&gt; update transforms for &lt;code dir="ltr" translate="no"&gt;Date&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;Timestamp&lt;/code&gt; scalars.&lt;/li&gt;
+&lt;li&gt;Fixed a bug where &lt;code dir="ltr" translate="no"&gt;OR&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;AND&lt;/code&gt; clauses may be evaluated in the incorrect
+order.&lt;/li&gt;
+&lt;li&gt;Fixed an issue where &lt;code dir="ltr" translate="no"&gt;{includes: $var}&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;{includesAll: [$var]}&lt;/code&gt; clauses
+were not dropped if &lt;code dir="ltr" translate="no"&gt;$var&lt;/code&gt; was missing.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.2.2 - April 30, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1422_-_april_30_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Cleaned up prompt for setting up web frameworks during
+&lt;code dir="ltr" translate="no"&gt;init dataconnect&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue were the &lt;span class="notranslate"&gt;Local Emulator Suite&lt;/span&gt; would check for
+auth when using &lt;code dir="ltr" translate="no"&gt;demo-&lt;/code&gt; projects.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.4.0, which
+adds support for &lt;code dir="ltr" translate="no"&gt;add&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;remove&lt;/code&gt; list update transforms and fixes an issue
+where updating a column to &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt; was ignored.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8484"&gt;#8484&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.3.0 - May 07, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1430_-_may_07_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the prompt to create &lt;code dir="ltr" translate="no"&gt;apphosting.emulator.yaml&lt;/code&gt;
+did not work with backends that are not at the project root.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8412"&gt;#8412&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Terms of Service acceptance would be checked
+for non-human users.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Cloud Resource Manager was called without
+checking whether it is enabled on the user's project.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.5.0, which
+includes the following changes:
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8419"&gt;#8514&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;Fixed an issue where some server value expression errors incorrectly abort
+mutation execution.&lt;/li&gt;
+&lt;li&gt;Added README generation to Angular codegen, which explains how to use
+generated query and mutation injector functions.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Emulator Suite UI&lt;/span&gt; to v1.15.0, which adds support for
+running on Firebase Studio.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
