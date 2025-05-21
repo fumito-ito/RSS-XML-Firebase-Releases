@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 21 May 2025 18:22:05 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_115" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 21 May 2025 21:14:36 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_115" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -4401,7 +4401,7 @@ distribution's README.md for more instructions.&lt;/li&gt;
 dependency (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10884"&gt;#10884&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.26.0 - May 13, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_10260_-_may_13_2024</link><description>&lt;p&gt;This release is available via Swift Package Manager only.&lt;/p&gt;&lt;h3 data-text="Firebase In-App Messaging" id="firebase-in-app-messaging_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed crash at app start that affected SwiftPM users (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12882"&gt;#12882&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex_ai_13" tabindex="-1"&gt;Vertex AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_12" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Vertex AI in Firebase SDK (public preview).
 Learn how to
 &lt;a href="https://firebase.google.com/docs/vertex-ai/get-started?platform=ios"&gt;get started&lt;/a&gt;
@@ -4427,7 +4427,7 @@ frameworks (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12882"&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed bug preventing Messaging from working with a custom sqlite3
 dependency (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12900"&gt;#12900&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex_ai_12" tabindex="-1"&gt;Vertex AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_11" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed uses of the &lt;code dir="ltr" translate="no"&gt;gemini-1.5-pro-preview-0409&lt;/code&gt; model in docs and
 samples. Developers should now use &lt;code dir="ltr" translate="no"&gt;gemini-1.5-pro-preview-0514&lt;/code&gt; or
 &lt;code dir="ltr" translate="no"&gt;gemini-1.5-flash-preview-0514&lt;/code&gt;; see
@@ -4442,7 +4442,7 @@ not enabled or response payloads when requests fail (&lt;a href="//github.com/fi
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Fix Crash from InstrumentUploadTaskWithStreamedRequest (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12983"&gt;#12983&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;Replace SystemConfiguration with a more recent network monitoring API by Apple (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13079"&gt;#13079&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex_ai_11" tabindex="-1"&gt;Vertex AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_10" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed uses of the &lt;code dir="ltr" translate="no"&gt;gemini-1.5-flash-preview-0514&lt;/code&gt; model in docs
 and samples. Developers should now use the auto-updated versions,
 &lt;code dir="ltr" translate="no"&gt;gemini-1.5-pro&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;gemini-1.5-flash&lt;/code&gt;, or a specific stable version; see
@@ -4455,7 +4455,7 @@ for more details (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/1309
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Renamed "initWithFileName" internal method that was causing submission issues for some
 users (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13134"&gt;#13134&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the APS Environment key on visionOS (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13173"&gt;#13173&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex_ai_10" tabindex="-1"&gt;Vertex AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_9" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added community support for watchOS (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13215"&gt;#13215&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.0.0 - July 30, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_1100_-_july_30_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Firebase's minimum supported versions have
@@ -4561,7 +4561,7 @@ introduced in 10.27.0 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Marked all public classes with only readonly properties as &lt;code dir="ltr" translate="no"&gt;Sendable&lt;/code&gt; to address
 Swift Concurrency Check warning (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12666"&gt;#12666&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex_ai_9" tabindex="-1"&gt;Vertex AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_8" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved a decoding error for citations without a &lt;code dir="ltr" translate="no"&gt;uri&lt;/code&gt; and added
 support for decoding &lt;code dir="ltr" translate="no"&gt;title&lt;/code&gt; fields, which were previously ignored (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13518"&gt;#13518&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: The methods for starting streaming requests
@@ -4608,7 +4608,7 @@ during multi factor enrollment (&lt;a href="//github.com/firebase/firebase-ios-s
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Prepared Firestore cache to support session token (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/13684"&gt;#13648&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash related to thread sanitization on FPRNetworkTrace class (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13581"&gt;#13581&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex_ai_8" tabindex="-1"&gt;Vertex AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_7" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Vertex AI in Firebase is now Generally Available (GA) and can be
 used in production apps (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13725"&gt;#13725&lt;/a&gt;).
 &lt;br/&gt;&lt;br/&gt;
@@ -4737,7 +4737,7 @@ related crash (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13898"&
 with &lt;code dir="ltr" translate="no"&gt;UIWindow.isKeyWindow&lt;/code&gt;; this API is also available on visionOS. Note that
 this fix will not be in the 11.5.0 zip and Carthage distributions, but will be
 included from 11.6.0 onwards (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14048"&gt;#14048&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex_ai_7" tabindex="-1"&gt;Vertex AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_6" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;VertexAI.vertexAI(app: app1)&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;VertexAI.vertexAI(app: app2)&lt;/code&gt; would return the same instance if their
 &lt;code dir="ltr" translate="no"&gt;location&lt;/code&gt; was the same, including the default &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14007"&gt;#14007&lt;/a&gt;).&lt;/li&gt;
@@ -4766,7 +4766,7 @@ Carthage distributions, but will be included from 11.6.0 onwards (&lt;a href="/s
 &lt;code dir="ltr" translate="no"&gt;Sendable&lt;/code&gt; if &lt;code dir="ltr" translate="no"&gt;T&lt;/code&gt; is &lt;code dir="ltr" translate="no"&gt;Sendable&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14042"&gt;#14042&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix a crash related to registering for notifications when the app is between foreground or background states (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13174"&gt;#13174&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex_ai_6" tabindex="-1"&gt;Vertex AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_5" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The token counts from &lt;code dir="ltr" translate="no"&gt;GenerativeModel.countTokens(...)&lt;/code&gt; now include
 tokens from the schema for JSON output and function calling; reported token
 counts will now be higher if using these features.&lt;/li&gt;
@@ -4841,7 +4841,7 @@ for more details.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mark internal &lt;code dir="ltr" translate="no"&gt;fetchSession&lt;/code&gt; property as &lt;code dir="ltr" translate="no"&gt;atomic&lt;/code&gt; to prevent a concurrency
 related crash (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14449"&gt;#14449&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex_ai_5" tabindex="-1"&gt;Vertex AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_4" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;strong&gt;Public Preview&lt;/strong&gt;: Added support for
 &lt;a href="/docs/vertex-ai/generate-images-imagen"&gt;generating images using the Imagen 3 models&lt;/a&gt;.&lt;/p&gt;
 &lt;aside class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;span&gt; This feature is in Public Preview, which means that it is not
@@ -4857,7 +4857,7 @@ backwards-incompatible ways.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Streaming callable functions are now supported.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix intermittent &lt;code dir="ltr" translate="no"&gt;RCNConfigRealtime&lt;/code&gt; crash due to incorrect parsing of fragmented JSON (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14518"&gt;#14518&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex_ai_4" tabindex="-1"&gt;Vertex AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_3" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Vertex AI SDK no longer requires &lt;code dir="ltr" translate="no"&gt;@preconcurrency&lt;/code&gt; when imported in Swift 6.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Vertex AI Sample App now includes an image generation example.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The Vertex AI Sample App is now part of the
@@ -4870,7 +4870,7 @@ are required. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14558"&
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash in the customized priority queue compare function used in the cache index manager (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14496"&gt;#14496&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex_ai_3" tabindex="-1"&gt;Vertex AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; VertexAI now emits a warning when attempting to use an incompatible model with
 &lt;code dir="ltr" translate="no"&gt;GenerativeModel&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;ImagenModel&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14610"&gt;#14610&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.12.0 - April 21, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_11120_-_april_21_2025</link><description>&lt;ul&gt;
@@ -4895,7 +4895,7 @@ for more info.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix regression from 11.6.0 where &lt;code dir="ltr" translate="no"&gt;HTTPSCallable&lt;/code&gt; did not invoke
 completion block on main thread (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14653"&gt;#14653&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex_ai_2" tabindex="-1"&gt;Vertex AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;strong&gt;Public Preview&lt;/strong&gt;: Added support for specifying response modalities
 in &lt;code dir="ltr" translate="no"&gt;GenerationConfig&lt;/code&gt;. This includes &lt;strong&gt;public experimental&lt;/strong&gt; support for image
 generation using Gemini 2.0 Flash (&lt;code dir="ltr" translate="no"&gt;gemini-2.0-flash-exp&lt;/code&gt;) (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14658"&gt;#14658&lt;/a&gt;).
@@ -4938,7 +4938,7 @@ simulator due to a URLSession bug introduced in Xcode 16.3 (&lt;a href="//github
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;putFile&lt;/code&gt; now works in App Clips. Similarly to app extensions, background session
 configurations are not used in App Clips (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14794"&gt;#14794&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex_ai" tabindex="-1"&gt;Vertex AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Renamed:&lt;/strong&gt; Vertex AI in Firebase (&lt;code dir="ltr" translate="no"&gt;FirebaseVertexAI&lt;/code&gt;) has been
 renamed and replaced by the new Firebase AI SDK (&lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt;). Please migrate
 to the new &lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt; module. See the Firebase AI release notes for
