@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 23 May 2025 12:31:17 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 23 May 2025 15:15:59 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -6655,8 +6655,8 @@ variants.
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics Gradle plugin version 3.0.1" id="crashlytics_gradle_plugin_v3-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin version 3.0.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an incompatibility between &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; and &lt;code dir="ltr" translate="no"&gt;viewBinder&lt;/code&gt;.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5925"&gt;Issue #5925&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.0-beta01" id="vertex-ai_v16-0-0-beta01" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0-beta01&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Vertex AI in Firebase SDK (public
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.0-beta01" id="vertex-ai_v16-0-0-beta01" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0-beta01&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; SDK (public
 preview). Learn how to
 &lt;a href="/docs/vertex-ai/get-started?platform=android"&gt;get started&lt;/a&gt;
 with the SDK in your app.&lt;/li&gt;
@@ -6677,7 +6677,7 @@ updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.0.2" id="crashlyt
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics Gradle plugin version 3.0.2" id="crashlytics_gradle_plugin_v3-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin version 3.0.2&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue in generate symbol task preventing config caching.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed compatibility issue with Intel-based Macs.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.0-beta02" id="vertex-ai_v16-0-0-beta02" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0-beta02&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.0-beta02" id="vertex-ai_v16-0-0-beta02" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0-beta02&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for specifying the &lt;code dir="ltr" translate="no"&gt;responseMimeType&lt;/code&gt; in
 &lt;code dir="ltr" translate="no"&gt;GenerationConfig&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Renamed &lt;code dir="ltr" translate="no"&gt;GoogleGenerativeAIException&lt;/code&gt; to
@@ -6691,14 +6691,14 @@ updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.0.2" id="crashlyt
 &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.0.3" id="crashlytics-ndk_v19-0-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 19.0.3&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to v19.0.3&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.0-beta03" id="vertex-ai_v16-0-0-beta03" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0-beta03&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.0-beta03" id="vertex-ai_v16-0-0-beta03" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0-beta03&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;BREAKING CHANGE&lt;/strong&gt;: Changed &lt;code dir="ltr" translate="no"&gt;Schema.int&lt;/code&gt; to return 32-bit
 integers instead of 64-bit (long).&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;Schema.long&lt;/code&gt; to return 64-bit integer numbers.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;Schema.double&lt;/code&gt; to handle floating point numbers.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Marked &lt;code dir="ltr" translate="no"&gt;Schema.num&lt;/code&gt; as deprecated. Instead, use
 &lt;code dir="ltr" translate="no"&gt;Schema.double&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Update - August 01, 2024</title><link>https://firebase.google.com/support/release-notes/android#2024-08-01</link><description>&lt;h3 data-text="Vertex AI in Firebase version 16.0.0-beta04" id="vertex-ai_v16-0-0-beta04" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0-beta04&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Update - August 01, 2024</title><link>https://firebase.google.com/support/release-notes/android#2024-08-01</link><description>&lt;h3 data-text="Vertex AI in Firebase version 16.0.0-beta04" id="vertex-ai_v16-0-0-beta04" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0-beta04&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;responseSchema&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;GenerationConfig&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Update - August 22, 2024</title><link>https://firebase.google.com/support/release-notes/android#2024-08-22</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.2.0" id="bom_v33-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.2.0&lt;/h3&gt;&lt;h3 data-text="Analytics version 22.1.0" id="analytics_v22-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt; version 22.1.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal changes to optimize ad conversion modeling capabilities.&lt;/li&gt;
@@ -6739,8 +6739,8 @@ thread.
 &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.1.0" id="crashlytics-ndk_v19-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 19.1.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to v19.1.0&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.0-beta05" id="vertex-ai_v16-0-0-beta05" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0-beta05&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Merged core networking code into the &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; SDK
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.0-beta05" id="vertex-ai_v16-0-0-beta05" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0-beta05&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Merged core networking code into the &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; SDK
 from a separate library.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;responseSchema&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;GenerationConfig&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Update - October 01, 2024</title><link>https://firebase.google.com/support/release-notes/android#2024-10-01</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.4.0" id="bom_v33-4-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.4.0&lt;/h3&gt;&lt;h3 data-text="Analytics version 22.1.2" id="analytics_v22-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt; version 22.1.2&lt;/h3&gt;&lt;ul&gt;
@@ -6781,7 +6781,7 @@ updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.2.0" id="crashlyt
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial beta release of the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; SDK.
 Learn how to &lt;a href="/docs/data-connect/android-sdk"&gt;get started&lt;/a&gt;
 with the SDK in your app.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.0-beta06" id="vertex-ai_v16-0-0-beta06" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0-beta06&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.0-beta06" id="vertex-ai_v16-0-0-beta06" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0-beta06&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed Proguard consumer rules for serialization.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Update - October 21, 2024</title><link>https://firebase.google.com/support/release-notes/android#2024-10-21</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.5.0" id="bom_v33-5-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.5.0&lt;/h3&gt;&lt;h3 data-text="Authentication version 23.1.0" id="auth_v23-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; version 23.1.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added reCAPTCHA Enterprise support for app verification during
@@ -6841,10 +6841,10 @@ updates.&lt;/p&gt;&lt;h3 data-text="Remote Config version 22.0.1" id="remote-con
 &lt;a class="external" href="//nvd.nist.gov/vuln/detail/CVE-2024-7254"&gt;CVE-2024-7254&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-config&lt;/code&gt; library. The Kotlin extensions library has no additional
-updates.&lt;/p&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.0" id="vertex-ai_v16-0-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; is now Generally Available (GA) and can be
-used in production apps.&lt;/p&gt;
-&lt;p&gt;Use the &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; SDK to call the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;
+updates.&lt;/p&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.0" id="vertex-ai_v16-0-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; is now Generally Available (GA) and can
+be used in production apps.&lt;/p&gt;
+&lt;p&gt;Use the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK to call the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;
 directly from your app. This client SDK is built specifically for use with
 Android apps, offering security options against unauthorized clients
 as well as integrations with other Firebase services.&lt;/p&gt;
@@ -6912,7 +6912,7 @@ classes.
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Marked &lt;code dir="ltr" translate="no"&gt;GenerativeModel&lt;/code&gt; properties as
 private.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6309"&gt;#6309&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Update - October 23, 2024</title><link>https://firebase.google.com/support/release-notes/android#2024-10-23</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.5.1" id="bom_v33-5-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.5.1&lt;/h3&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.1" id="vertex-ai_v16-0-1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Update - October 23, 2024</title><link>https://firebase.google.com/support/release-notes/android#2024-10-23</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.5.1" id="bom_v33-5-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.5.1&lt;/h3&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.1" id="vertex-ai_v16-0-1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where authorization headers weren't correctly formatted
 and were ignored by the backend.
 GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6400"&gt;#6400&lt;/a&gt; &lt;/li&gt;
@@ -6962,7 +6962,7 @@ updates.&lt;/p&gt;&lt;h3 data-text="Cloud Messaging Direct Boot version 24.1.0" 
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal changes to ensure functionality alignment with other
 SDK releases. For more details, refer to the
 &lt;a href="/support/release-notes/android#messaging_v24-1-0"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; v24.1.0 release notes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.2" id="vertex-ai_v16-0-2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.2" id="vertex-ai_v16-0-2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.2&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved error message when using an invalid location.
 GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6428"&gt;#6428&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt; error tokens were
@@ -7058,7 +7058,7 @@ accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature fi
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics Gradle plugin version 3.0.3" id="crashlytics_gradle_plugin_v3-0-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin version 3.0.3&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed symbol generation for Unity 6 symbols.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.1.0" id="vertex-ai_v16-1-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.1.0" id="vertex-ai_v16-1-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.1.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements to correctly handle empty responses from
 models.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-vertexai&lt;/code&gt; artifacts are now published with
@@ -7090,7 +7090,7 @@ updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.4.1" id="crashlyt
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics-ndk&lt;/code&gt; artifacts are now published with
 accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
 &lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.2.0" id="vertex-ai_v16-2-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.2.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.2.0" id="vertex-ai_v16-2-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.2.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added support for new values sent by the server for &lt;code dir="ltr" translate="no"&gt;FinishReason&lt;/code&gt;
 (&lt;code dir="ltr" translate="no"&gt;PROHIBITED_CONTENT&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;SPII&lt;/code&gt;) and &lt;code dir="ltr" translate="no"&gt;BlockReason&lt;/code&gt; (&lt;code dir="ltr" translate="no"&gt;PROHIBITED_CONTENT&lt;/code&gt;
 and &lt;code dir="ltr" translate="no"&gt;BLOCKLIST&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
@@ -7215,7 +7215,7 @@ partial errors; that is, any data that was received and/or was able to be
 decoded is now available via the "response" property of the exception thrown
 when a query or mutation is executed.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6794"&gt;#6794&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.3.0" id="vertex-ai_v16-3-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.3.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.3.0" id="vertex-ai_v16-3-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.3.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a warning when attempting to use an incompatible model with
 &lt;code dir="ltr" translate="no"&gt;GenerativeModel&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;ImagenModel&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added new exception type for quota-exceeded scenarios.&lt;/p&gt;&lt;/li&gt;
@@ -7235,4 +7235,60 @@ GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/i
 &lt;code dir="ltr" translate="no"&gt;ImagenInlineImage.data&lt;/code&gt; usage.&lt;/li&gt;
 &lt;li&gt;The &lt;code dir="ltr" translate="no"&gt;asBitmap()&lt;/code&gt; helper method is unaffected and requires no code changes.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - April 24, 2025</title><link>https://firebase.google.com/support/release-notes/android#2025-04-24</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.13.0" id="bom_v33-13-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.13.0&lt;/h3&gt;&lt;h3 data-text="Cloud Firestore version 25.1.4" id="firestore_v25-1-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 25.1.4&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt; value handling in &lt;code dir="ltr" translate="no"&gt;whereNotEqualTo&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;whereNotIn&lt;/code&gt; filters.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics version 19.4.3" id="crashlytics_v19-4-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 19.4.3&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;UnbufferedIoViolation&lt;/code&gt;.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6822"&gt;#6822&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.4.3" id="crashlytics-ndk_v19-4-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 19.4.3&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to v19.4.3&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated internal Crashpad version to
+&lt;a class="external" href="https://chromium.googlesource.com/crashpad/crashpad/+/21a20ef8adf3949de8dd65758a16f83aab344b3c"&gt;commit &lt;code dir="ltr" translate="no"&gt;21a20ef&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect version 16.0.1" id="data-connect_v16-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 16.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config version 22.1.1" id="remote-config_v22-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; version 22.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the connection to the real-time
+&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; backend could remain open in the background.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-config&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.4.0" id="vertex-ai_v16-4-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.4.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt; for use of &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;:
+&lt;code dir="ltr" translate="no"&gt;LiveModelFutures.connect&lt;/code&gt; now returns &lt;code dir="ltr" translate="no"&gt;ListenableFuture&amp;lt;LiveSessionFutures&amp;gt;&lt;/code&gt;
+instead of &lt;code dir="ltr" translate="no"&gt;ListenableFuture&amp;lt;LiveSession&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Action Required:&lt;/strong&gt; Remove any transformations from &lt;code dir="ltr" translate="no"&gt;LiveSession&lt;/code&gt; object
+to &lt;code dir="ltr" translate="no"&gt;LiveSessionFutures&lt;/code&gt; object.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Action Required:&lt;/strong&gt; Change type of variable handling
+&lt;code dir="ltr" translate="no"&gt;LiveModelFutures.connect&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;ListenableFuture&amp;lt;LiveSessionsFutures&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt; for use of &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;: Removed &lt;code dir="ltr" translate="no"&gt;UNSPECIFIED&lt;/code&gt;
+value for enum class &lt;code dir="ltr" translate="no"&gt;ResponseModality&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Action Required:&lt;/strong&gt; Remove all references to
+&lt;code dir="ltr" translate="no"&gt;ResponseModality.UNSPECIFIED&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt; for use of &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;: Renamed
+&lt;code dir="ltr" translate="no"&gt;LiveGenerationConfig.setResponseModalities&lt;/code&gt; to
+&lt;code dir="ltr" translate="no"&gt;LiveGenerationConfig.setResponseModality&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Action Required:&lt;/strong&gt; Replace all references of
+&lt;code dir="ltr" translate="no"&gt;LiveGenerationConfig.setResponseModalities&lt;/code&gt; with
+&lt;code dir="ltr" translate="no"&gt;LiveGenerationConfig.setResponseModality&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;HarmBlockThreshold.OFF&lt;/code&gt;. For more information,
+see the
+&lt;a class="external" href="https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/configure-safety-filters#how_to_configure_content_filters"&gt;safety filters documentation&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved thread usage when using a &lt;code dir="ltr" translate="no"&gt;LiveGenerativeModel&lt;/code&gt;.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6870"&gt;#6870&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with &lt;code dir="ltr" translate="no"&gt;LiveContentResponse&lt;/code&gt; audio data not being
+present when the model was interrupted or the turn completed.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6870"&gt;#6870&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with &lt;code dir="ltr" translate="no"&gt;LiveSession&lt;/code&gt; not converting exceptions to
+&lt;code dir="ltr" translate="no"&gt;FirebaseVertexAIException&lt;/code&gt;.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6870"&gt;#6870&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
