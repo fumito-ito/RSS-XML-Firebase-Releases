@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Flutter</title><link>https://firebase.google.com/support/release-notes/flutter</link><description>Latest updates and release notes for Firebase Flutter.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 26 May 2025 06:24:07 +0000</lastBuildDate><item><title>Flutter BoM version 1.0.0 - May 07, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-0</link></item><item><title>Flutter BoM version 1.0.1 - May 21, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-1</link></item><item><title>Flutter BoM version 1.1.0 - May 28, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-1-0</link><description>&lt;h3 data-text="Changelog" id="bom-v1-1-0_changelog" tabindex="-1"&gt;Changelog&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Flutter</title><link>https://firebase.google.com/support/release-notes/flutter</link><description>Latest updates and release notes for Firebase Flutter.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 26 May 2025 09:42:05 +0000</lastBuildDate><item><title>Flutter BoM version 1.0.0 - May 07, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-0</link></item><item><title>Flutter BoM version 1.0.1 - May 21, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-1</link></item><item><title>Flutter BoM version 1.1.0 - May 28, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-1-0</link><description>&lt;h3 data-text="Changelog" id="bom-v1-1-0_changelog" tabindex="-1"&gt;Changelog&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (android): remove unnecessary error type guarding (&lt;a href="https://github.com/firebase/flutterfire/issues/12816"&gt;#12816&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/7d4c200ac6f06a50c2e7ee852aea2c9fa7bcb0ff"&gt;7d4c200a&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (General): update Pigeon version to 19 (&lt;a href="https://github.com/firebase/flutterfire/issues/12828"&gt;#12828&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/5e76153fbcd337a26e83abc2b43b651ab6c501bc"&gt;5e76153f&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;ul&gt;
@@ -719,5 +719,30 @@ any SLA or deprecation policy and could change in backwards-incompatible ways.&l
 &lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;ul&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_vertexai - v1.6.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Flutter BoM version 3.11.0 - May 20, 2025</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v3-11-0</link><description>&lt;h3 data-text="Changelog" id="bom-v3-11-0_changelog" tabindex="-1"&gt;Changelog&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Firebase AI Logic SDK (FirebaseAI).
+This SDK replaces the previous Vertex AI in Firebase SDK (FirebaseVertexAI) to
+accommodate the evolving set of supported features and services. The new
+Firebase AI Logic SDK provides preview support for the Gemini Developer API,
+including its free tier offering. Using the Firebase AI Logic SDK with the
+Vertex AI Gemini API is still generally available (GA).&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;To start using the new SDK, import the firebase_ai package and use the top-level
+FirebaseAI class. See details in the &lt;a href="https://firebase.google.com/docs/vertex-ai/migrate-to-latest-sdk"&gt;migration guide&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Existing FirebaseVertexAI users may continue to use import firebase_vertexai and
+the FirebaseVertexAI top-level class, though these will be removed in a future
+release. Also, going forward, new features will only be added into the new
+FirebaseAI module.&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (apple): prevent EXC_BAD_ACCESS crash in Apple Sign-In completion handler (&lt;a href="https://github.com/firebase/flutterfire/issues/17273"&gt;#17273&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/cc7d28ae09036464f7ece6a2637bae6a3c7a292d"&gt;cc7d28ae&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Documentation (firebase_auth): Removed duplicates; fixed typos; removed "unnecessary use of a null check" (&lt;a href="https://github.com/firebase/flutterfire/issues/16815"&gt;#16815&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/0eb17e13587ebfe5c8d64cbba9c0a2ccd0b7ce90"&gt;0eb17e13&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_auth - v5.5.4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_auth_platform_interface - v7.6.3&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (General): avoid calling toJson on raw JSON map or null object (&lt;a href="https://github.com/firebase/flutterfire/issues/17356"&gt;#17356&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/7bd63691ffa7405d24ea4545bd1ac7f8971175b3"&gt;7bd63691&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_data_connect - v0.1.5&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
