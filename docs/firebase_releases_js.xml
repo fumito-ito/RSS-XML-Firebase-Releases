@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 27 May 2025 15:17:16 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 27 May 2025 18:20:53 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Launch of new APIs and &lt;a class="link external gc-analytics-event" data-action="linkClick" data-category="console" href="//console.firebase.google.com/"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_74" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The way you install and initialize the SDK has changed and several
@@ -2981,7 +2981,7 @@ Node.js &lt;code dir="ltr" translate="no"&gt;engines&lt;/code&gt; update in &lt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded to TypeScript 5.5.4.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Prevent a possible condition of slow snapshots, caused by a rapid series of document update(s) followed by a delete. Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8474"&gt;GitHub Issue #8474&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai_5" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_4" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Update to new base URL in documentation.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Remove indentation in &lt;code dir="ltr" translate="no"&gt;API Not Enabled&lt;/code&gt; error.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Send App Check dummy token in header if there is an App Check &lt;code dir="ltr" translate="no"&gt;getToken&lt;/code&gt; error.&lt;/li&gt;
@@ -2995,7 +2995,7 @@ caused an exception.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;PushManager.subscribe()&lt;/code&gt; is called too soon
 after registering the default service worker. Fixes
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/7784"&gt;GitHub Issue #7784&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai_4" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_3" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Clear &lt;code dir="ltr" translate="no"&gt;fetch&lt;/code&gt; &lt;code dir="ltr" translate="no"&gt;timeout&lt;/code&gt; after request completion. Fixes an issue
 that caused Node.js scripts to hang on exit due to a pending timeout.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.2.0 - January 16, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1120_-_january_16_2025</link><description>&lt;h3 data-text="Data Connect" id="data-connect_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3031,7 +3031,7 @@ exchange request failed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Invoking &lt;code dir="ltr" translate="no"&gt;connectDatabaseEmulator&lt;/code&gt; multiple times with the same
 parameters will no longer cause an error.
 Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6824"&gt;GitHub issue #6824&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai_3" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;strong&gt;Public Preview&lt;/strong&gt;: Added support for
 &lt;a href="/docs/vertex-ai/generate-images-imagen"&gt;generating images using the Imagen 3 models&lt;/a&gt;.&lt;/p&gt;
 &lt;aside class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;span&gt; This feature is in Public Preview, which means that it is not
@@ -3061,7 +3061,7 @@ and &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8778"&gt;#877
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8813"&gt;GitHub issue #8813&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added non-null parent properties to &lt;code dir="ltr" translate="no"&gt;ThenableReference&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added missing &lt;code dir="ltr" translate="no"&gt;BlockReason&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;FinishReason&lt;/code&gt; enum values.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;systemInstruction&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;tools&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;generationConfig&lt;/code&gt; have been
 added to &lt;code dir="ltr" translate="no"&gt;CountTokensRequest&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -3072,9 +3072,9 @@ in conjunction with middleware that ensures both your front and backend
 authentication state remain synchronized.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Exposed partial errors to the user.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The SDK now throws an error when initializing models if &lt;code dir="ltr" translate="no"&gt;appId&lt;/code&gt;
-is not defined in the given &lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; instance.&lt;/p&gt;&lt;/li&gt;
+is not defined in the given &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; instance.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Labeled &lt;code dir="ltr" translate="no"&gt;GroundingAttribution&lt;/code&gt; as deprecated.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.6.1 - April 24, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1161_-_april_24_2025</link><description>&lt;h3 data-text="Authentication" id="authentication" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;ActionCodeURL&lt;/code&gt; was not populating &lt;code dir="ltr" translate="no"&gt;languageCode&lt;/code&gt; from the URL. Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8912"&gt;GitHub Issue #8912&lt;/a&gt;.&lt;/li&gt;
@@ -3092,7 +3092,7 @@ and won't change the default behavior in &lt;span class="notranslate"&gt;App Che
 &lt;/ul&gt;</description></item><item><title>Version 11.7.1 - May 7, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1171_-_may_7_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Rolled back the change in 11.7.0 that set the value of
 &lt;code dir="ltr" translate="no"&gt;automaticDataCollectionEnabled&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;true&lt;/code&gt;. Due to a backend setting not
-being ready yet, this will cause errors in &lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; requests. This
+being ready yet, this will cause errors in &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; requests. This
 change will be restored when the backend is ready.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.8.0 - May 20, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1180_-_may_20_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;FirebaseApp&lt;/code&gt; setting &lt;code dir="ltr" translate="no"&gt;automaticDataCollectionEnabled&lt;/code&gt; now
@@ -3101,13 +3101,14 @@ and won't change the default behavior in &lt;span class="notranslate"&gt;App Che
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a cache issue in Safari/WebKit that occurs when client-side
 indexing is used.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Vertex AI" id="vertex-ai" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Firebase AI Logic SDK (&lt;code dir="ltr" translate="no"&gt;@firebase/ai&lt;/code&gt;). This
-SDK &lt;em&gt;replaces&lt;/em&gt; the previous Vertex AI in Firebase SDK (&lt;code dir="ltr" translate="no"&gt;@firebase/vertexai&lt;/code&gt;)
-to accommodate the evolving set of supported features and services.
-The new Firebase AI SDK provides &lt;strong&gt;preview&lt;/strong&gt; support for the Gemini Developer
-API, including its free tier offering. Using the Firebase AI SDK with the
-Vertex AI Gemini API is still generally available (GA).&lt;/p&gt;
+&lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK (&lt;code dir="ltr" translate="no"&gt;@firebase/ai&lt;/code&gt;).
+This SDK &lt;em&gt;replaces&lt;/em&gt; the previous &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; SDK
+(&lt;code dir="ltr" translate="no"&gt;@firebase/vertexai&lt;/code&gt;) to accommodate the evolving set of supported features
+and services. The new &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK provides &lt;strong&gt;preview&lt;/strong&gt; support
+for the Gemini Developer API, including its free tier offering. Using the
+&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK with the Vertex AI Gemini API is still generally
+available (GA).&lt;/p&gt;
 &lt;p&gt;To start using the new SDK, use the &lt;code dir="ltr" translate="no"&gt;getAI()&lt;/code&gt; instance getter imported from
 &lt;code dir="ltr" translate="no"&gt;’firebase/ai’&lt;/code&gt;. See details in the
 &lt;a href="https://firebase.google.com/docs/vertex-ai/migrate-to-latest-sdk"&gt;migration guide&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
