@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 30 May 2025 21:14:03 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 31 May 2025 01:14:10 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -1407,4 +1407,81 @@ generated query and mutation injector functions.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Emulator Suite UI&lt;/span&gt; to v1.15.0, which adds support for
 running on Firebase Studio.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.4.0 - May 15, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1440_-_may_15_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase experimental:mcp&lt;/code&gt; command, which runs an MCP server for AI assistants to interact with Firebase resources.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated supported runtimes for Cloud Functions. Default python runtime is
+now 3.13.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8534"&gt;#8534&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where Secret Manager API was not automatically enabled for
+functions using secrets.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8528"&gt;#8528&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed Artifact Registry cleanup policy error to warn for CI/CD workloads.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/#8513"&gt;##8513&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Enhance &lt;code dir="ltr" translate="no"&gt;firebase init apphosting&lt;/code&gt; to support local source deploys.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8479"&gt;#8479&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;firebase init hosting:github&lt;/code&gt; didn't correctly
+parse the repo input.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8536"&gt;#8536&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add GCP API client functions to support App Hosting deploy from
+source feature.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8545"&gt;#8545&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Extensions, Cloud Functions, and App Hosting 
+would run into issues on projects where the default compute service account was changed.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;firebase init&lt;/code&gt; template for functions to pin runtime version on init.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8553"&gt;#8553&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where updating a Cloud Function that retries would add
+incorrect fields to the &lt;code dir="ltr" translate="no"&gt;updateMask&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8560"&gt;#8560&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed multi tenancy support for SSO users in the auth emulator.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8544"&gt;#8544&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add SDK autoinit capabilities to App Hosting emulator.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8582"&gt;#8582&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Provision App Hosting compute service account during init flow.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8580"&gt;#8580&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the Firebase Data Connect local toolkit to v2.6.1, which 
+includes the following changes:
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8598"&gt;#8598&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;Fixed a bug where &lt;code dir="ltr" translate="no"&gt;@transaction&lt;/code&gt; continued to execute after errors and produces more confusing errors.&lt;/li&gt;
+&lt;li&gt;Fixed a bug where rolled-back fields in &lt;code dir="ltr" translate="no"&gt;@transaction&lt;/code&gt; returned data that had been invalidated by the rollback. They now correctly return null with a corresponding error "(rolled back)".&lt;/li&gt;
+&lt;li&gt;Disallow &lt;code dir="ltr" translate="no"&gt;@check&lt;/code&gt; on side-effect fields if the mutation doesn't have &lt;code dir="ltr" translate="no"&gt;@transaction&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Improved error messages when reading a field of &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt; in CEL expressions.&lt;/li&gt;
+&lt;li&gt;Updated the underlying Go dependency version from v1.22.2 to v1.22.12.&lt;/li&gt;
+&lt;li&gt;Added the &lt;code dir="ltr" translate="no"&gt;response&lt;/code&gt; binding to server values and &lt;code dir="ltr" translate="no"&gt;@check(expr:)&lt;/code&gt; CEL expressions.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.5.0 - May 29, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1450_-_may_29_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved log messages on skipped App Hosting source deploys.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8674"&gt;#8674&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue in &lt;code dir="ltr" translate="no"&gt;firebase init&lt;/code&gt; where users were forced to specify
+emulator UI port.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8626"&gt;#8626&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added MCP tools for App Hosting.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8605"&gt;#8605&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed crash when starting the App Hosting emulator on applications 
+with no dependencies.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8624"&gt;#8624&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where, with &lt;code dir="ltr" translate="no"&gt;webframeworks&lt;/code&gt; enabled, &lt;code dir="ltr" translate="no"&gt;firebase init hosting&lt;/code&gt;
+re-prompts users for source.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8587"&gt;#8587&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated typescript version in functions template to avoid build issue
+with &lt;code dir="ltr" translate="no"&gt;@google-cloud/storage dependency&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8194"&gt;#8194&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the Firebase Data Connect local toolkit to v2.6.2, which
+includes the following changes:
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8667"&gt;#8667&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;Improved error messages of &lt;code dir="ltr" translate="no"&gt;auth.uid&lt;/code&gt; in CEL expressions when the caller is 
+unauthenticated.&lt;/li&gt;
+&lt;li&gt;Fixed a bug where &lt;code dir="ltr" translate="no"&gt;ExecuteGraphql&lt;/code&gt; with vector embedding in the emulator failed
+due to missing context.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Improved &lt;code dir="ltr" translate="no"&gt;firebase init firestore&lt;/code&gt; + &lt;code dir="ltr" translate="no"&gt;firebase deploy&lt;/code&gt; flow on a
+fresh new project without going to Console (#8653)
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8412"&gt;#8412&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Angular v20 to Firebase Hosting (#8672)
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8412"&gt;#8412&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.5.1 - May 30, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1451_-_may_30_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where 'firestore.database' was accidentally treated 
+as a required field.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8678"&gt;#8678&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

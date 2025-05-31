@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 30 May 2025 21:13:53 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 31 May 2025 01:13:59 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -4947,7 +4947,15 @@ is now available. This version adds better support for running emulators in
 Firebase Studio and includes fixes for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate></item><item><title>May 12, 2025</title><link>https://firebase.google.com/support/releases#may_12_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate></item><item><title>May 15, 2025</title><link>https://firebase.google.com/support/releases#may_15_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.4.0)" id="cli-v14.4.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.4.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#14.4.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.4.0)&lt;/a&gt;
+is now available. This version adds an experiemental MCP server to help AI 
+assistants interact with Firebase, and a variety of improvements for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;,
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate></item><item><title>May 12, 2025</title><link>https://firebase.google.com/support/releases#may_12_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.4.0"&gt;Firebase Admin Node.js SDK (v13.4.0)&lt;/a&gt;
 is now available. This release comes with a new specialized
 interface for bulk data operations in the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; API.
@@ -5078,11 +5086,25 @@ Streaming&lt;/a&gt;.&lt;/li&gt;
 issue list table.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now view tombstones for native Android crashes within
 issue details pages in the &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; dashboard.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate></item><item><title>May 29, 2025</title><link>https://firebase.google.com/support/releases#may_29_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate></item><item><title>May 29, 2025</title><link>https://firebase.google.com/support/releases#may_29_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.5.1)" id="cli-v14.5.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.5.1)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#14.5.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.5.1)&lt;/a&gt;
+is now available. This version fixes an accidental breaking change to
+&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; deployment.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/java#9.5.0"&gt;Firebase Admin Java SDK (v9.5.0)&lt;/a&gt;
 is now available. This release comes with new features in the
 &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; API, a fix in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API, and a fix in the core
 SDK.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v14.5.0)" id="cli-v14.5.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.5.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#14.5.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.5.0)&lt;/a&gt;
+is now available. This version adds new MCP tools for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; and
+improvements for &lt;code dir="ltr" translate="no"&gt;firebase init&lt;/code&gt;.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate></item><item><title>May 30, 2025</title><link>https://firebase.google.com/support/releases#may_30_2025</link><pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate></item></channel></rss>
