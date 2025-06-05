@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-go</title><link>https://firebase.google.com/support/release-notes/admin/go</link><description>Latest updates and release notes for Firebase Admin-go.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 05 Jun 2025 15:17:13 +0000</lastBuildDate><item><title>Version 1.0.0 - August 30, 2017</title><link>https://firebase.google.com/support/release-notes/admin/go#version_100_-_august_30_2017</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-go</title><link>https://firebase.google.com/support/release-notes/admin/go</link><description>Latest updates and release notes for Firebase Admin-go.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 05 Jun 2025 21:14:48 +0000</lastBuildDate><item><title>Version 1.0.0 - August 30, 2017</title><link>https://firebase.google.com/support/release-notes/admin/go#version_100_-_august_30_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Admin Go SDK. See
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your Server&lt;/a&gt; to get
 started.&lt;/li&gt;
@@ -64,7 +64,7 @@ from the &lt;code dir="ltr" translate="no"&gt;FIREBASE_CONFIG&lt;/code&gt; envir
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;ProviderID&lt;/code&gt; field on the
 &lt;a href="https://godoc.org/firebase.google.com/go/auth#UserRecord"&gt;&lt;code dir="ltr" translate="no"&gt;auth.UserRecord&lt;/code&gt;&lt;/a&gt;
 type is now set to the constant value &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 2.5.0 - February 14, 2018</title><link>https://firebase.google.com/support/release-notes/admin/go#version_250_-_february_14_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.5.0 - February 14, 2018</title><link>https://firebase.google.com/support/release-notes/admin/go#version_250_-_february_14_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="https://godoc.org/firebase.google.com/go/messaging"&gt;&lt;code dir="ltr" translate="no"&gt;messaging&lt;/code&gt;&lt;/a&gt;
 package for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages and managing topic subscriptions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="https://godoc.org/firebase.google.com/go/messaging#Client.Send"&gt;&lt;code dir="ltr" translate="no"&gt;Send()&lt;/code&gt;&lt;/a&gt;
@@ -88,7 +88,7 @@ type.&lt;/li&gt;
 package that facilitates basic data manipulation operations (create, read,
 update and delete), conditional updates (transactions) and advanced queries.
 Currently, this API does not support realtime event listeners.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 2.6.1 - March 15, 2018</title><link>https://firebase.google.com/support/release-notes/admin/go#version_261_-_march_15_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.6.1 - March 15, 2018</title><link>https://firebase.google.com/support/release-notes/admin/go#version_261_-_march_15_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug in the &lt;code dir="ltr" translate="no"&gt;UnsubscribeFromTopic()&lt;/code&gt; function. Thanks
 &lt;a href="https://github.com/michaljemala"&gt;michaljemala&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-go/pull/114"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
@@ -98,7 +98,7 @@ Currently, this API does not support realtime event listeners.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;auth&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;messaging&lt;/code&gt; packages now provide a set of new
 functions for checking various error conditions
 (for example, &lt;code dir="ltr" translate="no"&gt;auth.IsIDTokenRevoked()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;messaging.IsInvalidArgument()&lt;/code&gt; etc).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;MutableContent&lt;/code&gt; field to the
 &lt;a href="https://godoc.org/firebase.google.com/go/messaging#Aps"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.Aps&lt;/code&gt;&lt;/a&gt;
 type. This can be used to set the &lt;code dir="ltr" translate="no"&gt;mutable-content&lt;/code&gt; property when sending
@@ -140,7 +140,7 @@ any explicit configuration.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression introduced in the 3.2.0 release, where
 &lt;a href="https://godoc.org/firebase.google.com/go/auth#Client.VerifyIDToken"&gt;&lt;code dir="ltr" translate="no"&gt;VerifyIDToken()&lt;/code&gt;&lt;/a&gt;
 cannot be used in Google App Engine.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;a href="https://godoc.org/firebase.google.com/go/messaging#WebpushNotification"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.WebpushNotification&lt;/code&gt;&lt;/a&gt;
 type now supports arbitrary key-value pairs in its payload.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.4.0 - September 13, 2018</title><link>https://firebase.google.com/support/release-notes/admin/go#version_340_-_september_13_2018</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -150,7 +150,7 @@ that can be used to initialize clients that connect to different database
 instances in the same Firebase project.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.5.0 - December 04, 2018</title><link>https://firebase.google.com/support/release-notes/admin/go#version_350_-_december_04_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped support for Go 1.8 and earlier.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;messaging.AndroidNotification&lt;/code&gt; type now supports
 specifying a &lt;code dir="ltr" translate="no"&gt;channel_id&lt;/code&gt; when sending messages to Android O
 devices. Thanks &lt;a href="https://github.com/chemidy"&gt;chemidy&lt;/a&gt; for the
@@ -167,7 +167,7 @@ error response from the FCM backend service.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed how the SDK handles special characters in node
 names.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.6.0 - January 16, 2019</title><link>https://firebase.google.com/support/release-notes/admin/go#version_360_-_january_16_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.6.0 - January 16, 2019</title><link>https://firebase.google.com/support/release-notes/admin/go#version_360_-_january_16_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="https://godoc.org/firebase.google.com/go/messaging#Aps"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.Aps&lt;/code&gt;&lt;/a&gt;
 type now supports configuring a
 critical alert sound. A new
@@ -202,7 +202,7 @@ calls failing due to I/O or HTTP errors.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.8.1 - June 11, 2019</title><link>https://firebase.google.com/support/release-notes/admin/go#version_381_-_june_11_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed some unit tests that were failing in environments without
 Google Application Default credentials.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.9.0 - August 07, 2019</title><link>https://firebase.google.com/support/release-notes/admin/go#version_390_-_august_07_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.9.0 - August 07, 2019</title><link>https://firebase.google.com/support/release-notes/admin/go#version_390_-_august_07_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;a href="https://godoc.org/firebase.google.com/go/messaging#Client.SendAll"&gt;&lt;code dir="ltr" translate="no"&gt;SendAll()&lt;/code&gt;&lt;/a&gt;
 API for sending multiple notifications as a batch.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;MulticastMessage&lt;/code&gt; and
@@ -219,7 +219,7 @@ redacted due to lack of permissions in the service account credentials.&lt;/li&g
 create, retrieve, update and delete OIDC auth provider configurations.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;auth.SAMLProviderConfig&lt;/code&gt; type and the related functions to
 create, retrieve, update and delete SAML auth provider configurations.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for sending an image URL with notifications. Thanks
 &lt;a href="https://github.com/chemidy"&gt;chemidy&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-go/pull/261"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
@@ -235,13 +235,13 @@ create, retrieve, update and delete SAML auth provider configurations.&lt;/li&gt
 and deleting authentication tenants.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;auth.TenantClient&lt;/code&gt; API for managing users, configuring
 SAML/OIDC providers, and generating email action links for specific tenants.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Batch messaging APIs &lt;code dir="ltr" translate="no"&gt;SendAll()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;SendMulticast()&lt;/code&gt; now support
 sending up to 500 messages in a single call.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.11.1 - 23 December, 2019</title><link>https://firebase.google.com/support/release-notes/admin/go#version_3111_-_23_december_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to the implementation to fix the API reference
 output generated by &lt;code dir="ltr" translate="no"&gt;godoc&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.12.0 - 15 January, 2020</title><link>https://firebase.google.com/support/release-notes/admin/go#version_3120_-_15_january_2020</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.12.0 - 15 January, 2020</title><link>https://firebase.google.com/support/release-notes/admin/go#version_3120_-_15_january_2020</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Introduced a series of new parameters to the
 &lt;a href="https://godoc.org/firebase.google.com/go/messaging#AndroidNotification"&gt;&lt;code dir="ltr" translate="no"&gt;AndroidNotification&lt;/code&gt;&lt;/a&gt;
 type.&lt;/li&gt;
@@ -251,7 +251,7 @@ from listing all the tenants correctly.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.12.1 - 23 April, 2020</title><link>https://firebase.google.com/support/release-notes/admin/go#version_3121_-_23_april_2020</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Deferred credential loading until required, which allows some APIs
 like &lt;code dir="ltr" translate="no"&gt;auth.VerifyIDToken()&lt;/code&gt; to be called without credentials.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the remote endpoint used by topic management operations.
 Thanks &lt;a href="https://github.com/rueian"&gt;rueian&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-go/pull/335"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
@@ -274,7 +274,7 @@ checking for platform-level error codes.&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;IsIDTokenInvalid()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;IsIDTokenExpired()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;IsSessionCookieInvalid()&lt;/code&gt;,
 &lt;code dir="ltr" translate="no"&gt;IsSessionCookieExpired()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;IsCertificateFetchFailed()&lt;/code&gt;. These functions
 can be used in conjunction with the existing JWT verification APIs.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;messaging.WebpushFcmOptions&lt;/code&gt; type has been renamed to
 &lt;code dir="ltr" translate="no"&gt;messaging.WebpushFCMOptions&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new service-level error checking functions
@@ -317,7 +317,7 @@ handling the errors returned by the email action link generator functions.&lt;/l
 can now import a user with only &lt;code dir="ltr" translate="no"&gt;CreationTimestamp&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;UserMetadata&lt;/code&gt;.
 Thanks &lt;a href="https://github.com/valery-barysok"&gt;valery-barysok&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-go/pull/445"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an error with unmarshalling &lt;code dir="ltr" translate="no"&gt;AndroidNotificationPriority&lt;/code&gt;.
 Thanks &lt;a href="https://github.com/parnic"&gt;parnic&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-go/pull/435"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
@@ -371,7 +371,7 @@ the library.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;TOTP&lt;/code&gt; as a multi-factor option in project and tenant
 configuration.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.12.0 - 12 July, 2023</title><link>https://firebase.google.com/support/release-notes/admin/go#version_4120_-_12_july_2023</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.12.0 - 12 July, 2023</title><link>https://firebase.google.com/support/release-notes/admin/go#version_4120_-_12_july_2023</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;sendEach()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendEachForMulticast()&lt;/code&gt; APIs.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;sendAll()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendMulticast()&lt;/code&gt; APIs are now deprecated. Use
 &lt;code dir="ltr" translate="no"&gt;sendEach()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendEachForMulticast()&lt;/code&gt; APIs instead.&lt;/p&gt;&lt;/li&gt;
@@ -388,7 +388,7 @@ configuration.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.14.0 - 10 April, 2024</title><link>https://firebase.google.com/support/release-notes/admin/go#version_4140_-_10_april_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped support for Go versions 1.17, 1.18, and 1.19.
 The Admin Go SDK now requires Go 1.20 or higher.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;FCMOptions&lt;/code&gt; field to the &lt;code dir="ltr" translate="no"&gt;MulticastMessage&lt;/code&gt; type. Thanks
 &lt;a href="https://github.com/FZambia"&gt;FZambia&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-go/pull/537"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
@@ -399,7 +399,7 @@ lacked expiry time for public certificates.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.15.0 - 24 October, 2024</title><link>https://firebase.google.com/support/release-notes/admin/go#version_4150_-_24_october_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped support for Go version 1.20.
 The Admin Go SDK now requires Go 1.21 or higher.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;DirectBootOK&lt;/code&gt; field to the &lt;code dir="ltr" translate="no"&gt;AndroidConfig&lt;/code&gt; type. Thanks
 &lt;a href="https://github.com/akankshaJaiswal8"&gt;akankshaJaiswal8&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-go/pull/638"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
@@ -409,4 +409,14 @@ The Admin Go SDK now requires Go 1.21 or higher.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.15.2 - 13 February, 2025</title><link>https://firebase.google.com/support/release-notes/admin/go#version_4152_-_13_february_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;code dir="ltr" translate="no"&gt;cloud.google.com/go/firestore&lt;/code&gt; dependency to v1.18.0
 and the &lt;code dir="ltr" translate="no"&gt;cloud.google.com/go/storage&lt;/code&gt; dependency to v1.49.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.16.0 - 05 June, 2025</title><link>https://firebase.google.com/support/release-notes/admin/go#version_4160_-_05_june_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped support for Go versions 1.21 and 1.22.
+The Admin Go SDK now requires Go 1.23 or 1.24.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;Proxy&lt;/code&gt; field in FCM &lt;code dir="ltr" translate="no"&gt;AndroidNotification&lt;/code&gt;.
+Thanks &lt;a href="https://github.com/byungwoo-Nam"&gt;byungwoo-Nam&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-go/pull/676"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;LiveActivityToken&lt;/code&gt; field in FCM &lt;code dir="ltr" translate="no"&gt;APNSConfig&lt;/code&gt;.
+Thanks &lt;a href="https://github.com/morikuni"&gt;morikuni&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-go/pull/668"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-dotnet</title><link>https://firebase.google.com/support/release-notes/admin/dotnet</link><description>Latest updates and release notes for Firebase Admin-dotnet.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 05 Jun 2025 15:17:13 +0000</lastBuildDate><item><title>Version 1.0.0 - August 16, 2018</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_100_-_august_16_2018</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-dotnet</title><link>https://firebase.google.com/support/release-notes/admin/dotnet</link><description>Latest updates and release notes for Firebase Admin-dotnet.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 05 Jun 2025 21:14:49 +0000</lastBuildDate><item><title>Version 1.0.0 - August 16, 2018</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_100_-_august_16_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Admin .NET SDK. See
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your Server&lt;/a&gt; to get
 started.&lt;/li&gt;
@@ -207,5 +207,8 @@ See &lt;a href="/docs/cloud-messaging/android/receive#receive_fcm_messages_in_di
 for more information.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.2.0 - 24 April, 2025</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_320_-_24_april_2025</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;proxy&lt;/code&gt; field in FCM &lt;code dir="ltr" translate="no"&gt;AndroidNotification&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused &lt;code dir="ltr" translate="no"&gt;AndroidConfig.Priority&lt;/code&gt; to be mapped to the incorrect level when set to &lt;code dir="ltr" translate="no"&gt;normal&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused &lt;code dir="ltr" translate="no"&gt;AndroidConfig.Priority&lt;/code&gt; to be mapped to
+the incorrect level when set to &lt;code dir="ltr" translate="no"&gt;normal&lt;/code&gt;. Thanks
+&lt;a href="https://github.com/zSlicker"&gt;zSlicker&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-dotnet/pull/452"&gt;contribution&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
