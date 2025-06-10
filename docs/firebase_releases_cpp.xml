@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cpp</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes</link><description>Latest updates and release notes for Firebase Cpp.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 10 Jun 2025 18:22:03 +0000</lastBuildDate><item><title>Version 1.0.1 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_101_-_june_27_2016</link><description>&lt;p&gt;This update includes a variety of documentation updates and minor bug fixes.
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cpp</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes</link><description>Latest updates and release notes for Firebase Cpp.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 10 Jun 2025 21:15:24 +0000</lastBuildDate><item><title>Version 1.0.1 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_101_-_june_27_2016</link><description>&lt;p&gt;This update includes a variety of documentation updates and minor bug fixes.
 This update primarily fixes bugs in the &lt;span class="notranslate"&gt;AdMob&lt;/span&gt; portion of the C++ SDK. These
 fixes are described below:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Modified &lt;code dir="ltr" translate="no"&gt;firebase::App&lt;/code&gt; to check for the required version of Google
@@ -116,7 +116,7 @@ initialized.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 2.1.1 - January 18, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_211_-_january_18_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_39" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue that caused a future to never complete
 when signing in while a user is already signed in.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue with method swizzling that caused some
 of the application's &lt;code dir="ltr" translate="no"&gt;UIApplicationDelegate&lt;/code&gt; methods to not be called.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue which caused a crash when initializing the
@@ -132,7 +132,7 @@ caused a crash after displaying multiple interstitial ads.&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;firebase::Future::OnCompletion&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an error in &lt;code dir="ltr" translate="no"&gt;firebase::auth::User::PhotoUri&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Removed hard dependency on Xcode 8.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue where the application would receive an
 empty message on startup.&lt;/li&gt;
@@ -152,7 +152,7 @@ at times other than application start. You must call this on Android when your
 app returns to the foreground (on iOS, this is handled automatically).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed regression since 2.1.1 that broke &lt;span class="notranslate"&gt;Invites&lt;/span&gt; if the
 AppDelegate did not implement the open URL method.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a field to &lt;code dir="ltr" translate="no"&gt;firebase::messaging::Message&lt;/code&gt; specifying whether
 the message was received when the app was in the background.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Added an AAR file containing the Android manifest
@@ -176,7 +176,7 @@ occurred when clicking outside of the dialog on Android 4.x devices.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused users to be invalidated when a linking
 credential fails.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated the &lt;code dir="ltr" translate="no"&gt;User::refresh_token()&lt;/code&gt; method.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Resolved an issue which caused an app to receive an
 empty message when a notification message is received while the app is in the
 background and the user then taps on the app icon rather than on the
@@ -206,12 +206,12 @@ dependencies by updating Google Play services.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue in the Analytics SDK's method swizzling
 which resulted in Dynamic Links / Invites not being sent to the application.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a regression introduced in 3.0.3 which caused
 a crash when opening up a notification when the app is running in the
 background.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed interoperation with other users of local notifications.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.0.1 - Jun 16, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_401_-_jun_16_2017</link><description>&lt;h3 data-text="FCM" id="fcm_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.0.1 - Jun 16, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_401_-_jun_16_2017</link><description>&lt;h3 data-text="FCM" id="fcm_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed an issue where &lt;code dir="ltr" translate="no"&gt;Terminate()&lt;/code&gt; was not correctly
 shutting down the &lt;span class="notranslate"&gt;FCM&lt;/span&gt; library.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS): Fixed an issue where library would crash on start up if
@@ -227,7 +227,7 @@ if credential linking fails.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue which caused an app to sometimes crash or not
 receive a &lt;span class="notranslate"&gt;Dynamic Link&lt;/span&gt; if it's opened when the app is installed and not running.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a crash when no &lt;code dir="ltr" translate="no"&gt;Listener&lt;/code&gt; is set.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;Listener::OnTokenReceived&lt;/code&gt; occasionally being called twice
 with the same token.&lt;/li&gt;
@@ -238,7 +238,7 @@ applied to firebase::App instances.&lt;/li&gt;
 fail when other iOS SDKs rename the selectors of swizzled methods.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed future completion if short link creation fails.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed message handling when messages they are received via the
 direct channel to the FCM backend (i.e not via APNS).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.1.0 - Aug 23, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_410_-_aug_23_2017</link><description>&lt;ul&gt;
@@ -257,7 +257,7 @@ as well as &lt;code dir="ltr" translate="no"&gt;std::function&lt;/code&gt; suppo
 captures.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;DataSnapshot&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;DatabaseReference&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Query&lt;/code&gt;, and other objects
 are invalidated when their &lt;code dir="ltr" translate="no"&gt;Database&lt;/code&gt; instance is destroyed.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;PollableListener&lt;/code&gt; to make it easier to poll for messages
 in an update loop.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a bug where &lt;code dir="ltr" translate="no"&gt;message_type&lt;/code&gt; was not set in the
@@ -282,7 +282,7 @@ When push notifications aren't available, reCAPTCHA verification is used
 instead.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed &lt;code dir="ltr" translate="no"&gt;MutableData::children_count()&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Messages sent to users can now contain a link URL.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a bug which prevented the message ID field being
 set.&lt;/li&gt;
@@ -364,7 +364,7 @@ on Windows, OS X, and Linux.&lt;/li&gt;
 invalid URLs return nullptr.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue where incorrect values could be passed to
 OnChildAdded.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the SetAutoTokenRegistrationOnInitEnabled() and
 IsAutoTokenRegistrationOnInitEnabled() methods to enable or disable
 auto-token generation.&lt;/li&gt;
@@ -389,7 +389,7 @@ DataSnapshot, and MutableData.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a field to received dynamic links describing the strength
 of the match.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an optional initialization options struct. This can be
 used to suppress the prompt on iOS that requests permission to receive
 notifications at start up. Permission can be requested manually using the
@@ -431,7 +431,7 @@ availability checker.&lt;/li&gt;
 of the database to use.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a way to specify which region to run the function in.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;Subscribe()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Unsubscribe()&lt;/code&gt; to return a Future.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.2.1 - August 16, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_521_-_august_16_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition that was returning the wrong Future when you
@@ -510,7 +510,7 @@ com.google.android.gms:play-services-measurement-sdk-api:16.4.0&lt;/li&gt;
 &lt;a href="/support/release-notes/ios#2019-05-07"&gt;Firebase Android&lt;/a&gt; dependencies.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition updating the current user.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS/Android) Fix an issue where Subscribe and Unsubscribe
 never returned if you were set not to receive a registration token.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Invites" id="invites" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -549,7 +549,7 @@ written to the database incorrectly (truncated to 32-bits).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Change assert to log warning when App is deleted before
 Cloud Functions instance is deleted.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added channel_id to Messaging notifications.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.2.0 - July 2, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_620_-_july_2_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;a href="/support/release-notes/ios#6.3.0"&gt;Firebase iOS&lt;/a&gt; and
@@ -666,7 +666,7 @@ destruction of BannerViews.&lt;/li&gt;
  auth providers.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added constant &lt;code dir="ltr" translate="no"&gt;kProviderId&lt;/code&gt; strings to auth provider classes.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS): Added support for linking Apple Sign-in credentials.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Android): Added the option to enable or disable message
  delivery metrics export to BigQuery. This functionality is currently only
  available on Android. Stubs are provided on iOS for cross platform
@@ -732,7 +732,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a deadlock issue caused by not using an event loop.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;error_message&lt;/code&gt; parameter to snapshot listener callbacks.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the library to be compatible with Android O.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated the &lt;code dir="ltr" translate="no"&gt;Send&lt;/code&gt; function.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.16.1 - October 20, 2020</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_6161_-_october_20_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -760,7 +760,7 @@ destruction of BannerViews.&lt;/li&gt;
  for details.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Instance ID" id="instance_id_2" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Marked Instance ID SDK as deprecated.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;GetToken&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;DeleteToken&lt;/code&gt; APIs.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated &lt;code dir="ltr" translate="no"&gt;Send()&lt;/code&gt; function.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;raw_data&lt;/code&gt; has been changed from a &lt;code dir="ltr" translate="no"&gt;std::string&lt;/code&gt; to a
@@ -789,7 +789,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed partial updates in &lt;code dir="ltr" translate="no"&gt;Update()&lt;/code&gt; with &lt;code dir="ltr" translate="no"&gt;FieldValue::Delete()&lt;/code&gt;
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/882"&gt;#882&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Now uses &lt;code dir="ltr" translate="no"&gt;enqueueWork&lt;/code&gt; instead of &lt;code dir="ltr" translate="no"&gt;startService&lt;/code&gt;. This
  fixes lost messages with data payloads received when the app is in the
  background.
@@ -914,7 +914,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fix a crash that would occur if parsing the JSON
  response from the server failed
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/692"&gt;#692&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Fixes an issue to receive token when initialize the
  app.  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/667"&gt;#667&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.7.0 - November 4, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_870_-_november_4_2021</link><description>&lt;ul&gt;
@@ -942,7 +942,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix "unaligned pointers" build error on macOS Monterey
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/issues/712"&gt;#712&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed crash during termination.
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/739"&gt;#739&lt;/a&gt;)
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/745"&gt;#745&lt;/a&gt;)&lt;/li&gt;
@@ -1027,7 +1027,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;TransactionOptions&lt;/code&gt; to control how many times a
  transaction will retry commits before failing
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/966"&gt;#966&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed #973. Make sure all the resources are closed in
  &lt;code dir="ltr" translate="no"&gt;RegistrationIntentService&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.3.0 - July 20, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_930_-_july_20_2022</link><description>&lt;ul&gt;
@@ -1298,7 +1298,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The Dynamic Links SDK is now deprecated. See the &lt;a href="https://firebase.google.com/support/dynamic-links-faq"&gt;support
  documentation&lt;/a&gt; for
  more information.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed minSdkVersion in the &lt;code dir="ltr" translate="no"&gt;firebase_messaging&lt;/code&gt;.aar
  manifest file.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.9.0 - March 13, 2024</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1190_-_march_13_2024</link><description>&lt;ul&gt;
@@ -1343,7 +1343,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The GMA C++ SDK is now deprecated. For more information,
  see the &lt;a href="https://developers.google.com/admob/cpp/sdk"&gt;SDK documentation&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a potential race condition on receiving messages
  after cleanup.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue with notifications being lost if they were
@@ -1354,7 +1354,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 11.2.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.3.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated minSdkVersion to 24.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed SetListener to send the last token received before the
  listener was set.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1380,4 +1380,17 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.7.0 - March 25, 2025</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1270_-_march_25_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 11.10.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.11.0.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.8.0 - June 10, 2025</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1280_-_june_10_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 11.14.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.15.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS, tvOS, Desktop) iOS, tvOS, and macOS SDKs are now built
+ using Xcode 16.2.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fix issue with the Subscribe Future not completing
+ when a cached token is available.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="User Messaging Platform" id="user_messaging_platform" tabindex="-1"&gt;User Messaging Platform&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Moved the User Messaging Platform SDK to its own top-level
+ library and to the &lt;code dir="ltr" translate="no"&gt;firebase::ump&lt;/code&gt; namespace. The version in the GMA
+ library (in &lt;code dir="ltr" translate="no"&gt;firebase::gma::ump)&lt;/code&gt; has been deprecated and will be removed
+ soon.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
