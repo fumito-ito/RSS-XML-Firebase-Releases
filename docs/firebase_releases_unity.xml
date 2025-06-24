@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 24 Jun 2025 15:17:51 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 24 Jun 2025 18:22:25 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, &lt;span class="notranslate"&gt;Invites&lt;/span&gt;, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;. To get started, see
 &lt;a href="/docs/unity/setup"&gt;Adding Firebase to your Unity Project&lt;/a&gt;.&lt;/p&gt;&lt;ul&gt;
@@ -41,7 +41,7 @@ A workaround is documented on the
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a Unity plugin for &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;.  To get started, see
 &lt;a href="/docs/storage/unity/start"&gt;Get Started with &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; for Unity&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed crash when logging arrays of parameters.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_41" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Modified stub implementation so that all operations now succeed
@@ -220,7 +220,7 @@ up if there was no registration token.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.0.2 - Jul 7, 2017</title><link>https://firebase.google.com/support/release-notes/unity#version_402_-_jul_7_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed native libraries not being included in built
 APKs when using the internal build system in Unity 2017.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue which caused &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; to be included
 in builds without the &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; plugin.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;SetCurrentScreen&lt;/code&gt; to work from any thread.&lt;/li&gt;
@@ -300,7 +300,7 @@ the Gradle daemon to improve reliability of the process.&lt;/li&gt;
 dependency resolution.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed MonoPInvokeCallbackAttribute incorrectly being added to
 the root namespace causing incompatibility with plugins like slua.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed bug which prevented the user ID and user properties being
 cleared.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -429,7 +429,7 @@ the correct project settings. (Only affected users who developed for iOS
 and not Android, who were using Desktop).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Added support for accessing user metadata.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added SetMinimumSessionDuration() and SetSessionTimeoutDuration().&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue with links getting lost when calling
@@ -494,7 +494,7 @@ merger in Unity 2018.x.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; on iOS, Android, and
 desktop.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;ResetAnalyticsData()&lt;/code&gt; to clear all analytics data for an
 app from the device.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;GetAnalyticsInstanceIdAsync()&lt;/code&gt; which allows developers to
@@ -585,7 +585,7 @@ Unity projects.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added method to enable persistence on mobile platforms.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed short link generation failing with "error 8".&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.4.1 - November 5, 2018</title><link>https://firebase.google.com/support/release-notes/unity#version_541_-_november_5_2018</link><description>&lt;h3 data-text="Analytics" id="analytics_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.4.1 - November 5, 2018</title><link>https://firebase.google.com/support/release-notes/unity#version_541_-_november_5_2018</link><description>&lt;h3 data-text="Analytics" id="analytics_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed issue with Google Analytics and Google App
 Measurement mismatch.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.4.2 - November 15, 2018</title><link>https://firebase.google.com/support/release-notes/unity#version_542_-_november_15_2018</link><description>&lt;ul&gt;
@@ -697,7 +697,7 @@ returned if the API was configured not to receive a registration token.&lt;/li&g
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated functions using config namespaces.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue parsing boolean values.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated SetMinimumSessionDuration.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.1.0 - June 6, 2019</title><link>https://firebase.google.com/support/release-notes/unity#version_610_-_june_6_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;a href="/support/release-notes/ios#6.1.0"&gt;Firebase iOS&lt;/a&gt; and
@@ -860,7 +860,7 @@ transaction.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS/Android) Fixed an issue where
 &lt;code dir="ltr" translate="no"&gt;FirebaseStorage.GetReferenceFromUrl&lt;/code&gt; would return an invalid
 &lt;code dir="ltr" translate="no"&gt;StorageReference&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.7.0 - November 13, 2019</title><link>https://firebase.google.com/support/release-notes/unity#version_670_-_november_13_2019</link><description>&lt;h3 data-text="Analytics" id="analytics_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.7.0 - November 13, 2019</title><link>https://firebase.google.com/support/release-notes/unity#version_670_-_november_13_2019</link><description>&lt;h3 data-text="Analytics" id="analytics_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed the racy behavior of
 &lt;code dir="ltr" translate="no"&gt;FirebaseAnalytics.GetAnalyticsInstanceId()&lt;/code&gt; after calling
 &lt;code dir="ltr" translate="no"&gt;FirebaseAnalytics.ResetAnalyticsData()&lt;/code&gt;.&lt;/li&gt;
@@ -1044,7 +1044,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.0.0 - December 2, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_700_-_december_2_2020</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) iOS SDKs are now built using XCode 11.7.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated service account APIs.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated &lt;code dir="ltr" translate="no"&gt;SetMinimumSessionDuration&lt;/code&gt; function.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remove deprecated &lt;code dir="ltr" translate="no"&gt;DynamicLinkComponents.DynamicLinkDomain&lt;/code&gt;.
@@ -1127,7 +1127,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.0.0 - June 17, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_800_-_june_17_2021</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) A database URL is no longer required to be present in
  GoogleService-Info.plist when not using Realtime Database.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed &lt;code dir="ltr" translate="no"&gt;SetCurrentScreen()&lt;/code&gt; following its removal from the iOS
  SDK and deprecation in the Android SDK. Use &lt;code dir="ltr" translate="no"&gt;LogEvent&lt;/code&gt; with
  ScreenView event to manually log screen changes.&lt;/li&gt;
@@ -1286,7 +1286,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Editor, macOS): Add support for Apple silicon chips.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS): Firebase Unity on iOS is now built using Xcode 13.3.1.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS): Fixed crash when running on iPhoneOS 12 and older.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated event names and parameters.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed a bug with missing symbols when enabling
@@ -1302,7 +1302,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.1.0 - June 10, 2022</title><link>https://firebase.google.com/support/release-notes/unity#version_910_-_june_10_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a missing namespace to the Google.MiniJson.dll.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS): Fix an issue with bitcode not being enabled correctly.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Added InitiateOnDeviceConversionMeasurementWithEmail
  function to facilitate the &lt;a href="https://support.google.com/google-ads/answer/12119136"&gt;on-device conversion
  measurement&lt;/a&gt; API.&lt;/li&gt;
@@ -1395,7 +1395,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  Installations, Messaging, Remote Config and Storage.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 31.2.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.4.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;SetConsent()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;GetSessionIdAsync()&lt;/code&gt; APIs.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;ReportUncaughtExceptionsAsFatal&lt;/code&gt; property and
@@ -1508,7 +1508,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.15.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Made dynamic code files read only to comply with new
  Android 14 security requirements. This fixes a crash at API level 34+.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Added
  InitiateOnDeviceConversionMeasurementWithPhoneNumber function to
  facilitate the &lt;a href="https://support.google.com/google-ads/answer/12119136"&gt;on-device conversion
@@ -1522,7 +1522,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 11.8.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 32.7.1.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.20.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the consent management API to include new consent
  signals.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1576,7 +1576,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.1.1.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.28.1.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to EDM4U version 1.2.181.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Add support for
  &lt;code dir="ltr" translate="no"&gt;InitiateOnDeviceConversionMeasurementWithHashedEmailAddress&lt;/code&gt; and
  &lt;code dir="ltr" translate="no"&gt;InitiateOnDeviceConversionMeasurementWithHashedPhoneNumber&lt;/code&gt;.&lt;/li&gt;
@@ -1616,7 +1616,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 11.4.2.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.5.1.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Reduced minSdkVersion back to 23.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Add support for Parameters of Lists of Dictionaries, needed by
  some events such as ViewCart.
  (&lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/1056"&gt;#1056&lt;/a&gt;).&lt;/li&gt;
@@ -1669,6 +1669,9 @@ without the iOS Unity extension installed.&lt;/li&gt;
  using Xcode 16.2.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fix a crash with 16 KB page sizes.
  (&lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/1259"&gt;#1259&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Released Open Beta support for &lt;a href="https://firebase.google.com/docs/tutorials/ads-ios-on-device-measurement"&gt;on-device conversion
+ measurement using event data&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fix issue with &lt;code dir="ltr" translate="no"&gt;SubscribeAsync&lt;/code&gt; task not completing
  when a cached token is available.
