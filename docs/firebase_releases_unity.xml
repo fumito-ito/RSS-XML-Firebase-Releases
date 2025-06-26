@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 26 Jun 2025 18:23:01 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 26 Jun 2025 21:14:58 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, &lt;span class="notranslate"&gt;Invites&lt;/span&gt;, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;. To get started, see
 &lt;a href="/docs/unity/setup"&gt;Adding Firebase to your Unity Project&lt;/a&gt;.&lt;/p&gt;&lt;ul&gt;
@@ -1680,4 +1680,15 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;ol&gt;
 &lt;li&gt;(&lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/1229"&gt;#1229&lt;/a&gt;)&lt;/li&gt;
 &lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.10.1 - June 26, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_12101_-_june_26_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Change AppDelegate swizzling logic to not use
+ &lt;code dir="ltr" translate="no"&gt;objc_copyClassList&lt;/code&gt;, which was causing a slow startup, and crashes on iOS
+&lt;ol&gt;
+&lt;li&gt;(&lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/1268"&gt;#1268&lt;/a&gt;).&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Added an option to explicitly specify your app's
+ &lt;code dir="ltr" translate="no"&gt;AppDelegate&lt;/code&gt; class name via the &lt;code dir="ltr" translate="no"&gt;FirebaseAppDelegateClassName&lt;/code&gt; key in
+ &lt;code dir="ltr" translate="no"&gt;Info.plist&lt;/code&gt;. This provides a more direct way for Firebase to interact
+ with your specified AppDelegate. See "Platform Notes &amp;gt; iOS Method
+ Swizzling &amp;gt; Specifying Your AppDelegate Class Directly (iOS)" for details.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
