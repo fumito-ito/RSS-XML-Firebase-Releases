@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 27 Jun 2025 12:32:28 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 27 Jun 2025 15:16:40 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -7366,4 +7366,26 @@ GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/i
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a helper field for getting all the &lt;code dir="ltr" translate="no"&gt;InlineDataPart&lt;/code&gt; from a
 &lt;code dir="ltr" translate="no"&gt;GenerateContentResponse&lt;/code&gt;.
 GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6941"&gt;#6941&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - June 05, 2025</title><link>https://firebase.google.com/support/release-notes/android#2025-06-05</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.15.0" id="bom_v33-15-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.15.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 16.1.0" id="ai_v16-1-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 16.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;StackOverflowException&lt;/code&gt; from &lt;code dir="ltr" translate="no"&gt;FirebaseAI.getInstance&lt;/code&gt;.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6971"&gt;#6971&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that was causing the SDK to send empty
+&lt;code dir="ltr" translate="no"&gt;FunctionDeclaration&lt;/code&gt; descriptions to the API.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Introduced the &lt;code dir="ltr" translate="no"&gt;Voice&lt;/code&gt; class, which accepts a voice name, and
+deprecated the &lt;code dir="ltr" translate="no"&gt;Voices&lt;/code&gt; class.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;SpeechConfig&lt;/code&gt; to take in &lt;code dir="ltr" translate="no"&gt;Voice&lt;/code&gt; class
+instead of &lt;code dir="ltr" translate="no"&gt;Voices&lt;/code&gt; class.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Action Required:&lt;/strong&gt; Update all references of &lt;code dir="ltr" translate="no"&gt;SpeechConfig&lt;/code&gt; initialization to
+use &lt;code dir="ltr" translate="no"&gt;Voice&lt;/code&gt; class.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics version 19.4.4" id="crashlytics_v19-4-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 19.4.4&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed more strict mode violations&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.4.4" id="crashlytics-ndk_v19-4-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 19.4.4&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to v19.4.4&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics Gradle plugin version 3.0.4" id="crashlytics_gradle_plugin_v3-0-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin version 3.0.4&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Enhanced task performance and correctness by explicitly defining
+path sensitivity and caching.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
