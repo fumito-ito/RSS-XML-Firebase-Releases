@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-dotnet</title><link>https://firebase.google.com/support/release-notes/admin/dotnet</link><description>Latest updates and release notes for Firebase Admin-dotnet.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 09 Jul 2025 18:23:06 +0000</lastBuildDate><item><title>Version 1.0.0 - August 16, 2018</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_100_-_august_16_2018</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-dotnet</title><link>https://firebase.google.com/support/release-notes/admin/dotnet</link><description>Latest updates and release notes for Firebase Admin-dotnet.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 09 Jul 2025 21:15:34 +0000</lastBuildDate><item><title>Version 1.0.0 - August 16, 2018</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_100_-_august_16_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Admin .NET SDK. See
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your Server&lt;/a&gt; to get
 started.&lt;/li&gt;
@@ -17,14 +17,14 @@ method has been added to the &lt;code dir="ltr" translate="no"&gt;FirebaseAuth&l
 on Firebase user accounts.
 Thanks &lt;a href="https://github.com/dominikfoldi"&gt;dominikfoldi&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-dotnet/pull/17"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.2.0 - February 14, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_120_-_february_14_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.2.0 - February 14, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_120_-_february_14_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
 &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/messaging/firebase-messaging"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseMessaging&lt;/code&gt;&lt;/a&gt;
 class for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 1.2.1 - March 20, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_121_-_march_20_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;VerifyIdTokenAsync()&lt;/code&gt; method now tolerates a clock skew of up
 to 5 minutes when comparing JWT timestamps.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.3.0 - March 28, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_130_-_march_28_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.3.0 - March 28, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_130_-_march_28_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new
 &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/messaging/firebase-messaging#sendmulticastasync"&gt;&lt;code dir="ltr" translate="no"&gt;SendMulticastAsync()&lt;/code&gt;&lt;/a&gt;
 API for sending a message to a list of device registration tokens.
@@ -48,7 +48,7 @@ method that allows deleting user accounts.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/auth/firebase-auth#getuserasync"&gt;&lt;code dir="ltr" translate="no"&gt;GetUserByEmailAsync()&lt;/code&gt;&lt;/a&gt;
 and &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/auth/firebase-auth#getuserasync"&gt;&lt;code dir="ltr" translate="no"&gt;GetUserByPhoneNumberAsync()&lt;/code&gt;&lt;/a&gt;
 methods for retrieving user accounts.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/messaging/webpush-fcm-options"&gt;&lt;code dir="ltr" translate="no"&gt;WebpushFcmOptions&lt;/code&gt;&lt;/a&gt;
 API for specifying Webpush-specific notification options. Thanks &lt;a href="https://github.com/Odonno"&gt;Odonno&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-dotnet/pull/64"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
@@ -67,7 +67,7 @@ method for updating exiting user accounts.&lt;/li&gt;
 method for listing or iterating over all users accounts in a Firebase
 project. Thanks &lt;a href="https://github.com/ChristopherLenz"&gt;ChristopherLenz&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-dotnet/pull/77"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.8.0 - August 07, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_180_-_august_07_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.8.0 - August 07, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_180_-_august_07_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;SubscribeToTopicAsync()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;UnsubscribeFromTopicAsync()&lt;/code&gt; methods
 to the &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/messaging/firebase-messaging"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseMessaging&lt;/code&gt;&lt;/a&gt;
 class for managing topic subscriptions. Thanks
@@ -164,7 +164,7 @@ Developers are now required to use &lt;code dir="ltr" translate="no"&gt;netstand
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded the dependency &lt;code dir="ltr" translate="no"&gt;Google.Api.Gax&lt;/code&gt; to the latest major
 version. Refer to the &lt;a href="/docs/reference/admin/dotnet/migrate-dotnet-v2"&gt;migration guide&lt;/a&gt;
 for more details on how this change might affect your code.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;MulticastMessage&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;SendAllAsync()&lt;/code&gt; APIs now support sending up
 to 500 messages in a batch.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 2.1.0 - 14 April, 2021</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_210_-_14_april_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -178,12 +178,12 @@ endpoint. Thanks
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added the missing &lt;code dir="ltr" translate="no"&gt;EMAIL_NOT_FOUND&lt;/code&gt; error code.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for using the authorization code flow with
 OpenID Connect (OIDC) providers.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 2.3.0 - 24 March, 2022</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_230_-_24_march_2022</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.3.0 - 24 March, 2022</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_230_-_24_march_2022</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a series of new parameters to the &lt;code dir="ltr" translate="no"&gt;AndroidNotification&lt;/code&gt; class
 that allow further customization of notifications that target Android devices.
 Thanks &lt;a href="https://github.com/levimatheri"&gt;levimatheri&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-dotnet/pull/203"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 2.4.0 - 12 July, 2023</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_240_-_12_july_2023</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.4.0 - 12 July, 2023</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_240_-_12_july_2023</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;SendEachAsync()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;SendEachForMulticastAsync()&lt;/code&gt; APIs.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;SendAllAsync()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;SendMulticastAsync()&lt;/code&gt; APIs are now deprecated.
 Use &lt;code dir="ltr" translate="no"&gt;SendEachAsync()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;SendEachForMulticastAsync()&lt;/code&gt; APIs instead.&lt;/li&gt;
@@ -195,20 +195,24 @@ upgrade your runtime frameworks accordingly.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.0.0 - 08 May, 2024</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_300_-_08_may_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped support for .NET Framework 4.6.1. You must now use .NET
 Framework 4.6.2+ or .NET 6.0+.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.0.1 - 12 September, 2024</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_301_-_12_september_2024</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.0.1 - 12 September, 2024</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_301_-_12_september_2024</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused &lt;code dir="ltr" translate="no"&gt;EventTimestamp&lt;/code&gt; in Android Notifications
 to generate an invalid value.
 Thanks
 &lt;a href="https://github.com/martinwiboe"&gt;martinwiboe&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-dotnet/pull/329"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.1.0 - 07 November, 2024</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_310_-_07_november_2024</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.1.0 - 07 November, 2024</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_310_-_07_november_2024</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;DirectBootOk&lt;/code&gt; field to the &lt;code dir="ltr" translate="no"&gt;AndroidConfig&lt;/code&gt; type.
 See &lt;a href="/docs/cloud-messaging/android/receive#receive_fcm_messages_in_direct_boot_mode"&gt;Receive FCM messages in direct boot mode&lt;/a&gt;
 for more information.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.2.0 - 24 April, 2025</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_320_-_24_april_2025</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.2.0 - 24 April, 2025</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_320_-_24_april_2025</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;proxy&lt;/code&gt; field in FCM &lt;code dir="ltr" translate="no"&gt;AndroidNotification&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused &lt;code dir="ltr" translate="no"&gt;AndroidConfig.Priority&lt;/code&gt; to be mapped to
 the incorrect level when set to &lt;code dir="ltr" translate="no"&gt;normal&lt;/code&gt;. Thanks
 &lt;a href="https://github.com/zSlicker"&gt;zSlicker&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-dotnet/pull/452"&gt;contribution&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.3.0 - 09 July, 2025</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_330_-_09_july_2025</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;LiveActivityToken&lt;/code&gt; field in FCM &lt;code dir="ltr" translate="no"&gt;ApnsConfig&lt;/code&gt;.
+Thanks &lt;a href="https://github.com/kanclalg"&gt;kanclalg&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-dotnet/pull/454"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
