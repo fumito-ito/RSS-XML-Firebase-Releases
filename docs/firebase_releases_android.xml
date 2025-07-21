@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 21 Jul 2025 18:25:11 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 21 Jul 2025 21:16:27 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -7388,4 +7388,29 @@ updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.4.4" id="crashlyt
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics Gradle plugin version 3.0.4" id="crashlytics_gradle_plugin_v3-0-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin version 3.0.4&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Enhanced task performance and correctness by explicitly defining
 path sensitivity and caching.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - June 26, 2025</title><link>https://firebase.google.com/support/release-notes/android#2025-06-26</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.16.0" id="bom_v33-16-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.16.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 16.2.0" id="ai_v16-2-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 16.2.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated the &lt;code dir="ltr" translate="no"&gt;totalBillableCharacters&lt;/code&gt; field
+(only usable with pre-2.0 models).
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7042"&gt;#7042&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for extra schema properties like &lt;code dir="ltr" translate="no"&gt;title&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;minItems&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;maxItems&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;minimum&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;maximum&lt;/code&gt;. As well as support for the &lt;code dir="ltr" translate="no"&gt;anyOf&lt;/code&gt; schema.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7013"&gt;#7013&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics version 22.5.0" id="analytics_v22-5-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt; version 22.5.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-analytics&lt;/code&gt; library. The Kotlin extensions library has no
+additional updates.&lt;/p&gt;&lt;h3 data-text="Cloud Messaging version 24.1.2" id="messaging_v24-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 24.1.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a &lt;code dir="ltr" translate="no"&gt;NamedThreadFactory&lt;/code&gt; to the service
+connection Executor for &lt;code dir="ltr" translate="no"&gt;WithinAppServiceConnection&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
+&lt;code dir="ltr" translate="no"&gt;firebase-messaging&lt;/code&gt; library. The Kotlin extensions library has no additional
+updates.&lt;/p&gt;&lt;h3 data-text="Data Connect version 16.0.3" id="data-connect_v16-0-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 16.0.3&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed occasional &lt;code dir="ltr" translate="no"&gt;NullPointerException&lt;/code&gt; when registering with
+&lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt;, leading to erroneous &lt;code dir="ltr" translate="no"&gt;UNAUTHENTICATED&lt;/code&gt; exceptions.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7001"&gt;#7001&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging Direct Boot version 24.1.2" id="messaging-directboot_v24-1-2" tabindex="-1"&gt;Cloud Messaging Direct Boot version 24.1.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep messaging SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="google-services plugin 4.4.3" id="google-services_plugin_v4-4-3" tabindex="-1"&gt;google-services plugin 4.4.3&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where the plugin was eagerly realizing configurations.
+(GitHub &lt;a class="external" href="https://github.com/google/play-services-plugins/pull/307"&gt;#307&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
