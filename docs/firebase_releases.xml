@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 21 Jul 2025 15:18:01 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 21 Jul 2025 18:25:07 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -5231,7 +5231,15 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 (v3.13.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, and bug fixes in
 Core, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate></item><item><title>July 09, 2025</title><link>https://firebase.google.com/support/releases#july_09_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate></item><item><title>July 09, 2025</title><link>https://firebase.google.com/support/releases#july_09_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.10.1)" id="cli-v14.10.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.10.1)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#14.10.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.10.1)&lt;/a&gt;
+is now available. This version adds &lt;code dir="ltr" translate="no"&gt;string_pattern&lt;/code&gt; filters to
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and includes fixes for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;,
+&lt;span class="notranslate"&gt;Firebase Extensions&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/dotnet#3.3.0"&gt;Firebase Admin .NET SDK (v3.3.0)&lt;/a&gt;
 is now available. This release comes with a new feature the
 &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; API.
@@ -5243,7 +5251,14 @@ To install this SDK, see
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#12.0.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate></item><item><title>July 17, 2025</title><link>https://firebase.google.com/support/releases#july_17_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate></item><item><title>July 16, 2025</title><link>https://firebase.google.com/support/releases#july_16_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.11.0)" id="cli-v14.11.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.11.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#14.11.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.11.0)&lt;/a&gt;
+is now available. This version adds full-text search and user defined enums to
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate></item><item><title>July 17, 2025</title><link>https://firebase.google.com/support/releases#july_17_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/python#7.0.0"&gt;Firebase Admin Python SDK (v7.0.0)&lt;/a&gt;
 is now available. This release drops support for Python 3.7 and 3.8, includes
 changes to dependencies and feature support in &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; and
