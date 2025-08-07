@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 06 Aug 2025 21:14:33 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 07 Aug 2025 01:24:32 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -5337,13 +5337,13 @@ is now available. This release includes the deprecation of &lt;span class="notra
 &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate></item><item><title>August 4, 2025</title><link>https://firebase.google.com/support/releases#august_4_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate></item><item><title>August 04, 2025</title><link>https://firebase.google.com/support/releases#august_04_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#12.1.0"&gt;Firebase Apple SDK (v12.1.0)&lt;/a&gt;
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#12.1.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate></item><item><title>August 5, 2025</title><link>https://firebase.google.com/support/releases#august_5_2025</link><description>&lt;h3 data-text="App Distribution" id="invitation-restrictions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate></item><item><title>August 5, 2025</title><link>https://firebase.google.com/support/releases#august_5_2025</link><description>&lt;h3 data-text="App Distribution" id="app-distro-invitation-restrictions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now restrict tester invitations to be accepted by users
 with a specific Google Account. The &lt;strong&gt;Restrict invitation acceptance to
 recipient's email&lt;/strong&gt; feature lets you add a restriction on which account
@@ -5352,4 +5352,15 @@ your testers can use to accept testing invitations. For more information, see
 Distribution&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-remove-device-RED8BEL1-33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following device has been removed: RED8BEL1/33.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate></item><item><title>August 6, 2025</title><link>https://firebase.google.com/support/releases#august_6_2025</link><description>&lt;h3 data-text="App Hosting" id="fah-routing-billing" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Route-based monitoring is now available in 
+&lt;span class="notranslate"&gt;Firebase App Hosting&lt;/span&gt;. Providing deep, actionable insights into your
+application's health, route-based monitoring helps you pinpoint performance
+bottlenecks and decode user behavior on individual routes. See the
+&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; documentation to learn more about how to 
+&lt;a href="/docs/app-hosting/monitor-routes"&gt;monitor routes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Starting August 1, 2025, &lt;span class="notranslate"&gt;Firebase App Hosting&lt;/span&gt; projects began
+incurring costs once they exceed the pay-as-you-go Blaze pricing plan no-cost limits. See
+the &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; documentation to learn more about how to 
+&lt;a href="/docs/app-hosting/costs#calculate-costs"&gt;calculate costs&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate></item></channel></rss>
