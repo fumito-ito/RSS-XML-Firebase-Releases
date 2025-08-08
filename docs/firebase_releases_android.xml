@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 08 Aug 2025 12:36:10 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 08 Aug 2025 15:18:05 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -7314,7 +7314,7 @@ includes support for image generation using
 &lt;a href="/docs/vertex-ai/models"&gt;specific Gemini models&lt;/a&gt;.&lt;/p&gt;
 &lt;aside class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;span&gt; This feature is in Public Preview, which means that it is not subject to
 any SLA or deprecation policy and could change in backwards-incompatible ways.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication version 23.2.1" id="auth_v23-2-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; version 23.2.1&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication version 23.2.1" id="auth_v23-2-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; version 23.2.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Enhanced security by adding encryption to &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; data
 inside Android persistent storage.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a fix for
@@ -7413,4 +7413,202 @@ updates.&lt;/p&gt;&lt;h3 data-text="Data Connect version 16.0.3" id="data-connec
 &lt;/ul&gt;&lt;h3 data-text="google-services plugin 4.4.3" id="google-services_plugin_v4-4-3" tabindex="-1"&gt;google-services plugin 4.4.3&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where the plugin was eagerly realizing configurations.
 (GitHub &lt;a class="external" href="https://github.com/google/play-services-plugins/pull/307"&gt;#307&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - July 21, 2025</title><link>https://firebase.google.com/support/release-notes/android#2025-07-21</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 34.0.0" id="bom_v34-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 34.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Changes:&lt;/strong&gt; Removed all Kotlin extensions (KTX) modules
+from the &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt;. Instead, use the KTX APIs from the main
+modules. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Changes:&lt;/strong&gt; Removed the deprecated and soon-to-be
+shut down &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; libraries from the &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt;. For details,
+see the &lt;a href="/support/dynamic-links-faq"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; Deprecation FAQ&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Changes:&lt;/strong&gt; Removed the deprecated
+&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; library (&lt;code dir="ltr" translate="no"&gt;firebase-vertexai&lt;/code&gt;) from the
+&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt;. The &lt;code dir="ltr" translate="no"&gt;firebase-vertexai&lt;/code&gt; library has been renamed and
+replaced with the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; client library (&lt;code dir="ltr" translate="no"&gt;firebase-ai&lt;/code&gt;). Learn
+more about
+&lt;a href="/docs/ai-logic/migrate-to-latest-sdk"&gt;migrating to &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="A/B Testing version 23.0.0" id="ab_testing_v23-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt; version 23.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic version 17.0.0" id="ai_v17-0-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for configuring the "thinking" budget when using
+Gemini 2.5 series models.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6990"&gt;#6990&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Grounding with Google Search.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7042"&gt;#7042&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Breaking Change&lt;/strong&gt;: Action Required - Update all references of
+&lt;code dir="ltr" translate="no"&gt;groundingAttributions&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;webSearchQueries&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;retrievalQueries&lt;/code&gt; in
+&lt;code dir="ltr" translate="no"&gt;GroundingMetadata&lt;/code&gt; to be non-optional.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed to require at least one argument for &lt;code dir="ltr" translate="no"&gt;generateContent()&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;generateContentStream()&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;countTokens()&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new overloads for &lt;code dir="ltr" translate="no"&gt;generateContent()&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;generateContentStream()&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;countTokens()&lt;/code&gt; that take a &lt;code dir="ltr" translate="no"&gt;List&amp;lt;Content&amp;gt;&lt;/code&gt;
+parameter.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics version 23.0.0" id="analytics_v23-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt; version 23.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check version 19.0.0" id="appcheck_v19-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 19.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 19.0.0" id="appcheck-debug_v19-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 19.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 19.0.0" id="appcheck-debug-testing_v19-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 19.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check Play integrity version 19.0.0" id="appcheck-playintegrity_v19-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play integrity version 19.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Distribution version 16.0.0-beta16" id="app-distro_v16-0-0-beta16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; version 16.0.0-beta16&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Distribution API version 16.0.0-beta16" id="app-distro-api_v16-0-0-beta16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; API version 16.0.0-beta16&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication version 24.0.0" id="auth_v24-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; version 24.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression introduced in v23.2.1 that caused users to be
+signed out every time they enter the app (cold start) after restoring
+&lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; data from cross-device backup.
+(&lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/issues/7111"&gt;GitHub #7111&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 26.0.0" id="firestore_v26-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 26.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Further improved performance of UTF-8 string ordering logic,
+which had degraded in v25.1.2 and received some improvements in v25.1.3.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7053"&gt;#7053&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed to use the &lt;code dir="ltr" translate="no"&gt;compare()&lt;/code&gt; methods defined in standard
+&lt;code dir="ltr" translate="no"&gt;Integer&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Long&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;Character&lt;/code&gt; classes instead of Firestore's bespoke
+implementations.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7109"&gt;#7109&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK version 22.0.0" id="functions-client_v22-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt; version 22.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging version 25.0.0" id="messaging_v25-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 25.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging Direct Boot version 25.0.0" id="messaging-directboot_v25-0-0" tabindex="-1"&gt;Cloud Messaging Direct Boot version 25.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage for Firebase version 22.0.0" id="storage_v22-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage for Firebase&lt;/span&gt; version 22.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics version 20.0.0" id="crashlytics_v20-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 20.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Removed deprecated public constructor
+&lt;code dir="ltr" translate="no"&gt;KeyValueBuilder(crashlytics: FirebaseCrashlytics)&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics NDK version 20.0.0" id="crashlytics-ndk_v20-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 20.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics Gradle plugin version 3.0.5" id="crashlytics_gradle_plugin_v3-0-5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin version 3.0.5&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved Crashlytics SDK efficiency by providing version control
+information directly.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.0.0" id="data-connect_v17-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed superfluous and noisy debug logging of operation
+variables.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Dynamic feature modules support version 16.0.0-beta04" id="dynamic-feature-modules-support_v16-0-0-beta04" tabindex="-1"&gt;Dynamic feature modules support version 16.0.0-beta04&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="In-App Messaging version 22.0.0" id="inappmessaging_v22-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; version 22.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="In-App Messaging Display version 22.0.0" id="inappmessaging-display_v22-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; Display version 22.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase installations version 19.0.0" id="installations_v19-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations version 19.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase ML version 26.0.0" id="firebaseml-modeldownloader_v26-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt; version 26.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring version 22.0.0" id="performance_v22-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; version 22.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring Gradle plugin version 2.0.0" id="performance_gradle_plugin_v2-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; Gradle plugin version 2.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Increased the following &lt;em&gt;minimum&lt;/em&gt; required
+versions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gradle: 7.3.3&lt;/li&gt;
+&lt;li&gt;Android Gradle Plugin (AGP): 7.0.0&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Replaced usage of deprecated &lt;code dir="ltr" translate="no"&gt;GradleVersion&lt;/code&gt; APIs.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7092"&gt;#7092&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database version 22.0.0" id="realtime-database_v22-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; version 22.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config version 23.0.0" id="remote-config_v23-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; version 23.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved how the SDK handles real-time requests when a Firebase
+project has exceeded its available quota for real-time services. Released in
+anticipation of future quota enforcement, this change is designed to fetch
+the latest template even when the quota is exhausted.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
+higher.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
+extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
+use the KTX APIs from the main module. For details, see the
+&lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
