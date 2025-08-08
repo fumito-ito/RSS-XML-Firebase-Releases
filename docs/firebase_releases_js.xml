@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 08 Aug 2025 18:22:43 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 08 Aug 2025 21:15:16 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Launch of new APIs and &lt;a class="link external gc-analytics-event" data-action="linkClick" data-category="console" href="//console.firebase.google.com/"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_74" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The way you install and initialize the SDK has changed and several
@@ -1011,7 +1011,7 @@ if you continue to use &lt;code dir="ltr" translate="no"&gt;experimentalTabSynch
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_54" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Improved consistency between the type annotations for
 &lt;code dir="ltr" translate="no"&gt;Query.on&lt;/code&gt;/&lt;code dir="ltr" translate="no"&gt;Reference.on&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Query.off&lt;/code&gt;/&lt;code dir="ltr" translate="no"&gt;Reference.off&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Query.once&lt;/code&gt;/&lt;code dir="ltr" translate="no"&gt;Reference.once&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; This release contains the new &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; Client SDK.
 Visit the &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; for Web &lt;a href="/docs/perf-mon/get-started-web"&gt;Getting Started guide&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.0.1 - May 8, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_601_-_may_8_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_68" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1071,10 +1071,10 @@ on iOS.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_140" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue causing some queries to return no
 results.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.2.4 - June 27, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_624_-_june_27_2019</link><description>&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.2.4 - June 27, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_624_-_june_27_2019</link><description>&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; throws an exception in unsupported
 environments. Now &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; will not initialize in unsupported environments.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.3.0 - July 11, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_630_-_july_11_2019</link><description>&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.3.0 - July 11, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_630_-_july_11_2019</link><description>&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue causing errors during page load in browser
 environments that don't support IndexedDB (such as when cookies are disabled).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.3.1 - July 18, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_631_-_july_18_2019</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_139" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1088,7 +1088,7 @@ that previously had not matched but had been updated to now match the query.&lt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an environment variable (&lt;code dir="ltr" translate="no"&gt;FIREBASE_DATABASE_EMULATOR_HOST&lt;/code&gt;)
 that allows developers to point the database emulator SDK to a local
 database emulator instance.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The SDK has been updated to better handle errors when the
 &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; library is imported in an environment without a &lt;code dir="ltr" translate="no"&gt;window&lt;/code&gt;
 object (such as the server side of an SSR app) or a &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; instance is
@@ -1115,13 +1115,13 @@ each internally depend on another component and may each try to register it.&lt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Transactions now perform exponential backoff before retrying.
 This means transactions on highly contended documents are more likely to
 succeed.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; now validates performance metrics and attributes
 before storing them.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.4.2 - August 23, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_642_-_august_23_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;fromRef&lt;/code&gt;, 'fromDocRef' and &lt;code dir="ltr" translate="no"&gt;fromCollectionRef&lt;/code&gt; to accept
 an &lt;code dir="ltr" translate="no"&gt;option&lt;/code&gt; parameter in rxFire.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression introduced in 6.4.1 where built-in metrics collections
 threw errors.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.5.0 - August 23, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_650_-_august_23_2019</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_137" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1280,7 +1280,7 @@ Firefox or Chrome extensions. See &lt;a href="https://github.com/firebase/fireba
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Firestore previously required that every document read in a
 transaction must also be written. This requirement has been removed, and
 you can now read a document in a transaction without writing to it.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated internal transport protocol from proto2 to proto3.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_63" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added missing constructor for &lt;code dir="ltr" translate="no"&gt;SAMLAuthProvider&lt;/code&gt; type.&lt;/li&gt;
@@ -1392,7 +1392,7 @@ the minimum supported NodeJS version is now &lt;code dir="ltr" translate="no"&gt
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_44" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;ServerValue.increment()&lt;/code&gt; to support atomic field value increments
 without transactions.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated internal performance event transport mechanism.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.14.1 - April 16, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7141_-_april_16_2020</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that occurred when users tried to retrieve data from
@@ -1529,7 +1529,7 @@ following breaking behavior changes:
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;assertFails()&lt;/code&gt; now fails only on &lt;code dir="ltr" translate="no"&gt;PERMISSION DENIED&lt;/code&gt; errors, not any error.&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;initializeAdminApp()&lt;/code&gt; now relies on &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt; rather than imitating the Admin SDK.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Adds a check to silently prevent &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; from initializing if
 the required &lt;code dir="ltr" translate="no"&gt;indexedDB.open()&lt;/code&gt; API is not available in the environment.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_98" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1598,7 +1598,7 @@ browser environment where &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_93" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The SDK now includes more information in the error message for
 failed IndexedDB transactions.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Moved the &lt;code dir="ltr" translate="no"&gt;loggingEnabled&lt;/code&gt; check to wait until performance
 initialization finishes, which prevents the SDK from dropping custom traces
 right after getting the &lt;code dir="ltr" translate="no"&gt;performance&lt;/code&gt; object.&lt;/li&gt;
@@ -1711,7 +1711,7 @@ it is enabled by default.&lt;/p&gt;&lt;/li&gt;
 longer split up into two separate operations. This reduces the number of writes
 the backend performs and allows each &lt;code dir="ltr" translate="no"&gt;WriteBatch&lt;/code&gt; to hold 500 writes regardless
 of how many &lt;code dir="ltr" translate="no"&gt;FieldValue&lt;/code&gt; transformations are attached.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed to dispatch no more than 1000 collected performance events
 for each network request. Events over the cap will be
 queued and sent with the next dispatch.&lt;/li&gt;
@@ -2008,7 +2008,7 @@ environment supports &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;,
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Debug mode check is delayed till &lt;code dir="ltr" translate="no"&gt;initializeAppCheck()&lt;/code&gt; is called.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;isSupported()&lt;/code&gt; throws unexpected errors in certain environments.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;isSupported()&lt;/code&gt; throws unexpected errors in certain environments.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Testing SDK" id="testing-sdk_1" tabindex="-1"&gt;Testing SDK&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed typing issues where &lt;code dir="ltr" translate="no"&gt;Database&lt;/code&gt;/&lt;code dir="ltr" translate="no"&gt;Firestore&lt;/code&gt;/&lt;code dir="ltr" translate="no"&gt;Storage&lt;/code&gt; compat
@@ -2442,7 +2442,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6613"&gt;Gith
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;transaction.set()&lt;/code&gt; failure to now retry on &lt;code dir="ltr" translate="no"&gt;already-exists&lt;/code&gt;
 error.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6729"&gt;Github PR #6729&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Expanded check in &lt;code dir="ltr" translate="no"&gt;getServiceWorkerStatus&lt;/code&gt; to account for a
 &lt;code dir="ltr" translate="no"&gt;navigator&lt;/code&gt; that has a key of &lt;code dir="ltr" translate="no"&gt;serviceWorker&lt;/code&gt; with a falsy value.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6723"&gt;Github PR #6723&lt;/a&gt;.&lt;/li&gt;
@@ -3008,7 +3008,7 @@ the new custom signal condition type in the Remote Config console.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an &lt;code dir="ltr" translate="no"&gt;appCheckToken&lt;/code&gt; parameter to &lt;code dir="ltr" translate="no"&gt;FirebaseServerAppSettings&lt;/code&gt;. &lt;code dir="ltr" translate="no"&gt;FirebaseServerApp&lt;/code&gt; will use the token when making service requests, unblocking the use of App Check enforced products in SSR environments.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;ActionCodeSettings.linkDomain&lt;/code&gt; to customize the Firebase Hosting link domain that is used in mobile out-of-band email action flows. Also, deprecated &lt;code dir="ltr" translate="no"&gt;ActionCodeSettings.dynamicLinkDomain&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Collect web vital metrics (INP,CLS,LCP) as part of page load event.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential negative offset when calculating last reconnect times. This could cause lengthy reconnect delays in some scenarios. Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8718"&gt;GitHub Issue #8718&lt;/a&gt;.&lt;/li&gt;
@@ -3056,7 +3056,7 @@ and &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8778"&gt;#877
 &lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated requests to point to the &lt;code dir="ltr" translate="no"&gt;v1&lt;/code&gt; backend endpoints instead of
 &lt;code dir="ltr" translate="no"&gt;v1beta&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; New retry logic prevents infinite retry attempts. Fixes
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8813"&gt;GitHub issue #8813&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3101,7 +3101,7 @@ and won't change the default behavior in &lt;span class="notranslate"&gt;App Che
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a cache issue in Safari/WebKit that occurs when client-side
 indexing is used.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic_3" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic_4" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK (&lt;code dir="ltr" translate="no"&gt;@firebase/ai&lt;/code&gt;).
 This SDK &lt;em&gt;replaces&lt;/em&gt; the previous &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; SDK
 (&lt;code dir="ltr" translate="no"&gt;@firebase/vertexai&lt;/code&gt;) to accommodate the evolving set of supported features
@@ -3115,7 +3115,7 @@ available (GA).&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Gemini multimodal output.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;GenerationConfig&lt;/code&gt; was not inherited from
 &lt;code dir="ltr" translate="no"&gt;ChatSession&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.9.0 - June 5, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1190_-_june_5_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.9.0 - June 5, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1190_-_june_5_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_3" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;title&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;maximum&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;minimum&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;maxItems&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;minItems&lt;/code&gt;, and
 &lt;code dir="ltr" translate="no"&gt;propertyOrdering&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;Schema&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;HarmBlockThreshold.OFF&lt;/code&gt; support.&lt;/li&gt;
@@ -3130,7 +3130,7 @@ attempts issued in Firebase Studio resulted in CORS errors.&lt;/li&gt;
 for Storage users.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.10.0 - June 26, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_11100_-_june_26_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added React Native entry point.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added deprecation label to &lt;code dir="ltr" translate="no"&gt;totalBillableCharacters&lt;/code&gt;.
 &lt;code dir="ltr" translate="no"&gt;totalTokens&lt;/code&gt; should be used instead.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3150,7 +3150,7 @@ using ES2020 or higher may need to update their tooling or configuration.&lt;/p&
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed the &lt;code dir="ltr" translate="no"&gt;firebase/vertexai&lt;/code&gt; import alias. All the
 functionality is still available under the new name: &lt;code dir="ltr" translate="no"&gt;firebase/ai&lt;/code&gt;, although
 some methods may be renamed (see &lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt; notes below).&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed methods and symbols with the &lt;code dir="ltr" translate="no"&gt;VertexAI&lt;/code&gt; name in them
 such as &lt;code dir="ltr" translate="no"&gt;getVertexAI&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;VertexAIError&lt;/code&gt;. These were deprecated in 11.8.0
 and were just wrappers on the newly introduced methods with the &lt;code dir="ltr" translate="no"&gt;AI&lt;/code&gt; name,
@@ -3176,4 +3176,13 @@ had degraded in v11.3.0, was reverted in v11.3.1, and was reintroduced with
 some improvements in v11.5.0.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression where the SDK did not re-connect to IndexedDb
 after a disconnect.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.1.0 - August 7, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1210_-_august_7_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added hybrid inference options to &lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;. This provides
+options to perform inference tasks using the
+&lt;a href="https://developer.chrome.com/docs/extensions/ai/prompt-api"&gt;Prompt API&lt;/a&gt;
+in browsers that have the Prompt API enabled.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed errors thrown when capturing long target element names for
+out-of-the-box metrics.
+See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/9136"&gt;GitHub Issue #9136&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
