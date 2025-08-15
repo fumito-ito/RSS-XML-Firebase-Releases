@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 15 Aug 2025 09:17:48 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 15 Aug 2025 12:32:25 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Launch of new APIs and &lt;a class="link external gc-analytics-event" data-action="linkClick" data-category="console" href="//console.firebase.google.com/"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_74" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The way you install and initialize the SDK has changed and several
@@ -2866,7 +2866,7 @@ streams seem to be having connection issues.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Reduce code bundle size by 6.5 kB in applications that only use
 memory persistence (the default persistence mode). This bundle size regression
 was accidentally introduced in version &lt;code dir="ltr" translate="no"&gt;10.7.2&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.12.0 - May 13, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_10120_-_may_13_2024</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.12.0 - May 13, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_10120_-_may_13_2024</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Vertex AI for Firebase SDK (public preview).
 Learn how to
 &lt;a href="https://firebase.google.com/docs/vertex-ai/get-started?platform=web"&gt;get started&lt;/a&gt;
@@ -2887,7 +2887,7 @@ parameters to &lt;code dir="ltr" translate="no"&gt;gtag()&lt;/code&gt;. See
 This fixes TypeScript compilation errors in the web extension and cordova
 bundles. See
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8222"&gt;GitHub Issue #8222&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;types&lt;/code&gt; paths to point to point to rolled-up public &lt;code dir="ltr" translate="no"&gt;d.ts&lt;/code&gt;
 files. This fixes some TypeScript compiler errors. See
 &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8256"&gt;GitHub PR #8256&lt;/a&gt;&lt;/li&gt;
@@ -2898,7 +2898,7 @@ files. This fixes some TypeScript compiler errors. See
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a metadata sync issue with multi-tab persistence and snapshot listeners. See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8314"&gt;GitHub Issue #8314&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a typo in the &lt;code dir="ltr" translate="no"&gt;package.json&lt;/code&gt; of &lt;code dir="ltr" translate="no"&gt;webchannel-wrapper&lt;/code&gt; that caused &lt;code dir="ltr" translate="no"&gt;bloom-blob&lt;/code&gt; to be missing the &lt;code dir="ltr" translate="no"&gt;esm5&lt;/code&gt; specifier. See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8319"&gt;GitHub Issue #8319&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a new publicly exported &lt;code dir="ltr" translate="no"&gt;VertexAIError&lt;/code&gt; class. See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8240"&gt;GitHub PR #8240&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.12.4 - July 18, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_10124_-_july_18_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The SDK now uses the &lt;a href="https://github.com/google/safevalues"&gt;safevalues&lt;/a&gt;
@@ -3102,12 +3102,12 @@ and won't change the default behavior in &lt;span class="notranslate"&gt;App Che
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a cache issue in Safari/WebKit that occurs when client-side
 indexing is used.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic_4" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK (&lt;code dir="ltr" translate="no"&gt;@firebase/ai&lt;/code&gt;).
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK (&lt;code dir="ltr" translate="no"&gt;@firebase/ai&lt;/code&gt;).
 This SDK &lt;em&gt;replaces&lt;/em&gt; the previous &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; SDK
 (&lt;code dir="ltr" translate="no"&gt;@firebase/vertexai&lt;/code&gt;) to accommodate the evolving set of supported features
-and services. The new &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK provides &lt;strong&gt;preview&lt;/strong&gt; support
+and services. The new &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK provides &lt;strong&gt;preview&lt;/strong&gt; support
 for the Gemini Developer API, including its free tier offering. Using the
-&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK with the Vertex AI Gemini API is still generally
+&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK with the Vertex AI Gemini API is still generally
 available (GA).&lt;/p&gt;
 &lt;p&gt;To start using the new SDK, use the &lt;code dir="ltr" translate="no"&gt;getAI()&lt;/code&gt; instance getter imported from
 &lt;code dir="ltr" translate="no"&gt;’firebase/ai’&lt;/code&gt;. See details in the

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 15 Aug 2025 09:17:45 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_119" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 15 Aug 2025 12:32:21 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_119" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -4908,14 +4908,14 @@ size limits), &lt;code dir="ltr" translate="no"&gt;title&lt;/code&gt; (schema na
 &lt;code dir="ltr" translate="no"&gt;anyOf&lt;/code&gt; (select from sub-schemas), and &lt;code dir="ltr" translate="no"&gt;propertyOrdering&lt;/code&gt; (JSON key order) (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14647"&gt;#14647&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where network requests would fail in the iOS 18.4
 simulator due to a &lt;code dir="ltr" translate="no"&gt;URLSession&lt;/code&gt; bug introduced in Xcode 16.3 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14677"&gt;#14677&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.13.0 - May 20, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_11130_-_may_20_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK (&lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt;). This
+&lt;/ul&gt;</description></item><item><title>Version 11.13.0 - May 20, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_11130_-_may_20_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK (&lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt;). This
 SDK &lt;em&gt;replaces&lt;/em&gt; the previous Vertex AI in Firebase SDK (&lt;code dir="ltr" translate="no"&gt;FirebaseVertexAI&lt;/code&gt;) to
 accommodate the evolving set of supported features and services.
 &lt;ul&gt;
-&lt;li&gt;The new &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK provides &lt;strong&gt;public preview&lt;/strong&gt; support for the
+&lt;li&gt;The new &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK provides &lt;strong&gt;public preview&lt;/strong&gt; support for the
 Gemini Developer API, including its free tier offering.&lt;/li&gt;
-&lt;li&gt;Using the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK with the Vertex AI Gemini API is still
+&lt;li&gt;Using the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK with the Vertex AI Gemini API is still
 generally available (GA).
 &lt;br/&gt;&lt;br/&gt;
 To start using the new SDK, import the &lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt; module and use the
@@ -4967,7 +4967,7 @@ crashes from concurrent access (&lt;a href="//github.com/firebase/firebase-ios-s
 property will be removed in a future release. This is related to the
 overall Firebase Dynamic Links deprecation. For more details, see
 the &lt;a href="https://firebase.google.com/support/dynamic-links-faq"&gt;Dynamic Links deprecation FAQ&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;Sendable&lt;/code&gt; warnings introduced in the Xcode 26 beta.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14947"&gt;#14947&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for setting &lt;code dir="ltr" translate="no"&gt;title&lt;/code&gt; in string, number and array
@@ -5039,7 +5039,7 @@ use the top-level &lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt; c
 Swift 6.0 toolchain (Xcode 16.2+).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update GTMSessionFetcher dependency specifications to enable
 support for the compatible GTMSessionFetcher 5.x versions.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Grounding with Google Search (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15014"&gt;#15014&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Removed &lt;code dir="ltr" translate="no"&gt;CountTokensResponse.totalBillableCharacters&lt;/code&gt; which was
 deprecated in 11.15.0. Use &lt;code dir="ltr" translate="no"&gt;totalTokens&lt;/code&gt; instead (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15056"&gt;#15056&lt;/a&gt;).&lt;/li&gt;
