@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 19 Aug 2025 21:14:39 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 20 Aug 2025 01:13:40 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -1630,4 +1630,45 @@ you may need to rebuild your project.&lt;/li&gt;
 &lt;li&gt;Dart codegen: Issue where nullable enum fields weren't setting the field itself
 as nullable.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.12.0 - August 06, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14120_-_august_06_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;__name__&lt;/code&gt; fields with non-default order were
+incorrectly filtered from index listings.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8859"&gt;#8859&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt; didn't enable the
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; API by default.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8927"&gt;#8927&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase init aitools&lt;/code&gt; to help developers set up
+Firebase tools for AI in their projects
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8949"&gt;#8949&lt;/a&gt; 
+and
+&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8927"&gt;#8927&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.11.0,
+which includes the following changes
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8948"&gt;#8948&lt;/a&gt;):
+&lt;ul&gt;
+&lt;li&gt;Kotlin code generation with enums.&lt;/li&gt;
+&lt;li&gt;Deploying schemas with enums no longer report false breaking changes.&lt;/li&gt;
+&lt;li&gt;Support for ordering results by aggregate fields (min/max/count/sum/avg).&lt;/li&gt;
+&lt;li&gt;Support for built-in and user-defined enums to LLM Tools generation.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.12.1 - August 14, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14121_-_august_14_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated runtime config deprecation warning to no longer show for
+v1 functions that only use default Firebase config.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8963"&gt;#8963&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;dataconnect:migrate&lt;/code&gt; would use an invalid
+temporary password when connecting to enterprise plus CloudSQL instances.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v2.11.1, which includes the
+following changes:
+&lt;ul&gt;
+&lt;li&gt;Added an app watch that collects embedded GQL into the connector folder.&lt;/li&gt;
+&lt;li&gt;Added a way to handle foreign key constraint error as &lt;code dir="ltr" translate="no"&gt;FailedPrecondition&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for creating &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Enterprise databases
+using &lt;code dir="ltr" translate="no"&gt;firestore:databases:create --edition enterprise&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8952"&gt;#8952&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Enterprise database indexes.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8939"&gt;#8939&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;code dir="ltr" translate="no"&gt;get_sdk_config&lt;/code&gt; improperly decoded file
+content for Android and iOS.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for prompts, and added the &lt;code dir="ltr" translate="no"&gt;deploy&lt;/code&gt; prompt.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
