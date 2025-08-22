@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 22 Aug 2025 15:16:19 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 22 Aug 2025 18:21:46 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -5425,7 +5425,15 @@ no-cost Spark pricing plan).&lt;/p&gt;
 &lt;p&gt;Support for the &lt;span class="notranslate"&gt;Live API&lt;/span&gt; is in Public Preview. Also, it's supported
 for Android (v17.1.0+ (&lt;span class="notranslate"&gt;BoM&lt;/span&gt;: v34.1.0+)), Flutter (v3.1.0+ (BoM: v4.1.0+)),
 and Unity (v13.1.0+). Apple platforms and Web are coming soon!&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate></item><item><title>August 21, 2025</title><link>https://firebase.google.com/support/releases#august_21_2025</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics-alerts-updates-aug-2025" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate></item><item><title>August 20, 2025</title><link>https://firebase.google.com/support/releases#august_20_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.13.0)" id="cli-v14.13.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.13.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#14.13.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.13.0)&lt;/a&gt;
+is now available. This version includes bug fixes and new features for
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
+and &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate></item><item><title>August 21, 2025</title><link>https://firebase.google.com/support/releases#august_21_2025</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics-alerts-updates-aug-2025" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Improved &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; alerting with the following updates:
 &lt;ul&gt;
 &lt;li&gt;Added support for ANR velocity alerts.&lt;/li&gt;

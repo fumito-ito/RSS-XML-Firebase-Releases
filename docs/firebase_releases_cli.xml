@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 22 Aug 2025 15:16:30 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 22 Aug 2025 18:21:56 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -1671,4 +1671,35 @@ using &lt;code dir="ltr" translate="no"&gt;firestore:databases:create --edition 
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;code dir="ltr" translate="no"&gt;get_sdk_config&lt;/code&gt; improperly decoded file
 content for Android and iOS.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for prompts, and added the &lt;code dir="ltr" translate="no"&gt;deploy&lt;/code&gt; prompt.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.13.0 - August 20, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14130_-_august_20_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v2.11.2, which
+includes the following changes:
+&lt;ul&gt;
+&lt;li&gt;Fixed an issue causing SQL errors when combining aggregates and full-text
+search.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where deploying &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; indexes failed due to
+broken index comparison logic.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8859"&gt;#8859&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added prefix support for multi-instance Cloud Functions extension
+parameters.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8911"&gt;#8911&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Made it possible to initialize a &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; project
+in non-interactive mode.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8993"&gt;#8993&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added two new MCP tools for &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;:
+&lt;code dir="ltr" translate="no"&gt;get_sample_crash_for_issue&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;get_issue_details&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8995"&gt;#8995&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support to use Gemini to generate &lt;code dir="ltr" translate="no"&gt;schema.gql&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;seed_data.gql&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8988"&gt;#8988&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where &lt;code dir="ltr" translate="no"&gt;firebase deploy --only dataconnect&lt;/code&gt; didn't
+include GQL files in nested folders.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8981"&gt;#8981&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;firebase deploy&lt;/code&gt; to create Cloud SQL instances
+asynchronously.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9004"&gt;#9004&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;database&lt;/code&gt; deploys did not read source code
+correctly.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8985"&gt;#8985&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
