@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 26 Aug 2025 18:21:21 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 26 Aug 2025 21:13:29 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -4401,7 +4401,7 @@ FAQ&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Performance Monitoring added 3 new Core Web Vital metrics, largest
 contentful paint, interaction to next paint, and cumulative layout shift, to
 the page load trace metrics page. For more details on these Core Web Vital
-metrics, see &lt;a href="/docs/perf-mon/page-load-traces"&gt;Learn about page loading performace data (web
+metrics, see &lt;a href="/docs/perf-mon/page-load-traces"&gt;Learn about page loading performance data (web
 apps)&lt;/a&gt;. Note that the size of your app will
 increase due to an added dependency on the new Performance Monitoring SDK
 version.&lt;/li&gt;
@@ -5407,7 +5407,7 @@ release includes new features in Firebase AI.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v14.12.1)" id="cli-v14.12.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.12.1)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.12.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.12.1)&lt;/a&gt;
-is now available. This version includes support for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;} Enterprise
+is now available. This version includes support for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Enterprise
 edition and bug fixes for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -5448,5 +5448,5 @@ PagerDuty into the &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; aler
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; now supports the Enterprise edition. This
 edition provides MongoDB compatibility and a new query engine that supports a
 larger number of features and increased limits. For more information on the
-MongDB compatibility support, see &lt;a href="/docs/firestore/enterprise/mongodb-compatibility-overview"&gt;MongoDB compatibility overview&lt;/a&gt;.&lt;/li&gt;
+MongoDB compatibility support, see &lt;a href="/docs/firestore/enterprise/mongodb-compatibility-overview"&gt;MongoDB compatibility overview&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate></item></channel></rss>
