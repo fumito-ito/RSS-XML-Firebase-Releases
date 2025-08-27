@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 27 Aug 2025 12:32:28 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_119" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 27 Aug 2025 15:16:27 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_119" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -4404,7 +4404,7 @@ dependency (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10884"&gt;
 &lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_12" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Vertex AI in Firebase SDK (public preview).
 Learn how to
-&lt;a href="https://firebase.google.com/docs/vertex-ai/get-started?platform=ios"&gt;get started&lt;/a&gt;
+&lt;a href="https://firebase.google.com/docs/ai-logic/get-started"&gt;get started&lt;/a&gt;
 with the SDK in your app.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.27.0 - May 29, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_10270_-_may_29_2024</link><description>&lt;h3 data-text="App Check" id="app_check" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; CocoaPods: missing symbol error for &lt;code dir="ltr" translate="no"&gt;FIRGetLoggerLevel&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12899"&gt;#12899&lt;/a&gt;).&lt;/li&gt;
@@ -4431,7 +4431,7 @@ dependency (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12900"&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed uses of the &lt;code dir="ltr" translate="no"&gt;gemini-1.5-pro-preview-0409&lt;/code&gt; model in docs and
 samples. Developers should now use &lt;code dir="ltr" translate="no"&gt;gemini-1.5-pro-preview-0514&lt;/code&gt; or
 &lt;code dir="ltr" translate="no"&gt;gemini-1.5-flash-preview-0514&lt;/code&gt;; see
-&lt;a href="https://firebase.google.com/docs/vertex-ai/gemini-models#available-model-names"&gt;available model names&lt;/a&gt;
+&lt;a href="https://firebase.google.com/docs/ai-logic/models#available-model-names"&gt;available model names&lt;/a&gt;
 for more details (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12979"&gt;#12979&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Logged additional details when required APIs for Vertex AI are
 not enabled or response payloads when requests fail (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13007"&gt;#13007&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13009"&gt;#13009&lt;/a&gt;).&lt;/li&gt;
@@ -4446,7 +4446,7 @@ not enabled or response payloads when requests fail (&lt;a href="//github.com/fi
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed uses of the &lt;code dir="ltr" translate="no"&gt;gemini-1.5-flash-preview-0514&lt;/code&gt; model in docs
 and samples. Developers should now use the auto-updated versions,
 &lt;code dir="ltr" translate="no"&gt;gemini-1.5-pro&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;gemini-1.5-flash&lt;/code&gt;, or a specific stable version; see
-&lt;a href="https://firebase.google.com/docs/vertex-ai/gemini-models#available-model-names"&gt;available model names&lt;/a&gt;
+&lt;a href="https://firebase.google.com/docs/ai-logic/models#available-model-names"&gt;available model names&lt;/a&gt;
 for more details (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13099"&gt;#13099&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added community support for tvOS and visionOS (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13090"&gt;#13090&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13092"&gt;#13092&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.28.1 - June 24, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_10281_-_june_24_2024</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4574,7 +4574,7 @@ asynchronous and must be called with &lt;code dir="ltr" translate="no"&gt;await&
 instead of the &lt;code dir="ltr" translate="no"&gt;Any&lt;/code&gt; type (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13575"&gt;#13575&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for specifying a JSON &lt;code dir="ltr" translate="no"&gt;responseSchema&lt;/code&gt; in
 &lt;code dir="ltr" translate="no"&gt;GenerationConfig&lt;/code&gt;; see
-&lt;a href="//firebase.google.com/docs/vertex-ai/structured-output?platform=ios"&gt;control generated output&lt;/a&gt;
+&lt;a href="//firebase.google.com/docs/ai-logic/generate-structured-output"&gt;control generated output&lt;/a&gt;
 for more details (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13576"&gt;#13576&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.3.0 - September 30, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_1130_-_september_30_2024</link><description>&lt;h3 data-text="Analytics" id="analytics_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the Crashlytics integration that prevented automatic screen_view events from being sent as &lt;a href="https://firebase.google.com/docs/crashlytics/customize-crash-reports?platform=ios#get-breadcrumb-logs"&gt;breadcrumb logs&lt;/a&gt;.&lt;/li&gt;
@@ -4623,9 +4623,9 @@ Carthage distributions.
 &lt;br/&gt;&lt;br/&gt;
 &lt;ul&gt;
 &lt;li&gt;If you're new to this library, visit the
-&lt;a href="http://firebase.google.com/docs/vertex-ai/get-started?platform=ios"&gt;getting started guide&lt;/a&gt;.&lt;/li&gt;
+&lt;a href="http://firebase.google.com/docs/ai-logic/get-started"&gt;getting started guide&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;If you used the preview version of the library, visit the
-&lt;a href="https://firebase.google.com/docs/vertex-ai/migrate-to-ga?platform=ios"&gt;migration guide&lt;/a&gt;
+&lt;a href="https://firebase.google.com/docs/ai-logic/migrate-from-preview"&gt;migration guide&lt;/a&gt;
 to learn about some important updates.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: The &lt;code dir="ltr" translate="no"&gt;HarmCategory&lt;/code&gt; enum is no longer nested
@@ -4843,11 +4843,12 @@ for more details.&lt;/li&gt;
 related crash (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14449"&gt;#14449&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_4" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;strong&gt;Public Preview&lt;/strong&gt;: Added support for
-&lt;a href="/docs/vertex-ai/generate-images-imagen"&gt;generating images using the Imagen 3 models&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="/docs/ai-logic/generate-images-imagen"&gt;generating images using the Imagen 3 models&lt;/a&gt;.&lt;/p&gt;
 &lt;aside class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;span&gt; This feature is in Public Preview, which means that it is not
 subject to any SLA or deprecation policy and could change in
 backwards-incompatible ways.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for modality-based token count (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14406"&gt;#14406&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for modality-based token count
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14406"&gt;#14406&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.10.0 - March 17, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_11100_-_march_17_2025</link><description>&lt;h3 data-text="Analytics" id="analytics_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal changes to improve new customer acquisition measurement.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
@@ -4920,7 +4921,7 @@ generally available (GA).
 &lt;br/&gt;&lt;br/&gt;
 To start using the new SDK, import the &lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt; module and use the
 top-level &lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt; class. See details in the
-&lt;a href="/docs/vertex-ai/migrate-to-latest-sdk"&gt;migration guide&lt;/a&gt;.&lt;/li&gt;
+&lt;a href="/docs/ai-logic/migrate-to-latest-sdk"&gt;migration guide&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;ModalityTokenCount&lt;/code&gt; decoding when the &lt;code dir="ltr" translate="no"&gt;tokenCount&lt;/code&gt; field is
 omitted; this occurs when the count is 0 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14745"&gt;#14745&lt;/a&gt;).&lt;/li&gt;
