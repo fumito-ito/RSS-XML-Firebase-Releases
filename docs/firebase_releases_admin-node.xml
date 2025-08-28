@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-node</title><link>https://firebase.google.com/support/release-notes/admin/node</link><description>Latest updates and release notes for Firebase Admin-node.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 28 Aug 2025 12:31:47 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_400_-_november_7_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-node</title><link>https://firebase.google.com/support/release-notes/admin/node</link><description>Latest updates and release notes for Firebase Admin-node.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 28 Aug 2025 15:16:15 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_400_-_november_7_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Admin Node.js SDK (available on npm as &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt;) is a
 new SDK which replaces and expands the admin capabilities of the standard
 &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; npm module. See
@@ -91,7 +91,7 @@ properly.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.1.0 - February 2, 2017</title><link>https://firebase.google.com/support/release-notes/admin/node#version_410_-_february_2_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added in missing TypeScript typings for the &lt;code dir="ltr" translate="no"&gt;toJSON()&lt;/code&gt; method off
 of several objects.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
 &lt;a href="/docs/reference/admin/node/admin.messaging"&gt;&lt;code dir="ltr" translate="no"&gt;admin.messaging()&lt;/code&gt;&lt;/a&gt; service
 allows you to send messages through
@@ -121,7 +121,7 @@ infrastructure such as Google App Engine and Google Compute Engine.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;toJSON()&lt;/code&gt; methods to the &lt;code dir="ltr" translate="no"&gt;DataSnapshot&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Query&lt;/code&gt; objects
 to make them properly JSON-serializable.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved response parsing when
 &lt;a href="/docs/reference/admin/node/admin.messaging.Messaging#sendToDevice"&gt;&lt;code dir="ltr" translate="no"&gt;sendToDevice()&lt;/code&gt;&lt;/a&gt;
 and
@@ -151,7 +151,7 @@ making debugging easier.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue which could cause infinite loops when using &lt;code dir="ltr" translate="no"&gt;push()&lt;/code&gt;
 with no arguments.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.2.0 - April 04, 2017</title><link>https://firebase.google.com/support/release-notes/admin/node#version_420_-_april_04_2017</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.2.0 - April 04, 2017</title><link>https://firebase.google.com/support/release-notes/admin/node#version_420_-_april_04_2017</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the methods
 &lt;a href="/docs/reference/admin/node/admin.messaging.Messaging#subscribeToTopic"&gt;&lt;code dir="ltr" translate="no"&gt;subscribeToTopic()&lt;/code&gt;&lt;/a&gt;
 and
@@ -207,7 +207,7 @@ library.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; New type definitions for the arguments of &lt;code dir="ltr" translate="no"&gt;createUser()&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;updateUser()&lt;/code&gt; methods.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Redefined the arguments of &lt;code dir="ltr" translate="no"&gt;sendToDevice()&lt;/code&gt; using intersection
 instead of overloading.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.2.1 - August 16, 2017</title><link>https://firebase.google.com/support/release-notes/admin/node#version_521_-_august_16_2017</link><description>&lt;ul&gt;
@@ -293,7 +293,7 @@ This includes several bug fixes in Cloud Firestore.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded Firestore dependency version to 0.11.2. This includes
 several bug fixes including a fix in the &lt;code dir="ltr" translate="no"&gt;DocumentReference.update()&lt;/code&gt;
 operation.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.9.0 - February 14, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_590_-_february_14_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.9.0 - February 14, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_590_-_february_14_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/node/admin.messaging.Messaging#send"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.send()&lt;/code&gt;&lt;/a&gt;
 method for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.9.1 - February 28, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_591_-_february_28_2018</link><description>&lt;ul&gt;
@@ -320,7 +320,7 @@ in bulk.&lt;/li&gt;
 method for creating a session cookie from a Firebase ID token.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/node/admin.auth.Auth#verifySessionCookie"&gt;&lt;code dir="ltr" translate="no"&gt;auth.verifySessionCookie()&lt;/code&gt;&lt;/a&gt;
 method for validating a given session cookie string.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;mutableContent&lt;/code&gt; optional field to the
 &lt;a href="/docs/reference/admin/node/admin.messaging.Aps"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.Aps&lt;/code&gt;&lt;/a&gt;
 type. This can be used to set the &lt;code dir="ltr" translate="no"&gt;mutable-content&lt;/code&gt; property when sending
@@ -352,7 +352,7 @@ any explicit configuration.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated typings of the &lt;code dir="ltr" translate="no"&gt;admin.database.Query.once()&lt;/code&gt; method to
 return a more specific type.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated typings of the &lt;code dir="ltr" translate="no"&gt;admin.messaging.WebpushNotification&lt;/code&gt; type
 to include all supported notification fields.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.13.1 - July 23, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_5131_-_july_23_2018</link><description>&lt;ul&gt;
@@ -383,7 +383,7 @@ details and code samples.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud_firestore_5" tabindex="-1"&gt;Cloud Firestore&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded Cloud Firestore client to v0.19.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Exposed the &lt;code dir="ltr" translate="no"&gt;Transaction&lt;/code&gt; type from the &lt;code dir="ltr" translate="no"&gt;admin.firestore&lt;/code&gt; namespace.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved error handling in FCM. The SDK now checks the key
 &lt;code dir="ltr" translate="no"&gt;type.googleapis.com/google.firebase.fcm.v1.FcmError&lt;/code&gt; to set error code.
 Thanks &lt;a href="https://github.com/chemidy"&gt;chemidy&lt;/a&gt; for the
@@ -398,7 +398,7 @@ for creating new apps in a project.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; New &lt;a href="/docs/reference/admin/node/admin.projectManagement.AndroidApp"&gt;&lt;code dir="ltr" translate="no"&gt;AndroidApp&lt;/code&gt;&lt;/a&gt;
 and &lt;a href="/docs/reference/admin/node/admin.projectManagement.IosApp"&gt;&lt;code dir="ltr" translate="no"&gt;IosApp&lt;/code&gt;&lt;/a&gt;
 APIs for updating individual apps.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;ApsAlert&lt;/code&gt; type now supports specifying a subtitle.
 Thanks &lt;a href="https://github.com/chemidy"&gt;chemidy&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-node/pull/393"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
@@ -412,7 +412,7 @@ behind a proxy.&lt;/li&gt;
 and &lt;code dir="ltr" translate="no"&gt;admin.credential.refreshToken()&lt;/code&gt; methods now accept an &lt;code dir="ltr" translate="no"&gt;http.Agent&lt;/code&gt;
 as an optional argument. If specified, the &lt;code dir="ltr" translate="no"&gt;http.Agent&lt;/code&gt; is used
 when calling Google backend servers to fetch OAuth2 access tokens.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/node/admin.messaging.Aps"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.Aps&lt;/code&gt;&lt;/a&gt;
 type now supports configuring a critical alert sound.
 A new &lt;a href="/docs/reference/admin/node/admin.messaging.CriticalSound"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.CriticalSound&lt;/code&gt;&lt;/a&gt;
@@ -540,7 +540,7 @@ to a dev dependency.&lt;/li&gt;
 This new major version drops support for Node.js versions older than v8.
 Since &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt; already supports only Node.js v8 and above,
 this does not have a noticeable impact on users of the Admin SDK.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.4.0 - 21 August, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_840_-_21_august_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.4.0 - 21 August, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_840_-_21_august_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for specifying &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; labels for notifications.
 Thanks &lt;a href="https://github.com/chemidy"&gt;chemidy&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-node/pull/597"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
@@ -573,14 +573,14 @@ methods for creating new rulesets and applying them to &lt;span class="notransla
 &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;getRuleset()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;createRuleset()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;deleteRuleset()&lt;/code&gt;
 methods for managing the lifecycle of a ruleset.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new APIs for specifying an image URL in notifications.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.6.1 - 16 October, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_861_-_16_october_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;UserRecord&lt;/code&gt; no longer exposes password hashes that are
 redacted due to lack of permissions in the service account credentials.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the typings of the &lt;code dir="ltr" translate="no"&gt;setCustomUserClaims()&lt;/code&gt; API to accept
 &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.7.0 - 30 October, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_870_-_30_october_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.7.0 - 30 October, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_870_-_30_october_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a series of new parameters to the &lt;code dir="ltr" translate="no"&gt;AndroidNotification&lt;/code&gt; class
 that allow further customization of notifications that target Android devices.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.8.0 - 19 November, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_880_-_19_november_2019</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -597,7 +597,7 @@ for the
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;verifyIdToken()&lt;/code&gt; method now correctly uses the &lt;code dir="ltr" translate="no"&gt;http.Agent&lt;/code&gt;
 configured during SDK initialization.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Batch messaging APIs &lt;code dir="ltr" translate="no"&gt;sendAll()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendMulticast()&lt;/code&gt; now support
 sending up to 500 messages in a single call.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.9.0 - 19 December, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_890_-_19_december_2019</link><description>&lt;ul&gt;
@@ -606,7 +606,7 @@ caused errors even when the operation was completed successfully in the backend.
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;@google-cloud/firestore&lt;/code&gt; dependency to v3.0.0. See the Firestore &lt;a href="https://github.com/googleapis/nodejs-firestore/tree/v3.0.0"&gt;release
 notes&lt;/a&gt; for more
 details.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;sendMulticast()&lt;/code&gt; API now correctly copies the &lt;code dir="ltr" translate="no"&gt;fcmOptions&lt;/code&gt; when
 sending a message to multiple recipients.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -701,7 +701,7 @@ some APIs against the emulator.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a timestamp parsing issue in &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; template
 &lt;code dir="ltr" translate="no"&gt;Version&lt;/code&gt; metadata that was causing &lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;
 API operations to fail.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.4.2 - 09 December, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_942_-_09_december_2020</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.4.2 - 09 December, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_942_-_09_december_2020</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Support arbitrary custom values in the &lt;code dir="ltr" translate="no"&gt;ApnsPayload&lt;/code&gt; type.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded dependencies &lt;code dir="ltr" translate="no"&gt;@firebase/database&lt;/code&gt; and
@@ -715,7 +715,7 @@ a user account.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Allowed enabling of anonymous provider via tenant configuration.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;verifyIdToken()&lt;/code&gt; method now fully supports the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;
 emulator.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Exported all message types so they can be used by consumers.
 Thanks &lt;a href="https://github.com/BorntraegerMarc"&gt;BorntraegerMarc&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-node/pull/1147"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
@@ -856,7 +856,7 @@ configuration.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;@google-cloud/firestore&lt;/code&gt; dependency to v6.4.0 to
 support the &lt;code dir="ltr" translate="no"&gt;COUNT&lt;/code&gt; queries API.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.2.1 - 10 November, 2022</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1121_-_10_november_2022</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.2.1 - 10 November, 2022</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1121_-_10_november_2022</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Increased the timeout for &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; requests to 15
 seconds to avoid duplicate notifications.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -869,7 +869,7 @@ runtime methods.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.4.0 - 15 December, 2022</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1140_-_15_december_2022</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; API now supports the &lt;code dir="ltr" translate="no"&gt;preferRest&lt;/code&gt; setting
 to force the use of REST transport until an operation requires gRPC.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Increased the timeout in the &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; batch send API to 15
 seconds to avoid duplicate notifications.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase ML" id="firebase-ml_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -889,12 +889,12 @@ initialized with the &lt;code dir="ltr" translate="no"&gt;preferRest&lt;/code&gt
 &lt;/ul&gt;</description></item><item><title>Version 11.6.0 - 06 April, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1160_-_06_april_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;TOTP&lt;/code&gt; as a multi-factor option in project and tenant
 configuration.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated &lt;code dir="ltr" translate="no"&gt;sendToDevice&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendToDeviceGroup&lt;/code&gt; methods and
 their response classes. These methods are removed in the next major version.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.7.0 - 18 April, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1170_-_18_april_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added reCAPTCHA configuration support.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;sendEach()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendEachForMulticast()&lt;/code&gt; APIs.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;sendAll()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendMulticast()&lt;/code&gt; APIs are now deprecated.
 Use &lt;code dir="ltr" translate="no"&gt;sendEach()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendEachForMulticast()&lt;/code&gt; APIs instead.&lt;/p&gt;&lt;/li&gt;
@@ -973,7 +973,7 @@ when using &lt;code dir="ltr" translate="no"&gt;vitest&lt;/code&gt;.&lt;/p&gt;&l
 to prevent errors when Python is not installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.3.0 - 25 July, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1230_-_25_july_2024</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Replaced the &lt;code dir="ltr" translate="no"&gt;long.js&lt;/code&gt; dependency with &lt;code dir="ltr" translate="no"&gt;BigInt&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added HTTP/2 support for &lt;code dir="ltr" translate="no"&gt;sendEach()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendEachForMulticast()&lt;/code&gt;.
 To use the legacy HTTP/1.1 transport, use the &lt;code dir="ltr" translate="no"&gt;enableLegacyTransport()&lt;/code&gt; method.
 The &lt;code dir="ltr" translate="no"&gt;enableLegacyTransport()&lt;/code&gt; will be removed when the HTTP/2 transport
@@ -984,7 +984,7 @@ promise to a token if one exists instead of creating a new token.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.4.0 - 22 August, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1240_-_22_august_2024</link><description>&lt;h3 data-text="Cloud Functions" id="cloud-functions_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the &lt;code dir="ltr" translate="no"&gt;CLOUD_TASKS_EMULATOR_HOST&lt;/code&gt; environment
 variable.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;sendToTopic()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendToCondition()&lt;/code&gt; APIs are now deprecated.
 To &lt;a href="https://firebase.google.com/docs/cloud-messaging/send-message#send-messages-to-topics"&gt;send messages to topics and conditions&lt;/a&gt; use the &lt;code dir="ltr" translate="no"&gt;send()&lt;/code&gt; API instead.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.5.0 - 12 September, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1250_-_12_september_2024</link><description>&lt;h3 data-text="Firebase App Check" id="firebase-app-check" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1024,7 +1024,7 @@ Workload Identity Federation and service account impersonation.&lt;/li&gt;
 or higher when deploying the Admin SDK.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded TypeScript to v5.5.4.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;@firebase/database-compat&lt;/code&gt; package to v2.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;directBootOk&lt;/code&gt; field to the &lt;code dir="ltr" translate="no"&gt;AndroidConfig&lt;/code&gt; type.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated &lt;code dir="ltr" translate="no"&gt;sendAll()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;sendMulticast()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;sendToDevice()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;sendToDeviceGroup()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;sendToTopic()&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;sendToCondition()&lt;/code&gt; APIs.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1062,7 +1062,7 @@ behalf of a specific user.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that was causing credential lookup errors when
 enqueueing tasks in emulator.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.3.0 - 22 April, 2025</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1330_-_22_april_2025</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.3.0 - 22 April, 2025</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1330_-_22_april_2025</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;proxy&lt;/code&gt; field in FCM &lt;code dir="ltr" translate="no"&gt;AndroidNotification&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue which caused session errors to not be thrown when
 sending messages using HTTP/2.&lt;/li&gt;
@@ -1072,4 +1072,15 @@ which caused them.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a specialized interface for bulk data operations,
 which exposes dedicated methods for
 mutation operations: &lt;code dir="ltr" translate="no"&gt;insert&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;insertMany&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;upsert&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;upsertMany&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.5.0 - 28 August, 2025</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1350_-_28_august_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Made the &lt;code dir="ltr" translate="no"&gt;initializeApp()&lt;/code&gt; function idempotent to simplify
+initialization and prevent errors in environments with reused execution
+contexts. The function now returns an existing &lt;code dir="ltr" translate="no"&gt;FirebaseApp&lt;/code&gt; instance
+if called multiple times with an identical configuration. An error will be
+thrown if an attempt is made to re-initialize an app with the same name but
+a different configuration.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Support &lt;code dir="ltr" translate="no"&gt;liveActivityToken&lt;/code&gt; field in FCM &lt;code dir="ltr" translate="no"&gt;ApnsConfig&lt;/code&gt; type. Thanks
+&lt;a href="https://github.com/janodetzel"&gt;janodetzel&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-node/pull/2891"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
