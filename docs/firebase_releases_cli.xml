@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 02 Sep 2025 15:16:25 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 02 Sep 2025 18:20:13 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -1702,4 +1702,30 @@ asynchronously.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;database&lt;/code&gt; deploys did not read source code
 correctly.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8985"&gt;#8985&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.14.0 - August 21, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14140_-_august_21_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an SQL permission bug in &lt;code dir="ltr" translate="no"&gt;sql:migrate&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9018"&gt;#9018&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect:sdk&lt;/code&gt; generated
+inconsistent package names.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9021"&gt;#9021&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a &lt;code dir="ltr" translate="no"&gt;configDir&lt;/code&gt; configuration option to specify a custom
+directory for &lt;code dir="ltr" translate="no"&gt;.env&lt;/code&gt; files in &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9000"&gt;#9000&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.15.0 - August 27, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14150_-_august_27_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added additional &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; tools for debugging and
+analyzing crashes.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9020"&gt;#9020&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to 2.12, which
+includes the following changes:
+&lt;ul&gt;
+&lt;li&gt;Added &lt;code dir="ltr" translate="no"&gt;ImpersonateQuery&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;ImpersonateMutation&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;IntrospectGraphql&lt;/code&gt;
+APIs to the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator.&lt;/li&gt;
+&lt;li&gt;Added support for Firebase JS SDK v12.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.15.1 - August 28, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14151_-_august_28_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where core MCP tools were excluded from &lt;code dir="ltr" translate="no"&gt;listTools&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9045"&gt;#9045&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the MCP server failed to identify active
+projects.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new &lt;code dir="ltr" translate="no"&gt;dataconnect_compile&lt;/code&gt; MCP tool.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
