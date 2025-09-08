@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-dotnet</title><link>https://firebase.google.com/support/release-notes/admin/dotnet</link><description>Latest updates and release notes for Firebase Admin-dotnet.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 08 Sep 2025 18:22:25 +0000</lastBuildDate><item><title>Version 1.0.0 - August 16, 2018</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_100_-_august_16_2018</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-dotnet</title><link>https://firebase.google.com/support/release-notes/admin/dotnet</link><description>Latest updates and release notes for Firebase Admin-dotnet.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 08 Sep 2025 21:13:41 +0000</lastBuildDate><item><title>Version 1.0.0 - August 16, 2018</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_100_-_august_16_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Admin .NET SDK. See
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your Server&lt;/a&gt; to get
 started.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can configure the SDK to use service account credentials, user
 credentials (refresh tokens), or Google Cloud application default credentials
 to access your Firebase project.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The initial release includes the &lt;code dir="ltr" translate="no"&gt;CreateCustomTokenAsync()&lt;/code&gt;,
 &lt;code dir="ltr" translate="no"&gt;VerifyIdTokenAsync()&lt;/code&gt; methods for minting custom
 authentication tokens and verifying Firebase ID tokens.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.1.0 - January 24, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_110_-_january_24_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.1.0 - January 24, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_110_-_january_24_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
 &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/auth/firebase-auth#setcustomuserclaimsasync"&gt;&lt;code dir="ltr" translate="no"&gt;SetCustomUserClaimsAsync()&lt;/code&gt;&lt;/a&gt;
 method has been added to the &lt;code dir="ltr" translate="no"&gt;FirebaseAuth&lt;/code&gt; class for setting custom claims
@@ -21,7 +21,7 @@ Thanks &lt;a href="https://github.com/dominikfoldi"&gt;dominikfoldi&lt;/a&gt; fo
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
 &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/messaging/firebase-messaging"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseMessaging&lt;/code&gt;&lt;/a&gt;
 class for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.2.1 - March 20, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_121_-_march_20_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.2.1 - March 20, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_121_-_march_20_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;VerifyIdTokenAsync()&lt;/code&gt; method now tolerates a clock skew of up
 to 5 minutes when comparing JWT timestamps.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 1.3.0 - March 28, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_130_-_march_28_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -39,12 +39,12 @@ Thanks &lt;a href="https://github.com/kentcb"&gt;kentcb&lt;/a&gt; for the
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/app-options"&gt;&lt;code dir="ltr" translate="no"&gt;AppOptions&lt;/code&gt;&lt;/a&gt;
 class now supports specifying an &lt;code dir="ltr" translate="no"&gt;HttpClientFactory&lt;/code&gt;, which
 is useful when deploying the SDK behind a proxy server.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.5.0 - May 30, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_150_-_may_30_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.5.0 - May 30, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_150_-_may_30_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/auth/firebase-auth#getuserasync"&gt;&lt;code dir="ltr" translate="no"&gt;GetUserAsync()&lt;/code&gt;&lt;/a&gt;
 method that allows retrieving user accounts.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/auth/firebase-auth#deleteuserasync"&gt;&lt;code dir="ltr" translate="no"&gt;DeleteUserAsync()&lt;/code&gt;&lt;/a&gt;
 method that allows deleting user accounts.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.6.0 - June 05, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_160_-_june_05_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.6.0 - June 05, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_160_-_june_05_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/auth/firebase-auth#getuserasync"&gt;&lt;code dir="ltr" translate="no"&gt;GetUserByEmailAsync()&lt;/code&gt;&lt;/a&gt;
 and &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/auth/firebase-auth#getuserasync"&gt;&lt;code dir="ltr" translate="no"&gt;GetUserByPhoneNumberAsync()&lt;/code&gt;&lt;/a&gt;
 methods for retrieving user accounts.&lt;/li&gt;
@@ -58,7 +58,7 @@ package.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Began compiling releases on the .NET Framework instead of
 Mono. This should resolve some of the library linkage issues reported
 by developers on previous versions of the SDK.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/auth/firebase-auth#createuserasync"&gt;&lt;code dir="ltr" translate="no"&gt;CreateUserAsync()&lt;/code&gt;&lt;/a&gt;
 method for creating new user accounts.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;a href="/docs/reference/admin/dotnet/class/firebase-admin/auth/firebase-auth#updateuserasync"&gt;&lt;code dir="ltr" translate="no"&gt;UpdateUserAsync()&lt;/code&gt;&lt;/a&gt;
@@ -89,7 +89,7 @@ This is a subclass of the existing &lt;code dir="ltr" translate="no"&gt;Firebase
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused async API calls to deadlock in some
 environments. Thanks &lt;a href="https://github.com/NiCoTinEz"&gt;NiCoTinEz&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-dotnet/pull/109"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Introduced a new &lt;code dir="ltr" translate="no"&gt;FirebaseAuthException&lt;/code&gt; class and an
 &lt;code dir="ltr" translate="no"&gt;AuthErrorCode&lt;/code&gt; enum type for improved error handling support. All user
 management APIs now throw instances of the &lt;code dir="ltr" translate="no"&gt;FirebaseAuthException&lt;/code&gt; class. This
@@ -102,43 +102,43 @@ correctly configured, this API throws an &lt;code dir="ltr" translate="no"&gt;In
 &lt;/ul&gt;</description></item><item><title>Version 1.9.1 - 16 October, 2019</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_191_-_16_october_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; SDK automatically retries HTTP requests that are failing due to
 low-level I/O errors and HTTP 503 errors.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;ExportedUserRecord&lt;/code&gt; does not expose password hashes that are redacted
 due to lack of permissions in the service account credentials.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with IAM-based custom token signing, that resulted in permission errors.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.9.2 - 11 February, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_192_-_11_february_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.9.2 - 11 February, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_192_-_11_february_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; User management APIs now correctly raise &lt;code dir="ltr" translate="no"&gt;ErrorCode.AlreadyExists&lt;/code&gt;
 when an already in-use email address is specified for a user. Thanks
 &lt;a href="https://github.com/kcieslinski"&gt;kcieslinski&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-dotnet/pull/141"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.10.0 - 09 April, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1100_-_09_april_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.10.0 - 09 April, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1100_-_09_april_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;GeneratePasswordResetLinkAsync()&lt;/code&gt; method for generating
 links for password reset flows.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;GenerateEmailVerificationLinkAsync()&lt;/code&gt; method for generating
 links for email verification flows.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;GenerateSignInWithEmailLinkAsync()&lt;/code&gt; method for generating
 links for email link sign-in flows.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.11.0 - 23 April, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1110_-_23_april_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.11.0 - 23 April, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1110_-_23_april_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;RevokeRefreshTokensAsync()&lt;/code&gt; API for revoking any previously
 issued refresh tokens to a user.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;VerifyIdTokenAsync()&lt;/code&gt; API overload that checks if a given ID
 token has been revoked since it was issued.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.12.0 - 06 May, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1120_-_06_may_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.12.0 - 06 May, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1120_-_06_may_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;CreateSessionCookieAsync()&lt;/code&gt; method for creating Firebase
 session cookies from valid ID tokens.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;VerifySessionCookieAsync()&lt;/code&gt; method for verifying Firebase
 session cookies in backend applications.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.13.0 - 29 May, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1130_-_29_may_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.13.0 - 29 May, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1130_-_29_may_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;GetUsersAsync()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;DeleteUsersAsync()&lt;/code&gt; APIs for retrieving
 and deleting user accounts in bulk.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.14.0 - 17 June, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1140_-_17_june_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.14.0 - 17 June, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1140_-_17_june_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;ImportUsersAsync()&lt;/code&gt; API for importing users in bulk.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.15.0 - 29 July, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1150_-_29_july_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.15.0 - 29 July, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1150_-_29_july_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;OidcProviderConfig&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;SamlProviderConfig&lt;/code&gt; classes for
 representing OIDC and SAML identity provider configurations.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new APIs to &lt;code dir="ltr" translate="no"&gt;FirebaseAuth&lt;/code&gt; to facilitate creating,
 retrieving, updating and deleting identity provider configurations.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.16.0 - 09 September, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1160_-_09_september_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.16.0 - 09 September, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1160_-_09_september_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;TenantManager&lt;/code&gt; class, which provides APIs for creating,
 updating, retrieving and deleting tenants in GCIP-enabled Firebase projects.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;TenantAwareFirebaseAuth&lt;/code&gt; class, which provides APIs for
@@ -153,7 +153,7 @@ correct handling of user import errors.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 1.17.0 - 30 September, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1170_-_30_september_2020</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Support for &lt;code dir="ltr" translate="no"&gt;net45&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;netstandard1.5&lt;/code&gt; frameworks has been
 deprecated. Developers are advised to use &lt;code dir="ltr" translate="no"&gt;net461&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;netstandard2.0&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 1.17.1 - 14 October, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1171_-_14_october_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 1.17.1 - 14 October, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_1171_-_14_october_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;code dir="ltr" translate="no"&gt;createCustomToken()&lt;/code&gt; API to use the new
 IAM credentials API for remote token signing.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 2.0.0 - 04 November, 2020</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_200_-_04_november_2020</link><description>&lt;ul&gt;
@@ -167,14 +167,14 @@ for more details on how this change might affect your code.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;MulticastMessage&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;SendAllAsync()&lt;/code&gt; APIs now support sending up
 to 500 messages in a batch.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 2.1.0 - 14 April, 2021</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_210_-_14_april_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.1.0 - 14 April, 2021</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_210_-_14_april_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;FirebaseAuth&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;TenantManager&lt;/code&gt; APIs now support running against
 Firebase emulator suite. Enable the emulator mode by setting the
 &lt;code dir="ltr" translate="no"&gt;FIREBASE_AUTH_EMULATOR_HOST&lt;/code&gt; environment variable to point to the emulator Auth
 endpoint. Thanks
 &lt;a href="https://github.com/floppydisken"&gt;floppydisken&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-dotnet/pull/289"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 2.2.0 - 17 June, 2021</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_220_-_17_june_2021</link><description>&lt;h3 data-text="Authentication" id="authentication" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.2.0 - 17 June, 2021</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_220_-_17_june_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added the missing &lt;code dir="ltr" translate="no"&gt;EMAIL_NOT_FOUND&lt;/code&gt; error code.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for using the authorization code flow with
 OpenID Connect (OIDC) providers.&lt;/li&gt;
@@ -215,4 +215,13 @@ the incorrect level when set to &lt;code dir="ltr" translate="no"&gt;normal&lt;/
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;LiveActivityToken&lt;/code&gt; field in FCM &lt;code dir="ltr" translate="no"&gt;ApnsConfig&lt;/code&gt;.
 Thanks &lt;a href="https://github.com/kanclalg"&gt;kanclalg&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-dotnet/pull/454"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.4.0 - 08 September, 2025</title><link>https://firebase.google.com/support/release-notes/admin/dotnet#version_340_-_08_september_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated support for .NET 6.0 and 7.0. Use .NET 8.0 or higher
+when deploying the Admin SDK.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;ActionCodeSettings&lt;/code&gt; to support &lt;code dir="ltr" translate="no"&gt;LinkDomain&lt;/code&gt;, allowing
+you to customize the Firebase Hosting domain used in email action flows. As
+part of this change, &lt;code dir="ltr" translate="no"&gt;DynamicLinkDomain&lt;/code&gt; has been deprecated.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Auth error codes were not correctly mapped
+to their corresponding &lt;code dir="ltr" translate="no"&gt;FirebaseAuthException&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

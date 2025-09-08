@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-java</title><link>https://firebase.google.com/support/release-notes/admin/java</link><description>Latest updates and release notes for Firebase Admin-java.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 08 Sep 2025 18:22:24 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/java#version_400_-_november_7_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-java</title><link>https://firebase.google.com/support/release-notes/admin/java</link><description>Latest updates and release notes for Firebase Admin-java.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 08 Sep 2025 21:13:40 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/java#version_400_-_november_7_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Admin Java SDK (available on Maven as &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt;)
 replaces the pre-existing &lt;code dir="ltr" translate="no"&gt;firebase-server-sdk&lt;/code&gt; Maven package, which is now
 deprecated. See
@@ -9,7 +9,7 @@ started.&lt;/li&gt;
 to not work. This was fixed in version &lt;a href="#4.0.1"&gt;&lt;code dir="ltr" translate="no"&gt;4.0.1&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; This version was compiled for Java 8 and does not support Java 7.
 This was fixed in version &lt;a href="#4.0.2"&gt;&lt;code dir="ltr" translate="no"&gt;4.0.2&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth#createCustomToken(java.lang.String)"&gt;&lt;code dir="ltr" translate="no"&gt;createCustomToken()&lt;/code&gt;&lt;/a&gt;
 method is now asynchronous, returning a &lt;code dir="ltr" translate="no"&gt;Task&amp;lt;String&amp;gt;&lt;/code&gt; instead of a &lt;code dir="ltr" translate="no"&gt;String&lt;/code&gt;.&lt;/li&gt;
@@ -40,7 +40,7 @@ cancel transactions at sibling nodes, such as &lt;code dir="ltr" translate="no"&
 Engine after 24 hours, rendering the SDK unresponsive.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issues which caused asynchronous task execution to fail on
 automatically-scaled Google App Engine instances.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Improved error messages and added App Engine support for the
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth#verifyIdToken(java.lang.String)"&gt;&lt;code dir="ltr" translate="no"&gt;verifyIdToken()&lt;/code&gt;&lt;/a&gt;
 method.&lt;/li&gt;
@@ -65,12 +65,12 @@ method allows you to authenticate the SDK with a Google OAuth2 refresh token.&lt
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseCredentials#applicationDefault()"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseCredential.applicationDefault()&lt;/code&gt;&lt;/a&gt;
 method allows you to authenticate the SDK with Google Application Default
 Credentials.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; The
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth#verifyIdToken(java.lang.String)"&gt;&lt;code dir="ltr" translate="no"&gt;verifyIdToken()&lt;/code&gt;&lt;/a&gt;
 method is broken in this release and throws an exception due to an incorrect
 dependency. This was fixed in version &lt;a href="#4.1.1"&gt;&lt;code dir="ltr" translate="no"&gt;4.1.1&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.1.1 - February 1, 2017</title><link>https://firebase.google.com/support/release-notes/admin/java#version_411_-_february_1_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.1.1 - February 1, 2017</title><link>https://firebase.google.com/support/release-notes/admin/java#version_411_-_february_1_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a dependency issue which caused the
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth#verifyIdToken(java.lang.String)"&gt;&lt;code dir="ltr" translate="no"&gt;verifyIdToken()&lt;/code&gt;&lt;/a&gt;
 method to always throw an exception.&lt;/li&gt;
@@ -88,7 +88,7 @@ ID token expires unless you manually call
 on the &lt;code dir="ltr" translate="no"&gt;FirebaseCredential&lt;/code&gt; used to authenticate the SDK. In a future
 release, the SDK will proactively refresh ID tokens automatically before they
 expire.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.1.4 - March 28, 2017</title><link>https://firebase.google.com/support/release-notes/admin/java#version_414_-_march_28_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.1.4 - March 28, 2017</title><link>https://firebase.google.com/support/release-notes/admin/java#version_414_-_march_28_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the SDK to periodically refresh the OAuth access token
 internally used by &lt;code dir="ltr" translate="no"&gt;FirebaseApp&lt;/code&gt;. This reduces the number of authentication
 failures encountered at runtime by various SDK components (e.g. &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;)
@@ -128,7 +128,7 @@ type, which encapsulates both token string and its expiry time.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.0.1 - June 01, 2017</title><link>https://firebase.google.com/support/release-notes/admin/java#version_501_-_june_01_2017</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a database API thread leak that made the SDK
 unstable when running in the Google App Engine environment.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.1.0 - June 07, 2017</title><link>https://firebase.google.com/support/release-notes/admin/java#version_510_-_june_07_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.1.0 - June 07, 2017</title><link>https://firebase.google.com/support/release-notes/admin/java#version_510_-_june_07_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new user management API that allows provisioning and managing
 Firebase users from Java applications. This API adds &lt;code dir="ltr" translate="no"&gt;getUser()&lt;/code&gt;,
 &lt;code dir="ltr" translate="no"&gt;getUserByEmail()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;createUser()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;updateUser()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;deleteUser()&lt;/code&gt; methods
@@ -151,7 +151,7 @@ that facilitates accessing Google Cloud Storage buckets using the
 library.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Integrated with the &lt;a href="https://www.slf4j.org/"&gt;SLF4J&lt;/a&gt; library for all logging
 purposes.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the method
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth#getUserByPhoneNumber(java.lang.String)"&gt;&lt;code dir="ltr" translate="no"&gt;getUserByPhoneNumber()&lt;/code&gt;&lt;/a&gt;
 to the &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseAuth&lt;/code&gt;&lt;/a&gt;
@@ -172,7 +172,7 @@ identity provider.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated the &lt;code dir="ltr" translate="no"&gt;FirebaseDatabase.setLogLevel()&lt;/code&gt; method. Use SLF4J to configure logging.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Logging a detailed error when the database client fails to authenticate with the backend
 Firebase servers.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.3.1 - September 13, 2017</title><link>https://firebase.google.com/support/release-notes/admin/java#version_531_-_september_13_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.3.1 - September 13, 2017</title><link>https://firebase.google.com/support/release-notes/admin/java#version_531_-_september_13_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Throwing an accurate and more detailed error from
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth#verifyIdToken(java.lang.String)"&gt;&lt;code dir="ltr" translate="no"&gt;verifyIdToken()&lt;/code&gt;&lt;/a&gt;
 in the event of a low-level exception.&lt;/li&gt;
@@ -211,7 +211,7 @@ callng &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/Fire
 &lt;/ul&gt;</description></item><item><title>Version 5.6.0 - December 08, 2017</title><link>https://firebase.google.com/support/release-notes/admin/java#version_560_-_december_08_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded the version of Google API Common dependency to the latest
 (1.2.0).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth#listUsersAsync(java.lang.String)"&gt;&lt;code dir="ltr" translate="no"&gt;listUsersAsync()&lt;/code&gt;&lt;/a&gt;
 method to the
@@ -231,7 +231,7 @@ The custom claims can be accessed via that user's ID token.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/iid/FirebaseInstanceId"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseInstanceId&lt;/code&gt;&lt;/a&gt;
 API that facilitates deleting instance IDs and associated user data from
 Firebase projects.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; No longer using &lt;code dir="ltr" translate="no"&gt;org.json&lt;/code&gt; dependency in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; APIs, which
 makes it easier to use the API in environments with conflicting JSON
 libraries.&lt;/li&gt;
@@ -244,7 +244,7 @@ method now provides an overload that does not require any arguments. This
 initializes an app using Google Application Default Credentials, and other
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/FirebaseOptions"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseOptions&lt;/code&gt;&lt;/a&gt;
 loaded from the &lt;code dir="ltr" translate="no"&gt;FIREBASE_CONFIG&lt;/code&gt; environment variable.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved error handling in user management APIs in the
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseAuth&lt;/code&gt;&lt;/a&gt;
 class. These operations now throw exceptions with well-defined
@@ -263,7 +263,7 @@ method for subscribing a list of device registration tokens to a
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/FirebaseMessaging#unsubscribeFromTopicAsync(java.util.List%3Cjava.lang.String%3E,%20java.lang.String)"&gt;&lt;code dir="ltr" translate="no"&gt;unsubscribeFromTopicAsync()&lt;/code&gt;&lt;/a&gt;
 method for unsubscribing a list of device registration tokens from a
 &lt;span class="notranslate"&gt;FCM&lt;/span&gt; topic.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth#verifyIdTokenAsync(java.lang.String,%20boolean)"&gt;&lt;code dir="ltr" translate="no"&gt;verifyIdTokenAsync()&lt;/code&gt;&lt;/a&gt;
 method now has an overload that accepts a boolean &lt;code dir="ltr" translate="no"&gt;checkRevoked&lt;/code&gt; parameter.
@@ -305,7 +305,7 @@ FCM messages to APNs targets.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved error handling in the
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/FirebaseMessaging"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseMessaging&lt;/code&gt;&lt;/a&gt;
 API.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseAuth&lt;/code&gt;&lt;/a&gt;
 API now uses the &lt;code dir="ltr" translate="no"&gt;HttpTransport&lt;/code&gt; configured via
 &lt;code dir="ltr" translate="no"&gt;FirebaseOptions&lt;/code&gt; to fetch public key certificates when verifying ID tokens.
@@ -318,7 +318,7 @@ Thanks
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded the Google Cloud Storage dependency version to
 1.27.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded the Netty dependency version to 4.1.22.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth#createSessionCookieAsync(java.lang.String,%20com.google.firebase.auth.SessionCookieOptions)"&gt;&lt;code dir="ltr" translate="no"&gt;createSessionCookieAsync()&lt;/code&gt;&lt;/a&gt;
 method for creating a session cookie from a Firebase ID token.&lt;/li&gt;
@@ -339,12 +339,12 @@ related logging utilities. Developers should use SLF4J to configure
 logging directly.&lt;/p&gt;
 &lt;p&gt;For more detail on these breaking changes, see the
 &lt;a href="/docs/admin/migrate-admin"&gt;Admin SDK Migration Guide&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.1.0 - May 15, 2018</title><link>https://firebase.google.com/support/release-notes/admin/java#version_610_-_may_15_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.1.0 - May 15, 2018</title><link>https://firebase.google.com/support/release-notes/admin/java#version_610_-_may_15_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated the incorrectly named &lt;code dir="ltr" translate="no"&gt;setCustomClaims()&lt;/code&gt; method.
 Developers should instead use the
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth#setCustomUserClaims(java.lang.String,%20java.util.Map%3Cjava.lang.String,%20java.lang.Object%3E)"&gt;&lt;code dir="ltr" translate="no"&gt;setCustomUserClaims()&lt;/code&gt;&lt;/a&gt;
 method.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.2.0 - May 31, 2018</title><link>https://firebase.google.com/support/release-notes/admin/java#version_620_-_may_31_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.2.0 - May 31, 2018</title><link>https://firebase.google.com/support/release-notes/admin/java#version_620_-_may_31_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth#importUsers(java.util.List%3Ccom.google.firebase.auth.ImportUserRecord%3E,%20com.google.firebase.auth.UserImportOptions)"&gt;&lt;code dir="ltr" translate="no"&gt;importUsers()&lt;/code&gt;&lt;/a&gt;
 method for &lt;a href="/docs/auth/admin/import-users"&gt;importing users&lt;/a&gt; to Firebase Auth
@@ -353,7 +353,7 @@ in bulk.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The Admin SDK can now read the Firebase/Google Cloud Platform
 project ID from both &lt;code dir="ltr" translate="no"&gt;GCLOUD_PROJECT&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;GOOGLE_CLOUD_PROJECT&lt;/code&gt; environment
 variables.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Admin SDK can now create custom tokens without being
 initialized with service account credentials.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The SDK now provides a
@@ -384,7 +384,7 @@ for creating new apps in a project.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; New &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/projectmanagement/AndroidApp"&gt;&lt;code dir="ltr" translate="no"&gt;AndroidApp&lt;/code&gt;&lt;/a&gt;
 and &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/projectmanagement/IosApp"&gt;&lt;code dir="ltr" translate="no"&gt;IosApp&lt;/code&gt;&lt;/a&gt;
 APIs for updating individual apps.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; User management APIs in &lt;code dir="ltr" translate="no"&gt;FirebaseAuth&lt;/code&gt; have been
 migrated to the new Identity Toolkit REST endpoint. A project ID
 is now required to use &lt;code dir="ltr" translate="no"&gt;FirebaseAuth&lt;/code&gt;. Developers using service
@@ -399,7 +399,7 @@ error response from the FCM backend service.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.7.0 - January 9, 2019</title><link>https://firebase.google.com/support/release-notes/admin/java#version_670_-_january_9_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;Firestore&lt;/code&gt; instances initialized by the SDK are now cleaned
 up when &lt;code dir="ltr" translate="no"&gt;FirebaseApp.delete()&lt;/code&gt; is called.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the email action link generation APIs for creating links
 for password reset, email verification, and email link sign-in via
 &lt;code dir="ltr" translate="no"&gt;generatePasswordResetLink()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;generateEmailVerificationLink()&lt;/code&gt;
@@ -480,10 +480,10 @@ field sent to the &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; s
 &lt;/ul&gt;</description></item><item><title>Version 6.12.2 - 11 February, 2020</title><link>https://firebase.google.com/support/release-notes/admin/java#version_6122_-_11_february_2020</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Project management APIs in the &lt;code dir="ltr" translate="no"&gt;FirebaseProjectManagement&lt;/code&gt; class now
 automatically retry operations that fail due to retry-eligible HTTP errors.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; User management APIs in the &lt;code dir="ltr" translate="no"&gt;FirebaseAuth&lt;/code&gt; class now automatically
 retry operations that fail due to retry-eligible HTTP errors.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.13.0 - 14 May, 2020</title><link>https://firebase.google.com/support/release-notes/admin/java#version_6130_-_14_may_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.13.0 - 14 May, 2020</title><link>https://firebase.google.com/support/release-notes/admin/java#version_6130_-_14_may_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;getUsers()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;deleteUsers()&lt;/code&gt; APIs for retrieving and
 deleting user accounts in bulk.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.14.0 - 17 June, 2020</title><link>https://firebase.google.com/support/release-notes/admin/java#version_6140_-_17_june_2020</link><description>&lt;ul&gt;
@@ -500,12 +500,12 @@ on have been upgraded to more recent versions.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.15.0 - 23 July, 2020</title><link>https://firebase.google.com/support/release-notes/admin/java#version_6150_-_23_july_2020</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Admin SDK&lt;/span&gt; now imports all Google Cloud Platform dependencies via
 &lt;code dir="ltr" translate="no"&gt;com.google.cloud:libraries-bom&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/multitenancy/TenantManager"&gt;&lt;code dir="ltr" translate="no"&gt;TenantManager&lt;/code&gt;&lt;/a&gt;,
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/multitenancy/TenantAwareFirebaseAuth"&gt;&lt;code dir="ltr" translate="no"&gt;TenantAwareFirebaseAuth&lt;/code&gt;&lt;/a&gt;,
 and &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/ProviderConfig"&gt;&lt;code dir="ltr" translate="no"&gt;ProviderConfig&lt;/code&gt;&lt;/a&gt;
 classes for tenant management operations.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.16.0 - 12 August, 2020</title><link>https://firebase.google.com/support/release-notes/admin/java#version_6160_-_12_august_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.16.0 - 12 August, 2020</title><link>https://firebase.google.com/support/release-notes/admin/java#version_6160_-_12_august_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Exposed &lt;code dir="ltr" translate="no"&gt;createSessionCookie()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;verifySessionCookie()&lt;/code&gt; methods
 from the &lt;code dir="ltr" translate="no"&gt;TenantAwareFirebaseAuth&lt;/code&gt; class. This makes it possible to create
 and verify tenant-scoped session cookies.&lt;/li&gt;
@@ -519,7 +519,7 @@ handling logic. See the
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;ErrorCode&lt;/code&gt; enum that defines all platform error codes.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;IncomingHttpResponse&lt;/code&gt; class that can be used to access
 the HTTP response object associated with an exception.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;AuthErrorCode&lt;/code&gt; enum that defines all Firebase Auth
 error codes.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;FirebaseAuthException&lt;/code&gt; now exposes its error code as an
@@ -533,7 +533,7 @@ marked &lt;code dir="ltr" translate="no"&gt;final&lt;/code&gt;.&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;MessagingErrorCode&lt;/code&gt; value.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Public constructors of the &lt;code dir="ltr" translate="no"&gt;Notification&lt;/code&gt; class have been removed.
 Use &lt;code dir="ltr" translate="no"&gt;Notification.builder()&lt;/code&gt; to create new instances.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.0.1 - 07 October, 2020</title><link>https://firebase.google.com/support/release-notes/admin/java#version_701_-_07_october_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.0.1 - 07 October, 2020</title><link>https://firebase.google.com/support/release-notes/admin/java#version_701_-_07_october_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Migrated the &lt;code dir="ltr" translate="no"&gt;createCustomToken()&lt;/code&gt; API to use the new IAM
 credentials API for remote token signing.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.1.0 - 14 December, 2020</title><link>https://firebase.google.com/support/release-notes/admin/java#version_710_-_14_december_2020</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -544,7 +544,7 @@ Remote Config template.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.1.1 - 10 March, 2021</title><link>https://firebase.google.com/support/release-notes/admin/java#version_711_-_10_march_2021</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved support for handling certain non-JSON error responses sent
 by the FCM backend service.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.2.0 - 28 April, 2021</title><link>https://firebase.google.com/support/release-notes/admin/java#version_720_-_28_april_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.2.0 - 28 April, 2021</title><link>https://firebase.google.com/support/release-notes/admin/java#version_720_-_28_april_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API now supports running against
 Firebase emulator suite. Enable the emulator mode by setting the
 &lt;code dir="ltr" translate="no"&gt;FIREBASE_AUTH_EMULATOR_HOST&lt;/code&gt; environment variable to point to the emulator
@@ -553,7 +553,7 @@ Auth endpoint.&lt;/li&gt;
 by their providers.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the ability to link a federated ID with the &lt;code dir="ltr" translate="no"&gt;updateUser()&lt;/code&gt;
 method.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.3.0 - 11 May, 2021</title><link>https://firebase.google.com/support/release-notes/admin/java#version_730_-_11_may_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.3.0 - 11 May, 2021</title><link>https://firebase.google.com/support/release-notes/admin/java#version_730_-_11_may_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/OidcProviderConfig"&gt;configuring the authorization code flow for
 OIDC providers&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added the missing &lt;code dir="ltr" translate="no"&gt;EMAIL_NOT_FOUND&lt;/code&gt; error code.&lt;/li&gt;
@@ -569,7 +569,7 @@ for more details.&lt;/li&gt;
 internal server errors. For certain services, retrying on HTTP 500 errors is
 not idempotent. The SDK will continue to retry RPCs that fail with HTTP 503
 unavailable errors.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.0.1 - 13 August, 2021</title><link>https://firebase.google.com/support/release-notes/admin/java#version_801_-_13_august_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.0.1 - 13 August, 2021</title><link>https://firebase.google.com/support/release-notes/admin/java#version_801_-_13_august_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; When &lt;code dir="ltr" translate="no"&gt;checkRevoked&lt;/code&gt; is set to &lt;code dir="ltr" translate="no"&gt;true&lt;/code&gt;, the &lt;code dir="ltr" translate="no"&gt;verifyIdToken()&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;verifySessionCookie()&lt;/code&gt; APIs now throw an error if the user record
 is disabled.&lt;/li&gt;
@@ -578,7 +578,7 @@ is disabled.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.2.0 - 02 June, 2022</title><link>https://firebase.google.com/support/release-notes/admin/java#version_820_-_02_june_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated support for Java 7. Instead use Java 8 or higher when
 deploying the Admin SDK. Java 7 support will be dropped in the next major version.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;Argon2&lt;/code&gt; hashing algorithm support in the &lt;code dir="ltr" translate="no"&gt;importUsers()&lt;/code&gt; API.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.0.0 - 16 June, 2022</title><link>https://firebase.google.com/support/release-notes/admin/java#version_900_-_16_june_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Dropped support for Java 7. Developers should
@@ -591,7 +591,7 @@ v25 and higher. This in turns upgrades the dependencies on
 v26.1.3 and higher. This in turns upgrades the dependency on
 &lt;code dir="ltr" translate="no"&gt;google-cloud-firestore&lt;/code&gt; to the latest version, adding support for
 &lt;code dir="ltr" translate="no"&gt;COUNT&lt;/code&gt; queries.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.1.1 - 10 November, 2022</title><link>https://firebase.google.com/support/release-notes/admin/java#version_911_-_10_november_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.1.1 - 10 November, 2022</title><link>https://firebase.google.com/support/release-notes/admin/java#version_911_-_10_november_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API to correctly set the emulator
 credentials when the &lt;code dir="ltr" translate="no"&gt;FIREBASE_AUTH_EMULATOR_HOST&lt;/code&gt; environment variable is set
 to point to the emulator Auth endpoint.&lt;/li&gt;
@@ -636,7 +636,7 @@ library.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.5.0 - 29 May, 2025</title><link>https://firebase.google.com/support/release-notes/admin/java#version_950_-_29_may_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;ApiClientUtils.getDefaultTransport()&lt;/code&gt; to return a cached
 instance of &lt;code dir="ltr" translate="no"&gt;ApacheHttp2Transport&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where string comparisons were being performed using
 the &lt;code dir="ltr" translate="no"&gt;==&lt;/code&gt; operator instead of the &lt;code dir="ltr" translate="no"&gt;.equals()&lt;/code&gt; method. Thanks
 &lt;a href="https://github.com/yanikapitanov"&gt;yanikapitanov&lt;/a&gt; for the
@@ -646,4 +646,10 @@ the &lt;code dir="ltr" translate="no"&gt;==&lt;/code&gt; operator instead of the
 &lt;a href="https://github.com/vitvvv1"&gt;vitvvv1&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-java/pull/1084"&gt;contribution&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Support &lt;code dir="ltr" translate="no"&gt;liveActivityToken&lt;/code&gt; field in FCM &lt;code dir="ltr" translate="no"&gt;ApnsConfig&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.6.0 - 08 September, 2025</title><link>https://firebase.google.com/support/release-notes/admin/java#version_960_-_08_september_2025</link><description>&lt;h3 data-text="Authentication" id="authentication" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;ActionCodeSettings&lt;/code&gt; to support &lt;code dir="ltr" translate="no"&gt;linkDomain&lt;/code&gt;, allowing
+you to customize the Firebase Hosting domain used in email action flows. As
+part of this change, &lt;code dir="ltr" translate="no"&gt;dynamicLinkDomain&lt;/code&gt; has been deprecated.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Auth error codes were not correctly mapped
+to their corresponding &lt;code dir="ltr" translate="no"&gt;FirebaseAuthException&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
