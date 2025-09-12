@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 12 Sep 2025 15:14:36 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 12 Sep 2025 18:18:43 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -1728,4 +1728,48 @@ APIs to the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator.&
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the MCP server failed to identify active
 projects.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new &lt;code dir="ltr" translate="no"&gt;dataconnect_compile&lt;/code&gt; MCP tool.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.15.2 - September 03, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14152_-_september_03_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for auth token JSON in &lt;code dir="ltr" translate="no"&gt;dataconnect_execute&lt;/code&gt; MCP
+tool.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9046"&gt;#9046&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;firebase-ios-sdk&lt;/code&gt; could not finalize MFA with
+the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9062"&gt;#9062&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed bugs where MCP tools could not connect to emulator due to a
+&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI version mismatch.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9068"&gt;#9068&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where &lt;code dir="ltr" translate="no"&gt;firebase dataconnect:sdk:generate --watch&lt;/code&gt;
+swallowed all logs.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9055"&gt;#9055&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Consolidated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; MCP tools into
+&lt;code dir="ltr" translate="no"&gt;dataconnect_info&lt;/code&gt; tool to surface information of local workspace and
+backend resources.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9056"&gt;#9056&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.16.0 - September 10, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14160_-_september_10_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firestore:bulkdelete&lt;/code&gt; command, which initiates a
+&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; managed bulk delete operation.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8974"&gt;#8974&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firestore:operations:*&lt;/code&gt; commands to list, describe, and
+cancel long-running operations.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8982"&gt;#8982&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;firebase emulator:start&lt;/code&gt; to now use &lt;code dir="ltr" translate="no"&gt;demo-no-project&lt;/code&gt; as
+default project if no project can be found.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9072"&gt;#9072&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt; to bootstrap
+Flutter templates.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9084"&gt;#9084&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a vulnerability in &lt;code dir="ltr" translate="no"&gt;unzip&lt;/code&gt; util where files could be written
+outside of the expected output directory.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt; to now confirm Cloud SQL
+provisioning.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9095"&gt;#9095&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for MCP &lt;code dir="ltr" translate="no"&gt;firebase_init&lt;/code&gt; tool to download an
+existing &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; service returned from
+&lt;code dir="ltr" translate="no"&gt;dataconnect_list_services&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9091"&gt;#9091&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.13.0,
+which adds validation that checks that &lt;code dir="ltr" translate="no"&gt;_insert&lt;/code&gt; data includes all non-null
+columns without defaults.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9106"&gt;#9106&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase_login&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;firebase_logout&lt;/code&gt; MCP tools.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
