@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 17 Sep 2025 18:21:24 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 17 Sep 2025 21:12:44 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -5588,7 +5588,20 @@ operators see
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#12.3.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 17, 2025</title><link>https://firebase.google.com/support/releases#september_17_2025</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore-enterprise-edition" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 17, 2025</title><link>https://firebase.google.com/support/releases#september_17_2025</link><description>&lt;h3 data-text="App Check" id="app-check-advanced-settings" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; New advanced settings are now available in &lt;span class="notranslate"&gt;App Check&lt;/span&gt; for
+customizing the verification of Play Integrity and reCAPTCHA attestations. As a
+result, App Check now supports:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Using Play Integrity with elevated integrity requirements for apps
+distributed &lt;a href="/docs/app-check/android/play-integrity-provider#advanced-settings"&gt;exclusively on Google Play&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Using Play Integrity for apps that are released
+&lt;a href="/docs/app-check/android/play-integrity-provider#advanced-settings"&gt;exclusively &lt;em&gt;outside&lt;/em&gt; Google Play&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;A custom app risk threshold for
+&lt;a href="/docs/app-check/web/recaptcha-provider#advanced-settings"&gt;reCAPTCHA v3&lt;/a&gt; and
+&lt;a href="/docs/app-check/web/recaptcha-enterprise-provider#advanced-settings"&gt;reCAPTCHA Enterprise&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore-enterprise-edition" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; In &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; with MongoDB compatibility,
 the &lt;code dir="ltr" translate="no"&gt;$lookup&lt;/code&gt; operator now supports the following fields:&lt;/p&gt;
 &lt;ul&gt;
