@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 19 Sep 2025 03:30:30 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 19 Sep 2025 06:22:42 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -5612,7 +5612,18 @@ the &lt;code dir="ltr" translate="no"&gt;$lookup&lt;/code&gt; operator now suppo
 &lt;/ul&gt;
 &lt;p&gt;For the full list of supported operators see
 &lt;a href="/docs/firestore/enterprise/supported-features-80"&gt;Supported features&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 18, 2025</title><link>https://firebase.google.com/support/releases#september_18_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 18, 2025</title><link>https://firebase.google.com/support/releases#september_18_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-hybrid-prefer-in-cloud-mode-and-preview" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Using &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; to
+&lt;a href="/docs/ai-logic/hybrid-on-device-inference"&gt;build hybrid experiences with on-device and cloud-hosted models in your web apps&lt;/a&gt;
+is now in Preview. Hybrid inference enables running inference using on-device
+models when available and seamlessly falling back to cloud-hosted models
+otherwise (and vice versa).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now supports
+&lt;a href="/docs/ai-logic/hybrid-on-device-inference#inference-modes"&gt;&lt;code dir="ltr" translate="no"&gt;PREFER_IN_CLOUD&lt;/code&gt; mode&lt;/a&gt;
+when using hybrid on-device inference in your web apps. This mode allows the
+SDK to fall back to the on-device model if the cloud-hosted model isn't
+available (for example, if the device is offline).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;,
@@ -5631,4 +5642,8 @@ has been updated to v34.3.0. Learn how to
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#12.3.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 19, 2025</title><link>https://firebase.google.com/support/releases#september_19_2025</link><description>&lt;h3 data-text="Remote Config" id="remote-config-realtime-for-web" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Real-time &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; is now available for Web in addition
+to existing support for iOS, Android, Flutter, Unity and C++ platforms. For more
+information, see &lt;a href="/docs/remote-config/real-time?platform=web"&gt;Understand real-time Remote Config&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate></item></channel></rss>
