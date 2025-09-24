@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-java</title><link>https://firebase.google.com/support/release-notes/admin/java</link><description>Latest updates and release notes for Firebase Admin-java.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 24 Sep 2025 15:16:18 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/java#version_400_-_november_7_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-java</title><link>https://firebase.google.com/support/release-notes/admin/java</link><description>Latest updates and release notes for Firebase Admin-java.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 24 Sep 2025 18:21:02 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/java#version_400_-_november_7_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Admin Java SDK (available on Maven as &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt;)
 replaces the pre-existing &lt;code dir="ltr" translate="no"&gt;firebase-server-sdk&lt;/code&gt; Maven package, which is now
 deprecated. See
@@ -652,4 +652,7 @@ you to customize the Firebase Hosting domain used in email action flows. As
 part of this change, &lt;code dir="ltr" translate="no"&gt;dynamicLinkDomain&lt;/code&gt; has been deprecated.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Auth error codes were not correctly mapped
 to their corresponding &lt;code dir="ltr" translate="no"&gt;FirebaseAuthException&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.7.0 - 24 September, 2025</title><link>https://firebase.google.com/support/release-notes/admin/java#version_970_-_24_september_2025</link><description>&lt;h3 data-text="Remote Config" id="remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for configuring &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
+&lt;a href="/docs/remote-config/server?serverplatform=java"&gt;server applications&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
