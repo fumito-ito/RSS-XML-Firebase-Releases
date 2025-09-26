@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 25 Sep 2025 21:13:38 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 26 Sep 2025 01:10:04 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, &lt;span class="notranslate"&gt;Invites&lt;/span&gt;, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;. To get started, see
 &lt;a href="/docs/unity/setup"&gt;Adding Firebase to your Unity Project&lt;/a&gt;.&lt;/p&gt;&lt;ul&gt;
@@ -51,7 +51,7 @@ rather than raise exceptions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused unsubscription from complex queries to fail.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused service account authentication to fail in the editor.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a link.xml rule to prevent Firebase.Database.Unity being stripped from iOS builds.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_36" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that prevented subscription to topics.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue that caused random hangs during initialization on iOS.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Modified the AndroidManifest.xml so that the app icon is included on Android.&lt;/li&gt;
@@ -80,7 +80,7 @@ when signing in while a user is already signed in.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Renamed the &lt;code dir="ltr" translate="no"&gt;Auth.UserProfile.ProtoUri&lt;/code&gt; property to
 &lt;code dir="ltr" translate="no"&gt;Auth.UserProfile.ProtoUrl&lt;/code&gt; to be consistent with the other URL properties
 across the SDK.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue with method swizzling that caused some
 of the application's &lt;code dir="ltr" translate="no"&gt;UIApplicationDelegate&lt;/code&gt; methods to not be called.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -91,7 +91,7 @@ of the application's &lt;code dir="ltr" translate="no"&gt;UIApplicationDelegate&
 &lt;code dir="ltr" translate="no"&gt;Task.ContinueWith()&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_40" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an error in &lt;code dir="ltr" translate="no"&gt;Firebase.Auth.FirebaseUser.PhotoUrl&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Removed hard dependency on Xcode 8.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue where the application would receive an
 empty message on startup.&lt;/li&gt;
@@ -132,7 +132,7 @@ used when building for the desktop.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug which prevented download URLs from containing slashes.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a bug on iOS which caused networking to fail when the
 full .NET 2.0 compatibility level is used.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed issue with initialization on iOS that caused problems
 with other SDKs.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -170,7 +170,7 @@ manifest in a crash when signing in.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue which caused the application to manually refresh
 the auth token.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Resolved an issue which caused an app to receive an
 empty message when a notification is received while the app is in the
 background and user then taps on the app icon rather than the notification.&lt;/li&gt;
@@ -204,12 +204,12 @@ the correct version for the current Unity SDK release.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue in the analytics SDK's method swizzling
 which resulted in dynamic links / invites not being sent to the application.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a regression introduced in 3.0.3 which caused
 a crash when opening up a notification when the app is running in the
 background.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed interoperation with other users of local notifications.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.0.1 - Jun 16, 2017</title><link>https://firebase.google.com/support/release-notes/unity#version_401_-_jun_16_2017</link><description>&lt;h3 data-text="FCM" id="fcm_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.0.1 - Jun 16, 2017</title><link>https://firebase.google.com/support/release-notes/unity#version_401_-_jun_16_2017</link><description>&lt;h3 data-text="FCM" id="fcm_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed crash when updating Google Play services
 in projects that include the &lt;span class="notranslate"&gt;FCM&lt;/span&gt; functionality.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS): Fixed an issue where library would crash on start
@@ -230,7 +230,7 @@ if credential linking fails.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue which caused an app to sometimes crash or not
 receive a &lt;span class="notranslate"&gt;Dynamic Link&lt;/span&gt; if it's opened when the app is installed and not running.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed the &lt;code dir="ltr" translate="no"&gt;AndroidManifest.xml&lt;/code&gt; to work with version 25
 and above of the Android SDK tools and support library.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a crash when no notification event is registered.&lt;/li&gt;
@@ -255,7 +255,7 @@ This could result in a hang on startup when using some iOS SDKs.&lt;/li&gt;
 to synchronize changes correctly.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that caused database connections to fail when
 using the .NET 4.x framework in Unity 2017 on OSX.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed message handling when messages they are received
 via the direct channel to the FCM backend (i.e not via APNS).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.1.0 - Aug 23, 2017</title><link>https://firebase.google.com/support/release-notes/unity#version_410_-_aug_23_2017</link><description>&lt;ul&gt;
@@ -273,7 +273,7 @@ Unity Cloud Build environment.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) An exception is now thrown if you call &lt;code dir="ltr" translate="no"&gt;GetCredential&lt;/code&gt;
 without creating an &lt;code dir="ltr" translate="no"&gt;Auth&lt;/code&gt; instance.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a bug resulting in &lt;code dir="ltr" translate="no"&gt;FirebaseMessage&lt;/code&gt; objects not
 having their &lt;code dir="ltr" translate="no"&gt;MessageType&lt;/code&gt; field populated.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a race condition if a message is received before
@@ -311,7 +311,7 @@ instead.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where user authentication tokens are ignored if the
 application uses the database API before initializing authentication.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Messages sent to users can now contain a link URL.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a bug which prevented the message ID field.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.2.1 - Oct 20, 2017</title><link>https://firebase.google.com/support/release-notes/unity#version_421_-_oct_20_2017</link><description>&lt;ul&gt;
@@ -437,7 +437,7 @@ CheckAndFixDependenciesAsync().&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue with invitations getting lost when calling
 CheckAndFixDependenciesAsync().&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added TokenRegistrationOnInitEnabled property to enable or
 disable auto-token generation.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -476,7 +476,7 @@ a "FirebaseCpp" prefix. For example, Auth.dll is now FirebaseCppAuth.dll.&lt;/li
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added MatchStrength to ReceivedDynamicLink, that describes
 the strength of the match for the received link.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an optional initialization options struct. This can be
 used to suppress the prompt on iOS that requests permission to receive
 notifications at start up. Permission can be requested manually using the
@@ -530,7 +530,7 @@ availability checker.&lt;/li&gt;
 of the database to use.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a way to specify which region to run the function in.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;SubscribeAsync()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;UnsubscribeAsync()&lt;/code&gt;, which return
 Tasks, and deprecated &lt;code dir="ltr" translate="no"&gt;Subscribe()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Unsubscribe()&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.2.1 - August 16, 2018</title><link>https://firebase.google.com/support/release-notes/unity#version_521_-_august_16_2018</link><description>&lt;ul&gt;
@@ -689,7 +689,7 @@ increased the size of your app.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash when attempting to call Game Center
 authentication methods from the Unity editor.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS/Android): Fixed an issue where Subscribe and Unsubscribe never
 returned if the API was configured not to receive a registration token.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Invites" id="invites" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -738,7 +738,7 @@ devices.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that could cause a crash during
 shutdown due to the destruction order of plugins being nondeterministic.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Android) Added channel_id to Messaging notifications.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.1.1 - June 7, 2019</title><link>https://firebase.google.com/support/release-notes/unity#version_611_-_june_7_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Editor): Fixed an issue when generating Firebase config files on
@@ -906,7 +906,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed build event reporting when Python 3 is installed on
  Mac or Linux machines.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Android): Added the option to enable or disable message
  delivery metrics export to BigQuery. This functionality is currently only
  available on Android. Stubs are provided on iOS for cross platform
@@ -992,7 +992,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed the &lt;code dir="ltr" translate="no"&gt;DocumentReference.ListenerDelegate&lt;/code&gt; and
  &lt;code dir="ltr" translate="no"&gt;Query.ListenerDelegate&lt;/code&gt; delegates. These were intended to be
  internal-only types.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Using the MessagingUnityPlayerActivity will no longer
  interfere with Unity's built-in handling of deep links.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.15.1 - June 29, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_6151_-_june_29_2020</link><description>&lt;ul&gt;
@@ -1031,7 +1031,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;CollectionReference.AddAsync()&lt;/code&gt; to propagate errors.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed async tasks to fault with &lt;code dir="ltr" translate="no"&gt;FirestoreException&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Renamed the &lt;code dir="ltr" translate="no"&gt;Error&lt;/code&gt; enum to &lt;code dir="ltr" translate="no"&gt;FirestoreError&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the library to be compatible with Android O.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated the &lt;code dir="ltr" translate="no"&gt;Send&lt;/code&gt; function.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.16.1 - October 20, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_6161_-_october_20_2020</link><description>&lt;ul&gt;
@@ -1068,7 +1068,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added Installations SDK.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Instance ID" id="instance_id_2" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Marked as deprecated.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;getToken&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;deleteToken&lt;/code&gt; apis.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated &lt;code dir="ltr" translate="no"&gt;Send&lt;/code&gt; function.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1097,7 +1097,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed crash setting FirebaseFirestore.LogLevel on Android
  before any instances have been created
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/888"&gt;#888&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Now uses &lt;code dir="ltr" translate="no"&gt;enqueueWork&lt;/code&gt; instead of &lt;code dir="ltr" translate="no"&gt;startService&lt;/code&gt;. This
  fixes lost messages with data payloads received when the app is in the
  background.
@@ -1121,7 +1121,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  or &lt;code dir="ltr" translate="no"&gt;ChildListener&lt;/code&gt;s rapidly.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when setting large values on Windows and
  Mac systems.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed triggering of callback handlers for
  background notifications.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.0.0 - June 17, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_800_-_june_17_2021</link><description>&lt;ul&gt;
@@ -1170,7 +1170,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  &lt;code dir="ltr" translate="no"&gt;QuerySnapshot&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;DocumentSnapshot&lt;/code&gt; classes. These methods were
  unimplemented, and we plan to add proper support for them in a future
  release.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a duplicate class error when building an application
  which also uses Cloud Functions for Firebase.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.3.0 - September 21, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_830_-_september_21_2021</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1179,7 +1179,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  requires updates to code that sets &lt;code dir="ltr" translate="no"&gt;FirebaseFirestore.Settings&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed an argument to &lt;code dir="ltr" translate="no"&gt;Query.WhereNotIn()&lt;/code&gt; from &lt;code dir="ltr" translate="no"&gt;List&lt;/code&gt; to
  &lt;code dir="ltr" translate="no"&gt;IEnumerable&lt;/code&gt;, to be consistent with &lt;code dir="ltr" translate="no"&gt;Query.WhereIn()&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixes an issue with receiving tokens when initializing
  the app.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.4.0 - October 13, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_840_-_october_13_2021</link><description>&lt;ul&gt;
@@ -1227,14 +1227,14 @@ without the iOS Unity extension installed.&lt;/li&gt;
  See the
  &lt;a href="https://firebase.google.com/docs/crashlytics/get-started?platform=unity"&gt;Getting Started with Crashlytics Unity&lt;/a&gt;
  Guide for more details.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed crash resulting in ANR on termination
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/1151"&gt;#1151&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.6.1 - November 9, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_861_-_november_9_2021</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Updated the pinned dependency to fix a
  missing method error
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/1177"&gt;#1177&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.6.2 - November 19, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_862_-_november_19_2021</link><description>&lt;h3 data-text="FCM" id="fcm_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.6.2 - November 19, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_862_-_november_19_2021</link><description>&lt;h3 data-text="FCM" id="fcm_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Clean up callbacks on termination, to possibly fix
  ANR issues in CheckAndFixDependenciesAsync
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/1160"&gt;#1160&lt;/a&gt;).&lt;/li&gt;
@@ -1293,7 +1293,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  minification via ProGuard.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop): Fixed a bug handling server timestamps on 32-bit CPUs.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed a bug with duplicate symbols when also using
  Functions.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1319,7 +1319,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;TransactionOptions&lt;/code&gt; to control how many times a
  transaction will retry commits before failing
  (&lt;a href="https://github.com/firebase/firebase-unity-sdk/pull/318"&gt;#318&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Make sure all the resources are closed in
  &lt;code dir="ltr" translate="no"&gt;RegistrationIntentService&lt;/code&gt;.
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/issues/973"&gt;#973&lt;/a&gt;).&lt;/li&gt;
@@ -1410,7 +1410,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 10.7.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update Firebase Android BoM dependencies to v31.3.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update Firebase Cocoapods dependencies to v10.7.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Generate the custom MessagingUnityPlayerActivity as
  a Java file instead of precompiling it. This is to better support changes
  with the UnityPlayerActivity, and GameActivity options, in the Unity 2023
@@ -1431,7 +1431,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;Query.Count()&lt;/code&gt;, which fetches the number of documents in
  the result set without actually downloading the documents
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/659"&gt;#659&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Remove deprecated calls &lt;code dir="ltr" translate="no"&gt;Send&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Subscribe&lt;/code&gt;, and
  &lt;code dir="ltr" translate="no"&gt;Unsubscribe&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1580,7 +1580,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Add support for
  &lt;code dir="ltr" translate="no"&gt;InitiateOnDeviceConversionMeasurementWithHashedEmailAddress&lt;/code&gt; and
  &lt;code dir="ltr" translate="no"&gt;InitiateOnDeviceConversionMeasurementWithHashedPhoneNumber&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a potential race condition on receiving messages
  after cleanup.
  (&lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/1030"&gt;#1030&lt;/a&gt;).&lt;/li&gt;
@@ -1592,10 +1592,10 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.1.2.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 11.0.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to EDM4U version 1.2.182.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated the Dispose functions, as they are no longer
  necessary for cleaning up memory.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 12.2.1 - September 04, 2024</title><link>https://firebase.google.com/support/release-notes/unity#version_1221_-_september_04_2024</link><description>&lt;h3 data-text="FCM" id="fcm_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.2.1 - September 04, 2024</title><link>https://firebase.google.com/support/release-notes/unity#version_1221_-_september_04_2024</link><description>&lt;h3 data-text="FCM" id="fcm_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when opening a push notification.
  (&lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/1091"&gt;#1091&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.3.0 - September 30, 2024</title><link>https://firebase.google.com/support/release-notes/unity#version_1230_-_september_30_2024</link><description>&lt;ul&gt;
@@ -1603,7 +1603,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.3.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 11.2.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to EDM4U version 1.2.183.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed issue with &lt;code dir="ltr" translate="no"&gt;TokenReceived&lt;/code&gt; not being called when
  the application has a cached token from a previous run.
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/1088"&gt;#1088&lt;/a&gt;).&lt;/li&gt;
@@ -1656,7 +1656,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.9.0 - May 20, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1290_-_may_20_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to EDM4U version 1.2.186.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue of Firebase Editor on Windows requiring iOS.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_4" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_5" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Firebase AI Logic SDK
  (&lt;code dir="ltr" translate="no"&gt;FirebaseAI.unitypackage&lt;/code&gt;), with support for Android, iOS, tvOS, and
  desktop platforms. To learn more about Firebase AI Logic and how to
@@ -1672,7 +1672,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Released Open Beta support for &lt;a href="https://firebase.google.com/docs/tutorials/ads-ios-on-device-measurement"&gt;on-device conversion
  measurement using event data&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fix issue with &lt;code dir="ltr" translate="no"&gt;SubscribeAsync&lt;/code&gt; task not completing
  when a cached token is available.
  (&lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/1245"&gt;#1245&lt;/a&gt;).&lt;/li&gt;
@@ -1707,7 +1707,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed the Dynamic Links SDK. See the &lt;a href="https://firebase.google.com/support/dynamic-links-faq"&gt;support
  documentation&lt;/a&gt; for
  more information.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_3" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_4" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for image generation via Imagen. For more info,
  see https://firebase.google.com/docs/ai-logic/generate-images-imagen&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for Grounding with Google Search.&lt;/li&gt;
@@ -1716,18 +1716,23 @@ without the iOS Unity extension installed.&lt;/li&gt;
  use &lt;code dir="ltr" translate="no"&gt;CountTokensResponse.TotalTokens&lt;/code&gt; instead.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed public field types for &lt;code dir="ltr" translate="no"&gt;ReadOnlyMemory&amp;lt;byte&amp;gt;&lt;/code&gt; to byte[],
  and IEnumerable to IReadOnlyList.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated &lt;code dir="ltr" translate="no"&gt;FirebaseMessage.Dispose&lt;/code&gt;,
  &lt;code dir="ltr" translate="no"&gt;FirebaseNotification.Dispose&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;MessagingOptions.Dispose&lt;/code&gt; methods.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.1.0 - August 14, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1310_-_august_14_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_2" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.1.0 - August 14, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1310_-_august_14_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_3" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for Developer API backend to LiveSessions.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.2.0 - September 04, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1320_-_september_04_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 13.1.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.2.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.2.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_2" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for receiving Thought summaries when generating
  content.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remove &lt;code dir="ltr" translate="no"&gt;LiveGenerationConfig.CandidateCount&lt;/code&gt;, since the
  connection fails silently when it is set.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.3.0 - September 25, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1330_-_september_25_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for enabling the model to use Code Execution.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix crash when deleting a Message with a Notification.
+ (&lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/1334"&gt;#1334&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
