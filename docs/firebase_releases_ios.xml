@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sun, 28 Sep 2025 18:18:54 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_121" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sun, 28 Sep 2025 21:12:26 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_121" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -5128,9 +5128,11 @@ because more of your users will be on versions of your app that send limited-use
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition that could lead to a crash during network
 session recreation (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15087"&gt;#15087&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.3.0 - September 15, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_1230_-_september_15_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the Code Execution tool, which enables the model
-to generate and run code to perform complex tasks like solving mathematical
-equations or visualizing data. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15280"&gt;#15280&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the
+&lt;a href="/docs/ai-logic/code-execution"&gt;code execution tool&lt;/a&gt;.
+Enabling this tool lets the model generate and run Python code to help it
+perform complex tasks like solving mathematical equations or visualizing data.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15280"&gt;#15280&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a decoding error when generating images with the
 &lt;code dir="ltr" translate="no"&gt;gemini-2.5-flash-image-preview&lt;/code&gt; model using &lt;code dir="ltr" translate="no"&gt;generateContentStream&lt;/code&gt; or
 &lt;code dir="ltr" translate="no"&gt;sendMessageStream&lt;/code&gt; with the Gemini Developer API. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15262"&gt;#15262&lt;/a&gt;)&lt;/li&gt;
