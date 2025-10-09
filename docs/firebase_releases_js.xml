@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 09 Oct 2025 09:16:23 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 09 Oct 2025 12:31:58 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Launch of new APIs and &lt;a class="link external gc-analytics-event" data-action="linkClick" data-category="console" href="//console.firebase.google.com/"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_74" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The way you install and initialize the SDK has changed and several
@@ -3101,7 +3101,7 @@ and won't change the default behavior in &lt;span class="notranslate"&gt;App Che
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a cache issue in Safari/WebKit that occurs when client-side
 indexing is used.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic_7" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic_8" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK (&lt;code dir="ltr" translate="no"&gt;@firebase/ai&lt;/code&gt;).
 This SDK &lt;em&gt;replaces&lt;/em&gt; the previous &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; SDK
 (&lt;code dir="ltr" translate="no"&gt;@firebase/vertexai&lt;/code&gt;) to accommodate the evolving set of supported features
@@ -3115,7 +3115,7 @@ available (GA).&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Gemini multimodal output.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;GenerationConfig&lt;/code&gt; was not inherited from
 &lt;code dir="ltr" translate="no"&gt;ChatSession&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.9.0 - June 5, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1190_-_june_5_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_6" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.9.0 - June 5, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1190_-_june_5_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_7" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;title&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;maximum&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;minimum&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;maxItems&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;minItems&lt;/code&gt;, and
 &lt;code dir="ltr" translate="no"&gt;propertyOrdering&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;Schema&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;HarmBlockThreshold.OFF&lt;/code&gt; support.&lt;/li&gt;
@@ -3130,7 +3130,7 @@ attempts issued in Firebase Studio resulted in CORS errors.&lt;/li&gt;
 for Storage users.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.10.0 - June 26, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_11100_-_june_26_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added React Native entry point.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic_5" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic_6" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added deprecation label to &lt;code dir="ltr" translate="no"&gt;totalBillableCharacters&lt;/code&gt;.
 &lt;code dir="ltr" translate="no"&gt;totalTokens&lt;/code&gt; should be used instead.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3150,7 +3150,7 @@ using ES2020 or higher may need to update their tooling or configuration.&lt;/p&
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed the &lt;code dir="ltr" translate="no"&gt;firebase/vertexai&lt;/code&gt; import alias. All the
 functionality is still available under the new name: &lt;code dir="ltr" translate="no"&gt;firebase/ai&lt;/code&gt;, although
 some methods may be renamed (see &lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt; notes below).&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic_4" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="AI Logic" id="ai-logic_5" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed methods and symbols with the &lt;code dir="ltr" translate="no"&gt;VertexAI&lt;/code&gt; name in them
 such as &lt;code dir="ltr" translate="no"&gt;getVertexAI&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;VertexAIError&lt;/code&gt;. These were deprecated in 11.8.0
 and were just wrappers on the newly introduced methods with the &lt;code dir="ltr" translate="no"&gt;AI&lt;/code&gt; name,
@@ -3176,7 +3176,7 @@ had degraded in v11.3.0, was reverted in v11.3.1, and was reintroduced with
 some improvements in v11.5.0.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression where the SDK did not re-connect to IndexedDb
 after a disconnect.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 12.1.0 - August 7, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1210_-_august_7_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_3" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.1.0 - August 7, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1210_-_august_7_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_4" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added hybrid inference options to &lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;. This provides
 options to perform inference tasks using the
 &lt;a href="https://developer.chrome.com/docs/extensions/ai/prompt-api"&gt;Prompt API&lt;/a&gt;
@@ -3185,7 +3185,7 @@ in browsers that have the Prompt API enabled.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed errors thrown when capturing long target element names for
 out-of-the-box metrics.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/9136"&gt;GitHub Issue #9136&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 12.2.0 - August 28, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1220_-_august_28_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.2.0 - August 28, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1220_-_august_28_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_3" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for the Gemini Live API.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add &lt;code dir="ltr" translate="no"&gt;thoughtSummary()&lt;/code&gt; convenience method to &lt;code dir="ltr" translate="no"&gt;EnhancedGenerateContentResponse&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for limited-use tokens with Firebase App Check.
@@ -3201,9 +3201,9 @@ because more of your users will be on versions of your app that send limited-use
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Fixed a bug where a rejected promise with an empty message in a transaction would cause a timeout. See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/9147"&gt;GitHub Issue #9147&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK" id="cloud-functions-for-firebase-client-sdk" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Fixed an issue which caused a CORS error in Firebase Studio when connected to emulators.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 12.2.1 - August 28, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1221_-_august_28_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.2.1 - August 28, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1221_-_august_28_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused TypeScript compilation errors.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 12.3.0 - September 18, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1230_-_september_18_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.3.0 - September 18, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1230_-_september_18_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the
 &lt;a href="/docs/ai-logic/code-execution"&gt;code execution tool&lt;/a&gt;.
 Enabling this tool lets the model generate and run Python code to help it
@@ -3224,4 +3224,21 @@ receive near-instant configuration updates without requiring periodic polling.&l
 false-positive rate. Updated WebChannel to ignore duplicate messages
 received from the server.
 This fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8250"&gt;GitHub Issue #8250&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.4.0 - October 9, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1240_-_october_9_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Changed the &lt;code dir="ltr" translate="no"&gt;functionCallingHandler&lt;/code&gt;
+property in &lt;code dir="ltr" translate="no"&gt;StartAudioConversationOptions&lt;/code&gt; so that it now must return a
+&lt;code dir="ltr" translate="no"&gt;Promise&amp;lt;FunctionResponse&amp;gt;&lt;/code&gt;. This breaking change is allowed in a minor
+release since the Live API is in Public Preview.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a &lt;code dir="ltr" translate="no"&gt;sendFunctionResponses&lt;/code&gt; method to &lt;code dir="ltr" translate="no"&gt;LiveSession&lt;/code&gt;, allowing
+function responses to be sent during realtime sessions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;URLContextTool&lt;/code&gt; support. This allows the model to access
+content from provided public web URLs to inform and enhance its responses.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Imagen Generation is now Generally Available (GA).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Gemini Developer API is now Generally Available (GA).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The SDK can now handle empty parts when streaming.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;CodeExecutionTool&lt;/code&gt; has been properly marked as Public Preview
+in our reference documentation.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where function responses during audio conversations
+caused the WebSocket connection to close. See
+&lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8250"&gt;GitHub Issue #9264&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
