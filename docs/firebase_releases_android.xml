@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 10 Oct 2025 15:15:24 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 10 Oct 2025 18:21:52 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -7652,4 +7652,77 @@ because more of your users will be on versions of your app that send limited-use
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring version 22.0.1" id="performance_v22-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; version 22.0.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an ANR on app launch.
 GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/4831"&gt;#4831&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - September 18, 2025</title><link>https://firebase.google.com/support/release-notes/android#2025-09-18</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 34.3.0" id="bom_v34-3-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 34.3.0&lt;/h3&gt;&lt;h3 data-text="A/B Testing version 23.0.1" id="ab_testing_v23-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt; version 23.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic version 17.3.0" id="ai_v17-3-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.3.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the
+&lt;a href="/docs/ai-logic/code-execution"&gt;code execution tool&lt;/a&gt;.
+Enabling this tool lets the model generate and run Python code to help it
+perform complex tasks like solving mathematical equations or visualizing data.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated the unused public constructors for
+&lt;code dir="ltr" translate="no"&gt;ExecutableCodePart&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;CodeExecutionResultPart&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Introduced &lt;code dir="ltr" translate="no"&gt;PermissionMissingException&lt;/code&gt;, which is thrown when the
+necessary Android permissions have not been granted by the end-user.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added helper functions to &lt;code dir="ltr" translate="no"&gt;LiveSession&lt;/code&gt; to allow developers to
+track the status of the audio session and the underlying websocket connection.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added new values to &lt;code dir="ltr" translate="no"&gt;HarmCategory&lt;/code&gt; that encode image specific
+categories (for example, &lt;code dir="ltr" translate="no"&gt;HarmCategory.IMAGE_DANGEROUS_CONTENT&lt;/code&gt;).
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7324"&gt;#7324&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused an unknown or empty &lt;code dir="ltr" translate="no"&gt;Part&lt;/code&gt; to throw an
+exception. Instead, the SDK now logs them and filters them from the response.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7333"&gt;#7333&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check version 19.0.1" id="appcheck_v19-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 19.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 19.0.1" id="appcheck-debug_v19-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 19.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 19.0.1" id="appcheck-debug-testing_v19-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 19.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check Play integrity version 19.0.1" id="appcheck-playintegrity_v19-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play integrity version 19.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Distribution version 16.0.0-beta17" id="app-distro_v16-0-0-beta17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; version 16.0.0-beta17&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Distribution API version 16.0.0-beta17" id="app-distro-api_v16-0-0-beta17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; API version 16.0.0-beta17&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 26.0.1" id="firestore_v26-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 26.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved the performance of queries in collections that contain
+many deleted documents.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7295"&gt;#7295&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK version 22.0.1" id="functions-client_v22-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt; version 22.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging version 25.0.1" id="messaging_v25-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 25.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging Direct Boot version 25.0.1" id="messaging-directboot_v25-0-1" tabindex="-1"&gt;Cloud Messaging Direct Boot version 25.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Internal changes to ensure functionality alignment with other
+SDK releases. For more details, refer to the
+&lt;a href="/support/release-notes/android#messaging_v25-0-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; v25.0.1 release notes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage for Firebase version 22.0.1" id="storage_v22-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage for Firebase&lt;/span&gt; version 22.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics version 20.0.2" id="crashlytics_v20-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 20.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics NDK version 20.0.2" id="crashlytics-ndk_v20-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 20.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.0.1" id="data-connect_v17-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed to ignore unknown fields in response data instead of
+throwing a &lt;code dir="ltr" translate="no"&gt;DataConnectOperationException&lt;/code&gt; with message &lt;code dir="ltr" translate="no"&gt;decoding data from
+the server's response failed: An unknown field for index -3&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7314"&gt;#7314&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="In-App Messaging version 22.0.1" id="inappmessaging_v22-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; version 22.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="In-App Messaging Display version 22.0.1" id="inappmessaging-display_v22-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; Display version 22.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase installations version 19.0.1" id="installations_v19-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations version 19.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase ML version 26.0.1" id="firebaseml-modeldownloader_v26-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt; version 26.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring version 22.0.2" id="performance_v22-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; version 22.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the behavior of app start traces on API 34+ devices.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5920"&gt;#5920&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database version 22.0.1" id="realtime-database_v22-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; version 22.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config version 23.0.1" id="remote-config_v23-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; version 23.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

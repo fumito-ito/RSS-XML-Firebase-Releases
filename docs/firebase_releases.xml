@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 10 Oct 2025 15:15:19 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 10 Oct 2025 18:21:49 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -2924,8 +2924,8 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; is an AI-powered collaborative assistant that
 accelerates Firebase app development by answering questions about Firebase,
 generating and troubleshooting code, interpreting errors and
-suggesting mitigations, and more. Learn more at &lt;a href="/docs/gemini-in-firebase"&gt;Introduction to Gemini
-in Firebase&lt;/a&gt;.&lt;/li&gt;
+suggesting mitigations, and more. Learn more at
+&lt;a href="/docs/ai-assistance/gemini-in-firebase"&gt;Introduction to Gemini in Firebase&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 09, 2024</title><link>https://firebase.google.com/support/releases#april_09_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_129" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-functions"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; SDK for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;
 (&lt;a class="external" href="https://github.com/firebase/firebase-functions/releases/tag/v4.9.0"&gt;Node.js v4.9.0&lt;/a&gt; 
@@ -3147,11 +3147,12 @@ Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; is an AI-powered
 accelerates Firebase app development by answering questions about
 Firebase, generating and troubleshooting code, interpreting errors and
 suggesting mitigations, and providing AI assistance in &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;. Learn
-more at &lt;a href="/docs/gemini-in-firebase"&gt;Introduction to
-Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+more at
+&lt;a href="/docs/ai-assistance/gemini-in-firebase"&gt;Introduction to Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics-ai-insights-ga" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; AI assistance in &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; is now generally available.
-Provided as part of &lt;a href="/docs/gemini-in-firebase"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;,
+Provided as part of
+&lt;a href="/docs/ai-assistance/gemini-in-firebase"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;,
 AI assistance in &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; provides actionable insights into your
 Android and Apple crashes and Android ANRs, helping you speed up triage
 and resolution by providing possible causes, debugging instructions,
@@ -3804,7 +3805,8 @@ contextually-aware AI-powered collaborative assistant that accelerates
 Firebase app development by answering questions about Firebase,
 generating and troubleshooting code, interpreting errors and suggesting
 mitigations, and providing AI assistance in &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;. Learn more at
-&lt;a href="/docs/gemini-in-firebase"&gt;Introduction to Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt; and
+&lt;a href="/docs/ai-assistance/gemini-in-firebase"&gt;Introduction to Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;
+and
 &lt;a href="https://cloud.google.com/gemini/docs/codeassist/overview"&gt;&lt;span class="notranslate"&gt;Gemini Code Assist&lt;/span&gt; overview&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_84" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#12.3.0"&gt;Firebase SDK for Unity
@@ -3875,9 +3877,8 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;/ul&gt;</description><pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 14, 2024</title><link>https://firebase.google.com/support/releases#october_14_2024</link><description>&lt;h3 data-text="Firebase console" id="gemini-in-firebase-messaging-insights" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; now provides messaging campaign
 summarization and analysis for &lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt; and
-&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; campaigns. Learn more at &lt;a href="/docs/gemini-in-firebase/try-gemini#messaging-insights"&gt;Get AI insights for messaging
-campaigns with
-Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; campaigns. Learn more at
+&lt;a href="/docs/ai-assistance/gemini-in-firebase/try-gemini#messaging-insights"&gt;Get AI insights for messaging campaigns with Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 15, 2024</title><link>https://firebase.google.com/support/releases#october_15_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_80" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/java#9.4.1"&gt;Firebase Admin Java SDK (v9.4.1)&lt;/a&gt;
 is now available. This release removes a test dependency that was incorrectly scoped.
@@ -4227,15 +4228,15 @@ is now available. This release comes with improvements in the core SDK.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 09, 2024</title><link>https://firebase.google.com/support/releases#december_09_2024</link><description>&lt;h3 data-text="Gemini in Firebase" id="gemini-in-firebase-no-cost" tabindex="-1"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;a href="/docs/gemini-in-firebase"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;, available
-with
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;a href="/docs/ai-assistance/gemini-in-firebase"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;,
+available with
 &lt;a href="https://cloud.google.com/products/gemini/code-assist"&gt;&lt;span class="notranslate"&gt;Gemini Code Assist&lt;/span&gt;&lt;/a&gt;,
 is now also available at no cost for individual users. Google Workspace
 users can continue using Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; as part of their subscription
 to
 &lt;a href="https://cloud.google.com/products/gemini/code-assist"&gt;&lt;span class="notranslate"&gt;Gemini Code Assist&lt;/span&gt;&lt;/a&gt;.
 Learn more at
-&lt;a href="/docs/gemini-in-firebase#pricing"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; pricing&lt;/a&gt;.&lt;/li&gt;
+&lt;a href="/docs/ai-assistance/gemini-in-firebase#pricing"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; pricing&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 10, 2024</title><link>https://firebase.google.com/support/releases#december_10_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_67" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#12.5.0"&gt;Firebase SDK for C++
 (v12.5.0)&lt;/a&gt; is now available.
@@ -4693,7 +4694,7 @@ This release includes changes in &lt;span class="notranslate"&gt;Cloud Functions
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; (no-cost) now provides contextual awareness
 and access to &lt;a href="/docs/cloud-messaging/ai-insights"&gt;Messaging
 insights&lt;/a&gt;. Learn more at
-&lt;a href="/docs/gemini-in-firebase"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;a href="/docs/ai-assistance/gemini-in-firebase"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-J606F-30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device has been deprecated and will
 be removed on 2025-05-03: J606F/30. If you are currently using
@@ -4900,8 +4901,8 @@ load performance in server-side rendering scenarios. Learn more at &lt;a href="/
 your experience by leveraging data across Firebase products that you're
 already using. This gives &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; a deeper understanding of your
 specific project and development needs to deliver more contextually-relevant
-and helpful responses. Learn more at &lt;a href="/docs/gemini-in-firebase/try-gemini#personalization"&gt;Use personalization in
-Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+and helpful responses. Learn more at
+&lt;a href="/docs/ai-assistance/gemini-in-firebase/try-gemini#personalization"&gt;Use personalization in Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate></item><item><title>May 07, 2025</title><link>https://firebase.google.com/support/releases#may_07_2025</link><description>&lt;h3 data-text="Firebase Studio" id="gemini-25-studio" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Made many improvements to the &lt;span class="notranslate"&gt;App Prototyping agent&lt;/span&gt;
 prototyping experience, including:&lt;/p&gt;
@@ -5692,13 +5693,13 @@ safety.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-ios-xcode" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; Xcode 16.4 is now the default version. If you have not done
 so, migrate to Xcode 16.4.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate></item><item><title>October 7, 2025</title><link>https://firebase.google.com/support/releases#october_7_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_2" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate></item><item><title>October 07, 2025</title><link>https://firebase.google.com/support/releases#october_07_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_2" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#12.4.0"&gt;Firebase Apple SDK (v12.4.0)&lt;/a&gt;
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#12.4.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 8, 2025</title><link>https://firebase.google.com/support/releases#october_8_2025</link><description>&lt;h3 data-text="Remote Config" id="remote-config-apis-cli" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 08, 2025</title><link>https://firebase.google.com/support/releases#october_08_2025</link><description>&lt;h3 data-text="Remote Config" id="remote-config-apis-cli" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; REST APIs now support &lt;code dir="ltr" translate="no"&gt;server&lt;/code&gt; namespaces,
 allowing you to manage both client-side and server-side templates by specifying
 the namespace parameter (either &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;firebase-server&lt;/code&gt;). Existing API
@@ -5706,10 +5707,24 @@ calls remain backward compatible, defaulting to the &lt;code dir="ltr" translate
 Additionally, &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; has new CLI commands to list, delete, and
 retrieve information about experiments and rollouts with &lt;a href="https://github.com/firebase/firebase-tools/releases/tag/v14.19.0"&gt;CLI v14.19.0&lt;/a&gt;.
 To learn more about these commands, see &lt;a href="/docs/cli#config-commands"&gt;Remote Config CLI commands&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 9, 2025</title><link>https://firebase.google.com/support/releases#october_9_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
+&lt;/ul&gt;</description><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 09, 2025</title><link>https://firebase.google.com/support/releases#october_09_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
+&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK,
+and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;
+have been updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2025-10-09"&gt;Android Release Notes&lt;/a&gt;.
+To get started with Firebase in Android, see
+&lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
+has been updated to v34.4.0. Learn how to
+&lt;a href="/docs/android/learn-more#bom"&gt;add SDKs to your app using the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; An updated version of the
+&lt;a class="external" href="https://developers.google.com/android/guides/google-services-plugin"&gt;&lt;code dir="ltr" translate="no"&gt;google-services&lt;/code&gt; plugin&lt;/a&gt; 
+for Android (v4.4.4) is now available. For more information, see the
+&lt;a href="/support/release-notes/android#google-services_plugin_v4-4-4"&gt;Firebase Android SDK Release Notes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/js#12.4.0"&gt;Firebase JavaScript SDK (v12.4.0)&lt;/a&gt;
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#12.4.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
-To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/li&gt;
+To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate></item></channel></rss>
