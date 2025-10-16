@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 16 Oct 2025 18:22:34 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 16 Oct 2025 21:13:53 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -5599,7 +5599,14 @@ operators see
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#12.3.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 17, 2025</title><link>https://firebase.google.com/support/releases#september_17_2025</link><description>&lt;h3 data-text="App Check" id="app-check-advanced-settings" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 17, 2025</title><link>https://firebase.google.com/support/releases#september_17_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.17.0)" id="cli-v14.17.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.17.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#14.17.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.17.0)&lt;/a&gt;
+is now available. This version changes the default region for
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; to &lt;code dir="ltr" translate="no"&gt;us-east4&lt;/code&gt;.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check-advanced-settings" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; New advanced settings are now available in &lt;span class="notranslate"&gt;App Check&lt;/span&gt; for
 customizing the verification of Play Integrity and reCAPTCHA attestations. As a
 result, App Check now supports:&lt;/p&gt;
@@ -5690,7 +5697,15 @@ perform complex tasks like solving mathematical equations or visualizing data.&l
 (v13.3.0)&lt;/a&gt; is now available. This
 release includes new features in Firebase AI and a bug fix in
 &lt;span class="notranslate"&gt;FCM&lt;/span&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 30, 2025</title><link>https://firebase.google.com/support/releases#september_30_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-ai-monitoring-imagen" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 30, 2025</title><link>https://firebase.google.com/support/releases#september_30_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.18.0)" id="cli-v14.18.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.18.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#14.18.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.18.0)&lt;/a&gt;
+is now available. This version graduates the MCP server from experimental
+to &lt;code dir="ltr" translate="no"&gt;mcp&lt;/code&gt;, adds new features and fixes for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and
+includes fixes for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and &lt;span class="notranslate"&gt;Hosting&lt;/span&gt;.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="ai-logic-ai-monitoring-imagen" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now provides the following new features for
 &lt;a href="/docs/ai-logic/monitoring#ai-monitoring-in-console"&gt;AI monitoring in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -5719,7 +5734,15 @@ Public Preview and should not be used in production apps.&lt;/p&gt;&lt;/li&gt;
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#12.4.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 08, 2025</title><link>https://firebase.google.com/support/releases#october_08_2025</link><description>&lt;h3 data-text="Remote Config" id="remote-config-apis-cli" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 08, 2025</title><link>https://firebase.google.com/support/releases#october_08_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.19.0)" id="cli-v14.19.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.19.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#14.19.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.19.0)&lt;/a&gt;
+is now available. This version adds new commands for &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
+experiments and rollouts, and deprecates Java versions below 21 for
+emulators.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config-apis-cli" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; REST APIs now support &lt;code dir="ltr" translate="no"&gt;server&lt;/code&gt; namespaces,
 allowing you to manage both client-side and server-side templates by specifying
 the namespace parameter (either &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;firebase-server&lt;/code&gt;). Existing API
@@ -5727,7 +5750,13 @@ calls remain backward compatible, defaulting to the &lt;code dir="ltr" translate
 Additionally, &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; has new CLI commands to list, delete, and
 retrieve information about experiments and rollouts with &lt;a href="https://github.com/firebase/firebase-tools/releases/tag/v14.19.0"&gt;CLI v14.19.0&lt;/a&gt;.
 To learn more about these commands, see &lt;a href="/docs/cli#config-commands"&gt;Remote Config CLI commands&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 09, 2025</title><link>https://firebase.google.com/support/releases#october_09_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 09, 2025</title><link>https://firebase.google.com/support/releases#october_09_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.19.1)" id="cli-v14.19.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.19.1)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#14.19.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.19.1)&lt;/a&gt;
+is now available. This version includes a fix for Cloud SQL instance creation.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK,
 and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;
@@ -5757,4 +5786,11 @@ This release includes changes in &lt;span class='\"notranslate\"'&gt;Firebase AI
 &lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#13.2.0"&gt;Firebase SDK for C++
 (v13.2.0)&lt;/a&gt; is now available.
 This release includes miscellaneous changes.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 15, 2025</title><link>https://firebase.google.com/support/releases#october_15_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.20.0)" id="cli-v14.20.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.20.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#14.20.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.20.0)&lt;/a&gt;
+is now available. This version adds the &lt;code dir="ltr" translate="no"&gt;dataconnect:execute&lt;/code&gt; command and
+includes other updates for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate></item></channel></rss>

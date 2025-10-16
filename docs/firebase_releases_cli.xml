@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 16 Oct 2025 18:22:44 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 16 Oct 2025 21:14:03 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -1760,7 +1760,7 @@ Flutter templates.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9084"&gt;#9084&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a vulnerability in &lt;code dir="ltr" translate="no"&gt;unzip&lt;/code&gt; util where files could be written
 outside of the expected output directory.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt; to now confirm Cloud SQL
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt; to now confirm CloudSQL
 provisioning.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9095"&gt;#9095&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for MCP &lt;code dir="ltr" translate="no"&gt;firebase_init&lt;/code&gt; tool to download an
@@ -1772,4 +1772,83 @@ which adds validation that checks that &lt;code dir="ltr" translate="no"&gt;_ins
 columns without defaults.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9106"&gt;#9106&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase_login&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;firebase_logout&lt;/code&gt; MCP tools.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.17.0 - September 17, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14170_-_september_17_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Changed the default region for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; to
+&lt;code dir="ltr" translate="no"&gt;us-east4&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9126"&gt;#9126&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.18.0 - September 30, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14180_-_september_30_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with deploying indexes to &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Enterprise
+edition databases where explicit &lt;code dir="ltr" translate="no"&gt;__name__&lt;/code&gt; fields would in some cases be
+handled incorrectly.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Graduated the MCP server from experimental and renamed the
+&lt;code dir="ltr" translate="no"&gt;experimental:mcp&lt;/code&gt; command to &lt;code dir="ltr" translate="no"&gt;mcp&lt;/code&gt;. The old name is now an alias.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Consolidated and renamed MCP tools for clarity and to reduce the
+total number presented to LLMs.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Renamed the &lt;code dir="ltr" translate="no"&gt;deploy&lt;/code&gt; MCP prompt to &lt;code dir="ltr" translate="no"&gt;firebase_deploy&lt;/code&gt; for
+consistency.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a &lt;code dir="ltr" translate="no"&gt;firebase_read_resources&lt;/code&gt; MCP tool, which can be used by
+LLMs to fetch guides or docs via &lt;code dir="ltr" translate="no"&gt;firebase://&lt;/code&gt; links.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;/firebase:init&lt;/code&gt; MCP prompt, which can guide you
+through setting up backend services or &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; for your app.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support to the &lt;code dir="ltr" translate="no"&gt;firebase_update_environment&lt;/code&gt; MCP tool for
+accepting Gemini in Firebase Terms of Service.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt; failed to create a
+React app when launched from the VS Code extension.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9171"&gt;#9171&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;seed_data.gql&lt;/code&gt; to the initial movie template for
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9232"&gt;#9232&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support to &lt;code dir="ltr" translate="no"&gt;firebase dataconnect:sql:migrate&lt;/code&gt; for CloudSQL
+instances with only private IPs. The command must be run in the same VPC of
+the instance to work.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9200"&gt;#9200&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Changed CloudSQL instances created with &lt;code dir="ltr" translate="no"&gt;firebase deploy&lt;/code&gt; to
+default to Postgres 17.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved the clarity of the &lt;code dir="ltr" translate="no"&gt;firebase apptesting:execute&lt;/code&gt; command
+when you have zero or multiple apps.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;firebase deploy --only firestore&lt;/code&gt; would fail
+with 403 errors on projects that never had a database created.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where deploying multiple &lt;span class="notranslate"&gt;Hosting&lt;/span&gt; sites with
+&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; could encounter a race condition.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9235"&gt;#9235&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local dev toolkit to 2.14.0,
+which includes the following changes:
+&lt;ul&gt;
+&lt;li&gt;Fixed a bug where &lt;code dir="ltr" translate="no"&gt;@default(value)&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;@default(expr)&lt;/code&gt; is not validated
+on enum fields.&lt;/li&gt;
+&lt;li&gt;JS/Kotlin codegen: Fixed an issue where generation would crash if no
+response type was generated.&lt;/li&gt;
+&lt;li&gt;Dart codegen: Fixed an issue where compilation breaks if field name doesn't
+match name of enum.&lt;/li&gt;
+&lt;li&gt;Dart codegen: Overrode &lt;code dir="ltr" translate="no"&gt;==&lt;/code&gt; to allow for equality between data classes.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.19.0 - October 08, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14190_-_october_08_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated Java versions below 21. Support will be dropped in
+&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI v15. Upgrade to Java v21 or higher to continue using the
+emulators.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed Functions MCP log tool to normalize sort order and surface
+Cloud Logging error details.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9247"&gt;#9247&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;firebase init&lt;/code&gt; required login even when
+no project was selected.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9251"&gt;#9251&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;remoteconfig:experiments:get&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;remoteconfig:experiments:list&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;remoteconfig:experiments:delete&lt;/code&gt;
+commands to manage &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; experiments.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;remoteconfig:rollouts:get&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;remoteconfig:rollouts:list&lt;/code&gt;,
+and &lt;code dir="ltr" translate="no"&gt;remoteconfig:rollouts:delete&lt;/code&gt; commands to manage &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
+rollouts.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.19.1 - October 09, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14191_-_october_09_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where creation of CloudSQL instances fails. The CLI now
+defaults to Postgres 15 until the backend supports higher versions.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9279"&gt;#9279&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.20.0 - October 15, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14200_-_october_15_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a confirmation in &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt; before asking
+for app idea description.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9282"&gt;#9282&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;dataconnect:execute&lt;/code&gt; command to run queries and mutations.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9274"&gt;#9274&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v2.15.0, which changes
+Dart SDKs to use &lt;code dir="ltr" translate="no"&gt;Object.hashAll()&lt;/code&gt; in generated objects.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9291"&gt;#9291&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
