@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 30 Oct 2025 18:22:17 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 30 Oct 2025 21:14:10 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -5836,7 +5836,17 @@ iOS default device to iphone16pro 18.3. To learn more about our devices, see
 &lt;a href="/docs/test-lab/ios/available-testing-devices"&gt;Available devices in &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has added iphonese3 18.4 and
 iphone16pro, 18.3 to the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; device catalog!&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 30, 2025</title><link>https://firebase.google.com/support/releases#october_30_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 30, 2025</title><link>https://firebase.google.com/support/releases#october_30_2025</link><description>&lt;h3 data-text="Firebase Crashlytics" id="crashlytics-mcp-tools-launch" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now use
+&lt;a href="/docs/crashlytics/ai-assistance-mcp"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; MCP tools and prompts&lt;/a&gt;
+to help you manage, prioritize, debug, and fix &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; issues using
+your choice of MCP-capable AI-powered development tools (like Gemini CLI,
+Claude Code, or Cursor).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="ai-logic-hybrid-determine-inference-mode" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; When using hybrid on-device inference with either the
+&lt;code dir="ltr" translate="no"&gt;PREFER_ON_DEVICE&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;PREFER_IN_CLOUD&lt;/code&gt; mode, you can now
+&lt;a href="/docs/ai-logic/hybrid-on-device-inference#determine-inference-mode"&gt;determine which inference mode was used for a request&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/js#12.5.0"&gt;Firebase JavaScript SDK (v12.5.0)&lt;/a&gt;
 is now available. For more details, see the
