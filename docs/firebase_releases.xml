@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 06 Nov 2025 12:33:28 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 06 Nov 2025 15:18:02 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -5877,6 +5877,35 @@ along with your &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; data. T
 session-based analysis and queries.
 &lt;a class="external" href="https://console.firebase.google.com/project/_/settings/integrations/bigquery"&gt;Set up export to &lt;span class="notranslate"&gt;BigQuery&lt;/span&gt;&lt;/a&gt; 
 in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Gemini API" id="gemini-preview-exp-models-retiring-nov-2025" tabindex="-1"&gt;Gemini API&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following preview and experimental &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; models
+will be retired soon. These dates are applicable to both the
+&lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; (Google AI) and the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;November 18, 2025:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.5-flash-lite-preview-06-17&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.5-flash-preview-05-20&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;December 02, 2025:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.0-flash-thinking-exp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.0-flash-thinking-exp-01-21&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.0-flash-thinking-exp-1219&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.5-pro-preview-03-25&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.5-pro-preview-05-06&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.5-pro-preview-06-05&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;December 09, 2025:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.0-flash-lite-preview&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.0-flash-lite-preview-02-05&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you use these models with &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; or with &lt;span class="notranslate"&gt;Genkit&lt;/span&gt;, make
+sure to &lt;strong&gt;update to a newer model to avoid service disruption&lt;/strong&gt;.
+Retired models are no longer accessible or supported by Google, and a request
+using a retired model name returns a 404 error.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 05, 2025</title><link>https://firebase.google.com/support/releases#november_05_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.6.0"&gt;Firebase Admin Node.js SDK (v13.6.0)&lt;/a&gt;
 is now available. This release comes with new &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; APIs
