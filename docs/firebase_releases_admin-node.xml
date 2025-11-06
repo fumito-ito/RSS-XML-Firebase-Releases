@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-node</title><link>https://firebase.google.com/support/release-notes/admin/node</link><description>Latest updates and release notes for Firebase Admin-node.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 06 Nov 2025 18:24:22 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_400_-_november_7_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-node</title><link>https://firebase.google.com/support/release-notes/admin/node</link><description>Latest updates and release notes for Firebase Admin-node.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 06 Nov 2025 21:14:26 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_400_-_november_7_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Admin Node.js SDK (available on npm as &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt;) is a
 new SDK which replaces and expands the admin capabilities of the standard
 &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; npm module. See
@@ -1088,6 +1088,6 @@ a different configuration.&lt;/li&gt;
 endpoint instead of the &lt;code dir="ltr" translate="no"&gt;v1alpha&lt;/code&gt; endpoint.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the new &lt;code dir="ltr" translate="no"&gt;executeQuery()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;executeMutation()&lt;/code&gt; APIs
 allowing for the execution of &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; operations defined in
-GraphQL files. Additionally, you can generate a type-safe Generated SDK for
+GraphQL files. Additionally, you can generate a &lt;a href="/docs/data-connect/generate-admin-sdk"&gt;type-safe generated SDK&lt;/a&gt; for
 these GraphQL operations.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
