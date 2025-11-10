@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 10 Nov 2025 18:23:07 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 10 Nov 2025 21:14:32 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -5906,14 +5906,79 @@ will be retired soon. These dates are applicable to both the
 sure to &lt;strong&gt;update to a newer model to avoid service disruption&lt;/strong&gt;.
 Retired models are no longer accessible or supported by Google, and a request
 using a retired model name returns a 404 error.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 05, 2025</title><link>https://firebase.google.com/support/releases#november_05_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_2" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 5</title><link>https://firebase.google.com/support/releases#november_5</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_2" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.6.0"&gt;Firebase Admin Node.js SDK (v13.6.0)&lt;/a&gt;
 is now available. This release comes with new &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; APIs
 for the execution of operations defined in GraphQL files.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 06, 2025</title><link>https://firebase.google.com/support/releases#november_06_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>November 06, 2025</title><link>https://firebase.google.com/support/releases#november_06_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#13.5.0"&gt;Firebase SDK for Unity
 (v13.5.0)&lt;/a&gt; is now available. This
 release includes new features in Firebase AI.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 10, 2025</title><link>https://firebase.google.com/support/releases#november_10_2025</link><description>&lt;h3 data-text="Cloud Functions" id="cloudfunctions-700-launch" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Version 7.0.0 of the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; SDK for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; contains &lt;strong&gt;breaking changes&lt;/strong&gt; as well as
+new features and enhancements.&lt;/p&gt;&lt;p&gt;This release drops support for Node.js 16, requires TypeScript v5, and removes
+the deprecated &lt;code dir="ltr" translate="no"&gt;functions.config()&lt;/code&gt; API.&lt;/p&gt;&lt;p&gt;Review these release notes carefully to avoid issues or outages.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Breaking changes&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Minimum Node.js version is now 18. As of v7.0.0, the SDK requires
+a Node.js runtime of version 18 or newer. Support for Node.js 14 and 16 has
+been removed.
+&lt;ul&gt;
+&lt;li&gt;Impact: Functions using this SDK version fail to deploy or run on
+Node.js runtimes older than v18.&lt;/li&gt;
+&lt;li&gt;Action Required: Before upgrading the SDK, you must &lt;a href="/static/docs/functions/manage-functions#set-node.js"&gt;set the Node.js
+version&lt;/a&gt;
+to update your function's runtime environment to Node.js 18 or higher.
+We recommend using the latest Node.js LTS version supported by Cloud
+Functions.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;functions.config()&lt;/code&gt; API has been removed. Following the
+deprecation schedule announced in v6.0.0, runtime configuration with
+&lt;code dir="ltr" translate="no"&gt;functions.config()&lt;/code&gt; has been removed entirely.
+&lt;ul&gt;
+&lt;li&gt;Impact: Calling this API now throws a runtime error and causes build
+time errors if you are using TypeScript. Any function relying on
+&lt;code dir="ltr" translate="no"&gt;functions.config()&lt;/code&gt; fails at runtime.&lt;/li&gt;
+&lt;li&gt;Action Required: You must &lt;a href="/docs/functions/config-env#migrate-config"&gt;migrate from runtime
+configuration&lt;/a&gt;
+to environment variables using the params module.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; TypeScript v5 is now required. The SDK has been upgraded from
+TypeScript v4.3 to v5.9 and now targets ES2022.
+&lt;ul&gt;
+&lt;li&gt;Impact: This may introduce new type-checking errors in your project if
+you are using an older version of TypeScript or if your code relies on
+older type definitions.&lt;/li&gt;
+&lt;li&gt;Action Required: Update your project's TypeScript version to v5.x and
+resolve any resulting type errors.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;Event&lt;/code&gt; interface, which defines the wire format for an
+event, has been changed to &lt;code dir="ltr" translate="no"&gt;LegacyEvent&lt;/code&gt;. This change mitigates an
+api-extractor conflict caused by an open issue with Rushstack
+(&lt;a href="https://github.com/microsoft/rushstack/issues/3581"&gt;#3581&lt;/a&gt;).
+&lt;ul&gt;
+&lt;li&gt;Impact: Very few users are likely to be affected, as this type
+represents the internal state of function triggers.&lt;/li&gt;
+&lt;li&gt;Action: If you rely on this type, update your code to use
+&lt;code dir="ltr" translate="no"&gt;LegacyEvent&lt;/code&gt; instead.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved error handling for async handlers in the Emulator. We
+have improved how unhandled errors are processed in the Local Emulator
+Suite. Previously, an unhandled error or rejected Promise in an async
+&lt;code dir="ltr" translate="no"&gt;onRequest&lt;/code&gt; handler would cause the request to hang until a platform timeout.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Impact: As of v7.0.0, these unhandled errors now correctly and
+immediately return a 500 Internal Server Error.&lt;/li&gt;
+&lt;li&gt;Action Required: This is a technical breaking change, as it changes
+error handling behavior. This provides faster, more accurate error
+feedback during local development. Ensure your error handling logic is
+correct and not reliant on the old timeout behavior.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The SDK is now published as both CommonJS (CJS) and ECMAScript
+Modules (ESM). This provides first-class support for modern bundlers (like
+Vite and esbuild) and native import syntax, which can lead to optimized
+function sources and smaller bundle sizes. The &lt;code dir="ltr" translate="no"&gt;package.json&lt;/code&gt; exports map
+now properly resolves for both &lt;code dir="ltr" translate="no"&gt;require&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;import&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; This release adds a new function trigger for Firebase Data
+Connect (FDC), &lt;code dir="ltr" translate="no"&gt;onMutationExecuted()&lt;/code&gt;. This allows you to execute functions
+in response to data mutations.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate></item></channel></rss>
