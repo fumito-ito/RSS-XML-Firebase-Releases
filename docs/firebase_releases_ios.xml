@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 14 Nov 2025 18:22:53 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_123" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 14 Nov 2025 21:14:25 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_123" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -51,7 +51,7 @@ running on iOS 9 with an exception from &lt;code dir="ltr" translate="no"&gt;NSU
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;plist&lt;/code&gt; files used by &lt;code dir="ltr" translate="no"&gt;FIRMessaging&lt;/code&gt; are now stored in an
 &lt;code dir="ltr" translate="no"&gt;ApplicationSupport&lt;/code&gt; directory.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_69" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_70" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where some attempts to fetch parameter values can
 cause a crash due to a JSON serialization failure.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;allKeysWithPrefix:&lt;/code&gt; API method to allow developers to
@@ -133,7 +133,7 @@ event observer immediately after connecting to the &lt;span class="notranslate"&
 could cause completion blocks for other operations to not be executed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue affecting apps that use offline disk persistence
 where large integer values could lose precision after an app restart.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_68" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_69" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issues that caused a crash when an app attempts multiple
 concurrent fetch requests.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_55" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -269,7 +269,7 @@ Swift.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>SDK Version 3.11.1 - January 17, 2017</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_3111_-_january_17_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Reduced the verbosity of events logged by Firebase when using
 the Xcode debugger.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_67" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_68" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; When
 &lt;a href="/docs/reference/ios/firebaseremoteconfig/api/reference/Classes/FIRRemoteConfig#-activatefetched"&gt;&lt;code dir="ltr" translate="no"&gt;activateFetched&lt;/code&gt;&lt;/a&gt;
 is called when an app starts, it no longer removes cached fetch results.&lt;/li&gt;
@@ -334,7 +334,7 @@ to control video playback.&lt;/li&gt;
 to start, pause, end, mute and unmute video content.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added support for rewarded video mediation adapters to opt into
 early initialization before an ad request is made.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_66" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_67" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; gets config results from the default
 &lt;a href="/docs/reference/ios/firebasecore/api/reference/Classes/FIRApp"&gt;&lt;code dir="ltr" translate="no"&gt;FIRApp&lt;/code&gt;&lt;/a&gt;
 configuration when multiple projects are configured.&lt;/li&gt;
@@ -436,7 +436,7 @@ connecting directly to FCM.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The initial public beta release of the &lt;span class="notranslate"&gt;Firebase Performance Monitoring&lt;/span&gt; SDK
 for iOS is now available. To get started with this SDK, see
 &lt;a href="/docs/perf-mon/get-started-ios"&gt;Get Started with Firebase Performance Monitoring for iOS&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_65" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_66" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The error message that was generated when getting the InstanceID
 has been replaced by a debug message.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.0.1 - June 06, 2017</title><link>https://firebase.google.com/support/release-notes/ios#version_401_-_june_06_2017</link><description>&lt;ul&gt;
@@ -457,7 +457,7 @@ an MRAID creative calls the &lt;code dir="ltr" translate="no"&gt;useCustomClose(
 preview or troubleshooting modes are active.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_112" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issues with automatic screen reporting.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_64" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_65" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; A warning now appears if the &lt;code dir="ltr" translate="no"&gt;plist&lt;/code&gt; file you set default values
 from can’t be found.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.0.4 - July 12, 2017</title><link>https://firebase.google.com/support/release-notes/ios#version_404_-_july_12_2017</link><description>&lt;ul&gt;
@@ -507,7 +507,7 @@ queuing system for token fetches and deletes.&lt;/li&gt;
 in a background thread was triggering a Main Thread Sanitizer warning in
 Xcode 9.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Included additional error logging for method swizzling.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_63" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_64" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved crashes caused when an app’s main bundle ID is missing and
 added an error notification to alert developers of the issue.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -565,7 +565,7 @@ opening an internal database file.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved crash when also using Crittercism.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Now enforcing safety limits on the number of events dispatched
 over a period of time.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_62" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_63" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved an issue with config values not updating correctly when
 targeted by a user property condition.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_41" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -729,7 +729,7 @@ field is populated correctly.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved an error where fingerprint match fails for some locales.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_61" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed several minor bugs.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_61" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_62" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved an issue where throttle rate drops during developer mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Replaced &lt;code dir="ltr" translate="no"&gt;FIR_SWIFT_NAME&lt;/code&gt; with &lt;code dir="ltr" translate="no"&gt;NS_SWIFT_NAME&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -772,7 +772,7 @@ functions.&lt;/li&gt;
 FCM token auto generation.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved an issue where notification delivery would fail after
 changing language settings.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_60" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_61" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved support for language targeting. Simplied
 Chinese (zh_hans) and Traditional Chinese (Taiwan) (zh_TW) language targeting
 should be more accurate.&lt;/li&gt;
@@ -867,7 +867,7 @@ sign-in link sent via email) to the &lt;code dir="ltr" translate="no"&gt;signInW
 subscription and unsubscription.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_59" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved a crash caused by a multithreading issue.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_59" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_60" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved documentation on InstanceIDs for GDPR.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_36" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated &lt;code dir="ltr" translate="no"&gt;downloadURLs&lt;/code&gt; property on &lt;code dir="ltr" translate="no"&gt;StorageMetadata&lt;/code&gt;. Use
@@ -956,7 +956,7 @@ performance.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added APIs for setting, incrementing, and getting metrics.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated the API to increment and decrement counters,
 use the new metrics API instead.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_58" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_59" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed the designated initializer for &lt;code dir="ltr" translate="no"&gt;FIRRemoteConfigSettings&lt;/code&gt;
 to return a nonnull &lt;code dir="ltr" translate="no"&gt;FIRRemoteConfigSettings&lt;/code&gt; object.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1119,7 +1119,7 @@ delegate methods. (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1481"
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added dependency on open-source version of the
 &lt;code dir="ltr" translate="no"&gt;GoogleUtilities/Swizzler&lt;/code&gt; library.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added conformance to Firebase global data collection switch.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_57" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_58" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a memory leak bug. (&lt;a href="//github.com/firebase/quickstart-ios/issues/488"&gt;#488&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_112" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;FieldValue.arrayUnion()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;FieldValue.arrayRemove()&lt;/code&gt; to
@@ -1257,7 +1257,7 @@ from &lt;code dir="ltr" translate="no"&gt;detectInImage:completion:&lt;/code&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Removed the constant
 &lt;code dir="ltr" translate="no"&gt;VisionFaceDetectionMinSize&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;VisionFaceDetectorOptions&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded TensorFlowLite dependency from 0.1.7 to 1.10.1.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_56" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_57" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed open bugs in the &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; SDK.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.11.0 - October 24, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_5110_-_october_24_2018</link><description>&lt;h3 data-text="Analytics" id="analytics_98" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for dynamic audience evaluation.&lt;/li&gt;
@@ -1277,7 +1277,7 @@ recipient's time zone. (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now deep dive into samples of traces and network requests,
 or Sessions, in the Firebase console.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; SDK now adds &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; as a dependency.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_55" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_56" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal updates to support &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.12.0 - November 6, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_5120_-_november_6_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed static analysis warning for improper nil comparison.
@@ -1644,7 +1644,7 @@ read &lt;a href="/docs/ml-kit"&gt;ML Kit for Firebase&lt;/a&gt;.&lt;/li&gt;
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/2683"&gt;#2683&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_50" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed the deprecated &lt;a href="https://firebase.google.com/docs/reference/ios/firebaseperformance/api/reference/Classes/FIRTrace#-incrementcounternamed"&gt;counter API&lt;/a&gt;. Use &lt;a href="https://firebase.google.com/docs/reference/ios/firebaseperformance/api/reference/Classes/FIRTrace#metrics-api"&gt;metrics API&lt;/a&gt; going forward.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_54" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_55" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; FirebaseAnalytics is no longer a hard dependency in the
 RemoteConfig pod. If you were installing Remote Config via
 &lt;code dir="ltr" translate="no"&gt;pod 'Firebase/RemoteConfig'&lt;/code&gt;, add &lt;code dir="ltr" translate="no"&gt;pod 'Firebase/Analytics'&lt;/code&gt; to the Podfile
@@ -1747,7 +1747,7 @@ present (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/3101"&gt;#3101&
 Config.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix the bug where dataCollectionEnabled flag was not honored for out
 of the box metrics.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_53" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_54" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Async initialization with new API for ensuring initialization completed with completion handler.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Support for multiple active instances of Remote Config in the same app (Analytics only supported with default Firebase app instance).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; New fetchAndActivate API to perform both fetch and activation upon a successful fetch in a single API call with async completion.&lt;/li&gt;
@@ -1785,7 +1785,7 @@ Toolbox for Mac libraries, resulting in reduced binary size.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved handling of invalid inputs in SmartReply.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_48" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixes an iOS 13 beta crash caused by a race condition with Remote Config.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_52" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_53" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved shared instance initialization sequence during
 &lt;code dir="ltr" translate="no"&gt;FirebaseApp.configure()&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1826,7 +1826,7 @@ instead of &lt;code dir="ltr" translate="no"&gt;ABORTED&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_20" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed a call to a deprecated logging method
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/3333"&gt;#3333&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_51" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_52" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash seen by some users when initializing Remote Config
 with Firebase Performance also installed
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3344"&gt;#3344&lt;/a&gt;).&lt;/li&gt;
@@ -1911,7 +1911,7 @@ also need to specify a namespace (&lt;code dir="ltr" translate="no"&gt;"http://&
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Cleaned up documents, unused macros, and folders (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3490"&gt;#3490&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3537"&gt;#3537&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3556"&gt;#3556&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3498"&gt;#3498&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the header path to pod repo relative (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3527"&gt;#3527&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix singleton functionality after a FirebaseApp is deleted and recreated (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3411"&gt;#3411&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_50" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_51" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash seen by some users.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3508"&gt;#3508&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal changes and stability improvements.&lt;/li&gt;
@@ -1945,7 +1945,7 @@ used going forward in custom UI display (&lt;a href="//github.com/firebase/fireb
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the TensorFlow Lite dependency from &lt;code dir="ltr" translate="no"&gt;TensorFlowLite&lt;/code&gt; 1.13.1 to &lt;code dir="ltr" translate="no"&gt;TensorFlowLiteObjC&lt;/code&gt; 1.14.0 for Custom and AutoML SDKs.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_46" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the dependency on Firebase Remote Config.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_49" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_50" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Initial Open Source (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3645"&gt;#3645&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Community macOS and tvOS support.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Catalyst build support.&lt;/li&gt;
@@ -1974,7 +1974,7 @@ used going forward in custom UI display (&lt;a href="//github.com/firebase/fireb
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3857"&gt;#3857&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="ML Kit for Firebase" id="ml_kit_for_firebase_4" tabindex="-1"&gt;ML Kit for Firebase&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an incompatibility issue between Translate and FirebaseMLCommon.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_48" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_49" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed docs issue
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3846"&gt;#3846&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.10.0 - October 8, 2019</title><link>https://firebase.google.com/support/release-notes/ios#version_6100_-_october_8_2019</link><description>&lt;ul&gt;
@@ -2069,7 +2069,7 @@ and armv7 architectures.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_44" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue related to crash when app starts on iOS 13 devices. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3929"&gt;#3929&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal SDK enhancements.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_47" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_48" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue for outdated values for deleted config keys.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3745"&gt;#3745&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.11.0 - October 22, 2019</title><link>https://firebase.google.com/support/release-notes/ios#version_6110_-_october_22_2019</link><description>&lt;ul&gt;
@@ -2101,7 +2101,7 @@ client initialization
 to application folder
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4033"&gt;#4033&lt;/a&gt;,
 &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4045"&gt;#4045&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_46" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_47" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed existing usage of an internal deprecated API
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3993"&gt;#3993&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.12.0 - November 5, 2019</title><link>https://firebase.google.com/support/release-notes/ios#version_6120_-_november_5_2019</link><description>&lt;ul&gt;
@@ -2140,7 +2140,7 @@ if token is stale
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Moved reliable message queue database operation off main thread
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4053"&gt;#4053&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_45" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_46" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Minor internal project structure changes.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_43" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal SDK enhancements.&lt;/li&gt;
@@ -2169,7 +2169,7 @@ race conditions in unit tests
 &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4207"&gt;#4207&lt;/a&gt;,
 &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4060"&gt;#4060&lt;/a&gt;,
 &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3929"&gt;#3929&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_44" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_45" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remote Config no longer re-activates the current config on fetch
 if it receives no changes from the backend.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4260"&gt;#4260&lt;/a&gt;)&lt;/li&gt;
@@ -2227,7 +2227,7 @@ FirebaseInAppMessaging when GoogleTagManager is also present
 &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/934"&gt;#934&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issues related to monitoring NSURLSession based network
 requests where some of the requests were not monitored after iOS 13.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_43" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_44" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix the return status code when app is offline (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4100"&gt;#4100&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4297"&gt;#4297&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4403"&gt;#4403&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4379"&gt;#4379&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.15.0 - January 14, 2020</title><link>https://firebase.google.com/support/release-notes/ios#version_6150_-_january_14_2020</link><description>&lt;ul&gt;
@@ -2317,7 +2317,7 @@ from the new location (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;pod Firebase/Messaging&lt;/code&gt; subspec now supports watchOS (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4807"&gt;#4807&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed FIRMessagingExtensionHelper crashing in unit tests (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4689"&gt;#4689&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed FIRMessagingRmqManager crashing on devices with corrupted messaging database files (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4771"&gt;#4771&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_43" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash that could occur when attempting a remote config fetch before a valid Instance ID was available (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4622"&gt;#4622&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where config fetch would sometimes fail with a duplicate fetch error when no other fetches were in progress (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3802"&gt;#3802&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Fetch calls will now fail if a valid instance ID is not obtained by the Remote Config SDK.&lt;/li&gt;
@@ -2343,7 +2343,7 @@ symbol errors in the 6.14.0 through 6.16.0 binary release distributions (&lt;a h
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated FCM direct channel messaging via &lt;code dir="ltr" translate="no"&gt;shouldEstablishDirectChannel&lt;/code&gt;. Instead, use APNs for downstream message delivery. Add &lt;code dir="ltr" translate="no"&gt;content_available&lt;/code&gt; key to your payload if you want to continue use legacy APIs, but we strongly recommend HTTP v1 API as it provides full APNs support. The deprecated API will be removed in Firebase 7 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4710"&gt;#4710&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated upstream messaging API. For realtime updates, use Cloud Firestore, Realtime Database, or other services. The deprecated API will be removed in Firebase 7 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4710"&gt;#4710&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Use secure coding for Messaging's pending topics (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3686"&gt;#3686&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_41" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4677"&gt;#4677&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4734"&gt;#4734&lt;/a&gt;) where Remote Config does not work after a restore of a previous backup of the device. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4896"&gt;#4896&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.19.0 - March 10, 2020</title><link>https://firebase.google.com/support/release-notes/ios#version_6190_-_march_10_2020</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added an Apple platform flag (ios/macos/watchos/etc.) to &lt;code dir="ltr" translate="no"&gt;firebaseUserAgent&lt;/code&gt;.
@@ -2367,7 +2367,7 @@ if a plist key was missing
 quickly after returning from the background (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4905"&gt;#4905&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="firebase-in-app-messaging_37" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added SDK support for A/B testing in-app messages.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_40" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_41" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code changes (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4934"&gt;#4934&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.20.0 - March 12, 2020</title><link>https://firebase.google.com/support/release-notes/ios#version_6200_-_march_12_2020</link><description>&lt;p&gt;This release is only available on CocoaPods. New changes in this release will be
 available across all distribution channels in Firebase versions 6.21.0 and
@@ -2542,7 +2542,7 @@ dependency (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5282"&gt;#
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed the location of source under FirebaseMessaging folder to
 fit the current repository organization (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5476"&gt;#5476&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_39" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_40" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped dependency on InstanceID. Remote Config now depends
 directly on Installations (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5096"&gt;#5096&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remote Config now includes both &lt;code dir="ltr" translate="no"&gt;CFBundleString&lt;/code&gt; and
@@ -2563,7 +2563,7 @@ Objective-C or Swift users.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where clicks were counted for messages with no action URL (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5564"&gt;#5564&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated an error case with a failure reason to give more details on the error (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5511"&gt;#5511&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_39" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where settings updates weren't applied before fetches (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4740"&gt;#4740&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated public API documentation for 4.4.10 change from FirebaseInstanceID to
 FirebaseInstallations (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5561"&gt;#5561&lt;/a&gt;).&lt;/li&gt;
@@ -2592,7 +2592,7 @@ iOS, tvOS and watchOS Installation Identifiers will not be affected (&lt;a href=
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;getLatestModelFilePath(_:completion:)&lt;/code&gt; API to
 &lt;code dir="ltr" translate="no"&gt;ModelManager&lt;/code&gt; for getting the absolute file path on the device for a
 downloaded custom remote model.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_37" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;fetchAndActivateWithCompletionHandler:&lt;/code&gt; implementation to activate asynchronously (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5617"&gt;#5617&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Remove undefined class via removing unused proto generated source files (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4334"&gt;#4334&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add an URLSession partial mock to enable testing without a backend (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5633"&gt;#5633&lt;/a&gt;).&lt;/li&gt;
@@ -2626,7 +2626,7 @@ to the backend immediately after a user signed in.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Use UNNotificationRequest to schedule local notification for local timezone notification for iOS 10 and above. This should also fix an issue where '%' was not properly shown in title and body (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5667"&gt;#5667&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed Maltese language key for language targeting (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5702"&gt;#5702&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_36" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_37" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed typedefs from public API method signatures to improve Swift API usage from Xcode (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5748"&gt;#5748&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when listAll() was called at the root location (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5772"&gt;#5772&lt;/a&gt;).&lt;/li&gt;
@@ -2679,7 +2679,7 @@ compaction (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5881"&gt;#
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_37" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Migrated from in-house event log dispatch mechanism to &lt;a href="https://cocoapods.org/pods/GoogleDataTransport"&gt;GoogleDataTransport&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the Logging message for 'Trace' and 'Network Requests' (see &lt;a href="https://firebase.google.com/docs/perf-mon/get-started-ios#step_3_optional_view_log_messages_for_performance_events"&gt;Public Docs&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_36" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Functionally neutral updated import references for dependencies (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5824"&gt;#5824&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated Remote Config to consume the Protobuf-less A/B Testing SDK (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5890"&gt;#5890&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2717,7 +2717,7 @@ with Boolean value &lt;code dir="ltr" translate="no"&gt;NO&lt;/code&gt; to your 
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remove FIRInstanceIDURLQueryItem in favor of NSURLQueryItem (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5835"&gt;#5835&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remove logic that was executed for iOS 7 and below (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5835"&gt;#5835&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Functionally neutral source reorganization for preliminary Swift Package Manager support (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6013"&gt;#6013&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.30.0 - August 11, 2020</title><link>https://firebase.google.com/support/release-notes/ios#version_6300_-_august_11_2020</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Functionally neutral public header refactor in preparation for Swift Package
@@ -2749,7 +2749,7 @@ distributions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Functionally neutral source reorganization (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5861"&gt;#5861&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase ML" id="firebase-ml_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the TensorflowLiteObjC dependency to 2.3.0 in FirebaseMLModelInterpreter. Resolves (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5746"&gt;#5746&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;FirebaseApp.delete()&lt;/code&gt;-related crash in config fetch (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6123"&gt;#6123&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Rolled forward previous changes from in-house event log dispatch mechanism to &lt;a href="https://cocoapods.org/pods/GoogleDataTransport"&gt;GoogleDataTransport&lt;/a&gt; after fixing client timestamp issue.&lt;/li&gt;
@@ -2884,7 +2884,7 @@ Objective-C or Swift users.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where URLSharedSession based network requests were
 not automatically monitored in iOS14.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an &lt;code dir="ltr" translate="no"&gt;attempt to insert nil object&lt;/code&gt; crash in &lt;code dir="ltr" translate="no"&gt;fetchWithExpirationDuration:&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6522"&gt;#6522&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed typo in doc comments (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6485"&gt;#6485&lt;/a&gt;).&lt;/li&gt;
@@ -2999,7 +2999,7 @@ in Swift.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue related to crashes on specific kind of network requests &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6713"&gt;#6713&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue related to race condition on Firebase Remote Config initialization &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6287"&gt;#6287&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;lastFetchTime&lt;/code&gt; field to readonly (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6567"&gt;#6567&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Functionally neutral change to stop using a deprecated method in the A/B Testing API (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6543"&gt;#6543&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;numberValue&lt;/code&gt; to be nonnull to align with current behavior (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6623"&gt;#6623&lt;/a&gt;).&lt;/li&gt;
@@ -3037,7 +3037,7 @@ useful.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a constructor to set a custom domain (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6787"&gt;#6787&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash on iOS 14 when multiple app delegate completion methods were called (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6863"&gt;#6863&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Add support for other Firebase products to integrate with Remote Config (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6692"&gt;#6692&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.2.0 - December 2, 2020</title><link>https://firebase.google.com/support/release-notes/ios#version_720_-_december_2_2020</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Reduced &lt;code dir="ltr" translate="no"&gt;FirebaseApp.configure()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;+[FIRApp registerInternalLibrary:withName:]&lt;/code&gt; impact on app launch time (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6902"&gt;#6902&lt;/a&gt;).&lt;/li&gt;
@@ -3132,7 +3132,7 @@ delete the first occurrence of an element in an array in latency-compensated
 snapshots.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="firebase-in-app-messaging_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed failed assertion causing app to crash during test on device flow (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7299"&gt;#7299&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed bug that was incorrectly flagging ABT experiment payloads as invalid (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7184"&gt;#7184&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Standardize support for Firebase products that integrate with Remote Config (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7094"&gt;#7094&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.5.1 - January 28, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_751_-_january_28_2021</link><description>&lt;p&gt;This release is available via Swift Package Manager only.&lt;/p&gt;&lt;ul&gt;
@@ -3168,7 +3168,7 @@ compensated snapshots.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed build warnings introduced with Xcode 12.5 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7433"&gt;#7433&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed build warnings introduced with Xcode 12.5 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7435"&gt;#7435&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed build warnings introduced with Xcode 12.5. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7432"&gt;#7432&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.7.0 - February 23, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_770_-_february_23_2021</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated FirebaseMLModelInterpreter and FirebaseMLVision.&lt;/li&gt;
@@ -3201,7 +3201,7 @@ decoding a &lt;code dir="ltr" translate="no"&gt;DocumentSnapshot&lt;/code&gt;.&l
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue in which, when checking storage size before writing to disk, the client was checking document folders that were no longer used (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7480"&gt;#7480&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add community-supported tvOS.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added community support for watchOS (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7481"&gt;#7481&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.8.0 - March 9, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_780_-_march_9_2021</link><description>&lt;h3 data-text="Analytics" id="analytics_56" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed reference to NSUserTrackingUsageDescription (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7652"&gt;#7652&lt;/a&gt;).&lt;/li&gt;
@@ -3216,7 +3216,7 @@ decoding a &lt;code dir="ltr" translate="no"&gt;DocumentSnapshot&lt;/code&gt;.&l
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Enabled dynamic framework support (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7569"&gt;#7569&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed the warning to include Analytics as Perf does not depend on Analytics (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7487"&gt;#7487&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash due to a race condition (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7535"&gt;#7535&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Remote Config now stores fetch metadata per namespace to address activation issues (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7179"&gt;#7179&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where experiment exposures were sometimes incorrect by only updating experiment data for&lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt;-namespaced fetch requests (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7604"&gt;#7604&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.8.1 - March 12, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_781_-_march_12_2021</link><description>&lt;h3 data-text="Analytics" id="analytics_55" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3240,7 +3240,7 @@ with the Server SDKs and can be used to populate Firestore's cache
 without reading documents from the backend.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="firebase-in-app-messaging_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for building custom in-app messages with SwiftUI (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7496"&gt;#7496&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Enabled community supported watchOS build in Swift Package Manager (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7696"&gt;#7696&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Remote Config no longer generates a missing Analytics warning on Catalyst (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7693"&gt;#7693&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.9.1 - March 24, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_791_-_march_24_2021</link><description>&lt;p&gt;This version is available via Swift Package Manager only.&lt;/p&gt;&lt;ul&gt;
@@ -3250,7 +3250,7 @@ without reading documents from the backend.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated nanopb to version 0.3.9.8 to fix a security vulnerability (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7787"&gt;#7787&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a warning to upload-symbols when it detects a dSYM without any symbols.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Throw exception if projectID is missing from FirebaseOptions (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7725"&gt;#7725&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.11.0 - April 20, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_7110_-_april_20_2021</link><description>&lt;h3 data-text="Analytics" id="analytics_53" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added Firebase/AnalyticsWithoutAdIdSupport subspec for developers of apps that aren’t using AdSupport or subject to AppTrackingTransparency.&lt;/li&gt;
@@ -3302,7 +3302,7 @@ GoogleDataTransport APIs directly.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added abuse reduction features (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7928"&gt;#7928&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed the Instance ID dependency from &lt;span class="notranslate"&gt;FCM&lt;/span&gt;. This is a breaking change for &lt;span class="notranslate"&gt;FCM&lt;/span&gt; users who use the deprecated Firebase Instance ID API to manage registration tokens. Users should migrate to &lt;span class="notranslate"&gt;FCM&lt;/span&gt;'s token APIs by following the &lt;a href="https://firebase.google.com/docs/projects/manage-installations#fid-iid"&gt;migration guide&lt;/a&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7836"&gt;#7836&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed throttling issue when fetch fails due to no network (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6628"&gt;#6628&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where sometimes the local config returned is empty (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7424"&gt;#7424&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3505,7 +3505,7 @@ element (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8874"&gt;#887
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash related to FPRSessionDetails (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8691"&gt;#8691&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed heap-buffer overflow when encoding sessions (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8849"&gt;#8849&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed cached config not loading if device is locked (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8807"&gt;#8807&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.11.0 - January 18, 2022</title><link>https://firebase.google.com/support/release-notes/ios#version_8110_-_january_18_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Introduced shared Codable implementation. Initially used by Firebase Functions
@@ -3551,7 +3551,7 @@ help with future debugging (&lt;a href="//github.com/firebase/firebase-ios-sdk/i
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved reporting for SQLite errors when failing to open a local database (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8699"&gt;#8699&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Attempted to fix an issue where app start trace durations are not reliable on iOS 15. App start measurements are now made only for cold app starts (without pre-warming) (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/9026"&gt;#9026&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial public beta release with Codable support. See example usage on GitHub &lt;a href="https://github.com/firebase/firebase-ios-sdk/blob/master/FirebaseRemoteConfigSwift/Tests/Codable.swift"&gt;here&lt;/a&gt; and &lt;a href="https://github.com/firebase/firebase-ios-sdk/blob/master/FirebaseRemoteConfigSwift/Tests/Value.swift"&gt;here&lt;/a&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6883"&gt;#6883&lt;/a&gt;). To use the Swift extension library, add &lt;code dir="ltr" translate="no"&gt;pod 'FirebaseRemoteConfigSwift'&lt;/code&gt; to your Podfile.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.13.0 - March 8, 2022</title><link>https://firebase.google.com/support/release-notes/ios#version_8130_-_march_8_2022</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;upload-symbols&lt;/code&gt; to 3.11 and added logic to process Flutter project information (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/9379"&gt;#9379&lt;/a&gt;).&lt;/li&gt;
@@ -3680,7 +3680,7 @@ restored for Swift only.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Installations" id="installations" tabindex="-1"&gt;Installations&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Swift-only: Updated symbol name &lt;code dir="ltr" translate="no"&gt;kFirebaseInstallationsErrorDomain&lt;/code&gt; to
 &lt;code dir="ltr" translate="no"&gt;InstallationsErrorDomain&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/9275"&gt;#9275&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;remoteConfig()&lt;/code&gt; singleton now throws an exception when called before
 &lt;code dir="ltr" translate="no"&gt;FirebaseApp.configure()&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8640"&gt;#8640&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;ul&gt;
@@ -3723,7 +3723,7 @@ infeasibility. The GoogleSignIn distribution continues (&lt;a href="//github.com
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed error code generation for HTTP 409 - "already exists" (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/9942"&gt;#9942&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update the console logging URL to troubleshooting page.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Arrays and Dictionaries are now supported when initializing defaults from a
 plist (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8306"&gt;#8306&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Activate calls will only update experiment data for &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; namespace to ensure correct experiment exposures (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/9972"&gt;#9972&lt;/a&gt;).&lt;/li&gt;
@@ -3749,7 +3749,7 @@ invoked concurrently (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash if multiple large write batches with overlapping
 documents were executed where at least one batch performed a delete operation
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/9965"&gt;#9965&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed Codable implementation to handle arrays and dictionaries from plist defaults (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/9980"&gt;#9980&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.6.0 - September 13, 2022</title><link>https://firebase.google.com/support/release-notes/ios#version_960_-_september_13_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mac apps using Firebase products that store SDK data in the keychain
@@ -3892,7 +3892,7 @@ into &lt;code dir="ltr" translate="no"&gt;Codable&lt;/code&gt;s - similar to the
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="firebase-in-app-messaging_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed &lt;code dir="ltr" translate="no"&gt;foo&lt;/code&gt; constant from Swift &lt;code dir="ltr" translate="no"&gt;InAppMessagingPreviewHelpers&lt;/code&gt; API (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10222"&gt;#10222&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed internal &lt;code dir="ltr" translate="no"&gt;dataChanged&lt;/code&gt; symbol that triggered App Store warnings (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10276"&gt;#10276&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new dynamic property wrapper API that enables developers to configure UI components to automatically update when new configs are activated. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10155"&gt;#10155&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Firebase Storage is now completely implemented in Swift. Swift-specific API improvements
@@ -3920,7 +3920,7 @@ Xcode 14 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10372"&gt;#1
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix a bug where multi factor phone number returns &lt;code dir="ltr" translate="no"&gt;NULL&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10296"&gt;#10296&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The app bundle identifier is no longer incorrectly shortened for watchOS apps created on Xcode 14 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10147"&gt;#10147&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the previous CocoaPods release incorrectly missing the RemoteConfigProperty feature (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10371"&gt;#10371&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a 10.0.0 regression where metadata passed to &lt;code dir="ltr" translate="no"&gt;putFile&lt;/code&gt; was not properly initialized (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10353"&gt;#10353&lt;/a&gt;).&lt;/li&gt;
@@ -4018,7 +4018,7 @@ This fixes an issue where it infinitely retries when FirebaseStorage returns a 5
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for disjunctions in queries (&lt;code dir="ltr" translate="no"&gt;OR&lt;/code&gt; queries).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed stack overflow caused by deeply nested server timestamps.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for real-time config updates. Use the new
 &lt;code dir="ltr" translate="no"&gt;addOnConfigUpdateListener&lt;/code&gt; API to get real-time updates. Existing &lt;a href="https://firebase.google.com/docs/reference/swift/firebaseremoteconfig/api/reference/Classes/RemoteConfig#fetch"&gt;&lt;code dir="ltr" translate="no"&gt;fetch&lt;/code&gt;&lt;/a&gt; and &lt;a href="https://firebase.google.com/docs/reference/swift/firebaseremoteconfig/api/reference/Classes/RemoteConfig#activate"&gt;&lt;code dir="ltr" translate="no"&gt;activate&lt;/code&gt;&lt;/a&gt; APIs aren't affected by this change. To learn more,
 see &lt;a href="https://firebase.google.com/docs/remote-config/get-started?platform=ios#add-real-time-listener"&gt;Get started with Firebase Remote Config&lt;/a&gt;.&lt;/li&gt;
@@ -4131,7 +4131,7 @@ open Xcode like normal, without the environment variable (&lt;a href="//github.c
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Make Firebase Performance Monitoring compatible with Xcode 15.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed the capability to access carrier information of the device since that API is deprecated by Apple.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue of real-time listeners not being properly removed (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/11458"&gt;#11458&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed real-time fetches not being able to fetch the latest template due to an in-progress fetch (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/11465"&gt;#11465&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements to support Remote Config real-time updates (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/11485"&gt;#11485&lt;/a&gt;).&lt;/li&gt;
@@ -4224,7 +4224,7 @@ future release. See &lt;a href="/docs/ios/swift-migration"&gt;the migration guid
 migration instructions.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix a second Xcode 15 runtime warning (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/11821"&gt;#11821&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;FirebaseRemoteConfig&lt;/code&gt; module now contains Firebase Remote
 Config's Swift-only APIs that were previously only available via the
 &lt;code dir="ltr" translate="no"&gt;FirebaseRemoteConfigSwift&lt;/code&gt; extension SDK. See the
@@ -4339,7 +4339,7 @@ caused by embedding an incomplete &lt;code dir="ltr" translate="no"&gt;Info.plis
 XCFrameworks with code signatures (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12238"&gt;#12238&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; CocoaPods only: Fixed "no rule" warning when running &lt;code dir="ltr" translate="no"&gt;pod install&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12511"&gt;#12511&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added support for other Firebase products to integrate with Remote Config.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.23.1 - March 28, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_10231_-_march_28_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; [Swift Package Manager / CocoaPods] Fixed the macOS/Catalyst
@@ -4396,7 +4396,7 @@ Choose &lt;em&gt;Embed &amp;amp; Sign&lt;/em&gt; when integrating the framework.
 distribution's README.md for more instructions.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed usages of user defaults API to eliminate required reason impact.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed bug preventing Remote Config from working with a custom sqlite3
 dependency (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10884"&gt;#10884&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.26.0 - May 13, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_10260_-_may_13_2024</link><description>&lt;p&gt;This release is available via Swift Package Manager only.&lt;/p&gt;&lt;h3 data-text="Firebase In-App Messaging" id="firebase-in-app-messaging_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4516,7 +4516,7 @@ error code).&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Completed Messaging's transition to NSSecureCoding (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12343"&gt;#12343&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;RemoteConfigValue.stringValue&lt;/code&gt; is now &lt;code dir="ltr" translate="no"&gt;nonnull&lt;/code&gt;. This may break some builds (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10870"&gt;#10870&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: The deprecated &lt;code dir="ltr" translate="no"&gt;FirebaseRemoteConfigSwift&lt;/code&gt;
 module has been removed.  See our &lt;a href="https://firebase.google.com/docs/ios/swift-migration"&gt;migration guide&lt;/a&gt;.&lt;/li&gt;
@@ -4729,7 +4729,7 @@ will be included from 11.6.0 onwards (&lt;a href="//github.com/firebase/firebase
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; SDK will throw errors if partial GraphQL errors are detected during operation execution.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improve token-fetch failure logging with detailed error info (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13997"&gt;#13997&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mark two internal properties as &lt;code dir="ltr" translate="no"&gt;atomic&lt;/code&gt; to prevent concurrency
 related crash (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13898"&gt;#13898&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4787,7 +4787,7 @@ atomic (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14308"&gt;#143
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated all memory allocation from &lt;code dir="ltr" translate="no"&gt;malloc()&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;calloc()&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14209"&gt;#14209&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed use-after-free bug when internally formatting strings (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14306"&gt;#14306&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mark ConfigUpdateListenerRegistration Sendable (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14215"&gt;#14215&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mark completion handlers as Sendable in RemoteConfig class (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14257"&gt;#14257&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for custom signal targeting in Remote Config. Use
@@ -4809,7 +4809,7 @@ that is used in out-of-band email action flows.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed use-after-free bug when internally formatting strings (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14306"&gt;#14306&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Don't cache FCM registration token operations (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14352"&gt;#14352&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mark completion handlers as Sendable in the RemoteConfig class.
 Some completions handlers were missed in the 11.7.0 update (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14257"&gt;#14257&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.8.1 - February 4, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_1181_-_february_4_2025</link><description>&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4838,7 +4838,7 @@ request metrics for Cloud Functions&lt;/a&gt;
 for more details.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Migrate FCM codebase to new NSKeyedUnarchiver APIs (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14424"&gt;#14424&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mark internal &lt;code dir="ltr" translate="no"&gt;fetchSession&lt;/code&gt; property as &lt;code dir="ltr" translate="no"&gt;atomic&lt;/code&gt; to prevent a concurrency
 related crash (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14449"&gt;#14449&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_4" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4856,7 +4856,7 @@ backwards-incompatible ways.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dependency on Firebase iOS SDK changed to 'minimum version required' instead of an 'exact version'. This lets apps use the latest version of the Firebase iOS SDK.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Streaming callable functions are now supported.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix intermittent &lt;code dir="ltr" translate="no"&gt;RCNConfigRealtime&lt;/code&gt; crash due to incorrect parsing of fragmented JSON (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14518"&gt;#14518&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_3" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Vertex AI SDK no longer requires &lt;code dir="ltr" translate="no"&gt;@preconcurrency&lt;/code&gt; when imported in Swift 6.&lt;/li&gt;
@@ -4909,7 +4909,7 @@ size limits), &lt;code dir="ltr" translate="no"&gt;title&lt;/code&gt; (schema na
 &lt;code dir="ltr" translate="no"&gt;anyOf&lt;/code&gt; (select from sub-schemas), and &lt;code dir="ltr" translate="no"&gt;propertyOrdering&lt;/code&gt; (JSON key order) (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14647"&gt;#14647&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where network requests would fail in the iOS 18.4
 simulator due to a &lt;code dir="ltr" translate="no"&gt;URLSession&lt;/code&gt; bug introduced in Xcode 16.3 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14677"&gt;#14677&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.13.0 - May 20, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_11130_-_may_20_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_6" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.13.0 - May 20, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_11130_-_may_20_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_7" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDK (&lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt;). This
 SDK &lt;em&gt;replaces&lt;/em&gt; the previous Vertex AI in Firebase SDK (&lt;code dir="ltr" translate="no"&gt;FirebaseVertexAI&lt;/code&gt;) to
 accommodate the evolving set of supported features and services.
@@ -4933,7 +4933,7 @@ category or probability; this may occur when using Gemini for image generation
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed limit of distinctly named events for &lt;a href="https://support.google.com/analytics/answer/11202874"&gt;Google Analytics 360&lt;/a&gt; properties.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix an issue where network requests would fail in the iOS 18.4
 simulator due to a URLSession bug introduced in Xcode 16.3 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14728"&gt;#14728&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4959,7 +4959,7 @@ omitted; this occurs when the count is 0 (&lt;a href="//github.com/firebase/fire
 crashes from concurrent access (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14835"&gt;#14835&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix a potential SQL injection issue (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14846"&gt;#14846&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix build warning from comparison of different enumeration types.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.15.0 - June 23, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_11150_-_june_23_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Remove c99 as the required C language standard.
@@ -4968,7 +4968,7 @@ crashes from concurrent access (&lt;a href="//github.com/firebase/firebase-ios-s
 property will be removed in a future release. This is related to the
 overall Firebase Dynamic Links deprecation. For more details, see
 the &lt;a href="https://firebase.google.com/support/dynamic-links-faq"&gt;Dynamic Links deprecation FAQ&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_5" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_6" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;Sendable&lt;/code&gt; warnings introduced in the Xcode 26 beta.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14947"&gt;#14947&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for setting &lt;code dir="ltr" translate="no"&gt;title&lt;/code&gt; in string, number and array
@@ -5040,7 +5040,7 @@ use the top-level &lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt; c
 Swift 6.0 toolchain (Xcode 16.2+).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update GTMSessionFetcher dependency specifications to enable
 support for the compatible GTMSessionFetcher 5.x versions.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_4" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_5" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Grounding with Google Search (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15014"&gt;#15014&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Removed &lt;code dir="ltr" translate="no"&gt;CountTokensResponse.totalBillableCharacters&lt;/code&gt; which was
 deprecated in 11.15.0. Use &lt;code dir="ltr" translate="no"&gt;totalTokens&lt;/code&gt; instead (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15056"&gt;#15056&lt;/a&gt;).&lt;/li&gt;
@@ -5075,7 +5075,7 @@ https://firebase.google.com/support/dynamic-links-faq for more info.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Mark &lt;code dir="ltr" translate="no"&gt;HTTPSCallable&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;HTTPSCallableOptions&lt;/code&gt;
 as &lt;code dir="ltr" translate="no"&gt;final&lt;/code&gt; classes for Swift clients. This was to achieve Swift 6 checked
 &lt;code dir="ltr" translate="no"&gt;Sendable&lt;/code&gt; support.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Improved how the SDK handles real-time requests when a Firebase
 project has exceeded its available quota for real-time services.
 Released in anticipation of future quota enforcement, this change is
@@ -5104,7 +5104,7 @@ distributions, but will be included from 12.2.0 onwards (&lt;a href="//github.co
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix Xcode 26 crash from missing &lt;code dir="ltr" translate="no"&gt;NSUserActivityTypeBrowsingWeb&lt;/code&gt;
 symbol. Note that this fix isn't in the 12.1.0 zip and Carthage
 distributions, but will be included from 12.2.0 onwards (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15159"&gt;#15159&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 12.2.0 - August 27, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_1220_-_august_27_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_3" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.2.0 - August 27, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_1220_-_august_27_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_4" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for returning thought summaries, which are synthesized
 versions of a model's internal reasoning process (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15096"&gt;#15096&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for limited-use tokens with Firebase App Check.
@@ -5124,10 +5124,10 @@ because more of your users will be on versions of your app that send limited-use
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added TOTP support for macOS.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Starting FDC Tools from Xcode sets up a template Firebase Data Connect project in the Xcode project folder. See the README.md for an updated Getting Started section.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition that could lead to a crash during network
 session recreation (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15087"&gt;#15087&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 12.3.0 - September 15, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_1230_-_september_15_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.3.0 - September 15, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_1230_-_september_15_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_3" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the
 &lt;a href="/docs/ai-logic/code-execution"&gt;code execution tool&lt;/a&gt;.
 Enabling this tool lets the model generate and run Python code to help it
@@ -5144,10 +5144,10 @@ dynamically linked libraries. (&lt;a href="//github.com/firebase/firebase-ios-sd
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Add missing nanopb dependency to fix SwiftPM builds when building
 dynamically linked libraries. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15276"&gt;#15276&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Add missing GoogleUtilities dependency to fix SwiftPM builds when
 building dynamically linked libraries. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15276"&gt;#15276&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 12.4.0 - October 7, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_1240_-_october_7_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.4.0 - October 7, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_1240_-_october_7_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_2" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the URL context tool, which allows the model to access content
 from provided public web URLs to inform and enhance its responses. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15221"&gt;#15221&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Using Firebase AI Logic with the Gemini Developer API is now Generally Available (GA).&lt;/li&gt;
@@ -5171,7 +5171,13 @@ switch statements over this enum by adding a default case.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Implemented an internal workaround to fix
 &lt;a href="https://nvd.nist.gov/vuln/detail/CVE-2025-0838"&gt;CVE-2025-0838&lt;/a&gt;. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15300"&gt;#15300&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 12.5.0 - October 28, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_1250_-_october_28_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.5.0 - October 28, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_1250_-_october_28_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Renamed the &lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt; module to &lt;code dir="ltr" translate="no"&gt;FirebaseAILogic&lt;/code&gt;. This is a non-breaking change.
+&lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt; references will continue to work until a future breaking change release. Going
+forward, imports should be changed to &lt;code dir="ltr" translate="no"&gt;import FirebaseAILogic&lt;/code&gt; and the &lt;code dir="ltr" translate="no"&gt;FirebaseAILogic&lt;/code&gt; Swift
+Package dependency should be selected. See the
+&lt;a href="/docs/ai-logic/faq-and-troubleshooting#swift-module-name-change"&gt;Swift module name change&lt;/a&gt;
+FAQ entry for more details.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a nanoseconds parsing issue in the Live API when receiving a
 &lt;code dir="ltr" translate="no"&gt;LiveServerGoingAwayNotice&lt;/code&gt; message. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15410"&gt;#15410&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for sending video frames with the Live API via the &lt;code dir="ltr" translate="no"&gt;sendVideoRealtime&lt;/code&gt;
@@ -5186,4 +5192,12 @@ method on &lt;a href="https://firebase.google.com/docs/reference/swift/firebasea
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Prevent race condition crash in FPRTraceBackgroundActivityTracker. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14273"&gt;#14273&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix app start trace outliers from network delays. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10733"&gt;#10733&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.6.0 - November 13, 2025</title><link>https://firebase.google.com/support/release-notes/ios#version_1260_-_november_13_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="firebase-ai-logic" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for
+&lt;a href="/docs/ai-logic/server-prompt-templates/get-started"&gt;Server Prompt Templates&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where Remote Config does not work after a restore
+of a previous backup of the device (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14459"&gt;#14459&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a data race condition on the global database status flag
+by synchronizing all read and write operations (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14715"&gt;#14715&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
