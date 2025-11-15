@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 14 Nov 2025 21:14:28 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 15 Nov 2025 01:13:30 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -7772,4 +7772,45 @@ the server's response failed: An unknown field for index -3&lt;/code&gt;.
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config version 23.0.1" id="remote-config_v23-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; version 23.0.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - October 30, 2025</title><link>https://firebase.google.com/support/release-notes/android#2025-10-30</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 34.5.0" id="bom_v34-5-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 34.5.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 17.5.0" id="ai_v17-5-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.5.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added better scheduling and louder output for Live API.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added support for input and output transcription.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7482"&gt;#7482&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for sending realtime audio and video in a &lt;code dir="ltr" translate="no"&gt;LiveSession&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed redundant internal exception types.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7475"&gt;#7475&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Distribution Gradle plugin version 5.2.0" id="appdistro_gradle_plugin_v5-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin version 5.2.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed compatibility with AGP 9.0.0.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue that caused distribution properties (configured with
+&lt;code dir="ltr" translate="no"&gt;firebaseAppDistribution { }&lt;/code&gt;) to work incorrectly within Android &lt;code dir="ltr" translate="no"&gt;buildType&lt;/code&gt;
+configurations on Kotlin Gradle builds.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated support for AGP &amp;lt; 8.1.0 (and Gradle &amp;lt; 8.0). Support
+for these versions will be removed in a future release.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Previously, we allowed &lt;code dir="ltr" translate="no"&gt;firebaseAppDistribution { }&lt;/code&gt; at the
+root of an app's Gradle build (in addition to inside its &lt;code dir="ltr" translate="no"&gt;buildTypes&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;productFlavors&lt;/code&gt;). This undocumented feature has been renamed to
+&lt;code dir="ltr" translate="no"&gt;firebaseAppDistributionDefault { }&lt;/code&gt;. In a future release, the original DSL
+(&lt;code dir="ltr" translate="no"&gt;firebaseAppDistribution { }&lt;/code&gt;) will only work in &lt;code dir="ltr" translate="no"&gt;buildTypes&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;productFlavors&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK version 22.1.0" id="functions-client_v22-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt; version 22.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped dependency on OkHttp to v4.12.0 from v3.12.13. If your app
+depends on OkHttp version 3.x, note that this change is both binary-compatible
+and Java source-compatible, with a few small exceptions (for details, see the
+&lt;a href="https://square.github.io/okhttp/changelogs/upgrading_to_okhttp_4"&gt;upgrading to OkHttp 4 changelog&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.1.1" id="data-connect_v17-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal refactor for managing Auth and App Check tokens
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7184"&gt;#7184&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="In-App Messaging version 22.0.2" id="inappmessaging_v22-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; version 22.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="In-App Messaging Display version 22.0.2" id="inappmessaging-display_v22-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; Display version 22.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;com.github.bumptech.glide:glide&lt;/code&gt; dependency to v5.0.5.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7469"&gt;#7469&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring version 22.0.3" id="performance_v22-0-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; version 22.0.3&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped dependency on OkHttp to v4.12.0 from v3.12.13. If your app
+depends on OkHttp version 3.x, note that this change is both binary-compatible
+and Java source-compatible, with a few small exceptions (for details, see the
+&lt;a href="https://square.github.io/okhttp/changelogs/upgrading_to_okhttp_4"&gt;upgrading to OkHttp 4 changelog&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring Gradle plugin version 2.0.2" id="performance_gradle_plugin_v2-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; Gradle plugin version 2.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed compatibility with AGP 9.0.0.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7293"&gt;#7293&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
