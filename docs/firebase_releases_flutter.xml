@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Flutter</title><link>https://firebase.google.com/support/release-notes/flutter</link><description>Latest updates and release notes for Firebase Flutter.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 17 Nov 2025 18:23:30 +0000</lastBuildDate><item><title>Flutter BoM version 1.0.0 - May 07, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-0</link></item><item><title>Flutter BoM version 1.0.1 - May 21, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-1</link></item><item><title>Flutter BoM version 1.1.0 - May 28, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-1-0</link><description>&lt;h3 data-text="Changelog" id="bom-v1-1-0_changelog" tabindex="-1"&gt;Changelog&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Flutter</title><link>https://firebase.google.com/support/release-notes/flutter</link><description>Latest updates and release notes for Firebase Flutter.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 17 Nov 2025 21:14:39 +0000</lastBuildDate><item><title>Flutter BoM version 1.0.0 - May 07, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-0</link></item><item><title>Flutter BoM version 1.0.1 - May 21, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-1</link></item><item><title>Flutter BoM version 1.1.0 - May 28, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-1-0</link><description>&lt;h3 data-text="Changelog" id="bom-v1-1-0_changelog" tabindex="-1"&gt;Changelog&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (android): remove unnecessary error type guarding (&lt;a href="https://github.com/firebase/flutterfire/issues/12816"&gt;#12816&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/7d4c200ac6f06a50c2e7ee852aea2c9fa7bcb0ff"&gt;7d4c200a&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (General): update Pigeon version to 19 (&lt;a href="https://github.com/firebase/flutterfire/issues/12828"&gt;#12828&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/5e76153fbcd337a26e83abc2b43b651ab6c501bc"&gt;5e76153f&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;ul&gt;
@@ -1131,5 +1131,36 @@ perform complex tasks like solving mathematical equations or visualizing data. (
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_storage - v13.0.4&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_storage_platform_interface - v5.2.15&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_storage_web - v3.11.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Flutter BoM version 4.6.0 - November 17, 2025</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v4-6-0</link><description>&lt;h3 data-text="Changelog" id="bom-v4-6-0_changelog" tabindex="-1"&gt;Changelog&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (General): add support for Pigeon. Update iOS to Swift and Android to Kotlin (&lt;a href="https://github.com/firebase/flutterfire/issues/17686"&gt;#17686&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/dac0b0bd033b1c51446aedf0413740ef426877b8"&gt;dac0b0bd&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_database_platform_interface - v0.3.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_database - v12.1.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (firebaseai): Added support for &lt;a href="https://firebase.google.com/docs/ai-logic/server-prompt-templates/get-started"&gt;Server Prompt Template&lt;/a&gt;. (&lt;a href="https://github.com/firebase/flutterfire/issues/17767"&gt;#17767&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/8ff653e5bad247fe4f2f72afef45375606509d11"&gt;8ff653e5&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_ai - v3.6.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (ios): remove warning regarding legacy firebase_app_id_file.json file (&lt;a href="https://github.com/firebase/flutterfire/issues/17852"&gt;#17852&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/fb93470e13fc7afc40ee310cc85185e89cb63dd0"&gt;fb93470e&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_crashlytics - v5.0.5&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (database): add support for Pigeon. Update iOS to Swift and Android to Kotlin (&lt;a href="https://github.com/firebase/flutterfire/issues/17686"&gt;#17686&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/dac0b0bd033b1c51446aedf0413740ef426877b8"&gt;dac0b0bd&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_data_connect - v0.2.2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (firebase_remote_config, web): update getSource method call in RemoteConfig class and add test for getAll() method (&lt;a href="https://github.com/firebase/flutterfire/issues/17847"&gt;#17847&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/7113857365a8332a5feaac3fd5dbbda1b3a500ff"&gt;71138573&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_remote_config_web - v1.10.1&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
