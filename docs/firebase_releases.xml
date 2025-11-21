@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 21 Nov 2025 12:32:26 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 21 Nov 2025 15:15:13 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6024,7 +6024,19 @@ via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/sp
 (v13.3.0)&lt;/a&gt; is now available.
 This release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;,
 changes to &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, and other changes.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 20, 2025</title><link>https://firebase.google.com/support/releases#november_20_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 20, 2025</title><link>https://firebase.google.com/support/releases#november_20_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-nanobanana-pro-preview-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the &lt;span class='\"notranslate\"'&gt;Gemini 3 Pro Image&lt;/span&gt;
+(preview) model — aka &lt;em&gt;nano banana pro&lt;/em&gt;. You can
+&lt;a href="/docs/ai-logic/generate-images-gemini"&gt;directly access this image-generating model in your mobile or web app&lt;/a&gt;
+via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; or the
+&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt; using the model name
+&lt;code dir="ltr" translate="no"&gt;gemini-3-pro-image-preview&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Note that the pay-as-you-go Blaze plan is required to access preview models
+(regardless of your Gemini API provider). Also, if you access the model via
+&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, make sure to
+&lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
+&lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#13.6.0"&gt;Firebase SDK for Unity
 (v13.6.0)&lt;/a&gt; is now available. This
 release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; and Firebase AI, as well as
