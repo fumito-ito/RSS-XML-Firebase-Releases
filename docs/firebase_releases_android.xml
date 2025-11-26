@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 26 Nov 2025 12:35:55 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 26 Nov 2025 15:15:52 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -3670,7 +3670,7 @@ SDK releases.&lt;/p&gt;&lt;/li&gt;
 updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics version 18.0.0" id="crashlytics_v18-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 18.0.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed call to
 &lt;a href="/docs/reference/android/com/google/firebase/installations/FirebaseInstallations#getId()"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseInstallations#getId()&lt;/code&gt;&lt;/a&gt;
-when &lt;a href="/docs/crashlytics/customize-crash-reports?platform=android#enable-reporting"&gt;automatic data collection&lt;/a&gt;
+when &lt;a href="/docs/crashlytics/android/customize-crash-reports#enable-reporting"&gt;automatic data collection&lt;/a&gt;
 is disabled for &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;. &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; no longer makes any network
 calls when reporting is disabled.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal changes to support dynamic feature modules.&lt;/p&gt;&lt;/li&gt;
@@ -4130,7 +4130,7 @@ subcollections.&lt;/p&gt;&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics version 18.2.7" id="crashlytics_v18-2-7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 18.2.7&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved runtime efficiency of the
-&lt;a href="/docs/crashlytics/customize-crash-reports?platform=android#add-keys"&gt;&lt;code dir="ltr" translate="no"&gt;setCustomKey&lt;/code&gt; functions&lt;/a&gt;,
+&lt;a href="/docs/crashlytics/android/customize-crash-reports#add-keys"&gt;&lt;code dir="ltr" translate="no"&gt;setCustomKey&lt;/code&gt; functions&lt;/a&gt;,
 significantly reducing the number of &lt;code dir="ltr" translate="no"&gt;Task&lt;/code&gt; objects and disk writes when keys
 are updated frequently.
 (&lt;a class="external" href="/support/release-notes/github.com/firebase/firebase-android-sdk/pull/3254"&gt;GitHub PR #3254&lt;/a&gt;)&lt;/li&gt;

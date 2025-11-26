@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 26 Nov 2025 12:35:52 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 26 Nov 2025 15:15:48 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -1138,7 +1138,7 @@ and how issues are displayed. This change is rolling out for all new issues.
 control whether uncaught exceptions are reported as fatal or not. Reporting
 them as fatal events means that they'll count in your crash-free user
 statistics and towards velocity alerts. Visit
-the &lt;a href="/docs/crashlytics/customize-crash-reports?platform=unity#log-excepts"&gt;customize crash reports documentation&lt;/a&gt;
+the &lt;a href="/docs/crashlytics/unity/customize-crash-reports#log-excepts"&gt;customize crash reports documentation&lt;/a&gt;
 to learn how to implement this behavior in your Unity project.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-avd-30-update" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; To ensure that we're in sync with real-world devices, and to help
@@ -4799,14 +4799,14 @@ app is of the highest quality. Learn more at
 &lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-live-api-public-preview-flutter-android" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; now supports using the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;
 securely and directly from your mobile and web client apps. With the
-&lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt; you can build low-latency, two-way interactions where you can
+&lt;span class="notranslate"&gt;Live API&lt;/span&gt; you can build low-latency, two-way interactions where you can
 stream both input and output – both text and audio.&lt;/p&gt;
-&lt;p&gt;Support for the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt; is in Public Preview. Also, in this initial
+&lt;p&gt;Support for the &lt;span class="notranslate"&gt;Live API&lt;/span&gt; is in Public Preview. Also, in this initial
 release, only Android and Flutter are supported (Apple platforms and Web are
 coming soon!)&lt;/p&gt;
 &lt;p&gt;Learn more in
-&lt;a href="/docs/ai-logic/live-api"&gt;Stream inputs and outputs using the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To use the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;, make sure that you're using &lt;em&gt;at minimum&lt;/em&gt; these
+&lt;a href="/docs/ai-logic/live-api"&gt;Stream inputs and outputs using the &lt;span class="notranslate"&gt;Live API&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Live API&lt;/span&gt;, make sure that you're using &lt;em&gt;at minimum&lt;/em&gt; these
 versions of the Firebase libraries:&lt;br/&gt;
 &lt;strong&gt;iOS+&lt;/strong&gt;: &lt;em&gt;not yet supported&lt;/em&gt; |
 &lt;strong&gt;Android&lt;/strong&gt;: v16.3.0+ (&lt;span class="notranslate"&gt;BoM&lt;/span&gt;: v33.12.0+) |
@@ -5054,9 +5054,9 @@ reasonable rate limits and quotas. Learn more about the
 &lt;a href="/docs/ai-logic/faq-and-troubleshooting#differences-between-gemini-api-providers"&gt;differences between the two API providers&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; We now offer a &lt;strong&gt;client SDK for Unity&lt;/strong&gt; that supports
 &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; models as well as the
-&lt;a href="/docs/ai-logic/live-api"&gt;bidirectional streaming &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;&lt;/a&gt;. You can build
-AI features in your games like new forms of player interaction (both voice and
-image input), responsive and evolving game worlds, and personalized
+&lt;a href="/docs/ai-logic/live-api"&gt;bidirectional streaming &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;&lt;/a&gt;. You can
+build AI features in your games like new forms of player interaction (both
+voice and image input), responsive and evolving game worlds, and personalized
 experiences. Learn how to &lt;a href="/docs/ai-logic/get-started"&gt;get started with Unity&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Our client SDK for Web offers experimental access to
 &lt;a href="/docs/ai-logic/hybrid-on-device-inference"&gt;&lt;strong&gt;hybrid and on-device inference for web apps&lt;/strong&gt;&lt;/a&gt;
@@ -5475,8 +5475,8 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;/ul&gt;</description><pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate></item><item><title>August 28, 2025</title><link>https://firebase.google.com/support/releases#august_28_2025</link><description>&lt;p&gt;&lt;span id="ai-logic-ai-monitoring-dev-api"&gt;&lt;/span&gt;
 &lt;span id="ai-logic-live-api-js"&gt;&lt;/span&gt;&lt;/p&gt;&lt;h3 data-text="Firebase AI Logic" id="ai-logic-aim-dev-api-and-live-api-js" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now additionally supports using the
-&lt;em&gt;Firebase JavaScript SDK&lt;/em&gt; (v12.2.1+) with the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;. (This capability
-was previously only available for some platforms.)&lt;/p&gt;
+&lt;em&gt;Firebase JavaScript SDK&lt;/em&gt; (v12.2.1+) with the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;.
+(This capability was previously only available for some platforms.)&lt;/p&gt;
 &lt;p&gt;With the &lt;span class="notranslate"&gt;Live API&lt;/span&gt; you can
 &lt;a href="/docs/ai-logic/live-api"&gt;build low-latency, two-way interactions&lt;/a&gt;
 where you can stream both input and output – both text and audio.&lt;/p&gt;
@@ -5720,8 +5720,8 @@ safety.&lt;/li&gt;
 so, migrate to Xcode 16.4.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate></item><item><title>October 07, 2025</title><link>https://firebase.google.com/support/releases#october_07_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-live-api-swift" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now additionally supports using the
-&lt;em&gt;Firebase Apple SDK&lt;/em&gt; (v12.4.0+) with the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;. (This capability was
-previously only available for some platforms. With this release, &lt;em&gt;all&lt;/em&gt;
+&lt;em&gt;Firebase Apple SDK&lt;/em&gt; (v12.4.0+) with the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;. (This capability
+was previously only available for some platforms. With this release, &lt;em&gt;all&lt;/em&gt;
 platforms now support the &lt;span class="notranslate"&gt;Live API&lt;/span&gt;.)&lt;/p&gt;
 &lt;p&gt;With the &lt;span class="notranslate"&gt;Live API&lt;/span&gt; you can
 &lt;a href="/docs/ai-logic/live-api"&gt;build low-latency, two-way interactions&lt;/a&gt;
