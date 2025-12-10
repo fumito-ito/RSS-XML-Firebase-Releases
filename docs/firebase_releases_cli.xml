@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 09 Dec 2025 21:13:55 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 10 Dec 2025 01:19:32 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -1851,4 +1851,125 @@ for app idea description.
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v2.15.0, which changes
 Dart SDKs to use &lt;code dir="ltr" translate="no"&gt;Object.hashAll()&lt;/code&gt; in generated objects.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9291"&gt;#9291&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.21.0 - October 22, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14210_-_october_22_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a command &lt;code dir="ltr" translate="no"&gt;firebase firestore:databases:clone&lt;/code&gt; to clone a
+&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; database.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9262"&gt;#9262&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added JSON format support for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; secrets with
+&lt;code dir="ltr" translate="no"&gt;--format json&lt;/code&gt; flag and auto-detection from file extensions.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/1745"&gt;#1745&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;firebase dataconnect:sdk:generate&lt;/code&gt; will run
+&lt;code dir="ltr" translate="no"&gt;init dataconnect:sdk&lt;/code&gt; automatically if no SDKs are configured.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9325"&gt;#9325&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Tightened &lt;code dir="ltr" translate="no"&gt;--only&lt;/code&gt; filter resolution for functions deployment to
+prefer codebase names.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9353"&gt;#9353&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator would
+attempt to export data when &lt;code dir="ltr" translate="no"&gt;FIREBASE_DATACONNECT_POSTGRESQL_STRING&lt;/code&gt; is set.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9330"&gt;#9330&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;functions.disallowLegacyRuntimeConfig&lt;/code&gt; option to
+&lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt; to optionally skip fetching legacy Runtime Config during function
+deploys.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9354"&gt;#9354&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.15.1 of the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator, which
+includes internal improvements.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9366"&gt;#9366&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; Dart SDK's default import path to
+import 'dataconnect_generated/generated.dart'.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9365"&gt;#9365&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.22.0 - October 23, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14220_-_october_23_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;hosting&lt;/code&gt; to the &lt;code dir="ltr" translate="no"&gt;firebase_init&lt;/code&gt; MCP tool.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9375"&gt;#9375&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Reverted logic to abort function deploys in non-interactive mode
+when secrets are missing.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9378"&gt;#9378&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.23.0 - October 30, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14230_-_october_30_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the &lt;code dir="ltr" translate="no"&gt;__name__&lt;/code&gt; normalization of vector indexes for
+&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; standard edition databases.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the emulator would fail to start when using
+&lt;code dir="ltr" translate="no"&gt;firebase-functions&lt;/code&gt; v7+.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9401"&gt;#9401&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;functions.list_functions&lt;/code&gt; as an MCP tool.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9369"&gt;#9369&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; to &lt;code dir="ltr" translate="no"&gt;firebase init&lt;/code&gt; CLI command and
+&lt;code dir="ltr" translate="no"&gt;firebase_init&lt;/code&gt; MCP tool.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9185"&gt;#9185&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Improved error messages for &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; provisioning
+during &lt;code dir="ltr" translate="no"&gt;firebase init&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9377"&gt;#9377&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;init hosting&lt;/code&gt; failed to prompt for the public
+directory and set up &lt;span class="notranslate"&gt;Hosting&lt;/span&gt; files.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9403"&gt;#9403&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;appdistribution:testcases:export&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;appdistribution:testcases:import&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9397"&gt;#9397&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.16.0 of the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator, which
+includes internal improvements.
+&lt;ul&gt;
+&lt;li&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; now allows executing a valid query / operation even if
+the other operations are invalid. (This toleration provides convenience on a
+best-effort basis. Some errors like invalid syntax can still cause the whole
+request to be rejected.)&lt;/li&gt;
+&lt;li&gt;Fixed enum list deserialization in &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; generated Dart
+SDKs.&lt;/li&gt;
+&lt;li&gt;Added GraphQL &lt;code dir="ltr" translate="no"&gt;__typename&lt;/code&gt; support in &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Support enum values in &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; CEL expressions.&lt;/li&gt;
+&lt;li&gt;Support &lt;code dir="ltr" translate="no"&gt;_id&lt;/code&gt;, a global ID field in &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v0.8.17 of the Pub/Sub emulator, which includes
+vulnerability fixes.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.24.0 - November 05, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14240_-_november_05_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added 2nd gen &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; triggers to &lt;code dir="ltr" translate="no"&gt;firebase deploy&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9394"&gt;#9394&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upgraded &lt;code dir="ltr" translate="no"&gt;@google-cloud/pubsub&lt;/code&gt; to v5.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9428"&gt;#9428&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.17.0 of the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator, which
+includes internal improvements and now supports Generated Admin SDKs.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9430"&gt;#9430&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.24.1 - November 07, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14241_-_november_07_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where MCP server was blocked by &lt;code dir="ltr" translate="no"&gt;console.log&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.24.2 - November 08, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14242_-_november_08_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where MCP server would crash with &lt;code dir="ltr" translate="no"&gt;'googleapis' is not available&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9443"&gt;#9443&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.25.0 - November 15, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14250_-_november_15_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for running &lt;code dir="ltr" translate="no"&gt;firebase-tools&lt;/code&gt; on Node 24.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated superstatic to v10.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash during parallel deployments when &lt;code dir="ltr" translate="no"&gt;buildConfig&lt;/code&gt; is empty.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9455"&gt;#9455&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for new google-genai plugin during &lt;code dir="ltr" translate="no"&gt;init genkit&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8957"&gt;#8957&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.17.1 of the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator, which
+fixes an admin SDK bug for operation without argument
+&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9449"&gt;#9449&lt;/a&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9454"&gt;#9454&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed "Precondition failed" error when updating &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;
+functions in a FAILED state without code changes.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.25.1 - November 18, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14251_-_november_18_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that was causing the MCP server to fail to start when
+run from directories with deeply nested children.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.26.0 - November 24, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14260_-_november_24_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for nodejs24 runtime for
+&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9475"&gt;#9475&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;code dir="ltr" translate="no"&gt;firebase init functions&lt;/code&gt; template to use
+&lt;code dir="ltr" translate="no"&gt;firebase-functions&lt;/code&gt; 7.0.0.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9496"&gt;#9496&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.17.2 of the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator, which
+fixes a bug with handling of optional enum lists in generated Flutter SDKs.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9391"&gt;#9391&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.27.0 - December 03, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14270_-_december_03_2025</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where MCP server didn't detect if iOS app uses
+&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; in projects that use project.pbxproj.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9515"&gt;#9515&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added logic to synchronize scheduled function timeout in
+Cloud Functions (2nd gen) with Cloud Scheduler's attempt deadline.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9544"&gt;#9544&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Prevented deployments of Next.js apps vulnerable to CVE-2025-66478.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9572"&gt;#9572&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v2.17.3:
+&lt;ul&gt;
+&lt;li&gt;Fixed Swift codegen: Include FirebaseCore import in the connector keys file.&lt;/li&gt;
+&lt;li&gt;Fixed a bug where debug details of Internal errors were not shown.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9508"&gt;#9508&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
