@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 12 Dec 2025 15:18:41 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 12 Dec 2025 18:26:37 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6129,31 +6129,7 @@ is now available. This version fixes an issue with MCP server and includes
 other improvements and fixes.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate></item><item><title>December 10, 2025</title><link>https://firebase.google.com/support/releases#december_10_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-only-native-audio-live-models" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; For &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt; implementations, make sure that your app
-uses one of the &lt;em&gt;native audio&lt;/em&gt; models. All other &lt;span class="notranslate"&gt;Live API&lt;/span&gt; models are now
-retired. Here are the currently available model names:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.5-flash-native-audio-preview-09-2025&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;gemini-live-2.5-flash-preview-native-audio-09-2025&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;When using the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, the &lt;span class="notranslate"&gt;Live API&lt;/span&gt; models
-are &lt;em&gt;only&lt;/em&gt; available in the &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt; location.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Note that the native audio models always &lt;em&gt;&lt;strong&gt;require audio input&lt;/strong&gt;&lt;/em&gt; (along with
-&lt;em&gt;optional additional&lt;/em&gt; modalities of input), and they always
-&lt;em&gt;&lt;strong&gt;respond with audio output&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;You can
-&lt;a href="/docs/ai-logic/live-api"&gt;use the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt; via &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;
-to build low-latency, real-time voice and video interactions, including
-adding &lt;a href="/docs/ai-logic/live-api/configuration#transcriptions"&gt;text transcriptions&lt;/a&gt;
-of audio input and output.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_2" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate></item><item><title>December 10, 2025</title><link>https://firebase.google.com/support/releases#december_10_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_2" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#12.7.0"&gt;Firebase Apple SDK (v12.7.0)&lt;/a&gt;
 is now available. For more details, see the
@@ -6169,4 +6145,30 @@ To get started with Firebase in Android, see
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v34.7.0. Learn how to
 &lt;a href="/docs/android/learn-more#bom"&gt;add SDKs to your app using the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate></item><item><title>December 12, 2025</title><link>https://firebase.google.com/support/releases#december_12_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-only-native-audio-live-models" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; For &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt; implementations, make sure that your app
+uses one of the &lt;em&gt;native audio&lt;/em&gt; models. All other &lt;span class="notranslate"&gt;Live API&lt;/span&gt; models are now
+retired. Here are the most currently available model names:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.5-flash-native-audio-preview-12-2025&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Even though this is a preview model, it's available on the "free tier"
+of the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code dir="ltr" translate="no"&gt;gemini-live-2.5-flash-native-audio&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;When using the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, the &lt;span class="notranslate"&gt;Live API&lt;/span&gt; models
+are &lt;em&gt;not&lt;/em&gt; supported in the &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt; location.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note that the native audio models always &lt;em&gt;&lt;strong&gt;require audio input&lt;/strong&gt;&lt;/em&gt; (along with
+&lt;em&gt;optional additional&lt;/em&gt; modalities of text or video input), and they always
+&lt;em&gt;&lt;strong&gt;respond with audio output&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;You can
+&lt;a href="/docs/ai-logic/live-api"&gt;use the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt; via &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;
+to build low-latency, real-time voice and video interactions, including
+adding &lt;a href="/docs/ai-logic/live-api/configuration#transcriptions"&gt;text transcriptions&lt;/a&gt;
+of audio input and output.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate></item></channel></rss>
