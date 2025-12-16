@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 16 Dec 2025 12:37:13 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 16 Dec 2025 15:20:10 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -652,10 +652,8 @@ app is experiencing issues or you simply want to learn more, check
 &lt;/ul&gt;</description><pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate></item><item><title>September 21, 2022</title><link>https://firebase.google.com/support/releases#september_21_2022</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics-dsym-alerts" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; When your Apple platform app is missing a required dSYM file, you
 can now be notified via
-&lt;a class="external" href="https://support.google.com/firebase/answer/7276542"&gt;email&lt;/a&gt;,
-&lt;a class="external" href="https://support.google.com/firebase/answer/9005934"&gt;Slack&lt;/a&gt;,
-&lt;a class="external" href="https://support.google.com/firebase/answer/9118259"&gt;Jira&lt;/a&gt;, or
-&lt;a class="external" href="https://support.google.com/firebase/answer/9168499"&gt;PagerDuty&lt;/a&gt;.
+&lt;a class="external" href="https://support.google.com/firebase/answer/7276542"&gt;email&lt;/a&gt; or
+via &lt;a href="/docs/crashlytics/alerts-basic-integrations"&gt;Slack, Jira, or PagerDuty&lt;/a&gt;
 To configure how you receive this alert, visit your
 &lt;a class="external" href="https://firebase.google.com/project/_/settings/integrations"&gt;project integrations settings&lt;/a&gt; 
 in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console.&lt;/li&gt;
@@ -759,16 +757,14 @@ and check out an
 third-party services using &lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt;. For example, you can
 write a function that captures an alert event for velocity alerts and posts
 the alert information to a third-party service, like Discord, Slack, or Jira.&lt;/p&gt;
-&lt;p&gt;In comparison to the console-configured integrations with
-&lt;a class="external" href="https://support.google.com/firebase/answer/9005934"&gt;Slack&lt;/a&gt;,
-&lt;a class="external" href="https://support.google.com/firebase/answer/9118259"&gt;Jira&lt;/a&gt;, or
-&lt;a class="external" href="https://support.google.com/firebase/answer/9168499"&gt;PagerDuty&lt;/a&gt;,
+&lt;p&gt;In comparison to the
+&lt;a href="/docs/crashlytics/alerts-basic-integrations"&gt;console-configured integrations with Slack, Jira, and PagerDuty&lt;/a&gt;
 with this advanced alerting mechanism you can fully customize the
 information sent to the third-party service. For example, you can include
 custom fields, helpful deep-links into the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console, or add
 company-specific troubleshooting information.&lt;/p&gt;
 &lt;p&gt;To learn more about advanced alerts, see
-&lt;a href="/docs/crashlytics/velocity-alerts#advanced-alerts-3p"&gt;Set up advanced alerting to third-party services&lt;/a&gt;,
+&lt;a href="/docs/crashlytics/alerts#advanced"&gt;Set up advanced alerting to third-party services&lt;/a&gt;,
 and check out an
 &lt;a href="/docs/functions/beta/alert-events#handle-crashlytics-alerts"&gt;example of handling a &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; alert event&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore-client-side-indexing" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
