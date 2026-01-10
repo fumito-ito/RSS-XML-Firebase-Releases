@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 09 Jan 2026 21:17:30 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 10 Jan 2026 01:19:48 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6188,7 +6188,24 @@ and bug fixes in &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#12.7.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate></item><item><title>December 18, 2025</title><link>https://firebase.google.com/support/releases#december_18_2025</link><description>&lt;h3 data-text="Firebase CLI (v15.1.0)" id="cli-v15.1.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.1.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate></item><item><title>December 18, 2025</title><link>https://firebase.google.com/support/releases#december_18_2025</link><description>&lt;h3 data-text="Gemini API" id="gemini-2-0-models-retiring-march-2026" tabindex="-1"&gt;Gemini API&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; models
+will be retired soon. These dates are applicable to both the
+&lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; (Google AI) and the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.0-flash-001&lt;/code&gt; (and its auto-updated alias &lt;code dir="ltr" translate="no"&gt;gemini-2.0-flash&lt;/code&gt;)&lt;br/&gt;
+&lt;code dir="ltr" translate="no"&gt;gemini-2.0-flash-lite-001&lt;/code&gt; (and its auto-updated alias&lt;code dir="ltr" translate="no"&gt;gemini-2.0-flash-lite&lt;/code&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;February 6, 2026: These models will no longer be available for use in
+projects that had no prior usage of the model.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;March 3, 2026: These models will be retired.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note that stable &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt; 2.0 models are not impacted.&lt;/p&gt;
+&lt;p&gt;If you use these models with &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; or with &lt;span class="notranslate"&gt;Genkit&lt;/span&gt;, make
+sure to &lt;strong&gt;update to a newer model (like &lt;code dir="ltr" translate="no"&gt;gemini-2.5-flash-lite&lt;/code&gt;) to avoid
+service disruption&lt;/strong&gt;.
+Retired models are no longer accessible or supported by Google, and a request
+using a retired model name returns a 404 error.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v15.1.0)" id="cli-v15.1.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.1.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#15.1.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.1.0)&lt;/a&gt;
 is now available. This version updates the default Postgres version for
