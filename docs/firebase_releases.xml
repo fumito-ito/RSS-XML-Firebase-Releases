@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 28 Jan 2026 12:41:04 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 28 Jan 2026 15:28:23 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6282,14 +6282,7 @@ To install this SDK, see
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#13.4.0"&gt;Firebase SDK for C++
 (v13.4.0)&lt;/a&gt; is now available.
 This release includes miscellaneous changes and fixes.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate></item><item><title>January 22, 2026</title><link>https://firebase.google.com/support/releases#january_22_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.4.0)" id="cli-v15.4.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.4.0)&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
-&lt;a href="/support/release-notes/cli#15.4.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.4.0)&lt;/a&gt; is now
-available. This version fixes an issue causing crashes in the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;
-emulator and updates it to v3.1.0.&lt;/p&gt;
-&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
-&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="ai-logic-thinking-levels" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate></item><item><title>January 22, 2026</title><link>https://firebase.google.com/support/releases#january_22_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-thinking-levels" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now supports setting
 &lt;a href="/docs/ai-logic/thinking#thinking-levels"&gt;&lt;em&gt;thinking levels&lt;/em&gt;&lt;/a&gt; for all
 &lt;span class='\"notranslate\"'&gt;Gemini 3&lt;/span&gt; models. This configuration lets you control how much the
@@ -6301,8 +6294,24 @@ create and run tests based on natural language prompts that you provide. The
 agent will now cache and replay actions from previously successful test runs
 in future test runs to improve test repeatability. For more information, see
 &lt;a href="/docs/app-distribution/android/app-testing-agent"&gt;App Testing agent&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v15.4.0)" id="cli-v15.4.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.4.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.4.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.4.0)&lt;/a&gt; is now
+available. This version fixes an issue causing crashes in the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;
+emulator and updates it to v3.1.0.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#13.7.0"&gt;Firebase SDK for Unity
 (v13.7.0)&lt;/a&gt; is now available. This
 release includes new features in Firebase AI and miscellaneous changes.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate></item><item><title>January 26, 2026</title><link>https://firebase.google.com/support/releases#january_26_2026</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics-export-to-cloud-logging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now export your &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; data and (optionally)
+Firebase sessions data to &lt;span class="notranslate"&gt;Cloud Logging&lt;/span&gt;. Once the data is exported, it's
+also available to the full &lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Google Cloud&lt;/span&gt; Observability Suite&lt;/span&gt;, where you can filter your logs, build
+custom dashboards, set up custom alerts, and even export the data to other
+services. Learn more about how to
+&lt;a href="/docs/crashlytics/cloud-logging-export"&gt;set up export&lt;/a&gt; and check out a
+comprehensive list of
+&lt;a href="/docs/crashlytics/cloud-logging-what-can-you-do"&gt;what you can do with the exported data&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate></item></channel></rss>
