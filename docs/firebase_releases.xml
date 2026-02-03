@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 02 Feb 2026 18:37:34 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 03 Feb 2026 01:51:11 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6314,7 +6314,21 @@ services. Learn more about how to
 &lt;a href="/docs/crashlytics/cloud-logging-export"&gt;set up export&lt;/a&gt; and check out a
 comprehensive list of
 &lt;a href="/docs/crashlytics/cloud-logging-what-can-you-do"&gt;what you can do with the exported data&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate></item><item><title>January 29, 2026</title><link>https://firebase.google.com/support/releases#january_29_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate></item><item><title>January 29, 2026</title><link>https://firebase.google.com/support/releases#january_29_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.5.1)" id="cli-v15.5.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.5.1)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.5.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.5.1)&lt;/a&gt; is now
+available. This version fixes an issue causing deployment errors.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v15.5.0)" id="cli-v15.5.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.5.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.5.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.5.0)&lt;/a&gt; is now
+available. This version adds the &lt;code dir="ltr" translate="no"&gt;firebase dataconnect:compile&lt;/code&gt; command, adds
+support for new &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; database creation flags, and includes several
+fixes and improvements.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/java#9.7.1"&gt;Firebase Admin Java SDK (v9.7.1)&lt;/a&gt;
 is now available. This release comes with a fix in the &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;
 API.
