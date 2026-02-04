@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-node</title><link>https://firebase.google.com/support/release-notes/admin/node</link><description>Latest updates and release notes for Firebase Admin-node.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 04 Feb 2026 18:42:36 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_400_-_november_7_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-node</title><link>https://firebase.google.com/support/release-notes/admin/node</link><description>Latest updates and release notes for Firebase Admin-node.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 04 Feb 2026 21:29:23 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_400_-_november_7_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Admin Node.js SDK (available on npm as &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt;) is a
 new SDK which replaces and expands the admin capabilities of the standard
 &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; npm module. See
@@ -996,7 +996,7 @@ To &lt;a href="https://firebase.google.com/docs/cloud-messaging/send-topic-messa
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; server applications. This feature lets you send custom
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; parameter values to specific clients based on
 the conditions you define.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 12.6.0 - 30 September, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1260_-_30_september_2024</link><description>&lt;h3 data-text="Firebase Data Connect" id="firebase-data-connect_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.6.0 - 30 September, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1260_-_30_september_2024</link><description>&lt;h3 data-text="Firebase Data Connect" id="firebase-data-connect_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the new &lt;code dir="ltr" translate="no"&gt;executeGraphql()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;executeGraphqlRead()&lt;/code&gt; APIs
 to perform administrative queries and mutations on a &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;
 service.&lt;/p&gt;&lt;/li&gt;
@@ -1053,7 +1053,7 @@ used in these flows. As part of this change,
 segments is equal to the max allowed segments.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for exporting a serialized config response from the
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; server side SDK.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase Data Connect" id="firebase-data-connect_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase Data Connect" id="firebase-data-connect_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that was causing credential lookup errors when
 connecting to the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; impersonation which
@@ -1068,7 +1068,7 @@ enqueueing tasks in emulator.&lt;/li&gt;
 sending messages using HTTP/2.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Unwrapped aggregated HTTP/2 session errors to surface the sub errors
 which caused them.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.4.0 - 12 May, 2025</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1340_-_12_may_2025</link><description>&lt;h3 data-text="Firebase Data Connect" id="firebase-data-connect_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.4.0 - 12 May, 2025</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1340_-_12_may_2025</link><description>&lt;h3 data-text="Firebase Data Connect" id="firebase-data-connect_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a specialized interface for bulk data operations,
 which exposes dedicated methods for
 mutation operations: &lt;code dir="ltr" translate="no"&gt;insert&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;insertMany&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;upsert&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;upsertMany&lt;/code&gt;.&lt;/li&gt;
@@ -1083,11 +1083,18 @@ a different configuration.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Support &lt;code dir="ltr" translate="no"&gt;liveActivityToken&lt;/code&gt; field in FCM &lt;code dir="ltr" translate="no"&gt;ApnsConfig&lt;/code&gt; type. Thanks
 &lt;a href="https://github.com/janodetzel"&gt;janodetzel&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-node/pull/2891"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.6.0 - 05 November, 2025</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1360_-_05_november_2025</link><description>&lt;h3 data-text="Firebase Data Connect" id="firebase-data-connect" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.6.0 - 05 November, 2025</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1360_-_05_november_2025</link><description>&lt;h3 data-text="Firebase Data Connect" id="firebase-data-connect_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; APIs to use the &lt;code dir="ltr" translate="no"&gt;v1&lt;/code&gt; service
 endpoint instead of the &lt;code dir="ltr" translate="no"&gt;v1alpha&lt;/code&gt; endpoint.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the new &lt;code dir="ltr" translate="no"&gt;executeQuery()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;executeMutation()&lt;/code&gt; APIs
 allowing for the execution of &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; operations defined in
 GraphQL files. Additionally, you can generate a &lt;a href="/docs/data-connect/generate-admin-sdk"&gt;type-safe generated SDK&lt;/a&gt; for
 these GraphQL operations.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.6.1 - 04 February, 2026</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1361_-_04_february_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential Regular Expression Denial of Service (ReDoS)
+vulnerability by replacing Regular Expression based URL validation with
+the built-in URL constructor.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase Data Connect" id="firebase-data-connect" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused incorrect
+serialization of strings with special characters in mutation operations.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
