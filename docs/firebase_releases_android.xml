@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 14 Feb 2026 15:21:29 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 14 Feb 2026 18:29:06 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -3611,13 +3611,13 @@ that occurred when using Android Gradle Plugin 4.2.0.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Check version 16.0.0-beta01" id="appcheck_v16-0-0-beta01" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 16.0.0-beta01&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial beta release of the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK with abuse reduction
 features.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 16.0.0-beta01" id="appcheck-debug_v16-0-0-beta01" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 16.0.0-beta01&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial beta release of the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug SDK with abuse
 reduction features.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 16.0.0-beta01" id="appcheck-debug-testing_v16-0-0-beta01" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 16.0.0-beta01&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial beta release of the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing SDK with
 abuse reduction features.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check SafetyNet version 16.0.0-beta01" id="appcheck-safetynet_v16-0-0-beta01" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; SafetyNet version 16.0.0-beta01&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial beta release of the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SafetyNet SDK with abuse
 reduction features.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Indexing version 20.0.0" id="app-indexing_v20-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Indexing&lt;/span&gt; version 20.0.0&lt;/h3&gt;&lt;ul&gt;
@@ -3819,17 +3819,17 @@ updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 18.1.0" id="crashlyt
 &lt;a href="/docs/reference/android/com/google/firebase/appcheck/FirebaseAppCheck.AppCheckListener"&gt;&lt;code dir="ltr" translate="no"&gt;AppCheckTokenListener&lt;/code&gt;&lt;/a&gt;,
 and associated setters and removers for developers to request and observe
 changes to the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; token.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 16.0.0-beta02" id="appcheck-debug_v16-0-0-beta02" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 16.0.0-beta02&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;a href="/docs/reference/android/com/google/firebase/appcheck/FirebaseAppCheck#getAppCheckToken(boolean)"&gt;&lt;code dir="ltr" translate="no"&gt;getAppCheckToken()&lt;/code&gt;&lt;/a&gt;,
 &lt;a href="/docs/reference/android/com/google/firebase/appcheck/FirebaseAppCheck.AppCheckListener"&gt;&lt;code dir="ltr" translate="no"&gt;AppCheckTokenListener&lt;/code&gt;&lt;/a&gt;,
 and associated setters and removers for developers to request and observe
 changes to the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; token.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 16.0.0-beta02" id="appcheck-debug-testing_v16-0-0-beta02" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 16.0.0-beta02&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;a href="/docs/reference/android/com/google/firebase/appcheck/FirebaseAppCheck#getAppCheckToken(boolean)"&gt;&lt;code dir="ltr" translate="no"&gt;getAppCheckToken()&lt;/code&gt;&lt;/a&gt;,
 &lt;a href="/docs/reference/android/com/google/firebase/appcheck/FirebaseAppCheck.AppCheckListener"&gt;&lt;code dir="ltr" translate="no"&gt;AppCheckTokenListener&lt;/code&gt;&lt;/a&gt;,
 and associated setters and removers for developers to request and observe
 changes to the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; token.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check SafetyNet version 16.0.0-beta02" id="appcheck-safetynet_v16-0-0-beta02" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; SafetyNet version 16.0.0-beta02&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;a href="/docs/reference/android/com/google/firebase/appcheck/FirebaseAppCheck#getAppCheckToken(boolean)"&gt;&lt;code dir="ltr" translate="no"&gt;getAppCheckToken()&lt;/code&gt;&lt;/a&gt;,
 &lt;a href="/docs/reference/android/com/google/firebase/appcheck/FirebaseAppCheck.AppCheckListener"&gt;&lt;code dir="ltr" translate="no"&gt;AppCheckTokenListener&lt;/code&gt;&lt;/a&gt;,
 and associated setters and removers for developers to request and observe
@@ -3932,13 +3932,13 @@ on devices without Google Play services.&lt;/li&gt;
 updates.&lt;/p&gt;&lt;h3 data-text="App Check version 16.0.0-beta03" id="appcheck_v16-0-0-beta03" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 16.0.0-beta03&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;X-Android-Package&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;X-Android-Cert&lt;/code&gt; request headers to
 &lt;span class="notranslate"&gt;App Check&lt;/span&gt; network calls.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 16.0.0-beta03" id="appcheck-debug_v16-0-0-beta03" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 16.0.0-beta03&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;X-Android-Package&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;X-Android-Cert&lt;/code&gt; request headers to
 &lt;span class="notranslate"&gt;App Check&lt;/span&gt; network calls.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 16.0.0-beta03" id="appcheck-debug-testing_v16-0-0-beta03" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 16.0.0-beta03&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;X-Android-Package&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;X-Android-Cert&lt;/code&gt; request headers to
 &lt;span class="notranslate"&gt;App Check&lt;/span&gt; network calls.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check SafetyNet version 16.0.0-beta03" id="appcheck-safetynet_v16-0-0-beta03" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; SafetyNet version 16.0.0-beta03&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;X-Android-Package&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;X-Android-Cert&lt;/code&gt; request headers to
 &lt;span class="notranslate"&gt;App Check&lt;/span&gt; network calls.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 23.0.4" id="firestore_v23-0-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 23.0.4&lt;/h3&gt;&lt;ul&gt;
@@ -4040,15 +4040,15 @@ additional updates.&lt;/p&gt;</description></item><item><title>Update - November
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved error handling logic by minimizing the amount of requests
 that are unlikely to succeed.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed heartbeat reporting.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 16.0.0-beta04" id="appcheck-debug_v16-0-0-beta04" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 16.0.0-beta04&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved error handling logic by minimizing the amount of requests
 that are unlikely to succeed.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed heartbeat reporting.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 16.0.0-beta04" id="appcheck-debug-testing_v16-0-0-beta04" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 16.0.0-beta04&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved error handling logic by minimizing the amount of requests
 that are unlikely to succeed.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed heartbeat reporting.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check SafetyNet version 16.0.0-beta04" id="appcheck-safetynet_v16-0-0-beta04" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; SafetyNet version 16.0.0-beta04&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved error handling logic by minimizing the amount of requests
 that are unlikely to succeed.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed heartbeat reporting.&lt;/p&gt;&lt;/li&gt;
@@ -4369,11 +4369,11 @@ results measurement to improve ecommerce reporting.&lt;/p&gt;&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;firebase-analytics&lt;/code&gt; library. The Kotlin extensions library has no
 additional updates.&lt;/p&gt;&lt;h3 data-text="App Check version 16.0.0-beta05" id="appcheck_v16-0-0-beta05" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 16.0.0-beta05&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 16.0.0-beta05" id="appcheck-debug_v16-0-0-beta05" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 16.0.0-beta05&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 16.0.0-beta05" id="appcheck-debug-testing_v16-0-0-beta05" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 16.0.0-beta05&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check SafetyNet version 16.0.0-beta05" id="appcheck-safetynet_v16-0-0-beta05" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; SafetyNet version 16.0.0-beta05&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication version 21.0.3" id="auth_v21-0-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; version 21.0.3&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Started to collect the
@@ -4395,13 +4395,13 @@ completes.&lt;/p&gt;&lt;/li&gt;
 updates.&lt;/p&gt;</description></item><item><title>Update - April 14, 2022</title><link>https://firebase.google.com/support/release-notes/android#2022-04-14</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 29.3.1" id="bom_v29-3-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 29.3.1&lt;/h3&gt;&lt;h3 data-text="App Check version 16.0.0-beta06" id="appcheck_v16-0-0-beta06" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 16.0.0-beta06&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug in the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; token refresh flow when using a
 custom provider.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 16.0.0-beta06" id="appcheck-debug_v16-0-0-beta06" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 16.0.0-beta06&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug in the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; token refresh flow when using a
 custom provider.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 16.0.0-beta06" id="appcheck-debug-testing_v16-0-0-beta06" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 16.0.0-beta06&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug in the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; token refresh flow when using a
 custom provider.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check SafetyNet version 16.0.0-beta06" id="appcheck-safetynet_v16-0-0-beta06" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; SafetyNet version 16.0.0-beta06&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug in the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; token refresh flow when using a
 custom provider.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution version 16.0.0-beta02" id="app-distro_v16-0-0-beta02" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; version 16.0.0-beta02&lt;/h3&gt;&lt;ul&gt;
@@ -4468,17 +4468,17 @@ use.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for
 &lt;a href="https://developer.android.com/google/play/integrity"&gt;Play Integrity&lt;/a&gt; as an
 attestation provider.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 16.0.0" id="appcheck-debug_v16-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 16.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Check&lt;/span&gt; has exited beta and is now generally available for
 use.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 16.0.0" id="appcheck-debug-testing_v16-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 16.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Check&lt;/span&gt; has exited beta and is now generally available for
 use.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Play Integrity version 16.0.0" id="appcheck-playintegrity_v16-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play Integrity version 16.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for
 &lt;a href="https://developer.android.com/google/play/integrity"&gt;Play Integrity&lt;/a&gt; as an
 attestation provider.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check SafetyNet version 16.0.0" id="appcheck-safetynet_v16-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; SafetyNet version 16.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Check&lt;/span&gt; has exited beta and is now generally available for
 use.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 24.1.2" id="firestore_v24-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 24.1.2&lt;/h3&gt;&lt;ul&gt;
@@ -4692,13 +4692,13 @@ would rapidly retry DNS lookups whenever it fails.&lt;/p&gt;&lt;/li&gt;
 updates.&lt;/p&gt;&lt;h3 data-text="App Check version 16.0.1" id="appcheck_v16-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 16.0.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated dependency of &lt;code dir="ltr" translate="no"&gt;play-services-basement&lt;/code&gt; to its latest
 version (v18.1.0).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 16.0.1" id="appcheck-debug_v16-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 16.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated dependency of &lt;code dir="ltr" translate="no"&gt;play-services-basement&lt;/code&gt; to its latest
 version (v18.1.0).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 16.0.1" id="appcheck-debug-testing_v16-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 16.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated dependency of &lt;code dir="ltr" translate="no"&gt;play-services-basement&lt;/code&gt; to its latest
 version (v18.1.0).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check SafetyNet version 16.0.1" id="appcheck-safetynet_v16-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; SafetyNet version 16.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated dependency of &lt;code dir="ltr" translate="no"&gt;play-services-basement&lt;/code&gt; to its latest
 version (v18.1.0).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication version 21.0.8" id="auth_v21-0-8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; version 21.0.8&lt;/h3&gt;&lt;ul&gt;
@@ -4788,7 +4788,7 @@ updates.&lt;/p&gt;&lt;h3 data-text="Remote Config version 21.1.2" id="remote-con
 version (v18.1.0).&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-config&lt;/code&gt; library. The Kotlin extensions library has no additional
-updates.&lt;/p&gt;</description></item><item><title>Update - September 06, 2022</title><link>https://firebase.google.com/support/release-notes/android#2022-09-06</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 30.4.1" id="bom_v30-4-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 30.4.1&lt;/h3&gt;&lt;h3 data-text="App Check Play Integrity version 16.0.1" id="appcheck-playintegrity_v16-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play Integrity version 16.0.1&lt;/h3&gt;&lt;ul&gt;
+updates.&lt;/p&gt;</description></item><item><title>Update - September 06, 2022</title><link>https://firebase.google.com/support/release-notes/android#2022-09-06</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 30.4.1" id="bom_v30-4-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 30.4.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated dependency of &lt;code dir="ltr" translate="no"&gt;play-services-basement&lt;/code&gt; to its latest
 version (v18.1.0).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Update - September 15, 2022</title><link>https://firebase.google.com/support/release-notes/android#2022-09-15</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 30.5.0" id="bom_v30-5-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 30.5.0&lt;/h3&gt;&lt;h3 data-text="App Check version 16.0.2" id="appcheck_v16-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 16.0.2&lt;/h3&gt;&lt;ul&gt;
@@ -4799,16 +4799,16 @@ extensions library.&lt;/li&gt;
 is now available. The Kotlin extensions library transitively includes the base
 &lt;code dir="ltr" translate="no"&gt;firebase-appcheck&lt;/code&gt; library. To learn more, visit the
 &lt;a href="/docs/reference/kotlin/com/google/firebase/appcheck/ktx/package-summary"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; KTX documentation&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 16.0.2" id="appcheck-debug_v16-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 16.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to accommodate the release of the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; Kotlin
 extensions library.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 16.0.2" id="appcheck-debug-testing_v16-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 16.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to accommodate the release of the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; Kotlin
 extensions library.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Play Integrity version 16.0.2" id="appcheck-playintegrity_v16-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play Integrity version 16.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to accommodate the release of the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; Kotlin
 extensions library.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check SafetyNet version 16.0.2" id="appcheck-safetynet_v16-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; SafetyNet version 16.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to accommodate the release of the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; Kotlin
 extensions library.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution API version 16.0.0-beta04" id="app-distro-api_v16-0-0-beta04" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; API version 16.0.0-beta04&lt;/h3&gt;&lt;ul&gt;
@@ -4869,16 +4869,16 @@ to &lt;code dir="ltr" translate="no"&gt;firebase-appcheck-ktx&lt;/code&gt; as a 
 &lt;code dir="ltr" translate="no"&gt;Task&amp;lt;T&amp;gt;.await()&lt;/code&gt; suspend function to convert a
 &lt;a href="https://developers.google.com/android/guides/tasks"&gt;&lt;code dir="ltr" translate="no"&gt;Task&lt;/code&gt;&lt;/a&gt; into a Kotlin
 coroutine.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 16.1.0" id="appcheck-debug_v16-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 16.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to accommodate the release of the updated
 &lt;span class="notranslate"&gt;App Check&lt;/span&gt; Kotlin extensions library.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 16.1.0" id="appcheck-debug-testing_v16-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 16.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to accommodate the release of the updated
 &lt;span class="notranslate"&gt;App Check&lt;/span&gt; Kotlin extensions library.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Play integrity version 16.1.0" id="appcheck-playintegrity_v16-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play integrity version 16.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to accommodate the release of the updated
 &lt;span class="notranslate"&gt;App Check&lt;/span&gt; Kotlin extensions library.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Safetynet version 16.1.0" id="appcheck-safetynet_v16-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Safetynet version 16.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to accommodate the release of the updated
 &lt;span class="notranslate"&gt;App Check&lt;/span&gt; Kotlin extensions library.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution version 16.0.0-beta05" id="app-distro_v16-0-0-beta05" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; version 16.0.0-beta05&lt;/h3&gt;&lt;ul&gt;
@@ -5174,7 +5174,7 @@ and
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/4453"&gt;#4453&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-appcheck&lt;/code&gt; library. The Kotlin extensions library has no additional
-updates.&lt;/p&gt;&lt;h3 data-text="App Check Debug version 16.1.1" id="appcheck-debug_v16-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 16.1.1&lt;/h3&gt;&lt;ul&gt;
+updates.&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Migrated &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDKs to use standard Firebase executors.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/4431"&gt;#4431&lt;/a&gt; 
 and
@@ -5183,11 +5183,11 @@ and
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/4436"&gt;#4436&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Moved Task continuations off the main thread.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/4453"&gt;#4453&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 16.1.1" id="appcheck-debug-testing_v16-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 16.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Integrated the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing SDK with Firebase
 components.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/4436"&gt;#4436&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Play integrity version 16.1.1" id="appcheck-playintegrity_v16-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play integrity version 16.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Migrated &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDKs to use standard Firebase executors.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/4431"&gt;#4431&lt;/a&gt; 
 and
@@ -5197,7 +5197,7 @@ components.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/4436"&gt;#4436&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Moved Task continuations off the main thread.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/4453"&gt;#4453&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check SafetyNet version 16.1.1" id="appcheck-safetynet_v16-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; SafetyNet version 16.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Migrated &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDKs to use standard Firebase executors.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/4431"&gt;#4431&lt;/a&gt; 
 and
@@ -5310,13 +5310,13 @@ updates.&lt;/p&gt;</description></item><item><title>Update - March 02, 2023</tit
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-appcheck&lt;/code&gt; library. The Kotlin extensions library has no additional
-updates.&lt;/p&gt;&lt;h3 data-text="App Check Debug version 16.1.2" id="appcheck-debug_v16-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 16.1.2&lt;/h3&gt;&lt;ul&gt;
+updates.&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 16.1.2" id="appcheck-debug-testing_v16-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 16.1.2&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Play integrity version 16.1.2" id="appcheck-playintegrity_v16-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play integrity version 16.1.2&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check SafetyNet version 16.1.2" id="appcheck-safetynet_v16-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; SafetyNet version 16.1.2&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Added deprecation tagging to the
 &lt;code dir="ltr" translate="no"&gt;SafetyNetAppCheckProviderFactory&lt;/code&gt; class.
 (&lt;a href="//github.com/firebase/firebase-android-sdk/issues/4686"&gt;GitHub Issue #4686&lt;/a&gt;)&lt;/li&gt;
@@ -5471,11 +5471,11 @@ specific type.&lt;/li&gt;
 for obtaining limited-use tokens for protecting non-Firebase backends.&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-appcheck&lt;/code&gt; library. The Kotlin extensions library has no additional
-updates.&lt;/p&gt;&lt;h3 data-text="App Check Debug version 17.0.0" id="appcheck-debug_v17-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 17.0.0&lt;/h3&gt;&lt;ul&gt;
+updates.&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 17.0.0" id="appcheck-debug-testing_v17-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 17.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Play integrity version 17.0.0" id="appcheck-playintegrity_v17-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play integrity version 17.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication version 22.0.0" id="auth_v22-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; version 22.0.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;BREAKING CHANGE:&lt;/strong&gt; Removed SafetyNet support for app
@@ -5581,11 +5581,11 @@ support to obtain limited-use tokens.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/pull/4979"&gt;#4979&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-appcheck&lt;/code&gt; library. The Kotlin extensions library has no additional
-updates.&lt;/p&gt;&lt;h3 data-text="App Check Debug version 17.0.1" id="appcheck-debug_v17-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 17.0.1&lt;/h3&gt;&lt;ul&gt;
+updates.&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 17.0.1" id="appcheck-debug-testing_v17-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 17.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Play integrity version 17.0.1" id="appcheck-playintegrity_v17-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play integrity version 17.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 24.6.1" id="firestore_v24-6-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 24.6.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Implemented an optimization in the local cache synchronization
@@ -5848,11 +5848,11 @@ and as early as April 2024, we'll no longer release KTX modules.
 &lt;code dir="ltr" translate="no"&gt;com.google.firebase.appcheck&lt;/code&gt; package).
 For details, see the
 &lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 17.1.0" id="appcheck-debug_v17-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 17.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 17.1.0" id="appcheck-debug-testing_v17-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 17.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Play integrity version 17.1.0" id="appcheck-playintegrity_v17-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play integrity version 17.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution API version 16.0.0-beta11" id="app-distro-api_v16-0-0-beta11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; API version 16.0.0-beta11&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added Kotlin extensions (KTX) APIs from
@@ -6144,11 +6144,11 @@ For details, see the
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed client-side throttling in Play Integrity flows.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-appcheck&lt;/code&gt; library. The Kotlin extensions library has no additional
-updates.&lt;/p&gt;&lt;h3 data-text="App Check Debug version 17.1.1" id="appcheck-debug_v17-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 17.1.1&lt;/h3&gt;&lt;ul&gt;
+updates.&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 17.1.1" id="appcheck-debug-testing_v17-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 17.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Play integrity version 17.1.1" id="appcheck-playintegrity_v17-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play integrity version 17.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed client-side throttling in Play Integrity flows.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped the version of the Play Integrity API library dependency.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution Gradle plugin version 4.0.1" id="appdistro_gradle_plugin_v4-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin version 4.0.1&lt;/h3&gt;&lt;ul&gt;
@@ -6294,11 +6294,11 @@ additional updates.&lt;/p&gt;&lt;h3 data-text="App Check version 17.1.2" id="app
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped the versions of some internal dependencies.&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-appcheck&lt;/code&gt; library. The Kotlin extensions library has no additional
-updates.&lt;/p&gt;&lt;h3 data-text="App Check Debug version 17.1.2" id="appcheck-debug_v17-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 17.1.2&lt;/h3&gt;&lt;ul&gt;
+updates.&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 17.1.2" id="appcheck-debug-testing_v17-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 17.1.2&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Play integrity version 17.1.2" id="appcheck-playintegrity_v17-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play integrity version 17.1.2&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution API version 16.0.0-beta12" id="app-distro-api_v16-0-0-beta12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; API version 16.0.0-beta12&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped the versions of some internal dependencies.&lt;/li&gt;
@@ -6453,17 +6453,17 @@ higher.&lt;/p&gt;&lt;/li&gt;
 The &lt;a href="https://developer.android.com/privacy-and-security/safetynet/deprecation-timeline"&gt;SafetyNet Attestation API is deprecated&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-appcheck&lt;/code&gt; library. The Kotlin extensions library has no additional
-updates.&lt;/p&gt;&lt;h3 data-text="App Check Debug version 18.0.0" id="appcheck-debug_v18-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 18.0.0&lt;/h3&gt;&lt;ul&gt;
+updates.&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Changed the required minimum
 &lt;code dir="ltr" translate="no"&gt;compileSdkVersion&lt;/code&gt; to be 34 or higher.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 21 or
 higher.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 18.0.0" id="appcheck-debug-testing_v18-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 18.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Changed the required minimum
 &lt;code dir="ltr" translate="no"&gt;compileSdkVersion&lt;/code&gt; to be 34 or higher.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 21 or
 higher.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Play integrity version 18.0.0" id="appcheck-playintegrity_v18-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play integrity version 18.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Changed the required minimum
 &lt;code dir="ltr" translate="no"&gt;compileSdkVersion&lt;/code&gt; to be 34 or higher.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 21 or
@@ -7459,13 +7459,13 @@ higher.&lt;/p&gt;&lt;/li&gt;
 extensions (KTX) module and removed it from the Firebase Android BoM. Instead,
 use the KTX APIs from the main module. For details, see the
 &lt;a href="/docs/android/kotlin-migration"&gt;FAQ about this initiative&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 19.0.0" id="appcheck-debug_v19-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 19.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
 higher.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 19.0.0" id="appcheck-debug-testing_v19-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 19.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
 higher.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Play integrity version 19.0.0" id="appcheck-playintegrity_v19-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play integrity version 19.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
 higher.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution version 16.0.0-beta16" id="app-distro_v16-0-0-beta16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; version 16.0.0-beta16&lt;/h3&gt;&lt;ul&gt;
@@ -7721,11 +7721,11 @@ exception. Instead, the SDK now logs them and filters them from the response.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7333"&gt;#7333&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Check version 19.0.1" id="appcheck_v19-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 19.0.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug version 19.0.1" id="appcheck-debug_v19-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug version 19.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Debug Testing version 19.0.1" id="appcheck-debug-testing_v19-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Debug Testing version 19.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check Play integrity version 19.0.1" id="appcheck-playintegrity_v19-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; Play integrity version 19.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution version 16.0.0-beta17" id="app-distro_v16-0-0-beta17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; version 16.0.0-beta17&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
