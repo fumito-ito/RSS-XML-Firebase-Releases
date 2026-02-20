@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 19 Feb 2026 21:28:13 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 20 Feb 2026 01:48:26 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2033,4 +2033,42 @@ other internal improvements.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Loaded experiments earlier in CLI startup to allow for earlier access. (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9797"&gt;#9797&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 15.5.1 - January 29, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1551_-_january_29_2026</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue causing errors on calls to &lt;code dir="ltr" translate="no"&gt;serviceusage&lt;/code&gt; (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9844"&gt;#9844&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.6.0 - February 11, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1560_-_february_11_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for enabling &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; providers
+using &lt;code dir="ltr" translate="no"&gt;firebase deploy&lt;/code&gt;. You can configure providers in &lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt; like
+so:&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;&lt;devsite-code&gt;&lt;pre class="devsite-click-to-copy" dir="ltr" is-upgraded="" syntax="JSON" translate="no"&gt;&lt;code dir="ltr" translate="no"&gt;&lt;span class="devsite-syntax-p"&gt;{&lt;/span&gt;
+&lt;span class="devsite-syntax-w"&gt;  &lt;/span&gt;&lt;span class="devsite-syntax-nt"&gt;"auth"&lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;:&lt;/span&gt;&lt;span class="devsite-syntax-w"&gt; &lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;{&lt;/span&gt;
+&lt;span class="devsite-syntax-w"&gt;    &lt;/span&gt;&lt;span class="devsite-syntax-nt"&gt;"providers"&lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;:&lt;/span&gt;&lt;span class="devsite-syntax-w"&gt; &lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;{&lt;/span&gt;
+&lt;span class="devsite-syntax-w"&gt;      &lt;/span&gt;&lt;span class="devsite-syntax-nt"&gt;"anonymous"&lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;:&lt;/span&gt;&lt;span class="devsite-syntax-w"&gt; &lt;/span&gt;&lt;span class="devsite-syntax-kc"&gt;true&lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;,&lt;/span&gt;
+&lt;span class="devsite-syntax-w"&gt;      &lt;/span&gt;&lt;span class="devsite-syntax-nt"&gt;"emailPassword"&lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;:&lt;/span&gt;&lt;span class="devsite-syntax-w"&gt; &lt;/span&gt;&lt;span class="devsite-syntax-kc"&gt;true&lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;,&lt;/span&gt;
+&lt;span class="devsite-syntax-w"&gt;      &lt;/span&gt;&lt;span class="devsite-syntax-nt"&gt;"googleSignIn"&lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;:&lt;/span&gt;&lt;span class="devsite-syntax-w"&gt; &lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;{&lt;/span&gt;
+&lt;span class="devsite-syntax-w"&gt;        &lt;/span&gt;&lt;span class="devsite-syntax-nt"&gt;"oAuthBrandDisplayName"&lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;:&lt;/span&gt;&lt;span class="devsite-syntax-w"&gt; &lt;/span&gt;&lt;span class="devsite-syntax-s2"&gt;"My App"&lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;,&lt;/span&gt;
+&lt;span class="devsite-syntax-w"&gt;        &lt;/span&gt;&lt;span class="devsite-syntax-nt"&gt;"supportEmail"&lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;:&lt;/span&gt;&lt;span class="devsite-syntax-w"&gt; &lt;/span&gt;&lt;span class="devsite-syntax-s2"&gt;"support@myapp.com"&lt;/span&gt;
+&lt;span class="devsite-syntax-w"&gt;      &lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;}&lt;/span&gt;
+&lt;span class="devsite-syntax-w"&gt;    &lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;}&lt;/span&gt;
+&lt;span class="devsite-syntax-w"&gt;  &lt;/span&gt;&lt;span class="devsite-syntax-p"&gt;}&lt;/span&gt;
+&lt;span class="devsite-syntax-p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/devsite-code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added initial zip deploy support for HTTP functions in
+&lt;code dir="ltr" translate="no"&gt;firebase deploy functions&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9707"&gt;#9707&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Python was missing from the &lt;code dir="ltr" translate="no"&gt;firebase-tools&lt;/code&gt;
+Docker image.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9855"&gt;#9855&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed billing information check to use user's project quota.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9879"&gt;#9879&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator multi-tenant mode only
+exported or imported users tied to the default tenant.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/5623"&gt;#5623&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v3.1.3. Changes include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enabled native SQL feature.&lt;/li&gt;
+&lt;li&gt;Improved insecure operation warning messages and reduced severity of
+existing insecure operation warnings to &lt;code dir="ltr" translate="no"&gt;LOG_ONLY&lt;/code&gt;
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9882"&gt;#9882&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Updated Golang dependency to v1.24.12
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9882"&gt;#9882&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated Pub/Sub emulator to version 0.8.27.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
