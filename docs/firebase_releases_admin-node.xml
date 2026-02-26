@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-node</title><link>https://firebase.google.com/support/release-notes/admin/node</link><description>Latest updates and release notes for Firebase Admin-node.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 26 Feb 2026 15:50:40 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_400_-_november_7_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-node</title><link>https://firebase.google.com/support/release-notes/admin/node</link><description>Latest updates and release notes for Firebase Admin-node.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 26 Feb 2026 18:47:22 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_400_-_november_7_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Admin Node.js SDK (available on npm as &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt;) is a
 new SDK which replaces and expands the admin capabilities of the standard
 &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; npm module. See
@@ -640,7 +640,7 @@ URL parsing bug to support domains with more than 3 components.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;admin.machineLearning()&lt;/code&gt; API for creating, updating,
 getting, listing, publishing, unpublishing, and deleting Firebase-hosted
 custom ML models.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;admin.remoteConfig()&lt;/code&gt; API. This API enables Firebase
 developers to programmatically manage the set of JSON-formatted parameters and
 conditions known as the Remote Config template.&lt;/li&gt;
@@ -660,7 +660,7 @@ the &lt;code dir="ltr" translate="no"&gt;UserMetadataRequest&lt;/code&gt; type u
 field is currently not supported in the &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; backend.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;GetUsersResult&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;DeleteUsersResults&lt;/code&gt; interfaces to the
 exposed typings.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added version management support for the &lt;code dir="ltr" translate="no"&gt;admin.remoteConfig()&lt;/code&gt;
 API. This API now supports &lt;code dir="ltr" translate="no"&gt;listVersions()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;getTemplateAtVersion()&lt;/code&gt;, and
 &lt;code dir="ltr" translate="no"&gt;rollback()&lt;/code&gt; operations to help developers programmatically manage their
@@ -677,7 +677,7 @@ with SMS on a Google Cloud Identity Platform tenant. Existing APIs like
 &lt;code dir="ltr" translate="no"&gt;createTenant()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;updateTenant()&lt;/code&gt; now support configuring multi-factor
 authentication and testing phone number/code pairs on a specified tenant.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Made &lt;code dir="ltr" translate="no"&gt;displayName&lt;/code&gt; optional in &lt;code dir="ltr" translate="no"&gt;AuthProviderConfig&lt;/code&gt; typings.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.1.1 - 20 August, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_911_-_20_august_2020</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.1.1 - 20 August, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_911_-_20_august_2020</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added missing type definition for &lt;code dir="ltr" translate="no"&gt;ListVersionsOptions&lt;/code&gt;. Thanks
 &lt;a href="https://github.com/CodingAleCR"&gt;CodingAleCR&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-node/pull/996"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
@@ -697,7 +697,7 @@ Newly exposed types include &lt;code dir="ltr" translate="no"&gt;GrpcStatus&lt;/
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that was causing credential lookup errors when invoking
 some APIs against the emulator.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.4.1 - 13 November, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_941_-_13_november_2020</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.4.1 - 13 November, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_941_-_13_november_2020</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a timestamp parsing issue in &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; template
 &lt;code dir="ltr" translate="no"&gt;Version&lt;/code&gt; metadata that was causing &lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;
 API operations to fail.&lt;/li&gt;
@@ -779,7 +779,7 @@ returned Firebase App Check token.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.11.1 - 19 August, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_9111_-_19_august_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; When &lt;code dir="ltr" translate="no"&gt;checkRevoked&lt;/code&gt; is set to &lt;code dir="ltr" translate="no"&gt;true&lt;/code&gt;, the &lt;code dir="ltr" translate="no"&gt;verifyIdToken()&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;verifySessionCookie()&lt;/code&gt; APIs now throw an error if the user record is disabled.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.12.0 - 28 September, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_9120_-_28_september_2021</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.12.0 - 28 September, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_9120_-_28_september_2021</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;a href="/docs/remote-config/parameters#parameter_value_data_types"&gt;Parameter value data types&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Refactored the &lt;code dir="ltr" translate="no"&gt;admin.database()&lt;/code&gt; API to use the new
@@ -953,7 +953,7 @@ support &lt;a href="https://cloud.google.com/firestore/docs/query-data/aggregati
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;@firebase/database-compat&lt;/code&gt; package to v1.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase ML" id="firebase-ml" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped AutoML model support.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 12.1.0 - 16 April, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1210_-_16_april_2024</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.1.0 - 16 April, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1210_-_16_april_2024</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added server-side &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; support.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.1.1 - 21 May, 2024s</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1211_-_21_may_2024s</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Exported error classes for better error handling. Thanks
@@ -968,10 +968,10 @@ when using &lt;code dir="ltr" translate="no"&gt;vitest&lt;/code&gt;.&lt;/p&gt;&l
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;x-goog-user-project&lt;/code&gt; header to outgoing requests. Thanks
 &lt;a href="https://github.com/foxrafa"&gt;foxrafa&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-node/pull/2553"&gt;contribution&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Replaced the &lt;code dir="ltr" translate="no"&gt;farmhash&lt;/code&gt; package with the &lt;code dir="ltr" translate="no"&gt;farmhash-modern&lt;/code&gt; package
 to prevent errors when Python is not installed.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 12.3.0 - 25 July, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1230_-_25_july_2024</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.3.0 - 25 July, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1230_-_25_july_2024</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Replaced the &lt;code dir="ltr" translate="no"&gt;long.js&lt;/code&gt; dependency with &lt;code dir="ltr" translate="no"&gt;BigInt&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added HTTP/2 support for &lt;code dir="ltr" translate="no"&gt;sendEach()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendEachForMulticast()&lt;/code&gt;.
@@ -1027,7 +1027,7 @@ or higher when deploying the Admin SDK.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;directBootOk&lt;/code&gt; field to the &lt;code dir="ltr" translate="no"&gt;AndroidConfig&lt;/code&gt; type.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated &lt;code dir="ltr" translate="no"&gt;sendAll()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;sendMulticast()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;sendToDevice()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;sendToDeviceGroup()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;sendToTopic()&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;sendToCondition()&lt;/code&gt; APIs.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt; condition evaluation hashing
 by removing the dependency on the &lt;code dir="ltr" translate="no"&gt;farmhash-modern&lt;/code&gt; package.
 This change will impact random assignment when using the &lt;a href="https://firebase.google.com/docs/remote-config/parameters?template_type=server#user-in-random-percentage"&gt;percentage condition&lt;/a&gt;.
@@ -1048,7 +1048,7 @@ Firebase Dynamic Link and Firebase Hosting domains for out-of-band
 email actions. You can also customize the Firebase Hosting domain
 used in these flows. As part of this change,
 &lt;code dir="ltr" translate="no"&gt;ActionCodeSettings.dynamicLinkDomain&lt;/code&gt; has been deprecated.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.2.0 - 05 March, 2025</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1320_-_05_march_2025</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.2.0 - 05 March, 2025</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1320_-_05_march_2025</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed equality comparison for semantic version when the number of
 segments is equal to the max allowed segments.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for exporting a serialized config response from the
@@ -1097,4 +1097,13 @@ the built-in URL constructor.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase Data Connect" id="firebase-data-connect" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused incorrect
 serialization of strings with special characters in mutation operations.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.7.0 - 26 February, 2026</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1370_-_26_february_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded &lt;code dir="ltr" translate="no"&gt;@google-cloud/storage&lt;/code&gt; dependency to &lt;code dir="ltr" translate="no"&gt;v7.19.0&lt;/code&gt;.
+This addresses vulnerability CVE-2026-25128 in &lt;code dir="ltr" translate="no"&gt;fast-xml-parser&lt;/code&gt;, a dependency
+of &lt;code dir="ltr" translate="no"&gt;@google-cloud/storage&lt;/code&gt;. This fix also includes an update to TypeScript.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated support for Node.js 18. Instead use Node.js 20 or
+higher when deploying the Admin SDK. Node.js 18 support will be dropped in the
+next major version.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Rollout and Personalization value types.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
