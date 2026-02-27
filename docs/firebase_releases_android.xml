@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 27 Feb 2026 15:34:22 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 27 Feb 2026 18:36:17 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -7850,4 +7850,35 @@ GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/i
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial beta release of the &lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt; SDK. Learn how to
 &lt;a href="/docs/phone-number-verification/android/get-started"&gt;get started&lt;/a&gt; with the
 SDK in your app.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - February 05, 2026</title><link>https://firebase.google.com/support/release-notes/android#2026-02-05</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 34.9.0" id="bom_v34-9-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 34.9.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 17.9.0" id="ai_v17-9-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.9.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;JsonSchema&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;GenerativeModel#generateObject&lt;/code&gt;, and
+the Firebase AI KSP's annotations (&lt;code dir="ltr" translate="no"&gt;@Generable&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;@Guide&lt;/code&gt;). To learn more
+about how to use them and the Firebase AI KSP, see the
+&lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/blob/main/firebase-ai-ksp-processor/README.md"&gt;Firebase AI KSP README&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for
+&lt;a href="https://docs.cloud.google.com/docs/authentication/api-keys#adding-application-restrictions"&gt;API key application restrictions&lt;/a&gt;.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7679"&gt;#7679&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The URL context tool APIs are now GA.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7686"&gt;#7686&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for implicit caching (context caching) metadata in
+&lt;code dir="ltr" translate="no"&gt;GenerateContentResponse&lt;/code&gt;. You can now access &lt;code dir="ltr" translate="no"&gt;cachedContentTokenCount&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;cacheTokensDetails&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;UsageMetadata&lt;/code&gt; to see savings from cached content.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7647"&gt;#7647&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI KSP version 16.0.0" id="ai-ksp_v16-0-0" tabindex="-1"&gt;Firebase AI KSP version 16.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Firebase AI KSP. This SDK provides support
+for automatic schema generation when using &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;. To learn
+more about the Firebase AI KSP, see the
+&lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/blob/main/firebase-ai-ksp-processor/README.md"&gt;Firebase AI KSP README&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check version 19.0.2" id="appcheck_v19-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 19.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug causing custom &lt;code dir="ltr" translate="no"&gt;AppCheckProvider&lt;/code&gt; to return errors
+without a message to throw an exception.
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7624"&gt;#7624&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Distribution Gradle plugin version 5.2.1" id="appdistro_gradle_plugin_v5-2-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin version 5.2.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Declared dependency on Google Services plugin.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
