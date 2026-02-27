@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 27 Feb 2026 18:36:17 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 27 Feb 2026 21:25:47 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -4211,7 +4211,7 @@ prevented the shutdown from proceeding if a network connection was opened
 right before.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an NPE issue where mutations with multiple documents were not
 handled correctly during previous mutation acknowledgement.
-(&lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/issues/3490"&gt;GitHub Isse #3490&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/issues/3490"&gt;#3490&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Queries are now sent to the backend before the SDK starts local
 processing, which reduces overall query latency.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated dependencies of &lt;code dir="ltr" translate="no"&gt;play-services-basement&lt;/code&gt;,
@@ -4389,7 +4389,7 @@ the JSON index definition exported by the &lt;span class="notranslate"&gt;Fireba
 the cache are executed using an index once the asynchronous index generation
 completes.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed missing document fields issue with offline overlays.
-(&lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/issues/3528"&gt;GitHub Issue #3528&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/issues/3528"&gt;#3528&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;</description></item><item><title>Update - April 14, 2022</title><link>https://firebase.google.com/support/release-notes/android#2022-04-14</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 29.3.1" id="bom_v29-3-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 29.3.1&lt;/h3&gt;&lt;h3 data-text="App Check version 16.0.0-beta06" id="appcheck_v16-0-0-beta06" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 16.0.0-beta06&lt;/h3&gt;&lt;ul&gt;
@@ -4483,7 +4483,7 @@ attestation provider.&lt;/li&gt;
 use.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 24.1.2" id="firestore_v24-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 24.1.2&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where patching multiple fields shadows each other.
-(&lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/issues/3528"&gt;GitHub Issue #3528&lt;/a&gt;).&lt;/li&gt;
+(GitHub &lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/issues/3528"&gt;#3528&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK version 20.1.0" id="functions-client_v20-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt; version 20.1.0&lt;/h3&gt;&lt;ul&gt;
@@ -5133,13 +5133,13 @@ preventing native crashes from being reported for Android API 29+.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 24.4.1" id="firestore_v24-4-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 24.4.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix &lt;code dir="ltr" translate="no"&gt;FAILED_PRECONDITION&lt;/code&gt; when writing to a deleted document in a
 transaction.
-(&lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5871"&gt;GitHub Issue #5871&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5871"&gt;#5871&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; failing to raise initial snapshot from an empty
 local cache result.
-(&lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/pull/4207"&gt;GitHub PR #4207&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/pull/4207"&gt;#4207&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed invalid suggestions to use &lt;code dir="ltr" translate="no"&gt;GenericTypeIndicator&lt;/code&gt; from
 error messages.
-(&lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/issues/222"&gt;GitHub Issue #222&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/issues/222"&gt;#222&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated dependency of &lt;code dir="ltr" translate="no"&gt;io.grpc.*&lt;/code&gt; to its latest version
 (v1.50.2).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
@@ -5339,10 +5339,10 @@ see
 &lt;a href="/docs/app-distribution/android/distribute-gradle#authenticate"&gt;Authenticate with Firebase&lt;/a&gt;
 in the &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; documentation.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 24.4.4" id="firestore_v24-4-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 24.4.4&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Relaxed certain query validations performed by the SDK
-(&lt;a href="//github.com/firebase/firebase-android-sdk/issues/4231"&gt;GitHub Issue #4231&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated gRPC to 1.52.1, and updated JavaLite, protoc, and
-protobuf-java-util to 3.21.11.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Relaxed certain query validations performed by the SDK.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/4231"&gt;#4231&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated gRPC to 1.52.1, and updated JavaLite, protoc, and
+protobuf-java-util to 3.21.11.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Cloud Messaging version 23.1.2" id="messaging_v23-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 23.1.2&lt;/h3&gt;&lt;ul&gt;
@@ -5729,7 +5729,7 @@ updates.&lt;/p&gt;&lt;h3 data-text="Firebase ML version 24.1.3" id="firebaseml-m
 &lt;code dir="ltr" translate="no"&gt;firebase-ml-modeldownloader&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;</description></item><item><title>Update - August 24, 2023</title><link>https://firebase.google.com/support/release-notes/android#2023-08-24</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 32.2.3" id="bom_v32-2-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 32.2.3&lt;/h3&gt;&lt;h3 data-text="Cloud Firestore version 24.7.1" id="firestore_v24-7-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 24.7.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Implemented &lt;code dir="ltr" translate="no"&gt;equals&lt;/code&gt; method on &lt;code dir="ltr" translate="no"&gt;Filter&lt;/code&gt; class.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5210"&gt;#5210&lt;/a&gt; &lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5210"&gt;#5210&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics version 18.4.1" id="crashlytics_v18-4-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 18.4.1&lt;/h3&gt;&lt;ul&gt;
@@ -5760,7 +5760,7 @@ updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 18.4.2" id="crashlyt
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the option to allow the SDK to create cache indexes
 automatically to improve query execution locally. See
 &lt;a href="/docs/reference/android/com/google/firebase/firestore/PersistentCacheIndexManager#enableIndexAutoCreation()"&gt;&lt;code dir="ltr" translate="no"&gt;db.getPersistentCacheIndexManager().enableIndexAutoCreation()&lt;/code&gt;&lt;/a&gt;.
-([GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/pull/4987"&gt;#4987&lt;/a&gt;)&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/pull/4987"&gt;#4987&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="In-App Messaging version 20.3.4" id="inappmessaging_v20-3-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; version 20.3.4&lt;/h3&gt;&lt;ul&gt;
@@ -5795,7 +5795,7 @@ updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 18.4.3" id="crashlyt
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 24.8.1" id="firestore_v24-8-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 24.8.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Disabled &lt;code dir="ltr" translate="no"&gt;GradleMetadataPublishing&lt;/code&gt; to fix breakage of the
 Kotlin extensions library.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5337"&gt;#5337&lt;/a&gt; &lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5337"&gt;#5337&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="In-App Messaging version 20.3.5" id="inappmessaging_v20-3-5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; version 20.3.5&lt;/h3&gt;&lt;ul&gt;
@@ -6158,7 +6158,7 @@ be completely removed as early as April 2024.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue with Google Play services v4.4.0.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 24.9.1" id="firestore_v24-9-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 24.9.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for sum and average aggregate queries.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5217"&gt;#5217&lt;/a&gt; &lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5217"&gt;#5217&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Cloud Messaging version 23.3.1" id="messaging_v23-3-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 23.3.1&lt;/h3&gt;&lt;ul&gt;
@@ -6262,10 +6262,10 @@ SDK releases. For more details, refer to the
 &lt;code dir="ltr" translate="no"&gt;firebase-auth&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Cloud Firestore version 24.10.1" id="firestore_v24-10-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 24.10.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue caused by calling mutation on immutable map object.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5573"&gt;#5573&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5573"&gt;#5573&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where garbage collection runs into an infinite loop in
 a certain case.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5417"&gt;#5417&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5417"&gt;#5417&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics version 18.6.1" id="crashlytics_v18-6-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 18.6.1&lt;/h3&gt;&lt;ul&gt;
@@ -6349,7 +6349,7 @@ secure way.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 24.10.3" id="firestore_v24-10-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 24.10.3&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the missing handling setter annotations bug introduced by
 GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5626"&gt;#5626&lt;/a&gt;.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5706"&gt;#5706&lt;/a&gt; &lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5706"&gt;#5706&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Realtime Database version 20.3.1" id="realtime-database_v20-3-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; version 20.3.1&lt;/h3&gt;&lt;ul&gt;
@@ -6382,7 +6382,7 @@ consent-based conversions.&lt;/p&gt;&lt;/li&gt;
 updates.&lt;/p&gt;&lt;h3 data-text="Cloud Firestore version 24.11.0" id="firestore_v24-11-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 24.11.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added option to only retrieve locally cached data in a snapshot
 listener.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5690"&gt;#5690&lt;/a&gt; &lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5690"&gt;#5690&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics version 18.6.3" id="crashlytics_v18-6-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 18.6.3&lt;/h3&gt;&lt;ul&gt;
@@ -6489,9 +6489,9 @@ updates.&lt;/p&gt;&lt;h3 data-text="Cloud Firestore version 25.0.0" id="firestor
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 21 or
 higher.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Enabled queries with range and inequality filters on multiple fields.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5729"&gt;#5729&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5729"&gt;#5729&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Support conversion between &lt;code dir="ltr" translate="no"&gt;java.time.Instant&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Timestamp&lt;/code&gt;.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5853"&gt;#5853&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/5853"&gt;#5853&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements, including better test coverage.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
@@ -6708,7 +6708,7 @@ integers instead of 64-bit (long).&lt;/p&gt;&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;firebase-analytics&lt;/code&gt; library. The Kotlin extensions library has no
 additional updates.&lt;/p&gt;&lt;h3 data-text="Cloud Firestore version 25.1.0" id="firestore_v25-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 25.1.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for the &lt;code dir="ltr" translate="no"&gt;VectorValue&lt;/code&gt; type.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6154"&gt;#6154&lt;/a&gt; &lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6154"&gt;#6154&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Cloud Messaging version 24.0.1" id="messaging_v24-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 24.0.1&lt;/h3&gt;&lt;ul&gt;
@@ -7052,7 +7052,7 @@ to set a custom &lt;span class="notranslate"&gt;Firebase Hosting&lt;/span&gt; li
 &lt;code dir="ltr" translate="no"&gt;firebase-auth&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Cloud Firestore version 25.1.2" id="firestore_v25-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 25.1.2&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a server and SDK mismatch in unicode string sorting.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6615"&gt;#6615&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6615"&gt;#6615&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; artifacts are now published with
 accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature files to ensure authenticity. Optionally, you can
 &lt;a class="external" href="https://docs.gradle.org/current/userguide/dependency_verification.html#sec:signature-verification"&gt;verify the signature and set up automatic dependency verification via Gradle&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -7127,9 +7127,9 @@ accompanying &lt;code dir="ltr" translate="no"&gt;.asc&lt;/code&gt; signature fi
 updates.&lt;/p&gt;&lt;h3 data-text="Cloud Firestore version 25.1.3" id="firestore_v25-1-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 25.1.3&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed to use lazy encoding in UTF-8 encoded byte comparison for
 strings to solve performance issues.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6706"&gt;#6706&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6706"&gt;#6706&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;protolite-well-known-types&lt;/code&gt; dependency to v18.0.1.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6716"&gt;#6716&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6716"&gt;#6716&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK version 21.2.0" id="functions-client_v21-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt; version 21.2.0&lt;/h3&gt;&lt;ul&gt;
@@ -7366,7 +7366,7 @@ GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/i
 GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6941"&gt;#6941&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Update - June 05, 2025</title><link>https://firebase.google.com/support/release-notes/android#2025-06-05</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.15.0" id="bom_v33-15-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.15.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 16.1.0" id="ai_v16-1-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 16.1.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;StackOverflowException&lt;/code&gt; from &lt;code dir="ltr" translate="no"&gt;FirebaseAI.getInstance&lt;/code&gt;.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6971"&gt;#6971&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6971"&gt;#6971&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that was causing the SDK to send empty
 &lt;code dir="ltr" translate="no"&gt;FunctionDeclaration&lt;/code&gt; descriptions to the API.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Introduced the &lt;code dir="ltr" translate="no"&gt;Voice&lt;/code&gt; class, which accepts a voice name, and
@@ -7389,10 +7389,11 @@ path sensitivity and caching.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Update - June 26, 2025</title><link>https://firebase.google.com/support/release-notes/android#2025-06-26</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.16.0" id="bom_v33-16-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.16.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 16.2.0" id="ai_v16-2-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 16.2.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated the &lt;code dir="ltr" translate="no"&gt;totalBillableCharacters&lt;/code&gt; field
 (only usable with pre-2.0 models).
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7042"&gt;#7042&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for extra schema properties like &lt;code dir="ltr" translate="no"&gt;title&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;minItems&lt;/code&gt;,
-&lt;code dir="ltr" translate="no"&gt;maxItems&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;minimum&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;maximum&lt;/code&gt;. As well as support for the &lt;code dir="ltr" translate="no"&gt;anyOf&lt;/code&gt; schema.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7013"&gt;#7013&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7042"&gt;#7042&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for extra schema properties like &lt;code dir="ltr" translate="no"&gt;title&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;minItems&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;maxItems&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;minimum&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;maximum&lt;/code&gt;. As well as support for the
+&lt;code dir="ltr" translate="no"&gt;anyOf&lt;/code&gt; schema.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7013"&gt;#7013&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics version 22.5.0" id="analytics_v22-5-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt; version 22.5.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
@@ -7431,9 +7432,9 @@ higher.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic version 17.0.0" id="ai_v17-0-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.0.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for configuring the "thinking" budget when using
 Gemini 2.5 series models.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6990"&gt;#6990&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6990"&gt;#6990&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Grounding with Google Search.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7042"&gt;#7042&lt;/a&gt;.&lt;/p&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7042"&gt;#7042&lt;/a&gt;)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Breaking Change&lt;/strong&gt;: Action Required - Update all references of
 &lt;code dir="ltr" translate="no"&gt;groundingAttributions&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;webSearchQueries&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;retrievalQueries&lt;/code&gt; in
@@ -7489,11 +7490,11 @@ signed out every time they enter the app (cold start) after restoring
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 26.0.0" id="firestore_v26-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 26.0.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Further improved performance of UTF-8 string ordering logic,
 which had degraded in v25.1.2 and received some improvements in v25.1.3.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7053"&gt;#7053&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7053"&gt;#7053&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed to use the &lt;code dir="ltr" translate="no"&gt;compare()&lt;/code&gt; methods defined in standard
 &lt;code dir="ltr" translate="no"&gt;Integer&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Long&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;Character&lt;/code&gt; classes instead of Firestore's bespoke
 implementations.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7109"&gt;#7109&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7109"&gt;#7109&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
 higher.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Stopped releasing the deprecated Kotlin
@@ -7635,8 +7636,8 @@ candidates.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added better description for requests which fail due to the
 Gemini API not being configured.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a &lt;code dir="ltr" translate="no"&gt;dilation&lt;/code&gt; parameter to
-&lt;code dir="ltr" translate="no"&gt;ImagenMaskReference.generateMaskAndPadForOutpainting&lt;/code&gt;
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7260"&gt;#7260&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;code dir="ltr" translate="no"&gt;ImagenMaskReference.generateMaskAndPadForOutpainting&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7260"&gt;#7260&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for limited-use tokens with Firebase App Check.
 These limited-use tokens are required for an upcoming optional feature called
 &lt;em&gt;replay protection&lt;/em&gt;. We recommend
@@ -7774,7 +7775,8 @@ from the SDK rather than generating them.
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added better scheduling and louder output for Live API.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added support for input and output transcription.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7482"&gt;#7482&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for sending realtime audio and video in a &lt;code dir="ltr" translate="no"&gt;LiveSession&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for sending realtime audio and video in a
+&lt;code dir="ltr" translate="no"&gt;LiveSession&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed redundant internal exception types.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7475"&gt;#7475&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution Gradle plugin version 5.2.0" id="appdistro_gradle_plugin_v5-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin version 5.2.0&lt;/h3&gt;&lt;ul&gt;
@@ -7796,7 +7798,7 @@ depends on OkHttp version 3.x, note that this change is both binary-compatible
 and Java source-compatible, with a few small exceptions (for details, see the
 &lt;a href="https://square.github.io/okhttp/changelogs/upgrading_to_okhttp_4"&gt;upgrading to OkHttp 4 changelog&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.1.1" id="data-connect_v17-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.1.1&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal refactor for managing Auth and App Check tokens
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal refactor for managing &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;App Check&lt;/span&gt; tokens.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7184"&gt;#7184&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="In-App Messaging version 22.0.2" id="inappmessaging_v22-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; version 22.0.2&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
@@ -7806,8 +7808,8 @@ and Java source-compatible, with a few small exceptions (for details, see the
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring version 22.0.3" id="performance_v22-0-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; version 22.0.3&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped dependency on OkHttp to v4.12.0 from v3.12.13. If your app
 depends on OkHttp version 3.x, note that this change is both binary-compatible
-and Java source-compatible, with a few small exceptions (for details, see the
-&lt;a href="https://square.github.io/okhttp/changelogs/upgrading_to_okhttp_4"&gt;upgrading to OkHttp 4 changelog&lt;/a&gt;).&lt;/li&gt;
+and Java source-compatible, with a few small exceptions. For details, see the
+&lt;a class="external" href="https://square.github.io/okhttp/changelogs/upgrading_to_okhttp_4"&gt;upgrading to OkHttp 4 changelog&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring Gradle plugin version 2.0.2" id="performance_gradle_plugin_v2-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; Gradle plugin version 2.0.2&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed compatibility with AGP 9.0.0.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7293"&gt;#7293&lt;/a&gt;)&lt;/li&gt;
@@ -7815,37 +7817,37 @@ and Java source-compatible, with a few small exceptions (for details, see the
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for
 &lt;a href="/docs/ai-logic/server-prompt-templates/get-started"&gt;server prompt templates&lt;/a&gt;
 via &lt;code dir="ltr" translate="no"&gt;TemplateGenerativeModel&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;TemplateImagenModel&lt;/code&gt;.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7503"&gt;#7503&lt;/a&gt; &lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7503"&gt;#7503&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.1.2" id="data-connect_v17-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.1.2&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal refactor for managing Auth and App Check tokens
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7485"&gt;#7485&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal refactor for managing &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;App Check&lt;/span&gt; tokens.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7485"&gt;#7485&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring version 22.0.4" id="performance_v22-0-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; version 22.0.4&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;StrictMode DiskReadViolation&lt;/code&gt; prompted by &lt;code dir="ltr" translate="no"&gt;AppStartTrace&lt;/code&gt;
 setup.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7340"&gt;#7340&lt;/a&gt; &lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7340"&gt;#7340&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Update - December 11, 2025</title><link>https://firebase.google.com/support/release-notes/android#2025-12-11</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 34.7.0" id="bom_v34-7-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 34.7.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 17.7.0" id="ai_v17-7-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.7.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;LiveAudioConversationConfig&lt;/code&gt; to control different aspects
 of a Gemini Live API conversation while using the &lt;code dir="ltr" translate="no"&gt;startAudioConversation&lt;/code&gt;
 function.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue causing streaming chat interactions to drop
 thought signatures.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7562"&gt;#7562&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7562"&gt;#7562&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Update - January 15, 2026</title><link>https://firebase.google.com/support/release-notes/android#2026-01-15</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 34.8.0" id="bom_v34-8-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 34.8.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 17.8.0" id="ai_v17-8-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.8.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for configuring thinking levels with Gemini 3 series
 models and onwards.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7599"&gt;#7599&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7599"&gt;#7599&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;equals()&lt;/code&gt; function to &lt;code dir="ltr" translate="no"&gt;GenerativeBackend&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 26.1.0" id="firestore_v26-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 26.1.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Firestore Pipelines for Enterprise edition is now available in
 public preview.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7590"&gt;#7590&lt;/a&gt; &lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7590"&gt;#7590&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics version 20.0.4" id="crashlytics_v20-0-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 20.0.4&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-sessions&lt;/code&gt; dependency to v3.0.4&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics NDK version 20.0.4" id="crashlytics-ndk_v20-0-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 20.0.4&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to v20.0.4&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.1.3" id="data-connect_v17-1-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.1.3&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal refactor for reporting "paths" in response data.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7613"&gt;#7613&lt;/a&gt;)&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7613"&gt;#7613&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase PNV version 16.0.0-beta01" id="firebase-pnv_v16-0-0-beta01" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt; version 16.0.0-beta01&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial beta release of the &lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt; SDK. Learn how to
 &lt;a href="/docs/phone-number-verification/android/get-started"&gt;get started&lt;/a&gt; with the
@@ -7857,13 +7859,13 @@ about how to use them and the Firebase AI KSP, see the
 &lt;a class="external" href="https://github.com/firebase/firebase-android-sdk/blob/main/firebase-ai-ksp-processor/README.md"&gt;Firebase AI KSP README&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for
 &lt;a href="https://docs.cloud.google.com/docs/authentication/api-keys#adding-application-restrictions"&gt;API key application restrictions&lt;/a&gt;.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7679"&gt;#7679&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7679"&gt;#7679&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The URL context tool APIs are now GA.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7686"&gt;#7686&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7686"&gt;#7686&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for implicit caching (context caching) metadata in
 &lt;code dir="ltr" translate="no"&gt;GenerateContentResponse&lt;/code&gt;. You can now access &lt;code dir="ltr" translate="no"&gt;cachedContentTokenCount&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;cacheTokensDetails&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;UsageMetadata&lt;/code&gt; to see savings from cached content.
-GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7647"&gt;#7647&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7647"&gt;#7647&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase AI KSP version 16.0.0" id="ai-ksp_v16-0-0" tabindex="-1"&gt;Firebase AI KSP version 16.0.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Firebase AI KSP. This SDK provides support
 for automatic schema generation when using &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;. To learn
