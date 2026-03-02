@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 02 Mar 2026 15:37:59 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 02 Mar 2026 18:40:13 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6420,7 +6420,18 @@ via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/sp
 &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, make sure to
 &lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
 &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate></item><item><title>February 25, 2026</title><link>https://firebase.google.com/support/releases#february_25_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate></item><item><title>February 20, 2026</title><link>https://firebase.google.com/support/releases#february_20_2026</link><description>&lt;h3 data-text="Firebase agent skills" id="agent-skills-data-connect" tabindex="-1"&gt;Firebase agent skills&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The new &lt;code dir="ltr" translate="no"&gt;firebase-data-connect-basics&lt;/code&gt; skill is now available in
+&lt;a href="/docs/ai-assistance/agent-skills"&gt;Firebase agent skills&lt;/a&gt;
+to help AI assistants build and deploy &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; backends with
+PostgreSQL. If you already have Firebase agent skills installed, you can run
+a command to receive all available updates:
+&lt;ul&gt;
+&lt;li&gt;Gemini CLI: &lt;code dir="ltr" translate="no"&gt;gemini extensions update --all&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Claude Code: &lt;code dir="ltr" translate="no"&gt;claude plugin marketplace update firebase&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Others: &lt;code dir="ltr" translate="no"&gt;npx skills update --all&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate></item><item><title>February 25, 2026</title><link>https://firebase.google.com/support/releases#february_25_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#12.10.0"&gt;Firebase Apple SDK (v12.10.0)&lt;/a&gt;
 is now available. For more details, see the
