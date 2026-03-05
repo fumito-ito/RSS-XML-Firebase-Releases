@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 05 Mar 2026 19:13:13 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 05 Mar 2026 21:30:14 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, &lt;span class="notranslate"&gt;Invites&lt;/span&gt;, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;. To get started, see
 &lt;a href="/docs/unity/setup"&gt;Adding Firebase to your Unity Project&lt;/a&gt;.&lt;/p&gt;&lt;ul&gt;
@@ -937,7 +937,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  &lt;a href="/docs/unity/setup#add-sdks-upm"&gt;setup guide&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated asset labels so that External Dependency Manager works
  properly even if files in Firebase SDK are moved.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;QuerySnapshot.GetEnumerator()&lt;/code&gt; to not throw an
  &lt;code dir="ltr" translate="no"&gt;InvalidCastException&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;Query.WhereArrayContains()&lt;/code&gt; query operator to find
@@ -949,7 +949,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  field’s value is IN a specified array. &lt;code dir="ltr" translate="no"&gt;Query.WhereArrayContainsAny()&lt;/code&gt;
  finds documents where a specified field is an array and contains ANY
  element of a specified array.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.14.0 - April 23, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_6140_-_april_23_2020</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.14.0 - April 23, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_6140_-_april_23_2020</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;Firestore.LoggingEnabled&lt;/code&gt; is replaced by &lt;code dir="ltr" translate="no"&gt;Firestore.LogLevel&lt;/code&gt;
  for consistency with other Firebase Unity APIs. The getter for this
  property has been removed.&lt;/li&gt;
@@ -978,7 +978,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue when Crashlytics is imported using the Unity
  Package Manager.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Prevented stripping of Crashlytics code by the UnityLinker.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed several serialization issues on iOS.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;WaitForPendingWritesAsync&lt;/code&gt; method which allows users to
  wait on a task that completes when all pending writes are acknowledged
@@ -1000,7 +1000,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  play.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt;Fixed an issue that warns about Future handle not released
  properly.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Significantly improved stability when reentering play mode,
  addressing &lt;a href="https://github.com/firebase/quickstart-unity/issues/638"&gt;this issue&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed memory leaks that could cause a global reference table
@@ -1010,7 +1010,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  facilitates discovering an error that causes the listener stream to stop.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.15.2 - July 10, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_6152_-_july_10_2020</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) The minimum supported Xcode version is 11.3.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS): Fixed the missing Dispose symbol by updating to the
  correct Cocoapod version.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.16.0 - October 2, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_6160_-_october_2_2020</link><description>&lt;ul&gt;
@@ -1026,7 +1026,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  and older.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Enabled offline persistence.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed leaked memory in FirebaseFirestore C# objects.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;CollectionReference.AddAsync()&lt;/code&gt; to propagate errors.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed async tasks to fault with &lt;code dir="ltr" translate="no"&gt;FirestoreException&lt;/code&gt;.&lt;/li&gt;
@@ -1051,7 +1051,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  Please use &lt;code dir="ltr" translate="no"&gt;DynamicLinkComponents.DomainUriPrefix&lt;/code&gt; instead.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Bump up Android library version and remove
  dependency to GMS app invite.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;WhereNotEqualTo&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;WhereNotIn&lt;/code&gt; queries.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new internal HTTP headers to the gRPC connection.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;FirebaseFirestoreSettings.CacheSizeBytes&lt;/code&gt;.&lt;/li&gt;
@@ -1076,7 +1076,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  in &lt;code dir="ltr" translate="no"&gt;StorageMetadata&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.0.1 - December 8, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_701_-_december_8_2020</link><description>&lt;h3 data-text="Remote Config" id="remote-config_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixes an issue with missing symbols on Android.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.0.2 - December 21, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_702_-_december_21_2020</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.0.2 - December 21, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_702_-_december_21_2020</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixes an error in the handling of Unicode strings.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.1.0 - February 16, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_710_-_february_16_2021</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Add GoogleServices-Info.plist to &lt;code dir="ltr" translate="no"&gt;Unity-iPhone&lt;/code&gt; target in
@@ -1087,7 +1087,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  FirebaseAuth.LanguageCode property.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a flaky crash when accessing the result from the task
  returned by &lt;code dir="ltr" translate="no"&gt;FetchProvidersForEmailAsync&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed partial updates in &lt;code dir="ltr" translate="no"&gt;UpdateAsync()&lt;/code&gt; with
  &lt;code dir="ltr" translate="no"&gt;FieldValue.Delete&lt;/code&gt;
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/882"&gt;#882&lt;/a&gt;).&lt;/li&gt;
@@ -1131,7 +1131,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed &lt;code dir="ltr" translate="no"&gt;SetCurrentScreen()&lt;/code&gt; following its removal from the iOS
  SDK and deprecation in the Android SDK. Use &lt;code dir="ltr" translate="no"&gt;LogEvent&lt;/code&gt; with
  ScreenView event to manually log screen changes.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal assertions will now trigger C# exceptions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix &lt;code dir="ltr" translate="no"&gt;RunTransactionAsync()&lt;/code&gt; to roll back the transaction if
  the task returned from the given callback faults
@@ -1148,7 +1148,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.1.0 - July 19, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_810_-_july_19_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash around using DataSnapshots within Coroutines
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/635"&gt;#635&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Implemented &lt;code dir="ltr" translate="no"&gt;IDisposable&lt;/code&gt; for &lt;code dir="ltr" translate="no"&gt;ListenerRegistration&lt;/code&gt;
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/746"&gt;#746&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt; and empty string argument checks to all
@@ -1165,7 +1165,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upload &lt;code dir="ltr" translate="no"&gt;UnityFramework&lt;/code&gt; symbols in addition to the main app
  dSYM file to improve symbolication
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/673"&gt;#673&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed &lt;code dir="ltr" translate="no"&gt;Equals&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;GetHashCode&lt;/code&gt; methods from &lt;code dir="ltr" translate="no"&gt;Query&lt;/code&gt;,
  &lt;code dir="ltr" translate="no"&gt;QuerySnapshot&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;DocumentSnapshot&lt;/code&gt; classes. These methods were
  unimplemented, and we plan to add proper support for them in a future
@@ -1173,7 +1173,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a duplicate class error when building an application
  which also uses Cloud Functions for Firebase.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.3.0 - September 21, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_830_-_september_21_2021</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.3.0 - September 21, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_830_-_september_21_2021</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Simplified the API for modifying the settings of a
  &lt;code dir="ltr" translate="no"&gt;FirebaseFirestore&lt;/code&gt; instance. This is a backwards-incompatible change and
  requires updates to code that sets &lt;code dir="ltr" translate="no"&gt;FirebaseFirestore.Settings&lt;/code&gt;.&lt;/li&gt;
@@ -1184,7 +1184,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  the app.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.4.0 - October 13, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_840_-_october_13_2021</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Android x86_64 (Chrome OS).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved the efficiency of progress callbacks in
  &lt;code dir="ltr" translate="no"&gt;LoadBundleAsync()&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed crashes in Unity Editor on Linux caused by C++ exceptions
@@ -1197,7 +1197,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  disposal logic of &lt;code dir="ltr" translate="no"&gt;FirebaseFirestore&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.5.0 - October 27, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_850_-_october_27_2021</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) iOS SDKs are now built using Xcode 13.0.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Fixed an issue where the &lt;code dir="ltr" translate="no"&gt;Equals()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;GetHashCode()&lt;/code&gt; methods
  of &lt;code dir="ltr" translate="no"&gt;DocumentSnapshot&lt;/code&gt; would sometimes be inconsistent
  (&lt;a href="https://github.com/firebase/firebase-ios-sdk/pull/8647"&gt;#8647&lt;/a&gt;).&lt;/li&gt;
@@ -1208,7 +1208,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/1133"&gt;#1133&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Official support for Unity 2017.x will be
  dropped at the next major release.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Released to general availability for Android
  and iOS (desktop support remains in beta).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed intermittent crashes and empty results when
@@ -1315,7 +1315,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) If the app data directory doesn't exist, create it.
  This fixes an issue with disk persistence on Linux.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;TransactionOptions&lt;/code&gt; to control how many times a
  transaction will retry commits before failing
  (&lt;a href="https://github.com/firebase/firebase-unity-sdk/pull/318"&gt;#318&lt;/a&gt;).&lt;/li&gt;
@@ -1368,7 +1368,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an
  &lt;a href="https://github.com/firebase/quickstart-unity/issues/1116"&gt;issue&lt;/a&gt; with
  symbols being stripped when using the tgz package.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Reduce the number of JNI global references consumed
  when creating or updating documents
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/1111"&gt;#1111&lt;/a&gt;).&lt;/li&gt;
@@ -1415,7 +1415,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  a Java file instead of precompiling it. This is to better support changes
  with the UnityPlayerActivity, and GameActivity options, in the Unity 2023
  editor.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.0.0 - May 9, 2023</title><link>https://firebase.google.com/support/release-notes/unity#version_1100_-_may_9_2023</link><description>&lt;h3 data-text="App Check" id="app_check_3" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.0.0 - May 9, 2023</title><link>https://firebase.google.com/support/release-notes/unity#version_1100_-_may_9_2023</link><description>&lt;h3 data-text="App Check" id="app_check_4" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Adds support for Firebase App Check on Android, iOS, tvOS, and
  desktop platforms. To learn more, see
  https://firebase.google.com/docs/app-check&lt;/li&gt;
@@ -1427,7 +1427,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  &lt;code dir="ltr" translate="no"&gt;SignInResult&lt;/code&gt;). The deprecated methods will be removed in the &lt;em&gt;next&lt;/em&gt;
  major release of the Firebase Unity SDK. &lt;em&gt;(Note: do not mix and match
  using the old and new methods or undefined behavior may result.)&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;Query.Count()&lt;/code&gt;, which fetches the number of documents in
  the result set without actually downloading the documents
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/659"&gt;#659&lt;/a&gt;).&lt;/li&gt;
@@ -1457,7 +1457,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash on Windows when the user's home
  directory contains non-ANSI characters (Unicode above U+00FF).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash on Windows when the user's home
  directory contains non-ANSI characters (Unicode above U+00FF).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1485,7 +1485,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  builder failed to create PhoneAuthOptions with certain compiler settings.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue where functions that return AuthResult were
  not including updated credentials when encountering errors.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fix the intermittent global references
  exhaustion crash when working with documents with a large number of keys
  and/or large map and/or array fields.
@@ -1515,7 +1515,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  measurement&lt;/a&gt; API.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.6.0 - October 19, 2023</title><link>https://firebase.google.com/support/release-notes/unity#version_1160_-_october_19_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 11.6.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_2" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_3" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when there are errors creating a provider.
  (&lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/877"&gt;#877&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.7.0 - February 13, 2024</title><link>https://firebase.google.com/support/release-notes/unity#version_1170_-_february_13_2024</link><description>&lt;ul&gt;
@@ -1543,14 +1543,14 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The Dynamic Links SDK is now deprecated. See the &lt;a href="https://firebase.google.com/support/dynamic-links-faq"&gt;support
  documentation&lt;/a&gt; for
  more information.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.8.1 - March 29, 2024</title><link>https://firebase.google.com/support/release-notes/unity#version_1181_-_march_29_2024</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.8.1 - March 29, 2024</title><link>https://firebase.google.com/support/release-notes/unity#version_1181_-_march_29_2024</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fix undefined absl symbols error.
  (&lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/974"&gt;#974&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.9.0 - April 18, 2024</title><link>https://firebase.google.com/support/release-notes/unity#version_1190_-_april_18_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 11.10.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 32.8.1.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.24.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_2" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed potential crash when fetching a token.
  (&lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/877"&gt;#877&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1772,4 +1772,14 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add &lt;code dir="ltr" translate="no"&gt;LiveSessionGoingAway&lt;/code&gt; to handle backend closing.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for &lt;code dir="ltr" translate="no"&gt;CachedContentTokenCount&lt;/code&gt; and
  &lt;code dir="ltr" translate="no"&gt;CacheTokensDetails&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;UsageMetadata&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.9.0 - March 05, 2026</title><link>https://firebase.google.com/support/release-notes/unity#version_1390_-_march_05_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.10.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase SPM/Cocoapods version 12.10.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated App Check to support limited-use tokens. This is a
+ breaking change for custom providers, which must now implement the new
+ &lt;code dir="ltr" translate="no"&gt;GetLimitedUseTokenAsync&lt;/code&gt; method. If a custom provider does not support
+ this feature, it can return a standard token from this method.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fix crash when using Auth or App Check Credentials.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
