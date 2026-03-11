@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 11 Mar 2026 18:49:06 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 11 Mar 2026 21:28:45 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -7884,4 +7884,36 @@ GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/i
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution Gradle plugin version 5.2.1" id="appdistro_gradle_plugin_v5-2-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin version 5.2.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Declared dependency on Google Services plugin.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - February 26, 2026</title><link>https://firebase.google.com/support/release-notes/android#2026-02-26</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 34.10.0" id="bom_v34-10-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 34.10.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 17.10.0" id="ai_v17-10-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.10.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added experimental support for on-device inference.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7739"&gt;#7739&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added automatic function calling support with
+&lt;code dir="ltr" translate="no"&gt;AutoFunctionDeclaration&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added no-argument overloads for &lt;code dir="ltr" translate="no"&gt;Tool.urlContext()&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;Tool.googleSearch()&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Firebase AI Logic On-Device SDK.
+Note: This SDK should be used in conjunction with
+&lt;a href="/docs/reference/kotlin/com/google/firebase/ai/package-summary"&gt;&lt;code dir="ltr" translate="no"&gt;firebase-ai&lt;/code&gt;&lt;/a&gt;
+to enable inference-related functionality.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 26.1.1" id="firestore_v26-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 26.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;regexFind&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;regexFindAll&lt;/code&gt; Pipeline
+expressions.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7669"&gt;#7669&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;Expression.alias()&lt;/code&gt; to return &lt;code dir="ltr" translate="no"&gt;AliasedExpression&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed &lt;code dir="ltr" translate="no"&gt;isNan&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;isNotNan&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;isNull&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;isNotNull&lt;/code&gt; factory
+methods from &lt;code dir="ltr" translate="no"&gt;Expression&lt;/code&gt;. Use &lt;code dir="ltr" translate="no"&gt;equal(Double.NaN)&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;notEqual(Double.NaN)&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;equal(nullValue())&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;notEqual(nullValue())&lt;/code&gt; respectively.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.1.4" id="data-connect_v17-1-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.1.4&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal changes to support future offline caching functionality.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7716"&gt;#7716&lt;/a&gt;,
+&lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7714"&gt;#7714&lt;/a&gt;,
+&lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7720"&gt;#7720&lt;/a&gt;,
+&lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7759"&gt;#7759&lt;/a&gt;,
+&lt;a class="external" href="//github.com/firebase/firebase-android-sdk/pull/7821"&gt;#7821&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase installations version 19.1.0" id="installations_v19-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations version 19.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mitigated FIS ID duplication issue from backup data.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7025"&gt;#7025&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
