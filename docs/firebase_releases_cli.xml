@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 13 Mar 2026 18:36:01 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 13 Mar 2026 21:29:03 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2011,10 +2011,12 @@ issues.
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;/firestore:generate_rules&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;/storage:generate_rules&lt;/code&gt;
 MCP prompts.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; Emulator to v3.0.2, which
-addresses some internal errors. (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9738"&gt;#9738&lt;/a&gt;)&lt;/li&gt;
+addresses some internal errors.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9738"&gt;#9738&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 15.3.1 - January 15, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1531_-_january_15_2026</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Renamed MCP prompts &lt;code dir="ltr" translate="no"&gt;/firestore:generate_rules&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;/firestore:generate_security_rules&lt;/code&gt;
-and &lt;code dir="ltr" translate="no"&gt;/storage:generate_rules&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;/storage:generate_security_rules&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Renamed MCP prompts &lt;code dir="ltr" translate="no"&gt;/firestore:generate_rules&lt;/code&gt; to
+&lt;code dir="ltr" translate="no"&gt;/firestore:generate_security_rules&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;/storage:generate_rules&lt;/code&gt; to
+&lt;code dir="ltr" translate="no"&gt;/storage:generate_security_rules&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 15.4.0 - January 22, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1540_-_january_22_2026</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator would stop
 responding when using PGlite.
@@ -2025,14 +2027,27 @@ adds support for using &lt;code dir="ltr" translate="no"&gt;distinct: true&lt;/c
 other internal improvements.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9778"&gt;#9778&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 15.5.0 - January 29, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1550_-_january_29_2026</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase dataconnect:compile&lt;/code&gt; command to compile &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; schemas and connectors.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;firestoreDataAccessMode&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;mongodbCompatibleDataAccessMode&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;realtimeUpdatesMode&lt;/code&gt; flags for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Database creation. (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9817"&gt;#9817&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v3.1.1 of the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator which includes fixes and internal improvements. (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9835"&gt;#9835&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; &lt;span class="notranslate"&gt;Security Rules&lt;/span&gt; would be overwritten when running &lt;code dir="ltr" translate="no"&gt;firebase init storage&lt;/code&gt;. (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8170"&gt;#8170&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;AuthBlockingEvent&lt;/code&gt; had invalid format for &lt;code dir="ltr" translate="no"&gt;metadata.creationTime&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;metadata.lastSignInTime&lt;/code&gt; in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator. (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8109"&gt;#8109&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Loaded experiments earlier in CLI startup to allow for earlier access. (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9797"&gt;#9797&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase dataconnect:compile&lt;/code&gt; command to compile
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; schemas and connectors.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;firestoreDataAccessMode&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;mongodbCompatibleDataAccessMode&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;realtimeUpdatesMode&lt;/code&gt; flags for
+&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Database creation.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9817"&gt;#9817&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v3.1.1 which
+includes fixes and internal improvements.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9835"&gt;#9835&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; &lt;span class="notranslate"&gt;Security Rules&lt;/span&gt; would be overwritten
+when running &lt;code dir="ltr" translate="no"&gt;firebase init storage&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8170"&gt;#8170&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;AuthBlockingEvent&lt;/code&gt; had invalid format for
+&lt;code dir="ltr" translate="no"&gt;metadata.creationTime&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;metadata.lastSignInTime&lt;/code&gt; in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8109"&gt;#8109&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved access by now loading experiments earlier in CLI
+startup to allow for earlier access.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9797"&gt;#9797&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 15.5.1 - January 29, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1551_-_january_29_2026</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue causing errors on calls to &lt;code dir="ltr" translate="no"&gt;serviceusage&lt;/code&gt; (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9844"&gt;#9844&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue causing errors on calls to &lt;code dir="ltr" translate="no"&gt;serviceusage&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9844"&gt;#9844&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 15.6.0 - February 11, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1560_-_february_11_2026</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for enabling &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; providers
 using &lt;code dir="ltr" translate="no"&gt;firebase deploy&lt;/code&gt;. You can configure providers in &lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt; like
@@ -2052,23 +2067,91 @@ so:&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/devsite-code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added initial zip deploy support for HTTP functions in
 &lt;code dir="ltr" translate="no"&gt;firebase deploy functions&lt;/code&gt;.
-(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9707"&gt;#9707&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9707"&gt;#9707&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Python was missing from the &lt;code dir="ltr" translate="no"&gt;firebase-tools&lt;/code&gt;
 Docker image.
-(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9855"&gt;#9855&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9855"&gt;#9855&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed billing information check to use user's project quota.
-(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9879"&gt;#9879&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9879"&gt;#9879&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator multi-tenant mode only
 exported or imported users tied to the default tenant.
-(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/5623"&gt;#5623&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/5623"&gt;#5623&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v3.1.3. Changes include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Enabled native SQL feature.&lt;/li&gt;
 &lt;li&gt;Improved insecure operation warning messages and reduced severity of
-existing insecure operation warnings to &lt;code dir="ltr" translate="no"&gt;LOG_ONLY&lt;/code&gt;
-(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9882"&gt;#9882&lt;/a&gt;).&lt;/li&gt;
+existing insecure operation warnings to &lt;code dir="ltr" translate="no"&gt;LOG_ONLY&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9882"&gt;#9882&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Updated Golang dependency to v1.24.12
-(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9882"&gt;#9882&lt;/a&gt;).&lt;/li&gt;
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9882"&gt;#9882&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated Pub/Sub emulator to version 0.8.27.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.7.0 - February 20, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1570_-_february_20_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated Python Functions template to use
+&lt;code dir="ltr" translate="no"&gt;firebase_functions&lt;/code&gt; v0.5.x.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v3.1.4.
+Changes include:
+&lt;ul&gt;
+&lt;li&gt;Added support for &lt;code dir="ltr" translate="no"&gt;@searchable&lt;/code&gt; on &lt;code dir="ltr" translate="no"&gt;varchar&lt;/code&gt; fields.&lt;/li&gt;
+&lt;li&gt;Fixed a runtime error when using aggregations with nested reference fields.&lt;/li&gt;
+&lt;li&gt;Updated the Golang dependency version from v1.24.12 to v1.24.13.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9944"&gt;#9944&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added Developer Knowledge MCP tools which can search Google
+documentation to help AI agents answer questions, perform tasks, and write
+code.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.8.0 - February 26, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1580_-_february_26_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Corrects issue with &lt;code dir="ltr" translate="no"&gt;updateService&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;runv2.ts&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9918"&gt;#9918&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated suite of MCP tools for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; to include many new
+tools. &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; tools no longer support emulator mode.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v3.2.0.
+Changes include:
+&lt;ul&gt;
+&lt;li&gt;Added support for &lt;code dir="ltr" translate="no"&gt;uuidV7()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Added support for custom PostgreSQL schema names.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9975"&gt;#9975&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.9.0 - March 06, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1590_-_march_06_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;*_EMULATOR_VERSION&lt;/code&gt; env variables to allow overriding
+specific versions of downloadable emulators.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;code dir="ltr" translate="no"&gt;functions.config&lt;/code&gt; deprecation notice from
+March 2026 to March 2027.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9941"&gt;#9941&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; deploys. The CLI now detects when
+&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; fails to deploy, and returns an error.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8866"&gt;#8866&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firestore_query_collection&lt;/code&gt; tool back to the MCP server.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for custom resolvers in &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9967"&gt;#9967&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v3.2.1.
+Changes include:
+&lt;ul&gt;
+&lt;li&gt;Resolved metadata pathing issue for &lt;code dir="ltr" translate="no"&gt;@redact&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;@check&lt;/code&gt; directives.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10022"&gt;#10022&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.9.1 - March 09, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1591_-_march_09_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;next.config.ts&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;next.config.mts&lt;/code&gt; in
+Next.js deployments.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9871"&gt;#9871&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Enabled free trials without a payment method for
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10042"&gt;#10042&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.10.0 - March 12, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15100_-_march_12_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for VPC direct connect in Cloud Functions (2nd gen).
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10033"&gt;#10033&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;--only&lt;/code&gt; flag for &lt;code dir="ltr" translate="no"&gt;emulators:export&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/4033"&gt;#4033&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for custom PostgreSQL schema names in
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9271"&gt;#9271&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added improved support for SSR web apps. With this release, when
+SSR web app features are detected in the &lt;code dir="ltr" translate="no"&gt;firebase init hosting&lt;/code&gt; flow, the
+CLI now offers to switch to &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9887"&gt;#9887&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed the experimental web frameworks prompt from
+&lt;code dir="ltr" translate="no"&gt;firebase init hosting&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9843"&gt;#9843&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;studio:export&lt;/code&gt; command to export &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;
+projects to Antigravity.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

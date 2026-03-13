@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 13 Mar 2026 18:35:51 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 13 Mar 2026 21:28:55 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6396,8 +6396,8 @@ This release includes changes in &lt;span class='\"notranslate\"'&gt;Firebase AI
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#15.6.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.6.0)&lt;/a&gt; is now
 available. This version adds support for enabling &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; providers
-using &lt;code dir="ltr" translate="no"&gt;firebase deploy&lt;/code&gt;, adds initial zip deploy support for HTTP functions, and
-includes several fixes and improvements.&lt;/p&gt;
+using &lt;code dir="ltr" translate="no"&gt;firebase deploy&lt;/code&gt;, adds initial zip deploy support for HTTP functions,
+and includes several fixes and improvements.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate></item><item><title>February 12, 2026</title><link>https://firebase.google.com/support/releases#february_12_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_8" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -6420,7 +6420,14 @@ via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/sp
 &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, make sure to
 &lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
 &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate></item><item><title>February 20, 2026</title><link>https://firebase.google.com/support/releases#february_20_2026</link><description>&lt;h3 data-text="Firebase agent skills" id="agent-skills-data-connect" tabindex="-1"&gt;Firebase agent skills&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate></item><item><title>February 20, 2026</title><link>https://firebase.google.com/support/releases#february_20_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.7.0)" id="cli-v15.7.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.7.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.7.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.7.0)&lt;/a&gt; is now
+available. This version updates the Python Functions template, improves the
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit, and adds Developer Knowledge MCP tools.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase agent skills" id="agent-skills-data-connect" tabindex="-1"&gt;Firebase agent skills&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The new &lt;code dir="ltr" translate="no"&gt;firebase-data-connect-basics&lt;/code&gt; skill is now available in
 &lt;a href="/docs/ai-assistance/agent-skills"&gt;Firebase agent skills&lt;/a&gt;
 to help AI assistants build and deploy &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; backends with
@@ -6458,6 +6465,14 @@ via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/sp
 via &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, make sure to
 &lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
 &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v15.8.0)" id="cli-v15.8.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.8.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.8.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.8.0)&lt;/a&gt; is now
+available. This version fixes an issue with Cloud Functions (2nd gen)
+deployment, updates &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; MCP tools, and adds UUIDv7 support to
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_6" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and
@@ -6511,7 +6526,23 @@ all supported regions. For a list of supported regions, see
 (v13.9.0)&lt;/a&gt; is now available. This
 release includes changes to App Check, a bug fix in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and
 other changes.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 10, 2026</title><link>https://firebase.google.com/support/releases#march_10_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 06, 2026</title><link>https://firebase.google.com/support/releases#march_06_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.9.0)" id="cli-v15.9.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.9.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.9.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.9.0)&lt;/a&gt; is now
+available. This version adds the &lt;code dir="ltr" translate="no"&gt;*_EMULATOR_VERSION&lt;/code&gt; env variables to allow
+overriding emulator versions and includes multiple improvements for
+&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;, MCP tools, and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 09, 2026</title><link>https://firebase.google.com/support/releases#march_09_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.9.1)" id="cli-v15.9.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.9.1)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.9.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.9.1)&lt;/a&gt; is now
+available. This version adds support for &lt;code dir="ltr" translate="no"&gt;next.config.ts&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;next.config.mts&lt;/code&gt; in Next.js deployments and enables free trials for
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; without a payment method.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 10, 2026</title><link>https://firebase.google.com/support/releases#march_10_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Firebase Phone Number Verification&lt;/span&gt; have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2026-03-10"&gt;Android Release Notes&lt;/a&gt;.
@@ -6519,4 +6550,12 @@ To get started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Note that the &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; did not release since
 &lt;span class="notranslate"&gt;Firebase Phone Number Verification&lt;/span&gt; is not yet included in the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 12, 2026</title><link>https://firebase.google.com/support/releases#march_12_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.10.0)" id="cli-v15.10.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.10.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.10.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.10.0)&lt;/a&gt; is now
+available. This version adds support for VPC direct connect in Cloud
+Functions (2nd gen), adds the &lt;code dir="ltr" translate="no"&gt;--only&lt;/code&gt; flag to &lt;code dir="ltr" translate="no"&gt;emulators:export&lt;/code&gt;, and
+improves the &lt;code dir="ltr" translate="no"&gt;firebase init hosting&lt;/code&gt; flow for SSR web apps.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate></item></channel></rss>
