@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 16 Mar 2026 16:01:43 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 16 Mar 2026 18:56:05 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -96,7 +96,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your iO
 release fixes an issue when building with mainTemplate.gradle.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate></item><item><title>May 05, 2022</title><link>https://firebase.google.com/support/releases#may_05_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_340" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#10.2.0"&gt;Firebase Admin Node.js SDK (v10.2.0)&lt;/a&gt;
-is now available. This release comes with a new feature in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+is now available. This release comes with a new feature in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate></item><item><title>May 06, 2022</title><link>https://firebase.google.com/support/releases#may_06_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_339" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -177,7 +177,7 @@ for a detailed description of new features and a list of limitations during
 public preview.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 11 May 2022 00:00:00 +0000</pubDate></item><item><title>May 12, 2022</title><link>https://firebase.google.com/support/releases#may_12_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_335" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;
+Authentication
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2022-05-12"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -244,7 +244,7 @@ optimize for the majority of your users. To learn more, see
 &lt;a href="/docs/perf-mon/console#track-key-metrics"&gt;Track key metrics in your dashboard&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_332" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;
+&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, Authentication, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;
 have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin and
 &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin have also been updated. For more details, check
 out the latest
@@ -263,7 +263,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;/ul&gt;</description><pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate></item><item><title>June 02, 2022</title><link>https://firebase.google.com/support/releases#june_02_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_330" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/java#8.2.0"&gt;Firebase Admin Java SDK (v8.2.0)&lt;/a&gt;
 is now available. This release deprecates support for Java 7 and comes with
-new imrpovements in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+new imrpovements in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate></item><item><title>June 6, 2022</title><link>https://firebase.google.com/support/releases#june_6_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_329" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -335,7 +335,7 @@ is now available. For more details, see the
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate></item><item><title>June 23, 2022</title><link>https://firebase.google.com/support/releases#june_23_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_324" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;
+Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;
 have been updated. The &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin have also been updated.
 For more details, check out the latest
 &lt;a href="/support/release-notes/android#2022-06-23"&gt;Android Release Notes&lt;/a&gt;.
@@ -414,7 +414,7 @@ any column.&lt;/p&gt;
 &lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Experiments can be edited and duplicated from the Experiments
 list; start, stop, and other management features are available on the
 Experiment overview page.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="auth-identity-platform" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="auth-identity-platform" tabindex="-1"&gt;Authentication&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; with Identity Platform&lt;/span&gt; is a new, optional, upgrade that adds several features
 to upgraded projects:&lt;/p&gt;
 &lt;ul&gt;
@@ -425,7 +425,7 @@ sign in&lt;/li&gt;
 &lt;li&gt;Improved logging&lt;/li&gt;
 &lt;li&gt;Enterprise level support, which includes a dedicated team with SLAs&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;See the &lt;a href="/docs/auth#identity-platform"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; docs&lt;/a&gt; for details.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;See the &lt;a href="/docs/auth#identity-platform"&gt;Authentication docs&lt;/a&gt; for details.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_318" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#9.3.0"&gt;Firebase SDK for C++
 (v9.3.0)&lt;/a&gt; is now available.
@@ -512,7 +512,7 @@ is now available. For more details, see the
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate></item><item><title>August 05, 2022</title><link>https://firebase.google.com/support/releases#august_05_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_311" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;
+Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;
 have been updated.  The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
 For more details, check out the latest
 &lt;a href="/support/release-notes/android#2022-08-05"&gt;Android Release Notes&lt;/a&gt;.
@@ -573,7 +573,7 @@ To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 25 Aug 2022 00:00:00 +0000</pubDate></item><item><title>September 01, 2022</title><link>https://firebase.google.com/support/releases#september_01_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_304" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, Dynamic feature modules support, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;, &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, Installations, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
+&lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, Dynamic feature modules support, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;, &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, Installations, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2022-09-01"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -663,13 +663,13 @@ in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console.&lt;/li&gt;
 This release includes changes to Google Mobile Ads and other changes.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/python#5.4.0"&gt;Firebase Admin Python SDK (v5.4.0)&lt;/a&gt;
 is now available. This release deprecates support for Python 3.6 and contains
-bug fixes in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API. To install this SDK, see
+bug fixes in the Authentication API. To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase Security Rules" id="cross-service-rules" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Security Rules&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase Security Rules" id="cross-service-rules" tabindex="-1"&gt;Firebase Security Rules&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-rules"&gt;&lt;/span&gt; You can now access Firestore documents from &lt;span class="notranslate"&gt;Firebase Security Rules&lt;/span&gt; for &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;
-to define more complex security rules. The &lt;span class="notranslate"&gt;Security Rules&lt;/span&gt; language now supports
+to define more complex security rules. The Rules language now supports
 two brand new functions, &lt;code dir="ltr" translate="no"&gt;firestore.get()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;firestore.exists()&lt;/code&gt;.
-See the latest &lt;a href="/support/release-notes/security-rules#092222"&gt;&lt;span class="notranslate"&gt;Firebase Security Rules&lt;/span&gt; Release Notes&lt;/a&gt;.&lt;/li&gt;
+See the latest &lt;a href="/support/release-notes/security-rules#092222"&gt;Firebase Security Rules Release Notes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate></item><item><title>September 27, 2022</title><link>https://firebase.google.com/support/releases#september_27_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_297" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#9.6.0"&gt;Firebase SDK for Unity
 (v9.6.0)&lt;/a&gt; is now available. This
@@ -682,7 +682,7 @@ To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/go#4.9.0"&gt;Firebase Admin Go SDK (v4.9.0)&lt;/a&gt;
 is now available. The Admin SDK for Go now requires Go 1.17 or higher.
-This release also includes bug fixes in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+This release also includes bug fixes in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/python#6.0.0"&gt;Firebase Admin Python SDK (v6.0.0)&lt;/a&gt;
@@ -695,7 +695,7 @@ is now available. For more details, see the
 &lt;a href="/support/release-notes/js#9.11.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate></item><item><title>October 07, 2022</title><link>https://firebase.google.com/support/releases#october_07_2022</link><description>&lt;h3 data-text="Firebase Local Emulator Suite" id="emulator-suite-ga" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Local Emulator Suite&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Hosting&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; and &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Hosting&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; and Authentication
 emulators are now released to general availability (no longer in beta). The
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Pub/Sub&lt;/span&gt;, and Extensions emulators are still
 beta products, and might be changed in backward-incompatible ways.&lt;/li&gt;
@@ -713,7 +713,7 @@ is now available. For more details, see the
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate></item><item><title>October 12, 2022</title><link>https://firebase.google.com/support/releases#october_12_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_293" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;,
+&lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, Authentication,
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK,
 &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;, &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, Installations, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;,
@@ -740,7 +740,7 @@ select the Google Pixel 7 or the Pixel 7 Pro. To learn more, see
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_292" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#10.0.0"&gt;Firebase SDK for C++
 (v10.0.0)&lt;/a&gt; is now available.
-This release includes changes to &lt;span class="notranslate"&gt;AdMob&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, and Google Mobile
+This release includes changes to &lt;span class="notranslate"&gt;AdMob&lt;/span&gt;, Authentication, and Google Mobile
 Ads, as well as other changes.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate></item><item><title>October 14, 2022</title><link>https://firebase.google.com/support/releases#october_14_2022</link><description>&lt;h3 data-text="App Distribution" id="app-distribution-advanced-alerting-3p-with-functions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; now lets you set up advanced alerting to
@@ -841,7 +841,7 @@ potential conflicting function configuration. See
 &lt;/ul&gt;</description><pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate></item><item><title>October 17, 2022</title><link>https://firebase.google.com/support/releases#october_17_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_291" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#11.2.0"&gt;Firebase Admin Node.js SDK (v11.2.0)&lt;/a&gt;
 is now available. This release includes dependency updates in
-&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and new features in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and new features in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/python#6.0.1"&gt;Firebase Admin Python SDK (v6.0.1)&lt;/a&gt;
@@ -854,7 +854,7 @@ to the latest version. To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#10.0.0"&gt;Firebase SDK for Unity
 (v10.0.0)&lt;/a&gt; is now available. This
-release includes changes to &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, as well as
+release includes changes to Authentication and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, as well as
 other changes.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore-count-queries" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; now supports a &lt;code dir="ltr" translate="no"&gt;count()&lt;/code&gt; aggregation query that
@@ -933,7 +933,7 @@ is now available. This release includes fixes in
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/java#9.1.1"&gt;Firebase Admin Java SDK (v9.1.1)&lt;/a&gt;
-is now available. This release fixes an issue in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API to correctly
+is now available. This release fixes an issue in the Authentication API to correctly
 set credentials when using the Firebase emulator suite.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -1223,7 +1223,7 @@ This release includes miscellaneous changes.&lt;/p&gt;&lt;/li&gt;
 &lt;a class="external" href="https://github.com/firebase/flutterfire/blob/master/CHANGELOG.md#2023-02-14"&gt;Firebase Flutter SDK&lt;/a&gt; 
 is now available. This release includes a new Hebrew localization for Firebase
 UI, adds support for &lt;code dir="ltr" translate="no"&gt;FieldPath&lt;/code&gt; keys to &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;'s &lt;code dir="ltr" translate="no"&gt;update()&lt;/code&gt;
-method, and comes with fixes for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+method, and comes with fixes for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and Authentication.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate></item><item><title>February 15, 2023</title><link>https://firebase.google.com/support/releases#february_15_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_263" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, and
@@ -1319,7 +1319,7 @@ Terraform with Firebase can be a good fit for you.&lt;/p&gt;
 &lt;li&gt;Enable &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; sign-in providers that you want to use with your
 app.&lt;/li&gt;
 &lt;li&gt;Create &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; buckets or database instances and deploy
-their &lt;span class="notranslate"&gt;Firebase Security Rules&lt;/span&gt;.&lt;/li&gt;
+their Firebase Security Rules.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;To get started, check out our initial release
 &lt;a href="/docs/projects/terraform/get-started"&gt;documentation for Firebase + Terraform&lt;/a&gt;,
@@ -1373,7 +1373,7 @@ has been updated to v31.3.0. Learn how to
 &lt;a href="/docs/android/learn-more#bom"&gt;add SDKs to your app using the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate></item><item><title>March 28, 2023</title><link>https://firebase.google.com/support/releases#march_28_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_253" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;
+Authentication
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2023-03-28"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -1452,12 +1452,12 @@ and uses the latest &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; SDK
 &lt;/ul&gt;</description><pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate></item><item><title>April 06, 2023</title><link>https://firebase.google.com/support/releases#april_06_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_250" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/go#4.11.0"&gt;Firebase Admin Go SDK (v4.11.0)&lt;/a&gt;
 is now available. This release adds support for &lt;code dir="ltr" translate="no"&gt;TOTP&lt;/code&gt; as a multifactor option
-in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#11.6.0"&gt;Firebase Admin Node.js SDK (v11.6.0)&lt;/a&gt;
 is now available. This release adds support for &lt;code dir="ltr" translate="no"&gt;TOTP&lt;/code&gt; as a multifactor option
-in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API and deprecates the legacy &lt;span class="notranslate"&gt;FCM&lt;/span&gt; APIs.
+in the Authentication API and deprecates the legacy &lt;span class="notranslate"&gt;FCM&lt;/span&gt; APIs.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate></item><item><title>April 07, 2023</title><link>https://firebase.google.com/support/releases#april_07_2023</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics-stack-trace-display-improvements-for-unity" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1489,7 +1489,7 @@ is now available. For more details, see the
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.
 This release is available via Swift Package Manager only.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;
+&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;
 have been updated. The &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin has also been updated.
 For more details, check out the latest
 &lt;a href="/support/release-notes/android#2023-04-13"&gt;Android Release Notes&lt;/a&gt;.
@@ -1511,7 +1511,7 @@ is now available. For more details, see the
 &lt;a href="/support/release-notes/js#9.20.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#11.7.0"&gt;Firebase Admin Node.js SDK (v11.7.0)&lt;/a&gt;
-is now available. This release comes with new improvements in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;
+is now available. This release comes with new improvements in the Authentication
 API and changes in the &lt;span class="notranslate"&gt;FCM&lt;/span&gt; APIs.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -1566,7 +1566,7 @@ is now available. For more details, see the
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate></item><item><title>May 01, 2023</title><link>https://firebase.google.com/support/releases#may_01_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_244" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;,
+&lt;span class="notranslate"&gt;App Check&lt;/span&gt;, Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK,
 &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
 have been updated. For more details, check out the latest
@@ -1588,7 +1588,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 This release updates the minimum supported C++ standard to C++14 and includes
 support for App Check and real-time config updates in &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, new
 features in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, breaking changes caused by deprecations in
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, removal of the deprecated &lt;span class="notranslate"&gt;AdMob&lt;/span&gt; SDK, and other changes.&lt;/p&gt;&lt;/li&gt;
+Authentication, removal of the deprecated &lt;span class="notranslate"&gt;AdMob&lt;/span&gt; SDK, and other changes.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#11.8.0"&gt;Firebase Admin Node.js SDK (v11.8.0)&lt;/a&gt;
 is now available. This release comes with new improvements in the
 &lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt; API.
@@ -1602,11 +1602,11 @@ is available.&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#11.0.0"&gt;Firebase SDK for Unity
 (v11.0.0)&lt;/a&gt; is now available.
 This release includes support for App Check, &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; real-time
-updates, new features in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, breaking deprecations in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, and
+updates, new features in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, breaking deprecations in Authentication, and
 other changes.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#11.0.1"&gt;Firebase SDK for C++
 (v11.0.1)&lt;/a&gt; is now available.
-This release includes a bug fix in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+This release includes a bug fix in Authentication.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v12.0.0)" id="cli-v12.0.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v12.0.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#12.0.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v12.0.0)&lt;/a&gt;
@@ -1728,7 +1728,7 @@ has been updated to v32.1.0. Learn how to
 &lt;/ul&gt;</description><pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate></item><item><title>May 30, 2023</title><link>https://firebase.google.com/support/releases#may_30_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_237" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#11.9.0"&gt;Firebase Admin Node.js SDK (v11.9.0)&lt;/a&gt;
 is now available. This release comes with improvements in the
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; A new release of the
@@ -1744,7 +1744,7 @@ other changes and fixes.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate></item><item><title>June 01, 2023</title><link>https://firebase.google.com/support/releases#june_01_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_235" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#11.1.0"&gt;Firebase SDK for Unity
 (v11.1.0)&lt;/a&gt; is now available. This
-release includes changes to &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;; bug fixes in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;,
+release includes changes to Authentication; bug fixes in Authentication, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;; and other changes and fixes.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v12.3.0)" id="cli-v12.3.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v12.3.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
@@ -1877,7 +1877,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#11.10.0"&gt;Firebase Admin Node.js SDK (v11.10.0)&lt;/a&gt;
 is now available. This release comes with improvements in the
 &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; APIs
-along with fixes in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+along with fixes in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/go#4.12.0"&gt;Firebase Admin Go SDK (v4.12.0)&lt;/a&gt;
@@ -1899,7 +1899,7 @@ emulator. To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI i
 &lt;a href="/docs/cli#setup_update_cli"&gt;Set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate></item><item><title>July 13, 2023</title><link>https://firebase.google.com/support/releases#july_13_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_224" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
+&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
 have been updated. The &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin has also been updated.
 For more details, check out the latest
@@ -1923,7 +1923,7 @@ several new Cloud Storage widgets to Firebase UI.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate></item><item><title>July 18, 2023</title><link>https://firebase.google.com/support/releases#july_18_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_222" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#11.3.0"&gt;Firebase SDK for C++
 (v11.3.0)&lt;/a&gt; is now available.
-This release includes bug fixes in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and other
+This release includes bug fixes in Authentication and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and other
 changes and fixes.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate></item><item><title>July 19, 2023</title><link>https://firebase.google.com/support/releases#july_19_2023</link><description>&lt;h3 data-text="Firebase CLI (v12.4.5)" id="cli-v12.4.5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v12.4.5)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
@@ -1941,7 +1941,7 @@ is now available. For more details, see the
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#11.3.0"&gt;Firebase SDK for Unity
 (v11.3.0)&lt;/a&gt; is now available. This
-release includes bug fixes in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, as well as
+release includes bug fixes in Authentication and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, as well as
 other changes and fixes.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate></item><item><title>July 25, 2023</title><link>https://firebase.google.com/support/releases#july_25_2023</link><description>&lt;h3 data-text="Firebase CLI (v12.4.6)" id="cli-v12.4.6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v12.4.6)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
@@ -1968,7 +1968,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;a href="/docs/cli#setup_update_cli"&gt;Set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate></item><item><title>August 03, 2023</title><link>https://firebase.google.com/support/releases#august_03_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_219" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;,
+&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, Authentication, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;,
 Installations, and &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;
 have been updated. The &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin has also been updated.
 For more details, check out the latest
@@ -2024,7 +2024,7 @@ iphone8/16.6.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_216" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#11.4.0"&gt;Firebase SDK for Unity
 (v11.4.0)&lt;/a&gt; is now available. This
-release includes a bug fix in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and other changes.### SDK Releases&lt;/p&gt;&lt;/li&gt;
+release includes a bug fix in Authentication and other changes.### SDK Releases&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/js#10.2.0"&gt;Firebase JavaScript SDK (v10.2.0)&lt;/a&gt;
 is now available. For more details, see the
@@ -2149,7 +2149,7 @@ is now available. For more details, see the
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate></item><item><title>September 15, 2023</title><link>https://firebase.google.com/support/releases#september_15_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_209" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;
+Authentication, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2023-09-15"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -2160,7 +2160,7 @@ has been updated to v32.3.1. Learn how to
 &lt;/ul&gt;</description><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate></item><item><title>September 19, 2023</title><link>https://firebase.google.com/support/releases#september_19_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_208" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#11.5.0"&gt;Firebase SDK for C++
 (v11.5.0)&lt;/a&gt; is now available.
-This release includes &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; Emulator support, a new feature in
+This release includes Authentication Emulator support, a new feature in
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; on iOS, and other changes and fixes.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; A new release of the
 &lt;a class="external" href="https://github.com/firebase/flutterfire/blob/master/CHANGELOG.md#2023-09-19"&gt;Firebase Flutter SDK&lt;/a&gt; 
@@ -2173,7 +2173,7 @@ is available.&lt;/p&gt;
 attestation provider you want to use.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;A &lt;code dir="ltr" translate="no"&gt;getSessionId()&lt;/code&gt; method for &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; on Android and Apple platforms.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Windows support for &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Windows support for Authentication.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate></item><item><title>September 21, 2023</title><link>https://firebase.google.com/support/releases#september_21_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_207" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#11.5.0"&gt;Firebase SDK for Unity
@@ -2189,7 +2189,7 @@ changes and fixes.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_206" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/go#4.12.1"&gt;Firebase Admin Go SDK (v4.12.1)&lt;/a&gt;
-is now available. This release comes with a fix in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+is now available. This release comes with a fix in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate></item><item><title>September 26, 2023</title><link>https://firebase.google.com/support/releases#september_26_2023</link><description>&lt;h3 data-text="Firebase CLI (v12.6.0)" id="cli-v12.6.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v12.6.0)&lt;/h3&gt;&lt;ul&gt;
@@ -2209,7 +2209,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;a href="/docs/cli#setup_update_cli"&gt;Set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate></item><item><title>September 28, 2023</title><link>https://firebase.google.com/support/releases#september_28_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_205" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#11.11.0"&gt;Firebase Admin Node.js SDK (v11.11.0)&lt;/a&gt;
-is now available. This release comes with improvements in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+is now available. This release comes with improvements in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate></item><item><title>October 01, 2023</title><link>https://firebase.google.com/support/releases#october_01_2023</link><description>&lt;h3 data-text="Firebase project management" id="terraform-improved-auth-and-extensions" tabindex="-1"&gt;Firebase project management&lt;/h3&gt;&lt;ul&gt;
@@ -2222,9 +2222,9 @@ including the following:&lt;/p&gt;
 (see a
 &lt;a href="/docs/projects/terraform/get-started#tf-sample-firebase-extensions"&gt;sample &lt;code dir="ltr" translate="no"&gt;.tf&lt;/code&gt; config file for &lt;span class="notranslate"&gt;Extensions&lt;/span&gt;&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;For
-&lt;a href="/docs/projects/terraform/get-started#resources-authentication"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/a&gt;,
+&lt;a href="/docs/projects/terraform/get-started#resources-authentication"&gt;Authentication&lt;/a&gt;,
 configure blocking functions and authorized domains (see a
-&lt;a href="/docs/projects/terraform/get-started#tf-sample-auth"&gt;sample &lt;code dir="ltr" translate="no"&gt;.tf&lt;/code&gt; config file for &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;a href="/docs/projects/terraform/get-started#tf-sample-auth"&gt;sample &lt;code dir="ltr" translate="no"&gt;.tf&lt;/code&gt; config file for Authentication&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate></item><item><title>October 03, 2023</title><link>https://firebase.google.com/support/releases#october_03_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_204" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
@@ -2275,10 +2275,10 @@ OR queries in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;.&lt;/
 &lt;a class="external" href="https://github.com/firebase/flutterfire/blob/master/CHANGELOG.md#2023-10-17"&gt;Firebase Flutter SDK&lt;/a&gt; 
 is available.&lt;/p&gt;
 &lt;p&gt;This release adds support for developing Flutter apps on Windows that use
-&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, and now uses Android Gradle Plugin 8.&lt;/p&gt;&lt;/li&gt;
+&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and Authentication, and now uses Android Gradle Plugin 8.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate></item><item><title>October 18, 2023</title><link>https://firebase.google.com/support/releases#october_18_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_202" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;,
+&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;, &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;,
 Installations, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, and
@@ -2398,7 +2398,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate></item><item><title>November 16, 2023</title><link>https://firebase.google.com/support/releases#november_16_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_195" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
+Authentication, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2023-11-16"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -2408,7 +2408,7 @@ has been updated to v32.6.0. Learn how to
 &lt;a href="/docs/android/learn-more#bom"&gt;add SDKs to your app using the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 16 Nov 2023 00:00:00 +0000</pubDate></item><item><title>November 23, 2023</title><link>https://firebase.google.com/support/releases#november_23_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_194" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/go#4.13.0"&gt;Firebase Admin Go SDK (v4.13.0)&lt;/a&gt;
-is now available. This release comes with improvements in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API
+is now available. This release comes with improvements in the Authentication API
 along with a fix in the &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -2427,7 +2427,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; A new release of the
 &lt;a class="external" href="https://github.com/firebase/flutterfire/blob/master/CHANGELOG.md#2023-11-28"&gt;Firebase Flutter SDK&lt;/a&gt; 
 is available.&lt;/p&gt;
-&lt;p&gt;This release adds support for custom &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; domains.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;This release adds support for custom Authentication domains.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate></item><item><title>December 05, 2023</title><link>https://firebase.google.com/support/releases#december_05_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_191" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#10.19.0"&gt;Firebase Apple SDK (v10.19.0)&lt;/a&gt;
@@ -2436,7 +2436,7 @@ is now available. For more details, see the
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/python#6.3.0"&gt;Firebase Admin Python SDK (v6.3.0)&lt;/a&gt;
 is now available. This release deprecates support for Python 3.7 and comes
-with improvements in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API along with a fix in the &lt;span class="notranslate"&gt;App Check&lt;/span&gt;
+with improvements in the Authentication API along with a fix in the &lt;span class="notranslate"&gt;App Check&lt;/span&gt;
 API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -2503,7 +2503,7 @@ is available.&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#11.7.0"&gt;Firebase SDK for C++
 (v11.7.0)&lt;/a&gt; is now available.
 This release includes changes to &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; and Google Mobile Ads, a
-bug fix in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, and other changes.&lt;/p&gt;&lt;/li&gt;
+bug fix in Authentication, and other changes.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-functions"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; SDK for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;
 (&lt;a class="external" href="https://github.com/firebase/firebase-functions/releases/tag/v4.6.0"&gt;v4.6.0&lt;/a&gt;)
 includes updated peer dependencies for &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt;
@@ -2536,7 +2536,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 list to help you understand how issues are trending over time.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate></item><item><title>January 18, 2024</title><link>https://firebase.google.com/support/releases#january_18_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_186" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, and
+Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, and
 &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2024-01-18"&gt;Android Release Notes&lt;/a&gt;.
@@ -2565,7 +2565,7 @@ To install this SDK, see
 &lt;a href="/support/release-notes/cli#13.1.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.1.0)&lt;/a&gt;
 is now available.
 This version includes bug fixes for web frameworks, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, and
-the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator.
+the Authentication emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecate-virtual-devices" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2586,7 +2586,7 @@ consider moving to an Arm virtual device (i.e. &lt;code dir="ltr" translate="no"
 &lt;a class="external" href="https://github.com/firebase/flutterfire/blob/master/CHANGELOG.md#2024-01-31"&gt;Firebase Flutter SDK&lt;/a&gt; 
 is available.&lt;/p&gt;
 &lt;p&gt;This release adds support for Play Games and Game Center sign-in, and migrates
-the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;FCM&lt;/span&gt; libraries
+the Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;FCM&lt;/span&gt; libraries
 to &lt;code dir="ltr" translate="no"&gt;dart:js_interop&lt;/code&gt; to enable Wasm as a build target.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate></item><item><title>February 01, 2024</title><link>https://firebase.google.com/support/releases#february_01_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_183" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
@@ -2625,7 +2625,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.2.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.2.0)&lt;/a&gt;
 is now available.
-This version adds support for email enumeration protection in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;
+This version adds support for email enumeration protection in the Authentication
 emulator and automated tester (beta) support for &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -2663,7 +2663,7 @@ apps&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate></item><item><title>February 13, 2024</title><link>https://firebase.google.com/support/releases#february_13_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_180" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#11.7.0"&gt;Firebase SDK for Unity
 (v11.7.0)&lt;/a&gt; is now available. This
-release includes changes to &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, a bug fix in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, and
+release includes changes to &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, a bug fix in Authentication, and
 other changes.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate></item><item><title>February 14, 2024</title><link>https://firebase.google.com/support/releases#february_14_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.3.0)" id="cli-v13.3.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.3.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
@@ -2763,7 +2763,7 @@ Iphone13pro/15.2, ipadmini4/15.4. If you are currently using these devices, plea
 move to a different device.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate></item><item><title>March 11, 2024</title><link>https://firebase.google.com/support/releases#march_11_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_175" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/python#6.5.0"&gt;Firebase Admin Python SDK (v6.5.0)&lt;/a&gt;
-is now available. This release comes with improvements to the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API and
+is now available. This release comes with improvements to the Authentication API and
 a new API to enqueue functions with Cloud Tasks.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
@@ -2776,10 +2776,10 @@ enable Wasm as a build target.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate></item><item><title>March 13, 2024</title><link>https://firebase.google.com/support/releases#march_13_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_173" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#11.9.0"&gt;Firebase SDK for C++
 (v11.9.0)&lt;/a&gt; is now available.
-This release includes changes to &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and updated dependencies.&lt;/p&gt;&lt;/li&gt;
+This release includes changes to Authentication and updated dependencies.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#11.8.0"&gt;Firebase SDK for Unity
 (v11.8.0)&lt;/a&gt; is now available. This
-release includes new features in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, changes to &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and
+release includes new features in Authentication, changes to Authentication and
 &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;, and other changes.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.5.0)" id="cli-v13.5.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.5.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
@@ -2901,7 +2901,7 @@ To install this SDK, see
 &lt;a href="/support/release-notes/cli#13.7.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.7.0)&lt;/a&gt;
 is now available.
 This version support for 2nd gen &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; triggered functions with
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; context.
+Authentication context.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 5, 2024</title><link>https://firebase.google.com/support/releases#april_5_2024</link><description>&lt;h3 data-text="Cloud Firestore" id="firestore-console-management-multidb" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3072,7 +3072,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate></item><item><title>May 02, 2024</title><link>https://firebase.google.com/support/releases#may_02_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_155" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;,
+&lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;, &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;,
 Installations, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;,
@@ -3101,7 +3101,7 @@ versions of individual Firebase Flutter libraries, and every library in the
 BoM uses the same native Firebase SDK version for a given target platform.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#12.0.0"&gt;Firebase SDK for C++
 (v12.0.0)&lt;/a&gt; is now available.
-This release includes breaking changes in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, a bug fix in &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;,
+This release includes breaking changes in Authentication, a bug fix in &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;,
 and updated Android and iOS minimums.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate></item><item><title>May 08, 2024</title><link>https://firebase.google.com/support/releases#may_08_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_153" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/dotnet#3.0.0"&gt;Firebase Admin .NET SDK (v3.0.0)&lt;/a&gt;
@@ -3119,7 +3119,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;/ul&gt;</description><pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate></item><item><title>May 09, 2024</title><link>https://firebase.google.com/support/releases#may_09_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_152" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#12.0.0"&gt;Firebase SDK for Unity
 (v12.0.0)&lt;/a&gt; is now available. This
-release includes changes to &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, as well as
+release includes changes to Authentication and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, as well as
 other changes.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.8.2)" id="cli-v13.8.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.8.2)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
@@ -3288,7 +3288,7 @@ for Android (v4.4.2) is now available. For more information, see the
 &lt;a href="/support/release-notes/android#google-services_plugin_v4-4-2"&gt;Firebase Android SDK Release Notes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/go#4.14.1"&gt;Firebase Admin Go SDK (v4.14.1)&lt;/a&gt;
 is now available.
-This release also comes with improvements in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+This release also comes with improvements in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate></item><item><title>June 04, 2024</title><link>https://firebase.google.com/support/releases#june_04_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_145" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -3297,7 +3297,7 @@ is available.&lt;/p&gt;
 &lt;p&gt;This release includes breaking changes to target platform requirements:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;On iOS, the deployment target is now iOS 13.&lt;/li&gt;
-&lt;li&gt;On Android, &lt;code dir="ltr" translate="no"&gt;minSdk&lt;/code&gt; is now 21, except for &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, which has a &lt;code dir="ltr" translate="no"&gt;minSdk&lt;/code&gt; of
+&lt;li&gt;On Android, &lt;code dir="ltr" translate="no"&gt;minSdk&lt;/code&gt; is now 21, except for Authentication, which has a &lt;code dir="ltr" translate="no"&gt;minSdk&lt;/code&gt; of
 23.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3716,7 +3716,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;a href="/support/release-notes/cli#13.17.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.17.0)&lt;/a&gt;
 is now available.
 This version includes support for encrypted &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; backups,
-and new features for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator.
+and new features for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and the Authentication emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 12, 2024</title><link>https://firebase.google.com/support/releases#september_12_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_122" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -3937,7 +3937,7 @@ is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#11.4.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
+Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;,
 &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. For more details, check out the latest
@@ -4015,12 +4015,12 @@ To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#12.7.0"&gt;Firebase Admin Node.js SDK (v12.7.0)&lt;/a&gt;
 is now available. This release comes with improvements in
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; APIs.
+Authentication and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; APIs.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#12.4.0"&gt;Firebase SDK for C++
 (v12.4.0)&lt;/a&gt; is now available.
-This release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, changes to &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;,
+This release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, changes to Authentication,
 and other changes.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 28, 2024</title><link>https://firebase.google.com/support/releases#october_28_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.23.1)" id="cli-v13.23.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.23.1)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
@@ -4070,7 +4070,7 @@ mutations&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#12.4.0"&gt;Firebase SDK for Unity
 (v12.4.0)&lt;/a&gt; is now available. This
 release includes changes to &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, bug fixes in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; and
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, and other changes.&lt;/li&gt;
+Authentication, and other changes.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate></item><item><title>November 04, 2024</title><link>https://firebase.google.com/support/releases#november_04_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.24.0)" id="cli-v13.24.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.24.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.24.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.24.0)&lt;/a&gt;
@@ -4268,7 +4268,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 19, 2024</title><link>https://firebase.google.com/support/releases#december_19_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_100" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.0.2"&gt;Firebase Admin Node.js SDK (v13.0.2)&lt;/a&gt;
-is now available. This release includes a fix in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+is now available. This release includes a fix in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate></item><item><title>January 06, 2025</title><link>https://firebase.google.com/support/releases#january_06_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-q2q-30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4358,12 +4358,12 @@ This release includes changes in &lt;span class="notranslate"&gt;Firebase Data C
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and bug fixes in &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.1.0"&gt;Firebase Admin Node.js SDK (v13.1.0)&lt;/a&gt;
 is now available. This release includes the deprecation of &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; in the
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 06, 2025</title><link>https://firebase.google.com/support/releases#february_06_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_93" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
+Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin and &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle
 plugin have also been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2025-02-06"&gt;Android Release Notes&lt;/a&gt;.
@@ -4389,7 +4389,7 @@ deprecated.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-important"&gt;&lt;/span&gt; The following three &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; features
 are impacted by the shutdown of &lt;span class="notranslate"&gt;Firebase Dynamic Links&lt;/span&gt; on August 25, 2025: email
 link authentication for mobile apps, OAuth flows for Android apps using
-older versions of the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; SDK, and Cordova OAuth support for web apps.
+older versions of the Authentication SDK, and Cordova OAuth support for web apps.
 In order to use these features after the shutdown of &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;, migrate to
 use a newer SDK version and complete some additional steps. For specific
 information and migration guidance, visit the &lt;a href="/support/dynamic-links-faq#impacts-on-email-link-authentication"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; Deprecation
@@ -4460,8 +4460,8 @@ for recommended replacements.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_89" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-7-0"&gt;Firebase SDK for Flutter
 (v3.7.0)&lt;/a&gt; is now available.
-This release includes changes in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;, and
-bug fixes in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, and &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;.&lt;/li&gt;
+This release includes changes in Authentication and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;, and
+bug fixes in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, and Authentication.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 20, 2025</title><link>https://firebase.google.com/support/releases#february_20_2025</link><description>&lt;h3 data-text="Firebase CLI (v13.31.2)" id="cli-v13.31.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.31.2)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.31.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.31.2)&lt;/a&gt;
@@ -4685,7 +4685,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 (v3.9.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, Core, and
 &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;, as well as bug fixes in &lt;span class="notranslate"&gt;App Check&lt;/span&gt;,
-&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations, Authentication, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate></item><item><title>April 03, 2025</title><link>https://firebase.google.com/support/releases#april_03_2025</link><description>&lt;h3 data-text="Gemini in Firebase" id="gemini-in-firebase-messaging-context" tabindex="-1"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; (no-cost) now provides contextual awareness
 and access to &lt;a href="/docs/cloud-messaging/ai-insights"&gt;Messaging
@@ -4869,7 +4869,7 @@ To install this SDK, see
 &lt;li&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-10-0"&gt;Firebase SDK for Flutter
 (v3.10.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, and bug fixes in
-&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;.&lt;/li&gt;
+&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, Authentication and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate></item><item><title>April 30, 2025</title><link>https://firebase.google.com/support/releases#april_30_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.2.2)" id="cli-v14.2.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.2.2)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.2.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.2.2)&lt;/a&gt;
@@ -4965,7 +4965,7 @@ is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#11.13.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-Firebase AI Logic, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;,
+Firebase AI Logic, Authentication, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2025-05-20"&gt;Android Release Notes&lt;/a&gt;.
@@ -4982,7 +4982,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-11-0"&gt;Firebase SDK for Flutter
 (v3.11.0)&lt;/a&gt; is now available.
 This release includes release of Firebase AI Logic SDK, and bug fixes in
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+Authentication and &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#12.9.0"&gt;Firebase SDK for Unity
 (v12.9.0)&lt;/a&gt; is now available. This
 release includes the release of the new Firebase AI Logic SDK, as well as a
@@ -5086,7 +5086,7 @@ issue details pages in the &lt;span class="notranslate"&gt;Crashlytics&lt;/span&
 &lt;/ul&gt;</description><pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate></item><item><title>May 29, 2025</title><link>https://firebase.google.com/support/releases#may_29_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_70" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/java#9.5.0"&gt;Firebase Admin Java SDK (v9.5.0)&lt;/a&gt;
 is now available. This release comes with new features in the
-&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; API, a fix in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API, and a fix in the core
+&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; API, a fix in the Authentication API, and a fix in the core
 SDK.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
@@ -5150,7 +5150,7 @@ This release includes changes to User Messaging Platform, a bug fix in
 &lt;span class="notranslate"&gt;FCM&lt;/span&gt;, and dependency updates.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-12-0"&gt;Firebase SDK for Flutter
 (v3.12.0)&lt;/a&gt; is now available.
-This release includes changes in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;
+This release includes changes in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, Authentication
 and &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, and bug fixes in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
@@ -5282,7 +5282,7 @@ server-side application behavior. Learn more at
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Changes:&lt;/strong&gt;
 The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;, &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;,
-&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;,
+&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, Dynamic feature modules support,
 &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, installations, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;,
@@ -5299,7 +5299,7 @@ has been updated to v34.00.0. Learn how to
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-14-0"&gt;Firebase SDK for Flutter
 (v3.14.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;,
-&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and bug fixes
+&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations, Authentication and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and bug fixes
 in Core and &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate></item><item><title>July 22, 2025</title><link>https://firebase.google.com/support/releases#july_22_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.11.1)" id="cli-v14.11.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.11.1)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
@@ -5311,27 +5311,27 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;/ul&gt;</description><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate></item><item><title>July 23, 2025</title><link>https://firebase.google.com/support/releases#july_23_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_56" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#13.0.0"&gt;Firebase SDK for C++
 (v13.0.0)&lt;/a&gt; is now available.
-This release includes new features, changes to &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, and
+This release includes new features, changes to Authentication, and
 other changes.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate></item><item><title>July 24, 2025</title><link>https://firebase.google.com/support/releases#july_24_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_55" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#13.0.0"&gt;Firebase SDK for Unity
 (v13.0.0)&lt;/a&gt; is now available. This
 release includes new features in Firebase AI; changes to &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;,
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;, Firebase AI, and &lt;span class="notranslate"&gt;FCM&lt;/span&gt;; and other changes.&lt;/li&gt;
+Authentication, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;, Firebase AI, and &lt;span class="notranslate"&gt;FCM&lt;/span&gt;; and other changes.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate></item><item><title>July 28, 2025</title><link>https://firebase.google.com/support/releases#july_28_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_54" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v4-0-0"&gt;Firebase SDK for Flutter
 (v4.0.0)&lt;/a&gt; is now available.
-This release includes changes in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, 
+This release includes changes in Authentication, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, 
 and bug fixes in &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate></item><item><title>July 31, 2025</title><link>https://firebase.google.com/support/releases#july_31_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_53" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/python#7.1.0"&gt;Firebase Admin Python SDK (v7.1.0)&lt;/a&gt;
 is now available. This release includes the deprecation of &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; in the
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/go#4.18.0"&gt;Firebase Admin Go SDK (v4.18.0)&lt;/a&gt;
 is now available. This release includes the deprecation of &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; in the
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate></item><item><title>August 04, 2025</title><link>https://firebase.google.com/support/releases#august_04_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_52" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -5378,7 +5378,7 @@ your on-device and hybrid AI features. Learn how to get started using
 &lt;a href="/docs/ai-logic/hybrid-on-device-inference"&gt;on-device hybrid inference using &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_51" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;
+Authentication and &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;
 have been updated. The &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; Gradle
 plugin have also been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2025-08-07"&gt;Android Release Notes&lt;/a&gt;.
@@ -5395,8 +5395,8 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;/ul&gt;</description><pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate></item><item><title>August 11, 2025</title><link>https://firebase.google.com/support/releases#august_11_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_50" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v4-1-0"&gt;Firebase SDK for Flutter
 (v4.1.0)&lt;/a&gt; is now available.
-This release includes changes in &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; and &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, and bug
-fixes in &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; and &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;.&lt;/li&gt;
+This release includes changes in &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; and Authentication, and bug
+fixes in &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; and Authentication.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate></item><item><title>August 14, 2025</title><link>https://firebase.google.com/support/releases#august_14_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_49" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#13.1.0"&gt;Firebase SDK for Unity
 (v13.1.0)&lt;/a&gt; is now available. This
@@ -5559,12 +5559,12 @@ other changes.&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/dotnet#3.4.0"&gt;Firebase Admin .NET SDK (v3.4.0)&lt;/a&gt;
 is now available. This release deprecates support for .NET 6.0 and 7.0.
 This release also includes a fix and the deprecation of &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;
-in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/java#9.6.0"&gt;Firebase Admin Java SDK (v9.6.0)&lt;/a&gt;
 is now available. This release includes a fix and the deprecation of &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;
-in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 10, 2025</title><link>https://firebase.google.com/support/releases#september_10_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.16.0)" id="cli-v14.16.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.16.0)&lt;/h3&gt;&lt;ul&gt;
@@ -5664,7 +5664,7 @@ information, see &lt;a href="/docs/remote-config/web/real-time"&gt;Understand re
 &lt;li&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v4-3-0"&gt;Firebase SDK for Flutter
 (v4.3.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;,
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, and bug fixes in
+Authentication, &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, and bug fixes in
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; and &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 24, 2025</title><link>https://firebase.google.com/support/releases#september_24_2025</link><description>&lt;h3 data-text="Remote Config" id="remote-config-server-environments-java" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt; now supports server-side configuration
@@ -6277,7 +6277,7 @@ several products.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate></item><item><title>January 21, 2026</title><link>https://firebase.google.com/support/releases#january_21_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_14" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/go#4.19.0"&gt;Firebase Admin Go SDK (v4.19.0)&lt;/a&gt;
 is now available. This release comes with improvements in the
-&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API and multiple named databases support in the
+Authentication API and multiple named databases support in the
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -6446,7 +6446,7 @@ is now available. For more details, see the
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/python#7.2.0"&gt;Firebase Admin Python SDK (v7.2.0)&lt;/a&gt;
 is now available. This release comes with a fix and a new feature in the
-&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; API and a fix in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API.
+&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; API and a fix in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/java#9.8.0"&gt;Firebase Admin Java SDK (v9.8.0)&lt;/a&gt;
@@ -6558,4 +6558,7 @@ Functions (2nd gen), adds the &lt;code dir="ltr" translate="no"&gt;--only&lt;/co
 improves the &lt;code dir="ltr" translate="no"&gt;firebase init hosting&lt;/code&gt; flow for SSR web apps.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 16, 2026</title><link>https://firebase.google.com/support/releases#march_16_2026</link><description>&lt;h3 data-text="Cloud Firestore" id="firestore-enterprise-ttl" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Firestore with MongoDB compatibility now supports
+&lt;a href="/docs/firestore/enterprise/ttl"&gt;managing TTL indexes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate></item></channel></rss>
