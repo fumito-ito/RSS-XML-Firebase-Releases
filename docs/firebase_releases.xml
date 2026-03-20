@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 20 Mar 2026 15:38:32 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 20 Mar 2026 18:41:52 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6579,11 +6579,15 @@ a command to receive all available updates:
 &lt;li&gt;Others: &lt;code dir="ltr" translate="no"&gt;npx skills update --all&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 19, 2026</title><link>https://firebase.google.com/support/releases#march_19_2026</link><description>&lt;h3 data-text="Firebase Studio" id="studio-sunset-announcement" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; We're sunsetting &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt; on
-March 22, 2027. To continue building, migrate your
-&lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt; projects to &lt;span class='\"notranslate\"'&gt;Google AI Studio&lt;/span&gt; or Google Antigravity.
-Learn how to migrate in the
-&lt;a href="/docs/studio/migrating-project"&gt;&lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt; migration guide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; &lt;strong&gt;Sunset Announcement: We're sunsetting &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;
+on March 22, &lt;u&gt;2027&lt;/u&gt;&lt;/strong&gt;. To continue building and deploying new
+versions of your app, migrate your &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt; projects to
+&lt;span class='\"notranslate\"'&gt;Google AI Studio&lt;/span&gt; or Google Antigravity before that date.
+&lt;a href="/docs/studio/migrating-project"&gt;Learn how to migrate.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Any apps already deployed to Firebase will continue to run even after
+the sunset date. Also, all our &lt;strong&gt;&lt;u&gt;core Firebase products&lt;/u&gt;
+(like &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, Authentication, &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;, etc.) are
+&lt;u&gt;not impacted&lt;/u&gt;&lt;/strong&gt; by the &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt; sunset.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;,
