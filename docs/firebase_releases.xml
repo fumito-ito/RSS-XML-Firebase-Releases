@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 30 Mar 2026 18:54:23 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 30 Mar 2026 21:37:48 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -4775,7 +4775,7 @@ see &lt;a href="/docs/app-distribution/android/app-testing-agent"&gt;App Testing
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; AI assistance is now integrated within the
 following Firebase products and features:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="/docs/studio/get-started-ai"&gt;The &lt;span class="no translate"&gt;App Prototyping agent&lt;/span&gt;&lt;/a&gt; and
+&lt;li&gt;&lt;p&gt;&lt;a href="/docs/studio/get-started-ai"&gt;The &lt;span class="notranslate"&gt;App Prototyping agent&lt;/span&gt;&lt;/a&gt; and
 &lt;a href="/docs/studio/get-started-workspace"&gt;&lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt; workspaces&lt;/a&gt;&lt;br/&gt;
 You can use agentic development experiences, directly in your workspace
 using Gemini in Firebase. Learn more at
@@ -5014,7 +5014,7 @@ Here's what's new:&lt;/p&gt;
 plugin&lt;/a&gt; to generate code from your Figma designs and import it
 directly into a &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt; workspace. Learn more at &lt;a href="/docs/get-started-import?import_type=figma"&gt;Import
 from Figma&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The &lt;span class="no translate"&gt;App Prototyping agent&lt;/span&gt; now shows its thinking before making
+&lt;li&gt;&lt;p&gt;The &lt;span class="notranslate"&gt;App Prototyping agent&lt;/span&gt; now shows its thinking before making
 changes.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;We've expanded and improved system capacity for better performance.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;You now have access to a gallery of stock images that you can add to
