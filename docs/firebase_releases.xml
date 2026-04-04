@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 03 Apr 2026 21:29:27 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 04 Apr 2026 01:52:13 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6561,6 +6561,12 @@ improves the &lt;code dir="ltr" translate="no"&gt;firebase init hosting&lt;/code
 &lt;/ul&gt;</description><pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 16, 2026</title><link>https://firebase.google.com/support/releases#march_16_2026</link><description>&lt;h3 data-text="Cloud Firestore" id="firestore-enterprise-ttl" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Firestore with MongoDB compatibility now supports
 &lt;a href="/docs/firestore/enterprise/ttl"&gt;managing TTL indexes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v15.10.1)" id="cli-v15.10.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.10.1)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.10.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.10.1)&lt;/a&gt; is now
+available. This version updates the Pub/Sub emulator to version 0.8.29.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#12.11.0"&gt;Firebase Apple SDK (v12.11.0)&lt;/a&gt;
@@ -6578,7 +6584,15 @@ a command to receive all available updates:
 &lt;li&gt;Claude Code: &lt;code dir="ltr" translate="no"&gt;claude plugin marketplace update firebase&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Others: &lt;code dir="ltr" translate="no"&gt;npx skills update --all&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 19, 2026</title><link>https://firebase.google.com/support/releases#march_19_2026</link><description>&lt;h3 data-text="Firebase Studio" id="studio-sunset-announcement" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 18, 2026</title><link>https://firebase.google.com/support/releases#march_18_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.11.0)" id="cli-v15.11.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.11.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.11.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.11.0)&lt;/a&gt; is now
+available. This version adds support for &lt;code dir="ltr" translate="no"&gt;dataAccessMode&lt;/code&gt; in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;
+database creation, updates the &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Emulator, and includes multiple
+improvements for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 19, 2026</title><link>https://firebase.google.com/support/releases#march_19_2026</link><description>&lt;h3 data-text="Firebase Studio" id="studio-sunset-announcement" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; &lt;strong&gt;Sunset Announcement: We're sunsetting &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;
 on March 22, &lt;u&gt;2027&lt;/u&gt;&lt;/strong&gt;. To continue building and deploying new
 versions of your app, migrate your &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt; projects to
@@ -6645,7 +6659,15 @@ returns a 404 error.&lt;/p&gt;&lt;/li&gt;
 (v4.11.0)&lt;/a&gt; is now available.
 This release includes changes in several products, and bug fixes in
 several products.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 30, 2026</title><link>https://firebase.google.com/support/releases#march_30_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-server-prompt-templates-tools" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 27, 2026</title><link>https://firebase.google.com/support/releases#march_27_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.12.0)" id="cli-v15.12.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.12.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.12.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.12.0)&lt;/a&gt; is now
+available. This version moves the MCP server debug log location, adds a
+prompt to install Agent Skills for Firebase, and updates the
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 30, 2026</title><link>https://firebase.google.com/support/releases#march_30_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-server-prompt-templates-tools" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; server prompt templates now support using
 &lt;a href="/docs/ai-logic/server-prompt-templates/syntax-and-examples#tools"&gt;tools&lt;/a&gt;,
 including code execution, URL context, and grounding with Google Search.&lt;/p&gt;
@@ -6655,4 +6677,12 @@ in the request from your app, you only provide the template's ID and any
 desired user-defined inputs. You can protect against exposing your prompt
 client-side, as well as easily update your prompt, schema, and configs without
 releasing a new app version.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate></item><item><title>April 02, 2026</title><link>https://firebase.google.com/support/releases#april_02_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.13.0)" id="cli-v15.13.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.13.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.13.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.13.0)&lt;/a&gt; is now
+available. This version adds validation for &lt;code dir="ltr" translate="no"&gt;backendId&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt;
+when using the &lt;code dir="ltr" translate="no"&gt;--only&lt;/code&gt; flag, updates the default Postgres version for
+&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and updates the TypeScript version in templates.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate></item></channel></rss>

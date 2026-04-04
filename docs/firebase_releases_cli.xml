@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 03 Apr 2026 21:29:38 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 04 Apr 2026 01:52:26 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2154,4 +2154,47 @@ CLI now offers to switch to &lt;span class="notranslate"&gt;App Hosting&lt;/span
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9843"&gt;#9843&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;studio:export&lt;/code&gt; command to export &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;
 projects to Antigravity.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.10.1 - March 16, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15101_-_march_16_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated Pub/Sub emulator to version 0.8.29.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.11.0 - March 18, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15110_-_march_18_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;dataAccessMode&lt;/code&gt; in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; database
+creation. This allows choosing between &lt;code dir="ltr" translate="no"&gt;FIRESTORE_NATIVE&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;MONGODB_COMPATIBLE&lt;/code&gt; for Enterprise edition databases.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Emulator to v1.20.4, which includes
+minor bug fixes for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Native Mode.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;apptesting:execute&lt;/code&gt; command to run App Testing agent tests
+from YAML files.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v3.3.0.
+Changes include:
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase dataconnect:sdk:generate&lt;/code&gt; now performs compilation check first
+before generating SDKs.&lt;/li&gt;
+&lt;li&gt;Updated the Golang dependency version from 1.24.13 to 1.25.8, which
+removes support for macOS versions prior to Monterey.&lt;/li&gt;
+&lt;li&gt;Prevent concurrent execution of operations.&lt;/li&gt;
+&lt;li&gt;Support for skip and include directives.&lt;/li&gt;
+&lt;li&gt;Vector similarity search now supports &lt;code dir="ltr" translate="no"&gt;offset&lt;/code&gt; as well as &lt;code dir="ltr" translate="no"&gt;limit&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.12.0 - March 27, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15120_-_march_27_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Moved MCP server &lt;code dir="ltr" translate="no"&gt;firebase-debug.log&lt;/code&gt; to
+&lt;code dir="ltr" translate="no"&gt;~/.cache/firebase/firebase-debug.log&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9982"&gt;#9982&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a prompt to &lt;code dir="ltr" translate="no"&gt;firebase init&lt;/code&gt; to install Agent Skills for
+Firebase.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v3.3.1.
+Changes include:
+&lt;ul&gt;
+&lt;li&gt;Added support for configuring client-side caching in &lt;code dir="ltr" translate="no"&gt;connector.yaml&lt;/code&gt; /
+&lt;code dir="ltr" translate="no"&gt;generate&lt;/code&gt; section.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10190"&gt;#10190&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.13.0 - April 02, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15130_-_april_02_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added validation to check if &lt;code dir="ltr" translate="no"&gt;backendId&lt;/code&gt; exists in &lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt;
+when &lt;code dir="ltr" translate="no"&gt;--only&lt;/code&gt; flag is used.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10161"&gt;#10161&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated default Postgres version for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; to 18.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10234"&gt;#10234&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated TypeScript version to v6 in templates for functions and
+extensions.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10232"&gt;#10232&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
