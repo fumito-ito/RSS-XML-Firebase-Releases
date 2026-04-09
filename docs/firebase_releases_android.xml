@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 09 Apr 2026 18:58:59 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 09 Apr 2026 21:42:05 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -7919,4 +7919,42 @@ methods from &lt;code dir="ltr" translate="no"&gt;Expression&lt;/code&gt;. Use &
 &lt;/ul&gt;</description></item><item><title>Update - March 10, 2026</title><link>https://firebase.google.com/support/release-notes/android#2026-03-10</link><description>&lt;h3 data-text="Firebase PNV version 16.0.0-beta02" id="firebase-pnv_v16-0-0-beta02" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt; version 16.0.0-beta02&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug which prevented &lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt; from being used with the latest
 version of Google Play services.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - March 19, 2026</title><link>https://firebase.google.com/support/release-notes/android#2026-03-19</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 34.11.0" id="bom_v34-11-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 34.11.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 17.10.1" id="ai_v17-10-1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.10.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue causing the Gemini Live API to fail when using the
+&lt;code dir="ltr" translate="no"&gt;GoogleAI&lt;/code&gt; backend.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7880"&gt;#7880&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;hybrid&lt;/code&gt; component to request headers coming from
+&lt;code dir="ltr" translate="no"&gt;prefer_in_cloud&lt;/code&gt; configurations.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7857"&gt;#7857&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed documentation errors.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7891"&gt;#7891&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics version 23.2.0" id="analytics_v23-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt; version 23.2.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Internal changes in preparation for future support of manually
+logging &lt;a href="/docs/analytics/measure-in-app-purchases"&gt;in-app purchases&lt;/a&gt; with
+&lt;a href="/docs/reference/kotlin/com/google/firebase/analytics/FirebaseAnalytics#logEvent(java.lang.String,android.os.Bundle)"&gt;&lt;code dir="ltr" translate="no"&gt;logEvent()&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 26.1.2" id="firestore_v26-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 26.1.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Pipeline expressions &lt;code dir="ltr" translate="no"&gt;arrayFirst&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;arrayFirstN&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;arrayLast&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;arrayLastN&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;arrayMinimum&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;arrayMinimumN&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;arrayMaximum&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;arrayMaximumN&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;arrayIndexOf&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;arrayLastIndexOf&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;arrayIndexOfAll&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7836"&gt;#7836&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a performance regression in &lt;code dir="ltr" translate="no"&gt;ObjectValue.equals()&lt;/code&gt; that caused
+exponential execution time for large or deeply nested documents.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7877"&gt;#7877&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.2.0" id="data-connect_v17-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.2.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added offline caching APIs.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7814"&gt;#7814&lt;/a&gt;,
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7833"&gt;#7833&lt;/a&gt;,
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7848"&gt;#7848&lt;/a&gt;,
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7875"&gt;#7875&lt;/a&gt;,
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7885"&gt;#7885&lt;/a&gt;,
+GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7887"&gt;#7887&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;UnsupportedOperationException&lt;/code&gt; when serializing lists of
+&lt;em&gt;nullable&lt;/em&gt; &lt;code dir="ltr" translate="no"&gt;AnyValue&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7864"&gt;#7864&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase PNV version 16.0.0" id="firebase-pnv_v16-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt; version 16.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt; Android SDK to the &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt;
+in preparation for General Availability (GA).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added test number support to &lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt;, allowing you to test the
+whole feature end-to-end without having a working SIM from one of our
+supported carriers, and without invoking billing.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
