@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 10 Apr 2026 18:45:34 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 10 Apr 2026 21:33:21 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2197,4 +2197,24 @@ when &lt;code dir="ltr" translate="no"&gt;--only&lt;/code&gt; flag is used.
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated TypeScript version to v6 in templates for functions and
 extensions.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10232"&gt;#10232&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.14.0 - April 09, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15140_-_april_09_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added Enterprise Edition support to the &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; emulator.
+Configure it by setting &lt;code dir="ltr" translate="no"&gt;firebase.json#firestore.edition&lt;/code&gt; or
+&lt;code dir="ltr" translate="no"&gt;firebase.json#emulators.firestore.edition&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions deployments would silently fail.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/6989"&gt;#6989&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where the CLI isn't able to correctly parse command
+arguments on PowerShell.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7506"&gt;#7506&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Next.js 16 middleware (&lt;code dir="ltr" translate="no"&gt;proxy.ts&lt;/code&gt;/&lt;code dir="ltr" translate="no"&gt;proxy.js&lt;/code&gt;).
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/9631"&gt;#9631&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the default region for new &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; backends to
+&lt;code dir="ltr" translate="no"&gt;us-east4&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10271"&gt;#10271&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed Next.js image optimization detection in client components.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10228"&gt;#10228&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v3.4.1.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10290"&gt;#10290&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded Go runtime to 1.25.9.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused Angular SDK generation to fail.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
