@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cpp</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes</link><description>Latest updates and release notes for Firebase Cpp.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 14 Apr 2026 21:46:48 +0000</lastBuildDate><item><title>Version 1.0.1 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_101_-_june_27_2016</link><description>&lt;p&gt;This update includes a variety of documentation updates and minor bug fixes.
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cpp</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes</link><description>Latest updates and release notes for Firebase Cpp.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 15 Apr 2026 02:06:18 +0000</lastBuildDate><item><title>Version 1.0.1 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_101_-_june_27_2016</link><description>&lt;p&gt;This update includes a variety of documentation updates and minor bug fixes.
 This update primarily fixes bugs in the &lt;span class="notranslate"&gt;AdMob&lt;/span&gt; portion of the C++ SDK. These
 fixes are described below:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Modified &lt;code dir="ltr" translate="no"&gt;firebase::App&lt;/code&gt; to check for the required version of Google
@@ -105,7 +105,7 @@ when a user is logged in or logged out.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Made breaking changes to simplify the &lt;span class="notranslate"&gt;Invites&lt;/span&gt; API. To learn
 more, see the
 &lt;a href="/docs/reference/cpp/namespace/firebase/invites"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt; C++ API overview&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 2.1.0 - December 9, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_210_-_december_9_2016</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.1.0 - December 9, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_210_-_december_9_2016</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a C++ client library for &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;. To get started, see
 &lt;a href="/docs/storage/cpp/start"&gt;Get Started with &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; for C++&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; (Android) Pausing and resuming storage operations will cause the
@@ -163,7 +163,7 @@ instead of modifying the manifest directly.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added support for initializing &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; defaults from
 &lt;code dir="ltr" translate="no"&gt;firebase::Variant&lt;/code&gt; values, including binary data.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.1.0 - March 8, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_310_-_march_8_2017</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.1.0 - March 8, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_310_-_march_8_2017</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added an overload for &lt;code dir="ltr" translate="no"&gt;Storage::GetInstance()&lt;/code&gt; that accepts a
 &lt;code dir="ltr" translate="no"&gt;gs://...&lt;/code&gt; URL, so you can use Cloud Storage with multiple buckets.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -185,7 +185,7 @@ notification message.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue which resulted in the app delegate method
 &lt;code dir="ltr" translate="no"&gt;application:openURL:sourceApplication:annotation:&lt;/code&gt; not being called
 when linking the invites library.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Modified the API so that it's possible to construct metadata
 without a storage reference.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.1.2 - May 11, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_312_-_may_11_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_36" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -269,7 +269,7 @@ if the app was running in the background.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; When listing keys, the list now includes keys with defaults set,
 even if they were not present in the fetched config.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;StorageReference&lt;/code&gt; objects are invalidated when their Storage
 instance is destroyed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.2.0 - Oct 2, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_420_-_oct_2_2017</link><description>&lt;h3 data-text="Analytics" id="analytics_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -311,7 +311,7 @@ reported.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Remote Config (iOS) Fixed an issue where some errors weren't correctly
 reported.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed Metadata::content_language returning the wrong data.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Reference paths formats are now consistent with other
 platforms.&lt;/li&gt;
@@ -349,7 +349,7 @@ available.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Stub implementation has been replaced with a functional
 &lt;a href="/docs/cpp/setup#desktop-workflow"&gt;desktop workflow implementation&lt;/a&gt;
 on Windows, OS X, and Linux.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Stub implementation has been replaced with a functional
 &lt;a href="/docs/cpp/setup#desktop-workflow"&gt;desktop workflow implementation&lt;/a&gt;
 on Windows, OS X, and Linux.&lt;/li&gt;
@@ -398,11 +398,11 @@ function firebase::messaging::RequestPermission().&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added OnInviteReceived to Listener base class that includes the
 strength of the match on the received invite as an enum. Deprecated prior
 function that received it as a boolean value.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated accessors from StorageReference.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed Metadata::download_url() and Metadata::download_urls().
 Please use StorageReference::GetDownloadUrl() instead.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.1.0 - June 22, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_510_-_june_22_2018</link><description>&lt;h3 data-text="Cloud Functions" id="cloud-functions_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.1.0 - June 22, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_510_-_june_22_2018</link><description>&lt;h3 data-text="Cloud Functions" id="cloud-functions_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; on iOS, Android, and desktop.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;ResetAnalyticsData()&lt;/code&gt; to clear all analytics data
@@ -429,7 +429,7 @@ availability checker.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a version of &lt;code dir="ltr" translate="no"&gt;GetInstance()&lt;/code&gt; that allows passing in the URL
 of the database to use.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a way to specify which region to run the function in.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;Subscribe()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Unsubscribe()&lt;/code&gt; to return a Future.&lt;/li&gt;
@@ -450,7 +450,7 @@ operator and copy constructor.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed issues in &lt;code dir="ltr" translate="no"&gt;ChildListener&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed crash that could occur if the Database was deleted
 while an asynchronous operation was still in progress.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue when a function returns an array.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.3.1 - October 3, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_531_-_october_3_2018</link><description>&lt;h3 data-text="Invites" id="invites_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;(Android) Fixed an exception when the Android Minimum Version code option is
@@ -465,12 +465,12 @@ with Query::OrderByChild() on Desktop or your listeners will fail.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.4.2 - November 15, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_542_-_november_15_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Removed an irrelevant error about the Java class
 FirebaseAuthWebException.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.4.3 - November 30, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_543_-_november_30_2018</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.4.3 - November 30, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_543_-_november_30_2018</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS): Fixed an issue when downloading files with &lt;code dir="ltr" translate="no"&gt;GetBytes&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.4.4 - January 18, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_544_-_january_18_2019</link><description>&lt;h3 data-text="AdMob" id="admob_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue with Rewarded Video ad unit string going out of
 scope.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue with error handling.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.5.0 - February 19, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_550_-_february_19_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Added a gradle file to the SDK that handles adding
@@ -546,7 +546,7 @@ shutdown.&lt;/li&gt;
 when cleaning up database listeners on iOS.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue where long (64-bit) values could get
 written to the database incorrectly (truncated to 32-bits).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Change assert to log warning when App is deleted before
 Cloud Functions instance is deleted.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -571,10 +571,10 @@ from persistent storage.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed DatabaseReference::RunTransaction() sending
 invalid data to the server which causes error message "Error on
 incoming message" and freeze.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed use of an expired auth token after it's loaded
 from persistent storage.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed use of an expired auth token after it's loaded
 from persistent storage.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.3.0 - August 14, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_630_-_august_14_2019</link><description>&lt;ul&gt;
@@ -645,7 +645,7 @@ integer keys.&lt;/li&gt;
 snapshot being passed to listeners under specific circumstances.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop): Fixed ordering issue of children when using OrderBy on
 double or int64 types with large values.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS/Android) Fixed an issue where &lt;code dir="ltr" translate="no"&gt;Storage::GetReferenceFromUrl&lt;/code&gt;
 would return an invalid &lt;code dir="ltr" translate="no"&gt;StorageReference&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Changed &lt;code dir="ltr" translate="no"&gt;url()&lt;/code&gt; to return the empty string if the
@@ -963,7 +963,7 @@ destruction of BannerViews.&lt;/li&gt;
  initialization of Firebase iOS SDK.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed default &lt;code dir="ltr" translate="no"&gt;Fetch()&lt;/code&gt; timeout being 1000 times too high.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Added retry logic to PutFile, GetFile, and other
  operations.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.11.0 - April 21, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_8110_-_april_21_2022</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -991,7 +991,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Removed deprecated event names and parameters.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a bug handling server timestamps on 32-bit CPUs.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Set Content-Type HTTP header when uploading with
  custom metadata.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.1.0 - June 6, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_910_-_june_6_2022</link><description>&lt;ul&gt;
@@ -1005,7 +1005,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) On Windows, you must additionally link against the
  bcrypt and dbghelp system libraries.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add a new method &lt;code dir="ltr" translate="no"&gt;GetHttpsCallableFromURL&lt;/code&gt;, to create
  callables with URLs other than cloudfunctions.net.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.2.0 - June 28, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_920_-_june_28_2022</link><description>&lt;ul&gt;
@@ -1184,7 +1184,7 @@ destruction of BannerViews.&lt;/li&gt;
  22.1.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated dependency to Google-Mobile-Ads-SDK version
  10.5.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash on Windows when uploading files from a
  path containing non-ANSI characters (Unicode above U+00FF).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.2.0 - June 21, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1120_-_june_21_2023</link><description>&lt;ul&gt;
@@ -1319,7 +1319,7 @@ destruction of BannerViews.&lt;/li&gt;
  11.2.0 and GoogleUserMessagingPlatform version 2.3.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated dependency to play-services-ads version
  23.0.0 and user-messaging-platform version 2.2.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Removed 5-minute timeout for uploads and downloads.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.0.0 - May 07, 2024</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1200_-_may_07_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.0.0.&lt;/li&gt;
@@ -1329,7 +1329,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Minimum iOS deployment target is now 13.0.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Removed methods that were deprecated in v11.0.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fix invalid pointer in &lt;code dir="ltr" translate="no"&gt;StorageReference::GetFile()&lt;/code&gt; when
  running in a secondary thread
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/issues/1570"&gt;#1570&lt;/a&gt;).&lt;/li&gt;
@@ -1415,7 +1415,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.1.0 - September 03, 2025</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1310_-_september_03_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.2.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.2.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Handle absolute paths being provided to GetFile. (#1724)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.2.0 - October 14, 2025</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1320_-_october_14_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.4.0.&lt;/li&gt;
@@ -1428,7 +1428,7 @@ destruction of BannerViews.&lt;/li&gt;
  Adds parameters that will be set on every event logged from the SDK,
  including automatic ones.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Enables LogEvent to take in a vector of parameters.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for Firebase Storage emulator via &lt;code dir="ltr" translate="no"&gt;UseEmulator&lt;/code&gt;.
  The &lt;code dir="ltr" translate="no"&gt;UseEmulator&lt;/code&gt; method should be called before invoking any other
  methods on a new instance of Storage. Default port is 9199.&lt;/li&gt;
@@ -1443,4 +1443,12 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add in support for Limited Use Tokens.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fix crash when using Auth or App Check Credentials.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.6.0 - April 14, 2026</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1360_-_april_14_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.12.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.12.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (general) Add in support for Limited Use Tokens.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;List&lt;/code&gt; API for all platforms, which gets the list of
+ items under a &lt;code dir="ltr" translate="no"&gt;StorageReference&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
