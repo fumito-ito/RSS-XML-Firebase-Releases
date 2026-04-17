@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 16 Apr 2026 21:39:04 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 17 Apr 2026 02:09:57 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, &lt;span class="notranslate"&gt;Invites&lt;/span&gt;, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;. To get started, see
 &lt;a href="/docs/unity/setup"&gt;Adding Firebase to your Unity Project&lt;/a&gt;.&lt;/p&gt;&lt;ul&gt;
@@ -491,7 +491,7 @@ Please use StorageReference.GetDownloadUrlAsync() instead.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.1.0 - June 22, 2018</title><link>https://firebase.google.com/support/release-notes/unity#version_510_-_june_22_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed build issues due to the broken AndroidManifest
 merger in Unity 2018.x.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; on iOS, Android, and
 desktop.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -528,7 +528,7 @@ availability checker.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a version of &lt;code dir="ltr" translate="no"&gt;GetInstance()&lt;/code&gt; that allows passing in the URL
 of the database to use.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a way to specify which region to run the function in.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;SubscribeAsync()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;UnsubscribeAsync()&lt;/code&gt;, which return
@@ -554,7 +554,7 @@ conflicts in the Android Resolver.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed issues in &lt;code dir="ltr" translate="no"&gt;ChildListener&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed crash that could occur if the Database was deleted
 while an asynchronous operation was still in progress.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue when a function returns an array.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issues when transactions are canceled in .NET 4.6.&lt;/li&gt;
@@ -619,7 +619,7 @@ garbage collection.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where certain DataSnapshots were missing data on iOS
 and Android.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue with error handling.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.5.0 - February 19, 2019</title><link>https://firebase.google.com/support/release-notes/unity#version_550_-_february_19_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android): Updated to using version 1.2.101 of the Android
@@ -735,7 +735,7 @@ when cleaning up database listeners on iOS.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue where long (64-bit) values could get
 written to the database incorrectly (truncated to 32-bits) on 32-bit
 devices.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that could cause a crash during
 shutdown due to the destruction order of plugins being nondeterministic.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -802,7 +802,7 @@ from persistent storage.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Editor) Fixed DatabaseReference.RunTransaction() sending
 invalid data to the server which causes error message "Error on
 incoming message" and freeze.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Editor) Fixed use of an expired auth token after it's loaded
 from persistent storage.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1306,7 +1306,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Added InitiateOnDeviceConversionMeasurementWithEmail
  function to facilitate the &lt;a href="https://support.google.com/google-ads/answer/12119136"&gt;on-device conversion
  measurement&lt;/a&gt; API.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add a new method &lt;code dir="ltr" translate="no"&gt;GetHttpsCallableFromURL&lt;/code&gt;, to create
  callables with URLs other than cloudfunctions.net.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.2.0 - July 14, 2022</title><link>https://firebase.google.com/support/release-notes/unity#version_920_-_july_14_2022</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1656,7 +1656,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.9.0 - May 20, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1290_-_may_20_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to EDM4U version 1.2.186.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue of Firebase Editor on Windows requiring iOS.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_10" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_11" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Firebase AI Logic SDK
  (&lt;code dir="ltr" translate="no"&gt;FirebaseAI.unitypackage&lt;/code&gt;), with support for Android, iOS, tvOS, and
  desktop platforms. To learn more about Firebase AI Logic and how to
@@ -1707,7 +1707,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed the Dynamic Links SDK. See the &lt;a href="https://firebase.google.com/support/dynamic-links-faq"&gt;support
  documentation&lt;/a&gt; for
  more information.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_9" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_10" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for image generation via Imagen. For more info,
  see https://firebase.google.com/docs/ai-logic/generate-images-imagen&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for Grounding with Google Search.&lt;/li&gt;
@@ -1719,18 +1719,18 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated &lt;code dir="ltr" translate="no"&gt;FirebaseMessage.Dispose&lt;/code&gt;,
  &lt;code dir="ltr" translate="no"&gt;FirebaseNotification.Dispose&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;MessagingOptions.Dispose&lt;/code&gt; methods.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.1.0 - August 14, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1310_-_august_14_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_8" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.1.0 - August 14, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1310_-_august_14_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_9" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for Developer API backend to LiveSessions.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.2.0 - September 04, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1320_-_september_04_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 13.1.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.2.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.2.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_7" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_8" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for receiving Thought summaries when generating
  content.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remove &lt;code dir="ltr" translate="no"&gt;LiveGenerationConfig.CandidateCount&lt;/code&gt;, since the
  connection fails silently when it is set.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.3.0 - September 25, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1330_-_september_25_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_6" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.3.0 - September 25, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1330_-_september_25_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_7" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for enabling the model to use Code Execution.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix crash when deleting a Message with a Notification.
@@ -1739,11 +1739,11 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 13.2.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.4.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.4.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_5" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_6" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for Gemini's URL context tool.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add more specific methods for sending realtime data to the
  LiveSession. Deprecate the previous &lt;code dir="ltr" translate="no"&gt;SendMediaChunksAsync&lt;/code&gt; method.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.5.0 - November 06, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1350_-_november_06_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_4" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.5.0 - November 06, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1350_-_november_06_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_5" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for receiving Live API Transcripts.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.6.0 - November 20, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1360_-_november_20_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 13.3.0.&lt;/li&gt;
@@ -1754,7 +1754,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  specify a list  of parameters that will be set on every event logged.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;LogEvent()&lt;/code&gt; that take in a IEnumerable of
  parameters.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_3" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_4" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for using &lt;a href="https://firebase.google.com/docs/ai-logic/server-prompt-templates/get-started"&gt;Server Prompt
  Templates&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.7.0 - January 22, 2026</title><link>https://firebase.google.com/support/release-notes/unity#version_1370_-_january_22_2026</link><description>&lt;ul&gt;
@@ -1765,10 +1765,10 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to EDM4U version 1.2.187.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Added support for linking against Swift Packages,
  instead of Cocoapods, via EDM4U.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_2" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_3" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Thinking Levels, used by Gemini 3 models to
  define their thinking configuration, instead of Thinking Budget.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.8.0 - February 12, 2026</title><link>https://firebase.google.com/support/release-notes/unity#version_1380_-_february_12_2026</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.8.0 - February 12, 2026</title><link>https://firebase.google.com/support/release-notes/unity#version_1380_-_february_12_2026</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_2" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add &lt;code dir="ltr" translate="no"&gt;LiveSessionGoingAway&lt;/code&gt; to handle backend closing.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for &lt;code dir="ltr" translate="no"&gt;CachedContentTokenCount&lt;/code&gt; and
  &lt;code dir="ltr" translate="no"&gt;CacheTokensDetails&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;UsageMetadata&lt;/code&gt;.&lt;/li&gt;
@@ -1782,4 +1782,22 @@ without the iOS Unity extension installed.&lt;/li&gt;
  this feature, it can return a standard token from this method.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fix crash when using Auth or App Check Credentials.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.10.0 - April 16, 2026</title><link>https://firebase.google.com/support/release-notes/unity#version_13100_-_april_16_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 13.6.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.12.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.12.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; All Imagen models are deprecated and will shut down as
+ early as June 2026. As a replacement, you can &lt;a href="https://firebase.google.com/docs/ai-logic/imagen-models-migration"&gt;migrate your apps to use
+ Gemini Image models (the "Nano Banana"
+ models)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for the JsonSchema formatting.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for simplified object generation with
+ &lt;code dir="ltr" translate="no"&gt;GenerateObjectAsync&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for automated function calling in Chat with
+ AutoFunctionDeclaration.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for TemplateChatSession.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Rewrote internal serialization logic to C#. Removes dependency
+ on internal C++ implementation.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
