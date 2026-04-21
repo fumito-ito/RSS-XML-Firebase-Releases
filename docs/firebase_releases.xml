@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 21 Apr 2026 16:07:22 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 21 Apr 2026 19:05:47 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -3186,9 +3186,9 @@ deployment of dynamic Next.js and Angular applications, offering built-in
 framework support, GitHub integration, and integrations with other Firebase
 features. Learn more in the new &lt;a href="/docs/app-hosting"&gt;&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;&lt;/a&gt;
 documentation.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase Data Connect" id="firebase-data-connect-launch" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; is now available in preview.
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; is a relational database service that lets you build
+&lt;/ul&gt;&lt;h3 data-text="Firebase SQL Connect" id="firebase-data-connect-launch" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; is now available in preview.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; is a relational database service that lets you build
 and scale using a fully-managed PostgreSQL database powered by Cloud SQL. It
 provides secure schema, query and mutation management using GraphQL technology
 that integrates well with &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt;. You can quickly integrate this
@@ -3232,14 +3232,14 @@ To install this SDK, see
 &lt;a href="/support/release-notes/cli#13.10.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.10.0)&lt;/a&gt;
 is now available.
 This version includes configurable functions discovery timeouts and fixes for
-&lt;span class="notranslate"&gt;Firebase App Hosting&lt;/span&gt; and &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
+&lt;span class="notranslate"&gt;Firebase App Hosting&lt;/span&gt; and &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate></item><item><title>May 24, 2024</title><link>https://firebase.google.com/support/releases#may_24_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.10.1)" id="cli-v13.10.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.10.1)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.10.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.10.1)&lt;/a&gt;
 is now available.
-This version includes includes fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
+This version includes includes fixes for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate></item><item><title>May 27, 2024</title><link>https://firebase.google.com/support/releases#may_27_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_157" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -3262,7 +3262,7 @@ requests, which is required for authorization when using
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.10.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.10.2)&lt;/a&gt;
 is now available.
-This version includes includes fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
+This version includes includes fixes for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate></item><item><title>May 29, 2024</title><link>https://firebase.google.com/support/releases#may_29_2024</link><description>&lt;ul&gt;
@@ -3318,7 +3318,7 @@ to learn about how to opt out, how delegation affects reporting, and more.&lt;/p
 is now available.
 This version includes support for the &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; Node 22 runtime,
 support for &lt;code dir="ltr" translate="no"&gt;withAuthContext&lt;/code&gt; function triggers in the &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; emulator,
-and fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, and
+and fixes for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, and
 the &lt;span class="notranslate"&gt;Pub/Sub&lt;/span&gt; emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -3326,14 +3326,14 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.11.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.11.1)&lt;/a&gt;
 is now available.
-This version includes includes fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
+This version includes includes fixes for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate></item><item><title>June 07, 2024</title><link>https://firebase.google.com/support/releases#june_07_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.11.2)" id="cli-v13.11.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.11.2)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.11.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.11.2)&lt;/a&gt;
 is now available.
-This version includes fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
+This version includes fixes for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate></item><item><title>June 10, 2024</title><link>https://firebase.google.com/support/releases#june_10_2024</link><description>&lt;h3 data-text="Firebase" id="billing-android-device-streaming" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3378,14 +3378,14 @@ To install this SDK, see
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.11.3"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.11.3)&lt;/a&gt;
 is now available.
-This version includes fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
+This version includes fixes for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate></item><item><title>June 21, 2024</title><link>https://firebase.google.com/support/releases#june_21_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.11.4)" id="cli-v13.11.4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.11.4)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.11.4"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.11.4)&lt;/a&gt;
 is now available.
-This version includes fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;.
+This version includes fixes for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate></item><item><title>June 24, 2024</title><link>https://firebase.google.com/support/releases#june_24_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_150" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -3409,14 +3409,14 @@ release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/s
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.12.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.12.0)&lt;/a&gt;
 is now available.
-This version includes improvements for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Hosting&lt;/span&gt;.
+This version includes improvements for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Hosting&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate></item><item><title>July 01, 2024</title><link>https://firebase.google.com/support/releases#july_01_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.13.0)" id="cli-v13.13.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.13.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.13.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.13.0)&lt;/a&gt;
 is now available.
-This version includes improvements for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and Web Frameworks.
+This version includes improvements for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; and Web Frameworks.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate></item><item><title>July 03, 2024</title><link>https://firebase.google.com/support/releases#july_03_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_147" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -3436,7 +3436,7 @@ This release is available via CocoaPods and Swift Package Manager only.&lt;/li&g
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.13.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.13.1)&lt;/a&gt;
 is now available.
-This version includes improvements for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
+This version includes improvements for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate></item><item><title>July 11, 2024</title><link>https://firebase.google.com/support/releases#july_11_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_145" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -3474,8 +3474,8 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;a href="/support/release-notes/cli#13.14.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.14.0)&lt;/a&gt;
 is now available.
 This version includes Firebase alerts events support in the &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;
-emulator, new features for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;, and many other fixes.
-emulator, new features for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;, and many other fixes.
+emulator, new features for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;, and many other fixes.
+emulator, new features for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;, and many other fixes.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate></item><item><title>July 25, 2024</title><link>https://firebase.google.com/support/releases#july_25_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_143" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -3487,14 +3487,14 @@ API and improvements in the &lt;span class="notranslate"&gt;Cloud Messaging&lt;/
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.14.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.14.1)&lt;/a&gt;
 is now available.
-This version includes bug fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
+This version includes bug fixes for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate></item><item><title>July 26, 2024</title><link>https://firebase.google.com/support/releases#july_26_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.14.2)" id="cli-v13.14.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.14.2)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.14.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.14.2)&lt;/a&gt;
 is now available.
-This version includes bug fixes for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
+This version includes bug fixes for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate></item><item><title>July 29, 2024</title><link>https://firebase.google.com/support/releases#july_29_2024</link><description>&lt;h3 data-text="Cloud Firestore" id="firestore-multiple-inequalities-ga" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3548,7 +3548,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;a href="/support/release-notes/cli#13.15.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.15.0)&lt;/a&gt;
 is now available.
 This version includes CMEK support in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and bug fixes for
-&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
+&lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate></item><item><title>August 02, 2024</title><link>https://firebase.google.com/support/releases#august_02_2024</link><description>&lt;h3 data-text="App Hosting" id="app-hosting-0724-features" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3598,7 +3598,7 @@ To install this SDK, see
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.15.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.15.1)&lt;/a&gt;
 is now available.
-This version includes improvements for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and
+This version includes improvements for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -3612,7 +3612,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.15.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.15.2)&lt;/a&gt;
 is now available.
-This version includes improvements for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and
+This version includes improvements for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; and
 web frameworks.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -3716,7 +3716,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;a href="/support/release-notes/cli#13.17.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.17.0)&lt;/a&gt;
 is now available.
 This version includes support for encrypted &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; backups,
-and new features for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and the Authentication emulator.
+and new features for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; and the Authentication emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 12, 2024</title><link>https://firebase.google.com/support/releases#september_12_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_131" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -3773,7 +3773,7 @@ page.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.20.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.20.0)&lt;/a&gt;
 is now available.
-This version includes many new features for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.
+This version includes many new features for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 26, 2024</title><link>https://firebase.google.com/support/releases#september_26_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_129" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -3785,7 +3785,7 @@ an updated Android minSdkVersion, and other changes.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.20.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.20.1)&lt;/a&gt;
 is now available.
-This version includes bug fixes for the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator.
+This version includes bug fixes for the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 30, 2024</title><link>https://firebase.google.com/support/releases#september_30_2024</link><description>&lt;h3 data-text="Performance Monitoring" id="performance-retention-period-changes" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3816,7 +3816,7 @@ is now available. For more details, see the
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#12.6.0"&gt;Firebase Admin Node.js SDK (v12.6.0)&lt;/a&gt;
 is now available. This release comes with a new API to perform administrative
-queries and mutations on a &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; service.
+queries and mutations on a &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; service.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
@@ -3828,13 +3828,13 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.20.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.20.2)&lt;/a&gt;
 is now available.
-This version includes bug fixes for the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator.
+This version includes bug fixes for the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate></item><item><title>October 01, 2024</title><link>https://firebase.google.com/support/releases#october_01_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_127" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
-&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
+&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2024-10-01"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -3847,7 +3847,7 @@ has been updated to v33.4.0. Learn how to
 &lt;a href="/support/release-notes/cli#13.21.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.21.0)&lt;/a&gt;
 is now available.
 This version includes the new &lt;code dir="ltr" translate="no"&gt;apphosting:rollouts:create&lt;/code&gt; command, support
-for generating Dart SDKs for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;, and emulator support
+for generating Dart SDKs for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;, and emulator support
 for extensions SDKs.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -3885,7 +3885,7 @@ To install this SDK, see
 &lt;a href="/support/release-notes/cli#13.22.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.22.1)&lt;/a&gt;
 is now available.
 This version includes fixes for the &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; and
-&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulators.
+&lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulators.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 18, 2024</title><link>https://firebase.google.com/support/releases#october_18_2024</link><description>&lt;h3 data-text="Documentation" id="docs-updated-launch-checklist" tabindex="-1"&gt;Documentation&lt;/h3&gt;&lt;ul&gt;
@@ -3938,7 +3938,7 @@ is now available. For more details, see the
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
-&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;,
+&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;,
 &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2024-10-21"&gt;Android Release Notes&lt;/a&gt;.
@@ -4026,7 +4026,7 @@ and other changes.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.23.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.23.1)&lt;/a&gt;
 is now available. This version includes fixes for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; and
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 30, 2024</title><link>https://firebase.google.com/support/releases#october_30_2024</link><description>&lt;h3 data-text="Cloud Storage for Firebase" id="storage-blaze-required-to-onboard-and-default-bucket-name-change" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage for Firebase&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Learn more about the &lt;span class="notranslate"&gt;Cloud Storage for Firebase&lt;/span&gt; changes for pricing plan
@@ -4059,9 +4059,9 @@ now decommissioned and will return 404 errors:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Instead, use a product-specific API to work with the location of each
 resource in a project.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 31, 2024</title><link>https://firebase.google.com/support/releases#october_31_2024</link><description>&lt;h3 data-text="Data Connect" id="dataconnect-gemini-in-firebase" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 31, 2024</title><link>https://firebase.google.com/support/releases#october_31_2024</link><description>&lt;h3 data-text="SQL Connect" id="dataconnect-gemini-in-firebase" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; now provides AI assistance for
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; queries and mutations in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console. Use
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; queries and mutations in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console. Use
 natural language to describe the query or mutation you want to generate and
 Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; will provide you with the query or mutation you
 describe. Learn more at &lt;a href="/docs/data-connect/ai-assistance"&gt;Use AI assistance for queries and
@@ -4107,7 +4107,7 @@ To install this SDK, see
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.24.2)" id="cli-v13.24.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.24.2)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.24.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.24.2)&lt;/a&gt;
-is now available. This version includes fixes for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+is now available. This version includes fixes for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate></item><item><title>November 12, 2024</title><link>https://firebase.google.com/support/releases#november_12_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_117" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4125,12 +4125,12 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.25.0)" id="cli-v13.25.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.25.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.25.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.25.0)&lt;/a&gt;
-is now available. This version includes &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; support for
+is now available. This version includes &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; support for
 query in mutation, and fixes for &lt;code dir="ltr" translate="no"&gt;firebase init genkit&lt;/code&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate></item><item><title>November 13, 2024</title><link>https://firebase.google.com/support/releases#november_13_2024</link><description>&lt;h3 data-text="Data Connect" id="fdc-authz-lookup" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; mutations can now be authorized by first
+&lt;/ul&gt;</description><pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate></item><item><title>November 13, 2024</title><link>https://firebase.google.com/support/releases#november_13_2024</link><description>&lt;h3 data-text="SQL Connect" id="fdc-authz-lookup" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; mutations can now be authorized by first
 querying the database and verifying the results of the query with CEL
 expressions. This is useful when you are writing to a table, and need to check
 the contents of a row in another table. See the &lt;a href="/docs/data-connect/authorization-and-security#check-redact-directives"&gt;guide for these authorization
@@ -4146,7 +4146,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 release includes general fixes.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate></item><item><title>November 15, 2024</title><link>https://firebase.google.com/support/releases#november_15_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_115" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and
+&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and
 &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2024-11-15"&gt;Android Release Notes&lt;/a&gt;.
@@ -4159,7 +4159,7 @@ has been updated to v33.6.0. Learn how to
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.26.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.26.0)&lt;/a&gt;
 is now available. This version includes new commands for &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;
-and bug fixes for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+and bug fixes for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate></item><item><title>November 20, 2024</title><link>https://firebase.google.com/support/releases#november_20_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_114" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4178,11 +4178,11 @@ repo:
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.27.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.27.0)&lt;/a&gt;
 is now available. This version adds an emulator for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; and
-import/export support for the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator.
+import/export support for the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate></item><item><title>November 26, 2024</title><link>https://firebase.google.com/support/releases#november_26_2024</link><description>&lt;h3 data-text="Data Connect" id="data-connect-auto-install-option" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; For users developing on macOS or Linux, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; now
+&lt;/ul&gt;</description><pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate></item><item><title>November 26, 2024</title><link>https://firebase.google.com/support/releases#november_26_2024</link><description>&lt;h3 data-text="SQL Connect" id="data-connect-auto-install-option" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; For users developing on macOS or Linux, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; now
 offers an automatic installation option for local tooling. Learn how to use
 this feature in the &lt;a href="/docs/data-connect/quickstart-local"&gt;getting started guide for local development&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate></item><item><title>December 03, 2024</title><link>https://firebase.google.com/support/releases#december_03_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_113" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4201,7 +4201,7 @@ v4.2.0 or higher to start seeing crashes from deferred components.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.28.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.28.0)&lt;/a&gt;
 is now available. This version includes fixes for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;, &lt;span class="notranslate"&gt;Genkit&lt;/span&gt;,
-and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+and &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 05, 2024</title><link>https://firebase.google.com/support/releases#december_05_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_112" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4256,14 +4256,14 @@ release includes dependency updates only.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.29.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.29.0)&lt;/a&gt;
 is now available. This version includes improvements to callable functions,
-and fixes for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+and fixes for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 13, 2024</title><link>https://firebase.google.com/support/releases#december_13_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.29.1)" id="cli-v13.29.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.29.1)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.29.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.29.1)&lt;/a&gt;
 is now available. This version includes fixes for crashes in the
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 19, 2024</title><link>https://firebase.google.com/support/releases#december_19_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_109" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4292,7 +4292,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 now provides insights for crashes and ANRs produced by Flutter and Unity apps.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_106" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;,
+&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
 have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
 For more details, check out the latest
@@ -4316,7 +4316,7 @@ permissions are required to view &lt;span class="notranslate"&gt;Cloud Firestore
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.29.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.29.2)&lt;/a&gt;
 is now available. This version includes updates to vulnerable dependencies and
-fixes for the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator.
+fixes for the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate></item><item><title>January 28, 2025</title><link>https://firebase.google.com/support/releases#january_28_2025</link><description>&lt;h3 data-text="Remote Config" id="custom-signal-conditions-client-environments" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4328,7 +4328,7 @@ client-side experiences. For more information, see
 &lt;/ul&gt;</description><pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate></item><item><title>January 30, 2025</title><link>https://firebase.google.com/support/releases#january_30_2025</link><description>&lt;h3 data-text="Firebase CLI (v13.29.3)" id="cli-v13.29.3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.29.3)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.29.3"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.29.3)&lt;/a&gt;
-is now available. This version includes fixes for the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;
+is now available. This version includes fixes for the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;
 emulator and &lt;span class="notranslate"&gt;Genkit&lt;/span&gt; triggered functions.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -4354,7 +4354,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;/ul&gt;</description><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 05, 2025</title><link>https://firebase.google.com/support/releases#february_05_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_103" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-6-0"&gt;Firebase SDK for Flutter
 (v3.6.0)&lt;/a&gt; is now available.
-This release includes changes in &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and
+This release includes changes in &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and bug fixes in &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.1.0"&gt;Firebase Admin Node.js SDK (v13.1.0)&lt;/a&gt;
 is now available. This release includes the deprecation of &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; in the
@@ -4416,7 +4416,7 @@ This release includes dependency updates.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.31.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.31.0)&lt;/a&gt;
 is now available. This version includes support for generated React hooks in
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, support for Angular 19 in web frameworks, and various
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, support for Angular 19 in web frameworks, and various
 bug fixes.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -4432,7 +4432,7 @@ release includes dependency updates, and Android 15 support.&lt;/p&gt;&lt;/li&gt
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.31.1)" id="cli-v13.31.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.31.1)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.31.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.31.1)&lt;/a&gt;
-is now available. This version includes bug fixes for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+is now available. This version includes bug fixes for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 18, 2025</title><link>https://firebase.google.com/support/releases#february_18_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecate-x86-devices" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4465,7 +4465,7 @@ bug fixes in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;s
 &lt;/ul&gt;</description><pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 20, 2025</title><link>https://firebase.google.com/support/releases#february_20_2025</link><description>&lt;h3 data-text="Firebase CLI (v13.31.2)" id="cli-v13.31.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.31.2)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.31.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.31.2)&lt;/a&gt;
-is now available. This version includes bug fixes for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+is now available. This version includes bug fixes for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 25, 2025</title><link>https://firebase.google.com/support/releases#february_25_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_97" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4485,7 +4485,7 @@ for recommended replacements.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-8-0"&gt;Firebase SDK for Flutter
 (v3.8.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;, and bug fixes in
-Core and &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.&lt;/li&gt;
+Core and &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 27, 2025</title><link>https://firebase.google.com/support/releases#february_27_2025</link><description>&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-imagen-public-preview" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; now supports using &lt;span class='\"notranslate\"'&gt;Imagen 3&lt;/span&gt; models
 to generate realistic and high-quality images directly from your mobile and
@@ -4520,7 +4520,7 @@ is now available. This version includes bug fixes for web frameworks and improve
 clean up of resources during &lt;code dir="ltr" translate="no"&gt;deploy --only dataconnect&lt;/code&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 28, 2025</title><link>https://firebase.google.com/support/releases#february_28_2025</link><description>&lt;h3 data-text="Firebase Data Connect" id="dataconnect-auth-expr-fix" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 28, 2025</title><link>https://firebase.google.com/support/releases#february_28_2025</link><description>&lt;h3 data-text="Firebase SQL Connect" id="dataconnect-auth-expr-fix" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; In &lt;code dir="ltr" translate="no"&gt;@auth&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;@check&lt;/code&gt; expressions, &lt;code dir="ltr" translate="no"&gt;auth&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;request.auth&lt;/code&gt; now
 correctly returns &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt; when the request is unauthenticated. This fix has
 been applied to both the production service and the emulator.&lt;/li&gt;
@@ -4536,7 +4536,7 @@ be removed on 2025-04-03:&lt;/p&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate></item><item><title>March 05, 2025</title><link>https://firebase.google.com/support/releases#march_05_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_94" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.2.0"&gt;Firebase Admin Node.js SDK (v13.2.0)&lt;/a&gt;
 is now available. This release comes with new features and fixes in the
-&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; and &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; APIs and a fix in the
+&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; and &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; APIs and a fix in the
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
@@ -4547,7 +4547,7 @@ release includes a bug fix in &lt;span class="notranslate"&gt;Crashlytics&lt;/sp
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.33.0)" id="cli-v13.33.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.33.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.33.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.33.0)&lt;/a&gt;
-is now available. This version includes bug fixes for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;
+is now available. This version includes bug fixes for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;
 and enables execution ID tracking for 2nd gen Cloud Functions.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -4561,7 +4561,7 @@ HTTP v1 API latency and availability statuses using the dashboard.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.34.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.34.0)&lt;/a&gt;
 is now available. This version includes a new command to set up
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; on databases with existing tables.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; on databases with existing tables.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate></item><item><title>March 12, 2025</title><link>https://firebase.google.com/support/releases#march_12_2025</link><description>&lt;h3 data-text="Remote Config" id="remote-config-server-environments-python" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4585,7 +4585,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK,
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2025-03-20"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -4602,7 +4602,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.35.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.35.0)&lt;/a&gt;
 is now available. This version includes improvements to artifact clean up for
-&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, support for Angular in &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and
+&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, support for Angular in &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and
 support for secrets in the &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -4644,9 +4644,9 @@ information, see &lt;a href="https://firebase.google.com/docs/firestore/manage-d
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Changes:&lt;/strong&gt; The latest
 &lt;a href="/support/release-notes/cli#14.0.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.0.0)&lt;/a&gt;
 is now available. This version removes support for Node 18, and includes
-&lt;strong&gt;breaking changes&lt;/strong&gt; for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and
+&lt;strong&gt;breaking changes&lt;/strong&gt; for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;. It also includes improvements to secret handling in
-&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;, safer schema updates for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and
+&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;, safer schema updates for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and
 multiple bug fixes.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -4658,7 +4658,7 @@ release updates the iOS and Android SDK dependencies.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.0.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.0.1)&lt;/a&gt;
 is now available. This version fixes issues affecting &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;
-deployments and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulation.
+deployments and &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulation.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate></item><item><title>March 31, 2025</title><link>https://firebase.google.com/support/releases#march_31_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_87" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4668,7 +4668,7 @@ is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#11.11.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
+&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2025-03-31"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -4684,7 +4684,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-9-0"&gt;Firebase SDK for Flutter
 (v3.9.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, Core, and
-&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;, as well as bug fixes in &lt;span class="notranslate"&gt;App Check&lt;/span&gt;,
+&lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;, as well as bug fixes in &lt;span class="notranslate"&gt;App Check&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations, Authentication, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate></item><item><title>April 03, 2025</title><link>https://firebase.google.com/support/releases#april_03_2025</link><description>&lt;h3 data-text="Gemini in Firebase" id="gemini-in-firebase-messaging-context" tabindex="-1"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; (no-cost) now provides contextual awareness
@@ -4699,7 +4699,7 @@ this device, please move to a different device.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.1.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.1.0)&lt;/a&gt;
 is now available. This version adds support for update transforms and server
-values in &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+values in &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate></item><item><title>April 07, 2025</title><link>https://firebase.google.com/support/releases#april_07_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-removed-devices-april-2025" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4741,13 +4741,13 @@ accessible on public IP addresses&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;For more information, see
 &lt;a href="http://firebase.blog/posts/2025/04/apphosting-general-availability"&gt;&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; is now generally available&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect" id="data-connect-generally-available" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; We're excited to announce that &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; is now
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="data-connect-generally-available" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; We're excited to announce that &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; is now
 Generally Available (GA) and can be used for production apps.
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; is a relational database service for mobile and web
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; is a relational database service for mobile and web
 apps that lets you build and scale using a fully-managed PostgreSQL database
 powered by GraphQL and Cloud SQL.&lt;/p&gt;
-&lt;p&gt;With the GA release of &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, you can now:&lt;/p&gt;
+&lt;p&gt;With the GA release of &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, you can now:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Use natural language to describe your app's data model and
 Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; will provide you with a schema that matches the data
@@ -4760,9 +4760,9 @@ model&lt;/li&gt;
 review security of your operations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We've also
-&lt;a href="/docs/data-connect/pricing"&gt;updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; pricing&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="/docs/data-connect/pricing"&gt;updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; pricing&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;For more information, see
-&lt;a href="https://firebase.blog/posts/2025/04/dataconnect-general-availability"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; is now generally available&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;a href="https://firebase.blog/posts/2025/04/dataconnect-general-availability"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; is now generally available&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution" id="app-distribution-app-testing-agent-preview" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Introducing the Firebase App Testing agent, now available in
 Preview. You can use the power of AI to create and run tests based on
@@ -4780,7 +4780,7 @@ following Firebase products and features:&lt;/p&gt;
 You can use agentic development experiences, directly in your workspace
 using Gemini in Firebase. Learn more at
 &lt;a href="/docs/studio/ai-assistance"&gt;AI assistance in &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; schema generation in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;br/&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; schema generation in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;br/&gt;
 You can use natural language to describe your app's data model and
 Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; will provide you with a schema that matches the data
 model. Learn more at
@@ -4812,7 +4812,7 @@ versions of the Firebase libraries:&lt;br/&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.2.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.2.0)&lt;/a&gt;
 is now available. This version adds support for setting up paid Cloud SQL
-instances for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+instances for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate></item><item><title>April 21, 2025</title><link>https://firebase.google.com/support/releases#april_21_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_86" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4824,7 +4824,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v14.2.1)" id="cli-v14.2.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.2.1)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.2.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.2.1)&lt;/a&gt;
-is now available. This version fixes issues with &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; and
+is now available. This version fixes issues with &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Genkit&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -4841,7 +4841,7 @@ amount on &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Read/Writ
 years. For details, see &lt;a href="https://firebase.google.com/docs/firestore/cuds"&gt;Committed use discounts&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate></item><item><title>April 24, 2025</title><link>https://firebase.google.com/support/releases#april_24_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_84" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;,
+&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2025-04-24"&gt;Android Release Notes&lt;/a&gt;.
@@ -4873,12 +4873,12 @@ This release includes changes in &lt;span class="notranslate"&gt;Cloud Functions
 &lt;/ul&gt;</description><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate></item><item><title>April 30, 2025</title><link>https://firebase.google.com/support/releases#april_30_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.2.2)" id="cli-v14.2.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.2.2)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.2.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.2.2)&lt;/a&gt;
-is now available. This version fixes issues with &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; and
+is now available. This version fixes issues with &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; and
 the &lt;span class="notranslate"&gt;Local Emulator Suite&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate></item><item><title>May 01, 2025</title><link>https://firebase.google.com/support/releases#may_01_2025</link><description>&lt;h3 data-text="Firebase Data Connect" id="mutation-operation-update" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; To speed implementation of mutations, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; has
+&lt;/ul&gt;</description><pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate></item><item><title>May 01, 2025</title><link>https://firebase.google.com/support/releases#may_01_2025</link><description>&lt;h3 data-text="Firebase SQL Connect" id="mutation-operation-update" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; To speed implementation of mutations, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; has
 expanded built-in update operation support:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The &lt;code dir="ltr" translate="no"&gt;inc&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;dec&lt;/code&gt; operators now support &lt;code dir="ltr" translate="no"&gt;Date&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Timestamp&lt;/code&gt;.&lt;/li&gt;
@@ -4941,7 +4941,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.3.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.3.0)&lt;/a&gt;
 is now available. This version adds better support for running emulators in
-Firebase Studio and includes fixes for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+Firebase Studio and includes fixes for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; and &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate></item><item><title>May 15, 2025</title><link>https://firebase.google.com/support/releases#may_15_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.4.0)" id="cli-v14.4.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.4.0)&lt;/h3&gt;&lt;ul&gt;
@@ -4949,13 +4949,13 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;a href="/support/release-notes/cli#14.4.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.4.0)&lt;/a&gt;
 is now available. This version adds an experimental MCP server to help AI 
 assistants interact with Firebase, and a variety of improvements for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;,
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate></item><item><title>May 12, 2025</title><link>https://firebase.google.com/support/releases#may_12_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_81" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.4.0"&gt;Firebase Admin Node.js SDK (v13.4.0)&lt;/a&gt;
 is now available. This release comes with a new specialized
-interface for bulk data operations in the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; API.
+interface for bulk data operations in the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate></item><item><title>May 20, 2025</title><link>https://firebase.google.com/support/releases#may_20_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_80" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4965,7 +4965,7 @@ is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#11.13.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-Firebase AI Logic, Authentication, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;,
+Firebase AI Logic, Authentication, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2025-05-20"&gt;Android Release Notes&lt;/a&gt;.
@@ -4982,7 +4982,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-11-0"&gt;Firebase SDK for Flutter
 (v3.11.0)&lt;/a&gt; is now available.
 This release includes release of Firebase AI Logic SDK, and bug fixes in
-Authentication and &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+Authentication and &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#12.9.0"&gt;Firebase SDK for Unity
 (v12.9.0)&lt;/a&gt; is now available. This
 release includes the release of the new Firebase AI Logic SDK, as well as a
@@ -5114,7 +5114,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.6.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.6.0)&lt;/a&gt;
 is now available. This version adds emulator support for Firestore MCP tools,
-and fixes issues with &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; and web frameworks.
+and fixes issues with &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; and web frameworks.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate></item><item><title>June 05, 2025</title><link>https://firebase.google.com/support/releases#june_05_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_77" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -5152,7 +5152,7 @@ This release includes changes to User Messaging Platform, a bug fix in
 (v3.12.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, Authentication
 and &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, and bug fixes in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and
-&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/js#11.9.1"&gt;Firebase JavaScript SDK (v11.9.1)&lt;/a&gt;
 is now available. For more details, see the
@@ -5180,7 +5180,7 @@ fixes.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.8.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.8.0)&lt;/a&gt;
 is now available. This version fixes some &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; issues and
-updates the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to a newer version of PGLite.
+updates the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to a newer version of PGLite.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate></item><item><title>June 23, 2025</title><link>https://firebase.google.com/support/releases#june_23_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_73" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -5192,7 +5192,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;/ul&gt;</description><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate></item><item><title>June 26, 2025</title><link>https://firebase.google.com/support/releases#june_26_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_72" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, and
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2025-06-26"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -5214,7 +5214,7 @@ shiba/35 instead.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.9.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.9.0)&lt;/a&gt;
 is now available. This version adds new MCP tools and commands to use Gemini
-to help write your &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; schemas and operations.
+to help write your &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; schemas and operations.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate></item><item><title>June 30, 2025</title><link>https://firebase.google.com/support/releases#june_30_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_71" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -5232,7 +5232,7 @@ Core, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, and &lt;span cla
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.10.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.10.1)&lt;/a&gt;
 is now available. This version adds &lt;code dir="ltr" translate="no"&gt;string_pattern&lt;/code&gt; filters to
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and includes fixes for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;,
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and includes fixes for &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Firebase Extensions&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -5252,7 +5252,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.11.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.11.0)&lt;/a&gt;
 is now available. This version adds full-text search and user defined enums to
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate></item><item><title>July 17, 2025</title><link>https://firebase.google.com/support/releases#july_17_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_67" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -5284,7 +5284,7 @@ The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;, &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;,
 &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
-&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, Dynamic feature modules support,
+&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, Dynamic feature modules support,
 &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, installations, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;,
 and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
 have been updated. The &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; Gradle
@@ -5300,12 +5300,12 @@ has been updated to v34.00.0. Learn how to
 (v3.14.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations, Authentication and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and bug fixes
-in Core and &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+in Core and &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate></item><item><title>July 22, 2025</title><link>https://firebase.google.com/support/releases#july_22_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.11.1)" id="cli-v14.11.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.11.1)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.11.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.11.1)&lt;/a&gt;
 is now available. This version includes bug fixes for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;
-and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+and &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate></item><item><title>July 23, 2025</title><link>https://firebase.google.com/support/releases#july_23_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_65" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -5366,7 +5366,7 @@ the &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; documentation to le
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v14.12.0)" id="cli-v14.12.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.12.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.12.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.12.0)&lt;/a&gt;
-is now available. This version includes new features for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;,
+is now available. This version includes new features for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;,
 and a new &lt;code dir="ltr" translate="no"&gt;init aitools&lt;/code&gt; command to help set up Firebase tools for AI.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -5405,7 +5405,7 @@ release includes new features in Firebase AI.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.12.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.12.1)&lt;/a&gt;
 is now available. This version includes support for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Enterprise
-edition and bug fixes for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+edition and bug fixes for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; and &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate></item><item><title>August 15, 2025</title><link>https://firebase.google.com/support/releases#august_15_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-live-api-using-dev-api" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -5427,7 +5427,7 @@ and Unity (v13.1.0+). Apple platforms and Web are coming soon!&lt;/p&gt;&lt;/li&
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.13.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.13.0)&lt;/a&gt;
 is now available. This version includes bug fixes and new features for
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
 and &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -5435,7 +5435,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.14.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.14.0)&lt;/a&gt;
 is now available. This version includes bug fixes and new features for
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics-alerts-updates-aug-2025" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -5465,7 +5465,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;a href="/support/release-notes/cli#14.15.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.15.0)&lt;/a&gt;
 is now available. This version adds additional &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; MCP tools for
 debugging and analyzing crashes.
-It also includes improvements for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+It also includes improvements for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate></item><item><title>August 28, 2025</title><link>https://firebase.google.com/support/releases#august_28_2025</link><description>&lt;p&gt;&lt;span id="ai-logic-ai-monitoring-dev-api"&gt;&lt;/span&gt;
@@ -5534,7 +5534,7 @@ This release includes changes in &lt;span class='\"notranslate\"'&gt;Firebase AI
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.15.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.15.2)&lt;/a&gt;
 is now available. This version adds new features and fixes for
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt;.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_54" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -5571,7 +5571,7 @@ To install this SDK, see
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.16.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.16.0)&lt;/a&gt;
 is now available. This version adds new commands for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;,
-improvements for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and new MCP tools.
+improvements for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and new MCP tools.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 12, 2025</title><link>https://firebase.google.com/support/releases#september_12_2025</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore-enterprise-edition" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -5599,7 +5599,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.17.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.17.0)&lt;/a&gt;
 is now available. This version changes the default region for
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; to &lt;code dir="ltr" translate="no"&gt;us-east4&lt;/code&gt;.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; to &lt;code dir="ltr" translate="no"&gt;us-east4&lt;/code&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check-advanced-settings" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -5642,7 +5642,7 @@ available (for example, if the device is offline).&lt;/p&gt;&lt;/li&gt;
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK,
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, Installations, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;,
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, Installations, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2025-09-18"&gt;Android Release Notes&lt;/a&gt;.
@@ -5664,8 +5664,8 @@ information, see &lt;a href="/docs/remote-config/web/real-time"&gt;Understand re
 &lt;li&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v4-3-0"&gt;Firebase SDK for Flutter
 (v4.3.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;,
-Authentication, &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, and bug fixes in
-&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; and &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;.&lt;/li&gt;
+Authentication, &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, and bug fixes in
+&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; and &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 24, 2025</title><link>https://firebase.google.com/support/releases#september_24_2025</link><description>&lt;h3 data-text="Remote Config" id="remote-config-server-environments-java" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt; now supports server-side configuration
 through the &lt;a href="/support/release-notes/admin/java#9.7.0"&gt;Firebase Admin Java SDK (v9.7.0)&lt;/a&gt;,
@@ -5697,7 +5697,7 @@ release includes new features in Firebase AI and a bug fix in
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.18.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.18.0)&lt;/a&gt;
 is now available. This version graduates the MCP server from experimental
-to &lt;code dir="ltr" translate="no"&gt;mcp&lt;/code&gt;, adds new features and fixes for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and
+to &lt;code dir="ltr" translate="no"&gt;mcp&lt;/code&gt;, adds new features and fixes for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and
 includes fixes for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and &lt;span class="notranslate"&gt;Hosting&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -5755,7 +5755,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_45" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK,
-and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;
+and &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2025-10-09"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -5777,7 +5777,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 (v4.4.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and bug fixes in &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;,
-&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;.&lt;/li&gt;
+&lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 14, 2025</title><link>https://firebase.google.com/support/releases#october_14_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_43" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#13.2.0"&gt;Firebase SDK for C++
 (v13.2.0)&lt;/a&gt; is now available.
@@ -5786,7 +5786,7 @@ This release includes miscellaneous changes.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.20.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.20.0)&lt;/a&gt;
 is now available. This version adds the &lt;code dir="ltr" translate="no"&gt;dataconnect:execute&lt;/code&gt; command and
-includes other updates for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+includes other updates for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 16, 2025</title><link>https://firebase.google.com/support/releases#october_16_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_42" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -5862,7 +5862,7 @@ your choice of MCP-capable AI-powered development tools (like
 &lt;a href="/docs/ai-logic/hybrid-on-device-inference#determine-inference-mode"&gt;determine which inference mode was used for a request&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_40" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;,
+&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;,
 &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;
 have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; Gradle
 plugin have also been updated. For more details, check out the latest
@@ -5927,13 +5927,13 @@ using a shutdown model name returns a 404 error.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 05, 2025</title><link>https://firebase.google.com/support/releases#november_05_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.24.0)" id="cli-v14.24.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.24.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.24.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.24.0)&lt;/a&gt;
-is now available. This version adds 2nd gen &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; triggers
+is now available. This version adds 2nd gen &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; triggers
 support to &lt;code dir="ltr" translate="no"&gt;firebase deploy&lt;/code&gt; and includes other improvements and fixes.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_38" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.6.0"&gt;Firebase Admin Node.js SDK (v13.6.0)&lt;/a&gt;
-is now available. This release comes with new &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; APIs
+is now available. This release comes with new &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; APIs
 for the execution of operations defined in GraphQL files.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
@@ -6031,7 +6031,7 @@ is now available. For more details, see the
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 14, 2025</title><link>https://firebase.google.com/support/releases#november_14_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_35" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;
+&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2025-11-14"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -6050,7 +6050,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;li&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v4-6-0"&gt;Firebase SDK for Flutter
 (v4.6.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; and
-&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;, and bug fixes in &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; and
+&lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;, and bug fixes in &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 18, 2025</title><link>https://firebase.google.com/support/releases#november_18_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3-pro-preview-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the &lt;span class='\"notranslate\"'&gt;Gemini 3 Pro&lt;/span&gt; (preview)
@@ -6211,7 +6211,7 @@ using a shutdown model name returns a 404 error.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#15.1.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.1.0)&lt;/a&gt;
 is now available. This version updates the default Postgres version for
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; to 17 and updates the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; to 17 and updates the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;
 Emulator to v3.0.1, which addresses some internal errors.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -6227,7 +6227,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 is now available. This version fixes pricing calculation for
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; with &lt;code dir="ltr" translate="no"&gt;minInstances&lt;/code&gt; in newer regions and removes timeout
 when connecting to Cloud SQL. It also updates the
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; Emulator to v3.0.2 and includes several improvements
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; Emulator to v3.0.2 and includes several improvements
 and fixes for MCP tools and prompts.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
@@ -6249,7 +6249,7 @@ operations, see &lt;a href="/docs/firestore/enterprise/pipelines-overview"&gt;Pi
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_25" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK,
-and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; 
+and &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; 
 have been updated. The initial release of &lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt; is also available.
 For more details, check out the latest
 &lt;a href="/support/release-notes/android#2026-01-15"&gt;Android Release Notes&lt;/a&gt;.
@@ -6299,7 +6299,7 @@ in future test runs to improve test repeatability. For more information, see
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v15.4.0)" id="cli-v15.4.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.4.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#15.4.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.4.0)&lt;/a&gt; is now
-available. This version fixes an issue causing crashes in the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;
+available. This version fixes an issue causing crashes in the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;
 emulator and updates it to v3.1.0.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -6384,7 +6384,7 @@ is now available. For more details, see the
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.6.1"&gt;Firebase Admin Node.js SDK (v13.6.1)&lt;/a&gt;
 is now available. This release comes with a security improvement in the SDK
-and a fix in the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; API.
+and a fix in the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate></item><item><title>February 09, 2026</title><link>https://firebase.google.com/support/releases#february_09_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_18" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -6424,13 +6424,13 @@ via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/sp
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#15.7.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.7.0)&lt;/a&gt; is now
 available. This version updates the Python Functions template, improves the
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit, and adds Developer Knowledge MCP tools.&lt;/p&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit, and adds Developer Knowledge MCP tools.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase agent skills" id="agent-skills-data-connect" tabindex="-1"&gt;Firebase agent skills&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The new &lt;code dir="ltr" translate="no"&gt;firebase-data-connect-basics&lt;/code&gt; skill is now available in
 &lt;a href="/docs/ai-assistance/agent-skills"&gt;Firebase agent skills&lt;/a&gt;
-to help AI assistants build and deploy &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; backends with
+to help AI assistants build and deploy &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; backends with
 PostgreSQL. If you already have Firebase agent skills installed, you can run
 a command to receive all available updates:
 &lt;ul&gt;
@@ -6470,12 +6470,12 @@ via &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vert
 &lt;a href="/support/release-notes/cli#15.8.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.8.0)&lt;/a&gt; is now
 available. This version fixes an issue with Cloud Functions (2nd gen)
 deployment, updates &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; MCP tools, and adds UUIDv7 support to
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/p&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_15" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and
+&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and
 Installations
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2026-02-26"&gt;Android Release Notes&lt;/a&gt;.
@@ -6531,7 +6531,7 @@ other changes.&lt;/li&gt;
 &lt;a href="/support/release-notes/cli#15.9.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.9.0)&lt;/a&gt; is now
 available. This version adds the &lt;code dir="ltr" translate="no"&gt;*_EMULATOR_VERSION&lt;/code&gt; env variables to allow
 overriding emulator versions and includes multiple improvements for
-&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;, MCP tools, and &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/p&gt;
+&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;, MCP tools, and &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 09, 2026</title><link>https://firebase.google.com/support/releases#march_09_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.9.1)" id="cli-v15.9.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.9.1)&lt;/h3&gt;&lt;ul&gt;
@@ -6539,7 +6539,7 @@ overriding emulator versions and includes multiple improvements for
 &lt;a href="/support/release-notes/cli#15.9.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.9.1)&lt;/a&gt; is now
 available. This version adds support for &lt;code dir="ltr" translate="no"&gt;next.config.ts&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;next.config.mts&lt;/code&gt; in Next.js deployments and enables free trials for
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; without a payment method.&lt;/p&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; without a payment method.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 10, 2026</title><link>https://firebase.google.com/support/releases#march_10_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_10" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -6589,7 +6589,7 @@ a command to receive all available updates:
 &lt;a href="/support/release-notes/cli#15.11.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.11.0)&lt;/a&gt; is now
 available. This version adds support for &lt;code dir="ltr" translate="no"&gt;dataAccessMode&lt;/code&gt; in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;
 database creation, updates the &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Emulator, and includes multiple
-improvements for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/p&gt;
+improvements for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 19, 2026</title><link>https://firebase.google.com/support/releases#march_19_2026</link><description>&lt;h3 data-text="Firebase Studio" id="studio-sunset-announcement" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -6605,7 +6605,7 @@ the sunset date. Also, all our &lt;strong&gt;&lt;u&gt;core Firebase products&lt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_8" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;,
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and &lt;span class="notranslate"&gt;Firebase Phone Number Verification&lt;/span&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and &lt;span class="notranslate"&gt;Firebase Phone Number Verification&lt;/span&gt;
 have been updated. For more details, check out the latest
 &lt;a href="/support/release-notes/android#2026-03-19"&gt;Android Release Notes&lt;/a&gt;.
 To get started with Firebase in Android, see
@@ -6664,7 +6664,7 @@ several products.&lt;/li&gt;
 &lt;a href="/support/release-notes/cli#15.12.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.12.0)&lt;/a&gt; is now
 available. This version moves the MCP server debug log location, adds a
 prompt to install Agent Skills for Firebase, and updates the
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit.&lt;/p&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate></item><item><title>March 30, 2026</title><link>https://firebase.google.com/support/releases#march_30_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-server-prompt-templates-tools" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -6682,7 +6682,7 @@ releasing a new app version.&lt;/p&gt;&lt;/li&gt;
 &lt;a href="/support/release-notes/cli#15.13.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.13.0)&lt;/a&gt; is now
 available. This version adds validation for &lt;code dir="ltr" translate="no"&gt;backendId&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt;
 when using the &lt;code dir="ltr" translate="no"&gt;--only&lt;/code&gt; flag, updates the default Postgres version for
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;, and updates the TypeScript version in templates.&lt;/p&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and updates the TypeScript version in templates.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate></item><item><title>April 06, 2026</title><link>https://firebase.google.com/support/releases#april_06_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_6" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -6696,13 +6696,13 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;a href="/support/release-notes/cli#15.14.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.14.0)&lt;/a&gt; is now
 available. This version adds Enterprise Edition support to the &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;
 emulator, fixes several issues, and updates the
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator.&lt;/p&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_5" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;,
-&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;,
+&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;,
 &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;, and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;
 have been updated. The &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin has also been updated.
 For more details, check out the latest

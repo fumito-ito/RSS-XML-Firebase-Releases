@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 21 Apr 2026 16:07:26 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 21 Apr 2026 19:05:51 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -6779,8 +6779,8 @@ exception handler.&lt;/p&gt;&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.2.0" id="crashlytics-ndk_v19-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 19.2.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to v19.2.0&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect version 16.0.0-beta01" id="data-connect_v16-0-0-beta01" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 16.0.0-beta01&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial beta release of the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; SDK.
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 16.0.0-beta01" id="data-connect_v16-0-0-beta01" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 16.0.0-beta01&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial beta release of the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; SDK.
 Learn how to &lt;a href="/docs/data-connect/android-sdk"&gt;get started&lt;/a&gt;
 with the SDK in your app.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase version 16.0.0-beta06" id="vertex-ai_v16-0-0-beta06" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; version 16.0.0-beta06&lt;/h3&gt;&lt;ul&gt;
@@ -6813,7 +6813,7 @@ updates.&lt;/p&gt;&lt;h3 data-text="Cloud Messaging Direct Boot version 24.0.3" 
 &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.2.1" id="crashlytics-ndk_v19-2-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 19.2.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to v19.2.1&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect version 16.0.0-beta02" id="data-connect_v16-0-0-beta02" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 16.0.0-beta02&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 16.0.0-beta02" id="data-connect_v16-0-0-beta02" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 16.0.0-beta02&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated protobuf dependency to &lt;code dir="ltr" translate="no"&gt;3.25.5&lt;/code&gt; to fix
 &lt;a class="external" href="//nvd.nist.gov/vuln/detail/CVE-2024-7254"&gt;CVE-2024-7254&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase ML version 25.0.1" id="firebaseml-modeldownloader_v25-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt; version 25.0.1&lt;/h3&gt;&lt;ul&gt;
@@ -6918,9 +6918,9 @@ private.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where authorization headers weren't correctly formatted
 and were ignored by the backend.
 GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6400"&gt;#6400&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Update - November 15, 2024</title><link>https://firebase.google.com/support/release-notes/android#2024-11-15</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.6.0" id="bom_v33-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.6.0&lt;/h3&gt;&lt;h3 data-text="Data Connect version 16.0.0-beta03" id="data-connect_v16-0-0-beta03" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 16.0.0-beta03&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Update - November 15, 2024</title><link>https://firebase.google.com/support/release-notes/android#2024-11-15</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 33.6.0" id="bom_v33-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 33.6.0&lt;/h3&gt;&lt;h3 data-text="SQL Connect version 16.0.0-beta03" id="data-connect_v16-0-0-beta03" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 16.0.0-beta03&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change:&lt;/strong&gt; Increased the minimum supported version of
-the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit for code generation to v1.7.0, which
+the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit for code generation to v1.7.0, which
 is included with
 &lt;a class="external" href="//github.com/firebase/firebase-tools/releases/tag/v13.25.0"&gt;firebase-tools v13.25.0&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change:&lt;/strong&gt; Replaced &lt;code dir="ltr" translate="no"&gt;java.util.Date&lt;/code&gt; with
@@ -7012,7 +7012,7 @@ GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/i
 &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.4.0" id="crashlytics-ndk_v19-4-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 19.4.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to v19.4.0&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect version 16.0.0-beta04" id="data-connect_v16-0-0-beta04" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 16.0.0-beta04&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 16.0.0-beta04" id="data-connect_v16-0-0-beta04" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 16.0.0-beta04&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;FirebaseDataConnect.logLevel&lt;/code&gt; type from &lt;code dir="ltr" translate="no"&gt;LogLevel&lt;/code&gt; to
 &lt;code dir="ltr" translate="no"&gt;MutableStateFlow&amp;lt;LogLevel&amp;gt;&lt;/code&gt;. This enables apps to "collect" the flow to,
 for example, update a UI component when the log level changes.
@@ -7173,7 +7173,7 @@ GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/i
 &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.4.2" id="crashlytics-ndk_v19-4-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 19.4.2&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to v19.4.2&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect version 16.0.0-beta05" id="data-connect_v16-0-0-beta05" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 16.0.0-beta05&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 16.0.0-beta05" id="data-connect_v16-0-0-beta05" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 16.0.0-beta05&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed gRPC proto package to v1 (it was v1beta).
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6729"&gt;#6729&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase-data-connect&lt;/code&gt; artifacts are now published with
@@ -7211,7 +7211,7 @@ updates.&lt;/p&gt;</description></item><item><title>Update - March 31, 2025</tit
 function that does not exist.&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-functions&lt;/code&gt; library. The Kotlin extensions library has no additional
-updates.&lt;/p&gt;&lt;h3 data-text="Data Connect version 16.0.0" id="data-connect_v16-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 16.0.0&lt;/h3&gt;&lt;ul&gt;
+updates.&lt;/p&gt;&lt;h3 data-text="SQL Connect version 16.0.0" id="data-connect_v16-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 16.0.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;DataConnectOperationException&lt;/code&gt;, enabling support for
 partial errors; that is, any data that was received and/or was able to be
 decoded is now available via the "response" property of the exception thrown
@@ -7251,7 +7251,7 @@ updates.&lt;/p&gt;&lt;h3 data-text="Crashlytics NDK version 19.4.3" id="crashlyt
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to v19.4.3&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated internal Crashpad version to
 &lt;a class="external" href="https://chromium.googlesource.com/crashpad/crashpad/+/21a20ef8adf3949de8dd65758a16f83aab344b3c"&gt;commit &lt;code dir="ltr" translate="no"&gt;21a20ef&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect version 16.0.1" id="data-connect_v16-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 16.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 16.0.1" id="data-connect_v16-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 16.0.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config version 22.1.1" id="remote-config_v22-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; version 22.1.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the connection to the real-time
@@ -7329,7 +7329,7 @@ the test framework.
 GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6927"&gt;#6927&lt;/a&gt; &lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-storage&lt;/code&gt; library. The Kotlin extensions library has no additional
-updates.&lt;/p&gt;&lt;h3 data-text="Data Connect version 16.0.2" id="data-connect_v16-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 16.0.2&lt;/h3&gt;&lt;ul&gt;
+updates.&lt;/p&gt;&lt;h3 data-text="SQL Connect version 16.0.2" id="data-connect_v16-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 16.0.2&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved code robustness related to state management in
 &lt;code dir="ltr" translate="no"&gt;FirebaseDataConnect&lt;/code&gt; objects.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/6861"&gt;#6861&lt;/a&gt;)&lt;/li&gt;
@@ -7403,7 +7403,7 @@ additional updates.&lt;/p&gt;&lt;h3 data-text="Cloud Messaging version 24.1.2" i
 connection Executor for &lt;code dir="ltr" translate="no"&gt;WithinAppServiceConnection&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
 &lt;code dir="ltr" translate="no"&gt;firebase-messaging&lt;/code&gt; library. The Kotlin extensions library has no additional
-updates.&lt;/p&gt;&lt;h3 data-text="Data Connect version 16.0.3" id="data-connect_v16-0-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 16.0.3&lt;/h3&gt;&lt;ul&gt;
+updates.&lt;/p&gt;&lt;h3 data-text="SQL Connect version 16.0.3" id="data-connect_v16-0-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 16.0.3&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed occasional &lt;code dir="ltr" translate="no"&gt;NullPointerException&lt;/code&gt; when registering with
 &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt;, leading to erroneous &lt;code dir="ltr" translate="no"&gt;UNAUTHENTICATED&lt;/code&gt; exceptions.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7001"&gt;#7001&lt;/a&gt;)&lt;/li&gt;
@@ -7540,7 +7540,7 @@ higher.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics Gradle plugin version 3.0.5" id="crashlytics_gradle_plugin_v3-0-5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin version 3.0.5&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved Crashlytics SDK efficiency by providing version control
 information directly.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.0.0" id="data-connect_v17-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 17.0.0" id="data-connect_v17-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 17.0.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed superfluous and noisy debug logging of operation
 variables.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 23 or
@@ -7702,7 +7702,7 @@ SDK releases. For more details, refer to the
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics NDK version 20.0.2" id="crashlytics-ndk_v20-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 20.0.2&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.0.1" id="data-connect_v17-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.0.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 17.0.1" id="data-connect_v17-0-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 17.0.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed to ignore unknown fields in response data instead of
 throwing a &lt;code dir="ltr" translate="no"&gt;DataConnectOperationException&lt;/code&gt; with message &lt;code dir="ltr" translate="no"&gt;decoding data from
@@ -7761,11 +7761,11 @@ a sorted &lt;code dir="ltr" translate="no"&gt;TreeMap&lt;/code&gt;.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7440"&gt;#7440&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics NDK version 20.0.3" id="crashlytics-ndk_v20-0-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 20.0.3&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.1.0" id="data-connect_v17-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 17.1.0" id="data-connect_v17-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 17.1.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Addressed minor reference documentation issues.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7399"&gt;#7399&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added classes &lt;code dir="ltr" translate="no"&gt;EnumValue&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;EnumValueSerializer&lt;/code&gt;. These classes
-are identical to those produced by the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; code generator;
+are identical to those produced by the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; code generator;
 however, a future version of the code generator will start using these classes
 from the SDK rather than generating them.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7153"&gt;#7153&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
@@ -7797,7 +7797,7 @@ root of an app's Gradle build (in addition to inside its &lt;code dir="ltr" tran
 depends on OkHttp version 3.x, note that this change is both binary-compatible
 and Java source-compatible, with a few small exceptions (for details, see the
 &lt;a href="https://square.github.io/okhttp/changelogs/upgrading_to_okhttp_4"&gt;upgrading to OkHttp 4 changelog&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.1.1" id="data-connect_v17-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 17.1.1" id="data-connect_v17-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 17.1.1&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal refactor for managing &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;App Check&lt;/span&gt; tokens.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7184"&gt;#7184&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="In-App Messaging version 22.0.2" id="inappmessaging_v22-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; version 22.0.2&lt;/h3&gt;&lt;ul&gt;
@@ -7818,7 +7818,7 @@ and Java source-compatible, with a few small exceptions. For details, see the
 &lt;a href="/docs/ai-logic/server-prompt-templates/get-started"&gt;server prompt templates&lt;/a&gt;
 via &lt;code dir="ltr" translate="no"&gt;TemplateGenerativeModel&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;TemplateImagenModel&lt;/code&gt;.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7503"&gt;#7503&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.1.2" id="data-connect_v17-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.1.2&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 17.1.2" id="data-connect_v17-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 17.1.2&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal refactor for managing &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;App Check&lt;/span&gt; tokens.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7485"&gt;#7485&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring version 22.0.4" id="performance_v22-0-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; version 22.0.4&lt;/h3&gt;&lt;ul&gt;
@@ -7845,7 +7845,7 @@ public preview.
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-sessions&lt;/code&gt; dependency to v3.0.4&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics NDK version 20.0.4" id="crashlytics-ndk_v20-0-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 20.0.4&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to v20.0.4&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.1.3" id="data-connect_v17-1-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.1.3&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 17.1.3" id="data-connect_v17-1-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 17.1.3&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal refactor for reporting "paths" in response data.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7613"&gt;#7613&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase PNV version 16.0.0-beta01" id="firebase-pnv_v16-0-0-beta01" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt; version 16.0.0-beta01&lt;/h3&gt;&lt;ul&gt;
@@ -7906,7 +7906,7 @@ expressions.
 &lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed &lt;code dir="ltr" translate="no"&gt;isNan&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;isNotNan&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;isNull&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;isNotNull&lt;/code&gt; factory
 methods from &lt;code dir="ltr" translate="no"&gt;Expression&lt;/code&gt;. Use &lt;code dir="ltr" translate="no"&gt;equal(Double.NaN)&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;notEqual(Double.NaN)&lt;/code&gt;,
 &lt;code dir="ltr" translate="no"&gt;equal(nullValue())&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;notEqual(nullValue())&lt;/code&gt; respectively.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.1.4" id="data-connect_v17-1-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.1.4&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 17.1.4" id="data-connect_v17-1-4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 17.1.4&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal changes to support future offline caching functionality.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7716"&gt;#7716&lt;/a&gt;,
 &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7714"&gt;#7714&lt;/a&gt;,
@@ -7940,7 +7940,7 @@ logging &lt;a href="/docs/analytics/measure-in-app-purchases"&gt;in-app purchase
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a performance regression in &lt;code dir="ltr" translate="no"&gt;ObjectValue.equals()&lt;/code&gt; that caused
 exponential execution time for large or deeply nested documents.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7877"&gt;#7877&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Data Connect version 17.2.0" id="data-connect_v17-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; version 17.2.0&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 17.2.0" id="data-connect_v17-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 17.2.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added offline caching APIs.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7814"&gt;#7814&lt;/a&gt;,
 GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7833"&gt;#7833&lt;/a&gt;,

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 21 Apr 2026 16:07:40 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 21 Apr 2026 19:05:58 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -625,26 +625,26 @@ the wrong role.
 invalid connectors.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7199"&gt;#7199&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improves logging and messaging throughout &lt;code dir="ltr" translate="no"&gt;dataconnect&lt;/code&gt; commands.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improves handling for cases where a &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; service
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improves handling for cases where a &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; service
 could not access Cloud SQL.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7157"&gt;#7157&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.10.1 - May 21, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13101_-_may_21_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;dataconnect:sql:migrate&lt;/code&gt; still prompts for
 confirmation even with &lt;code dir="ltr" translate="no"&gt;--force&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7208"&gt;#7208&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator v1.1.18, which contains
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulator v1.1.18, which contains
 bug fixes for code generation and improved surfacing of schema migration
 errors.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator listens
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulator listens
 on all addresses by default instead of just &lt;code dir="ltr" translate="no"&gt;localhost&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7211"&gt;#7211&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; generated SDK sometimes using the
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; generated SDK sometimes using the
 wrong Google Cloud region.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7217"&gt;#7217&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.10.2 - May 21, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13102_-_may_21_2024</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator v1.1.19, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulator v1.1.19, which
 fixes serving IPv4 connections properly (127.0.0.1:9399 by default).&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a Windows build for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a Windows build for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulator
 (starting from v1.1.19).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.11.0 - June 05, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13110_-_june_05_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Node 22 in function deployments.
@@ -657,10 +657,10 @@ browser builder.
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Released &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; emulator v1.19.7, which adds support for
 &lt;code dir="ltr" translate="no"&gt;withAuthContext&lt;/code&gt; function triggers.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7037"&gt;#7037&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Released &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator v1.2.0, which adds
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Released &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulator v1.2.0, which adds
 support for Postgres 16 and creates the Postgres database specified in
 &lt;code dir="ltr" translate="no"&gt;dataconnect.yaml&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;.firebaserc&lt;/code&gt;, if it doesn't already exist.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed some cases where &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; deployment fails
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed some cases where &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; deployment fails
 to pretty-print errors.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7230"&gt;#7230&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated Pub/Sub emulator to v0.8.14.
@@ -673,7 +673,7 @@ to pretty-print errors.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt; no longer waits for Cloud SQL instance
 provisioning.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7275"&gt;#7275&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator would
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulator would
 not start up correctly.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.11.2 - June 07, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13112_-_june_07_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a warning to &lt;code dir="ltr" translate="no"&gt;firebase dataconnect:sdk:generate&lt;/code&gt; when no
@@ -686,7 +686,7 @@ SDKs are configured.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixes some cases where &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt; did not write project
 files correctly.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.11.4 - June 21, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13114_-_june_21_2024</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator now reuses existing instances if they
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator now reuses existing instances if they
 are emulating the same service.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixes issue where &lt;code dir="ltr" translate="no"&gt;deploy --only dataconnect&lt;/code&gt; would error out with
 &lt;code dir="ltr" translate="no"&gt;cannot read property undefined&lt;/code&gt;.&lt;/li&gt;
@@ -703,14 +703,14 @@ on Intel-based Macs.&lt;/li&gt;
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7375"&gt;#7375&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Add a default for &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect:sdk&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7406"&gt;#7406&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Bump &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v1.2.3, which adds support for &lt;code dir="ltr" translate="no"&gt;@index&lt;/code&gt; on tables, &lt;code dir="ltr" translate="no"&gt;@auth(level: USER_ANON/USER_EMAIL_VERIFIED)&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;key: {uid_expr: "auth.uid"}&lt;/code&gt;, and fixes some issues related to SDK generation.
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Bump &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v1.2.3, which adds support for &lt;code dir="ltr" translate="no"&gt;@index&lt;/code&gt; on tables, &lt;code dir="ltr" translate="no"&gt;@auth(level: USER_ANON/USER_EMAIL_VERIFIED)&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;key: {uid_expr: "auth.uid"}&lt;/code&gt;, and fixes some issues related to SDK generation.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7409"&gt;#7409&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.13.1 - July 10, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13131_-_july_10_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Pass down &lt;code dir="ltr" translate="no"&gt;functions.ignore&lt;/code&gt; values in &lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt; to functions emulator so that supposedly ignored directories/files will not trigger reload.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7414"&gt;#7414&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixes bug where secret values provided in env files were parsed as list.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7422"&gt;#7422&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Update the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v1.2.4, which includes
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Update the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v1.2.4, which includes
 a fix for web SDK generation on Windows and a change for the local Vertex AI client
 to pick up application default credentials automatically.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/74024"&gt;#74024&lt;/a&gt;)&lt;/li&gt;
@@ -730,7 +730,7 @@ now goes directly to GitHub instead of using Developer Connect.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7355"&gt;#7355&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Released version 1.13.0 of firebase-tools-ui, which adds Emulator UI
 support for Firebase alerts events.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Bumped the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.3.0,
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Bumped the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v1.3.0,
 which adds Swift SDK, @index, @unique, and batch insert support.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7486"&gt;#7486&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved detection of 'dataconnect.yaml' when not in project root.&lt;/li&gt;
@@ -749,11 +749,11 @@ noninteractive modes.
 short option names.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7481"&gt;#7481&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.14.1 - July 25, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13141_-_july_25_2024</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; local toolkit v1.3.1, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit v1.3.1, which
 includes fixes for Swift SDK code generation.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7491"&gt;#7491&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.14.2 - July 26, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13142_-_july_26_2024</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator tried
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulator tried
 to read &lt;code dir="ltr" translate="no"&gt;dataconnect.yaml&lt;/code&gt; from the wrong location.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.15.0 - August 01, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13150_-_august_01_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for customer managed encryption keys (CMEK) on
@@ -769,16 +769,16 @@ Firestore databases.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;functions:secrets:set&lt;/code&gt; wrongly threw errors on
 non-interactive flows without &lt;code dir="ltr" translate="no"&gt;--force&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7467"&gt;#7467&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; local toolkit v1.3.2, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit v1.3.2, which
 includes bug fixes.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7518"&gt;#7518&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.15.1 - August 09, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13151_-_august_09_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Introduced automatic app platform detection during
 &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect:sdk&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; toolkit to v1.3.4, which includes
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; toolkit to v1.3.4, which includes
 support for &lt;code dir="ltr" translate="no"&gt;offset&lt;/code&gt;, cascading delete, and multiple generated SDKs of a
 single platform.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; SDK options default to avoid duplicate
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; SDK options default to avoid duplicate
 output path.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed secret parameter resolution in functions emulator.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7443"&gt;#7443&lt;/a&gt;)&lt;/li&gt;
@@ -791,7 +791,7 @@ and
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7517"&gt;#7517&lt;/a&gt;)
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7545"&gt;#7545&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.15.2 - August 15, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13152_-_august_15_2024</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; toolkit to v1.3.5, which adds
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; toolkit to v1.3.5, which adds
 support for pgvector indexing and &lt;code dir="ltr" translate="no"&gt;order_by_ref&lt;/code&gt;, and fixes bugs in SDK
 generation.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7561"&gt;#7561&lt;/a&gt;)&lt;/li&gt;
@@ -825,7 +825,7 @@ causing extensions to be deleted unexpectedly.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Re-added a dialog to let users know TLS is being provisioned in
 &lt;span class="notranslate"&gt;Firebase App Hosting&lt;/span&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7595"&gt;#7595&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Improved Postgres security for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; by
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Improved Postgres security for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; by
 granting finer grained SQL privileges.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7578"&gt;#7578&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed &lt;code dir="ltr" translate="no"&gt;dataconnect:sql:migrate&lt;/code&gt; command hard dependency on
@@ -837,7 +837,7 @@ restored &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; databases.
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;VERIFY_AND_CHANGE_EMAIL&lt;/code&gt; events in the
 &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7618"&gt;#7618&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; toolkit to v1.3.6, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; toolkit to v1.3.6, which
 serves a generated GraphQL docsite under &lt;code dir="ltr" translate="no"&gt;/docs&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7640"&gt;#7640&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.18.0 - September 18, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13180_-_september_18_2024</link><description>&lt;ul&gt;
@@ -850,11 +850,11 @@ and  builds your code without making any production changes.&lt;/li&gt;
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7418"&gt;#7418&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed temporary change to the PORT in &lt;code dir="ltr" translate="no"&gt;server.ts&lt;/code&gt; for Angular 17+.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/6651"&gt;#6651&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Switched &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; API from v1alpha to v1beta.
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Switched &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; API from v1alpha to v1beta.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7589"&gt;#7589&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Improved handling of Spark projects in &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7666"&gt;#7666&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; local toolkit version to v1.3.7,
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit version to v1.3.7,
 which adds support for v1beta gRPC APIs and the &lt;code dir="ltr" translate="no"&gt;OrderDirection&lt;/code&gt; enum in Swift,
 and makes transactional queries and mutations opt-in with the &lt;code dir="ltr" translate="no"&gt;@transaction&lt;/code&gt;
 directive.
@@ -867,7 +867,7 @@ which grants a user access to your service's CloudSQL database.
 &lt;code dir="ltr" translate="no"&gt;getGlobalEsbuildVersion&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7571"&gt;#7571&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.19.0 - September 22, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13190_-_september_22_2024</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; local toolkit version to v1.3.8,
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit version to v1.3.8,
 which adds support for &lt;code dir="ltr" translate="no"&gt;Any&lt;/code&gt; scalar values in the Android SDK, strongly-typed
 variables  in &lt;code dir="ltr" translate="no"&gt;@auth&lt;/code&gt; expressions, and a minor internal fix for the Dart SDK
 code generation.
@@ -877,10 +877,10 @@ configure extensions in a functions codebase. For details, see
 &lt;a href="/docs/extensions/install-extensions?interface=sdk"&gt;Install Extensions&lt;/a&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7581"&gt;#7581&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.20.0 - September 25, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13200_-_september_25_2024</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator to use an in memory
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulator to use an in memory
 PGLite database instead of requiring a separate Postgres installation.
 Deprecated &lt;code dir="ltr" translate="no"&gt;dataconnectEmulator&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;.firebaserc&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Released version 1.4.2 of the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator,
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Released version 1.4.2 of the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulator,
 which includes SDK support for &lt;code dir="ltr" translate="no"&gt;Any&lt;/code&gt; scalar type and &lt;code dir="ltr" translate="no"&gt;OrderDirection&lt;/code&gt;,
 support for &lt;code dir="ltr" translate="no"&gt;first&lt;/code&gt; to lookup operations, and breaking changes for iOS
 generated SDKs.
@@ -888,7 +888,7 @@ generated SDKs.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Reverted the minimum functions SDK version and add logging for
 extensions features using v5.1.0.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7731"&gt;#7731&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added compatibility mode support for &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added compatibility mode support for &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;
 schema migrations, where application schema updates are allowed if the
 database schema is in a compatible state.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7746"&gt;#7746&lt;/a&gt;)&lt;/li&gt;
@@ -898,14 +898,14 @@ local-first onboarding.
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the &lt;code dir="ltr" translate="no"&gt;--watch&lt;/code&gt; option in
 &lt;code dir="ltr" translate="no"&gt;firebase dataconnect:sdk:generate&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7719"&gt;#7719&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor fix in the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; GraphQL query template.
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor fix in the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; GraphQL query template.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7736"&gt;#7736&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.20.1 - September 26, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13201_-_september_26_2024</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; local toolkit to v1.4.3,
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit to v1.4.3,
 which includes a fix for URL redirects in the generated docsite.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7763"&gt;#7763&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.20.2 - September 30, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13202_-_september_30_2024</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released version 1.4.4 of the &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator,
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released version 1.4.4 of the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulator,
 which changes the minimum node version (from v20 to v18) and updates peer
 dependencies for generated web SDKs.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.21.0 - October 07, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13210_-_october_07_2024</link><description>&lt;ul&gt;
@@ -918,11 +918,11 @@ SDK-defined extensions.&lt;/li&gt;
 including an issue where Eventarc functions were not emulated correctly
 after a reload.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for generating Dart SDKs for
-&lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; connectors.&lt;/li&gt;
+&lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; connectors.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Commands now correctly use to the &lt;code dir="ltr" translate="no"&gt;default&lt;/code&gt; alias when there is more
 than one alias.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7624"&gt;#7624&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; emulator to v1.15.0, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; emulator to v1.15.0, which
 includes bug fixes  for &lt;code dir="ltr" translate="no"&gt;insertMany&lt;/code&gt; and improved error handling.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.22.0 - October 08, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13220_-_october_08_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase init apphosting&lt;/code&gt;.
@@ -940,7 +940,7 @@ templates.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the extensions emulator would fail silently if
 started with a fake project without the &lt;code dir="ltr" translate="no"&gt;demo-&lt;/code&gt; prefix.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7779"&gt;#7779&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released &lt;span class="notranslate"&gt;Firebase Data Connect&lt;/span&gt; local toolkit v1.5.1, which adds
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit v1.5.1, which adds
 compatible mode schema migration support to the emulator and fixes an issue
 with the &lt;code dir="ltr" translate="no"&gt;Timestamp&lt;/code&gt; type in Swift codegen.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7837"&gt;#7837&lt;/a&gt;)&lt;/li&gt;
@@ -961,7 +961,7 @@ file.&lt;/li&gt;
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7862"&gt;#7862&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed Next.js issue where PPR routes did not render correctly.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7625"&gt;#7625&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Released the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit v1.6.0, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Released the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit v1.6.0, which
 adds support for &lt;code dir="ltr" translate="no"&gt;upsertMany&lt;/code&gt;, introduces &lt;code dir="ltr" translate="no"&gt;vars&lt;/code&gt; as a shorthand for
 &lt;code dir="ltr" translate="no"&gt;request.variables&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;@auth&lt;/code&gt; expressions, adds new methods to
 &lt;code dir="ltr" translate="no"&gt;GeneratedConnector&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;GeneratedOperation&lt;/code&gt; implementations in Kotlin
@@ -978,7 +978,7 @@ in the beta API.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the Cloud resource location wasn't set during
 &lt;code dir="ltr" translate="no"&gt;firebase init&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.24.2 - November 07, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13242_-_november_07_2024</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit v1.6.1, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit v1.6.1, which
 fixes the &lt;code dir="ltr" translate="no"&gt;OrderDirection&lt;/code&gt; enum with &lt;code dir="ltr" translate="no"&gt;Optional&lt;/code&gt; types in Dart codegen and adds
 &lt;code dir="ltr" translate="no"&gt;@ExperimentalFirebaseDataConnect&lt;/code&gt; annotations in Kotlin codegen to avoid
 compiler warnings.
@@ -986,10 +986,10 @@ compiler warnings.
 &lt;/ul&gt;</description></item><item><title>Version 13.25.0 - November 12, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13250_-_november_12_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed Task Queue Emulator error handling.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7916"&gt;#7916&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed some misleading logs when using the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed some misleading logs when using the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;
 emulator with &lt;code dir="ltr" translate="no"&gt;FIREBASE_DATACONNECT_POSTGRESQL_STRING&lt;/code&gt; set.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7882"&gt;#7882&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.7.0, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v1.7.0, which
 includes support for &lt;code dir="ltr" translate="no"&gt;query&lt;/code&gt; in mutations, &lt;code dir="ltr" translate="no"&gt;@check&lt;/code&gt; for advanced
 authorization, and replaces &lt;code dir="ltr" translate="no"&gt;java.util.Date&lt;/code&gt; with
 &lt;code dir="ltr" translate="no"&gt;com.google.firebase.dataconnect.LocalDate&lt;/code&gt; for &lt;code dir="ltr" translate="no"&gt;Date&lt;/code&gt; scalar fields and
@@ -1008,7 +1008,7 @@ from &lt;code dir="ltr" translate="no"&gt;https://firebase.tools&lt;/code&gt;.
 &lt;code dir="ltr" translate="no"&gt;appdistribution:testers:list&lt;/code&gt; commands.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Aliased &lt;code dir="ltr" translate="no"&gt;appdistribution:group:*&lt;/code&gt; commands to
 &lt;code dir="ltr" translate="no"&gt;appdistribution:groups:*&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; toolkit to v1.7.3, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; toolkit to v1.7.3, which
 includes:
 &lt;ul&gt;
 &lt;li&gt;Added support for custom boolean claims on the auth token to be returned
@@ -1023,9 +1023,9 @@ in expressions.&lt;/li&gt;
 when emulators failed to start.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7974"&gt;#7974&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;--import&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;emulators:export&lt;/code&gt; support to the
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator.&lt;/li&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase.json#emulators.dataconnect.dataDir&lt;/code&gt;. When set,
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; data will be persisted to the configured directory
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; data will be persisted to the configured directory
 between emulator runs.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;span class="notranslate"&gt;Firebase App Hosting&lt;/span&gt; emulator. To get started,
 see
@@ -1052,17 +1052,17 @@ incompatibility on MacOS.
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated &lt;code dir="ltr" translate="no"&gt;emulators.apphosting.startCommandOverride&lt;/code&gt;.
 Instead, use &lt;code dir="ltr" translate="no"&gt;emulators.apphosting.startCommand&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;superstatic&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;9.1.0&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;package.json&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.7.4, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v1.7.4, which
 fixes an issue  that caused duplicate installations of the Firebase JS SDK.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8028"&gt;#8028&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.29.0 - December 12, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13290_-_december_12_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Changed default &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; runtime to &lt;code dir="ltr" translate="no"&gt;nodejs22&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8037"&gt;#8037&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;--import&lt;/code&gt; would error for the
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator if &lt;code dir="ltr" translate="no"&gt;dataDir&lt;/code&gt; was also set.&lt;/li&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator if &lt;code dir="ltr" translate="no"&gt;dataDir&lt;/code&gt; was also set.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt; errored when
 importing a schema with no GQL files.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator where
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator where
 Postgres would not cleanly shut down, causing data corruption.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8044"&gt;#8044&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Callable functions can now be annotated with the &lt;span class="notranslate"&gt;Genkit&lt;/span&gt;
@@ -1075,27 +1075,27 @@ action they are serving.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added validation for project ID and project name during
 &lt;code dir="ltr" translate="no"&gt;firebase init&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/2514"&gt;#2514&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.7.5, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v1.7.5, which
 includes a fix for Kotlin codegen that ensures that generated &lt;code dir="ltr" translate="no"&gt;XxxKeys.kt&lt;/code&gt;
 files include the required &lt;code dir="ltr" translate="no"&gt;@file:UseSerializers(UUIDSerializer::class)&lt;/code&gt;
 annotation.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8058"&gt;#8058&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.29.1 - December 13, 2024</title><link>https://firebase.google.com/support/release-notes/cli#version_13291_-_december_13_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;clearData&lt;/code&gt; with no tables would cause the
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to crash.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator would
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to crash.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator would
 crash with &lt;code dir="ltr" translate="no"&gt;Error: Unreachable&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8062"&gt;#8062&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.29.2 - January 22, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_13292_-_january_22_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;cross-env&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;cross-spawn&lt;/code&gt; dependencies to avoid
 vulnerable versions.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7979"&gt;#7979&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator where
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator where
 &lt;code dir="ltr" translate="no"&gt;dataDir&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;--export&lt;/code&gt; were relative to the current directory instead of
 &lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;init dataconnect&lt;/code&gt; so that it now suggests DNS compatible
 service IDs.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.7.6, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v1.7.6, which
 includes several bug fixes:
 &lt;ul&gt;
 &lt;li&gt;Fixed an issue in generated Dart code when an operation name ends in a
@@ -1104,7 +1104,7 @@ number.&lt;/li&gt;
 &lt;li&gt;Fixed an issue with null literals in &lt;code dir="ltr" translate="no"&gt;any&lt;/code&gt; type fields.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.29.3 - January 30, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_13293_-_january_30_2025</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator issue where prepared
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator issue where prepared
 statements would be persisted after terminated connections.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8133"&gt;#8133&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a warning when deploying a &lt;span class="notranslate"&gt;Genkit&lt;/span&gt; function without a
@@ -1112,7 +1112,7 @@ secret as this is likely not intended by the developer.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8138"&gt;#8138&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;.env.*&lt;/code&gt; files for web frameworks in Windows
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8086"&gt;#8086&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.7.7
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v1.7.7
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8153"&gt;#8153&lt;/a&gt;),
 which includes:
 &lt;ul&gt;
@@ -1132,15 +1132,15 @@ the emulator.
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;span class="notranslate"&gt;Genkit&lt;/span&gt; 1.0.0 template.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8144"&gt;#8144&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.31.0 - February 12, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_13310_-_february_12_2025</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Switched &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; from &lt;code dir="ltr" translate="no"&gt;v1beta&lt;/code&gt; API to &lt;code dir="ltr" translate="no"&gt;v1&lt;/code&gt; API.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added code generation of React hooks for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Switched &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; from &lt;code dir="ltr" translate="no"&gt;v1beta&lt;/code&gt; API to &lt;code dir="ltr" translate="no"&gt;v1&lt;/code&gt; API.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added code generation of React hooks for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added Angular 19 as supported version.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8145"&gt;#8145&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.8.0
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v1.8.0
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8210"&gt;#8210&lt;/a&gt;),
 which includes several changes:
 &lt;ul&gt;
-&lt;li&gt;Added support for the &lt;code dir="ltr" translate="no"&gt;v1&lt;/code&gt; &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; API in the emulator.&lt;/li&gt;
+&lt;li&gt;Added support for the &lt;code dir="ltr" translate="no"&gt;v1&lt;/code&gt; &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; API in the emulator.&lt;/li&gt;
 &lt;li&gt;Added support for generated React SDKs.&lt;/li&gt;
 &lt;li&gt;Fixed &lt;code dir="ltr" translate="no"&gt;@check&lt;/code&gt; to also be evaluated for admin auth.&lt;/li&gt;
 &lt;li&gt;Fixed CEL expressions to be able to access &lt;code dir="ltr" translate="no"&gt;@redact&lt;/code&gt; fields.&lt;/li&gt;
@@ -1160,14 +1160,14 @@ deprecation warnings on Node 22.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.31.1 - February 13, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_13311_-_february_13_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt; would crash on
 React-based web apps.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v.1.8.1, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v.1.8.1, which
 fixed an issue where users who are using a version lower than 11.3.0 of
 &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; get a "missing import" error.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.31.2 - February 20, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_13312_-_february_20_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;--import&lt;/code&gt; path was incorrectly resolved for
-the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator.
+the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8219"&gt;#8219&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.8.2, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v1.8.2, which
 fixes an issue with a missing &lt;code dir="ltr" translate="no"&gt;FirebaseError&lt;/code&gt; import.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8232"&gt;#8232&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.32.0 - February 27, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_13320_-_february_27_2025</link><description>&lt;ul&gt;
@@ -1180,7 +1180,7 @@ environments.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8168"&gt;#8168&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;apps:init&lt;/code&gt; throws an error on app creation.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Reenabled prompts for unused service deletion in &lt;code dir="ltr" translate="no"&gt;deploy --only&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.8.3, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v1.8.3, which
 includes the following changes:
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8263"&gt;#8263&lt;/a&gt;)
 &lt;ul&gt;
@@ -1200,7 +1200,7 @@ when it was run in a directory where &lt;code dir="ltr" translate="no"&gt;app&lt
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed bug where function deployment was skipped for functions in a
 bad state.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8289"&gt;#8289&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.8.4, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v1.8.4, which
 includes the following changes:
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8290"&gt;#8290&lt;/a&gt;)
 &lt;ul&gt;
@@ -1221,7 +1221,7 @@ when all fields are optional.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for getting started with existing projects using
 &lt;code dir="ltr" translate="no"&gt;dataconnect:sql:setup&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8150"&gt;#8150&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.8.5,
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v1.8.5,
 which includes the following changes:
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8310"&gt;#8310&lt;/a&gt;)
 &lt;ul&gt;
@@ -1232,7 +1232,7 @@ functionality.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.35.0 - March 20, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_13350_-_march_20_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for generated Angular SDKs for
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/li&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support in the &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; emulator for loading secret
 env vars.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8305"&gt;#8305&lt;/a&gt;)&lt;/li&gt;
@@ -1251,24 +1251,24 @@ Google Cloud Functions (2nd gen).
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Increased emulator UI body parser limit to match &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;
 emulator maximum.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8329"&gt;#8329&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; setup issues for fresh databases due
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; setup issues for fresh databases due
 to IAM user not being created.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8335"&gt;#8335&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;ext:install&lt;/code&gt; used POSIX file separators on
 Windows machines.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8326"&gt;#8326&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v1.9.2,
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v1.9.2,
 which adds support for generated Angular SDKs and updates Dart SDK fields to
 follow best practices.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8347"&gt;#8347&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where credentials from &lt;code dir="ltr" translate="no"&gt;firebase login&lt;/code&gt; were not
-provided to the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator.&lt;/li&gt;
+provided to the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed misleading comments in the &lt;code dir="ltr" translate="no"&gt;connector.yaml&lt;/code&gt; template for
 &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; SQL permissions to better handle
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; SQL permissions to better handle
 tables owned by IAM roles.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8339"&gt;#8339&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator would
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator would
 crash after some SQL errors.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.0.0 - March 27, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1400_-_march_27_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Removed support for Node.js 18.&lt;/li&gt;
@@ -1285,7 +1285,7 @@ commands. Instead, commands now prompt for primary region as needed.&lt;/li&gt;
 now warn about unsafe connector changes and insecure operations.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Removed the &lt;code dir="ltr" translate="no"&gt;experimental:functions:shell&lt;/code&gt;
 command. Use &lt;code dir="ltr" translate="no"&gt;functions:shell&lt;/code&gt; instead.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.0.0, which
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v2.0.0, which
 contains the following changes:
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8370"&gt;#8370&lt;/a&gt;)
 &lt;ul&gt;
@@ -1316,10 +1316,10 @@ notation or parameterized service accounts.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where &lt;code dir="ltr" translate="no"&gt;appdistribution:testers:list&lt;/code&gt; would error out if
 there were no testers.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where Vertex AI API would not be automatically enabled
-when emulating &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; services that use it.&lt;/li&gt;
+when emulating &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; services that use it.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.0.1 - March 28, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1401_-_march_28_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where the Admin SDK would not automatically connect to the
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator when run in the &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; emulator.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator when run in the &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; emulator.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8379"&gt;#8379&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; deployment failure when service account is null.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8378"&gt;#8378&lt;/a&gt;)&lt;/li&gt;
@@ -1327,13 +1327,13 @@ when emulating &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; service
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Extensions&lt;/span&gt; emulator did not provide
 fallback values for v2 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; event triggers.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8390"&gt;#8390&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with prompt when &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; prompts
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with prompt when &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; prompts
 developer for framework generation.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where the Admin SDK fails with &lt;code dir="ltr" translate="no"&gt;ENOTFOUND&lt;/code&gt; when
-automatically connecting to the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator when run in
+automatically connecting to the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator when run in
 the Functions emulator.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8379"&gt;#8379&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.1.0 which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v2.1.0 which
 includes the following changes:
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8400"&gt;#8400&lt;/a&gt;)
 &lt;ul&gt;
@@ -1350,8 +1350,8 @@ default values would not be substituted into resource definitions.&lt;/li&gt;
 changes.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8419"&gt;#8419&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for creation of paid Cloud SQL instances for
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; when the free trial has already been used.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.2.0, which
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; when the free trial has already been used.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v2.2.0, which
 contains the following changes:
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8434"&gt;#8434&lt;/a&gt;)
 &lt;ul&gt;
@@ -1368,7 +1368,7 @@ types are passed in.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.2.1 - April 23, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1421_-_april_23_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;init genkit&lt;/code&gt; checked the version of &lt;code dir="ltr" translate="no"&gt;genkit&lt;/code&gt;
 instead of &lt;code dir="ltr" translate="no"&gt;genkit-cli&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.3.1, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v2.3.1, which
 contains the following changes:
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8455"&gt;#8455&lt;/a&gt;)
 &lt;ul&gt;
@@ -1384,7 +1384,7 @@ were not dropped if &lt;code dir="ltr" translate="no"&gt;$var&lt;/code&gt; was m
 &lt;code dir="ltr" translate="no"&gt;init dataconnect&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue were the &lt;span class="notranslate"&gt;Local Emulator Suite&lt;/span&gt; would check for
 auth when using &lt;code dir="ltr" translate="no"&gt;demo-&lt;/code&gt; projects.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.4.0, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v2.4.0, which
 adds support for &lt;code dir="ltr" translate="no"&gt;add&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;remove&lt;/code&gt; list update transforms and fixes an issue
 where updating a column to &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt; was ignored.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8484"&gt;#8484&lt;/a&gt;)&lt;/li&gt;
@@ -1396,7 +1396,7 @@ did not work with backends that are not at the project root.
 for non-human users.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Cloud Resource Manager was called without
 checking whether it is enabled on the user's project.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.5.0, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v2.5.0, which
 includes the following changes:
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8419"&gt;#8514&lt;/a&gt;)
 &lt;ul&gt;
@@ -1492,14 +1492,14 @@ as a required field.
 deployments.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8681"&gt;#8681&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Increased timeout for linking CloudSQL instances to
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/li&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;firebase use --add&lt;/code&gt; didn't correctly set the
 active project.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8694"&gt;#8694&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed to correctly support '--database' flag in
 &lt;code dir="ltr" translate="no"&gt;firestore:delete&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/6753"&gt;#6753&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed to always set up &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; SDK when
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed to always set up &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; SDK when
 &lt;code dir="ltr" translate="no"&gt;FDC_CONNECTOR&lt;/code&gt; env var is set.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed &lt;code dir="ltr" translate="no"&gt;firebase init&lt;/code&gt; to use &lt;code dir="ltr" translate="no"&gt;FIREBASE_PROJECT&lt;/code&gt; env var as the
 default project ID.&lt;/li&gt;
@@ -1510,7 +1510,7 @@ default project ID.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added fallback to reading web framework dependencies version
 directly from &lt;code dir="ltr" translate="no"&gt;node_modules&lt;/code&gt; &lt;code dir="ltr" translate="no"&gt;package.json&lt;/code&gt; when the npm timeout is reached.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8702"&gt;#8702&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.6.3, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v2.6.3, which
 includes some cleanup and error message improvements.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8667"&gt;#8667&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.7.0 - June 11, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1470_-_june_11_2025</link><description>&lt;ul&gt;
@@ -1528,7 +1528,7 @@ does not exist.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where the Firebase MCP server couldn't use application
 default credentials (ADC).
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8671"&gt;#8671&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.7.0, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v2.7.0, which
 includes the following changes:
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8743"&gt;#8743&lt;/a&gt;)
 &lt;ul&gt;
@@ -1538,7 +1538,7 @@ when multiple package managers are used in a web project.&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;@table(key)&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.8.0 - June 18, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1480_-_june_18_2025</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to use PGlite 0.3.x and
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to use PGlite 0.3.x and
 Postgres 17, which fixes some crashes related to wire protocol
 inconsistencies.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8679"&gt;#8679&lt;/a&gt;,
@@ -1553,7 +1553,7 @@ educate developers on cost controls.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8772"&gt;#8772&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added caching to API enablement checks to reduce burn of
 &lt;code dir="ltr" translate="no"&gt;serviceusage.googleapis.com&lt;/code&gt; quota.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.7.1, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v2.7.1, which
 includes the following changes
 &lt;ul&gt;
 &lt;li&gt;Kotlin codegen: Added a default value for the &lt;code dir="ltr" translate="no"&gt;block\_&lt;/code&gt; parameter to
@@ -1574,7 +1574,7 @@ Gemini in Firebase API to generate Schema based on description.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added user-friendly warning for runtime errors from the
 Google Cloud Functions API.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8713"&gt;#8713&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to 2.8.0, which adds a
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to 2.8.0, which adds a
 README to generated Kotlin packages and drops support for
 macOS 10.15 (Catalina).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.10.1 - July 09, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14101_-_july_09_2025</link><description>&lt;ul&gt;
@@ -1584,14 +1584,14 @@ deploys.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with &lt;code dir="ltr" translate="no"&gt;ext:configure&lt;/code&gt; where params without default
 values couldn't be set.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8810"&gt;#8810&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v2.9.0, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v2.9.0, which
 includes the following changes:
 &lt;ul&gt;
 &lt;li&gt;Fixed an issue where indexes over 63 characters broke schema migration.&lt;/li&gt;
 &lt;li&gt;Added support for &lt;code dir="ltr" translate="no"&gt;string_pattern&lt;/code&gt; filters, which filter string fields
 using regex or &lt;code dir="ltr" translate="no"&gt;LIKE&lt;/code&gt; semantics.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator wasn't
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator wasn't
 provided application default credentials.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8819"&gt;#8819&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;firebase-tools&lt;/code&gt; couldn't be used within
@@ -1604,7 +1604,7 @@ characters.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8836"&gt;#8836&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;firestore:indexes&lt;/code&gt; wrongly removed the &lt;code dir="ltr" translate="no"&gt;__name__&lt;/code&gt; field.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7629"&gt;#7629&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; Emulator to version 2.10.0, which adds
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; Emulator to version 2.10.0, which adds
 support for full-text search and user-defined enums, and moves SQL/CEL errors to
 the GraphQL debug_details field.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8837"&gt;#8837&lt;/a&gt;)&lt;/li&gt;
@@ -1616,7 +1616,7 @@ and all &lt;code dir="ltr" translate="no"&gt;functions:config&lt;/code&gt; comma
 filtered from index listings, causing duplicate index issues and deployment conflicts.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8859"&gt;#8859&lt;/a&gt;, &lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/7629"&gt;#7629&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add service account and service enablement to &lt;code dir="ltr" translate="no"&gt;firebase init apptesting&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; toolkit to v2.10.1, which includes
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; toolkit to v2.10.1, which includes
 the following changes: (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8884"&gt;#8884&lt;/a&gt;)
 &lt;ul&gt;
 &lt;li&gt;Dart codegen: Issue where list enums weren't properly serialized and deserialized.&lt;/li&gt;
@@ -1635,14 +1635,14 @@ as nullable.&lt;/li&gt;
 incorrectly filtered from index listings.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8859"&gt;#8859&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt; didn't enable the
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; API by default.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; API by default.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8927"&gt;#8927&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase init aitools&lt;/code&gt; to help developers set up
 Firebase tools for AI in their projects
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8949"&gt;#8949&lt;/a&gt; 
 and
 &lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8927"&gt;#8927&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.11.0,
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v2.11.0,
 which includes the following changes
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8948"&gt;#8948&lt;/a&gt;):
 &lt;ul&gt;
@@ -1657,7 +1657,7 @@ v1 functions that only use default Firebase config.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8963"&gt;#8963&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;dataconnect:migrate&lt;/code&gt; would use an invalid
 temporary password when connecting to enterprise plus CloudSQL instances.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v2.11.1, which includes the
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v2.11.1, which includes the
 following changes:
 &lt;ul&gt;
 &lt;li&gt;Added an app watch that collects embedded GQL into the connector folder.&lt;/li&gt;
@@ -1672,7 +1672,7 @@ using &lt;code dir="ltr" translate="no"&gt;firestore:databases:create --edition 
 content for Android and iOS.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for prompts, and added the &lt;code dir="ltr" translate="no"&gt;deploy&lt;/code&gt; prompt.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.13.0 - August 20, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14130_-_august_20_2025</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v2.11.2, which
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v2.11.2, which
 includes the following changes:
 &lt;ul&gt;
 &lt;li&gt;Fixed an issue causing SQL errors when combining aggregates and full-text
@@ -1684,7 +1684,7 @@ broken index comparison logic.
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added prefix support for multi-instance Cloud Functions extension
 parameters.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8911"&gt;#8911&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Made it possible to initialize a &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; project
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Made it possible to initialize a &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; project
 in non-interactive mode.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8993"&gt;#8993&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added two new MCP tools for &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;:
@@ -1715,11 +1715,11 @@ directory for &lt;code dir="ltr" translate="no"&gt;.env&lt;/code&gt; files in &l
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added additional &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; tools for debugging and
 analyzing crashes.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9020"&gt;#9020&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to 2.12, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to 2.12, which
 includes the following changes:
 &lt;ul&gt;
 &lt;li&gt;Added &lt;code dir="ltr" translate="no"&gt;ImpersonateQuery&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;ImpersonateMutation&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;IntrospectGraphql&lt;/code&gt;
-APIs to the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator.&lt;/li&gt;
+APIs to the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator.&lt;/li&gt;
 &lt;li&gt;Added support for Firebase JS SDK v12.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.15.1 - August 28, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14151_-_august_28_2025</link><description>&lt;ul&gt;
@@ -1741,7 +1741,7 @@ the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where &lt;code dir="ltr" translate="no"&gt;firebase dataconnect:sdk:generate --watch&lt;/code&gt;
 swallowed all logs.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9055"&gt;#9055&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Consolidated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; MCP tools into
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Consolidated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; MCP tools into
 &lt;code dir="ltr" translate="no"&gt;dataconnect_info&lt;/code&gt; tool to surface information of local workspace and
 backend resources.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9056"&gt;#9056&lt;/a&gt;)&lt;/li&gt;
@@ -1764,16 +1764,16 @@ outside of the expected output directory.&lt;/li&gt;
 provisioning.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9095"&gt;#9095&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for MCP &lt;code dir="ltr" translate="no"&gt;firebase_init&lt;/code&gt; tool to download an
-existing &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; service returned from
+existing &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; service returned from
 &lt;code dir="ltr" translate="no"&gt;dataconnect_list_services&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9091"&gt;#9091&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v2.13.0,
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v2.13.0,
 which adds validation that checks that &lt;code dir="ltr" translate="no"&gt;_insert&lt;/code&gt; data includes all non-null
 columns without defaults.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9106"&gt;#9106&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase_login&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;firebase_logout&lt;/code&gt; MCP tools.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.17.0 - September 17, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14170_-_september_17_2025</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Changed the default region for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; to
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Changed the default region for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; to
 &lt;code dir="ltr" translate="no"&gt;us-east4&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9126"&gt;#9126&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.18.0 - September 30, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14180_-_september_30_2025</link><description>&lt;ul&gt;
@@ -1796,7 +1796,7 @@ accepting Gemini in Firebase Terms of Service.&lt;/li&gt;
 React app when launched from the VS Code extension.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9171"&gt;#9171&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;seed_data.gql&lt;/code&gt; to the initial movie template for
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9232"&gt;#9232&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support to &lt;code dir="ltr" translate="no"&gt;firebase dataconnect:sql:migrate&lt;/code&gt; for CloudSQL
 instances with only private IPs. The command must be run in the same VPC of
@@ -1811,7 +1811,7 @@ with 403 errors on projects that never had a database created.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where deploying multiple &lt;span class="notranslate"&gt;Hosting&lt;/span&gt; sites with
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; could encounter a race condition.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9235"&gt;#9235&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local dev toolkit to 2.14.0,
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local dev toolkit to 2.14.0,
 which includes the following changes:
 &lt;ul&gt;
 &lt;li&gt;Fixed a bug where &lt;code dir="ltr" translate="no"&gt;@default(value)&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;@default(expr)&lt;/code&gt; is not validated
@@ -1848,7 +1848,7 @@ for app idea description.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9282"&gt;#9282&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;dataconnect:execute&lt;/code&gt; command to run queries and mutations.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9274"&gt;#9274&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v2.15.0, which changes
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v2.15.0, which changes
 Dart SDKs to use &lt;code dir="ltr" translate="no"&gt;Object.hashAll()&lt;/code&gt; in generated objects.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9291"&gt;#9291&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.21.0 - October 22, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14210_-_october_22_2025</link><description>&lt;ul&gt;
@@ -1864,17 +1864,17 @@ Dart SDKs to use &lt;code dir="ltr" translate="no"&gt;Object.hashAll()&lt;/code&
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Tightened &lt;code dir="ltr" translate="no"&gt;--only&lt;/code&gt; filter resolution for functions deployment to
 prefer codebase names.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9353"&gt;#9353&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator would
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator would
 attempt to export data when &lt;code dir="ltr" translate="no"&gt;FIREBASE_DATACONNECT_POSTGRESQL_STRING&lt;/code&gt; is set.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9330"&gt;#9330&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;functions.disallowLegacyRuntimeConfig&lt;/code&gt; option to
 &lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt; to optionally skip fetching legacy Runtime Config during function
 deploys.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9354"&gt;#9354&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.15.1 of the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.15.1 of the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator, which
 includes internal improvements.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9366"&gt;#9366&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; Dart SDK's default import path to
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; Dart SDK's default import path to
 import 'dataconnect_generated/generated.dart'.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9365"&gt;#9365&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.22.0 - October 23, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14220_-_october_23_2025</link><description>&lt;ul&gt;
@@ -1903,27 +1903,27 @@ directory and set up &lt;span class="notranslate"&gt;Hosting&lt;/span&gt; files.
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;appdistribution:testcases:export&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;appdistribution:testcases:import&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9397"&gt;#9397&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.16.0 of the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.16.0 of the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator, which
 includes internal improvements.
 &lt;ul&gt;
-&lt;li&gt;&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; now allows executing a valid query / operation even if
+&lt;li&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; now allows executing a valid query / operation even if
 the other operations are invalid. (This toleration provides convenience on a
 best-effort basis. Some errors like invalid syntax can still cause the whole
 request to be rejected.)&lt;/li&gt;
-&lt;li&gt;Fixed enum list deserialization in &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; generated Dart
+&lt;li&gt;Fixed enum list deserialization in &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; generated Dart
 SDKs.&lt;/li&gt;
-&lt;li&gt;Added GraphQL &lt;code dir="ltr" translate="no"&gt;__typename&lt;/code&gt; support in &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/li&gt;
-&lt;li&gt;Support enum values in &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; CEL expressions.&lt;/li&gt;
-&lt;li&gt;Support &lt;code dir="ltr" translate="no"&gt;_id&lt;/code&gt;, a global ID field in &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Added GraphQL &lt;code dir="ltr" translate="no"&gt;__typename&lt;/code&gt; support in &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Support enum values in &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; CEL expressions.&lt;/li&gt;
+&lt;li&gt;Support &lt;code dir="ltr" translate="no"&gt;_id&lt;/code&gt;, a global ID field in &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v0.8.17 of the Pub/Sub emulator, which includes
 vulnerability fixes.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.24.0 - November 05, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14240_-_november_05_2025</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added 2nd gen &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; triggers to &lt;code dir="ltr" translate="no"&gt;firebase deploy&lt;/code&gt;.
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added 2nd gen &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; triggers to &lt;code dir="ltr" translate="no"&gt;firebase deploy&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9394"&gt;#9394&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upgraded &lt;code dir="ltr" translate="no"&gt;@google-cloud/pubsub&lt;/code&gt; to v5.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9428"&gt;#9428&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.17.0 of the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.17.0 of the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator, which
 includes internal improvements and now supports Generated Admin SDKs.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9430"&gt;#9430&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.24.1 - November 07, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14241_-_november_07_2025</link><description>&lt;ul&gt;
@@ -1938,7 +1938,7 @@ includes internal improvements and now supports Generated Admin SDKs.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9455"&gt;#9455&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for new google-genai plugin during &lt;code dir="ltr" translate="no"&gt;init genkit&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8957"&gt;#8957&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.17.1 of the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.17.1 of the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator, which
 fixes an admin SDK bug for operation without argument
 &lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9449"&gt;#9449&lt;/a&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9454"&gt;#9454&lt;/a&gt;)&lt;/li&gt;
@@ -1954,7 +1954,7 @@ run from directories with deeply nested children.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;code dir="ltr" translate="no"&gt;firebase init functions&lt;/code&gt; template to use
 &lt;code dir="ltr" translate="no"&gt;firebase-functions&lt;/code&gt; 7.0.0.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9496"&gt;#9496&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.17.2 of the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v2.17.2 of the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator, which
 fixes a bug with handling of optional enum lists in generated Flutter SDKs.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9391"&gt;#9391&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 14.27.0 - December 03, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_14270_-_december_03_2025</link><description>&lt;ul&gt;
@@ -1966,7 +1966,7 @@ Cloud Functions (2nd gen) with Cloud Scheduler's attempt deadline.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9544"&gt;#9544&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Prevented deployments of Next.js apps vulnerable to CVE-2025-66478.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9572"&gt;#9572&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v2.17.3:
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v2.17.3:
 &lt;ul&gt;
 &lt;li&gt;Fixed Swift codegen: Include FirebaseCore import in the connector keys file.&lt;/li&gt;
 &lt;li&gt;Fixed a bug where debug details of Internal errors were not shown.
@@ -1982,7 +1982,7 @@ Cloud Functions (2nd gen) with Cloud Scheduler's attempt deadline.
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Updated &lt;code dir="ltr" translate="no"&gt;dataconnect:*&lt;/code&gt; commands to use flags instead of positional arguments for &lt;code dir="ltr" translate="no"&gt;--service&lt;/code&gt; &amp;amp; &lt;code dir="ltr" translate="no"&gt;--location&lt;/code&gt;, and changed output type of &lt;code dir="ltr" translate="no"&gt;dataconnect:sql:migrate --json&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9312"&gt;#9312&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; When using 'firebase-tools' as a Node module, &lt;code dir="ltr" translate="no"&gt;cli.auth.upload&lt;/code&gt; has been renamed to &lt;code dir="ltr" translate="no"&gt;cli.auth.import&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;cli.appdistribution.testers.delete&lt;/code&gt; has been renamed to &lt;code dir="ltr" translate="no"&gt;cli.appdistribution.testers.remove&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v3.0.0:
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v3.0.0:
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Breaking change:&lt;/strong&gt; Fixed generated code character case when letters follow numbers (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9567"&gt;#9567&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Breaking change:&lt;/strong&gt; Dart codegen: Int64 types are now serialized and deserialized using BigInt.&lt;/li&gt;
@@ -1994,8 +1994,8 @@ Cloud Functions (2nd gen) with Cloud Scheduler's attempt deadline.
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Improved command loading performance by implementing lazy loading.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a confirmation in &lt;code dir="ltr" translate="no"&gt;firebase init dataconnect&lt;/code&gt; before asking for app idea description. (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9282"&gt;#9282&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 15.1.0 - December 18, 2025</title><link>https://firebase.google.com/support/release-notes/cli#version_1510_-_december_18_2025</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated default Postgres version for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; to 17.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; Emulator to v3.0.1, which addresses some internal errors. (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9627"&gt;#9627&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated default Postgres version for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; to 17.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; Emulator to v3.0.1, which addresses some internal errors. (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9627"&gt;#9627&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 15.3.0 - January 14, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1530_-_january_14_2026</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed pricing calculation for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; deployed to newer
 regions (&lt;code dir="ltr" translate="no"&gt;africa-south1&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;europe-west8&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;me-west1&lt;/code&gt;, and others) when using
@@ -2010,7 +2010,7 @@ issues.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9725"&gt;#9725&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;/firestore:generate_rules&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;/storage:generate_rules&lt;/code&gt;
 MCP prompts.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; Emulator to v3.0.2, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; Emulator to v3.0.2, which
 addresses some internal errors.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9738"&gt;#9738&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 15.3.1 - January 15, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1531_-_january_15_2026</link><description>&lt;ul&gt;
@@ -2018,22 +2018,22 @@ addresses some internal errors.
 &lt;code dir="ltr" translate="no"&gt;/firestore:generate_security_rules&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;/storage:generate_rules&lt;/code&gt; to
 &lt;code dir="ltr" translate="no"&gt;/storage:generate_security_rules&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 15.4.0 - January 22, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1540_-_january_22_2026</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator would stop
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator would stop
 responding when using PGlite.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9756"&gt;#9756&lt;/a&gt;,
 &lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9771"&gt;#9771&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v3.1.0 of the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator, which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated to v3.1.0 of the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator, which
 adds support for using &lt;code dir="ltr" translate="no"&gt;distinct: true&lt;/code&gt; in combination with &lt;code dir="ltr" translate="no"&gt;orderBy&lt;/code&gt;, and
 other internal improvements.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9778"&gt;#9778&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 15.5.0 - January 29, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1550_-_january_29_2026</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase dataconnect:compile&lt;/code&gt; command to compile
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; schemas and connectors.&lt;/li&gt;
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; schemas and connectors.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;firestoreDataAccessMode&lt;/code&gt;,
 &lt;code dir="ltr" translate="no"&gt;mongodbCompatibleDataAccessMode&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;realtimeUpdatesMode&lt;/code&gt; flags for
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Database creation.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9817"&gt;#9817&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v3.1.1 which
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v3.1.1 which
 includes fixes and internal improvements.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9835"&gt;#9835&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; &lt;span class="notranslate"&gt;Security Rules&lt;/span&gt; would be overwritten
@@ -2076,7 +2076,7 @@ Docker image.
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator multi-tenant mode only
 exported or imported users tied to the default tenant.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/5623"&gt;#5623&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v3.1.3. Changes include:&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v3.1.3. Changes include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Enabled native SQL feature.&lt;/li&gt;
 &lt;li&gt;Improved insecure operation warning messages and reduced severity of
@@ -2089,7 +2089,7 @@ existing insecure operation warnings to &lt;code dir="ltr" translate="no"&gt;LOG
 &lt;/ul&gt;</description></item><item><title>Version 15.7.0 - February 20, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_1570_-_february_20_2026</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated Python Functions template to use
 &lt;code dir="ltr" translate="no"&gt;firebase_functions&lt;/code&gt; v0.5.x.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v3.1.4.
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v3.1.4.
 Changes include:
 &lt;ul&gt;
 &lt;li&gt;Added support for &lt;code dir="ltr" translate="no"&gt;@searchable&lt;/code&gt; on &lt;code dir="ltr" translate="no"&gt;varchar&lt;/code&gt; fields.&lt;/li&gt;
@@ -2105,7 +2105,7 @@ code.&lt;/li&gt;
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9918"&gt;#9918&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated suite of MCP tools for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; to include many new
 tools. &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; tools no longer support emulator mode.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v3.2.0.
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v3.2.0.
 Changes include:
 &lt;ul&gt;
 &lt;li&gt;Added support for &lt;code dir="ltr" translate="no"&gt;uuidV7()&lt;/code&gt;.&lt;/li&gt;
@@ -2122,9 +2122,9 @@ March 2026 to March 2027.
 &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; fails to deploy, and returns an error.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8866"&gt;#8866&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firestore_query_collection&lt;/code&gt; tool back to the MCP server.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for custom resolvers in &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for custom resolvers in &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9967"&gt;#9967&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v3.2.1.
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v3.2.1.
 Changes include:
 &lt;ul&gt;
 &lt;li&gt;Resolved metadata pathing issue for &lt;code dir="ltr" translate="no"&gt;@redact&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;@check&lt;/code&gt; directives.
@@ -2135,7 +2135,7 @@ Changes include:
 Next.js deployments.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9871"&gt;#9871&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Enabled free trials without a payment method for
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10042"&gt;#10042&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 15.10.0 - March 12, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15100_-_march_12_2026</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for VPC direct connect in Cloud Functions (2nd gen).
@@ -2143,7 +2143,7 @@ Next.js deployments.
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;--only&lt;/code&gt; flag for &lt;code dir="ltr" translate="no"&gt;emulators:export&lt;/code&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/4033"&gt;#4033&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for custom PostgreSQL schema names in
-&lt;span class="notranslate"&gt;Data Connect&lt;/span&gt;.
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9271"&gt;#9271&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added improved support for SSR web apps. With this release, when
 SSR web app features are detected in the &lt;code dir="ltr" translate="no"&gt;firebase init hosting&lt;/code&gt; flow, the
@@ -2164,7 +2164,7 @@ creation. This allows choosing between &lt;code dir="ltr" translate="no"&gt;FIRE
 minor bug fixes for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Native Mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;apptesting:execute&lt;/code&gt; command to run App Testing agent tests
 from YAML files.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v3.3.0.
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v3.3.0.
 Changes include:
 &lt;ul&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase dataconnect:sdk:generate&lt;/code&gt; now performs compilation check first
@@ -2181,7 +2181,7 @@ removes support for macOS versions prior to Monterey.&lt;/li&gt;
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/9982"&gt;#9982&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a prompt to &lt;code dir="ltr" translate="no"&gt;firebase init&lt;/code&gt; to install Agent Skills for
 Firebase.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; local toolkit to v3.3.1.
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v3.3.1.
 Changes include:
 &lt;ul&gt;
 &lt;li&gt;Added support for configuring client-side caching in &lt;code dir="ltr" translate="no"&gt;connector.yaml&lt;/code&gt; /
@@ -2192,7 +2192,7 @@ Changes include:
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added validation to check if &lt;code dir="ltr" translate="no"&gt;backendId&lt;/code&gt; exists in &lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt;
 when &lt;code dir="ltr" translate="no"&gt;--only&lt;/code&gt; flag is used.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10161"&gt;#10161&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated default Postgres version for &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; to 18.
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated default Postgres version for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; to 18.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10234"&gt;#10234&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated TypeScript version to v6 in templates for functions and
 extensions.
@@ -2213,7 +2213,7 @@ arguments on PowerShell.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10271"&gt;#10271&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed Next.js image optimization detection in client components.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10228"&gt;#10228&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Data Connect&lt;/span&gt; emulator to v3.4.1.
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v3.4.1.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10290"&gt;#10290&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded Go runtime to 1.25.9.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused Angular SDK generation to fail.&lt;/li&gt;
