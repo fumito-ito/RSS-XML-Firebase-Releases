@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 07 May 2026 19:39:02 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 07 May 2026 21:54:21 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2234,4 +2234,29 @@ arguments on PowerShell.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Suppressed SSR warning for non-SSR Angular projects on &lt;code dir="ltr" translate="no"&gt;init hosting&lt;/code&gt;. (&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10364"&gt;#10364&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v3.4.6, including internal bug fixes. (&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10434"&gt;#10434&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where deploying multi-codebase functions failed due to a shared source token scraper. (&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10428"&gt;#10428&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.17.0 - May 07, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15170_-_may_07_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for creating search indexes for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10431"&gt;#10431&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where some MCP tools would error with
+&lt;code dir="ltr" translate="no"&gt;Invalid input: expected record, received array&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10437"&gt;#10437&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue causing errors when multiple &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; databases
+were configured in &lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8114"&gt;#8114&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v3.4.7.
+Changes include:
+&lt;ul&gt;
+&lt;li&gt;Fixed emulator crash when using &lt;code dir="ltr" translate="no"&gt;uuidv4()&lt;/code&gt; on operations.&lt;/li&gt;
+&lt;li&gt;Added support for &lt;code dir="ltr" translate="no"&gt;_Data&lt;/code&gt; input types as variables with
+&lt;code dir="ltr" translate="no"&gt;@allow(fields, maxCount)&lt;/code&gt; to constraint the input JSON, enabling batch
+mutations in the Firebase Admin SDK.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10461"&gt;#10461&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Increased supported range for Next.js to version 16.0.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/9463"&gt;#9463&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; default resource locations. This does
+not affect existing functions.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10414"&gt;#10414&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added warning for cross-region event triggers.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10408"&gt;#10408&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
