@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-node</title><link>https://firebase.google.com/support/release-notes/admin/node</link><description>Latest updates and release notes for Firebase Admin-node.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 14 May 2026 19:41:04 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_400_-_november_7_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-node</title><link>https://firebase.google.com/support/release-notes/admin/node</link><description>Latest updates and release notes for Firebase Admin-node.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 14 May 2026 22:06:38 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_400_-_november_7_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Admin Node.js SDK (available on npm as &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt;) is a
 new SDK which replaces and expands the admin capabilities of the standard
 &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; npm module. See
@@ -749,7 +749,7 @@ specified email address.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;@firebase/database&lt;/code&gt; dependency to version 0.10.0. This
 makes the &lt;code dir="ltr" translate="no"&gt;startAfter&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;endBefore&lt;/code&gt; query filters available for Admin SDK
 users.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase App Check" id="firebase-app-check_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase App Check" id="firebase-app-check_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added Firebase abuse reduction support APIs.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.9.0 - 26 May, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_990_-_26_may_2021</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The Admin SDK now requires Node.js 10.13.0 or higher.&lt;/li&gt;
@@ -773,7 +773,7 @@ applications.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;admin.instanceId()&lt;/code&gt; API is now deprecated and
 the developers are advised to migrate to the &lt;code dir="ltr" translate="no"&gt;admin.installations()&lt;/code&gt; API for
 deleting Firebase instance IDs and installation IDs.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.11.0 - 15 July, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_9110_-_15_july_2021</link><description>&lt;h3 data-text="Firebase App Check" id="firebase-app-check_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.11.0 - 15 July, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_9110_-_15_july_2021</link><description>&lt;h3 data-text="Firebase App Check" id="firebase-app-check_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;createToken()&lt;/code&gt; API now supports configuring the &lt;code dir="ltr" translate="no"&gt;TTL&lt;/code&gt; of the
 returned Firebase App Check token.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.11.1 - 19 August, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_9111_-_19_august_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -817,7 +817,7 @@ GitHub &lt;a class="external" href="//github.com/advisories/GHSA-gf8q-jrpm-jvxq"
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;@google-cloud/firestore&lt;/code&gt; dependency to v4.15.1.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;@google-cloud/storage&lt;/code&gt; dependency to v5.18.3.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.2.0 - 05 May, 2022</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1020_-_05_may_2022</link><description>&lt;h3 data-text="Firebase App Check" id="firebase-app-check_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.2.0 - 05 May, 2022</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1020_-_05_may_2022</link><description>&lt;h3 data-text="Firebase App Check" id="firebase-app-check_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt; APIs to use the &lt;code dir="ltr" translate="no"&gt;v1&lt;/code&gt; service
 endpoint instead of the &lt;code dir="ltr" translate="no"&gt;v1beta&lt;/code&gt; endpoint.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -898,7 +898,7 @@ their response classes. These methods are removed in the next major version.&lt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;sendEach()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendEachForMulticast()&lt;/code&gt; APIs.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;sendAll()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendMulticast()&lt;/code&gt; APIs are now deprecated.
 Use &lt;code dir="ltr" translate="no"&gt;sendEach()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendEachForMulticast()&lt;/code&gt; APIs instead.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.8.0 - 04 May, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1180_-_04_may_2023</link><description>&lt;h3 data-text="Firebase App Check" id="firebase-app-check_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.8.0 - 04 May, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1180_-_04_may_2023</link><description>&lt;h3 data-text="Firebase App Check" id="firebase-app-check_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added replay protection feature in the App Check &lt;code dir="ltr" translate="no"&gt;verifyToken()&lt;/code&gt;
 API.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.9.0 - 30 May, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1190_-_30_may_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -987,7 +987,7 @@ variable.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;sendToTopic()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendToCondition()&lt;/code&gt; APIs are now deprecated.
 To &lt;a href="https://firebase.google.com/docs/cloud-messaging/send-topic-messages#sending-to-a-topic"&gt;send messages to topics and conditions&lt;/a&gt; use the &lt;code dir="ltr" translate="no"&gt;send()&lt;/code&gt; API instead.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 12.5.0 - 12 September, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1250_-_12_september_2024</link><description>&lt;h3 data-text="Firebase App Check" id="firebase-app-check" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.5.0 - 12 September, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1250_-_12_september_2024</link><description>&lt;h3 data-text="Firebase App Check" id="firebase-app-check_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;httpAgent&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;JwksFetcher&lt;/code&gt;. Thanks
 &lt;a href="https://github.com/hermanho"&gt;hermanho&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-node/pull/2689"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
@@ -1111,7 +1111,7 @@ next major version.&lt;/p&gt;&lt;/li&gt;
 &lt;span class="notranslate"&gt;Firebase Phone Number Verification&lt;/span&gt; tokens.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;bandwidthConstrainedOk&lt;/code&gt; and
-&lt;code dir="ltr" translate="no"&gt;restrictedSatelliteOk&lt;/code&gt; fields in FCM &lt;code dir="ltr" translate="no"&gt;AndroidConfig&lt;/code&gt;.&lt;/li&gt;
+&lt;code dir="ltr" translate="no"&gt;restrictedSatelliteOk&lt;/code&gt; fields in &lt;code dir="ltr" translate="no"&gt;AndroidConfig&lt;/code&gt; type.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.9.0 - 7 May 2026</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1390_-_7_may_2026</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated support for Node.js 20. Instead use Node.js 22 or
 higher when deploying the Admin SDK. Both Node.js 18 and Node.js 20 support
@@ -1119,4 +1119,14 @@ will be dropped in the next major version.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added optional &lt;code dir="ltr" translate="no"&gt;exposurePercent&lt;/code&gt; field to &lt;code dir="ltr" translate="no"&gt;ExperimentValue&lt;/code&gt; type
 to set the percentage of users exposed to an experiment.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.10.0 - 14 May 2026</title><link>https://firebase.google.com/support/release-notes/admin/node#version_13100_-_14_may_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Replaced &lt;code dir="ltr" translate="no"&gt;node-forge&lt;/code&gt; dependency with the built-in Node.js crypto
+module for private key validation. Thanks
+&lt;a href="https://github.com/ido-seraphic"&gt;ido-seraphic&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-node/pull/3051"&gt;contribution&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed &lt;code dir="ltr" translate="no"&gt;uuid&lt;/code&gt; dependency and replaced its usage with the built-in
+Node.js crypto module.
+Thanks &lt;a href="https://github.com/gameroman"&gt;gameroman&lt;/a&gt; for the &lt;a href="https://github.com/firebase/firebase-admin-node/pull/3130"&gt;contribution&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase App Check" id="firebase-app-check" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for minting limited-use tokens and custom JTI.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

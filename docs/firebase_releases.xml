@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 14 May 2026 19:40:56 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 14 May 2026 22:06:30 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6894,7 +6894,15 @@ several products.&lt;/li&gt;
 (v13.7.0)&lt;/a&gt; is now available.
 This release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; and miscellaneous
 changes.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate></item><item><title>May 14, 2026</title><link>https://firebase.google.com/support/releases#may_14_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate></item><item><title>May 14, 2026</title><link>https://firebase.google.com/support/releases#may_14_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-grounding-google-maps" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now supports
+&lt;a href="/docs/ai-logic/grounding-google-maps"&gt;Grounding with &lt;span class="notranslate"&gt;&lt;nobr&gt;Google Maps&lt;/nobr&gt;&lt;/span&gt;&lt;/a&gt;. With
+this integration, you can connect &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; models to geospatial data
+from &lt;span class="notranslate"&gt;&lt;nobr&gt;Google Maps&lt;/nobr&gt;&lt;/span&gt; to build location-aware features in your apps. Grounding
+your responses reduces model hallucinations, provides access to up-to-date,
+real-time business details (such as operating hours), and enables you to
+provide visual context to build user trust.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v4-14-0"&gt;Firebase SDK for Flutter
 (v4.14.0)&lt;/a&gt; is now available.
 This release includes changes in Core, and bug fixes in Core.&lt;/p&gt;&lt;/li&gt;
@@ -6903,4 +6911,21 @@ This release includes changes in Core, and bug fixes in Core.&lt;/p&gt;&lt;/li&g
 release includes new features in Firebase AI, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, and
 &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;; changes to Firebase AI; bug fixes in Firebase AI and
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;; and other changes and fixes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.10.0"&gt;Firebase Admin Node.js SDK (v13.10.0)&lt;/a&gt;
+is now available. This release comes with new features in
+&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;.
+To install this SDK, see
+&lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/java#9.9.0"&gt;Firebase Admin Java SDK (v9.9.0)&lt;/a&gt;
+is now available. This release comes with a new &lt;span class="notranslate"&gt;Firebase Phone Number Verification&lt;/span&gt; API and new
+features in the &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; API.
+It also includes improvements in &lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;.
+To install this SDK, see
+&lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/go#4.20.0"&gt;Firebase Admin Go SDK (v4.20.0)&lt;/a&gt;
+is now available. The Admin SDK for Go now requires Go 1.25 or higher.
+This release comes with a new &lt;span class="notranslate"&gt;Firebase Phone Number Verification&lt;/span&gt; API and new
+features in the &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; API.
+To install this SDK, see
+&lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate></item></channel></rss>
