@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 14 May 2026 22:06:42 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 15 May 2026 02:46:20 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2259,4 +2259,25 @@ not affect existing functions.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10414"&gt;#10414&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added warning for cross-region event triggers.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10408"&gt;#10408&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.18.0 - May 13, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15180_-_may_13_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated Pub/Sub emulator to version 0.8.31.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed when undefined regions resolve, which now happens during the
+build to backend resolution phase.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10471"&gt;#10471&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v3.4.8.
+Changes include:
+&lt;ul&gt;
+&lt;li&gt;Fixed an issue in Dart code generation where nullable BigInt was not handled
+correctly.&lt;/li&gt;
+&lt;li&gt;Added support for nested 1:Many relational batch inserts.&lt;/li&gt;
+&lt;li&gt;Updated the Golang dependency version to 1.25.10.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed the default timeout for Dart functions to be 60 seconds
+when not explicitly set.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10501"&gt;#10501&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for secret environment variables for Cloud Run
+functions.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10489"&gt;#10489&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Set requiredProjectBindings in AI Logic services.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10503"&gt;#10503&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

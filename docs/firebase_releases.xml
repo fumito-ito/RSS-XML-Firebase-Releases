@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 14 May 2026 22:06:30 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 15 May 2026 02:46:08 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6894,7 +6894,13 @@ several products.&lt;/li&gt;
 (v13.7.0)&lt;/a&gt; is now available.
 This release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; and miscellaneous
 changes.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate></item><item><title>May 14, 2026</title><link>https://firebase.google.com/support/releases#may_14_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-grounding-google-maps" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate></item><item><title>May 13, 2026</title><link>https://firebase.google.com/support/releases#may_13_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.18.0)" id="cli-v15.18.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.18.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.18.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.18.0)&lt;/a&gt; is now
+available. This version updates the Pub/Sub emulator, resolves
+undefined regions earlier during build, and updates the
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate></item><item><title>May 14, 2026</title><link>https://firebase.google.com/support/releases#may_14_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-grounding-google-maps" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now supports
 &lt;a href="/docs/ai-logic/grounding-google-maps"&gt;Grounding with &lt;span class="notranslate"&gt;&lt;nobr&gt;Google Maps&lt;/nobr&gt;&lt;/span&gt;&lt;/a&gt;. With
 this integration, you can connect &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; models to geospatial data
