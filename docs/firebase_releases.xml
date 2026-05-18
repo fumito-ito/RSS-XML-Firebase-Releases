@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 18 May 2026 06:53:42 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 18 May 2026 12:25:26 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -131,7 +131,7 @@ This release includes changes to &lt;span class="notranslate"&gt;AdMob&lt;/span&
 original set of key capabilities, we've added &lt;a href="/docs/app-distribution/add-remove-testers?platform=android"&gt;simplified group access&lt;/a&gt;,
 &lt;a href="/docs/app-distribution/troubleshooting?platform=ios#builds-expire-ios"&gt;release auto deletion&lt;/a&gt;,
 and &lt;a href="/docs/app-distribution/add-remove-testers"&gt;bulk tester management&lt;/a&gt;
-to the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console and our &lt;a href="/docs/reference/app-distribution/rest"&gt;public API&lt;/a&gt;.
+to the Firebase console and our &lt;a href="/docs/reference/app-distribution/rest"&gt;public API&lt;/a&gt;.
 To help you find the information you need, we reorganized
 &lt;a href="/docs/app-distribution"&gt;documentation&lt;/a&gt; to support your user journeys. And
 to ensure that your testers are testing
@@ -189,7 +189,7 @@ has been updated to v30.0.1. Learn how to
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now drag and drop your dSYM files directly into the
 &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; dashboard. Visit the
 &lt;a class="external" href="https://console.firebase.google.com/project/_/crashlytics"&gt;&lt;em&gt;dSYMs&lt;/em&gt; tab&lt;/a&gt; 
-in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console to learn more and try it out.&lt;/li&gt;
+in the Firebase console to learn more and try it out.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate></item><item><title>May 18, 2022</title><link>https://firebase.google.com/support/releases#may_18_2022</link><description>&lt;h3 data-text="Firebase CLI v11.0.0" id="cli_v11-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI v11.0.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking:&lt;/strong&gt; Drops support for running the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI on
 Node.js 12.&lt;/p&gt;&lt;/li&gt;
@@ -235,7 +235,7 @@ is now available. For more details, see the
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate></item><item><title>May 26, 2022</title><link>https://firebase.google.com/support/releases#may_26_2022</link><description>&lt;h3 data-text="Performance Monitoring" id="perfmon-default-percentile-updates" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; has changed default percentiles in the
-&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console to align with &lt;a class="external" href="https://support.google.com/googleplay/android-developer/answer/9844486#zippy=%2Cstart-up-time-time-to-initial-%20%20%20%20%20display%2Cexcessive-slow-frames%2Cexcessive-frozen-frames"&gt;Android&lt;/a&gt;,
+Firebase console to align with &lt;a class="external" href="https://support.google.com/googleplay/android-developer/answer/9844486#zippy=%2Cstart-up-time-time-to-initial-%20%20%20%20%20display%2Cexcessive-slow-frames%2Cexcessive-frozen-frames"&gt;Android&lt;/a&gt;,
 &lt;a class="external" href="https://developer.apple.com/documentation/xcode/reducing-your-app-s-launch-time"&gt;Apple&lt;/a&gt;,
 and &lt;a class="external" href="https://web.dev/vitals/#core-web-vitals"&gt;Web&lt;/a&gt; standards.
 Default percentiles are now 90th for Android and Apple, and 75th for Web apps.
@@ -353,8 +353,8 @@ has been updated to v30.2.0. Learn how to
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#9.8.4"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate></item><item><title>June 27, 2022</title><link>https://firebase.google.com/support/releases#june_27_2022</link><description>&lt;h3 data-text="Firebase console" id="console-dynamic-sidebar-shortcuts" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now focus your &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console experience by
+&lt;/ul&gt;</description><pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate></item><item><title>June 27, 2022</title><link>https://firebase.google.com/support/releases#june_27_2022</link><description>&lt;h3 data-text="Firebase console" id="console-dynamic-sidebar-shortcuts" tabindex="-1"&gt;Firebase console&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now focus your Firebase console experience by
 customizing your navigation. The console auto-creates shortcuts at the top of
 the sidebar to help you quickly find the products that you use most. Access a
 walk-through of these dynamic features by clicking &lt;strong&gt;Learn more&lt;/strong&gt; at the
@@ -497,7 +497,7 @@ you can configure a &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; p
 total amount spent instead of the number of times a user spends virtual
 currency.&lt;/p&gt;
 &lt;p&gt;For more information, see
-&lt;a href="/docs/remote-config/personalization/get-started#2_configure_parameter_personalization_in_the"&gt;Configure parameter personalization in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;a href="/docs/remote-config/personalization/get-started#2_configure_parameter_personalization_in_the"&gt;Configure parameter personalization in the Firebase console&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="perfmon-alerts-project-home" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; replaced the &lt;strong&gt;Top Issues&lt;/strong&gt; field with
 &lt;strong&gt;Recent alerts&lt;/strong&gt; in the Performance card on Project home. This is a
@@ -541,7 +541,7 @@ that run on faster hosts. These new emulators are estimated to perform most
 tasks three to six times faster, and they support GPU-heavy tasks in hardware,
 like user interface rendering, up to 100 times faster.&lt;/p&gt;
 &lt;p&gt;Look for the beta release of &lt;code dir="ltr" translate="no"&gt;SmallPhone.arm&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;MediumPhone.arm&lt;/code&gt;, and
-&lt;code dir="ltr" translate="no"&gt;Pixel2.arm&lt;/code&gt; in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console. To learn more,
+&lt;code dir="ltr" translate="no"&gt;Pixel2.arm&lt;/code&gt; in the Firebase console. To learn more,
 see &lt;a href="/docs/test-lab/android/avds"&gt;Start testing with Android Virtual Devices&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate></item><item><title>August 18, 2022</title><link>https://firebase.google.com/support/releases#august_18_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_321" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
@@ -558,7 +558,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;/ul&gt;</description><pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate></item><item><title>August 24, 2022</title><link>https://firebase.google.com/support/releases#august_24_2022</link><description>&lt;h3 data-text="Remote Config" id="remote-config-download-upload-templates" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now download and publish &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; templates
 directly from the
-&lt;a href="https://console.firebase.google.com/project/_/config"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="https://console.firebase.google.com/project/_/config"&gt;Firebase console&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Download &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; templates to integrate them into your source
 control and build systems, synchronize parameters and values across
 multiple projects, and efficiently promote tested configs through each
@@ -638,7 +638,7 @@ is now available. For more details, see the
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 15 Sep 2022 00:00:00 +0000</pubDate></item><item><title>September 19, 2022</title><link>https://firebase.google.com/support/releases#september_19_2022</link><description>&lt;h3 data-text="Test Lab" id="testlab-device-capacity-console" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now view device capacity information on the
-&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; device selection page in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console. This feature
+&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; device selection page in the Firebase console. This feature
 can inform your test decisions by letting you view the inventory level of
 device types in the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; catalog. To learn more, see device capacity
 documentation for &lt;a href="/docs/test-lab/android/available-testing-devices#device-capacity"&gt;Android&lt;/a&gt;
@@ -656,7 +656,7 @@ can now be notified via
 via &lt;a href="/docs/crashlytics/alerts-basic-integrations"&gt;Slack, Jira, or PagerDuty&lt;/a&gt;
 To configure how you receive this alert, visit your
 &lt;a class="external" href="https://firebase.google.com/project/_/settings/integrations"&gt;project integrations settings&lt;/a&gt; 
-in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console.&lt;/li&gt;
+in the Firebase console.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate></item><item><title>September 22, 2022</title><link>https://firebase.google.com/support/releases#september_22_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_312" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#9.6.0"&gt;Firebase SDK for C++
 (v9.6.0)&lt;/a&gt; is now available.
@@ -734,7 +734,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;/ul&gt;</description><pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate></item><item><title>October 13, 2022</title><link>https://firebase.google.com/support/releases#october_13_2022</link><description>&lt;h3 data-text="Test Lab" id="test-lab-pixel-7-device-support" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has added the recently released Google Pixel 7 and
 Pixel 7 Pro to the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; device catalog! To test your apps on these
-new devices, go to the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; page on the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console and
+new devices, go to the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; page on the Firebase console and
 select the Google Pixel 7 or the Pixel 7 Pro. To learn more, see
 &lt;a href="/docs/test-lab/android/available-testing-devices"&gt;Available devices in &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_306" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -761,7 +761,7 @@ the alert information to a third-party service, like Discord, Slack, or Jira.&lt
 &lt;a href="/docs/crashlytics/alerts-basic-integrations"&gt;console-configured integrations with Slack, Jira, and PagerDuty&lt;/a&gt;
 with this advanced alerting mechanism you can fully customize the
 information sent to the third-party service. For example, you can include
-custom fields, helpful deep-links into the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console, or add
+custom fields, helpful deep-links into the Firebase console, or add
 company-specific troubleshooting information.&lt;/p&gt;
 &lt;p&gt;To learn more about advanced alerts, see
 &lt;a href="/docs/crashlytics/alerts#advanced"&gt;Set up advanced alerting to third-party services&lt;/a&gt;,
@@ -1156,9 +1156,9 @@ Want to request a new device? See
 &lt;a href="/docs/test-lab/android/available-testing-devices#request-device"&gt;Requesting a device in &lt;span class="notranslate"&gt;Firebase Test Lab&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate></item><item><title>January 31, 2023</title><link>https://firebase.google.com/support/releases#january_31_2023</link><description>&lt;h3 data-text="Remote Config" id="remote-config-random-percentage" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now target a range of users when configuring a &lt;strong&gt;User in
-random percentage&lt;/strong&gt; condition. From the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console condition
+random percentage&lt;/strong&gt; condition. From the Firebase console condition
 dialog, use the slider to set a range between 0 and 100. When publishing a
-&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; using the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console or the REST API, you can use
+&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; using the Firebase console or the REST API, you can use
 the &lt;code dir="ltr" translate="no"&gt;between&lt;/code&gt; operator. For more information, see
 &lt;a href="/docs/remote-config/parameters#random_percentage"&gt;Condition rule types&lt;/a&gt;
 and
@@ -1244,20 +1244,20 @@ release includes miscellaneous changes.&lt;/p&gt;&lt;/li&gt;
 is available. This release includes Trusted Types support in web apps.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-test-matrix-label" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; To help you identify and locate your tests in the
-&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console, &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; now lets you assign a custom label to your
-test matrices using the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console and Google Cloud CLI. To learn how
+Firebase console, &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; now lets you assign a custom label to your
+test matrices using the Firebase console and Google Cloud CLI. To learn how
 to label your test matrices, see Get started with &lt;span class="notranslate"&gt;Firebase Test Lab&lt;/span&gt; from
-the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console for &lt;a href="/docs/test-lab/android/firebase-console"&gt;Android&lt;/a&gt;
+the Firebase console for &lt;a href="/docs/test-lab/android/firebase-console"&gt;Android&lt;/a&gt;
 and &lt;a href="/docs/test-lab/ios/firebase-console"&gt;Apple&lt;/a&gt;, and Start testing with the
 gcloud CLI for &lt;a href="/docs/test-lab/android/command-line"&gt;Android&lt;/a&gt; and
 &lt;a href="/docs/test-lab/ios/command-line"&gt;Apple&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate></item><item><title>February 23, 2023</title><link>https://firebase.google.com/support/releases#february_23_2023</link><description>&lt;h3 data-text="Remote Config" id="remote-config-detailed-publish-dialog" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now review the changes you make to &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
-parameters in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console before you publish. When you click
+parameters in the Firebase console before you publish. When you click
 &lt;strong&gt;Publish changes&lt;/strong&gt;, you'll see a list of all updated conditions,
 parameters, and groups, as well as their corresponding state change
 (created, deleted, modified). To learn more about creating and editing
-parameters from the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console, see
+parameters from the Firebase console, see
 &lt;a href="https://support.google.com/firebase/answer/6386651#add_a_condition&amp;amp;zippy=%2Cin-this-article"&gt;Set up a &lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt; project&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate></item><item><title>February 28, 2023</title><link>https://firebase.google.com/support/releases#february_28_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_275" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
@@ -1530,7 +1530,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; requires that the
 &lt;code dir="ltr" translate="no"&gt;firebasedatabase.googleapis.com&lt;/code&gt; service (Firebase Realtime Database API)
 be enabled for provisioning new databases. The
-&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; setup flow in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console has been updated to prompt
+&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; setup flow in the Firebase console has been updated to prompt
 for explicit permission to enable the API in certain use cases.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate></item><item><title>April 25, 2023</title><link>https://firebase.google.com/support/releases#april_25_2023</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics-improved-event-grouping-into-issues-variants" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; We've further improved the way &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; groups events to
@@ -2087,12 +2087,12 @@ be removed on 2023-9-25: iphone14pro/16.5. If you currently
 use this device, please move to iphone14pro/16.6.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config-template-deletion" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now delete &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; templates directly from
-&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console. For more information, see
+Firebase console. For more information, see
 &lt;a href="/docs/remote-config/templates#delete_template"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; Templates and Versioning&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="stability-indicator" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; now indicates devices that have reported higher rates
 of inconclusive test results for prolonged period with the &lt;strong&gt;Reduced Stability&lt;/strong&gt;
-label in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console and the Google Cloud CLI. This indicator can
+label in the Firebase console and the Google Cloud CLI. This indicator can
 help you choose which test devices are right for your testing use case.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate></item><item><title>August 30, 2023</title><link>https://firebase.google.com/support/releases#august_30_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_226" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; A new release of the
@@ -2256,7 +2256,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="test-lab-pixel-8-device-support" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has added the Google Pixel 8 and
 Pixel 8 Pro to the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; device catalog! To test your apps on these
-new devices, go to the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; page on the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console and
+new devices, go to the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; page on the Firebase console and
 select the Google Pixel 8 or the Pixel 8 Pro. To learn more, see
 &lt;a href="/docs/test-lab/android/available-testing-devices"&gt;Available devices in &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate></item><item><title>October 17, 2023</title><link>https://firebase.google.com/support/releases#october_17_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-arm-devices" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2483,7 +2483,7 @@ is now available. For more details, see the
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.
 This version is available via Swift Package Manager only.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate></item><item><title>December 15, 2023</title><link>https://firebase.google.com/support/releases#december_15_2023</link><description>&lt;h3 data-text="Cloud Firestore" id="firestore-query-builder-sum-average" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; In the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console, the Query Builder for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; now supports
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; In the Firebase console, the Query Builder for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; now supports
 assembly and execution of &lt;a href="/docs/firestore/query-data/aggregation-queries"&gt;&lt;code dir="ltr" translate="no"&gt;sum()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;avg()&lt;/code&gt; queries&lt;/a&gt;.
 Having all supported aggregations in the console expands your ability
 to perform useful ad hoc queries.&lt;/li&gt;
@@ -2681,7 +2681,7 @@ Wasm as a build target.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate></item><item><title>February 21, 2024</title><link>https://firebase.google.com/support/releases#february_21_2024</link><description>&lt;h3 data-text="Crashlytics" id="release-monitoring-dashboard-beta-launch" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The
 &lt;a class="external" href="https://console.firebase.google.com/project/_/releasemonitoring/"&gt;&lt;i&gt;Release Monitoring&lt;/i&gt; dashboard&lt;/a&gt; 
-is now available (beta). This is a single dashboard in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console
+is now available (beta). This is a single dashboard in the Firebase console
 that's powered by &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, and it allows you to monitor the most
 recent production release of your mobile app. The dashboard updates in near
 real time and gives you a high-level view of the most important release
@@ -2905,7 +2905,7 @@ Authentication context.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 5, 2024</title><link>https://firebase.google.com/support/releases#april_5_2024</link><description>&lt;h3 data-text="Cloud Firestore" id="firestore-console-management-multidb" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console to create and delete named
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now use the Firebase console to create and delete named
 databases in your projects that support multiple databases. See our guide on
 &lt;a href="https://firebase.google.com/docs/firestore/manage-databases"&gt;managing multiple databases&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.7.1)" id="cli-v13.7.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.7.1)&lt;/h3&gt;&lt;ul&gt;
@@ -2915,7 +2915,7 @@ is now available.
 This version fixes an issue with runtime detection in the functions emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 08, 2024</title><link>https://firebase.google.com/support/releases#april_08_2024</link><description>&lt;h3 data-text="Firebase console" id="console-gemini-in-firebase" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 08, 2024</title><link>https://firebase.google.com/support/releases#april_08_2024</link><description>&lt;h3 data-text="Firebase console" id="console-gemini-in-firebase" tabindex="-1"&gt;Firebase console&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; is now in public preview.
 Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; is an AI-powered collaborative assistant that
 accelerates Firebase app development by answering questions about Firebase,
@@ -2995,7 +2995,7 @@ well as other changes.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now use &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; rollouts to gradually and safely launch new
 features and monitor success using &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Google Analytics&lt;/span&gt;. Rollouts are now available in the
-&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console and are supported in the Firebase Android BoM v32.6.0+
+Firebase console and are supported in the Firebase Android BoM v32.6.0+
 and Firebase Apple SDK v10.24.0+. Learn more at
 &lt;a href="/docs/remote-config/rollouts"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; rollouts&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-remove-device-ipad5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3137,7 +3137,7 @@ apps. Using the power of the latest Gemini models, you can add AI
 personalization to your app, build an AI chat experience, create
 AI-powered optimizations and automation, and much more! Learn more in the
 &lt;a href="/docs/ai-logic"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt; documentation&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase console" id="console-gemini-in-firebase-ga" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase console" id="console-gemini-in-firebase-ga" tabindex="-1"&gt;Firebase console&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; is now generally available.
 Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; is an AI-powered collaborative assistant that
 accelerates Firebase app development by answering questions about
@@ -3764,9 +3764,9 @@ is now available.
 This version includes support for extensions SDKs.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 23, 2024</title><link>https://firebase.google.com/support/releases#september_23_2024</link><description>&lt;h3 data-text="Firebase console" id="password-policy-ui" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 23, 2024</title><link>https://firebase.google.com/support/releases#september_23_2024</link><description>&lt;h3 data-text="Firebase console" id="password-policy-ui" tabindex="-1"&gt;Firebase console&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now configure your projects' &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; password
-policy using the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console. To do so, open the &lt;strong&gt;Password policy&lt;/strong&gt;
+policy using the Firebase console. To do so, open the &lt;strong&gt;Password policy&lt;/strong&gt;
 tab on the &lt;a href="https://console.firebase.google.com/project/_/authentication/settings"&gt;Authentication Settings&lt;/a&gt;
 page.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate></item><item><title>September 25, 2024</title><link>https://firebase.google.com/support/releases#september_25_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.20.0)" id="cli-v13.20.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.20.0)&lt;/h3&gt;&lt;ul&gt;
@@ -3794,7 +3794,7 @@ to 60 days starting October 30, 2024. To retain your data after 60 days,
 enable export to BigQuery to save your data. For more details on enabling
 BigQuery, see
 &lt;a href="/docs/perf-mon/bigquery-export"&gt;Export Performance Monitoring data to BigQuery&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase console" id="gemini-in-firebase-code-assist" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase console" id="gemini-in-firebase-code-assist" tabindex="-1"&gt;Firebase console&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; is now included with
 &lt;span class="notranslate"&gt;Gemini Code Assist&lt;/span&gt;. Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; is a
 contextually-aware AI-powered collaborative assistant that accelerates
@@ -3870,7 +3870,7 @@ To install this SDK, see
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#10.14.1"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 14, 2024</title><link>https://firebase.google.com/support/releases#october_14_2024</link><description>&lt;h3 data-text="Firebase console" id="gemini-in-firebase-messaging-insights" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 14, 2024</title><link>https://firebase.google.com/support/releases#october_14_2024</link><description>&lt;h3 data-text="Firebase console" id="gemini-in-firebase-messaging-insights" tabindex="-1"&gt;Firebase console&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; now provides messaging campaign
 summarization and analysis for &lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt; and
 &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; campaigns. Learn more at
@@ -4061,7 +4061,7 @@ now decommissioned and will return 404 errors:&lt;/p&gt;
 resource in a project.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate></item><item><title>October 31, 2024</title><link>https://firebase.google.com/support/releases#october_31_2024</link><description>&lt;h3 data-text="SQL Connect" id="dataconnect-gemini-in-firebase" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; now provides AI assistance for
-&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; queries and mutations in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console. Use
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; queries and mutations in the Firebase console. Use
 natural language to describe the query or mutation you want to generate and
 Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; will provide you with the query or mutation you
 describe. Learn more at &lt;a href="/docs/data-connect/ai-assistance"&gt;Use AI assistance for queries and
@@ -4240,7 +4240,7 @@ This release includes dependency updates only.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate></item><item><title>December 12, 2024</title><link>https://firebase.google.com/support/releases#december_12_2024</link><description>&lt;h3 data-text="Genkit" id="genkit-monitoring-public-preview" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Genkit&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The public preview of AI monitoring for &lt;span class="notranslate"&gt;Genkit&lt;/span&gt; is now
 available. If your deployed app uses &lt;span class="notranslate"&gt;Genkit&lt;/span&gt; for Node.js, you can
-now monitor and debug your generative AI features in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console
+now monitor and debug your generative AI features in the Firebase console
 via the &lt;span class="notranslate"&gt;Genkit&lt;/span&gt; page. Learn more about the
 &lt;a href="https://genkit.dev/docs/observability/getting-started/"&gt;monitoring features for &lt;span class="notranslate"&gt;Genkit&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_115" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4731,7 +4731,7 @@ frameworks.&lt;/p&gt;
 &lt;p&gt;With the GA release of &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;, you can now:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Migrate your domain with zero downtime for your app&lt;/li&gt;
-&lt;li&gt;Monitor requests, logs, and usage in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/li&gt;
+&lt;li&gt;Monitor requests, logs, and usage in the Firebase console&lt;/li&gt;
 &lt;li&gt;Instantly roll back to a previous version of your app&lt;/li&gt;
 &lt;li&gt;Iterate rapidly with the local emulator&lt;/li&gt;
 &lt;li&gt;Connect your app to a VPC network, to access backend services that aren't
@@ -4780,7 +4780,7 @@ following Firebase products and features:&lt;/p&gt;
 You can use agentic development experiences, directly in your workspace
 using Gemini in Firebase. Learn more at
 &lt;a href="/docs/studio/ai-assistance"&gt;AI assistance in &lt;span class="notranslate"&gt;Firebase Studio&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; schema generation in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;br/&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; schema generation in the Firebase console&lt;br/&gt;
 You can use natural language to describe your app's data model and
 Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; will provide you with a schema that matches the data
 model. Learn more at
@@ -4891,9 +4891,9 @@ server-side SDK integrations for web applications. You can fetch and evaluate
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; templates on your server. You can also optimize initial page
 load performance in server-side rendering scenarios. Learn more at &lt;a href="/docs/remote-config/server-side-rendering-web-apps"&gt;Use Remote Config for server-side rendering in web applications&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate></item><item><title>May 02, 2025</title><link>https://firebase.google.com/support/releases#may_02_2025</link><description>&lt;h3 data-text="Gemini in Firebase" id="gif-personalization" tabindex="-1"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console now uses
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; in the Firebase console now uses
 &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; 2.5.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console now personalizes
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; in the Firebase console now personalizes
 your experience by leveraging data across Firebase products that you're
 already using. This gives &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; a deeper understanding of your
 specific project and development needs to deliver more contextually-relevant
@@ -5065,14 +5065,14 @@ cloud-hosted model when needed.&lt;/p&gt;&lt;/li&gt;
 Documentation and samples are coming soon for this feature!&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now monitor your requests to &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; models
 when you're using the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;.
-&lt;a href="/docs/ai-logic/monitoring#ai-monitoring-in-console"&gt;&lt;strong&gt;AI monitoring in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/strong&gt;&lt;/a&gt;
+&lt;a href="/docs/ai-logic/monitoring#ai-monitoring-in-console"&gt;&lt;strong&gt;AI monitoring in the Firebase console&lt;/strong&gt;&lt;/a&gt;
 helps you observe various app-level metrics and usage to gain comprehensive
 visibility into your requests from the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDKs.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-remove-xcode-15.3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following Xcode has been removed: Xcode 15.3.
 If you have not already done so, migrate to Xcode 16.2.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate></item><item><title>May 21, 2025</title><link>https://firebase.google.com/support/releases#may_21_2025</link><description>&lt;h3 data-text="Firebase" id="android-device-streaming-ga" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Android Device Streaming, powered by &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console, is now
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Android Device Streaming, powered by Firebase console, is now
 generally available (GA). Android Device Streaming lets you interact with and
 test your apps across a diverse set of real physical devices and form factors
 in Google's secure data centers within Android Studio. Learn more at &lt;a href="https://developer.android.com/studio/run/android-device-streaming"&gt;Android
@@ -5479,7 +5479,7 @@ where you can stream both input and output – both text and audio.&lt;/p&gt;
 &lt;p&gt;Support for the &lt;span class="notranslate"&gt;Live API&lt;/span&gt; via &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; is in
 Public Preview and should not be used in production apps.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now provides
-&lt;a href="/docs/ai-logic/monitoring#ai-monitoring-in-console"&gt;AI monitoring in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;
+&lt;a href="/docs/ai-logic/monitoring#ai-monitoring-in-console"&gt;AI monitoring in the Firebase console&lt;/a&gt;
 &lt;em&gt;when using the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; as your API provider&lt;/em&gt;. (You could
 previously only use it for the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;.)&lt;/p&gt;
 &lt;p&gt;AI monitoring helps you understand metrics, like requests, latency, errors,
@@ -5703,7 +5703,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="ai-logic-ai-monitoring-imagen" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now provides the following new features for
-&lt;a href="/docs/ai-logic/monitoring#ai-monitoring-in-console"&gt;AI monitoring in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;:&lt;/p&gt;
+&lt;a href="/docs/ai-logic/monitoring#ai-monitoring-in-console"&gt;AI monitoring in the Firebase console&lt;/a&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Monitoring for when you use &lt;span class='\"notranslate\"'&gt;Imagen&lt;/span&gt; models, giving you powerful
 insights into your app's image generation workflows.&lt;/li&gt;
@@ -5803,7 +5803,7 @@ quotas.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Using
 &lt;a href="/docs/ai-logic/generate-images-imagen"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; with &lt;span class='\"notranslate\"'&gt;Imagen&lt;/span&gt; models to &lt;em&gt;generate&lt;/em&gt; images&lt;/a&gt;
 from text prompts.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="/docs/ai-logic/monitoring#ai-monitoring-in-console"&gt;AI monitoring in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;,
+&lt;li&gt;&lt;p&gt;&lt;a href="/docs/ai-logic/monitoring#ai-monitoring-in-console"&gt;AI monitoring in the Firebase console&lt;/a&gt;,
 which helps you understand metrics, like requests, latency, errors,
 and token usage to gain comprehensive visibility into your requests.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -5894,7 +5894,7 @@ several products.&lt;/li&gt;
 along with your &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; data. This enables more advanced
 session-based analysis and queries.
 &lt;a class="external" href="https://console.firebase.google.com/project/_/settings/integrations/bigquery"&gt;Set up export to &lt;span class="notranslate"&gt;BigQuery&lt;/span&gt;&lt;/a&gt; 
-in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console.&lt;/li&gt;
+in the Firebase console.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Gemini API" id="gemini-preview-exp-models-retiring-nov-2025" tabindex="-1"&gt;Gemini API&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following preview and experimental &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; models
 will be shut down soon. These dates are applicable to both the
@@ -6265,7 +6265,7 @@ available. This version includes minor tweaks to the security rules MCP prompts.
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate></item><item><title>January 16, 2026</title><link>https://firebase.google.com/support/releases#january_16_2026</link><description>&lt;h3 data-text="Cloud Shell" id="cloud-shell-console-launch" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Shell&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Cloud Shell&lt;/span&gt; is now available in the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console.
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Cloud Shell&lt;/span&gt; is now available in the Firebase console.
 &lt;span class="notranslate"&gt;Cloud Shell&lt;/span&gt; is an interactive, browser-based terminal environment that
 gives you access to the Firebase CLI and other command-line tools without
 needing to install them on your local machine.&lt;/li&gt;
@@ -6291,7 +6291,7 @@ This release includes miscellaneous changes and fixes.&lt;/p&gt;&lt;/li&gt;
 model is allowed to think before returning a response, and it's helpful if
 reducing latency or cost is a priority.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution" id="ata-cache-actions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console App Testing agent, uses the power of AI to
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The Firebase console App Testing agent, uses the power of AI to
 create and run tests based on natural language prompts that you provide. The
 agent will now cache and replay actions from previously successful test runs
 in future test runs to improve test repeatability. For more information, see
