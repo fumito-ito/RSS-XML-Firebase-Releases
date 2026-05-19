@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 19 May 2026 11:58:45 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 19 May 2026 15:34:59 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -8045,4 +8045,64 @@ task when processing unsupported native libraries.
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring version 22.0.5" id="performance_v22-0-5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; version 22.0.5&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - May 07, 2026</title><link>https://firebase.google.com/support/release-notes/android#2026-05-07</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 34.13.0" id="bom_v34-13-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 34.13.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 17.12.0" id="ai_v17-12-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.12.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;ImageConfig&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;finishMessage&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8020"&gt;#8020&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a Java-friendly wrapper for &lt;code dir="ltr" translate="no"&gt;TemplateChat&lt;/code&gt; interactions
+(&lt;code dir="ltr" translate="no"&gt;TemplateChatFutures&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Java usage of &lt;code dir="ltr" translate="no"&gt;Chat&lt;/code&gt; interactions using
+server prompt templates.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8065"&gt;#8065&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for grounding with Google Maps.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7950"&gt;#7950&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;turnComplete&lt;/code&gt; argument to multiple &lt;code dir="ltr" translate="no"&gt;LiveSession.send()&lt;/code&gt;
+methods.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8014"&gt;#8014&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;LiveGenerativeModel.connect()&lt;/code&gt; not attaching the
+&lt;code dir="ltr" translate="no"&gt;X-Firebase-AppCheck&lt;/code&gt; header, which was causing Gemini Live API requests to be
+rejected when &lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt; is enforced for &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8060"&gt;#8060&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for model selection, required for nano-v4.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8043"&gt;#8043&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication version 24.1.0" id="auth_v24-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; version 24.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed overly broad ProGuard keep rules that caused low
+optimization rates.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 26.3.0" id="firestore_v26-3-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 26.3.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added search stage support for &lt;code dir="ltr" translate="no"&gt;languageCode&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;offset&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;limit&lt;/code&gt;,
+and &lt;code dir="ltr" translate="no"&gt;retrievalDepth&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Pipeline expressions &lt;code dir="ltr" translate="no"&gt;arraySlice&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;arraySliceToEnd&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;arrayFilter&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;arrayTransform&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;arrayTransformWithIndex&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/7989"&gt;#7989&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging version 25.0.2" id="messaging_v25-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 25.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed ANR in &lt;code dir="ltr" translate="no"&gt;SharedPreferencesQueue&lt;/code&gt; by reducing lock contention.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging Direct Boot version 25.0.2" id="messaging-directboot_v25-0-2" tabindex="-1"&gt;Cloud Messaging Direct Boot version 25.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep messaging SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics version 20.0.6" id="crashlytics_v20-0-6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 20.0.6&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed race condition that caused logs from background threads to not
+be attached to reports in some cases.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8034"&gt;#8034&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-sessions&lt;/code&gt; dependency to v3.0.6&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics NDK version 20.0.6" id="crashlytics-ndk_v20-0-6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 20.0.6&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase-crashlytics&lt;/code&gt; dependency to 20.0.6&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase PNV version 16.1.0" id="firebase-pnv_v16-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt; version 16.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initialization of the &lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt; SDK now returns singletons.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Passing the &lt;code dir="ltr" translate="no"&gt;Activity&lt;/code&gt; context directly to the
+&lt;code dir="ltr" translate="no"&gt;getVerifiedPhoneNumber&lt;/code&gt; method is now required. The old initialization
+methods have been deprecated.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Modified the visibility on the error class.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config version 23.1.0" id="remote-config_v23-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; version 23.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the triggering for realtime &lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt; so
+that the update of values is triggered when a parameter's experiment or
+variant assignment changes, ensuring more accurate A/B test analytics and
+consistent user experiences.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8002"&gt;#8002&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 17.2.2" id="data-connect_v17-2-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 17.2.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal refactor for calculating debug logging strings.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8024"&gt;#8024&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal refactor to use more descriptive variable names.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8025"&gt;#8025&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal refactor to use token objects instead of strings.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8027"&gt;#8027&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
