@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 19 May 2026 15:34:56 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 19 May 2026 19:47:54 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6053,7 +6053,7 @@ This release includes changes in &lt;span class="notranslate"&gt;Realtime Databa
 &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;, and bug fixes in &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 18, 2025</title><link>https://firebase.google.com/support/releases#november_18_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3-pro-preview-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the &lt;span class='\"notranslate\"'&gt;Gemini 3 Pro&lt;/span&gt; (preview)
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the &lt;span class='\"notranslate\"'&gt;Gemini 3 Pro Preview&lt;/span&gt; (preview)
 model. You can
 &lt;a href="/docs/ai-logic/get-started"&gt;directly access the model in your mobile or web app&lt;/a&gt;
 via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; or the
@@ -6952,4 +6952,22 @@ To get started with Firebase in Android, see
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now supports
 &lt;a href="/docs/ai-logic/generate-images-gemini#configure-image-generation"&gt;specifying aspect ratio and resolution of output images&lt;/a&gt;
 when using image-generating &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; models ("Nano Banana" models).&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate></item><item><title>May 19, 2026</title><link>https://firebase.google.com/support/releases#may_19_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3-5-flash-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; stable
+model: &lt;code dir="ltr" translate="no"&gt;gemini-3.5-flash&lt;/code&gt;. You can
+&lt;a href="/docs/ai-logic/get-started"&gt;directly access this model in your mobile or web app&lt;/a&gt;
+via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; or the
+&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If you're using the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt;, accessing this model does
+&lt;em&gt;not&lt;/em&gt; require the pay-as-you-go Blaze pricing plan. If you access the model via the
+&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, make sure to
+&lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
+&lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For &lt;span class='\"notranslate\"'&gt;Gemini 3.x&lt;/span&gt; and later models, it's recommended to &lt;em&gt;not&lt;/em&gt; set
+temperature, Top-K, or Top-P (instead configure
+&lt;a href="/docs/ai-logic/thinking#control-thinking-amount"&gt;thinking levels&lt;/a&gt;,
+if needed). Note that with this stable model's release, the thinking level
+default for &lt;span class='\"notranslate\"'&gt;Gemini 3.x Flash&lt;/span&gt; changed from &lt;code dir="ltr" translate="no"&gt;HIGH&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;MEDIUM&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate></item></channel></rss>
