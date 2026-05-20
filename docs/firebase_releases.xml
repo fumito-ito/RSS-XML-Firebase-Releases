@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 20 May 2026 06:45:28 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 20 May 2026 11:46:35 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6964,10 +6964,20 @@ via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/sp
 &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, make sure to
 &lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
 &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;For &lt;span class='\"notranslate\"'&gt;Gemini 3.x&lt;/span&gt; and later models, it's recommended to &lt;em&gt;not&lt;/em&gt; set
-temperature, Top-K, or Top-P (instead configure
-&lt;a href="/docs/ai-logic/thinking#control-thinking-amount"&gt;thinking levels&lt;/a&gt;,
-if needed). Note that with this stable model's release, the thinking level
-default for &lt;span class='\"notranslate\"'&gt;Gemini 3.x Flash&lt;/span&gt; changed from &lt;code dir="ltr" translate="no"&gt;HIGH&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;MEDIUM&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you're migrating from the preview version of this model:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Update model name: &lt;code dir="ltr" translate="no"&gt;gemini-3-flash-preview&lt;/code&gt; → &lt;code dir="ltr" translate="no"&gt;gemini-3.5-flash&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Review pricing. &lt;span class='\"notranslate\"'&gt;Gemini 3.5 Flash&lt;/span&gt; is more expensive than
+&lt;span class='\"notranslate\"'&gt;Gemini 3 Flash Preview&lt;/span&gt;. See pricing information:
+&lt;a class="external" href="https://ai.google.dev/gemini-api/docs/pricing"&gt;&lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt;&lt;/a&gt; |
+&lt;a class="external" href="https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"&gt;&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Test your prompts. Default thinking level changed from
+&lt;code dir="ltr" translate="no"&gt;HIGH&lt;/code&gt; → &lt;code dir="ltr" translate="no"&gt;MEDIUM&lt;/code&gt;; verify quality, speed, and cost.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Remove &lt;code dir="ltr" translate="no"&gt;temperature&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;topP&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;topK&lt;/code&gt; from your config.&lt;br/&gt;
+Note that these parameters are no longer recommended for any of the
+&lt;span class='\"notranslate\"'&gt;Gemini 3.x&lt;/span&gt; and later models. For more deterministic responses,
+define system instructions with explicit rules for your specific use
+case.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate></item></channel></rss>
