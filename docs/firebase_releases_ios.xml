@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 29 May 2026 12:11:45 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_128" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 29 May 2026 18:09:58 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_128" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -3288,7 +3288,7 @@ changes are required to your app to upgrade to GoogleDataTransport 9 unless you 
 GoogleDataTransport APIs directly.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_57" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated &lt;code dir="ltr" translate="no"&gt;setScreenName(_:screenClass:)&lt;/code&gt; API.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_19" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Firebase App Check SDK. See the &lt;a href="/docs/app-check/ios"&gt;getting started guide&lt;/a&gt; for instructions on how to use this SDK (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7928"&gt;#7928&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7937"&gt;#7937&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7948"&gt;#7948&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_45" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash that occurred when assigning auth settings (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7670"&gt;#7670&lt;/a&gt;).&lt;/li&gt;
@@ -3329,7 +3329,7 @@ FirebaseDatabaseSwift-Beta product for Swift Package Manager.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed "Invalid Exclude" warnings for Swift Package Manager using Xcode 13 beta 1.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="A/B Testing" id="ab-testing_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an analyzer issue introduced in Xcode 12.5 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8209"&gt;#8209&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_18" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Apple's App Attest attestation provider support (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8133"&gt;#8133&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Token auto-refresh optimizations (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8232"&gt;#8232&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_44" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3357,7 +3357,7 @@ path will now result in a more readable error (&lt;a href="//github.com/firebase
 &lt;/ul&gt;</description></item><item><title>Version 8.3.0 - July 8, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_830_-_july_8_2021</link><description>&lt;h3 data-text="Analytics" id="analytics_55" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support needed for &lt;a href="//support.google.com/analytics/answer/10085872#zippy=%2Cin-this-article"&gt;event modification and creation&lt;/a&gt;, allowing developers to remotely modify and/or create events and parameters from existing events.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_17" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added token API for 3P use (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8266"&gt;#8266&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution" id="app_distribution_4" tabindex="-1"&gt;App Distribution&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; App Distribution now signs out the tester when the call to fetch releases fails with an unauthorized error (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8270"&gt;#8270&lt;/a&gt;).&lt;/li&gt;
@@ -3367,7 +3367,7 @@ path will now result in a more readable error (&lt;a href="//github.com/firebase
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed usage of a deprecated GTMSessionFetcher method (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8294"&gt;#8294&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.3.1 - July 12, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_831_-_july_12_2021</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Swift Package Manager only release to fix an 8.3.0 tagging issue impacting some users (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8367"&gt;#8367&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.4.0 - July 20, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_840_-_july_20_2021</link><description>&lt;h3 data-text="App Check" id="app_check_16" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.4.0 - July 20, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_840_-_july_20_2021</link><description>&lt;h3 data-text="App Check" id="app-check_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed build issues introduced in Xcode 13 beta 3 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8401"&gt;#8401&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Bump Promises dependency (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8365"&gt;#8365&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3382,7 +3382,7 @@ path will now result in a more readable error (&lt;a href="//github.com/firebase
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed build issues introduced in Xcode 13 beta 3 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8401"&gt;#8401&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Installations" id="installations_2" tabindex="-1"&gt;Installations&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Bump Promises dependency (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8365"&gt;#8365&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.5.0 - August 03, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_850_-_august_03_2021</link><description>&lt;h3 data-text="App Check" id="app_check_15" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.5.0 - August 03, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_850_-_august_03_2021</link><description>&lt;h3 data-text="App Check" id="app-check_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; App Check SDK available for all supported platforms/OS versions, but App Attest and
 DeviceCheck providers availability changed to match underlying platform API availability (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8388"&gt;#8388&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_43" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3405,7 +3405,7 @@ http (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8389"&gt;#8389&l
 details via Xcode completion and at the
 &lt;a href="https://github.com/firebase/firebase-ios-sdk/blob/96d60a6d472b6fed1651d5e7a0e7495230c220ec/FirebaseStorageSwift/Sources/AsyncAwait.swift"&gt;source&lt;/a&gt;.
 Feedback appreciated about Firebase and &lt;code dir="ltr" translate="no"&gt;async/await&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8289"&gt;#8289&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.6.0 - August 17, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_860_-_august_17_2021</link><description>&lt;h3 data-text="App Check" id="app_check_14" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.6.0 - August 17, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_860_-_august_17_2021</link><description>&lt;h3 data-text="App Check" id="app-check_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Documented unsupported platforms (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8493"&gt;#8493&lt;/a&gt;). App Check is available on all Apple platforms except watchOS.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Annotated platform-level availability using &lt;code dir="ltr" translate="no"&gt;API_UNAVAILABLE&lt;/code&gt; instead of conditionally compiling certain methods with &lt;code dir="ltr" translate="no"&gt;#if&lt;/code&gt; directives (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8451"&gt;#8451&lt;/a&gt;).&lt;/li&gt;
@@ -3434,7 +3434,7 @@ a system prompt was being presented (&lt;a href="https://github.com/firebase/fir
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Increased minimum required CocoaPods version to 1.10.2 to refactor AdSupport-related code out of GoogleAppMeasurement.xcframework to an optional GoogleAppMeasurementIdentitySupport.xcframework dependency.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; GoogleAppMeasurement/WithoutAdIdSupport subspec now ships GoogleAppMeasurement.xcframework. GoogleAppMeasurement/AdIdSupport subspec ships both GoogleAppMeasurement.xcframework and GoogleAppMeasurementIdentitySupport.xcframework.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added debug message to signal that &lt;code dir="ltr" translate="no"&gt;GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED&lt;/code&gt; was set correctly (&lt;a href="https://github.com/firebase/firebase-ios-sdk/issues/7467"&gt;#7467&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_13" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for bundle ID-based API key restrictions (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8678"&gt;#8678&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_41" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Auth now falls back to reCAPTCHA for phone auth app verification if the push notification is not received before the timeout (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8653"&gt;#8653&lt;/a&gt;).&lt;/li&gt;
@@ -3464,7 +3464,7 @@ details are available &lt;a href="https://firebase.google.com/docs/ios/learn-mor
 to be updated to latest minor versions (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8733"&gt;#8733&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_52" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added beta support for tvOS, macOS, and Catalyst.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_12" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved error handling logic by minimizing amount of requests that are unlikely to succeed (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8798"&gt;#8798&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_40" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved error logging (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8704"&gt;#8704&lt;/a&gt;).&lt;/li&gt;
@@ -3534,7 +3534,7 @@ https://github.com/firebase/firebase-ios-sdk/blob/master/FirebaseFunctionsSwift/
 &lt;/ul&gt;</description></item><item><title>Version 8.12.1 - February 10, 2022</title><link>https://firebase.google.com/support/release-notes/ios#version_8121_-_february_10_2022</link><description>&lt;h3 data-text="Analytics" id="analytics_50" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for parsing new campaign parameters utm_id, utm_source_platform, utm_creative_format, and utm_marketing_tactic for &lt;a href="https://support.google.com/analytics/answer/11242870"&gt;traffic source dimensions&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with session_start events being logged during app prewarming on iOS 15+ (&lt;a href="https://github.com/firebase/firebase-ios-sdk/issues/6161"&gt;#6161&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_11" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed watchOS build failures with Swift Package Manager (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/9191"&gt;#9191&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added documentation note and error logging to &lt;code dir="ltr" translate="no"&gt;getStoredUser(forAccessGroup:)&lt;/code&gt; regarding tvOS keychain sharing issues (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8878"&gt;#8878&lt;/a&gt;).&lt;/li&gt;
@@ -3642,7 +3642,7 @@ the zip file for updated instructions.&lt;/li&gt;
 &lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; &lt;code dir="ltr" translate="no"&gt;FirebaseAnalyticsSwift&lt;/code&gt; has exited beta and is
 now generally available for use.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_10" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; &lt;code dir="ltr" translate="no"&gt;FirebaseAppCheck&lt;/code&gt; has exited beta and is now
 generally available for use.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution" id="app_distribution_3" tabindex="-1"&gt;App Distribution&lt;/h3&gt;&lt;ul&gt;
@@ -3738,7 +3738,7 @@ impacting some users (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a zip distribution issue where the Promises module caused linking to fail (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10071"&gt;#10071&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Limited dependency on GTMSessionFetcher version to &amp;lt; 2.1.0 to avoid a new deprecation
 warning (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10123"&gt;#10123&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_9" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; DeviceCheck and App Attest providers are supported by watchOS 9.0+ (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10094"&gt;#10094&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10098"&gt;#10098&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; App Attest provider availability updated to support tvOS 15.0+ (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10093"&gt;#10093&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4044,7 +4044,7 @@ Mac Catalyst via Swift Package Manager
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/11119"&gt;#11119&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.9.0 - April 25, 2023</title><link>https://firebase.google.com/support/release-notes/ios#version_1090_-_april_25_2023</link><description>&lt;h3 data-text="Analytics" id="analytics_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_8" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;limitedUseToken(completion:)&lt;/code&gt; for obtaining limited-use tokens for
 protecting non-Firebase backends (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/11086"&gt;#11086&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4184,7 +4184,7 @@ be accessed through the &lt;code dir="ltr" translate="no"&gt;FirebaseAnalytics&l
 &lt;code dir="ltr" translate="no"&gt;FirebaseAnalyticsSwift&lt;/code&gt; has been deprecated, and will be removed in a
 future release. See
 &lt;a href="/docs/ios/swift-migration"&gt;the migration guide&lt;/a&gt; for migration instructions.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_7" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added invalid key error handling in App Attest key attestation. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/11986"&gt;#11986&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Replaced semantic imports (&lt;code dir="ltr" translate="no"&gt;@import FirebaseAppCheckInterop&lt;/code&gt;) with umbrella header imports
 (&lt;code dir="ltr" translate="no"&gt;#import &amp;lt;FirebaseAppCheckInterop/FirebaseAppCheckInterop.h&amp;gt;&lt;/code&gt;) for ObjC++ compatibility (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/11916"&gt;#11916&lt;/a&gt;).&lt;/li&gt;
@@ -4235,7 +4235,7 @@ be accessed through the &lt;code dir="ltr" translate="no"&gt;FirebaseRemoteConfi
 &lt;code dir="ltr" translate="no"&gt;FirebaseRemoteConfigSwift&lt;/code&gt; has been deprecated, and will be removed in a
 future release. See &lt;a href="/docs/ios/swift-migration"&gt;the migration guide&lt;/a&gt; for
 migration instructions.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.18.0 - November 14, 2023</title><link>https://firebase.google.com/support/release-notes/ios#version_10180_-_november_14_2023</link><description>&lt;h3 data-text="App Check" id="app_check_6" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.18.0 - November 14, 2023</title><link>https://firebase.google.com/support/release-notes/ios#version_10180_-_november_14_2023</link><description>&lt;h3 data-text="App Check" id="app-check_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Extracted core &lt;code dir="ltr" translate="no"&gt;FirebaseAppCheck&lt;/code&gt; functionality into a new
 &lt;a href="https://github.com/google/app-check"&gt;&lt;code dir="ltr" translate="no"&gt;AppCheckCore&lt;/code&gt;&lt;/a&gt; dependency. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12067"&gt;#12067&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4254,7 +4254,7 @@ to only re-download locally-cached documents that are known to be out-of-sync.
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Adopt NSSecureCoding for internal classes (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12075"&gt;#12075&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.19.1 - December 13, 2023</title><link>https://firebase.google.com/support/release-notes/ios#version_10191_-_december_13_2023</link><description>&lt;p&gt;This release is available via Swift Package Manager only. Changes in this
 version of Firebase will be available in future releases across all distribution
-channels.&lt;/p&gt;&lt;h3 data-text="App Check" id="app_check_5" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+channels.&lt;/p&gt;&lt;h3 data-text="App Check" id="app-check_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug in apps using both AppCheck and ARCore where AppCheck unnecessarily tried to create tokens for the ARCore SDK, resulting in noisy logs containing harmless attestation errors.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.20.0 - January 16, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_10200_-_january_16_2024</link><description>&lt;p&gt;The following change only applies to those using a binary distribution of
 a Firebase SDK(s): In preparation for supporting Privacy Manifests, each
@@ -4375,7 +4375,7 @@ preserving symlinks and protecting code signatures.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that prevented &lt;a href="https://support.google.com/analytics/answer/10085872"&gt;created or modified events&lt;/a&gt; from activating &lt;a href="https://firebase.google.com/docs/ab-testing"&gt;Firebase A/B Testing&lt;/a&gt; experiments.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_4" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed usages of user defaults API to eliminate required reason impact.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed usages of user defaults API from internal Firebase Sessions
@@ -4406,7 +4406,7 @@ dependency (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10884"&gt;
 Learn how to
 &lt;a href="https://firebase.google.com/docs/ai-logic/get-started"&gt;get started&lt;/a&gt;
 with the SDK in your app.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.27.0 - May 29, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_10270_-_may_29_2024</link><description>&lt;h3 data-text="App Check" id="app_check_3" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.27.0 - May 29, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_10270_-_may_29_2024</link><description>&lt;h3 data-text="App Check" id="app-check_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; CocoaPods: missing symbol error for &lt;code dir="ltr" translate="no"&gt;FIRGetLoggerLevel&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12899"&gt;#12899&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that prevented manually-logged ad impression events from activating &lt;a href="https://firebase.google.com/docs/ab-testing"&gt;Firebase A/B Testing&lt;/a&gt; experiments.&lt;/li&gt;
@@ -5118,7 +5118,7 @@ because more of your users will be on versions of your app that send limited-use
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a code signing issue by depending on &lt;code dir="ltr" translate="no"&gt;GoogleAdsOnDeviceConversion&lt;/code&gt; 2.3.0 (&lt;a href="https://github.com/firebase/firebase-ios-sdk/issues/15052"&gt;#15052&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed another issue that can cause slow launches (&lt;a href="https://github.com/firebase/firebase-ios-sdk/issues/14619"&gt;#14619&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check_2" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a missing symbol error for FIRGetLoggerLevel (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12899"&gt;#12899&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added TOTP support for macOS.&lt;/li&gt;
@@ -5408,7 +5408,7 @@ used the wrong overload for &lt;code dir="ltr" translate="no"&gt;respond(to:)&lt
 resulting in occasional prompt refusals. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16165"&gt;#16165&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup, optimizations, and bug fixes.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app_check" tabindex="-1"&gt;App Check&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;AppAttestProviderFactory&lt;/code&gt; to simplify App Check setup when
 using the App Attest provider. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16182"&gt;#16182&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
