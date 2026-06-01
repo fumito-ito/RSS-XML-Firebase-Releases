@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Flutter</title><link>https://firebase.google.com/support/release-notes/flutter</link><description>Latest updates and release notes for Firebase Flutter.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 01 Jun 2026 11:24:02 +0000</lastBuildDate><item><title>Flutter BoM version 1.0.0 - May 07, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-0</link></item><item><title>Flutter BoM version 1.0.1 - May 21, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-1</link></item><item><title>Flutter BoM version 1.1.0 - May 28, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-1-0</link><description>&lt;h3 data-text="Changelog" id="bom-v1-1-0_changelog" tabindex="-1"&gt;Changelog&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Flutter</title><link>https://firebase.google.com/support/release-notes/flutter</link><description>Latest updates and release notes for Firebase Flutter.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 01 Jun 2026 17:30:31 +0000</lastBuildDate><item><title>Flutter BoM version 1.0.0 - May 07, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-0</link></item><item><title>Flutter BoM version 1.0.1 - May 21, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-0-1</link></item><item><title>Flutter BoM version 1.1.0 - May 28, 2024</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v1-1-0</link><description>&lt;h3 data-text="Changelog" id="bom-v1-1-0_changelog" tabindex="-1"&gt;Changelog&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (android): remove unnecessary error type guarding (&lt;a href="https://github.com/firebase/flutterfire/issues/12816"&gt;#12816&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/7d4c200ac6f06a50c2e7ee852aea2c9fa7bcb0ff"&gt;7d4c200a&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (General): update Pigeon version to 19 (&lt;a href="https://github.com/firebase/flutterfire/issues/12828"&gt;#12828&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/5e76153fbcd337a26e83abc2b43b651ab6c501bc"&gt;5e76153f&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;ul&gt;
@@ -1763,5 +1763,38 @@ perform complex tasks like solving mathematical equations or visualizing data. (
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_core - v4.9.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_core_platform_interface - v7.0.1&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_core_web - v3.7.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Flutter BoM version 4.15.0 - June 01, 2026</title><link>https://firebase.google.com/support/release-notes/flutter#bom-v4-15-0</link><description>&lt;h3 data-text="Changelog" id="bom-v4-15-0_changelog" tabindex="-1"&gt;Changelog&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (ios): add forceIndex parameter to collection source stage initializations (&lt;a href="https://github.com/firebase/flutterfire/issues/18332"&gt;#18332&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/1bf50d2f5bbdcac29797268632e2ed8b7e344c7d"&gt;1bf50d2f&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (General): add support for new array expressions (&lt;a href="https://github.com/firebase/flutterfire/issues/18283"&gt;#18283&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/2293dee00767cc6eebd57a340eb2b72bdab41d52"&gt;2293dee0&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;cloud_firestore - v6.5.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;cloud_firestore_web - v5.5.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (android): update token retrieval in PigeonParser to handle Number type correctly (&lt;a href="https://github.com/firebase/flutterfire/issues/18328"&gt;#18328&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/3b77147bc00bb19af5f4821436a1a4cdd8ff6791"&gt;3b77147b&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Documentation (General): clarify behavior of password reset email with email enumeration protection enabled (&lt;a href="https://github.com/firebase/flutterfire/issues/18296"&gt;#18296&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/0bcce87a17830797dae6ff3c1a8ba4ce210c2c0d"&gt;0bcce87a&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_auth - v6.5.2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_auth_platform_interface - v9.0.2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (General): bump Firebase ios SDK to 12.14.0 (&lt;a href="https://github.com/firebase/flutterfire/issues/18330"&gt;#18330&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/b1cfe745d221f09665943762c83cdd64684c6e6c"&gt;b1cfe745&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (General): bump Firebase android SDK to 34.14.0 (&lt;a href="https://github.com/firebase/flutterfire/issues/18329"&gt;#18329&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/1562eace5196227ad0058df9b5426950b0094f83"&gt;1562eace&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (General): bump Firebase web SDK to 12.14.0 (&lt;a href="https://github.com/firebase/flutterfire/issues/18331"&gt;#18331&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/3f31a88ab6ad96914f427e292b919b6465cf4996"&gt;3f31a88a&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_core - v4.10.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_core_web - v3.8.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (web): add support for custom service worker script path in &lt;code dir="ltr" translate="no"&gt;getToken&lt;/code&gt; method (&lt;a href="https://github.com/firebase/flutterfire/issues/18290"&gt;#18290&lt;/a&gt;). (&lt;a href="https://github.com/firebase/flutterfire/commit/b37722db13548aca57b3a24ba0f27b5de021be02"&gt;b37722db&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_messaging - v16.3.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_messaging_platform_interface - v4.8.0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;firebase_messaging_web - v4.2.0&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
