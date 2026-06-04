@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 04 Jun 2026 14:49:56 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 04 Jun 2026 17:42:18 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -5055,7 +5055,7 @@ build AI features in your games like new forms of player interaction (both
 voice and image input), responsive and evolving game worlds, and personalized
 experiences. Learn how to &lt;a href="/docs/ai-logic/get-started"&gt;get started with Unity&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Our client SDK for Web offers experimental access to
-&lt;a href="/docs/ai-logic/hybrid-on-device-inference"&gt;&lt;strong&gt;hybrid and on-device inference for web apps&lt;/strong&gt;&lt;/a&gt;
+&lt;a href="/docs/ai-logic/hybrid/web/get-started"&gt;&lt;strong&gt;hybrid and on-device inference for web apps&lt;/strong&gt;&lt;/a&gt;
 running on Chrome on desktop. This configuration allows your app to use the
 on-device model when it's available, but fall back seamlessly to the
 cloud-hosted model when needed.&lt;/p&gt;&lt;/li&gt;
@@ -5375,7 +5375,7 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 from the main Firebase JavaScript SDK (starting with v12.1.0). Also, you can
 now enroll in the Chrome Origin Trials to enable your end-users to try out
 your on-device and hybrid AI features. Learn how to get started using
-&lt;a href="/docs/ai-logic/hybrid-on-device-inference"&gt;on-device hybrid inference using &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;a href="/docs/ai-logic/hybrid/web/get-started"&gt;on-device hybrid inference using &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_69" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 Authentication and &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;
@@ -5628,12 +5628,12 @@ the &lt;code dir="ltr" translate="no"&gt;$lookup&lt;/code&gt; operator now suppo
 &lt;a href="/docs/firestore/enterprise/supported-features-80"&gt;Supported features&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 18, 2025</title><link>https://firebase.google.com/support/releases#september_18_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-hybrid-prefer-in-cloud-mode-and-preview" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Using &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; to
-&lt;a href="/docs/ai-logic/hybrid-on-device-inference"&gt;build hybrid experiences with on-device and cloud-hosted models in your web apps&lt;/a&gt;
+&lt;a href="/docs/ai-logic/hybrid/web/get-started"&gt;build hybrid experiences with on-device and cloud-hosted models in your web apps&lt;/a&gt;
 is now in Preview. Hybrid inference enables running inference using on-device
 models when available and seamlessly falling back to cloud-hosted models
 otherwise (and vice versa).&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now supports
-&lt;a href="/docs/ai-logic/hybrid-on-device-inference#inference-modes"&gt;&lt;code dir="ltr" translate="no"&gt;PREFER_IN_CLOUD&lt;/code&gt; mode&lt;/a&gt;
+&lt;a href="/docs/ai-logic/hybrid/web/configuration-options#inference-modes"&gt;&lt;code dir="ltr" translate="no"&gt;PREFER_IN_CLOUD&lt;/code&gt; mode&lt;/a&gt;
 when using hybrid on-device inference in your web apps. This mode allows the
 SDK to fall back to the on-device model if the cloud-hosted model isn't
 available (for example, if the device is offline).&lt;/p&gt;&lt;/li&gt;
@@ -5859,7 +5859,7 @@ your choice of MCP-capable AI-powered development tools (like
 &lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="ai-logic-hybrid-determine-inference-mode" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; When using hybrid on-device inference with either the
 &lt;code dir="ltr" translate="no"&gt;PREFER_ON_DEVICE&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;PREFER_IN_CLOUD&lt;/code&gt; mode, you can now
-&lt;a href="/docs/ai-logic/hybrid-on-device-inference#determine-inference-mode"&gt;determine which inference mode was used for a request&lt;/a&gt;.&lt;/li&gt;
+&lt;a href="/docs/ai-logic/hybrid/web/configuration-options#determine-inference-mode"&gt;determine which inference mode was used for a request&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_49" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;,
@@ -7003,7 +7003,13 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#15.19.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.19.0)&lt;/a&gt; is now
 available. This version updates the Pub/Sub emulator, adds support for more ID providers in auth commands, and includes fixes for auth:export and &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;  deployments.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate></item><item><title>May 28, 2026</title><link>https://firebase.google.com/support/releases#may_28_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate></item><item><title>May 28, 2026</title><link>https://firebase.google.com/support/releases#may_28_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-hybrid-on-device-web-ga" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Using &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; to
+&lt;a href="/docs/ai-logic/hybrid/web/get-started"&gt;build hybrid experiences with on-device and cloud-hosted models in your &lt;strong&gt;web apps&lt;/strong&gt;&lt;/a&gt;
+is now Generally Available (GA). Hybrid inference enables running inference
+using on-device models when available and seamlessly falling back to
+cloud-hosted models otherwise (and vice versa).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, and &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;
 have been updated. For more details, check out the latest
