@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 11 Jun 2026 03:33:07 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 11 Jun 2026 10:16:14 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -7057,6 +7057,17 @@ See the
 &lt;a href="/docs/reference/admin/error-handling"&gt;error handling guide&lt;/a&gt; for more details.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate></item><item><title>June 10, 2026</title><link>https://firebase.google.com/support/releases#june_10_2026</link><description>&lt;h3 data-text="Test Lab" id="test_lab" tabindex="-1"&gt;Test Lab&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate></item><item><title>June 10, 2026</title><link>https://firebase.google.com/support/releases#june_10_2026</link><description>&lt;h3 data-text="Firebase extension for Gemini CLI" id="gemini-cli-extension-deprecated" tabindex="-1"&gt;Firebase extension for &lt;span class="notranslate"&gt;Gemini CLI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; With &lt;span class="notranslate"&gt;Gemini CLI&lt;/span&gt; transitioning to &lt;span class="notranslate"&gt;Antigravity CLI&lt;/span&gt;, the
+Firebase extension for &lt;span class="notranslate"&gt;Gemini CLI&lt;/span&gt; will stop working starting June 18,
+2026, when &lt;span class="notranslate"&gt;Gemini CLI&lt;/span&gt; stops serving requests for individual,
+Google AI Pro, and Google AI Ultra tiers. To avoid service disruption, migrate
+to &lt;span class="notranslate"&gt;Antigravity CLI&lt;/span&gt; using the
+&lt;a class="external" href="https://antigravity.google/docs/gcli-migration"&gt;Gemini CLI migration guide&lt;/a&gt; 
+before this date. If you're a new user, follow the instructions
+to &lt;a href="/docs/ai-assistance/agent-skills#install-skills"&gt;install Firebase agent skills&lt;/a&gt; directly.
+For details on the migration timeline, see the
+&lt;a class="external" href="https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/#important-timeline-for-consumers"&gt;transition announcement&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="test_lab" tabindex="-1"&gt;Test Lab&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; Xcode 26.2 is now available. If you have not already done so, migrate to Xcode 26.2.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate></item></channel></rss>
