@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 11 Jun 2026 10:16:14 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 11 Jun 2026 15:51:23 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -46,10 +46,10 @@ has been updated to v29.3.1. Learn how to
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#9.6.11"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate></item><item><title>April 15, 2022</title><link>https://firebase.google.com/support/releases#april_15_2022</link><description>&lt;h3 data-text="Test Lab" id="test-lab-default-device-redfin-default-version30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;'s default device has been updated from Blueline
-(Pixel 3) to Redfin (Pixel 5), and the default version has been updated from
-API level 28 to 30.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate></item><item><title>April 15, 2022</title><link>https://firebase.google.com/support/releases#april_15_2022</link><description>&lt;h3 data-text="Test Lab" id="testlab-default-device-2022-04-15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; To better support your testing needs, &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has updated the
+Pixel default device from Blueline (Pixel 3) to Redfin (Pixel 5), and the
+default version has been updated from API level 28 to 30.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate></item><item><title>April 21, 2022</title><link>https://firebase.google.com/support/releases#april_21_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_365" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#8.11.0"&gt;Firebase SDK for C++
 (v8.11.0)&lt;/a&gt; is now available.
@@ -266,24 +266,24 @@ is now available. This release deprecates support for Java 7 and comes with
 new imrpovements in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate></item><item><title>June 6, 2022</title><link>https://firebase.google.com/support/releases#june_6_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_349" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate></item><item><title>June 06, 2022</title><link>https://firebase.google.com/support/releases#june_06_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_349" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#9.1.0"&gt;Firebase SDK for C++
 (v9.1.0)&lt;/a&gt; is now available.
 This release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, changes to &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and general fixes.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate></item><item><title>June 7, 2022</title><link>https://firebase.google.com/support/releases#june_7_2022</link><description>&lt;h3 data-text="Test Lab" id="testlab-robo-scripts" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate></item><item><title>June 07, 2022</title><link>https://firebase.google.com/support/releases#june_07_2022</link><description>&lt;h3 data-text="App Distribution" id="appdistro-direct-links" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; now lets you share links to specific releases with
+your testers. To learn how to use direct links,
+see instructions about distributing your app to testers with
+&lt;a href="/docs/app-distribution/android/distribute-console#step_2_distribute_your_app_to_testers"&gt;Android&lt;/a&gt;
+and &lt;a href="/docs/app-distribution/ios/distribute-console#distribute"&gt;iOS&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-robo-scripts" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; now offers detailed documentation for Robo scripts,
 including new features like &lt;code dir="ltr" translate="no"&gt;adb&lt;/code&gt; shell commands and assertions. You can
 use Robo scripts to automate manual QA tasks for mobile apps, and to enable
 continuous integration (CI) and pre-launch testing strategies.&lt;/p&gt;
 &lt;p&gt;To learn more, see &lt;a href="/docs/test-lab/android/run-robo-scripts"&gt;Run a Robo script&lt;/a&gt;
 and &lt;a href="/docs/test-lab/android/robo-scripts-reference"&gt;Robo scripts reference guide&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Distribution" id="appdistro-direct-links" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; now lets you share links to specific releases with
-your testers. To learn how to use direct links,
-see instructions about distributing your app to testers with
-&lt;a href="/docs/app-distribution/android/distribute-console#step_2_distribute_your_app_to_testers"&gt;Android&lt;/a&gt;
-and &lt;a href="/docs/app-distribution/ios/distribute-console#distribute"&gt;iOS&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate></item><item><title>June 9, 2022</title><link>https://firebase.google.com/support/releases#june_9_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_348" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#10.3.0"&gt;Firebase Admin Node.js SDK (v10.3.0)&lt;/a&gt;
 is now available. This release deprecates support for Node.js 12 and comes with
@@ -731,10 +731,10 @@ has been updated to v31.0.0. Learn how to
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#9.12.1"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate></item><item><title>October 13, 2022</title><link>https://firebase.google.com/support/releases#october_13_2022</link><description>&lt;h3 data-text="Test Lab" id="test-lab-pixel-7-device-support" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has added the recently released Google Pixel 7 and
-Pixel 7 Pro to the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; device catalog! To test your apps on these
-new devices, go to the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; page on the Firebase console and
+&lt;/ul&gt;</description><pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate></item><item><title>October 13, 2022</title><link>https://firebase.google.com/support/releases#october_13_2022</link><description>&lt;h3 data-text="Test Lab" id="testlab-added-devices-2022-10-13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has added the Google Pixel 7 and Pixel 7 Pro to the
+&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; device catalog! To test your apps on these devices, go to
+&lt;strong&gt;DevOps &amp;amp; Engagement&lt;/strong&gt; &amp;gt; &lt;strong&gt;Test Lab&lt;/strong&gt; in the Firebase console and
 select the Google Pixel 7 or the Pixel 7 Pro. To learn more, see
 &lt;a href="/docs/test-lab/android/available-testing-devices"&gt;Available devices in &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_312" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -912,15 +912,16 @@ Android and Apple pre-release testing workflows sustainable and repeatable
 in a CI/CD environment. To learn more, see
 &lt;a href="/docs/app-distribution/best-practices-distributing-android-apps-to-qa-testers-with-ci-cd"&gt;Best practices for distributing Android apps to QA testers using CI/CD&lt;/a&gt; and
 &lt;a href="/docs/app-distribution/best-practices-distributing-apple-apps-to-qa-testers-with-ci-cd-fastlane"&gt;Best practices for distributing Apple apps to QA testers using CI/CD and fastlane&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate></item><item><title>November 7, 2022</title><link>https://firebase.google.com/support/releases#november_7_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_307" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate></item><item><title>November 07, 2022</title><link>https://firebase.google.com/support/releases#november_07_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_307" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#10.1.0"&gt;Firebase SDK for Unity
 (v10.1.0)&lt;/a&gt; is now available. This
 release includes changes to &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, a bug fix in &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
 and other changes.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate></item><item><title>November 9, 2022</title><link>https://firebase.google.com/support/releases#november_9_2022</link><description>&lt;h3 data-text="Test Lab" id="test-lab-supports-flank" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate></item><item><title>November 09, 2022</title><link>https://firebase.google.com/support/releases#november_09_2022</link><description>&lt;h3 data-text="Test Lab" id="testlab-supports-flank" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; now maintains the Flank open source project. To learn
 how you can use Flank as a massively parallel Android and iOS test
-runner for &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;, see the &lt;a class="external" href="https://flank.github.io/flank/"&gt;Flank GitHub documentation&lt;/a&gt;.&lt;/li&gt;
+runner for &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;, see the
+&lt;a class="external" href="https://flank.github.io/flank/"&gt;Flank GitHub documentation&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate></item><item><title>November 10, 2022</title><link>https://firebase.google.com/support/releases#november_10_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_306" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/js#9.14.0"&gt;Firebase JavaScript SDK (v9.14.0)&lt;/a&gt;
@@ -1148,7 +1149,7 @@ To learn more, see
 (v10.4.0)&lt;/a&gt; is now available. This
 release includes support for tvOS, new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, as well as miscellaneous changes.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate></item><item><title>January 30, 2023</title><link>https://firebase.google.com/support/releases#january_30_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-new-device-iOS-16.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate></item><item><title>January 30, 2023</title><link>https://firebase.google.com/support/releases#january_30_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-added-devices-2023-01-30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; To better support your testing needs, &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; added iOS 16.2
 to our device inventory. To learn more about our devices, see
 &lt;a href="/docs/test-lab/ios/available-testing-devices"&gt;Available devices in &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/a&gt;.
@@ -1184,7 +1185,10 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now view &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; device capacity information using
 the Google Cloud CLI. This feature can inform your test decisions by letting
 you view the number of online devices in the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; catalog.
-To learn more, see device capacity information for &lt;a href="https://firebase.google.com/docs/test-lab/android/available-testing-devices#device-capacity"&gt;Android&lt;/a&gt; and &lt;a href="https://firebase.google.com/docs/test-lab/ios/available-testing-devices#device_capacity"&gt;iOS&lt;/a&gt;.&lt;/li&gt;
+To learn more, see device capacity information for
+&lt;a href="/docs/test-lab/android/available-testing-devices#device-capacity"&gt;Android&lt;/a&gt;
+and
+&lt;a href="/docs/test-lab/ios/available-testing-devices#device_capacity"&gt;iOS&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_288" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#10.5.0"&gt;Firebase Apple SDK (v10.5.0)&lt;/a&gt;
@@ -1235,14 +1239,7 @@ To get started with Firebase in Android, see
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v31.2.2. Learn how to
 &lt;a href="/docs/android/learn-more#bom"&gt;add SDKs to your app using the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate></item><item><title>February 16, 2023</title><link>https://firebase.google.com/support/releases#february_16_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_282" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#10.5.0"&gt;Firebase SDK for Unity
-(v10.5.0)&lt;/a&gt; is now available. This
-release includes miscellaneous changes.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; A new releases of the
-&lt;a class="external" href="https://github.com/firebase/flutterfire/blob/master/CHANGELOG.md#2023-02-16"&gt;Firebase Flutter SDK&lt;/a&gt; 
-is available. This release includes Trusted Types support in web apps.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-test-matrix-label" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate></item><item><title>February 16, 2023</title><link>https://firebase.google.com/support/releases#february_16_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-test-matrix-label" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; To help you identify and locate your tests in the
 Firebase console, &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; now lets you assign a custom label to your
 test matrices using the Firebase console and Google Cloud CLI. To learn how
@@ -1251,6 +1248,13 @@ the Firebase console for &lt;a href="/docs/test-lab/android/firebase-console"&gt
 and &lt;a href="/docs/test-lab/ios/firebase-console"&gt;Apple&lt;/a&gt;, and Start testing with the
 gcloud CLI for &lt;a href="/docs/test-lab/android/command-line"&gt;Android&lt;/a&gt; and
 &lt;a href="/docs/test-lab/ios/command-line"&gt;Apple&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_282" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#10.5.0"&gt;Firebase SDK for Unity
+(v10.5.0)&lt;/a&gt; is now available. This
+release includes miscellaneous changes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; A new releases of the
+&lt;a class="external" href="https://github.com/firebase/flutterfire/blob/master/CHANGELOG.md#2023-02-16"&gt;Firebase Flutter SDK&lt;/a&gt; 
+is available. This release includes Trusted Types support in web apps.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate></item><item><title>February 23, 2023</title><link>https://firebase.google.com/support/releases#february_23_2023</link><description>&lt;h3 data-text="Remote Config" id="remote-config-detailed-publish-dialog" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now review the changes you make to &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
 parameters in the Firebase console before you publish. When you click
@@ -1338,9 +1342,9 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#10.7.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate></item><item><title>March 22, 2023</title><link>https://firebase.google.com/support/releases#march_22_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-new-default-iphone-13pro-15-7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; To better support your testing needs, &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has updated the
-iOS default device to iphone13pro 15.7. To learn more about our devices, see
+&lt;/ul&gt;</description><pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate></item><item><title>March 22, 2023</title><link>https://firebase.google.com/support/releases#march_22_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-default-device-2023-03-22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; To better support your testing needs, &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has updated the
+iOS default device to &lt;code dir="ltr" translate="no"&gt;iphone13pro/15.7&lt;/code&gt;. To learn more about our devices, see
 &lt;a href="/docs/test-lab/ios/available-testing-devices"&gt;Available devices in &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/a&gt;.
 Want to request a new device? See
 &lt;a href="/docs/test-lab/android/available-testing-devices#request-device"&gt;Requesting a device in &lt;span class="notranslate"&gt;Firebase Test Lab&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
@@ -1348,8 +1352,10 @@ Want to request a new device? See
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; On Android tests, the following output files have been renamed as
 follows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;ANR traces files have been renamed in the output bucket to &lt;code dir="ltr" translate="no"&gt;traces_{count}_{package_name}.txt&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Tombstones files have been renamed in the output bucket to &lt;code dir="ltr" translate="no"&gt;tombstones_{count}_{package_name}.txt&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;ANR traces files have been renamed in the output bucket to
+&lt;code dir="ltr" translate="no"&gt;traces_{count}_{package_name}.txt&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Tombstones files have been renamed in the output bucket to
+&lt;code dir="ltr" translate="no"&gt;tombstones_{count}_{package_name}.txt&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;To learn more, see &lt;a href="/docs/test-lab/android/analyzing-results#detailed"&gt;Detailed test results&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate></item><item><title>March 24, 2023</title><link>https://firebase.google.com/support/releases#march_24_2023</link><description>&lt;h3 data-text="Remote Config" id="remote-config-real-time" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1680,7 +1686,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 is now available.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment, see
 &lt;a href="/docs/cli#setup_update_cli"&gt;Set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate></item><item><title>May 18, 2023</title><link>https://firebase.google.com/support/releases#may_18_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-google-pixel-watch" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate></item><item><title>May 18, 2023</title><link>https://firebase.google.com/support/releases#may_18_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-added-devices-2023-05-18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; now supports Google Pixel Watch. You can run tests on
 your standalone Wear app on Google Pixel Watches. To learn more about
 &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; devices, see
@@ -1796,10 +1802,9 @@ phones, watches, tablets, or Chromebooks.&lt;/p&gt;
 &lt;aside class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;span&gt; Events collected before 04 May 2023 will be listed under a &lt;em&gt;temporary&lt;/em&gt;
 "Unknown" category. After 03 August 2023, all events will be associated with
 an actual device category.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate></item><item><title>June 20, 2023</title><link>https://firebase.google.com/support/releases#june_20_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-google-pixel-tablet" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate></item><item><title>June 20, 2023</title><link>https://firebase.google.com/support/releases#june_20_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-added-devices-2023-06-20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; now supports the new Google Pixel Tablet. You can run
-your tests on
-your standalone physical devices. To learn more about
+your tests on your standalone physical devices. To learn more about
 &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; devices, see
 &lt;a href="/docs/test-lab/android/available-testing-devices"&gt;Test on available devices&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate></item><item><title>June 21, 2023</title><link>https://firebase.google.com/support/releases#june_21_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_251" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -1832,10 +1837,9 @@ release includes bug fixes in &lt;span class="notranslate"&gt;Remote Config&lt;/
 is available.&lt;/p&gt;
 &lt;p&gt;This release adds support for replay protection (limited-use tokens) to App
 Check and includes a new Firebase UI &lt;code dir="ltr" translate="no"&gt;StorageImage&lt;/code&gt; widget.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate></item><item><title>June 27, 2023</title><link>https://firebase.google.com/support/releases#june_27_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-google-pixel-fold" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate></item><item><title>June 27, 2023</title><link>https://firebase.google.com/support/releases#june_27_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-added-devices-2023-06-27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; now supports the new Google Pixel Fold. You can run
-your tests on
-your standalone physical devices. To learn more about
+your tests on your standalone physical devices. To learn more about
 &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; devices, see
 &lt;a href="/docs/test-lab/android/available-testing-devices"&gt;Test on available devices&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v12.4.1)" id="cli-v12.4.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v12.4.1)&lt;/h3&gt;&lt;ul&gt;
@@ -1951,7 +1955,9 @@ This version includes bug fixes for extensions and web frameworks.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment, see
 &lt;a href="/docs/cli#setup_update_cli"&gt;Set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate></item><item><title>July 26, 2023</title><link>https://firebase.google.com/support/releases#july_26_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-removed-ios-16.3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The iOS 16.3 API has been removed. If you are using devices on the older API, update to the newer API version (16.5). To learn more, see &lt;a href="/docs/test-lab/ios/available-testing-devices#deprecated"&gt;Deprecated devices and versions&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The iOS 16.3 API has been removed. If you're using devices on the
+older API, update to the newer API version (16.5). To learn more, see
+&lt;a href="/docs/test-lab/ios/available-testing-devices#deprecated"&gt;Deprecated devices and versions&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate></item><item><title>August 01, 2023</title><link>https://firebase.google.com/support/releases#august_01_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_240" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#10.13.0"&gt;Firebase Apple SDK (v10.13.0)&lt;/a&gt;
@@ -2003,8 +2009,7 @@ for &lt;a href="/docs/crashlytics/flutter/get-deobfuscated-reports#apple-split-d
 and for &lt;a href="/docs/crashlytics/flutter/get-deobfuscated-reports#android-split-debug-info"&gt;Android&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-ios-robo" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; now offers Robo tests for iOS+ (Beta). To learn how to
-run these tests, see
-&lt;a href="/docs/test-lab/ios/robo-ux-test"&gt;Run a Robo test&lt;/a&gt;.&lt;/li&gt;
+run these tests, see &lt;a href="/docs/test-lab/ios/robo-ux-test"&gt;Run a Robo test&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_237" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; A new release of the
 &lt;a class="external" href="https://github.com/firebase/flutterfire/blob/master/CHANGELOG.md#2023-08-16"&gt;Firebase Flutter SDK&lt;/a&gt; 
@@ -2016,11 +2021,15 @@ query generator.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; For ANRs, when we see that the stack trace follows a common
 pattern, we display an insight to help you debug the issue faster. No action
 is required to activate this feature.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-iphone11pro-iphone8-16.5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The following devices have been deprecated and will
-be removed on 2023-9-14: iphone11pro/16.5 and iphone8/16.5. If you currently
-use these devices, please move to these devives: iphone11pro/16.6 and
-iphone8/16.6.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2023-08-17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices are now deprecated and will be removed on
+2023-9-14:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone11pro/16.5&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone8/16.5&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you currently use these devices, consider moving to these devices:
+&lt;code dir="ltr" translate="no"&gt;iphone11pro/16.6&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;iphone8/16.6&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_236" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#11.4.0"&gt;Firebase SDK for Unity
 (v11.4.0)&lt;/a&gt; is now available. This
@@ -2081,14 +2090,18 @@ To get started with Firebase in Android, see
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v32.2.3. Learn how to
 &lt;a href="/docs/android/learn-more#bom"&gt;add SDKs to your app using the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate></item><item><title>August 28, 2023</title><link>https://firebase.google.com/support/releases#august_28_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-iphone14pro-16.5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The following device has been deprecated and will
-be removed on 2023-9-25: iphone14pro/16.5. If you currently
-use this device, please move to iphone14pro/16.6.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config-template-deletion" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate></item><item><title>August 28, 2023</title><link>https://firebase.google.com/support/releases#august_28_2023</link><description>&lt;h3 data-text="Remote Config" id="remote-config-template-deletion" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now delete &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; templates directly from
 Firebase console. For more information, see
 &lt;a href="/docs/remote-config/templates#delete_template"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; Templates and Versioning&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2023-08-28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device is now deprecated and will be removed on
+2023-9-25:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone14pro/16.5&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you currently use this device, consider moving to &lt;code dir="ltr" translate="no"&gt;iphone14pro/16.6&lt;/code&gt;
+instead.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="stability-indicator" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; now indicates devices that have reported higher rates
 of inconclusive test results for prolonged period with the &lt;strong&gt;Reduced Stability&lt;/strong&gt;
@@ -2180,12 +2193,12 @@ attestation provider you want to use.&lt;/p&gt;
 (v11.5.0)&lt;/a&gt; is now available. This
 release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; as well as miscellaneous
 changes and fixes.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate></item><item><title>September 25, 2023</title><link>https://firebase.google.com/support/releases#september_25_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-remove-device-iphone11pro-iphone14pro-iphone8-16.5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following devices have been removed:
+&lt;/ul&gt;</description><pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate></item><item><title>September 25, 2023</title><link>https://firebase.google.com/support/releases#september_25_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-removed-devices-2023-09-25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following devices have been removed:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;iphone11pro/16.5&lt;/li&gt;
-&lt;li&gt;iphone14pro/16.5&lt;/li&gt;
-&lt;li&gt;iphone8/16.5&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone11pro/16.5&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone14pro/16.5&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone8/16.5&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_226" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/go#4.12.1"&gt;Firebase Admin Go SDK (v4.12.1)&lt;/a&gt;
@@ -2253,10 +2266,10 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#10.5.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="test-lab-pixel-8-device-support" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has added the Google Pixel 8 and
-Pixel 8 Pro to the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; device catalog! To test your apps on these
-new devices, go to the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; page on the Firebase console and
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-added-devices-2023-10-12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has added the Google Pixel 8 and Pixel 8 Pro to the
+&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; device catalog! To test your apps on these new devices, go to
+&lt;strong&gt;DevOps &amp;amp; Engagement&lt;/strong&gt; &amp;gt; &lt;strong&gt;Test Lab&lt;/strong&gt; in the Firebase console and
 select the Google Pixel 8 or the Pixel 8 Pro. To learn more, see
 &lt;a href="/docs/test-lab/android/available-testing-devices"&gt;Available devices in &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate></item><item><title>October 17, 2023</title><link>https://firebase.google.com/support/releases#october_17_2023</link><description>&lt;h3 data-text="Test Lab" id="testlab-arm-devices" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2264,8 +2277,8 @@ select the Google Pixel 8 or the Pixel 8 Pro. To learn more, see
 that run on faster Arm hosts. These new emulators are estimated to perform
 most tasks three to six times faster, and they support GPU-heavy tasks in
 hardware, like user interface rendering, up to 100 times faster. To learn
-more, see &lt;a href="/docs/test-lab/android/avds"&gt;Start testing with Android Virtual
-Devices&lt;/a&gt;.&lt;/li&gt;
+more, see
+&lt;a href="/docs/test-lab/android/avds"&gt;Start testing with Android Virtual Devices&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_223" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#11.6.0"&gt;Firebase SDK for C++
 (v11.6.0)&lt;/a&gt; is now available.
@@ -2494,7 +2507,14 @@ is now available.
 This version includes bug fixes for web frameworks.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate></item><item><title>January 04, 2024</title><link>https://firebase.google.com/support/releases#january_04_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_208" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate></item><item><title>January 04, 2024</title><link>https://firebase.google.com/support/releases#january_04_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2024-01-04" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device is now deprecated and will be removed on
+2024-02-05:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;hammerhead/23&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you currently use this device, consider moving to a different device now.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_208" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; A new release of the
 &lt;a class="external" href="https://github.com/firebase/flutterfire/blob/master/CHANGELOG.md#2024-01-04"&gt;Firebase Flutter SDK&lt;/a&gt; 
 is available.&lt;/p&gt;
@@ -2511,10 +2531,6 @@ includes updated peer dependencies for &lt;code dir="ltr" translate="no"&gt;fire
 the addition of trace context for callable functions. Trace context
 provides easier logging and debugging, fixing issue
 (&lt;a class="external" href="https://github.com/firebase/firebase-functions/issues/1487"&gt;#1487&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-hammerhead-23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device has been deprecated and will
-be removed on 2024-02-05: hammerhead/23. If you are currently using
-this device, please move to a different device.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate></item><item><title>January 07, 2024</title><link>https://firebase.google.com/support/releases#january_07_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.0.3)" id="cli-v13.0.3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.0.3)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.0.3"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.0.3)&lt;/a&gt;
@@ -2522,9 +2538,10 @@ is now available.
 This version includes bug fixes for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate></item><item><title>January 11, 2024</title><link>https://firebase.google.com/support/releases#january_11_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-remove-xcode-14.2-14.3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following Xcodes have been removed: Xcode 14.2 and Xcode 14.3.
-If you have not already done so, migrate to Xcode 15.0.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate></item><item><title>January 11, 2024</title><link>https://firebase.google.com/support/releases#january_11_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-removed-xcode-14.2-and-14.3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following Xcode versions have been removed: Xcode 14.2 and
+Xcode 14.3.
+If you haven't already, make sure to migrate to Xcode 15.0.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate></item><item><title>January 16, 2024</title><link>https://firebase.google.com/support/releases#january_16_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_207" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#10.20.0"&gt;Firebase Apple SDK (v10.20.0)&lt;/a&gt;
@@ -2560,17 +2577,9 @@ is now available. This release comes with improvements and fixes in the
 &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate></item><item><title>January 24, 2024</title><link>https://firebase.google.com/support/releases#january_24_2024</link><description>&lt;h3 data-text="Firebase CLI (v13.1.0)" id="cli-v13.1.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.1.0)&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
-&lt;a href="/support/release-notes/cli#13.1.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.1.0)&lt;/a&gt;
-is now available.
-This version includes bug fixes for web frameworks, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, and
-the Authentication emulator.
-To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
-&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecate-virtual-devices" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices have been deprecated and will be
-removed at a later date:&lt;/p&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate></item><item><title>January 24, 2024</title><link>https://firebase.google.com/support/releases#january_24_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2024-01-24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices are now deprecated and will be removed at
+a later date:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;NexusLowRes/23&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;Nexus4/21&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Nexus4/22&lt;/code&gt;&lt;/li&gt;
@@ -2579,9 +2588,18 @@ removed at a later date:&lt;/p&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;Nexus7/21&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Nexus7/22&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Nexus7_clone_16_9/23&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;Nexus9/21&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Nexus9/22&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Nexus9/23&lt;/code&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;Nexus10/21&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Nexus10/22&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;If you are currently using these devices, please
-consider moving to an Arm virtual device (i.e. &lt;code dir="ltr" translate="no"&gt;MediumPhone.arm&lt;/code&gt;).&lt;/p&gt;</description><pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate></item><item><title>January 31, 2024</title><link>https://firebase.google.com/support/releases#january_31_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_204" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you currently use these devices, consider moving to an Arm virtual device
+(for example, &lt;code dir="ltr" translate="no"&gt;MediumPhone.arm&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.1.0)" id="cli-v13.1.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.1.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#13.1.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.1.0)&lt;/a&gt;
+is now available.
+This version includes bug fixes for web frameworks, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, and
+the Authentication emulator.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate></item><item><title>January 31, 2024</title><link>https://firebase.google.com/support/releases#january_31_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_204" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; A new release of the
 &lt;a class="external" href="https://github.com/firebase/flutterfire/blob/master/CHANGELOG.md#2024-01-31"&gt;Firebase Flutter SDK&lt;/a&gt; 
 is available.&lt;/p&gt;
@@ -2611,10 +2629,13 @@ version of the &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; SDK. Lea
 &lt;a href="/docs/crashlytics/crash-free-metrics"&gt;Understand crash-free metrics&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Note that for Unity, all these improvements and features are available
 starting February 20, 2024 (with the Unity SDK v11.7.0 release).&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate></item><item><title>February 02, 2024</title><link>https://firebase.google.com/support/releases#february_02_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-HWCOR-27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device has been deprecated and will
-be removed on 2024-03-03: HWCOR/27. If you are currently using
-this device, please move to a different device.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate></item><item><title>February 02, 2024</title><link>https://firebase.google.com/support/releases#february_02_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2024-02-02" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device is now deprecated and will be removed on
+2024-03-03:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;HWCOR/27&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you currently use this device, consider moving to a different device now.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate></item><item><title>February 06, 2024</title><link>https://firebase.google.com/support/releases#february_06_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_202" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#10.21.0"&gt;Firebase Apple SDK (v10.21.0)&lt;/a&gt;
@@ -2756,11 +2777,15 @@ This version includes fixes for &lt;span class="notranslate"&gt;Cloud Functions&
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; emulator.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate></item><item><title>March 8, 2024</title><link>https://firebase.google.com/support/releases#march_8_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-ipad5-15.4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices have been deprecated and will
-be removed on 2024-04-07: ipad5/15.4,
-Iphone13pro/15.2, ipadmini4/15.4. If you are currently using these devices, please
-move to a different device.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate></item><item><title>March 08, 2024</title><link>https://firebase.google.com/support/releases#march_08_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2024-03-08" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices are now deprecated and will be removed on
+2024-04-07:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;ipad5/15.4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone13pro/15.2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;ipadmini4/15.4&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you currently use these devices, consider moving to a different device now.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate></item><item><title>March 11, 2024</title><link>https://firebase.google.com/support/releases#march_11_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_195" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/python#6.5.0"&gt;Firebase Admin Python SDK (v6.5.0)&lt;/a&gt;
 is now available. This release comes with improvements to the Authentication API and
@@ -2922,7 +2947,13 @@ accelerates Firebase app development by answering questions about Firebase,
 generating and troubleshooting code, interpreting errors and
 suggesting mitigations, and more. Learn more at
 &lt;a href="/docs/ai-assistance/gemini-in-firebase"&gt;Introduction to Gemini in Firebase&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 09, 2024</title><link>https://firebase.google.com/support/releases#april_09_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_184" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 09, 2024</title><link>https://firebase.google.com/support/releases#april_09_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-removed-devices-2024-04-09" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following devices have been removed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;hammerhead/23&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;dreamlte/28&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_184" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-functions"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; SDK for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;
 (&lt;a class="external" href="https://github.com/firebase/firebase-functions/releases/tag/v4.9.0"&gt;Node.js v4.9.0&lt;/a&gt; 
 and &lt;a class="external" href="https://github.com/firebase/firebase-functions-python/releases/tag/0.3.0"&gt;Python v0.3.0&lt;/a&gt;)
@@ -2937,20 +2968,15 @@ of affected functions to prevent data loss.&lt;/p&gt;&lt;/li&gt;
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#10.24.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-remove-device-hammerhead" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following devices have been removed:
-&lt;ul&gt;
-&lt;li&gt;hammerhead: 23&lt;/li&gt;
-&lt;li&gt;dreamlte: 28&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 10, 2024</title><link>https://firebase.google.com/support/releases#april_10_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_183" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 10, 2024</title><link>https://firebase.google.com/support/releases#april_10_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-added-xcode-15.3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Xcode 15.3 is now available.
+If you haven't already, consider migrating to Xcode 15.3 now.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_183" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/go#4.14.0"&gt;Firebase Admin Go SDK (v4.14.0)&lt;/a&gt;
 is now available. The Admin SDK for Go now requires Go 1.20 or higher.
 This release also comes with improvements in the &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-ios-xcode" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; Xcode 15.3 is now available. If you have not already done so, migrate to Xcode 15.3.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 11, 2024</title><link>https://firebase.google.com/support/releases#april_11_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_182" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, and &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;
@@ -2986,25 +3012,25 @@ is available.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Adds support for local-only &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; listeners.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 17, 2024</title><link>https://firebase.google.com/support/releases#april_17_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_180" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#11.10.0"&gt;Firebase SDK for C++
-(v11.10.0)&lt;/a&gt; is now available.
-This release includes changes to Google Mobile Ads and &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, as
-well as other changes.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="rc-rollouts" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 17, 2024</title><link>https://firebase.google.com/support/releases#april_17_2024</link><description>&lt;h3 data-text="Remote Config" id="rc-rollouts" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now use &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; rollouts to gradually and safely launch new
 features and monitor success using &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Google Analytics&lt;/span&gt;. Rollouts are now available in the
 Firebase console and are supported in the Firebase Android BoM v32.6.0+
 and Firebase Apple SDK v10.24.0+. Learn more at
 &lt;a href="/docs/remote-config/rollouts"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; rollouts&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-remove-device-ipad5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following devices have been removed:
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-removed-devices-2024-04-17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following devices have been removed:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;ipad5: 15.4&lt;/li&gt;
-&lt;li&gt;ipadmini4: 15.4&lt;/li&gt;
-&lt;li&gt;iphone13pro: 15.2&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;ipad5/15.4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;ipadmini4/15.4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone13pro/15.2&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_180" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#11.10.0"&gt;Firebase SDK for C++
+(v11.10.0)&lt;/a&gt; is now available.
+This release includes changes to Google Mobile Ads and &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, as
+well as other changes.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v13.7.3)" id="cli-v13.7.3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.7.3)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.7.3"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.7.3)&lt;/a&gt;
@@ -3012,12 +3038,7 @@ is now available.
 This version includes minor internal improvements.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 18, 2024</title><link>https://firebase.google.com/support/releases#april_18_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_179" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#11.9.0"&gt;Firebase SDK for Unity
-(v11.9.0)&lt;/a&gt; is now available. This
-release includes bug fixes in App Check and &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, as well as other
-changes.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config-server-environments" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 18, 2024</title><link>https://firebase.google.com/support/releases#april_18_2024</link><description>&lt;h3 data-text="Remote Config" id="remote-config-server-environments" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt; now supports server-side configuration
 through the Firebase Admin Node.js SDK v12.1.0 or higher, letting you update
 server-side application behavior and configuration without changing your code.
@@ -3029,6 +3050,11 @@ will follow the adb threadtime format. This change will be rolled out
 gradually to users over the course of a week. The change will affect the
 logcat output file in GCS and logcat displayed in the Firebase Console.&lt;/p&gt;
 &lt;p&gt;To learn more, see &lt;a href="/docs/test-lab/android/analyzing-results#detailed"&gt;Detailed test results&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_179" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#11.9.0"&gt;Firebase SDK for Unity
+(v11.9.0)&lt;/a&gt; is now available. This
+release includes bug fixes in App Check and &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, as well as other
+changes.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate></item><item><title>April 23, 2024</title><link>https://firebase.google.com/support/releases#april_23_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_178" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; A new release of the
 &lt;a class="external" href="https://github.com/firebase/flutterfire/blob/master/CHANGELOG.md#2024-04-23"&gt;Firebase Flutter SDK&lt;/a&gt; 
@@ -3356,9 +3382,9 @@ is available.&lt;/p&gt;
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#10.28.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate></item><item><title>June 18, 2024</title><link>https://firebase.google.com/support/releases#june_18_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-remove-xcode-15.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following Xcode has been removed: Xcode 15.0.
-If you have not already done so, migrate to Xcode 15.3.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate></item><item><title>June 18, 2024</title><link>https://firebase.google.com/support/releases#june_18_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-removed-xcode-15.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following Xcode version has been removed: Xcode 15.0.
+If you haven't already, make sure to migrate to Xcode 15.3.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate></item><item><title>June 20, 2024</title><link>https://firebase.google.com/support/releases#june_20_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_162" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
@@ -3502,9 +3528,9 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 fields in a query. This feature is generally available (GA). For more
 information, see &lt;a href="https://firebase.google.com/docs/firestore/query-data/multiple-range-fields"&gt;Query with range and inequality filters on multiple fields
 overview&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate></item><item><title>July 30, 2024</title><link>https://firebase.google.com/support/releases#july_30_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecate-virtual-devices" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices have been deprecated and will be
-removed at a later date:&lt;/p&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate></item><item><title>July 30, 2024</title><link>https://firebase.google.com/support/releases#july_30_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2024-07-30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices are now deprecated and will be removed at
+a later date:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;Nexus5X/24&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Nexus5X/25&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;Nexus6/24&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Nexus6/25&lt;/code&gt;&lt;/li&gt;
@@ -3513,17 +3539,16 @@ removed at a later date:&lt;/p&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;Nexus9/24&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Nexus9/25&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;NexusLowRes/24&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;NexusLowRes/25&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you're currently using these devices,
-consider moving to an Arm virtual device (for example, &lt;code dir="ltr" translate="no"&gt;MediumPhone.arm&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices have been deprecated and will be
-removed at a later date:&lt;/p&gt;
+&lt;p&gt;If you currently use these devices, consider moving to an Arm virtual device
+(for example, &lt;code dir="ltr" translate="no"&gt;MediumPhone.arm&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices are now deprecated and will be removed at
+a later date:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;f2q/30&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;HWMHA/24&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;vivo_1906/28&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you're currently using these devices,
-consider moving to a different device.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;If you currently use these devices, consider moving to a different device now.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_153" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#11.0.0"&gt;Firebase Apple SDK (v11.0.0)&lt;/a&gt;
@@ -3651,10 +3676,14 @@ is now available. This release comes with improvements in the
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate></item><item><title>August 23, 2024</title><link>https://firebase.google.com/support/releases#august_23_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-PD1901-28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device has been deprecated and will
-be removed on 2024-09-30: &lt;code dir="ltr" translate="no"&gt;PD1901/28&lt;/code&gt;. If you are currently using
-this device, consider moving to an Arm virtual device (for example, &lt;code dir="ltr" translate="no"&gt;MediumPhone.arm&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate></item><item><title>August 23, 2024</title><link>https://firebase.google.com/support/releases#august_23_2024</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2024-08-23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device is now deprecated and will be removed on
+2024-09-30:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;PD1901/28&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you currently use this device, consider moving to an Arm virtual
+device (for example, &lt;code dir="ltr" translate="no"&gt;MediumPhone.arm&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate></item><item><title>August 27, 2024</title><link>https://firebase.google.com/support/releases#august_27_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#13.16.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v13.16.0)&lt;/a&gt;
@@ -4271,10 +4300,13 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 is now available. This release includes a fix in the Authentication API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate></item><item><title>January 06, 2025</title><link>https://firebase.google.com/support/releases#january_06_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-q2q-30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device has been deprecated and will
-be removed on 2025-02-05: &lt;code dir="ltr" translate="no"&gt;q2q/30&lt;/code&gt;. If you are currently using
-this device, please move to a different device.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate></item><item><title>January 06, 2025</title><link>https://firebase.google.com/support/releases#january_06_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2025-01-06" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device is now deprecated and will be removed on
+2025-02-05:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;q2q/30&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you currently use this device, consider moving to a different device now.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate></item><item><title>January 09, 2025</title><link>https://firebase.google.com/support/releases#january_09_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_119" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/java#9.4.3"&gt;Firebase Admin Java SDK (v9.4.3)&lt;/a&gt;
 is now available. This release updates the dependency on &lt;code dir="ltr" translate="no"&gt;libraries-bom&lt;/code&gt; to
@@ -4435,9 +4467,9 @@ release includes dependency updates, and Android 15 support.&lt;/p&gt;&lt;/li&gt
 is now available. This version includes bug fixes for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 18, 2025</title><link>https://firebase.google.com/support/releases#february_18_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecate-x86-devices" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices have been deprecated and will be removed
-on 2025-03-31:&lt;/p&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 18, 2025</title><link>https://firebase.google.com/support/releases#february_18_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2025-02-18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices are now deprecated and will be removed on
+2025-03-31:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;Nexus5X/24&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Nexus5X/25&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Nexus5X/26&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;Nexus6/24&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Nexus6/25&lt;/code&gt;&lt;/li&gt;
@@ -4453,8 +4485,8 @@ on 2025-03-31:&lt;/p&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;GoogleTvEmulator/30&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;SmallDesktop.x86/32&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you're currently using these devices, consider moving to an Arm virtual
-device (for example, &lt;code dir="ltr" translate="no"&gt;MediumPhone.arm&lt;/code&gt;). Please refer to
+&lt;p&gt;If you currently use these devices, consider moving to an Arm virtual device
+(for example, &lt;code dir="ltr" translate="no"&gt;MediumPhone.arm&lt;/code&gt;). See
 &lt;a href="/docs/test-lab/android/available-testing-devices#deprecated_devices"&gt;Deprecated devices&lt;/a&gt;
 for recommended replacements.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_109" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
@@ -4468,19 +4500,29 @@ bug fixes in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;s
 is now available. This version includes bug fixes for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 25, 2025</title><link>https://firebase.google.com/support/releases#february_25_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_108" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 25, 2025</title><link>https://firebase.google.com/support/releases#february_25_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-removed-devices-2025-02-25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following devices have been removed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;OnePlus9Pro/33&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;q2q/30&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2025-02-25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices are now deprecated and will be removed on
+2025-03-25:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;RED8BEL1/33&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;starqlteue/26&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you currently use these devices, consider moving to a different device now.
+See
+&lt;a href="/docs/test-lab/android/available-testing-devices#deprecated_devices"&gt;Deprecated devices&lt;/a&gt;
+for recommended replacements.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_108" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#11.9.0"&gt;Firebase Apple SDK (v11.9.0)&lt;/a&gt;
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#11.9.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-RED8BEL1-33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices have been removed: &lt;code dir="ltr" translate="no"&gt;OnePlus9Pro/33&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;q2q/30&lt;/code&gt;. The following devices have been deprecated and will
-be removed on 2025-03-25: &lt;code dir="ltr" translate="no"&gt;RED8BEL1/33&lt;/code&gt;,
-&lt;code dir="ltr" translate="no"&gt;starqlteue/26&lt;/code&gt;. If you are currently using these devices, consider
-moving to a different device. Please refer to
-&lt;a href="/docs/test-lab/android/available-testing-devices#deprecated_devices"&gt;Deprecated devices&lt;/a&gt;
-for recommended replacements.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 26, 2025</title><link>https://firebase.google.com/support/releases#february_26_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_107" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-8-0"&gt;Firebase SDK for Flutter
 (v3.8.0)&lt;/a&gt; is now available.
@@ -4524,15 +4566,15 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; In &lt;code dir="ltr" translate="no"&gt;@auth&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;@check&lt;/code&gt; expressions, &lt;code dir="ltr" translate="no"&gt;auth&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;request.auth&lt;/code&gt; now
 correctly returns &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt; when the request is unauthenticated. This fix has
 been applied to both the production service and the emulator.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate></item><item><title>March 04, 2025</title><link>https://firebase.google.com/support/releases#march_04_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecate-ios-14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices have been deprecated and will
-be removed on 2025-04-03:&lt;/p&gt;
+&lt;/ul&gt;</description><pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate></item><item><title>March 04, 2025</title><link>https://firebase.google.com/support/releases#march_04_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2025-03-04" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices are now deprecated and will be removed on
+2025-04-03:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone8/14.7&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone11pro/14.7&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone12pro/14.8&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you are currently using these devices, please move to a different device.&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;If you currently use these devices, consider moving to a different device now.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate></item><item><title>March 05, 2025</title><link>https://firebase.google.com/support/releases#march_05_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_105" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#13.2.0"&gt;Firebase Admin Node.js SDK (v13.2.0)&lt;/a&gt;
 is now available. This release comes with new features and fixes in the
@@ -4691,10 +4733,10 @@ This release includes changes in &lt;span class="notranslate"&gt;Cloud Functions
 and access to &lt;a href="/docs/cloud-messaging/ai-insights"&gt;Messaging
 insights&lt;/a&gt;. Learn more at
 &lt;a href="/docs/ai-assistance/gemini-in-firebase"&gt;Gemini in &lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-J606F-30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device has been deprecated and will
-be removed on 2025-05-03: J606F/30. If you are currently using
-this device, please move to a different device.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2025-04-03" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device is deprecated and will be removed on
+2025-05-03: &lt;code dir="ltr" translate="no"&gt;J606F/30&lt;/code&gt;.
+If you currently use this device, consider moving to a different device now.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v14.1.0)" id="cli-v14.1.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.1.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.1.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.1.0)&lt;/a&gt;
@@ -4702,8 +4744,8 @@ is now available. This version adds support for update transforms and server
 values in &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate></item><item><title>April 07, 2025</title><link>https://firebase.google.com/support/releases#april_07_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-removed-devices-april-2025" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following devices have been removed:
+&lt;/ul&gt;</description><pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate></item><item><title>April 07, 2025</title><link>https://firebase.google.com/support/releases#april_07_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-removed-devices-2025-04-07" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following devices have been removed:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone8/14.7&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone11pro/14.7&lt;/code&gt;&lt;/li&gt;
@@ -4958,36 +5000,7 @@ is now available. This release comes with a new specialized
 interface for bulk data operations in the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate></item><item><title>May 20, 2025</title><link>https://firebase.google.com/support/releases#may_20_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_91" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
-&lt;a href="/support/release-notes/ios#11.13.0"&gt;Firebase Apple SDK (v11.13.0)&lt;/a&gt;
-is now available. For more details, see the
-&lt;a href="/support/release-notes/ios#11.13.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
-To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-Firebase AI Logic, Authentication, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;,
-&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;
-have been updated. For more details, check out the latest
-&lt;a href="/support/release-notes/android#2025-05-20"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
-&lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
-has been updated to v33.14.0. Learn how to
-&lt;a href="/docs/android/learn-more#bom"&gt;add SDKs to your app using the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
-&lt;a href="/support/release-notes/js#11.8.0"&gt;Firebase JavaScript SDK (v11.8.0)&lt;/a&gt;
-is now available. For more details, see the
-&lt;a href="/support/release-notes/js#11.8.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
-To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-11-0"&gt;Firebase SDK for Flutter
-(v3.11.0)&lt;/a&gt; is now available.
-This release includes release of Firebase AI Logic SDK, and bug fixes in
-Authentication and &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#12.9.0"&gt;Firebase SDK for Unity
-(v12.9.0)&lt;/a&gt; is now available. This
-release includes the release of the new Firebase AI Logic SDK, as well as a
-fix for Windows requiring iOS support.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Hosting" id="app-hosting-io-2025" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate></item><item><title>May 20, 2025</title><link>https://firebase.google.com/support/releases#may_20_2025</link><description>&lt;h3 data-text="App Hosting" id="app-hosting-io-2025" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Hosting&lt;/span&gt; has introduced new options for deploying your app
 to production. Now, in addition to GitHub-triggered rollouts, you can:&lt;/p&gt;
 &lt;ul&gt;
@@ -5068,9 +5081,38 @@ when you're using the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notr
 &lt;a href="/docs/ai-logic/monitoring#ai-monitoring-in-console"&gt;&lt;strong&gt;AI monitoring in the Firebase console&lt;/strong&gt;&lt;/a&gt;
 helps you observe various app-level metrics and usage to gain comprehensive
 visibility into your requests from the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDKs.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-remove-xcode-15.3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following Xcode has been removed: Xcode 15.3.
-If you have not already done so, migrate to Xcode 16.2.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-removed-xcode-15.3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following Xcode version has been removed: Xcode 15.3.
+If you haven't already, make sure to migrate to Xcode 16.2.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_91" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
+&lt;a href="/support/release-notes/ios#11.13.0"&gt;Firebase Apple SDK (v11.13.0)&lt;/a&gt;
+is now available. For more details, see the
+&lt;a href="/support/release-notes/ios#11.13.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
+To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
+Firebase AI Logic, Authentication, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;,
+&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;
+have been updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2025-05-20"&gt;Android Release Notes&lt;/a&gt;.
+To get started with Firebase in Android, see
+&lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
+has been updated to v33.14.0. Learn how to
+&lt;a href="/docs/android/learn-more#bom"&gt;add SDKs to your app using the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-javascript"&gt;&lt;/span&gt; The
+&lt;a href="/support/release-notes/js#11.8.0"&gt;Firebase JavaScript SDK (v11.8.0)&lt;/a&gt;
+is now available. For more details, see the
+&lt;a href="/support/release-notes/js#11.8.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
+To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v3-11-0"&gt;Firebase SDK for Flutter
+(v3.11.0)&lt;/a&gt; is now available.
+This release includes release of Firebase AI Logic SDK, and bug fixes in
+Authentication and &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#12.9.0"&gt;Firebase SDK for Unity
+(v12.9.0)&lt;/a&gt; is now available. This
+release includes the release of the new Firebase AI Logic SDK, as well as a
+fix for Windows requiring iOS support.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate></item><item><title>May 21, 2025</title><link>https://firebase.google.com/support/releases#may_21_2025</link><description>&lt;h3 data-text="Firebase" id="android-device-streaming-ga" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Android Device Streaming, powered by Firebase console, is now
 generally available (GA). Android Device Streaming lets you interact with and
@@ -5189,7 +5231,10 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#11.15.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate></item><item><title>June 26, 2025</title><link>https://firebase.google.com/support/releases#june_26_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_83" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate></item><item><title>June 26, 2025</title><link>https://firebase.google.com/support/releases#june_26_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-removed-devices-2025-06-26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following device has been removed: &lt;code dir="ltr" translate="no"&gt;shiba_beta/35&lt;/code&gt;.
+If you currently use this device, consider moving to this device: &lt;code dir="ltr" translate="no"&gt;shiba/35&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_83" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, and
 &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;
@@ -5207,9 +5252,6 @@ for Android (v4.4.3) is now available. For more information, see the
 &lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#12.10.1"&gt;Firebase SDK for Unity
 (v12.10.1)&lt;/a&gt; is now available. This
 release includes an iOS 15 bug fix.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-remove-device-shiba_beta-35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following device has been removed: shiba_beta/35. Use
-shiba/35 instead.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v14.9.0)" id="cli-v14.9.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.9.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#14.9.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.9.0)&lt;/a&gt;
@@ -5347,11 +5389,15 @@ recipient's email&lt;/strong&gt; feature lets you add a restriction on which acc
 your testers can use to accept testing invitations. For more information, see
 &lt;a href="/docs/app-distribution/add-remove-search-testers"&gt;Add, remove, and search for testers in App
 Distribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-remove-device-RED8BEL1-33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following device has been removed: RED8BEL1/33.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecate-device-eqe-35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device has been deprecated and will
-be removed on 2025-09-04: &lt;code dir="ltr" translate="no"&gt;eqe/35&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-removed-devices-2025-08-05" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following device has been removed: &lt;code dir="ltr" translate="no"&gt;RED8BEL1/33&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2025-08-05" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following device is now deprecated and will be removed on
+2025-09-04:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code dir="ltr" translate="no"&gt;eqe/35&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you currently use this device, consider moving to a different device now.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate></item><item><title>August 06, 2025</title><link>https://firebase.google.com/support/releases#august_06_2025</link><description>&lt;h3 data-text="App Hosting" id="fah-routing-billing" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Hosting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Route-based monitoring is now available in 
 &lt;span class="notranslate"&gt;Firebase App Hosting&lt;/span&gt;. Providing deep, actionable insights into your
@@ -5693,15 +5739,7 @@ perform complex tasks like solving mathematical equations or visualizing data.&l
 (v13.3.0)&lt;/a&gt; is now available. This
 release includes new features in Firebase AI and a bug fix in
 &lt;span class="notranslate"&gt;FCM&lt;/span&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 30, 2025</title><link>https://firebase.google.com/support/releases#september_30_2025</link><description>&lt;h3 data-text="Firebase CLI (v14.18.0)" id="cli-v14.18.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.18.0)&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
-&lt;a href="/support/release-notes/cli#14.18.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.18.0)&lt;/a&gt;
-is now available. This version graduates the MCP server from experimental
-to &lt;code dir="ltr" translate="no"&gt;mcp&lt;/code&gt;, adds new features and fixes for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and
-includes fixes for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and &lt;span class="notranslate"&gt;Hosting&lt;/span&gt;.
-To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
-&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="ai-logic-ai-monitoring-imagen" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate></item><item><title>September 30, 2025</title><link>https://firebase.google.com/support/releases#september_30_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-ai-monitoring-imagen" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now provides the following new features for
 &lt;a href="/docs/ai-logic/monitoring#ai-monitoring-in-console"&gt;AI monitoring in the Firebase console&lt;/a&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -5711,9 +5749,17 @@ insights into your app's image generation workflows.&lt;/li&gt;
 providing a complete overview of your model's usage, performance, and
 safety.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-ios-xcode" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; Xcode 16.4 is now the default version. If you have not done
-so, migrate to Xcode 16.4.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-added-xcode-16.4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Xcode 16.4 is now available.
+If you haven't already, consider migrating to Xcode 16.4 now.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v14.18.0)" id="cli-v14.18.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.18.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#14.18.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v14.18.0)&lt;/a&gt;
+is now available. This version graduates the MCP server from experimental
+to &lt;code dir="ltr" translate="no"&gt;mcp&lt;/code&gt;, adds new features and fixes for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;, and
+includes fixes for &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and &lt;span class="notranslate"&gt;Hosting&lt;/span&gt;.
+To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate></item><item><title>October 07, 2025</title><link>https://firebase.google.com/support/releases#october_07_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-live-api-swift" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now additionally supports using the
 &lt;em&gt;Firebase Apple SDK&lt;/em&gt; (v12.4.0+) with the &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt;. (This capability
@@ -5828,15 +5874,9 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;a href="/docs/firestore/enterprise/create-databases#clone-database"&gt;Enterprise&lt;/a&gt;)
 is now supported at the General Availability
 (&lt;a href="https://cloud.google.com/products#product-launch-stages"&gt;GA&lt;/a&gt;) level.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 28, 2025</title><link>https://firebase.google.com/support/releases#october_28_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_52" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
-&lt;a href="/support/release-notes/ios#12.5.0"&gt;Firebase Apple SDK (v12.5.0)&lt;/a&gt;
-is now available. For more details, see the
-&lt;a href="/support/release-notes/ios#12.5.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
-To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecated-iphone-8-13pro-15-15pro" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices have been deprecated and will
-be removed on 2025-11-28:&lt;/p&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 28, 2025</title><link>https://firebase.google.com/support/releases#october_28_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2025-10-28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices are now deprecated and will be removed on
+2025-11-28:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone8/15.7&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone13pro/15.7&lt;/code&gt;&lt;/li&gt;
@@ -5844,12 +5884,20 @@ be removed on 2025-11-28:&lt;/p&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone15/18.0&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone15pro/18.0&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you are using these devices, move to a different device.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; To better support your testing needs, &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has updated the
-iOS default device to iphone16pro 18.3. To learn more about our devices, see
-&lt;a href="/docs/test-lab/ios/available-testing-devices"&gt;Available devices in &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has added iphonese3 18.4 and
-iphone16pro, 18.3 to the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; device catalog!&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;If you currently use these devices, consider moving to a different device now.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-default-device-2025-10-28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; To better support your testing needs, &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has updated the
+iOS default device to &lt;code dir="ltr" translate="no"&gt;iphone16pro/18.3&lt;/code&gt;. To learn more about our devices, see
+&lt;a href="/docs/test-lab/ios/available-testing-devices"&gt;Available devices in &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-added-devices-2025-10-28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; has added &lt;code dir="ltr" translate="no"&gt;iphonese3/18.4&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;iphone16pro/18.3&lt;/code&gt; to
+the &lt;span class="notranslate"&gt;Test Lab&lt;/span&gt; device catalog!&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_52" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
+&lt;a href="/support/release-notes/ios#12.5.0"&gt;Firebase Apple SDK (v12.5.0)&lt;/a&gt;
+is now available. For more details, see the
+&lt;a href="/support/release-notes/ios#12.5.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
+To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate></item><item><title>October 30, 2025</title><link>https://firebase.google.com/support/releases#october_30_2025</link><description>&lt;h3 data-text="Firebase Crashlytics" id="crashlytics-mcp-tools-launch" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now use
 &lt;a href="/docs/crashlytics/ai-assistance-mcp"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; MCP tools and prompts&lt;/a&gt;
@@ -6086,9 +6134,9 @@ via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/sp
 &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, make sure to
 &lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
 &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-remove-xcode-16.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following Xcode has been removed: Xcode 16.2.
-If you have not already done so, migrate to Xcode 16.4.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-removed-xcode-16.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following Xcode version has been removed: Xcode 16.2.
+If you haven't already, make sure to migrate to Xcode 16.4.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_43" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#13.6.0"&gt;Firebase SDK for Unity
 (v13.6.0)&lt;/a&gt; is now available. This
@@ -6109,8 +6157,8 @@ is now available. This version adds support for nodejs24 beta runtime for
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; and includes other improvements and fixes.
 To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 28, 2025</title><link>https://firebase.google.com/support/releases#november_28_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-remove-iphone-8-13pro-15-15pro" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following devices have been removed:
+&lt;/ul&gt;</description><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 28, 2025</title><link>https://firebase.google.com/support/releases#november_28_2025</link><description>&lt;h3 data-text="Test Lab" id="testlab-removed-devices-2025-11-28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; The following devices have been removed:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone8/15.7&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;iphone13pro/15.7&lt;/code&gt;&lt;/li&gt;
@@ -7029,25 +7077,33 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 (v4.15.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, Core and
 &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, and bug fixes in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and Authentication.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate></item><item><title>June 02, 2026</title><link>https://firebase.google.com/support/releases#june_02_2026</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate></item><item><title>June 03, 2026</title><link>https://firebase.google.com/support/releases#june_03_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.19.1)" id="cli-v15.19.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.19.1)&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate></item><item><title>June 02, 2026</title><link>https://firebase.google.com/support/releases#june_02_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#13.8.0"&gt;Firebase SDK for C++
+(v13.8.0)&lt;/a&gt; is now available.
+This release includes miscellaneous changes.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate></item><item><title>June 03, 2026</title><link>https://firebase.google.com/support/releases#june_03_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.19.1)" id="cli-v15.19.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.19.1)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#15.19.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.19.1)&lt;/a&gt;
 is now available. This version updates &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; genAI
 features to use the new Agent Service API, and updates the
 &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit to v3.4.10.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
-&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 data-text="June 02, 2026" id="june_02_2026" tabindex="-1"&gt;June 02, 2026&lt;/h2&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_3" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#13.8.0"&gt;Firebase SDK for C++
-(v13.8.0)&lt;/a&gt; is now available.
-This release includes miscellaneous changes.&lt;/li&gt;
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate></item><item><title>June 04, 2026</title><link>https://firebase.google.com/support/releases#june_04_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_2" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#13.12.0"&gt;Firebase SDK for Unity
 (v13.12.0)&lt;/a&gt; is now available. This
 release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; and miscellaneous changes.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate></item><item><title>June 08, 2026</title><link>https://firebase.google.com/support/releases#june_08_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#14.0.0"&gt;Firebase Admin Node.js SDK (v14.0.0)&lt;/a&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
+&lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt;
+have been updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2026-06-08"&gt;Android Release Notes&lt;/a&gt;.
+To get started with Firebase in Android, see
+&lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
+has been updated to v34.14.1. Learn how to
+&lt;a href="/docs/android/learn-more#bom"&gt;add SDKs to your app using the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-admin"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/admin/node#14.0.0"&gt;Firebase Admin Node.js SDK (v14.0.0)&lt;/a&gt;
 is now available. Starting from this release, the Admin SDK requires Node.js
 22 or higher. This release also comes with improvements and new features in
 the core SDK, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, Authentication, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, and
@@ -7056,7 +7112,7 @@ error handling revamp allowing for more detailed error handling capabilities.
 See the
 &lt;a href="/docs/reference/admin/error-handling"&gt;error handling guide&lt;/a&gt; for more details.
 To install this SDK, see
-&lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/li&gt;
+&lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate></item><item><title>June 10, 2026</title><link>https://firebase.google.com/support/releases#june_10_2026</link><description>&lt;h3 data-text="Firebase extension for Gemini CLI" id="gemini-cli-extension-deprecated" tabindex="-1"&gt;Firebase extension for &lt;span class="notranslate"&gt;Gemini CLI&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; With &lt;span class="notranslate"&gt;Gemini CLI&lt;/span&gt; transitioning to &lt;span class="notranslate"&gt;Antigravity CLI&lt;/span&gt;, the
 Firebase extension for &lt;span class="notranslate"&gt;Gemini CLI&lt;/span&gt; will stop working starting June 18,
@@ -7068,6 +7124,7 @@ before this date. If you're a new user, follow the instructions
 to &lt;a href="/docs/ai-assistance/agent-skills#install-skills"&gt;install Firebase agent skills&lt;/a&gt; directly.
 For details on the migration timeline, see the
 &lt;a class="external" href="https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/#important-timeline-for-consumers"&gt;transition announcement&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="test_lab" tabindex="-1"&gt;Test Lab&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; Xcode 26.2 is now available. If you have not already done so, migrate to Xcode 26.2.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-added-xcode-26.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Xcode 26.2 is now available.
+If you haven't already, consider migrating to Xcode 26.2 now.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate></item></channel></rss>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 11 Jun 2026 10:16:18 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 11 Jun 2026 15:51:27 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -8111,4 +8111,36 @@ authority.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8136"&gt;#8136&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution API version 16.0.0-beta19" id="app-distro-api_v16-0-0-beta19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; API version 16.0.0-beta19&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Bumped internal dependencies.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - May 28, 2026</title><link>https://firebase.google.com/support/release-notes/android#2026-05-28</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 34.14.0" id="bom_v34-14-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 34.14.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 17.12.1" id="ai_v17-12-1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.12.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;retrievalConfig&lt;/code&gt; argument to &lt;code dir="ltr" translate="no"&gt;TemplateToolConfig&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8188"&gt;#8188&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed citation indices to be native UTF-16 instead of UTF-8.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8056"&gt;#8056&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check version 19.1.0" id="appcheck_v19-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 19.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue preventing limited-use tokens from being correctly
+generated.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8204"&gt;#8204&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added new &lt;code dir="ltr" translate="no"&gt;getLimitedUseToken()&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;AppCheckProvider&lt;/code&gt; interface,
+that defaults to calling &lt;code dir="ltr" translate="no"&gt;getToken()&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8204"&gt;#8204&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue preventing limited-use tokens from being correctly
+generated.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8204"&gt;#8204&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue preventing limited-use tokens from being correctly
+generated.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8204"&gt;#8204&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 17.3.0" id="data-connect_v17-3-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 17.3.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;a href="/docs/sql-connect/realtime"&gt;realtime updates&lt;/a&gt;
+to &lt;code dir="ltr" translate="no"&gt;QuerySubscription.flow&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8186"&gt;#8186&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal fix of wasteful computation only meant for debug logging.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8126"&gt;#8126&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal change to replace &lt;code dir="ltr" translate="no"&gt;SecureRandom&lt;/code&gt; with just &lt;code dir="ltr" translate="no"&gt;Random&lt;/code&gt;
+as the random numbers were not used in a security-sensitive context,
+thus the performance costs of secure random number generation were unnecessary.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8154"&gt;#8154&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
