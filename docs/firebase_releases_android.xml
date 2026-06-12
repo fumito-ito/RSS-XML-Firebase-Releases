@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 12 Jun 2026 17:34:54 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 12 Jun 2026 20:04:15 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -8134,8 +8134,8 @@ generated.
 generated.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8204"&gt;#8204&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SQL Connect version 17.3.0" id="data-connect_v17-3-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 17.3.0&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;a href="/docs/sql-connect/realtime"&gt;realtime updates&lt;/a&gt;
-to &lt;code dir="ltr" translate="no"&gt;QuerySubscription.flow&lt;/code&gt;.
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;a href="/docs/sql-connect/realtime"&gt;realtime query&lt;/a&gt; support.
+Namely, &lt;code dir="ltr" translate="no"&gt;QuerySubscription.flow&lt;/code&gt; now emits new results in realtime.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8186"&gt;#8186&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal fix of wasteful computation only meant for debug logging.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8126"&gt;#8126&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
