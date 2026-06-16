@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 16 Jun 2026 20:44:58 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 16 Jun 2026 22:50:52 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -5412,6 +5412,54 @@ resulting in occasional prompt refusals. (&lt;a href="//github.com/firebase/fire
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;AppAttestProviderFactory&lt;/code&gt; to simplify App Check setup when
 using the App Attest provider. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16182"&gt;#16182&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v12-14-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition crash in &lt;code dir="ltr" translate="no"&gt;FPRConfigurations&lt;/code&gt; by making
+&lt;code dir="ltr" translate="no"&gt;remoteConfigFlags&lt;/code&gt; atomic and explicitly nullable. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16144"&gt;#16144&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an &lt;code dir="ltr" translate="no"&gt;Info.plist&lt;/code&gt; array key
+&lt;code dir="ltr" translate="no"&gt;firebase_performance_swizzle_denylist&lt;/code&gt; listing class names to skip when
+registering swizzling instrumentors. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8277"&gt;#8277&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.15.0 - June 16, 2026</title><link>https://firebase.google.com/support/release-notes/ios#version_12150_-_june_16_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Firebase now requires Swift tools version 6.1 for the Swift Package.
+The package will no longer resolve in Xcode versions older than 16.3. Note that
+the minimum officially supported version for the SDK remains Xcode 26.2+.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="ai_v12-15-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Made Firebase App Check a dependency of Firebase AI Logic to
+simplify App Check setup. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16185"&gt;#16185&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a namespace collision with the new
+&lt;code dir="ltr" translate="no"&gt;FoundationModels.LanguageModelSession.Error&lt;/code&gt; type introduced in Xcode 27 Beta. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16252"&gt;#16252&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;SpeechConfig&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;GenerationConfig&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;MultiSpeakerVoiceConfig&lt;/code&gt;
+in &lt;code dir="ltr" translate="no"&gt;SpeechConfig&lt;/code&gt;. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16226"&gt;#16226&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_v12-15-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed invalid module maps in &lt;code dir="ltr" translate="no"&gt;GoogleAppMeasurement&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;GoogleAppMeasurementIdentitySupport&lt;/code&gt;
+(&lt;a href="https://github.com/firebase/firebase-ios-sdk/issues/16151"&gt;#16151&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a dangling pointer issue.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="appcheck_v12-15-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a reCAPTCHA attestation provider. Using this provider requires the
+&lt;a href="https://docs.cloud.google.com/recaptcha/docs/instrument-ios-apps#prepare-environment"&gt;reCAPTCHA Enterprise SDK to be installed&lt;/a&gt;,
+enabling the reCAPTCHA provider on the Firebase App Check console, and
+replacing the local &lt;code dir="ltr" translate="no"&gt;GoogleService-Info.plist&lt;/code&gt; with one redownloaded from
+the project settings on the Firebase console.&lt;/p&gt;
+&lt;aside class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;span&gt; This capability is gradually rolling out and will be available to
+all projects by end-of-June 2026.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;AppCheckDebugProvider&lt;/code&gt; documentation to recommend the
+generic &lt;code dir="ltr" translate="no"&gt;AppCheckDebugToken&lt;/code&gt; environment variable instead of the legacy
+&lt;code dir="ltr" translate="no"&gt;FIRAAppCheckDebugToken&lt;/code&gt;. Note that &lt;code dir="ltr" translate="no"&gt;FIRAAppCheckDebugToken&lt;/code&gt; remains
+supported for backwards compatibility, with &lt;code dir="ltr" translate="no"&gt;AppCheckDebugToken&lt;/code&gt; taking
+priority if both are set. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16230"&gt;#16230&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The default App Check provider when running on a simulator is now
+the &lt;a href="https://firebase.google.com/docs/app-check/ios/debug-provider"&gt;debug provider&lt;/a&gt;;
+physical devices now default to reCAPTCHA if the
+&lt;a href="https://docs.cloud.google.com/recaptcha/docs/instrument-ios-apps#prepare-environment"&gt;reCAPTCHA Enterprise SDK is
+installed&lt;/a&gt;,
+and fall back to the
+&lt;a href="https://firebase.google.com/docs/app-check/ios/devicecheck-provider"&gt;DeviceCheck provider&lt;/a&gt;
+otherwise. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16190"&gt;#16190&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed redundant debug token warning log. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16197"&gt;#16197&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Log an actionable warning when debug token exchange fails. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16232"&gt;#16232&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore_v12-15-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Remove use of designated initializers for &lt;code dir="ltr" translate="no"&gt;forceIndex&lt;/code&gt; [#16229].&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v12-15-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition crash in &lt;code dir="ltr" translate="no"&gt;FPRConfigurations&lt;/code&gt; by making
 &lt;code dir="ltr" translate="no"&gt;remoteConfigFlags&lt;/code&gt; atomic and explicitly nullable. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16144"&gt;#16144&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an &lt;code dir="ltr" translate="no"&gt;Info.plist&lt;/code&gt; array key
