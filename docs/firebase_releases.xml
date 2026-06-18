@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 18 Jun 2026 18:05:44 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 18 Jun 2026 22:53:50 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -5903,7 +5903,7 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;a href="/docs/crashlytics/ai-assistance-mcp"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; MCP tools and prompts&lt;/a&gt;
 to help you manage, prioritize, debug, and fix &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; issues using
 your choice of MCP-capable AI-powered development tools (like
-&lt;span class="notranslate"&gt;Gemini CLI&lt;/span&gt;, Claude Code, or Cursor).&lt;/li&gt;
+&lt;span class="notranslate"&gt;Antigravity&lt;/span&gt;, Claude Code, or Cursor).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="ai-logic-hybrid-determine-inference-mode" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; When using hybrid on-device inference with either the
 &lt;code dir="ltr" translate="no"&gt;PREFER_ON_DEVICE&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;PREFER_IN_CLOUD&lt;/code&gt; mode, you can now
