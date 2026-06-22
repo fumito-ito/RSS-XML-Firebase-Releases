@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 22 Jun 2026 20:39:48 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 22 Jun 2026 22:43:41 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2275,8 +2275,8 @@ correctly.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed the default timeout for Dart functions to be 60 seconds
 when not explicitly set.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10501"&gt;#10501&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for secret environment variables for Cloud Run
-functions.
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for secret environment variables for
+&lt;span class="notranslate"&gt;Cloud Run&lt;/span&gt; functions.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10489"&gt;#10489&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Set requiredProjectBindings in AI Logic services.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10503"&gt;#10503&lt;/a&gt;)&lt;/li&gt;
@@ -2308,4 +2308,38 @@ services during &lt;code dir="ltr" translate="no"&gt;firebase deploy&lt;/code&gt
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10616"&gt;#10616&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for setting the Google Cloud Storage (GCS) test
 results bucket in &lt;code dir="ltr" translate="no"&gt;apptesting:execute&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;appdistribution:distribute&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.21.0 - June 17, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15210_-_june_17_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for declaring additional API dependencies in &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10621"&gt;#10621&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added mock Passkey (WebAuthn) support to the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10636"&gt;#10636&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a &lt;code dir="ltr" translate="no"&gt;spawn activate.bat ENOENT&lt;/code&gt; error on Windows when initializing Python functions.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10608"&gt;#10608&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Cloud Run rewrites in the &lt;span class="notranslate"&gt;Hosting&lt;/span&gt; emulator would always hit the live Cloud Run API instead of routing to the local functions emulator.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10588"&gt;#10588&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed a temporary warning directing Dart functions users to the &lt;span class="notranslate"&gt;Google Cloud&lt;/span&gt; console, as the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console now supports Dart functions.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10584"&gt;#10584&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v3.4.11. Changes include:
+&lt;ul&gt;
+&lt;li&gt;Updated the Go dependency version to 1.25.11.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;code dir="ltr" translate="no"&gt;apptesting:execute&lt;/code&gt; command rejected documented &lt;code dir="ltr" translate="no"&gt;--test-username&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;--test-password&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;--test-password-file&lt;/code&gt; options.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated web frameworks to warn about missing SSRF protection configuration in Angular 22 deployments.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10523"&gt;#10523&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Astro 6 SSR deployments returned HTTP 500 by preserving the &lt;code dir="ltr" translate="no"&gt;server/&lt;/code&gt; directory in the generated Cloud Function.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10537"&gt;#10537&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;login:*&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;target:*&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;ext:*&lt;/code&gt; subcommands were missing from &lt;code dir="ltr" translate="no"&gt;firebase --help&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.22.0 - June 18, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15220_-_june_18_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;apphosting:secrets:revokeaccess&lt;/code&gt; command.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10669"&gt;#10669&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated Pub/Sub emulator to version 0.8.33.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator to v3.4.12. Changes include:
+&lt;ul&gt;
+&lt;li&gt;Fixed non-deterministic output order of generated SDK files when compiled from multiple GraphQL source files.&lt;/li&gt;
+&lt;li&gt;Optimized singular relation filters on primary keys to avoid &lt;code dir="ltr" translate="no"&gt;EXISTS&lt;/code&gt; subqueries.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.22.1 - June 22, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15221_-_june_22_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed various issues with the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator and deployment by updating the binary to version 3.4.13.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Temporarily pinned the &lt;code dir="ltr" translate="no"&gt;firebase-tools&lt;/code&gt; Docker image to Node 24.16.0 to mitigate a Node.js issue.
+(&lt;a class="external" href="https://github.com/nodejs/node/issues/63989"&gt;#63989&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
