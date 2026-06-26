@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 26 Jun 2026 14:14:41 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 26 Jun 2026 16:58:19 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2342,4 +2342,22 @@ results bucket in &lt;code dir="ltr" translate="no"&gt;apptesting:execute&lt;/co
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed various issues with the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; emulator and deployment by updating the binary to version 3.4.13.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Temporarily pinned the &lt;code dir="ltr" translate="no"&gt;firebase-tools&lt;/code&gt; Docker image to Node 24.16.0 to mitigate a Node.js issue.
 (&lt;a class="external" href="https://github.com/nodejs/node/issues/63989"&gt;#63989&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.22.2 - June 24, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15222_-_june_24_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded &lt;code dir="ltr" translate="no"&gt;zod&lt;/code&gt; to v4 and dropped the deprecated
+&lt;code dir="ltr" translate="no"&gt;zod-to-json-schema&lt;/code&gt; dependency in favor of zod v4's built-in
+&lt;code dir="ltr" translate="no"&gt;z.toJSONSchema()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit to
+v3.4.14. Changes include:
+&lt;ul&gt;
+&lt;li&gt;Fixed linter warnings in generated Kotlin SDK files.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed calls to &lt;code dir="ltr" translate="no"&gt;cloudbilling.googleapis.com&lt;/code&gt; to use user
+project quota to avoid shared quota exhaustion issues.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an intermittent &lt;code dir="ltr" translate="no"&gt;Premature close&lt;/code&gt; error during login and
+API requests by retrying once without keep-alive.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10692"&gt;#10692&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.22.3 - June 25, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15223_-_june_25_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Disabled 'keep-alive' in &lt;code dir="ltr" translate="no"&gt;google-auth-library&lt;/code&gt; calls to avoid
+&lt;code dir="ltr" translate="no"&gt;Premature close&lt;/code&gt; errors on some Node versions.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10716"&gt;#10716&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
