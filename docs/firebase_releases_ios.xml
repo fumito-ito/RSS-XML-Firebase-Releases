@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 08 Jul 2026 19:18:27 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 08 Jul 2026 22:01:30 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -5465,4 +5465,43 @@ otherwise. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16190"&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an &lt;code dir="ltr" translate="no"&gt;Info.plist&lt;/code&gt; array key
 &lt;code dir="ltr" translate="no"&gt;firebase_performance_swizzle_denylist&lt;/code&gt; listing class names to skip when
 registering swizzling instrumentors. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8277"&gt;#8277&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.16.0 - July 8, 2026</title><link>https://firebase.google.com/support/release-notes/ios#version_12160_-_july_8_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai_v12-16-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a decoding failure in &lt;code dir="ltr" translate="no"&gt;GenerateContentResponse&lt;/code&gt; when the Vertex AI
+backend returns citation metadata with a missing &lt;code dir="ltr" translate="no"&gt;endIndex&lt;/code&gt;. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16328"&gt;#16328&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;generateContentStream&lt;/code&gt; could stall indefinitely
+on mid-stream network drops. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16298"&gt;#16298&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a resource leak where background network requests would
+continue downloading if the stream consumer terminated early. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16298"&gt;#16298&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_v12-16-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; CocoaPods only: Updated license type.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="appcheck_v12-16-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed error message for missing &lt;code dir="ltr" translate="no"&gt;FirebaseApp.configure()&lt;/code&gt; to
+properly articulate supported methods. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16294"&gt;#16294&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="auth_v12-16-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Refactored the integrated OAuth sign in UI to not rely on
+the deprecated &lt;code dir="ltr" translate="no"&gt;UIScreen.main.bounds&lt;/code&gt; API for Mac Catalyst rendering.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16274"&gt;#16274&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the integrated OAuth sign in UI wasn't
+taking up the full screen when rendered in Mac Catalyst apps. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16274"&gt;#16274&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed error message for missing &lt;code dir="ltr" translate="no"&gt;FirebaseApp.configure()&lt;/code&gt; to
+properly articulate supported methods. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16294"&gt;#16294&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_v12-16-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix deadlock in user logging on reentrant queue access. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16163"&gt;#16163&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore_v12-16-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Migrates the network connectivity monitoring implementation for
+Apple platforms from the legacy SCNetworkReachability API to the modern
+NWPathMonitor API.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Installations" id="installations_v12-16-0" tabindex="-1"&gt;Installations&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed error message for missing &lt;code dir="ltr" translate="no"&gt;FirebaseApp.configure()&lt;/code&gt; to
+properly articulate supported methods. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16294"&gt;#16294&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v12-16-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for the new FCM registration API. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16133"&gt;#16133&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v12-16-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash in &lt;code dir="ltr" translate="no"&gt;FPRMemoryGaugeCollector&lt;/code&gt; by collecting memory usage
+with &lt;code dir="ltr" translate="no"&gt;task_info(TASK_VM_INFO)&lt;/code&gt; instead of &lt;code dir="ltr" translate="no"&gt;malloc_zone_statistics()&lt;/code&gt;, which
+could abort the process inside the malloc subsystem on devices using the XZM
+allocator. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16121"&gt;#16121&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when Firebase Performance instruments NSProxy NSURLSession delegates
+that report a wrapped object's class. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16254"&gt;#16254&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
