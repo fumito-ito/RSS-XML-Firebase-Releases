@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 09 Jul 2026 14:48:14 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 09 Jul 2026 17:19:07 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -7301,4 +7301,9 @@ is now available. This release comes with new features and deprecations in the
 &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate></item><item><title>July 09, 2026</title><link>https://firebase.google.com/support/releases#july_09_2026</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics-profiling-manager-triggers" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; For devices running on Android 17 or higher, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; now
+groups &lt;a class="external" href="https://android-developers.googleblog.com/2026/06/prioritizing-memory-efficiency-steps-for-android-17.html#Advanced"&gt;memory-related
+terminations&lt;/a&gt;,
+such as Low Memory Kills and Out of Memory exceptions, into distinct issues.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate></item></channel></rss>
