@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 11 Jul 2026 18:55:33 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 11 Jul 2026 21:43:48 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Launch of new APIs and &lt;a class="link external gc-analytics-event" data-action="linkClick" data-category="console" href="https://console.firebase.google.com/"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_74" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The way you install and initialize the SDK has changed and several
@@ -1169,7 +1169,7 @@ operating system. See
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; on web apps.  See
 &lt;a href="/docs/analytics/get-started"&gt;Get started with Google Analytics&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; on web apps. See
 &lt;a href="/docs/remote-config/use-config-web"&gt;Get started with &lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt; on web&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.1.0 - October 3, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_710_-_october_3_2019</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_144" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1188,7 +1188,7 @@ importing firebase as an all-in-one package.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.2.0 - October 10, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_720_-_october_10_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;Installations.getToken()&lt;/code&gt; method now accept an optional
 &lt;code dir="ltr" translate="no"&gt;forceRefresh&lt;/code&gt; parameter.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Corrected the path of the &lt;code dir="ltr" translate="no"&gt;main&lt;/code&gt; script in &lt;code dir="ltr" translate="no"&gt;package.json&lt;/code&gt; file.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.2.1 - October 16, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_721_-_october_16_2019</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_143" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash on iOS 13 that occurred when persistence was enabled
@@ -1239,7 +1239,7 @@ Addresses &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/2203"&g
 Thanks &lt;a href="https://github.com/camsjams"&gt;camsjams&lt;/a&gt; for the &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/2379"&gt;contribution&lt;/a&gt;!&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where RxFire's &lt;code dir="ltr" translate="no"&gt;objectVal&lt;/code&gt; will return an empty object
 if the result of &lt;code dir="ltr" translate="no"&gt;snapshot.val()&lt;/code&gt; is not an object.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where the promises returned by &lt;code dir="ltr" translate="no"&gt;fetch()&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;fetchAndActivate()&lt;/code&gt; were not rejected with errors caused by &lt;code dir="ltr" translate="no"&gt;indexeddb&lt;/code&gt;
 operations. You can now handle these errors in the error handler of the returned
@@ -1998,7 +1998,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5480"&gt;GitH
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed wrongly-typed &lt;code dir="ltr" translate="no"&gt;tenantId&lt;/code&gt; fields in requests to some endpoints.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_75" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where &lt;code dir="ltr" translate="no"&gt;UpdateData&lt;/code&gt; did not recognize union types or optional, dot-separated string fields.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an &lt;code dir="ltr" translate="no"&gt;isSupported()&lt;/code&gt; function. You can use this function to check if the current
 environment supports &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;, and only initialize &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; in supported environments.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3000,7 +3000,7 @@ after registering the default service worker. Fixes
 that caused Node.js scripts to hang on exit due to a pending timeout.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.2.0 - January 16, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1120_-_january_16_2025</link><description>&lt;h3 data-text="SQL Connect" id="sql-connect_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Usage of &lt;code dir="ltr" translate="no"&gt;PromiseLike&lt;/code&gt; has been replaced with &lt;code dir="ltr" translate="no"&gt;Promise&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for custom signal targeting. Use the
 &lt;code dir="ltr" translate="no"&gt;setCustomSignals&lt;/code&gt; API and to set custom signals that can be targeted using
 the new custom signal condition type in the Remote Config console.&lt;/li&gt;
@@ -3043,7 +3043,7 @@ Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8714"&gt;Gi
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Created a separate entry point bundle for Node.js. This bundle
 can be automatically detected by any developer tooling configured to
 prefer Node.js fields in &lt;code dir="ltr" translate="no"&gt;package.json&lt;/code&gt;, such as &lt;code dir="ltr" translate="no"&gt;main&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;exports.node&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for initial state hydration from SSR contexts.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.5.0 - March 20, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1150_-_march_20_2025</link><description>&lt;h3 data-text="App Check" id="app-check_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt;  The &lt;code dir="ltr" translate="no"&gt;getToken()&lt;/code&gt; method now throws &lt;code dir="ltr" translate="no"&gt;internalError&lt;/code&gt; strings that
@@ -3215,7 +3215,7 @@ model isn't available (for example, if the device is offline).&lt;/p&gt;&lt;/li&
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the
 &lt;a href="/docs/ai-logic/hybrid-on-device-inference"&gt;hybrid on-device inference&lt;/a&gt;
 feature from "experimental" to "public preview" status.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Realtime Remote Config for the web. This
 feature introduces a new &lt;code dir="ltr" translate="no"&gt;onConfigUpdate&lt;/code&gt; API and allows web applications to
 receive near-instant configuration updates without requiring periodic polling.&lt;/li&gt;
@@ -3276,7 +3276,7 @@ called &lt;code dir="ltr" translate="no"&gt;unsubscribe&lt;/code&gt; on a subscr
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Released Firestore Pipelines for Enterprise edition in public
 preview.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added web support for A/B Testing and Rollouts.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.9.0 - February 5, 2026</title><link>https://firebase.google.com/support/release-notes/js#version_1290_-_february_5_2026</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_7" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;LiveSession.receive()&lt;/code&gt; return types now include a new
@@ -3398,7 +3398,7 @@ See
 &lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Eliminated the 1-minute delay before closing idle backend
 connections to save resources.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix a bug where the client did not detect when an experiment had
 stopped. See 
 &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/9981"&gt;GitHub PR #9981&lt;/a&gt;.&lt;/li&gt;
@@ -3426,9 +3426,12 @@ coming soon.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated referrer policy for &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; API requests from &lt;code dir="ltr" translate="no"&gt;no-referrer&lt;/code&gt;
 to &lt;code dir="ltr" translate="no"&gt;strict-origin-when-cross-origin&lt;/code&gt; to support API keys restricted by HTTP
 Referrer.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where a parameter key would not be detected as updated
 when an experiment was added whose variant value matches the default value.
 This caused some experiments to not start. See
 &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/10000"&gt;GitHub PR #10000&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.16.0 - July 9, 2026</title><link>https://firebase.google.com/support/release-notes/js#version_12160_-_july_9_2026</link><description>&lt;h3 data-text="Remote Config" id="remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;FirebaseRolloutMetadata&lt;/code&gt; to support realtime updates for
+rollouts.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
