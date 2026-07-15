@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cpp</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes</link><description>Latest updates and release notes for Firebase Cpp.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 14 Jul 2026 21:54:07 +0000</lastBuildDate><item><title>Version 1.0.1 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_101_-_june_27_2016</link><description>&lt;p&gt;This update includes a variety of documentation updates and minor bug fixes.
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cpp</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes</link><description>Latest updates and release notes for Firebase Cpp.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 15 Jul 2026 02:01:06 +0000</lastBuildDate><item><title>Version 1.0.1 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_101_-_june_27_2016</link><description>&lt;p&gt;This update includes a variety of documentation updates and minor bug fixes.
 This update primarily fixes bugs in the &lt;span class="notranslate"&gt;AdMob&lt;/span&gt; portion of the C++ SDK. These
 fixes are described below:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Modified &lt;code dir="ltr" translate="no"&gt;firebase::App&lt;/code&gt; to check for the required version of Google
@@ -50,7 +50,7 @@ once before creating any &lt;code dir="ltr" translate="no"&gt;InvitesReceiver&lt
 &lt;code dir="ltr" translate="no"&gt;InvitesReceiver&lt;/code&gt; may fail to connect, and be unable to fetch results. To
 work around this issue, you can delay creating the &lt;code dir="ltr" translate="no"&gt;InvitesSender&lt;/code&gt; until
 after the future returned by &lt;code dir="ltr" translate="no"&gt;InvitesReceiver::Fetch()&lt;/code&gt; has completed.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;firebase::remote_config::Initialize()&lt;/code&gt; now returns a result that
 indicates whether initialization was successful.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -73,7 +73,7 @@ was initialized before the native library was loaded.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_44" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Android) Added new API methods, &lt;code dir="ltr" translate="no"&gt;User::SendEmailVerification()&lt;/code&gt;
 and &lt;code dir="ltr" translate="no"&gt;User::EmailVerified()&lt;/code&gt; to verify a user's email address.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;GetKeys()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;GetKeysByPrefix()&lt;/code&gt; methods to allow
 developers to find parameter keys based on a key prefix.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -160,7 +160,7 @@ changes needed for receiving notifications. You can add this to your project
 instead of modifying the manifest directly.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed regression since 2.1.1 that broke &lt;span class="notranslate"&gt;FCM&lt;/span&gt; on iOS
 8 &amp;amp; 9 when an AppDelegate did not implement remote notification methods.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added support for initializing &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; defaults from
 &lt;code dir="ltr" translate="no"&gt;firebase::Variant&lt;/code&gt; values, including binary data.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.1.0 - March 8, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_310_-_march_8_2017</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -266,7 +266,7 @@ Message struct.&lt;/li&gt;
 &lt;span class="notranslate"&gt;FCM&lt;/span&gt; is initialized.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a bug detecting whether the notification was opened
 if the app was running in the background.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; When listing keys, the list now includes keys with defaults set,
 even if they were not present in the fetched config.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -288,7 +288,7 @@ instead.&lt;/li&gt;
 set.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.3.0 - Nov 30, 2017</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_430_-_nov_30_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for accessing user metadata.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed &lt;code dir="ltr" translate="no"&gt;remote_config::ValueSource&lt;/code&gt; conversion.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.4.0 - Jan 3, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_440_-_jan_3_2018</link><description>&lt;h3 data-text="Instance ID" id="instance_id_5" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added Instance ID library.&lt;/li&gt;
@@ -308,7 +308,7 @@ libraries and correspondingly updated the package directory structure.&lt;/li&gt
 reported.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed SendInvite never completing in the stub implementation.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Remote Config (iOS) Fixed an issue where some errors weren't correctly
 reported.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -345,7 +345,7 @@ on Windows, OS X, and Linux.&lt;/li&gt;
 may be run on a given subtree at the same time.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; (Desktop) When using &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; on desktop, data persistence is not
 available.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Stub implementation has been replaced with a functional
 &lt;a href="/docs/cpp/setup#desktop-workflow"&gt;desktop workflow implementation&lt;/a&gt;
 on Windows, OS X, and Linux.&lt;/li&gt;
@@ -368,7 +368,7 @@ OnChildAdded.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the SetAutoTokenRegistrationOnInitEnabled() and
 IsAutoTokenRegistrationOnInitEnabled() methods to enable or disable
 auto-token generation.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug causing incorrect reporting of success or failure during
 a Fetch().&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.0.0 - June 5, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_500_-_june_5_2018</link><description>&lt;ul&gt;
@@ -498,7 +498,7 @@ line with mobile implementations.&lt;/li&gt;
 when accessing the [FIRApp firebaseUserAgent] property of the iOS FIRApp.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.7.0 - April 19, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_570_-_april_19_2019</link><description>&lt;p&gt;As this release of the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; &lt;span class="notranslate"&gt;C++&lt;/span&gt; SDK is the final version to support
 &lt;span class="notranslate"&gt;Firebase Invites&lt;/span&gt;, it will remain available for download
-&lt;a href="https://dl.google.com/firebase/sdk/cpp/firebase_cpp_sdk_5.7.0.zip"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;h3 data-text="Remote Config" id="remote-config_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;a href="https://dl.google.com/firebase/sdk/cpp/firebase_cpp_sdk_5.7.0.zip"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;h3 data-text="Remote Config" id="remote-config_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Config namespaces are now deprecated. You'll need to switch to
 methods that use the default namespace.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -516,7 +516,7 @@ never returned if you were set not to receive a registration token.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Invites" id="invites" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed &lt;span class="notranslate"&gt;Firebase Invites&lt;/span&gt; library, as it is no longer
 supported.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed functions using config namespaces, which were deprecated
 in a previous release.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -613,7 +613,7 @@ transaction.&lt;/li&gt;
   now function properly, instead of always returning "Permission denied".&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed the map-to-vector conversion when firing events
   that have maps containing enitrely integer keys.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a bug when passing a Variant of type Blob
   to SetDefaults() on Android.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.6.1 - October 2, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_661_-_october_2_2019</link><description>&lt;ul&gt;
@@ -794,7 +794,7 @@ destruction of BannerViews.&lt;/li&gt;
  fixes lost messages with data payloads received when the app is in the
  background.
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/877"&gt;#877&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase::remote_config::RemoteConfig&lt;/code&gt; class with new
  instance-based APIs to better manage fetching config data.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated old module-based API in favor of the new
@@ -853,7 +853,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Instance ID" id="instance_id" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Removed support for the previously-deprecated Instance ID
  SDK.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The previously-deprecated static methods have been removed.
  Use the new instance-based &lt;code dir="ltr" translate="no"&gt;firebase::remote_config::RemoteConfig&lt;/code&gt;
  API instead.&lt;/li&gt;
@@ -948,7 +948,7 @@ destruction of BannerViews.&lt;/li&gt;
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/745"&gt;#745&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed crash during initialization.
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/760"&gt;#760&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed cache expiration time value used by
  &lt;code dir="ltr" translate="no"&gt;RemoteConfig::FetchAndActivate()&lt;/code&gt;.
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/767"&gt;#767&lt;/a&gt;)&lt;/li&gt;
@@ -961,7 +961,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.10.0 - March 27, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_8100_-_march_27_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed additional issues on iOS 15 caused by early
  initialization of Firebase iOS SDK.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed default &lt;code dir="ltr" translate="no"&gt;Fetch()&lt;/code&gt; timeout being 1000 times too high.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Added retry logic to PutFile, GetFile, and other
@@ -1153,7 +1153,7 @@ destruction of BannerViews.&lt;/li&gt;
  22.0.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated dependency to Google-Mobile-Ads-SDK version
  10.4.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Android/iOS) Added support for real-time config updates. Use
  the new &lt;code dir="ltr" translate="no"&gt;AddOnConfigUpdateListener&lt;/code&gt; API to get real-time updates. Existing
  &lt;a href="https://firebase.google.com/docs/reference/cpp/class/firebase/remote-config/remote-config#fetch"&gt;&lt;code dir="ltr" translate="no"&gt;Fetch&lt;/code&gt;&lt;/a&gt;
@@ -1195,7 +1195,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Google Mobile Ads" id="google_mobile_ads_9" tabindex="-1"&gt;Google Mobile Ads&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Updated dependency to Google-Mobile-Ads-SDK version
  10.6.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed the ConfigUpdate classes being missing from the
  proguard files.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed handling of time zones on Windows when the time
@@ -1223,7 +1223,7 @@ destruction of BannerViews.&lt;/li&gt;
  10.8.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated dependency to play-services-ads version
  22.2.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Additional fix for handling of non-English time zone
  names on Windows.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.4.0 - August 09, 2023</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1140_-_august_09_2023</link><description>&lt;ul&gt;
@@ -1357,7 +1357,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed SetListener to send the last token received before the
  listener was set.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed ConfigInfo fields to default to 0 when not throttled or
  having previous fetch data.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.4.0 - October 24, 2024</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_1240_-_october_24_2024</link><description>&lt;ul&gt;
@@ -1467,4 +1467,14 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.15.0.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Fixes Auth requests when App Check is enabled.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.10.0 - July 14, 2026</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_13100_-_july_14_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.16.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.16.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a startup crash on iOS 15 and 16 due to a missing
+ &lt;code dir="ltr" translate="no"&gt;__libcpp_verbose_abort&lt;/code&gt; symbol.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded FlatBuffers dependency to v25.2.10 across both native
+ C++ and Java/Android components.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Added flexbuffer integrity checks before parsing to
+ prevent crashes on invalid/malformed data.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
