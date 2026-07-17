@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 17 Jul 2026 19:00:50 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 17 Jul 2026 21:47:51 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, &lt;span class="notranslate"&gt;Invites&lt;/span&gt;, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;. To get started, see
 &lt;a href="/docs/unity/setup"&gt;Adding Firebase to your Unity Project&lt;/a&gt;.&lt;/p&gt;&lt;ul&gt;
@@ -491,7 +491,7 @@ Please use StorageReference.GetDownloadUrlAsync() instead.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.1.0 - June 22, 2018</title><link>https://firebase.google.com/support/release-notes/unity#version_510_-_june_22_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed build issues due to the broken AndroidManifest
 merger in Unity 2018.x.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; on iOS, Android, and
 desktop.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -528,7 +528,7 @@ availability checker.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a version of &lt;code dir="ltr" translate="no"&gt;GetInstance()&lt;/code&gt; that allows passing in the URL
 of the database to use.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a way to specify which region to run the function in.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;SubscribeAsync()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;UnsubscribeAsync()&lt;/code&gt;, which return
@@ -554,7 +554,7 @@ conflicts in the Android Resolver.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed issues in &lt;code dir="ltr" translate="no"&gt;ChildListener&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed crash that could occur if the Database was deleted
 while an asynchronous operation was still in progress.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue when a function returns an array.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issues when transactions are canceled in .NET 4.6.&lt;/li&gt;
@@ -619,13 +619,13 @@ garbage collection.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where certain DataSnapshots were missing data on iOS
 and Android.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue with error handling.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.5.0 - February 19, 2019</title><link>https://firebase.google.com/support/release-notes/unity#version_550_-_february_19_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android): Updated to using version 1.2.101 of the Android
 Resolver. Prompt the user before the resolver runs for the
 first time and allow the user to elect to disable from the prompt.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;a href="https://firebase.google.com/docs/crashlytics/get-started#unity"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; for
 Unity&lt;/a&gt; is now
 available as a Beta release. Get the next evolution with BigQuery exports,
@@ -675,7 +675,7 @@ document&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Added support for Android SDK installed directly in
 Unity 2019.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS): Fixed issues generating projects without using Cocoapods.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS/Android) &lt;a href="https://firebase.google.com/docs/crashlytics/get-started?platform=unity"&gt;Crashlytics for
 Unity&lt;/a&gt;
 is now generally available (GA). Get the next evolution with BigQuery
@@ -726,7 +726,7 @@ the saved user's state is finished loading.&lt;/li&gt;
 use the latest auth token immediately after sign-in.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue where an error code could get reported
 incorrectly on Android.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that could cause a crash during
 shutdown due to the destruction order of plugins being nondeterministic.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -735,7 +735,7 @@ when cleaning up database listeners on iOS.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue where long (64-bit) values could get
 written to the database incorrectly (truncated to 32-bits) on 32-bit
 devices.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that could cause a crash during
 shutdown due to the destruction order of plugins being nondeterministic.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -761,7 +761,7 @@ read a google-services.json file with unicode characters in its path.&lt;/p&gt;&
 Unity 2019.3+.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race that could lead to a crash when gabarge collecting
 FirebaseApp objects.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a crash when logging large call stacks.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a crash in exception logging when the application
 is shutting down.&lt;/li&gt;
@@ -780,7 +780,7 @@ mirror Android and iOS.&lt;/li&gt;
 instances.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.2.1 - July 10, 2019</title><link>https://firebase.google.com/support/release-notes/unity#version_621_-_july_10_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed Crashlytics on Android incorrectly blocking all functionality.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue causing it to report it was shut down,
 which blocked all functionality.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.2.2 - July 26, 2019</title><link>https://firebase.google.com/support/release-notes/unity#version_622_-_july_26_2019</link><description>&lt;ul&gt;
@@ -802,7 +802,7 @@ from persistent storage.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Editor) Fixed DatabaseReference.RunTransaction() sending
 invalid data to the server which causes error message "Error on
 incoming message" and freeze.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Editor) Fixed use of an expired auth token after it's loaded
 from persistent storage.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -864,7 +864,7 @@ transaction.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed the racy behavior of
 &lt;code dir="ltr" translate="no"&gt;FirebaseAnalytics.GetAnalyticsInstanceId()&lt;/code&gt; after calling
 &lt;code dir="ltr" translate="no"&gt;FirebaseAnalytics.ResetAnalyticsData()&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an
 &lt;a href="https://github.com/firebase/quickstart-unity/issues/493"&gt;issue&lt;/a&gt; on iOS with
 Unity 2019.3 beta where the plugin fails to create a XCode run script to
@@ -893,7 +893,7 @@ resource generation script.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.8.1 - December 16, 2019</title><link>https://firebase.google.com/support/release-notes/unity#version_681_-_december_16_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed core editor plugin so that it loads without the
 iOS Unity extension installed.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop): Fixed Crashlytics editor plugin so that it loads
 without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.9.0 - December 27, 2019</title><link>https://firebase.google.com/support/release-notes/unity#version_690_-_december_27_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -903,7 +903,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  third-party auth providers.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added constant &lt;code dir="ltr" translate="no"&gt;ProviderId&lt;/code&gt; strings to the provider classes.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS): Added support for linking Apple Sign-in credentials.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed build event reporting when Python 3 is installed on
  Mac or Linux machines.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -953,7 +953,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;Firestore.LoggingEnabled&lt;/code&gt; is replaced by &lt;code dir="ltr" translate="no"&gt;Firestore.LogLevel&lt;/code&gt;
  for consistency with other Firebase Unity APIs. The getter for this
  property has been removed.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Removed references to UIWebView APIs to
  prevent App Store rejections.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.14.1 - May 18, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_6141_-_may_18_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -967,7 +967,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  the credential may be used to sign into Firebase as the Apple-linked user.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.15.0 - June 2, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_6150_-_june_2_2020</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Reduce editor freeze when play mode starts.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated with the Firebase Crashlytics
  Android &amp;amp; iOS SDKs, which now use Firebase-specific endpoints rather than
  the deprecated Fabric endpoints. Crashlytics C# APIs have not changed.&lt;/li&gt;
@@ -1021,7 +1021,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
   delaying initialization when conditions are met and improving asset
   searching.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecate Firebase.Unity.Editor.FirebaseEditorExtensions.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the Crashlytics Run script on Unity 2018
  and older.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1112,7 +1112,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  adjusted instead.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed numeric value conversion &lt;code dir="ltr" translate="no"&gt;ConfigValue.DoubleValue&lt;/code&gt;
  and &lt;code dir="ltr" translate="no"&gt;ConfigValue.LongValue&lt;/code&gt; to be locale independent.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.2.0 - May 3, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_720_-_may_3_2021</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.2.0 - May 3, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_720_-_may_3_2021</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new Unity-specific metadata to help diagnose
  tricky crashes around specific hardware setups.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1161,7 +1161,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  &lt;code dir="ltr" translate="no"&gt;FirebaseFirestore.GetNamedQueryAsync()&lt;/code&gt;. Bundles contain pre-packaged
  data produced with the Firestore Server SDKs and can be used to populate
  Firestore's cache without reading documents from the backend.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.2.0 - September 7, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_820_-_september_7_2021</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.2.0 - September 7, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_820_-_september_7_2021</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upload &lt;code dir="ltr" translate="no"&gt;UnityFramework&lt;/code&gt; symbols in addition to the main app
  dSYM file to improve symbolication
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/673"&gt;#673&lt;/a&gt;).&lt;/li&gt;
@@ -1219,7 +1219,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS): Fixed intermittent cases where specifying
  &lt;code dir="ltr" translate="no"&gt;ServerTimestampBehavior.Previous&lt;/code&gt; would return empty values
  instead of the previous values.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Improved crash reporting for Unity Android
  apps using the IL2CPP scripting backend. To display symbolicated
  IL2CPP stack traces in the Crashlytics console, Android
@@ -1230,7 +1230,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed crash resulting in ANR on termination
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/1151"&gt;#1151&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.6.1 - November 9, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_861_-_november_9_2021</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.6.1 - November 9, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_861_-_november_9_2021</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Updated the pinned dependency to fix a
  missing method error
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/1177"&gt;#1177&lt;/a&gt;).&lt;/li&gt;
@@ -1243,7 +1243,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  constructing C++ objects during Objective-C's &lt;code dir="ltr" translate="no"&gt;+load&lt;/code&gt; method.
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/706"&gt;#706&lt;/a&gt;)
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/783"&gt;#783&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a bug that prevented some Crashlytics session
  files from being removed after the session ended. All session-specific
  files are now properly cleaned up.
@@ -1251,7 +1251,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.8.0 - January 31, 2022</title><link>https://firebase.google.com/support/release-notes/unity#version_880_-_january_31_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Another possible fix for an intermittent crash on iOS 15
  caused by constructing C++ objects during Objective-C's &lt;code dir="ltr" translate="no"&gt;+load&lt;/code&gt; method.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Updated internal Crashpad version to commit
  &lt;code dir="ltr" translate="no"&gt;281ba7&lt;/code&gt;. With this change, disabling tagged pointers is no longer
  required, so the following can be removed from your manifest's application
@@ -1288,7 +1288,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS): Fixed crash when running on iPhoneOS 12 and older.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated event names and parameters.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed a bug with missing symbols when enabling
  minification via ProGuard.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1306,10 +1306,10 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Added InitiateOnDeviceConversionMeasurementWithEmail
  function to facilitate the &lt;a href="https://support.google.com/google-ads/answer/12119136"&gt;on-device conversion
  measurement&lt;/a&gt; API.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add a new method &lt;code dir="ltr" translate="no"&gt;GetHttpsCallableFromURL&lt;/code&gt;, to create
  callables with URLs other than cloudfunctions.net.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.2.0 - July 14, 2022</title><link>https://firebase.google.com/support/release-notes/unity#version_920_-_july_14_2022</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.2.0 - July 14, 2022</title><link>https://firebase.google.com/support/release-notes/unity#version_920_-_july_14_2022</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix requiring user code to reference Crashlytics when using
  il2cpp.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1332,7 +1332,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated Firebase C++ SDK dependencies to v9.4.0.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.5.0 - September 12, 2022</title><link>https://firebase.google.com/support/release-notes/unity#version_950_-_september_12_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated Firebase C++ SDK dependencies to v9.5.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix #218 that Firebase editor tool not loading when iOS build
  support is not installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.6.0 - September 27, 2022</title><link>https://firebase.google.com/support/release-notes/unity#version_960_-_september_27_2022</link><description>&lt;ul&gt;
@@ -1356,7 +1356,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improve performance when setting default parameters with long
  strings.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.0.1 - October 20, 2022</title><link>https://firebase.google.com/support/release-notes/unity#version_1001_-_october_20_2022</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.0.1 - October 20, 2022</title><link>https://firebase.google.com/support/release-notes/unity#version_1001_-_october_20_2022</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a critical
  &lt;a href="https://github.com/firebase/firebase-android-sdk/issues/4223"&gt;issue&lt;/a&gt;
  that was causing background crashes in specific cases.&lt;/li&gt;
@@ -1364,7 +1364,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 10.1.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 31.0.2.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.1.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an
  &lt;a href="https://github.com/firebase/quickstart-unity/issues/1116"&gt;issue&lt;/a&gt; with
  symbols being stripped when using the tgz package.&lt;/li&gt;
@@ -1374,7 +1374,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/1111"&gt;#1111&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.1.1 - November 17, 2022</title><link>https://firebase.google.com/support/release-notes/unity#version_1011_-_november_17_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 31.0.3.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an
  &lt;a href="https://github.com/firebase/firebase-android-sdk/issues/4313"&gt;issue&lt;/a&gt;
  preventing native crashes from being reported for Android API 29+.&lt;/li&gt;
@@ -1397,7 +1397,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.4.0.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;SetConsent()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;GetSessionIdAsync()&lt;/code&gt; APIs.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;ReportUncaughtExceptionsAsFatal&lt;/code&gt; property and
  &lt;code dir="ltr" translate="no"&gt;LogExceptionAsFatal&lt;/code&gt; API.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.5.0 - February 16, 2023</title><link>https://firebase.google.com/support/release-notes/unity#version_1050_-_february_16_2023</link><description>&lt;ul&gt;
@@ -1647,7 +1647,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.7.0 - March 06, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1270_-_march_06_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 11.9.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 33.10.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix a problem with on-demand fatals blocking audio playback.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.8.0 - March 27, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1280_-_march_27_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 12.7.0.&lt;/li&gt;
@@ -1797,7 +1797,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for automated function calling in Chat with
  AutoFunctionDeclaration.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for TemplateChatSession.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Rewrote internal serialization logic to C#. Removes dependency
  on internal C++ implementation.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.11.0 - May 14, 2026</title><link>https://firebase.google.com/support/release-notes/unity#version_13110_-_may_14_2026</link><description>&lt;ul&gt;
@@ -1818,7 +1818,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for LiveSession resumption.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix tgz export, added missing asmdef for Firebase AI. Fixes
  issue where Firebase AI was not being exported correctly in the tgz build.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed tgz export, added missing asmdef for functions. Fixes
  issue where Functions were not being exported correctly in the tgz build.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for passing and enforcing Limited Use App Check
@@ -1845,4 +1845,18 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for advanced speech configurations, enabling
  multi-speaker setup and language code preference in text-to-speech
  generation.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.14.0 - July 17, 2026</title><link>https://firebase.google.com/support/release-notes/unity#version_13140_-_july_17_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 13.10.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.16.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.16.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fix issues with enabling new Swift Xcode Project type.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Implement automated linker rules merging for UPM packages to
+ prevent managed code stripping from removing reflection-accessed methods
+ (like FirebaseAuth and FirebaseAppCheck).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix issues when parsing stripped stacktraces.
+ (&lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/1484"&gt;#1484&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Callable Functions Streaming via
+ &lt;code dir="ltr" translate="no"&gt;StreamAsync&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
