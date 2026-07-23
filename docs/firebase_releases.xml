@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 23 Jul 2026 13:46:51 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 23 Jul 2026 16:23:10 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -7011,9 +7011,9 @@ model: &lt;code dir="ltr" translate="no"&gt;gemini-3.5-flash&lt;/code&gt;. You c
 via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; or the
 &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;If you're using the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt;, accessing this model does
-&lt;em&gt;not&lt;/em&gt; require the pay-as-you-go Blaze pricing plan. If you access the model via the
-&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, make sure to
+&lt;li&gt;&lt;p&gt;If you're using the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt;, accessing these models
+does &lt;em&gt;not&lt;/em&gt; require the pay-as-you-go Blaze pricing plan.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you're using the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, make sure to
 &lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
 &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;If you're migrating from the preview version of this model:&lt;/p&gt;
@@ -7074,7 +7074,7 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;/ul&gt;</description><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate></item><item><title>June 01, 2026</title><link>https://firebase.google.com/support/releases#june_01_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3.x-image-models-ga" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;span class='\"notranslate\"'&gt;Gemini 3.x Image&lt;/span&gt; models (aka "Nano Banana" models)
 are now Generally Available (GA). You can use these models to
-&lt;a href="/docs/ai-logic/generate-images-gemini"&gt;generate and edit images via the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="/docs/ai-logic/generate-images-gemini"&gt;generate and edit images via &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;These are the new GA model names:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class='\"notranslate\"'&gt;Gemini 3.x Pro Image&lt;/span&gt;:
@@ -7083,7 +7083,10 @@ are now Generally Available (GA). You can use these models to
 &lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-image&lt;/code&gt; (aka "Nano Banana 2")&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;With this release, the &lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-image&lt;/code&gt; model supports video input for
-image generation and editing.&lt;/p&gt;&lt;/li&gt;
+image generation and editing.&lt;/p&gt;
+&lt;p&gt;Note that if you're using the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, make sure to
+&lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
+&lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_16" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v4-15-0"&gt;Firebase SDK for Flutter
 (v4.15.0)&lt;/a&gt; is now available.
@@ -7260,7 +7263,15 @@ is now available. This version disables 'keep-alive' in &lt;code dir="ltr" trans
 calls to avoid &lt;code dir="ltr" translate="no"&gt;Premature close&lt;/code&gt; errors on some Node versions.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate></item><item><title>June 30, 2026</title><link>https://firebase.google.com/support/releases#june_30_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.22.4)" id="cli-v15.22.4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.22.4)&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate></item><item><title>June 30, 2026</title><link>https://firebase.google.com/support/releases#june_30_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3.1-flash-lite-image-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest stable
+&lt;span class='\"notranslate\"'&gt;Gemini 3.x Image&lt;/span&gt; model: &lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-lite-image&lt;/code&gt;
+(aka "Nano Banana 2 Lite"). You can use this model to
+&lt;a href="/docs/ai-logic/generate-images-gemini"&gt;generate and edit images via &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Note that if you're using the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, make sure to
+&lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
+&lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v15.22.4)" id="cli-v15.22.4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.22.4)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#15.22.4"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.22.4)&lt;/a&gt;
 is now available. This version fixes &lt;code dir="ltr" translate="no"&gt;auth:export&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;auth:import&lt;/code&gt; dropping
@@ -7268,7 +7279,7 @@ is now available. This version fixes &lt;code dir="ltr" translate="no"&gt;auth:e
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate></item><item><title>July 02, 2026</title><link>https://firebase.google.com/support/releases#july_02_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-app-check-replay-protection" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now optionally
 &lt;a href="/docs/ai-logic/app-check#replay-protection"&gt;enforce &lt;em&gt;replay protection&lt;/em&gt; for &lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/a&gt;
 to help protect &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; beyond baseline protection. When replay
 protection is enforced, tokens are &lt;em&gt;one-time-use only&lt;/em&gt;. This enhanced
@@ -7285,7 +7296,18 @@ is now available. This release comes with new features and deprecations in the
 &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate></item><item><title>July 08, 2026</title><link>https://firebase.google.com/support/releases#july_08_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_6" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate></item><item><title>July 07, 2026</title><link>https://firebase.google.com/support/releases#july_07_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-app-check-by-default-console" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; When you get started with &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; using the
+Firebase console, we now automatically
+&lt;a href="/docs/ai-logic/app-check"&gt;enforce &lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt; for &lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/a&gt;,
+which is a &lt;em&gt;critical&lt;/em&gt; service to help protect the &lt;span class='\"notranslate\"'&gt;Gemini API&lt;/span&gt; when it's
+directly accessed from your app.&lt;/p&gt;
+&lt;p&gt;Since &lt;span class="notranslate"&gt;App Check&lt;/span&gt; is enforced by default, you'll now need to
+&lt;a href="/docs/ai-logic/get-started#configure-debug-provider"&gt;configure the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; &lt;em&gt;debug provider&lt;/em&gt; for local development&lt;/a&gt;
+as part of getting started. Later, when you're ready to release your app's AI
+feature to end users,
+&lt;a href="/docs/ai-logic/app-check"&gt;register your app with a production &lt;span class="notranslate"&gt;App Check&lt;/span&gt; attestation provider&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate></item><item><title>July 08, 2026</title><link>https://firebase.google.com/support/releases#july_08_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_6" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#12.16.0"&gt;Firebase Apple SDK (v12.16.0)&lt;/a&gt;
 is now available. For more details, see the
@@ -7367,4 +7389,28 @@ enhancements.&lt;/p&gt;&lt;ul&gt;
 as new &lt;a href="/docs/reference/functions/2nd-gen/node/firebase-functions.lifecycle"&gt;lifecycle hooks&lt;/a&gt; designed to simplify the transition from Firebase
 Extensions to Cloud Functions. These features are available for functions
 deployed with &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI 15.24.0 or later.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate></item><item><title>July 21, 2026</title><link>https://firebase.google.com/support/releases#july_21_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3.6-flash-and-3.5-flash-lite-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; stable
+models: &lt;code dir="ltr" translate="no"&gt;gemini-3.6-flash&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;gemini-3.5-flash-lite&lt;/code&gt;. You can
+&lt;a href="/docs/ai-logic/get-started"&gt;directly access these models in your mobile or web app&lt;/a&gt;
+via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; or the
+&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If you're using the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt;, accessing these models
+does &lt;em&gt;not&lt;/em&gt; require the pay-as-you-go Blaze pricing plan.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you're using the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI&lt;/span&gt; Gemini API&lt;/span&gt;, make sure to
+&lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
+&lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you're migrating from previous models, note the following for these new
+models:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Sampling parameter deprecation&lt;/strong&gt;: These new models ignore the
+&lt;code dir="ltr" translate="no"&gt;temperature&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;topP&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;topK&lt;/code&gt; parameters for model configuration. For
+more deterministic responses, define system instructions with explicit
+rules for your specific use case.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Prefilled model turn validation&lt;/strong&gt;: Prefilling model turns is no longer
+supported. If the last non-empty turn in the request is a &lt;code dir="ltr" translate="no"&gt;model&lt;/code&gt; turn,
+the API returns a &lt;code dir="ltr" translate="no"&gt;400&lt;/code&gt; error.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate></item></channel></rss>
