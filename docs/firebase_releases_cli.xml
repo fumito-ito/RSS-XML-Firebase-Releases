@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 24 Jul 2026 19:18:33 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 24 Jul 2026 22:01:14 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2374,4 +2374,20 @@ commands to view and run lifecycle hooks in isolation.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v3.4.15,
 supporting 1:1 nested mutations.
 (&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10773"&gt;#10773&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.24.0 - July 15, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15240_-_july_15_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for specifying that the input for a &lt;code dir="ltr" translate="no"&gt;string&lt;/code&gt; or
+&lt;code dir="ltr" translate="no"&gt;string[]&lt;/code&gt; param in Cloud Functions must be non-empty.
+&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10678"&gt;#10678&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit to v3.4.16.
+Changes include:
+&lt;ul&gt;
+&lt;li&gt;Updated the Golang dependency version to 1.25.12.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed the warning that Dart functions may not yet be visible in
+the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the &lt;code dir="ltr" translate="no"&gt;dataconnect:execute&lt;/code&gt; command help text to use the
+correct env var &lt;code dir="ltr" translate="no"&gt;FIREBASE_DATA_CONNECT_EMULATOR_HOST&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a &lt;span class="notranslate"&gt;Firebase Hosting&lt;/span&gt; emulator timeout when a web
+frameworks request with a body falls through to a function rewrite.
+&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10760"&gt;#10760&lt;/a&gt; &lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
