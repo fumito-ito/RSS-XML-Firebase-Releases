@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 24 Jul 2026 16:33:31 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 24 Jul 2026 19:18:33 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2364,4 +2364,14 @@ API requests by retrying once without keep-alive.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;auth:export&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;auth:import&lt;/code&gt;, which were dropping
 &lt;code dir="ltr" translate="no"&gt;mfaInfo&lt;/code&gt; data for users with multi-factor authentication (MFA) enabled.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated Pub/Sub emulator to version 0.8.34.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.23.0 - July 10, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15230_-_july_10_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added declarative security support and automated rolling IAM role
+grants/revocations for 2nd gen Cloud Functions.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue in &lt;code dir="ltr" translate="no"&gt;apps:create&lt;/code&gt; where App Store ID was always
+prompted for even when unnecessary.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;functions:lifecycle:list&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;functions:lifecycle:run&lt;/code&gt;
+commands to view and run lifecycle hooks in isolation.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; local toolkit to v3.4.15,
+supporting 1:1 nested mutations.
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10773"&gt;#10773&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
