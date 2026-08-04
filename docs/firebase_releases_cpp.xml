@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cpp</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes</link><description>Latest updates and release notes for Firebase Cpp.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 04 Aug 2026 19:24:53 +0000</lastBuildDate><item><title>Version 1.0.1 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_101_-_june_27_2016</link><description>&lt;p&gt;This update includes a variety of documentation updates and minor bug fixes.
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cpp</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes</link><description>Latest updates and release notes for Firebase Cpp.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 04 Aug 2026 22:07:32 +0000</lastBuildDate><item><title>Version 1.0.1 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_101_-_june_27_2016</link><description>&lt;p&gt;This update includes a variety of documentation updates and minor bug fixes.
 This update primarily fixes bugs in the &lt;span class="notranslate"&gt;AdMob&lt;/span&gt; portion of the C++ SDK. These
 fixes are described below:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Modified &lt;code dir="ltr" translate="no"&gt;firebase::App&lt;/code&gt; to check for the required version of Google
@@ -98,7 +98,7 @@ bounding box.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_43" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;AuthStateListener&lt;/code&gt; class that provides notifications
 when a user is logged in or logged out.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a C++ client library for &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;. To get started, see
 &lt;a href="/docs/database/cpp/start"&gt;Get Started with Firebase Realtime Database for C++&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Invites" id="invites_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Invites&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -251,7 +251,7 @@ destroyed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="AdMob" id="admob_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;AdMob&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a crash if a BannerView is deleted while a call to
 &lt;code dir="ltr" translate="no"&gt;Destroy()&lt;/code&gt; is still pending.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a context pointer to &lt;code dir="ltr" translate="no"&gt;DatabaseReference::RunTransaction&lt;/code&gt;,
 as well as &lt;code dir="ltr" translate="no"&gt;std::function&lt;/code&gt; support to allow use of C++11 lambdas with
 captures.&lt;/li&gt;
@@ -280,7 +280,7 @@ cleared.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Phone Authentication no longer requires push notifications.
 When push notifications aren't available, reCAPTCHA verification is used
 instead.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed &lt;code dir="ltr" translate="no"&gt;MutableData::children_count()&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Messages sent to users can now contain a link URL.&lt;/li&gt;
@@ -292,7 +292,7 @@ set.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed &lt;code dir="ltr" translate="no"&gt;remote_config::ValueSource&lt;/code&gt; conversion.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.4.0 - Jan 3, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_440_-_jan_3_2018</link><description>&lt;h3 data-text="Instance ID" id="instance_id_5" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added Instance ID library.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.4.1 - Jan 26, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_441_-_jan_26_2018</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.4.1 - Jan 26, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_441_-_jan_26_2018</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;SetPersistenceEnabled&lt;/code&gt; now sets persistence enabled.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Instance ID" id="instance_id_4" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) &lt;code dir="ltr" translate="no"&gt;GetToken&lt;/code&gt; no longer fails without an APNS certificate, and no
@@ -337,7 +337,7 @@ future version.&lt;/li&gt;
 &lt;a href="/docs/cpp/setup#desktop-workflow"&gt;desktop workflow implementation&lt;/a&gt;
 on Windows, OS X, and Linux.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition initializing/destroying Auth instances.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Stub implementation has been replaced with a functional
 &lt;a href="/docs/cpp/setup#desktop-workflow"&gt;desktop workflow implementation&lt;/a&gt;
 on Windows, OS X, and Linux.&lt;/li&gt;
@@ -359,7 +359,7 @@ on Windows, OS X, and Linux.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed incorrect content type when uploading.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.5.1 - April 16, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_451_-_april_16_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Added support for accessing user metadata.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a bug to make creation of database instances with
 invalid URLs return nullptr.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue where incorrect values could be passed to
@@ -383,7 +383,7 @@ InterstitialAd.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated accessors from Auth, Credential, User, and
 UserInfoInterface, including User::refresh_token().&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated accessors from DatabaseReference, Query,
 DataSnapshot, and MutableData.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -417,7 +417,7 @@ and &lt;code dir="ltr" translate="no"&gt;User::ReauthenticateAndRetrieveData()&l
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed photo URL never returning a value on iOS.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed setting profile photo URL with
 &lt;code dir="ltr" translate="no"&gt;UpdateUserProfile()&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for ServerValues in &lt;code dir="ltr" translate="no"&gt;SetPriority()&lt;/code&gt; methods.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.1.1 - June 27, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_511_-_june_27_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated Android and iOS dependency versions only.&lt;/li&gt;
@@ -426,7 +426,7 @@ and &lt;code dir="ltr" translate="no"&gt;User::ReauthenticateAndRetrieveData()&l
 availability checker.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a crash in &lt;code dir="ltr" translate="no"&gt;User::UpdatePhoneNumberCredential()&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a version of &lt;code dir="ltr" translate="no"&gt;GetInstance()&lt;/code&gt; that allows passing in the URL
 of the database to use.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -436,7 +436,7 @@ of the database to use.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.2.1 - August 16, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_521_-_august_16_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition that was returning the wrong Future when you
 called the same method twice in quick succession.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition that was returning the wrong Future when you
 called the same method twice in quick succession.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed support for &lt;code dir="ltr" translate="no"&gt;ChildListener&lt;/code&gt; when used with
@@ -446,7 +446,7 @@ called the same method twice in quick succession.&lt;/li&gt;
 operator and copy constructor.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.3.0 - September 20, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_530_-_september_20_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) The minimum supported Xcode version is 9.4.1.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed issues in &lt;code dir="ltr" translate="no"&gt;ChildListener&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed crash that could occur if the Database was deleted
 while an asynchronous operation was still in progress.&lt;/li&gt;
@@ -457,7 +457,7 @@ while an asynchronous operation was still in progress.&lt;/li&gt;
 used on the Android.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.4.0 - October 19, 2018</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_540_-_october_19_2018</link><description>&lt;h3 data-text="Dynamic Links" id="dynamic-links_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed short link generation failing with "error 8".&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; (Desktop) The &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; Desktop SDK uses REST to access your
 database. Because of this, you must
 &lt;a href="https://firebase.google.com/docs/database/security/#section-defining-indexes"&gt;declare the indexes you use&lt;/a&gt;
@@ -486,7 +486,7 @@ https://firebase.google.com/docs/invites for details.&lt;/li&gt;
 Firebase subsystems.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Added Game Center authentication.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Reworked how cached server values work to be more in
 line with mobile implementations.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Simultaneous transactions are now supported.&lt;/li&gt;
@@ -539,7 +539,7 @@ saved user's state is finished loading.&lt;/li&gt;
 use the latest auth token immediately after sign-in.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where an error code could get reported incorrectly
 on Android.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue that could cause a crash during
 shutdown.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a race condition that could cause a crash
@@ -559,13 +559,13 @@ Cloud Functions instance is deleted.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a crash when destroying InstanceID objects.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for custom domains.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a way to configure log verbosity of Realtime Database
 instances.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.2.2 - July 26, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_622_-_july_26_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) After loading a persisted user data, ensure token is not
 expired.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed use of an expired auth token after it's loaded
 from persistent storage.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed DatabaseReference::RunTransaction() sending
@@ -588,7 +588,7 @@ cases where auth instances might not exist anymore.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an exception in firebase::auth::VerifyPhoneNumber.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Stopped Auth from hanging on destruction if any local
 futures remain in scope.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue that could cause a crash when updating
 the descendant of a location with a listener attached.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.4.0 - August 26, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_640_-_august_26_2019</link><description>&lt;ul&gt;
@@ -596,19 +596,19 @@ the descendant of a location with a listener attached.&lt;/li&gt;
 reference was still being held.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with updated user info not being persisted.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash when saving a ServerTimestamp during a
 transaction.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.5.0 - September 10, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_650_-_september_10_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Linux) Improved error logging if libsecret (required for login
   persistence) is not installed on Linux.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The database now supports setting the log level independently of
   the system level logger.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.6.0 - September 25, 2019</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_660_-_september_25_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed assert when not using default app instance.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed not loading provider list from cached user data.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Queries on locations in the database with query rules
   now function properly, instead of always returning "Permission denied".&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed the map-to-vector conversion when firing events
@@ -630,7 +630,7 @@ constructor for Variant class.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed the racy behavior of
 &lt;code dir="ltr" translate="no"&gt;analytics::GetAnalyticsInstanceId()&lt;/code&gt; after calling
 &lt;code dir="ltr" translate="no"&gt;analytics::ResetAnalyticsData()&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue causing timestamps to not be populated correctly
 when using DatabaseReference::UpdateChildren().&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue preventing listener events from being
@@ -683,7 +683,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) The minimum supported Xcode version is 10.3.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; When creating an App, the project_id from the default App is
  now used if one is not provided.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue with Database connecting to the server
  after the Auth token is revoked.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.12.0 - March 5, 2020</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_6120_-_march_5_2020</link><description>&lt;ul&gt;
@@ -727,7 +727,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue when creating and loading interstitial ads.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed compiler error related to SignInResult.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Enabled offline persistence.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a deadlock issue caused by not using an event loop.&lt;/li&gt;
@@ -735,7 +735,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the library to be compatible with Android O.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated the &lt;code dir="ltr" translate="no"&gt;Send&lt;/code&gt; function.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.16.1 - October 20, 2020</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_6161_-_october_20_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.16.1 - October 20, 2020</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_6161_-_october_20_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with persistent storage.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a problem with missing symbols on Windows.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.0.0 - January 28, 2021</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_700_-_january_28_2021</link><description>&lt;ul&gt;
@@ -818,7 +818,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Removed checks for Google Play services for Auth,
  Database, Functions and Storage as the native Android packages no longer
  need it. (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/361"&gt;#361&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential crash that can occur as a result of a race
  condition when adding, removing and deleting &lt;code dir="ltr" translate="no"&gt;ValueListener&lt;/code&gt;s or
  &lt;code dir="ltr" translate="no"&gt;ChildListener&lt;/code&gt;s rapidly.&lt;/li&gt;
@@ -966,7 +966,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Added retry logic to PutFile, GetFile, and other
  operations.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.11.0 - April 21, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_8110_-_april_21_2022</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.11.0 - April 21, 2022</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_8110_-_april_21_2022</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Upgrade LevelDb dependency to 1.23
  (&lt;a href="https://github.com/firebase/firebase-cpp-sdk/pull/886"&gt;#886&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Enabled Snappy compression support in LevelDb
@@ -989,7 +989,7 @@ destruction of BannerViews.&lt;/li&gt;
  compatibility with version 9.x of the Firebase iOS SDK.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Removed deprecated event names and parameters.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a bug handling server timestamps on 32-bit CPUs.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Desktop) Set Content-Type HTTP header when uploading with
@@ -1020,7 +1020,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The old AdMob SDK has been deprecated. Please update your
  app to use the new Google Mobile Ads SDK, which facilitates similar
  functionality.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) If the app data directory doesn't exist, create it.
  This fixes an issue with disk persistence on Linux.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1171,7 +1171,7 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 10.10.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fix for deadlock within JniResultCallback, commonly
  seen within Messaging, but affecting other products as well.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash on Windows when the user's home
  directory contains non-ANSI characters (Unicode above U+00FF).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1477,4 +1477,11 @@ destruction of BannerViews.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Added flexbuffer integrity checks before parsing to
  prevent crashes on invalid/malformed data.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.11.0 - August 04, 2026</title><link>https://firebase.google.com/support/release-notes/cpp-relnotes#version_13110_-_august_04_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.17.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.17.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an intermittent use-after-free crash
+ (&lt;code dir="ltr" translate="no"&gt;ACCESS_VIOLATION&lt;/code&gt;) when detaching a listener while a WebSocket listen
+ response is pending.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
