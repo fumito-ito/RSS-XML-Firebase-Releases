@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 05 Aug 2026 16:28:13 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 05 Aug 2026 19:23:26 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Launch of new APIs and &lt;a class="link external gc-analytics-event" data-action="linkClick" data-category="console" href="https://console.firebase.google.com/"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_74" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_75" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The way you install and initialize the SDK has changed and several
 APIs have been renamed. When you decide to upgrade, please see the
 &lt;a href="/support/guides/firebase-web"&gt;Web Migration Guide&lt;/a&gt; for detail.&lt;/li&gt;
@@ -45,7 +45,7 @@ and cost-effective object storage service.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Global &lt;code dir="ltr" translate="no"&gt;Promise&lt;/code&gt; object is no longer overwritten.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added error message when initializing the Node.js SDK with an
 invalid service account.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.0.4 - June 7, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_304_-_june_7_2016</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_73" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.0.4 - June 7, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_304_-_june_7_2016</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_74" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;a href="/docs/reference/js"&gt;reference documentation&lt;/a&gt; to include more
 extensive API descriptions and examples.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; authentication-expiration retry logic.&lt;/li&gt;
@@ -97,7 +97,7 @@ APIs in your app, or pass an &lt;code dir="ltr" translate="no"&gt;apiKey&lt;/cod
 observer now waits until &lt;code dir="ltr" translate="no"&gt;getRedirectResult&lt;/code&gt; resolves before triggering. (In
 older versions, the observer would trigger twice: once when the page loaded,
 and a second time when &lt;code dir="ltr" translate="no"&gt;getRedirectResult&lt;/code&gt; resolved.)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_72" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_73" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; A warning is no longer logged if you don't provide an &lt;code dir="ltr" translate="no"&gt;apiKey&lt;/code&gt;
 when initializing the SDK and just want to have unauthenticated access to your
 Realtime Database. Security Rules are still in effect even if you do not
@@ -129,11 +129,11 @@ ignored for string-format uploads.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with
 &lt;a href="/docs/reference/js/firebase.auth.Auth#signInWithPopup"&gt;&lt;code dir="ltr" translate="no"&gt;signInWithPopup()&lt;/code&gt;&lt;/a&gt;
 not working with Internet Explorer.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.4.0 - September 14, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_340_-_september_14_2016</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_71" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.4.0 - September 14, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_340_-_september_14_2016</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_72" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; New
 &lt;a href="/docs/reference/js/firebase.database.Query#isEqual"&gt;&lt;code dir="ltr" translate="no"&gt;Query.isEqual()&lt;/code&gt;&lt;/a&gt; method
 allows for comparing any &lt;code dir="ltr" translate="no"&gt;Reference&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;Query&lt;/code&gt; for equality.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.4.1 - September 27, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_341_-_september_27_2016</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_70" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.4.1 - September 27, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_341_-_september_27_2016</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_71" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Ensure that the SDK does not prevent Node.js from shutting down
 the process. Calling &lt;code dir="ltr" translate="no"&gt;firebase.database().goOffline()&lt;/code&gt; or
 &lt;code dir="ltr" translate="no"&gt;firebase.app().delete()&lt;/code&gt; should be sufficient for Node.js to exit now.&lt;/li&gt;
@@ -200,7 +200,7 @@ higher.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Changed the packaging of browser npm modules to fix an issue that
 occurred when using &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; with the Browserify and webpack
 module bundlers.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.6.4 - December 13, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_364_-_december_13_2016</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_69" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.6.4 - December 13, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_364_-_december_13_2016</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_70" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added the missing
 &lt;a href="/docs/reference/js/firebase.database.ServerValue#.TIMESTAMP"&gt;&lt;code dir="ltr" translate="no"&gt;firebase.database.ServerValue.TIMESTAMP&lt;/code&gt;&lt;/a&gt;
 property to the TypeScript type declarations (&lt;code dir="ltr" translate="no"&gt;firebase.d.ts&lt;/code&gt;).&lt;/li&gt;
@@ -266,9 +266,9 @@ Chrome extensions.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 3.7.2 - March 14, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_372_-_march_14_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where some components erroneously allowed
 creation of multiple instances.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.7.3 - March 21, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_373_-_march_21_2017</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_68" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.7.3 - March 21, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_373_-_march_21_2017</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_69" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed error messaging for invalid calls to &lt;code dir="ltr" translate="no"&gt;Query.equalTo()&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.7.4 - March 28, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_374_-_march_28_2017</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_67" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.7.4 - March 28, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_374_-_march_28_2017</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_68" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;firebase.database().ref().push()&lt;/code&gt;,
 would trigger an infinite loop if the returned &lt;code dir="ltr" translate="no"&gt;.then()&lt;/code&gt;
 function was called.&lt;/li&gt;
@@ -386,7 +386,7 @@ failing due iOS bundle ID case sensitive checks.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.1.4 - July 24, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_414_-_july_24_2017</link><description>&lt;ul&gt;
 &lt;li&gt;Bundle size improvements for &lt;code dir="ltr" translate="no"&gt;firebase-app.js&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;firebase-storage.js&lt;/code&gt;,
 &lt;code dir="ltr" translate="no"&gt;firebase-messaging.js&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_66" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_67" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Refactored internal implementation to TypeScript.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.1.5 - July 25, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_415_-_july_25_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_100" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where authenticated realtime database access wasn't
@@ -400,7 +400,7 @@ more information.&lt;/li&gt;
 prominent in some IE browsers.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Refactored to not use &lt;code dir="ltr" translate="no"&gt;navigator.onLine&lt;/code&gt; for offline detection in
 Cordova environments.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_65" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_66" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where database references were missing a &lt;code dir="ltr" translate="no"&gt;toJSON&lt;/code&gt;
 method.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.3.0 - August 17, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_430_-_august_17_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_98" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -419,7 +419,7 @@ for more information.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.4.0 - September 21, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_440_-_september_21_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_96" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed some issues with null initialization of several classes in the
 externs files.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_64" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_65" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;a href="/docs/database/usage/sharding"&gt;multi-resource&lt;/a&gt; support
 to the database SDK.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.5.0 - October 2, 2017</title><link>https://firebase.google.com/support/release-notes/js#version_450_-_october_2_2017</link><description>&lt;ul&gt;
@@ -451,7 +451,7 @@ which includes information about user creation time and last sign in time.&lt;/l
 which is returned by sign in methods to indicate whether a user is a new
 or returning user.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a &lt;code dir="ltr" translate="no"&gt;TypeError&lt;/code&gt; thrown after manually clearing localStorage&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_63" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_64" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression introduced in version &lt;code dir="ltr" translate="no"&gt;4.5.1&lt;/code&gt; where authenticated
 user info was not properly being passed to the server, causing reads and
 writes to fail with &lt;code dir="ltr" translate="no"&gt;permission_denied&lt;/code&gt; errors.&lt;/li&gt;
@@ -538,7 +538,7 @@ Compiler (thanks &lt;a href="https://github.com/Doehl"&gt;@Doehl&lt;/a&gt; for t
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_91" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with universal link subscriptions when multiple
 listeners are registered.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_62" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_63" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Allow users to set the database URL to a localhost value (thanks
 &lt;a href="https://github.com/rynobax"&gt;@rynobax&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/426"&gt;PR&lt;/a&gt;!)&lt;/li&gt;
@@ -549,7 +549,7 @@ crash when the client loses its network connection.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.10.0 - February 15, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_4100_-_february_15_2018</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_189" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Microsoft Edge users were seeing slow response
 times.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_61" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_62" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Allow users passing custom database URLs, to set the namespace via
 the &lt;code dir="ltr" translate="no"&gt;ns&lt;/code&gt; query parameter.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -560,14 +560,14 @@ key usage.&lt;/li&gt;
 typescript APIs across the codebase (thanks
 &lt;a href="https://github.com/merlinnot"&gt;merlinnot&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/422"&gt;PR&lt;/a&gt;!)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_60" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_61" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where users were unintentionally receiving an "Invalid
 query string" warning (see &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/517"&gt;this
 issue&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where some users received duplicate notifications.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with a missing API in the typings.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.11.0 - March 8, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_4110_-_march_8_2018</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_59" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.11.0 - March 8, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_4110_-_march_8_2018</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_60" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where certain browser APIs weren't available in IE
 11.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the ability to create a new reference from an existing
@@ -675,7 +675,7 @@ integration testing with whitelisted phone numbers.&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;fetchSignInMethodsForEmail&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved detection of external auth state changes for synchronizing
 Auth state between different windows.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_58" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_59" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed the private &lt;code dir="ltr" translate="no"&gt;path&lt;/code&gt; property from
 &lt;code dir="ltr" translate="no"&gt;firebase.database.Reference&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_184" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -719,7 +719,7 @@ reflect the officially supported API.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_182" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved the messaging when unable to connect to the backend
 servers.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_57" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_58" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the typings for &lt;code dir="ltr" translate="no"&gt;forEach&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;forEachChild&lt;/code&gt; to properly
 support all valid return types.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.1.0 - June 21, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_510_-_june_21_2018</link><description>&lt;ul&gt;
@@ -732,7 +732,7 @@ wasn't being exported.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a method that allows the &lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt; to use a
 local Functions Emulator.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for specifying a region for a given function.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_56" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_57" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused database to not work on IE 11.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.3.0 - July 19, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_530_-_july_19_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_85" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where redirect results were being handled incorrectly for
@@ -799,7 +799,7 @@ events until the client has caught up with the server.&lt;/li&gt;
 with Java 10.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_176" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where typings are created in the wrong location.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_55" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_56" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where typings are created in the wrong location.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.5.2 - Sep 27, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_552_-_sep_27_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a browser compatibility issue with Safari 9 when loading
@@ -1008,7 +1008,7 @@ given collection ID using the &lt;code dir="ltr" translate="no"&gt;FirebaseFires
 &lt;code dir="ltr" translate="no"&gt;synchronizeTabs&lt;/code&gt;. If you use multi-tab synchronization, it is recommended
 that you update your call to &lt;code dir="ltr" translate="no"&gt;enablePersistence()&lt;/code&gt;. Firestore logs an error
 if you continue to use &lt;code dir="ltr" translate="no"&gt;experimentalTabSynchronization&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_54" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_55" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Improved consistency between the type annotations for
 &lt;code dir="ltr" translate="no"&gt;Query.on&lt;/code&gt;/&lt;code dir="ltr" translate="no"&gt;Reference.on&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Query.off&lt;/code&gt;/&lt;code dir="ltr" translate="no"&gt;Reference.off&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Query.once&lt;/code&gt;/&lt;code dir="ltr" translate="no"&gt;Reference.once&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1084,7 +1084,7 @@ after reading a document that doesn't exist, you can now set it multiple
 times successfully in a transaction.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where query results were temporarily missing documents
 that previously had not matched but had been updated to now match the query.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.3.2 - July 25, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_632_-_july_25_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_53" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.3.2 - July 25, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_632_-_july_25_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_54" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an environment variable (&lt;code dir="ltr" translate="no"&gt;FIREBASE_DATABASE_EMULATOR_HOST&lt;/code&gt;)
 that allows developers to point the database emulator SDK to a local
 database emulator instance.&lt;/li&gt;
@@ -1093,16 +1093,16 @@ database emulator instance.&lt;/li&gt;
 &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; library is imported in an environment without a &lt;code dir="ltr" translate="no"&gt;window&lt;/code&gt;
 object (such as the server side of an SSR app) or a &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; instance is
 initialized in such an environment.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.3.3 - July 26, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_633_-_july_26_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_52" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.3.3 - July 26, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_633_-_july_26_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_53" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression introduced in v6.3.2 causing errors
 when run in a browser environment.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.3.4 - August 1, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_634_-_august_1_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_51" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.3.4 - August 1, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_634_-_august_1_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_52" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where multi-byte UTF-8 characters were not written
 correctly when using &lt;code dir="ltr" translate="no"&gt;firebase.js&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;firebase-database.js&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.3.5 - August 8, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_635_-_august_8_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_71" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where cached redirect results were not cleared
 after calling &lt;code dir="ltr" translate="no"&gt;signOut()&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;getRedirectResult()&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.4.0 - August 15, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_640_-_august_15_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_50" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.4.0 - August 15, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_640_-_august_15_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_51" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; When parsing the &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; URL, the &lt;code dir="ltr" translate="no"&gt;ns&lt;/code&gt; URL query parameter
 will be treated as the default &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; namespace name.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused &lt;code dir="ltr" translate="no"&gt;.info/serverTimeOffset&lt;/code&gt; events not to
@@ -1138,7 +1138,7 @@ for Google Cloud Identity Platform developers.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_147" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition between authenticating and initializing
 Firestore that could result in initial writes to the database being dropped.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.6.1 - September 12, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_661_-_september_12_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_49" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.6.1 - September 12, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_661_-_september_12_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_50" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal cleanup of code that supports Node.js.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.6.2 - September 19, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_662_-_september_19_2019</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_146" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression introduced in 6.6.0 where &lt;code dir="ltr" translate="no"&gt;Document.toString()&lt;/code&gt; throws an error.&lt;/li&gt;
@@ -1178,7 +1178,7 @@ when all your snapshot listeners are in sync with each other.&lt;/p&gt;&lt;/li&g
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression that caused queries with nested field filters to
 crash the client if the field was not present in the local copy of the
 document.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_48" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_49" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused large numeric values with leading zeros to
 not always be sorted correctly.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1244,7 +1244,7 @@ if the result of &lt;code dir="ltr" translate="no"&gt;snapshot.val()&lt;/code&gt
 &lt;code dir="ltr" translate="no"&gt;fetchAndActivate()&lt;/code&gt; were not rejected with errors caused by &lt;code dir="ltr" translate="no"&gt;indexeddb&lt;/code&gt;
 operations. You can now handle these errors in the error handler of the returned
 promise.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.5.2 - December 6, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_752_-_december_6_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_47" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.5.2 - December 6, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_752_-_december_6_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_48" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue introduced in 7.5.1 where &lt;code dir="ltr" translate="no"&gt;@firebase/component&lt;/code&gt; is
 not listed as a dependency. It caused "Cannot find module
 &lt;code dir="ltr" translate="no"&gt;@firebase/component&lt;/code&gt;" in the &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt; package, which depends on &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;.&lt;/li&gt;
@@ -1263,13 +1263,13 @@ permissions, pending a backend solution. Addresses &lt;a href="https://github.co
 &lt;/ul&gt;&lt;h3 data-text="Testing SDK" id="testing-sdk_12" tabindex="-1"&gt;Testing SDK&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where Testing SDK was unable to connect to the
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; emulator. Addresses &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/2417"&gt;Github issue #2417&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.6.1 - December 18, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_761_-_december_18_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_46" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.6.1 - December 18, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_761_-_december_18_2019</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_47" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an internal typing issue where the library &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt;,
 which depends on &lt;code dir="ltr" translate="no"&gt;@firebase/database&lt;/code&gt;, failed to compile.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.6.2 - January 9, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_762_-_january_9_2020</link><description>&lt;h3 data-text="Cloud Functions for Firebase Client SDK" id="cloud-functions-for-firebase-client-sdk_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug causing notification permissions requests to pop up when
 using &lt;code dir="ltr" translate="no"&gt;functions.httpsCallable()&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_45" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_46" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Reverted a change causing slow update performance as reported in &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/2487"&gt;Github issue #2487&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_137" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where auth credentials were not respected in certain
@@ -1389,7 +1389,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/2712"&gt;Gith
 &lt;/ul&gt;</description></item><item><title>Version 7.14.0 - April 9, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7140_-_april_9_2020</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_124" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Replaced &lt;code dir="ltr" translate="no"&gt;grpc&lt;/code&gt; with &lt;code dir="ltr" translate="no"&gt;@grpc/grpc-js&lt;/code&gt; in the Node.js builds. As a result,
 the minimum supported NodeJS version is now &lt;code dir="ltr" translate="no"&gt;8.13.0&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_44" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_45" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;ServerValue.increment()&lt;/code&gt; to support atomic field value increments
 without transactions.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1414,7 +1414,7 @@ registered in &lt;code dir="ltr" translate="no"&gt;IndexedDB&lt;/code&gt;. Previ
 &lt;/ul&gt;</description></item><item><title>Version 7.14.4 - May 14, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7144_-_may_14_2020</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_121" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression introduced in v7.14.2 that incorrectly applied
 a &lt;code dir="ltr" translate="no"&gt;FieldValue.increment&lt;/code&gt; in combination with &lt;code dir="ltr" translate="no"&gt;set({...}, {merge: true})&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.14.5 - May 21, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7145_-_may_21_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_43" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.14.5 - May 21, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7145_-_may_21_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_44" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; URL parsing bug to support domains with more
 than 3 components.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.14.6 - May 29, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7146_-_may_29_2020</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_120" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1438,7 +1438,7 @@ you can retry these operations when &lt;code dir="ltr" translate="no"&gt;Indexed
 to the backend immediately after a user signed in. See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/2923"&gt;GitHub issue #2923&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression introduced in &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/3048"&gt;PR #3048&lt;/a&gt; that changed the &lt;code dir="ltr" translate="no"&gt;context.path&lt;/code&gt;
 variable from &lt;code dir="ltr" translate="no"&gt;Path|null&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;undefined|null&lt;/code&gt;. See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/3172"&gt;GitHub issue #3172&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.15.2 - June 18, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7152_-_june_18_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.15.2 - June 18, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7152_-_june_18_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_43" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added an internal HTTP header to the WebSocket connection.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_117" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;grpc-js&lt;/code&gt; to version &lt;code dir="ltr" translate="no"&gt;^1.0.0&lt;/code&gt;.&lt;/li&gt;
@@ -1474,7 +1474,7 @@ canceled. Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/3
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The SDK no longer crashes if an &lt;code dir="ltr" translate="no"&gt;IndexedDB&lt;/code&gt; failure occurs when unsubscribing from a &lt;code dir="ltr" translate="no"&gt;Query&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed a delay that prevented Firestore from immediately reestablishing
 a network connection if a connectivity change occurred while the app was in the background.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_41" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Instead of using production auth, the SDK will use test credentials
 to connect to the Emulator when &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; is used via the Firebase Admin SDK.
 Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/3144"&gt;GitHub issue #3144&lt;/a&gt;.&lt;/li&gt;
@@ -1498,7 +1498,7 @@ response message.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added an omitted dependency update that caused &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; to
 error on initialization.
 Addresses &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/3469"&gt;GitHub issue #3469&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.17.2 - August 6, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7172_-_august_6_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_40" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.17.2 - August 6, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7172_-_august_6_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_41" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added interface &lt;code dir="ltr" translate="no"&gt;Database&lt;/code&gt; which is implemented by &lt;code dir="ltr" translate="no"&gt;FirebaseDatabase&lt;/code&gt;.
 This allows consumer SDKs (such as the Firebase Admin SDK) to export
 &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; types as an interface.&lt;/li&gt;
@@ -1549,7 +1549,7 @@ Firebase dynamically fetches the &lt;code dir="ltr" translate="no"&gt;measuremen
 it does serve as a fallback in the rare case that the dynamic fetch fails.
 Learn more about this field in the
 &lt;a href="/docs/analytics/get-started?platform=web#add-sdk"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt; getting started page&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_39" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_40" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The SDK can now infer a default database URL if none is provided
 in the config.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_107" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1572,7 +1572,7 @@ specified field is not present.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where &lt;code dir="ltr" translate="no"&gt;CollectionReference.add()&lt;/code&gt; called
 &lt;code dir="ltr" translate="no"&gt;FirestoreDataConverter.toFirestore()&lt;/code&gt; twice instead of once.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/3742"&gt;GitHub issue #3742&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_39" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed detection of Admin SDK context.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Testing SDK" id="testing-sdk_9" tabindex="-1"&gt;Testing SDK&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug preventing users from testing &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; with both
@@ -1655,7 +1655,7 @@ has always accepted null and NaN for all operators.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; This release removes runtime type validations that are covered
 by TypeScript. Developers can use our
 TypeScript types to validate API usage.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_37" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a &lt;code dir="ltr" translate="no"&gt;useEmulator(host, port)&lt;/code&gt; method to &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK" id="cloud-functions-for-firebase-client-sdk_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a &lt;code dir="ltr" translate="no"&gt;useEmulator(host, port)&lt;/code&gt; method to the &lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;.&lt;/li&gt;
@@ -1680,13 +1680,13 @@ Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/1926"&gt;Gi
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused &lt;code dir="ltr" translate="no"&gt;DocumentReference&lt;/code&gt; objects in
 &lt;code dir="ltr" translate="no"&gt;DocumentSnapshot&lt;/code&gt; instances to be returned with the custom converter of the original
 &lt;code dir="ltr" translate="no"&gt;DocumentReference&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.1.0 - November 19, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_810_-_november_19_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_36" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.1.0 - November 19, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_810_-_november_19_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_37" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-issue"&gt;&lt;/span&gt; We have identified an issue in the newly added &lt;code dir="ltr" translate="no"&gt;Query.get()&lt;/code&gt; API. This causes data to be returned which doesn't match the Query filters. We are working on providing a fix.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a database query &lt;code dir="ltr" translate="no"&gt;get&lt;/code&gt; method that returns server results when connected.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_100" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression introduced in v8.0.2 that returned invalid values for &lt;code dir="ltr" translate="no"&gt;DocumentChange.newIndex&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4071"&gt;GitHub issue #4071&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.1.1 - November 19, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_811_-_november_19_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.1.1 - November 19, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_811_-_november_19_2020</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_36" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added the missing type definition for &lt;code dir="ltr" translate="no"&gt;Query.get()&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_99" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that prevented &lt;code dir="ltr" translate="no"&gt;experimentalAutoDetectLongPolling&lt;/code&gt; from working correctly.&lt;/li&gt;
@@ -1723,7 +1723,7 @@ see &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/3222"&gt;GitH
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that prevented the SDK from automatically retrieving
 custom claims for a &lt;code dir="ltr" translate="no"&gt;User&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4175"&gt;GitHub issue #4175&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.2.2 - January 7, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_822_-_january_7_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.2.2 - January 7, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_822_-_january_7_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with multiple database instances when using the Realtime
 Database emulator.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/3681"&gt;GitHub issue #3681&lt;/a&gt;&lt;/li&gt;
@@ -1735,9 +1735,9 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4253"&gt;GitH
 return invalid &lt;code dir="ltr" translate="no"&gt;DocumentReference&lt;/code&gt; objects through &lt;code dir="ltr" translate="no"&gt;DocumentSnapshot.data()&lt;/code&gt;
 calls.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4226"&gt;GitHub issue #4226&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.2.3 - January 14, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_823_-_january_14_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.2.3 - January 14, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_823_-_january_14_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused &lt;code dir="ltr" translate="no"&gt;refFromUrl()&lt;/code&gt; to reject production database URLs when &lt;code dir="ltr" translate="no"&gt;useEmulator()&lt;/code&gt; was used.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.2.4 - January 21, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_824_-_january_21_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.2.4 - January 21, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_824_-_january_21_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;startAfter&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;endBefore&lt;/code&gt; filters for paginating
 &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; queries.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_58" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1747,7 +1747,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4226"&gt;GitH
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an error that caused &lt;code dir="ltr" translate="no"&gt;FirestoreDataConverter.fromFirestore()&lt;/code&gt; to
 be called with an incorrect &lt;code dir="ltr" translate="no"&gt;QueryDocumentSnapshot&lt;/code&gt; object.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4278"&gt;GitHub issue #4278&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.2.5 - January 28, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_825_-_january_28_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.2.5 - January 28, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_825_-_january_28_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; When issued for queries that are being listened to, &lt;code dir="ltr" translate="no"&gt;get()&lt;/code&gt; calls no longer send backend requests.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_93" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Classes like &lt;code dir="ltr" translate="no"&gt;DocumentReference&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Query&lt;/code&gt; can now be serialized to JSON.
@@ -1756,14 +1756,14 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4258"&gt;GitH
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where UTF-8 encoded strings were not decoded in
 &lt;code dir="ltr" translate="no"&gt;getIdTokenResult&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4174"&gt;GitHub issue #4174&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with &lt;code dir="ltr" translate="no"&gt;startAfter&lt;/code&gt;/&lt;code dir="ltr" translate="no"&gt;endBefore&lt;/code&gt; when used in
 &lt;code dir="ltr" translate="no"&gt;orderByKey&lt;/code&gt; queries.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_92" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Correctly handle &lt;code dir="ltr" translate="no"&gt;ignoreUndefinedProperties&lt;/code&gt; in
 &lt;code dir="ltr" translate="no"&gt;set({ merge: true })&lt;/code&gt;. Previously this would behave as if the undefined
 value were &lt;code dir="ltr" translate="no"&gt;FieldValue.delete()&lt;/code&gt;, which wasn't intended.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.2.7 - February 11, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_827_-_february_11_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.2.7 - February 11, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_827_-_february_11_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with &lt;code dir="ltr" translate="no"&gt;Query.get()&lt;/code&gt; where &lt;code dir="ltr" translate="no"&gt;Query&lt;/code&gt; filters were not applied to data in some cases.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added the missing type definitions for &lt;code dir="ltr" translate="no"&gt;startAfter()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;endBefore()&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_91" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1793,7 +1793,7 @@ for storage. This allows you to set a storage emulator host and port.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_89" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where decimal inputs to &lt;code dir="ltr" translate="no"&gt;Timestamp.fromMillis()&lt;/code&gt; were
 calculated incorrectly due to floating point precision loss.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.4.1 - April 13, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_841_-_april_13_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.4.1 - April 13, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_841_-_april_13_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a build issue that caused SDK breakage.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.4.2 - April 23, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_842_-_april_23_2021</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed outdated &lt;code dir="ltr" translate="no"&gt;peerDependencies&lt;/code&gt;.&lt;/li&gt;
@@ -1804,19 +1804,19 @@ Now they are wrapped in &lt;code dir="ltr" translate="no"&gt;FirestoreError&lt;/
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4795"&gt;GitHub issue #4795&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the infinite recursion caused by the &lt;code dir="ltr" translate="no"&gt;FirebaseStorageError&lt;/code&gt; message getter.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.4.3 - April 29, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_843_-_april_29_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.4.3 - April 29, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_843_-_april_29_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that prevented the SDK from firing cancel events for
 Firebase Security Rules violations.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4818"&gt;GitHub issue #4818&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixes a regression introduced in version 8.4.1 that broke &lt;code dir="ltr" translate="no"&gt;useEmulator()&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4811"&gt;GitHub issue #4811&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.5.0 - May 5, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_850_-_may_5_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.5.0 - May 5, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_850_-_may_5_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;useEmulator&lt;/code&gt; now accepts an optional &lt;code dir="ltr" translate="no"&gt;mockUserToken&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_87" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;useEmulator&lt;/code&gt; now accepts an optional &lt;code dir="ltr" translate="no"&gt;mockUserToken&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.6.0 - May 11, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_860_-_may_11_2021</link><description>&lt;h3 data-text="App Check" id="app-check_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Published the &lt;span class="notranslate"&gt;App Check&lt;/span&gt; package.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed typings for &lt;code dir="ltr" translate="no"&gt;useEmulator&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Testing SDK" id="testing-sdk_4" tabindex="-1"&gt;Testing SDK&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; emulator.&lt;/li&gt;
@@ -1824,7 +1824,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4811"&gt;GitH
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that caused crashes in &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;, &lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;,
 and &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; when using the all-in-one &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; import, as in
 &lt;code dir="ltr" translate="no"&gt;import firebase from 'firebase'&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that could cause &lt;code dir="ltr" translate="no"&gt;once()&lt;/code&gt; to fire more than once
 if the value was modified inside its callback.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.6.2 - May 20, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_862_-_may_20_2021</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_86" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1837,7 +1837,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4909"&gt;GitH
 &lt;/ul&gt;&lt;h3 data-text="Testing SDK" id="testing-sdk_3" tabindex="-1"&gt;Testing SDK&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Prevent &lt;code dir="ltr" translate="no"&gt;useEmulators()&lt;/code&gt; from erroring when only the &lt;code dir="ltr" translate="no"&gt;storage&lt;/code&gt;
 field is populated in the options parameter.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.6.3 - May 27, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_863_-_may_27_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.6.3 - May 27, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_863_-_may_27_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an &lt;code dir="ltr" translate="no"&gt;"index not defined"&lt;/code&gt; error that sometimes occurred during
 a &lt;code dir="ltr" translate="no"&gt;get()&lt;/code&gt; call on an &lt;code dir="ltr" translate="no"&gt;orderByChild&lt;/code&gt; query.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_85" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1869,14 +1869,14 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5052"&gt;GitH
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_55" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; didn't detect &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, which led to permission denied errors.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4932"&gt;GitHub issue #4932&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.7.1 - July 8, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_871_-_july_8_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.7.1 - July 8, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_871_-_july_8_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; In Node.js, always send &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;App Check&lt;/span&gt; tokens when
 they are available.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.8.0 - July 22, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_880_-_july_22_2021</link><description>&lt;h3 data-text="Analytics" id="analytics_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;firebase_screen&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;firebase_screen_class&lt;/code&gt; to
 &lt;code dir="ltr" translate="no"&gt;logEvent()&lt;/code&gt; overload for &lt;code dir="ltr" translate="no"&gt;screen_view&lt;/code&gt; events. These fields are required
 to log &lt;code dir="ltr" translate="no"&gt;screen_view&lt;/code&gt; events correctly to &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed sending of &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; tokens in Node.js. This bug affected Admin
 SDK users who have &lt;span class="notranslate"&gt;App Check&lt;/span&gt; enforced.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_81" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1908,7 +1908,7 @@ This change was primarily to prevent breaking the Emulator UI.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added or updated the &lt;code dir="ltr" translate="no"&gt;mockUserToken&lt;/code&gt; option provided to the
 &lt;code dir="ltr" translate="no"&gt;useEmulator()&lt;/code&gt; functions in &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;.
 The details for each product are below.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Allow &lt;code dir="ltr" translate="no"&gt;useEmulator()&lt;/code&gt; to also accept a string for its
 &lt;code dir="ltr" translate="no"&gt;mockUserToken&lt;/code&gt; option.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_80" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2073,7 +2073,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/1674"&gt;Gith
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added the missing &lt;code dir="ltr" translate="no"&gt;SAMLAuthProvider&lt;/code&gt; to the compatibility layer.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed bug that caused &lt;code dir="ltr" translate="no"&gt;onAuthStateChanged&lt;/code&gt; to be fired twice.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5685"&gt;Github issue #5685&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.4.0 - November 08, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_940_-_november_08_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.4.0 - November 08, 2021</title><link>https://firebase.google.com/support/release-notes/js#version_940_-_november_08_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a packaging issue that broke the Firebase Admin Node.js SDK.
 see &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/1487"&gt;Github issue #1487&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_74" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2214,7 +2214,7 @@ after an initial migration. If you do not want to migrate data, you can call
 &lt;/ul&gt;</description></item><item><title>Version 9.6.11 - April 14, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_9611_-_april_14_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Set default IndexedDB transaction mode to &lt;code dir="ltr" translate="no"&gt;readonly&lt;/code&gt; for IE11
 compatibility.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixes an issue where if a websocket protocol was used in the
 &lt;code dir="ltr" translate="no"&gt;databaseURL&lt;/code&gt;, the &lt;code dir="ltr" translate="no"&gt;webSocketOnly&lt;/code&gt; field was incorrectly set to undefined. (When
 using &lt;code dir="ltr" translate="no"&gt;wss&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;ws&lt;/code&gt; protocols in the &lt;code dir="ltr" translate="no"&gt;databaseURL&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;webSocketOnly&lt;/code&gt; is
@@ -2243,7 +2243,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6154"&gt;Gith
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a &lt;code dir="ltr" translate="no"&gt;beforeAuthStateChanged()&lt;/code&gt; middleware function which
 allows you to provide callbacks that are run before an auth state change
 sets a new user.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;forceWebSockets()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;forceLongPolling()&lt;/code&gt; methods.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_63" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a &lt;code dir="ltr" translate="no"&gt;TransactionOptions&lt;/code&gt; param to the &lt;code dir="ltr" translate="no"&gt;runTransaction()&lt;/code&gt; method.&lt;/li&gt;
@@ -2268,7 +2268,7 @@ of Node.js ES modules&lt;/a&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6300"&gt;Github issue #6300&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed some incorrect &lt;code dir="ltr" translate="no"&gt;package.json&lt;/code&gt; paths to entry points in
 &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed &lt;code dir="ltr" translate="no"&gt;@firebase/app-compat&lt;/code&gt; as a &lt;code dir="ltr" translate="no"&gt;peerDependency&lt;/code&gt; of
 &lt;code dir="ltr" translate="no"&gt;@firebase/database-compat&lt;/code&gt;, which should not impact JS SDK users, but will
 prevent &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt; users from seeing a warning during npm installation.&lt;/li&gt;
@@ -2283,7 +2283,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6343"&gt;Gith
 &lt;/ul&gt;</description></item><item><title>Version 9.8.4 - June 23, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_984_-_june_23_2022</link><description>&lt;h3 data-text="Analytics" id="analytics_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed typo in &lt;code dir="ltr" translate="no"&gt;GtagConfigParams&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6349"&gt;Github issue #6349&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;get()&lt;/code&gt; saved results incorrectly for non-default
 queries.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6273"&gt;Github PR #6273&lt;/a&gt;.&lt;/li&gt;
@@ -2301,7 +2301,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6133"&gt;Gith
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated user agent detection to better detect iPad. This fixes
 a bug affecting some iPad devices running Cordova apps.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6331"&gt;Github issue #6331&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Forced &lt;code dir="ltr" translate="no"&gt;get()&lt;/code&gt; to wait to resolve until the SDK is connected to the
 &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; backend.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6036"&gt;Github issue #6036&lt;/a&gt;.&lt;/li&gt;
@@ -2326,7 +2326,7 @@ address &lt;code dir="ltr" translate="no"&gt;protobufjs&lt;/code&gt; security is
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Prevent the SDK from throwing errors if it is unable to log platform data
 due to an IndexedDB error. It will log a warning instead.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6480"&gt;Github PR #6480&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the type of the &lt;code dir="ltr" translate="no"&gt;action&lt;/code&gt; parameter for &lt;code dir="ltr" translate="no"&gt;DataSnapshot.forEach()&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6368"&gt;Github issue #6368&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_60" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2335,7 +2335,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6496"&gt;Github
 &lt;/ul&gt;</description></item><item><title>Version 9.9.3 - August 18, 2022</title><link>https://firebase.google.com/support/release-notes/js#version_993_-_august_18_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed all references to &lt;code dir="ltr" translate="no"&gt;@firebase/polyfill&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6503"&gt;Github issue #6503&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;get()&lt;/code&gt; would return incorrect results when using
 a filtered &lt;code dir="ltr" translate="no"&gt;get()&lt;/code&gt; and an &lt;code dir="ltr" translate="no"&gt;onValue()&lt;/code&gt; event listener on the same path.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6497"&gt;Github PR #6497&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -2348,7 +2348,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6368"&gt;Gith
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed proactive refresh logic in &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; when &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, or &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; are in use.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6544"&gt;Github PR #6544&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added experimental support for Deno.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6560"&gt;Github PR #6560&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_59" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2400,7 +2400,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/5873"&gt;Gith
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; to allow for multiple instances of &lt;code dir="ltr" translate="no"&gt;gtag&lt;/code&gt;
 with different data layer names.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6655"&gt;Github PR #6655&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;endBefore&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;push&lt;/code&gt; documentation typos in &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;
 documentation.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6583"&gt;Github PR #6583&lt;/a&gt;.&lt;/li&gt;
@@ -2454,7 +2454,7 @@ Firefox browsers when third-party cookies are blocked.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6801"&gt;Github issue #6801&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase/[product]&lt;/code&gt; entry point bundles to conform to
 Node.js ES module specifications.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;startAfter&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;endBefore&lt;/code&gt; query params to the
 REST API and wire protocol. This change does not affect the existing public API.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6706"&gt;Github PR #6706&lt;/a&gt;.&lt;/li&gt;
@@ -2480,7 +2480,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6940"&gt;Github
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a fix to minimize a potential race condition between
 initialization of the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; SDK and &lt;code dir="ltr" translate="no"&gt;signInWithRedirect&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6827"&gt;Github issue #6827&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;connectDatabaseToEmulator&lt;/code&gt; was sometimes called
 twice during a hot reload
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6853"&gt;Github issue #6853&lt;/a&gt;.&lt;/li&gt;
@@ -2499,7 +2499,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6981"&gt;Github
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Exposed &lt;code dir="ltr" translate="no"&gt;TOKEN_EXPIRED&lt;/code&gt; error when multi-factor authentication (MFA) unenroll logs out the user.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/6973"&gt;Github PR #6973&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where hostname set by &lt;code dir="ltr" translate="no"&gt;connectDatabaseEmulator&lt;/code&gt; was being overridden by longpolling response.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/4603"&gt;Github issue #4603&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_52" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2517,7 +2517,7 @@ condition should be last one".&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Modified &lt;code dir="ltr" translate="no"&gt;_fail(...)&lt;/code&gt; to use &lt;code dir="ltr" translate="no"&gt;AuthErrorCode.INTERNAL_ERROR&lt;/code&gt; and
 accept an error message.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7038"&gt;Github PR #7038&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where Vite with Astro could not resolve the correct
 output bundle.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7055"&gt;Github PR #7055&lt;/a&gt;.&lt;/li&gt;
@@ -2660,7 +2660,7 @@ See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/7128"&gt;Github
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed the type of &lt;code dir="ltr" translate="no"&gt;ParsedToken&lt;/code&gt; values from &lt;code dir="ltr" translate="no"&gt;any&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;unknown&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Reordered &lt;code dir="ltr" translate="no"&gt;RecaptchaVerifier&lt;/code&gt; parameters so &lt;code dir="ltr" translate="no"&gt;auth&lt;/code&gt; is the first
 parameter.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated type of action parameter for &lt;code dir="ltr" translate="no"&gt;DataSnapshot#forEach&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;updateDoc()&lt;/code&gt; typing issue by adding a second type parameter to
@@ -2807,7 +2807,7 @@ and developers should not try to use both in the same app. See
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added two new consent options to the &lt;code dir="ltr" translate="no"&gt;ConsentSettings&lt;/code&gt; interface:
 &lt;code dir="ltr" translate="no"&gt;ad_personalization&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;ad_user_data&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where &lt;code dir="ltr" translate="no"&gt;queryConstraint.type&lt;/code&gt; was undefined.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;isSafari()&lt;/code&gt; throwing in React Native. See
@@ -2935,7 +2935,7 @@ Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8355"&gt;Gi
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix an issue with metadata &lt;code dir="ltr" translate="no"&gt;fromCache&lt;/code&gt; defaulting to &lt;code dir="ltr" translate="no"&gt;true&lt;/code&gt; when
 listening to cache in multiple browser tabs. See
 &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8343"&gt;GitHub PR #8343&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.14.0 - September 30, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_10140_-_september_30_2024</link><description>&lt;h3 data-text="SQL Connect" id="sql-connect_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.14.0 - September 30, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_10140_-_september_30_2024</link><description>&lt;h3 data-text="SQL Connect" id="sql-connect_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; package to the SDK.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;span class="notranslate"&gt;App Check&lt;/span&gt; support.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2973,7 +2973,7 @@ phone authentication.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;FunctionsError&lt;/code&gt; class is now publicly exported.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Memory LRU GC is now enabled by default.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.0.1 - October 22, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_1101_-_october_22_2024</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.0.1 - October 22, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_1101_-_october_22_2024</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Bumped &lt;code dir="ltr" translate="no"&gt;@firebase/database-compat&lt;/code&gt; by a major version to ensure
 downstream libraries like &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt; don't automatically pick up the
 Node.js &lt;code dir="ltr" translate="no"&gt;engines&lt;/code&gt; update in &lt;code dir="ltr" translate="no"&gt;package.json&lt;/code&gt;.&lt;/li&gt;
@@ -2988,7 +2988,7 @@ Node.js &lt;code dir="ltr" translate="no"&gt;engines&lt;/code&gt; update in &lt;
 &lt;/ul&gt;</description></item><item><title>Version 11.1.0 - December 12, 2024</title><link>https://firebase.google.com/support/release-notes/js#version_1110_-_december_12_2024</link><description>&lt;h3 data-text="Cloud Functions for Firebase Client SDK" id="cloud-functions-for-firebase-client-sdk_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;.stream()&lt;/code&gt; API for callable functions to consume stream
 responses.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where multiple calls to &lt;code dir="ltr" translate="no"&gt;connectDataConnectEmulator&lt;/code&gt;
 caused an exception.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2998,7 +2998,7 @@ after registering the default service worker. Fixes
 &lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_3" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Clear &lt;code dir="ltr" translate="no"&gt;fetch&lt;/code&gt; &lt;code dir="ltr" translate="no"&gt;timeout&lt;/code&gt; after request completion. Fixes an issue
 that caused Node.js scripts to hang on exit due to a pending timeout.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.2.0 - January 16, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1120_-_january_16_2025</link><description>&lt;h3 data-text="SQL Connect" id="sql-connect_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.2.0 - January 16, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1120_-_january_16_2025</link><description>&lt;h3 data-text="SQL Connect" id="sql-connect_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Usage of &lt;code dir="ltr" translate="no"&gt;PromiseLike&lt;/code&gt; has been replaced with &lt;code dir="ltr" translate="no"&gt;Promise&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for custom signal targeting. Use the
@@ -3010,7 +3010,7 @@ the new custom signal condition type in the Remote Config console.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;ActionCodeSettings.linkDomain&lt;/code&gt; to customize the Firebase Hosting link domain that is used in mobile out-of-band email action flows. Also, deprecated &lt;code dir="ltr" translate="no"&gt;ActionCodeSettings.dynamicLinkDomain&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Collect web vital metrics (INP,CLS,LCP) as part of page load event.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential negative offset when calculating last reconnect times. This could cause lengthy reconnect delays in some scenarios. Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8718"&gt;GitHub Issue #8718&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the SDK's string sorting differed from the server's (UTF-8 byte order) for document fields and map/document keys, resolving a mismatch caused by special characters.&lt;/li&gt;
@@ -3027,7 +3027,7 @@ Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6824"&gt;Gi
 &lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that caused an error to be thrown when the debug
 exchange request failed.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Invoking &lt;code dir="ltr" translate="no"&gt;connectDatabaseEmulator&lt;/code&gt; multiple times with the same
 parameters will no longer cause an error.
 Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/6824"&gt;GitHub issue #6824&lt;/a&gt;.&lt;/li&gt;
@@ -3053,13 +3053,13 @@ were previously internally suppressed. Fixes
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Implemented lazy UTF-8 encoded byte comparison for strings. Fixes
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8774"&gt;GitHub issue #8774&lt;/a&gt;
 and &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8778"&gt;#8778&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated requests to point to the &lt;code dir="ltr" translate="no"&gt;v1&lt;/code&gt; backend endpoints instead of
 &lt;code dir="ltr" translate="no"&gt;v1beta&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; New retry logic prevents infinite retry attempts. Fixes
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/8813"&gt;GitHub issue #8813&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added non-null parent properties to &lt;code dir="ltr" translate="no"&gt;ThenableReference&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase_1" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added missing &lt;code dir="ltr" translate="no"&gt;BlockReason&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;FinishReason&lt;/code&gt; enum values.&lt;/p&gt;&lt;/li&gt;
@@ -3070,7 +3070,7 @@ added to &lt;code dir="ltr" translate="no"&gt;CountTokensRequest&lt;/code&gt;.&l
 cookies. The &lt;code dir="ltr" translate="no"&gt;browserCookiePersistence&lt;/code&gt; implementation is designed to be used
 in conjunction with middleware that ensures both your front and backend
 authentication state remain synchronized.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Exposed partial errors to the user.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertex-ai-in-firebase" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The SDK now throws an error when initializing models if &lt;code dir="ltr" translate="no"&gt;appId&lt;/code&gt;
@@ -3078,7 +3078,7 @@ is not defined in the given &lt;span class='\"notranslate\"'&gt;Vertex AI in 
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Labeled &lt;code dir="ltr" translate="no"&gt;GroundingAttribution&lt;/code&gt; as deprecated.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.6.1 - April 24, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1161_-_april_24_2025</link><description>&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;ActionCodeURL&lt;/code&gt; was not populating &lt;code dir="ltr" translate="no"&gt;languageCode&lt;/code&gt; from the URL. Fixes &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8912"&gt;GitHub Issue #8912&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved a 'cannot extend private constructor' build error that occurred when using the &lt;code dir="ltr" translate="no"&gt;DataConnectError&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;DataConnectOperationError&lt;/code&gt; types. See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8898"&gt;GitHub PR #8898&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt; value handling in &lt;code dir="ltr" translate="no"&gt;!=&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;not-in&lt;/code&gt; filters. See &lt;a href="https://github.com/firebase/firebase-js-sdk/pull/8915"&gt;GitHub PR #8915&lt;/a&gt;.&lt;/li&gt;
@@ -3256,7 +3256,7 @@ user-provided &lt;code dir="ltr" translate="no"&gt;onDeviceParams&lt;/code&gt;.&
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;browserCookiePersistence&lt;/code&gt; beta feature to public types.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.6.0 - November 13, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1260_-_november_13_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_11" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;a href="/docs/ai-logic/server-prompt-templates/get-started"&gt;server prompt templates&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;onComplete&lt;/code&gt; did not trigger when the user
 called &lt;code dir="ltr" translate="no"&gt;unsubscribe&lt;/code&gt; on a subscription.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.7.0 - December 16, 2025</title><link>https://firebase.google.com/support/release-notes/js#version_1270_-_december_16_2025</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_10" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3293,7 +3293,7 @@ expressions.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.10.0 - February 27, 2026</title><link>https://firebase.google.com/support/release-notes/js#version_12100_-_february_27_2026</link><description>&lt;h3 data-text="AI Logic" id="ai-logic_7" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added automatic function calling capability when using
 &lt;code dir="ltr" translate="no"&gt;ChatSession&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added memory-based caching to queries in &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the following Pipelines expressions:
@@ -3330,7 +3330,7 @@ on-device usage in hybrid inference mode.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the peer dependency range for
 &lt;code dir="ltr" translate="no"&gt;@react-native-async-storage/async-storage&lt;/code&gt; to support both v2 and v3.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added streaming support for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the following expressions: &lt;code dir="ltr" translate="no"&gt;parent&lt;/code&gt;,
@@ -3361,7 +3361,7 @@ are generally available and no longer public preview.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;ImageConfig&lt;/code&gt; (aspect ratio and size).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Expanded FinishReason response values to align them with the
 values the currently supported models may return.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Hardened the Firebase SQL Connect streaming transport with
 intelligent reconnection, query de-duplication, and resume optimizations.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3395,7 +3395,7 @@ using limited use tokens in &lt;span class='\"notranslate\"'&gt;AI Logic&lt;/sp
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that caused timeouts in browser extension environments.
 See
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/9732"&gt;GitHub Issue #9732&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Eliminated the 1-minute delay before closing idle backend
 connections to save resources.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -3463,4 +3463,11 @@ support &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;.&lt;/p&gt;
 and added a &lt;code dir="ltr" translate="no"&gt;grpcFlowControlWindow&lt;/code&gt; configuration option to
 &lt;code dir="ltr" translate="no"&gt;FirestoreSettings&lt;/code&gt;. This change is only applicable to Node.js environments.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a ReDoS vulnerability in &lt;code dir="ltr" translate="no"&gt;FirebaseError&lt;/code&gt; template replacement.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.17.1 - August 4, 2026</title><link>https://firebase.google.com/support/release-notes/js#version_12171_-_august_4_2026</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that caused an error for users of the Firebase Admin
+Node.js SDK during npm install, as the Firebase Admin Node.js SDK has a
+dependency on the &lt;code dir="ltr" translate="no"&gt;@firebase/database-compat&lt;/code&gt; package.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="sql-connect" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;X-Client-Version&lt;/code&gt; request header to enable
+metrics collection in Cloud Monitoring.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
