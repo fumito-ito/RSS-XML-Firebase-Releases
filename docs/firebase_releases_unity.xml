@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 06 Aug 2026 13:55:22 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Unity</title><link>https://firebase.google.com/support/release-notes/unity</link><description>Latest updates and release notes for Firebase Unity.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 06 Aug 2026 23:54:12 +0000</lastBuildDate><item><title>Version 1.0.0 - November 7th, 2016</title><link>https://firebase.google.com/support/release-notes/unity#version_100_-_november_7th_2016</link><description>&lt;p&gt;This initial release of the Firebase Unity SDK includes support for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, &lt;span class="notranslate"&gt;Invites&lt;/span&gt;, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;. To get started, see
 &lt;a href="/docs/unity/setup"&gt;Adding Firebase to your Unity Project&lt;/a&gt;.&lt;/p&gt;&lt;ul&gt;
@@ -46,7 +46,7 @@ A workaround is documented on the
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Modified stub implementation so that all operations now succeed
 rather than raise exceptions.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused null events to not be reported.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused unsubscription from complex queries to fail.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused service account authentication to fail in the editor.&lt;/li&gt;
@@ -65,7 +65,7 @@ rather than raise exceptions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; plugin was using a Unity API that is only present
 in Unity 5.4. We have modified the component so that it is now backwards
 compatible with previous versions of Unity.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Realtime Database</title><link>https://firebase.google.com/support/release-notes/unity#realtime-database_30</link><description>&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Realtime Database</title><link>https://firebase.google.com/support/release-notes/unity#realtime-database_31</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that prevented saving floating point values.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 1.1.1 - January 18, 2017</title><link>https://firebase.google.com/support/release-notes/unity#version_111_-_january_18_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue in the editor plugin that caused an exception to be
@@ -125,7 +125,7 @@ used when building for the desktop.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_39" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;SetCurrentScreen()&lt;/code&gt; method.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed race condition when accessing user properties.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved issue where large queries resulted in empty results.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue which prevented saving boolean values.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -167,7 +167,7 @@ Unity 5.6, required to use the GoogleVR iOS SDK.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an occasional crash when events are fired.  This could
 manifest in a crash when signing in.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated FirebaseUser.RefreshToken.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue which caused the application to manually refresh
 the auth token.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -250,7 +250,7 @@ to fail when other iOS SDKs rename the selectors of swizzled methods.
 This could result in a hang on startup when using some iOS SDKs.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed task completion if short link creation fails.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where a list larger than approximately 1kb will fail
 to synchronize changes correctly.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that caused database connections to fail when
@@ -308,7 +308,7 @@ cleared.&lt;/li&gt;
 When push notifications aren't available, reCAPTCHA verification is used
 instead.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added more specific error codes for failed operations.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where user authentication tokens are ignored if the
 application uses the database API before initializing authentication.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -341,7 +341,7 @@ token which could cause Database and Storage operations to hang.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a bug where remote config values retrieved
 were misclassified as coming from a default config vs an active config.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed hang when Time.timeScale is 0 in Unity 2017.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed hang when Time.timeScale is 0 in Unity 2017.&lt;/li&gt;
@@ -367,7 +367,7 @@ and no longer forces registering for notifications.&lt;/li&gt;
 token to &lt;code dir="ltr" translate="no"&gt;GetBytesAsync&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the auth token was not refreshed when the
 application is started.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the auth token was not refreshed
 when the application is started.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.4.2 - Feb 5, 2018</title><link>https://firebase.google.com/support/release-notes/unity#version_442_-_feb_5_2018</link><description>&lt;ul&gt;
@@ -508,7 +508,7 @@ now produces an error.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed photo URL never returning a value on iOS.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed setting the profile photo URL with
 &lt;code dir="ltr" translate="no"&gt;FirebaseUser.UpdateUserProfile()&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for ServerValues in &lt;code dir="ltr" translate="no"&gt;SetPriority&lt;/code&gt; methods.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS / Android) Now implemented as a wrapper around Firebase iOS
 and Android SDKs, to add offline support and increase reliability and
@@ -525,7 +525,7 @@ availability checker.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed per-frame allocation in the token refresh logic.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed a crash in
 &lt;code dir="ltr" translate="no"&gt;FirebaseUser.UpdatePhoneNumberCredentialAsync()&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a version of &lt;code dir="ltr" translate="no"&gt;GetInstance()&lt;/code&gt; that allows passing in the URL
 of the database to use.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -541,7 +541,7 @@ initialized while &lt;code dir="ltr" translate="no"&gt;CheckAndFixDependenciesAs
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition that was returning the wrong Task when you
 called the same method twice in quick succession.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition that was returning the wrong Task when you
 called the same method twice in quick succession.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS/Android) Fixed a crash in DatabaseReference/Query during
@@ -550,7 +550,7 @@ garbage collection (and other times).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) The minimum supported Xcode version is 9.4.1.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fixed an issue resolving certain types of version
 conflicts in the Android Resolver.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed issues in &lt;code dir="ltr" translate="no"&gt;ChildListener&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed crash that could occur if the Database was deleted
 while an asynchronous operation was still in progress.&lt;/li&gt;
@@ -581,7 +581,7 @@ code option is used on the Android.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.4.0 - October 19, 2018</title><link>https://firebase.google.com/support/release-notes/unity#version_540_-_october_19_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt;: Added plugins that are pre-configured for import into .NET 4.x
 Unity projects.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added method to enable persistence on mobile platforms.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed short link generation failing with "error 8".&lt;/li&gt;
@@ -596,7 +596,7 @@ FirebaseApp is garbage collected.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Removed an irrelevant error about the Java class
 FirebaseAuthWebException.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition causing an occasional crash when
 FirebaseDatabase is garbage collected.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.4.3 - November 30, 2018</title><link>https://firebase.google.com/support/release-notes/unity#version_543_-_november_30_2018</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -616,7 +616,7 @@ still occurs in Firebase Auth, Database, Storage, and Instance ID. To work
 around the issue until a fixed is released, keep a reference to the Firebase
 object instance (for example, &lt;code dir="ltr" translate="no"&gt;FirebaseAuth.DefaultInstance&lt;/code&gt;) to prevent
 garbage collection.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where certain DataSnapshots were missing data on iOS
 and Android.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -682,7 +682,7 @@ is now generally available (GA). Get the next evolution with BigQuery
 exports, Jira integration, and more. To migrate from Fabric Crashlytics
 for Unity to Firebase Crashlytics, follow the &lt;a href="https://firebase.google.com/docs/crashlytics/migrate-from-fabric"&gt;migration
 guide&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS/Android) Fixed an issue where integrating the SDK greatly
 increased the size of your app.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed exception handling during listener events.&lt;/li&gt;
@@ -729,7 +729,7 @@ incorrectly on Android.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that could cause a crash during
 shutdown due to the destruction order of plugins being nondeterministic.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed a race condition that could cause a crash
 when cleaning up database listeners on iOS.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an issue where long (64-bit) values could get
@@ -771,7 +771,7 @@ is shutting down.&lt;/li&gt;
   destroyed quickly.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for custom domains.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Editor) Moved Realtime Database to a C++ implementation on
 desktop to improve reliability across different Unity versions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Editor) Moved transaction callbacks to the main thread to
@@ -794,7 +794,7 @@ alive.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Editor) After loading a persisted user data, ensure token is
 not expired.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Editor) Fixed use of an expired auth token after it's loaded
 from persistent storage.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Editor) Fixed a crash when calling UpdateChildrenAsync.&lt;/li&gt;
@@ -821,7 +821,7 @@ cases where auth instances might not exist anymore.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Fixed an exception in PhoneAuthProvider.verifyPhoneNumber.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Stopped Auth from hanging on destruction if any local
 tasks remain in scope.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue that could cause a crash when updating
 the descendant of a location with a listener attached.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.4.0 - August 26, 2019</title><link>https://firebase.google.com/support/release-notes/unity#version_640_-_august_26_2019</link><description>&lt;ul&gt;
@@ -831,7 +831,7 @@ potentially be deleted, throwing exceptions instead of crashing.&lt;/li&gt;
 projects.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with updated user info not being persisted.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash when saving a ServerTimestamp during a
 transaction.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.5.0 - September 10, 2019</title><link>https://firebase.google.com/support/release-notes/unity#version_650_-_september_10_2019</link><description>&lt;ul&gt;
@@ -844,12 +844,12 @@ transaction.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Linux) Improved error logging if libsecret (required for login
   persistence) is not installed on Linux.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The database now supports setting the log level independently of
   the system level logger.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.6.0 - September 25, 2019</title><link>https://firebase.google.com/support/release-notes/unity#version_660_-_september_25_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed not loading provider list from cached user data.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash that could occur when trying to keep a
   location in the database synced when you do not have permission.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (Desktop) Queries on locations in the database with query rules
@@ -869,7 +869,7 @@ transaction.&lt;/li&gt;
 &lt;a href="https://github.com/firebase/quickstart-unity/issues/493"&gt;issue&lt;/a&gt; on iOS with
 Unity 2019.3 beta where the plugin fails to create a XCode run script to
 upload symbols.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue causing timestamps to not be populated correctly
 when using &lt;code dir="ltr" translate="no"&gt;DatabaseReference.UpdateChildren()&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue preventing listener events from being
@@ -925,7 +925,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) The minimum supported Xcode version is 10.3.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; When creating a FirebaseApp, the ProjectId from the default
  FirebaseApp is now used if one is not provided.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an issue with Database connecting to the server
  after the Auth token is revoked.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.12.0 - March 5, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_6120_-_march_5_2020</link><description>&lt;ul&gt;
@@ -1024,7 +1024,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the Crashlytics Run script on Unity 2018
  and older.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Enabled offline persistence.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed leaked memory in FirebaseFirestore C# objects.&lt;/li&gt;
@@ -1039,7 +1039,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  "Program type already present: com.google.firebase.unity.BuildConfig" when
  building an Android app with the Crashlytics SDK in Unity 2019 and below.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Significantly reduced the filesize of the Linux libraries.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with persistent storage.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.0.0 - December 2, 2020</title><link>https://firebase.google.com/support/release-notes/unity#version_700_-_december_2_2020</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) iOS SDKs are now built using XCode 11.7.&lt;/li&gt;
@@ -1115,7 +1115,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.2.0 - May 3, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_720_-_may_3_2021</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new Unity-specific metadata to help diagnose
  tricky crashes around specific hardware setups.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential crash that can occur as a result of a
  race condition when adding, removing, and deleting &lt;code dir="ltr" translate="no"&gt;ValueListener&lt;/code&gt;s
  or &lt;code dir="ltr" translate="no"&gt;ChildListener&lt;/code&gt;s rapidly.&lt;/li&gt;
@@ -1145,7 +1145,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android) Fix for getting Remote Config instances for specific
  app objects.
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/991"&gt;#991&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.1.0 - July 19, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_810_-_july_19_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.1.0 - July 19, 2021</title><link>https://firebase.google.com/support/release-notes/unity#version_810_-_july_19_2021</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash around using DataSnapshots within Coroutines
  (&lt;a href="https://github.com/firebase/quickstart-unity/issues/635"&gt;#635&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1291,7 +1291,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed a bug with missing symbols when enabling
  minification via ProGuard.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop): Fixed a bug handling server timestamps on 32-bit CPUs.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Android): Fixed a bug with duplicate symbols when also using
@@ -1312,7 +1312,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.2.0 - July 14, 2022</title><link>https://firebase.google.com/support/release-notes/unity#version_920_-_july_14_2022</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix requiring user code to reference Crashlytics when using
  il2cpp.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) If the app data directory doesn't exist, create it.
  This fixes an issue with disk persistence on Linux.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1454,7 +1454,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  &lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/733"&gt;crash&lt;/a&gt; that
  could occur when referencing CurrentUser.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remove internal methods.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed a crash on Windows when the user's home
  directory contains non-ANSI characters (Unicode above U+00FF).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1656,7 +1656,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.9.0 - May 20, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1290_-_may_20_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to EDM4U version 1.2.186.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue of Firebase Editor on Windows requiring iOS.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_13" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_14" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Firebase AI Logic SDK
  (&lt;code dir="ltr" translate="no"&gt;FirebaseAI.unitypackage&lt;/code&gt;), with support for Android, iOS, tvOS, and
  desktop platforms. To learn more about Firebase AI Logic and how to
@@ -1707,7 +1707,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed the Dynamic Links SDK. See the &lt;a href="https://firebase.google.com/support/dynamic-links-faq"&gt;support
  documentation&lt;/a&gt; for
  more information.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_12" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_13" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for image generation via Imagen. For more info,
  see https://firebase.google.com/docs/ai-logic/generate-images-imagen&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for Grounding with Google Search.&lt;/li&gt;
@@ -1719,18 +1719,18 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed deprecated &lt;code dir="ltr" translate="no"&gt;FirebaseMessage.Dispose&lt;/code&gt;,
  &lt;code dir="ltr" translate="no"&gt;FirebaseNotification.Dispose&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;MessagingOptions.Dispose&lt;/code&gt; methods.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.1.0 - August 14, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1310_-_august_14_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_11" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.1.0 - August 14, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1310_-_august_14_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_12" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for Developer API backend to LiveSessions.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.2.0 - September 04, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1320_-_september_04_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 13.1.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.2.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.2.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_10" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_11" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for receiving Thought summaries when generating
  content.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remove &lt;code dir="ltr" translate="no"&gt;LiveGenerationConfig.CandidateCount&lt;/code&gt;, since the
  connection fails silently when it is set.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.3.0 - September 25, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1330_-_september_25_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_9" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.3.0 - September 25, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1330_-_september_25_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_10" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for enabling the model to use Code Execution.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix crash when deleting a Message with a Notification.
@@ -1739,11 +1739,11 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 13.2.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.4.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.4.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_8" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_9" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for Gemini's URL context tool.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add more specific methods for sending realtime data to the
  LiveSession. Deprecate the previous &lt;code dir="ltr" translate="no"&gt;SendMediaChunksAsync&lt;/code&gt; method.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.5.0 - November 06, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1350_-_november_06_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_7" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.5.0 - November 06, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1350_-_november_06_2025</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_8" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for receiving Live API Transcripts.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.6.0 - November 20, 2025</title><link>https://firebase.google.com/support/release-notes/unity#version_1360_-_november_20_2025</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 13.3.0.&lt;/li&gt;
@@ -1754,7 +1754,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
  specify a list  of parameters that will be set on every event logged.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;LogEvent()&lt;/code&gt; that take in a IEnumerable of
  parameters.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_6" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_7" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for using &lt;a href="https://firebase.google.com/docs/ai-logic/server-prompt-templates/get-started"&gt;Server Prompt
  Templates&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.7.0 - January 22, 2026</title><link>https://firebase.google.com/support/release-notes/unity#version_1370_-_january_22_2026</link><description>&lt;ul&gt;
@@ -1765,10 +1765,10 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to EDM4U version 1.2.187.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; (iOS) Added support for linking against Swift Packages,
  instead of Cocoapods, via EDM4U.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_5" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_6" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Thinking Levels, used by Gemini 3 models to
  define their thinking configuration, instead of Thinking Budget.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.8.0 - February 12, 2026</title><link>https://firebase.google.com/support/release-notes/unity#version_1380_-_february_12_2026</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_4" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.8.0 - February 12, 2026</title><link>https://firebase.google.com/support/release-notes/unity#version_1380_-_february_12_2026</link><description>&lt;h3 data-text="Firebase AI" id="firebase_ai_5" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add &lt;code dir="ltr" translate="no"&gt;LiveSessionGoingAway&lt;/code&gt; to handle backend closing.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for &lt;code dir="ltr" translate="no"&gt;CachedContentTokenCount&lt;/code&gt; and
  &lt;code dir="ltr" translate="no"&gt;CacheTokensDetails&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;UsageMetadata&lt;/code&gt;.&lt;/li&gt;
@@ -1786,7 +1786,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 13.6.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.12.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.12.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_3" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_4" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; All Imagen models are deprecated and will shut down as
  early as June 2026. As a replacement, you can &lt;a href="https://firebase.google.com/docs/ai-logic/imagen-models-migration"&gt;migrate your apps to use
  Gemini Image models (the "Nano Banana"
@@ -1812,7 +1812,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (iOS) Improve initialization to address intermittent crashes on
  iOS 26.
  (&lt;a href="https://github.com/firebase/firebase-unity-sdk/issues/1436"&gt;#1436&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_2" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_3" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for Grounding with Google Maps.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved image configuration when using Nano Banana.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for LiveSession resumption.&lt;/li&gt;
@@ -1841,7 +1841,7 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with &lt;code dir="ltr" translate="no"&gt;Firebase.App&lt;/code&gt;.Internal,
  &lt;code dir="ltr" translate="no"&gt;Firebase.Functions&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;Firebase.FirebaseAI&lt;/code&gt;  asmdefs that were causing
  build issues on unsupported platforms.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai_2" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for advanced speech configurations, enabling
  multi-speaker setup and language code preference in text-to-speech
  generation.&lt;/li&gt;
@@ -1859,4 +1859,16 @@ without the iOS Unity extension installed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Callable Functions Streaming via
  &lt;code dir="ltr" translate="no"&gt;StreamAsync&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.15.0 - August 06, 2026</title><link>https://firebase.google.com/support/release-notes/unity#version_13150_-_august_06_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update to Firebase C++ SDK version 13.11.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (Android) Update to Firebase Android BoM version 34.17.0.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; (iOS) Update to Firebase Cocoapods version 12.17.0.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI" id="firebase_ai" tabindex="-1"&gt;Firebase AI&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add the AgentPlatform backend, and deprecate the VertexAI one,
+ to reflect the renaming of Vertex AI to Gemini Enterprise Agent Platform.
+ Note that the default location is different between the two.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; (Desktop) Fixed an intermittent use-after-free crash
+ (&lt;code dir="ltr" translate="no"&gt;ACCESS_VIOLATION&lt;/code&gt;) when detaching a listener while a WebSocket listen
+ response is pending.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
