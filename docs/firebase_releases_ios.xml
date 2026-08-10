@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 10 Aug 2026 07:22:59 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 10 Aug 2026 10:12:22 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -4800,7 +4800,9 @@ Instead, the Google Mobile Ads SDK binary distribution should be accessed
 from the &lt;a href="//developers.google.com/admob/ios/download"&gt;AdMob documentation&lt;/a&gt;.
 Note that &lt;em&gt;any existing versions of the Firebase zip or Carthage distributions
 will continue to be available and functional&lt;/em&gt;. Learn more about this change
-in our FAQ: https://firebase.google.com/support/faq/#admob-which-sdk (#14408).&lt;/li&gt;
+in our FAQ:
+https://firebase.google.com/docs/admob/faq-and-troubleshooting#admob-which-sdk
+(#14408).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="auth_v11-8-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;ActionCodeSettings.linkDomain&lt;/code&gt; to customize the Firebase Hosting link domain
 that is used in out-of-band email action flows.&lt;/li&gt;
@@ -5023,12 +5025,12 @@ has been removed.&lt;/li&gt;
 &lt;li&gt;&lt;code dir="ltr" translate="no"&gt;Options.trackingID&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Firebase's zip and Carthage distributions of
-the Google Mobile Ads SDK have been removed. Instead, the Google
-Mobile Ads SDK binary distribution should be accessed from the
-&lt;a href="//developers.google.com/admob/ios/download"&gt;AdMob website&lt;/a&gt;. Note that &lt;em&gt;all
+the Google Mobile Ads SDK have been removed. Instead, access the Google
+Mobile Ads SDK binary distribution from the
+&lt;a href="//developers.google.com/admob/ios/download"&gt;AdMob website&lt;/a&gt;. &lt;em&gt;All
 pre-existing versions of the Firebase zip or Carthage distributions will
 continue to be available and functional&lt;/em&gt;. Learn more about this change
-in our &lt;a href="/support/faq#admob-which-sdk"&gt;FAQ&lt;/a&gt;
+in the &lt;a href="/docs/admob/faq-and-troubleshooting#admob-which-sdk"&gt;FAQ&lt;/a&gt;
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14408"&gt;#14408&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: The deprecated Vertex AI in Firebase SDK
 (&lt;code dir="ltr" translate="no"&gt;FirebaseVertexAI&lt;/code&gt;) has been removed. It has been replaced by the Firebase AI
