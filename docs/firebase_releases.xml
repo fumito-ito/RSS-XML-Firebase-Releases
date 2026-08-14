@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 14 Aug 2026 18:46:24 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 14 Aug 2026 21:20:19 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -7550,4 +7550,10 @@ supported. If the last non-empty turn in the request is a &lt;code dir="ltr" tra
 the API returns a &lt;code dir="ltr" translate="no"&gt;400&lt;/code&gt; error.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate></item><item><title>August 14, 2026</title><link>https://firebase.google.com/support/releases#august_14_2026</link><description>&lt;h3 data-text="Firebase App Check" id="recaptcha-for-mobile-preview" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt; now supports &lt;span class="notranslate"&gt;reCAPTCHA Enterprise&lt;/span&gt;
+as an attestation provider for mobile apps (in Preview), specifically for
+&lt;a href="/docs/app-check/ios/recaptcha-enterprise-provider"&gt;Apple platforms&lt;/a&gt;,
+&lt;a href="/docs/app-check/android/recaptcha-enterprise-provider"&gt;Android&lt;/a&gt;, and
+&lt;a href="/docs/app-check/flutter/recaptcha-enterprise-provider"&gt;Flutter&lt;/a&gt; apps.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate></item></channel></rss>
