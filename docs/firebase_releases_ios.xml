@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 13 Aug 2026 21:39:54 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 14 Aug 2026 01:28:40 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -848,7 +848,7 @@ result in a "Mutation batchIDs must be acknowledged in order" assertion crash.&l
 &lt;li&gt;This release contains the new Firebase Functions Client SDK, with support for
 HTTPS Callable Functions. See
 &lt;a href="/docs/functions/callable"&gt;Call Functions from Your App&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title> Version 4.12.0 - April 10, 2018</title><link>https://firebase.google.com/support/release-notes/ios#_version_4120_-_april_10_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title> Version 4.12.0 - April 10, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_4120_-_april_10_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Adds &lt;code dir="ltr" translate="no"&gt;getIDTokenResultWithCompletion:&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;getIDTokenResultForcingRefresh:completion:&lt;/code&gt; APIs which call back with an
 AuthTokenResult object. The Auth token result object contains the ID token JWT
@@ -886,7 +886,7 @@ FirestoreSettings to &lt;code dir="ltr" translate="no"&gt;true&lt;/code&gt;. Not
 (DocumentSnapshots returning system Dates) will be removed in a future
 release. Using Timestamps avoids rounding errors from the system Date being
 stored as a floating-point value.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title> Version 4.13.0 - April 13, 2018</title><link>https://firebase.google.com/support/release-notes/ios#_version_4130_-_april_13_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title> Version 4.13.0 - April 13, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_4130_-_april_13_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved a crash which occurred when certain Firebase IDTokens were
 being parsed.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -895,7 +895,7 @@ Analytics data as well as reset App Instance ID.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved In-App Purchase report: Analytics can report accurate
 discounted price for introductory offer purchases.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Other bug fixes.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title> Version 5.0.0 - May 8, 2018</title><link>https://firebase.google.com/support/release-notes/ios#_version_500_-_may_8_2018</link><description>&lt;p&gt;Firebase v5.0.0 removes support for iOS 7 and building with Xcode 7. Please use
+&lt;/ul&gt;</description></item><item><title> Version 5.0.0 - May 8, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_500_-_may_8_2018</link><description>&lt;p&gt;Firebase v5.0.0 removes support for iOS 7 and building with Xcode 7. Please use
 Xcode 8.0 or later and upgrade your app's minimum target to iOS 8 or above, for
 example by adding &lt;code dir="ltr" translate="no"&gt;"platform :ios, '8.0'&lt;/code&gt; to your &lt;code dir="ltr" translate="no"&gt;Podfile&lt;/code&gt;. To see the
 breakdown of worldwide iOS versions, go to
@@ -996,10 +996,10 @@ To learn more, read &lt;a href="/docs/ml-kit"&gt;ML Kit for Firebase&lt;/a&gt;.&
 &lt;li&gt;The -all_load option linker option does not work with Firebase 5.0.0.&lt;/li&gt;
 &lt;li&gt;There is an issue preventing the use of bitcode in some of the new
 ML Kit for Firebase subspecs.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title> Version 5.0.1 - May 15, 2018</title><link>https://firebase.google.com/support/release-notes/ios#_version_501_-_may_15_2018</link><description>&lt;p&gt;Firebase v5.0.1 contains bugfixes for the Firebase pod and ZIP file.&lt;/p&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title> Version 5.0.1 - May 15, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_501_-_may_15_2018</link><description>&lt;p&gt;Firebase v5.0.1 contains bugfixes for the Firebase pod and ZIP file.&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Duplicate symbol issue when building with &lt;code dir="ltr" translate="no"&gt;-all_load&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Empty &lt;code dir="ltr" translate="no"&gt;modulemap&lt;/code&gt; for SDKs in the ZIP file.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title> Version 5.1.0 - May 29, 2018</title><link>https://firebase.google.com/support/release-notes/ios#_version_510_-_may_29_2018</link><description>&lt;h3 data-text="Analytics" id="analytics_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title> Version 5.1.0 - May 29, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_510_-_may_29_2018</link><description>&lt;h3 data-text="Analytics" id="analytics_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added subscription parameter for autorenewable and non-renewing subscription In-app Purchases.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor bug fixes.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1013,7 +1013,7 @@ ML Kit for Firebase subspecs.&lt;/li&gt;
         correctly (#988).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Cleaned up some deprecation warnings.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title> Version 5.2.0 - Jun 6, 2018</title><link>https://firebase.google.com/support/release-notes/ios#_version_520_-_jun_6_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title> Version 5.2.0 - Jun 6, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_520_-_jun_6_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Restore 4.x level of support for extensions.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Instance ID" id="instance_id" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new API to fetch InstanceID and Token with a completion handler.
@@ -1026,7 +1026,7 @@ ML Kit for Firebase subspecs.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a warning message when subscribing to topics with incorrect name formats.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Silenced a deprecation warning in FIRMessaging.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title> Version 5.3.0 - Jun 20, 2018</title><link>https://firebase.google.com/support/release-notes/ios#_version_530_-_jun_20_2018</link><description>&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title> Version 5.3.0 - Jun 20, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_530_-_jun_20_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a thread sanitizer error (#1390).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated FirebaseCore.podspec so that it works with cocoapods-packager. (#1378).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_36" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
@@ -1058,7 +1058,7 @@ is no longer necessary.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved issue with crashing related to screen traces.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved SDK startup time.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved &lt;code dir="ltr" translate="no"&gt;AVAssetDownloadTask&lt;/code&gt; crashes.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title> Version 5.4.0 - June 29, 2018</title><link>https://firebase.google.com/support/release-notes/ios#_version_540_-_june_29_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title> Version 5.4.0 - June 29, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_540_-_june_29_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved an issue with parsing JWT date timestamps correctly.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where anonymous accounts weren't correctly promoted
 to non-anonymous when linked with passwordless email auth accounts.&lt;/li&gt;
@@ -1077,11 +1077,11 @@ unsubscribing from an invalid topic.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed unused heartbeat timestamp tracking.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed undefined behavior sanitizer issues.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title> Version 5.4.1 - July 20, 2018</title><link>https://firebase.google.com/support/release-notes/ios#_version_541_-_july_20_2018</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title> Version 5.4.1 - July 20, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_541_-_july_20_2018</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where queries returned fewer results than they
 should, caused by documents that were cached as deleted when they should not
 have been. &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/1548"&gt;(#1548)&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title> Version 5.5.0 - August 2, 2018</title><link>https://firebase.google.com/support/release-notes/ios#_version_550_-_august_2_2018</link><description>&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title> Version 5.5.0 - August 2, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_550_-_august_2_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a global data collection flag to use when individual product
 flags are not set. (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1583"&gt;#1583&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Renamed the &lt;code dir="ltr" translate="no"&gt;FirebaseNanoPB&lt;/code&gt; framework to &lt;code dir="ltr" translate="no"&gt;MeasurementNanoPB&lt;/code&gt;. If
@@ -1139,7 +1139,7 @@ re-appear in the results of a listener, causing a flicker.
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;This is a breaking change.&lt;/strong&gt; Unified and enhanced on-device and
 cloud text recognition API.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;This is a breaking change.&lt;/strong&gt; Enhanced cloud document scanning API.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title> Version 5.6.0 - August 15, 2018</title><link>https://firebase.google.com/support/release-notes/ios#_version_560_-_august_15_2018</link><description>&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title> Version 5.6.0 - August 15, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_560_-_august_15_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The minimum supported Xcode version is now 9.2.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed memory leaks. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/1636"&gt;#1636&lt;/a&gt;)&lt;/li&gt;
@@ -1157,7 +1157,7 @@ For more information, &lt;a href="/docs/in-app-messaging"&gt;see the documentati
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/1561"&gt;#1561&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Reduced bandwidth consumption used by the SDK.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title> Version 5.7.0 - August 28, 2018</title><link>https://firebase.google.com/support/release-notes/ios#_version_570_-_august_28_2018</link><description>&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title> Version 5.7.0 - August 28, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_570_-_august_28_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Clarified wording in &lt;code dir="ltr" translate="no"&gt;FirebaseAnalytics not available&lt;/code&gt; log message.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1653"&gt;#1653&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 13 Aug 2026 21:40:06 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 14 Aug 2026 01:28:49 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2430,4 +2430,31 @@ failure.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;appcheck:debugtokens:list&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;appcheck:debugtokens:delete&lt;/code&gt; to use correct prompts when asking to select
 an app, instead of prompting to "register" a token.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.26.0 - August 5, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15260_-_august_5_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Automatically enable non-interactive mode when an AI agent is
+detected in the environment to prevent the CLI from hanging on interactive
+prompts.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for a two-phase non-interactive login flow.
+Initiate this by running &lt;code dir="ltr" translate="no"&gt;firebase login --non-interactive&lt;/code&gt;, navigate to the
+printed link to get an authorization code, and complete the login by running
+&lt;code dir="ltr" translate="no"&gt;firebase login &amp;lt;auth_code&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;apps:init&lt;/code&gt; writing &lt;code dir="ltr" translate="no"&gt;google-services.json&lt;/code&gt; to an &lt;code dir="ltr" translate="no"&gt;app/app&lt;/code&gt;
+path when the Android module has no &lt;code dir="ltr" translate="no"&gt;src&lt;/code&gt; directory, by detecting the module
+from the directory basename instead of the first path segment
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/10863"&gt;#10863&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;firestore:locations&lt;/code&gt; failing with a &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt; project error
+when run without an active project
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10881"&gt;#10881&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed authentication refresh issue under Application Default
+Credentials (ADC) when no project is active
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/10880"&gt;#10880&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;hidden&lt;/code&gt; source map support to
+&lt;code dir="ltr" translate="no"&gt;crashlytics:sourcemap:upload&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a typo in &lt;code dir="ltr" translate="no"&gt;loginPrototyper&lt;/code&gt; URL which caused issues during
+Firebase MCP server &lt;code dir="ltr" translate="no"&gt;firebase_login&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;appcheck:services:list&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;appcheck:services:get&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;appcheck:services:set&lt;/code&gt; to read and change &lt;span class="notranslate"&gt;App Check&lt;/span&gt; enforcement per
+service.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed unenforced read-only isolation for Native SQL queries for
+&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

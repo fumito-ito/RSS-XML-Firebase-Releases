@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 13 Aug 2026 21:39:53 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 14 Aug 2026 01:28:38 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -7507,9 +7507,47 @@ This release includes a bug fix in &lt;span class="notranslate"&gt;Realtime Data
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#12.17.1"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate></item><item><title>August 06, 2026</title><link>https://firebase.google.com/support/releases#august_06_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate></item><item><title>August 05, 2026</title><link>https://firebase.google.com/support/releases#august_05_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.26.0)" id="cli-v15.26.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.26.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.26.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.26.0)&lt;/a&gt;
+is now available. This version adds support for two-phase non-interactive
+login flow, automatically enables non-interactive mode for AI agents, and
+includes several fixes and improvements.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate></item><item><title>August 06, 2026</title><link>https://firebase.google.com/support/releases#august_06_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#13.15.0"&gt;Firebase SDK for Unity
 (v13.15.0)&lt;/a&gt; is now available. This
 release includes new features in Firebase AI, a bug fix in &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;,
 and other changes.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate></item><item><title>August 13, 2026</title><link>https://firebase.google.com/support/releases#august_13_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3.7-flash-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; stable
+model &lt;code dir="ltr" translate="no"&gt;gemini-3.7-flash&lt;/code&gt;. You can
+&lt;a href="/docs/ai-logic/get-started"&gt;directly access this model in your mobile or web app&lt;/a&gt;
+via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; or the
+&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If you're using the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt;, accessing this model
+does &lt;em&gt;not&lt;/em&gt; require the pay-as-you-go Blaze pricing plan.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you're using the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt; with the legacy "Vertex AI"
+initialization syntax, make sure to
+&lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
+&lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you're migrating from previous models, note the following for this new
+model:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;No support for &lt;code dir="ltr" translate="no"&gt;MINIMAL&lt;/code&gt; thinking level&lt;/strong&gt;: &lt;code dir="ltr" translate="no"&gt;gemini-3.7-flash&lt;/code&gt; does
+&lt;em&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/em&gt; support the &lt;code dir="ltr" translate="no"&gt;MINIMAL&lt;/code&gt;
+&lt;a href="/docs/ai-logic/thinking#thinking-levels"&gt;thinking level&lt;/a&gt;. If you set
+the thinking level to &lt;code dir="ltr" translate="no"&gt;MINIMAL&lt;/code&gt; for this model, the request will
+&lt;em&gt;&lt;strong&gt;fail&lt;/strong&gt;&lt;/em&gt; with a 400 error.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Sampling parameter deprecation&lt;/strong&gt;: The latest &lt;span class='\"notranslate\"'&gt;Gemini 3.x&lt;/span&gt;
+models ignore the &lt;code dir="ltr" translate="no"&gt;temperature&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;topP&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;topK&lt;/code&gt; parameters for model
+configuration. For more deterministic responses, define system
+instructions with explicit rules for your specific use case.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Prefilled model turn validation&lt;/strong&gt;: Prefilling model turns is no longer
+supported. If the last non-empty turn in the request is a &lt;code dir="ltr" translate="no"&gt;model&lt;/code&gt; turn,
+the API returns a &lt;code dir="ltr" translate="no"&gt;400&lt;/code&gt; error.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate></item></channel></rss>
