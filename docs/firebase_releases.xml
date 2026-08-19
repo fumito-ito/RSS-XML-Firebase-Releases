@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 18 Aug 2026 21:18:33 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 19 Aug 2026 00:58:20 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -7074,7 +7074,7 @@ is now available. For more details, see the
 &lt;a href="/support/release-notes/js#12.14.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate></item><item><title>June 01, 2026</title><link>https://firebase.google.com/support/releases#june_01_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3.x-image-models-ga" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;span class='\"notranslate\"'&gt;Gemini 3.x Image&lt;/span&gt; models (aka "Nano Banana" models)
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;span class='\"notranslate\"'&gt;Gemini 3.x Image&lt;/span&gt; models (aka "Nano Banana" models)
 are now available in stable versions. You can use these models to
 &lt;a href="/docs/ai-logic/generate-images-gemini"&gt;generate and edit images via &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;These are the new stable model names:&lt;/p&gt;
@@ -7267,7 +7267,7 @@ calls to avoid &lt;code dir="ltr" translate="no"&gt;Premature close&lt;/code&gt;
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate></item><item><title>June 30, 2026</title><link>https://firebase.google.com/support/releases#june_30_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3.1-flash-lite-image-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest stable
-&lt;span class='\"notranslate\"'&gt;Gemini 3.x Image&lt;/span&gt; model: &lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-lite-image&lt;/code&gt;
+&lt;span class='\"notranslate\"'&gt;Gemini 3.x Image&lt;/span&gt; model: &lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-lite-image&lt;/code&gt;
 (aka "Nano Banana 2 Lite"). You can use this model to
 &lt;a href="/docs/ai-logic/generate-images-gemini"&gt;generate and edit images via &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Note that if you're using the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;, make sure to
@@ -7461,14 +7461,13 @@ stable &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt; 2.5 models
 &lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-image&lt;/code&gt;) to avoid service disruption&lt;/strong&gt;. Shutdown models are
 no longer accessible or supported by Google, and a request using a shutdown
 model name returns a 404 error.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate></item><item><title>July 30, 2026</title><link>https://firebase.google.com/support/releases#july_30_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.25.1)" id="cli-v15.25.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.25.1)&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
-&lt;a href="/support/release-notes/cli#15.25.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.25.1)&lt;/a&gt;
-is now available. This version fixes a typo in emulator secret handling,
-resolves IAM role propagation delays in Cloud Functions deploys, and fixes
-an App Check debug tokens prompting issue.&lt;/p&gt;
-&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
-&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate></item><item><title>July 30, 2026</title><link>https://firebase.google.com/support/releases#july_30_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-tts-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now supports
+&lt;a href="/docs/ai-logic/generate-speech"&gt;text-to-speech (TTS) generation&lt;/a&gt;.
+Using our mobile and web client SDKs, you can directly access models like
+&lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-tts-preview&lt;/code&gt; in your app (both the
+&lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; and the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt; are
+supported).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_4" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;, and
@@ -7485,6 +7484,14 @@ has been updated to v34.17.0. Learn how to
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#12.17.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v15.25.1)" id="cli-v15.25.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.25.1)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.25.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.25.1)&lt;/a&gt;
+is now available. This version fixes a typo in emulator secret handling,
+resolves IAM role propagation delays in Cloud Functions deploys, and fixes
+an App Check debug tokens prompting issue.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v15.25.0)" id="cli-v15.25.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.25.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#15.25.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.25.0)&lt;/a&gt;
