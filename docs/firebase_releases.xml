@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 19 Aug 2026 12:36:40 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 19 Aug 2026 15:26:06 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -127,18 +127,20 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 This release includes changes to &lt;span class="notranslate"&gt;AdMob&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, and
 &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;; a bug fix in &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;; and other changes.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate></item><item><title>May 11, 2022</title><link>https://firebase.google.com/support/releases#may_11_2022</link><description>&lt;h3 data-text="App Distribution" id="app-distribution-ga" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; is now generally available! In addition to our
-original set of key capabilities, we've added &lt;a href="/docs/app-distribution/add-remove-testers?platform=android"&gt;simplified group access&lt;/a&gt;,
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; is now generally available! In addition to
+our original set of key capabilities, we've added
+&lt;a href="/docs/app-distribution/add-remove-testers?platform=android"&gt;simplified group access&lt;/a&gt;,
 &lt;a href="/docs/app-distribution/troubleshooting?platform=ios#builds-expire-ios"&gt;release auto deletion&lt;/a&gt;,
-and &lt;a href="/docs/app-distribution/add-remove-testers"&gt;bulk tester management&lt;/a&gt;
-to the Firebase console and our &lt;a href="/docs/reference/app-distribution/rest"&gt;public API&lt;/a&gt;.
-To help you find the information you need, we reorganized
-&lt;a href="/docs/app-distribution"&gt;documentation&lt;/a&gt; to support your user journeys. And
-to ensure that your testers are testing
-the latest version of your app, we now offer both &lt;a href="/docs/app-distribution/set-up-alerts?platform=android"&gt;Android&lt;/a&gt;
-and &lt;a href="/docs/app-distribution/set-up-alerts?platform=ios"&gt;iOS SDKs&lt;/a&gt;, which
-let you notify users directly in the app when a new version is available.
-To learn more, see the &lt;a href="/docs/app-distribution"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; documentation&lt;/a&gt;.&lt;/li&gt;
+and &lt;a href="/docs/app-distribution/add-remove-testers"&gt;bulk tester management&lt;/a&gt; to the
+Firebase console and our
+&lt;a href="/docs/reference/app-distribution/rest"&gt;public API&lt;/a&gt;. To help you find the
+information you need, we reorganized &lt;a href="/docs/app-distribution"&gt;documentation&lt;/a&gt;
+to support your user journeys. And to ensure that your testers are testing the
+latest version of your app, we now offer both
+&lt;a href="/docs/app-distribution/set-up-alerts?platform=android"&gt;Android&lt;/a&gt; and
+&lt;a href="/docs/app-distribution/set-up-alerts?platform=ios"&gt;iOS SDKs&lt;/a&gt;, which let you
+notify users directly in the app when a new version is available. To learn
+more, see the &lt;a href="/docs/app-distribution"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; documentation&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics-filter-by-google-play-track" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now filter your Android app's crash reports by
 &lt;span class="notranslate"&gt;Google Play&lt;/span&gt; track directly in the &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; dashboard. This allows you
@@ -272,9 +274,9 @@ To install this SDK, see
 This release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; and
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, changes to &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and general fixes.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate></item><item><title>June 07, 2022</title><link>https://firebase.google.com/support/releases#june_07_2022</link><description>&lt;h3 data-text="App Distribution" id="appdistro-direct-links" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; now lets you share links to specific releases with
-your testers. To learn how to use direct links,
-see instructions about distributing your app to testers with
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; now lets you share links to specific releases
+with your testers. To learn how to use direct links, see instructions about
+distributing your app to testers with
 &lt;a href="/docs/app-distribution/android/distribute-console#step_2_distribute_your_app_to_testers"&gt;Android&lt;/a&gt;
 and &lt;a href="/docs/app-distribution/ios/distribute-console#distribute"&gt;iOS&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-robo-scripts" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -513,10 +515,10 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;/ul&gt;</description><pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate></item><item><title>August 05, 2022</title><link>https://firebase.google.com/support/releases#august_05_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_348" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;
-have been updated.  The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
-For more details, check out the latest
-&lt;a href="/support/release-notes/android#2022-08-05"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been
+updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2022-08-05"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v30.3.2. Learn how to
@@ -618,11 +620,11 @@ is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#9.6.0"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate></item><item><title>September 15, 2022</title><link>https://firebase.google.com/support/releases#september_15_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_336" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
-Installations, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin, and &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;
-have been updated. For more details, check out the latest
-&lt;a href="/support/release-notes/android#2022-09-15"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+&lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for Installations,
+&lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin, and
+&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; have been updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2022-09-15"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v30.5.0. Learn how to
@@ -889,10 +891,10 @@ is now available. For more details, see the
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;
-have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
-For more details, check out the latest
-&lt;a href="/support/release-notes/android#2022-10-27"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been
+updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2022-10-27"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v31.0.2. Learn how to
@@ -907,10 +909,11 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 (v10.1.0)&lt;/a&gt; is now available.
 This release includes changes to &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; and other changes.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate></item><item><title>November 3, 2022</title><link>https://firebase.google.com/support/releases#november_3_2022</link><description>&lt;h3 data-text="App Distribution" id="app-distribution-best-practices-pre-release-testing-workflows-ci-cd" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; now provides best practices to help you make your
-Android and Apple pre-release testing workflows sustainable and repeatable
-in a CI/CD environment. To learn more, see
-&lt;a href="/docs/app-distribution/best-practices-distributing-android-apps-to-qa-testers-with-ci-cd"&gt;Best practices for distributing Android apps to QA testers using CI/CD&lt;/a&gt; and
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; now provides best practices to help you make
+your Android and Apple pre-release testing workflows sustainable and
+repeatable in a CI/CD environment. To learn more, see
+&lt;a href="/docs/app-distribution/best-practices-distributing-android-apps-to-qa-testers-with-ci-cd"&gt;Best practices for distributing Android apps to QA testers using CI/CD&lt;/a&gt;
+and
 &lt;a href="/docs/app-distribution/best-practices-distributing-apple-apps-to-qa-testers-with-ci-cd-fastlane"&gt;Best practices for distributing Apple apps to QA testers using CI/CD and fastlane&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate></item><item><title>November 07, 2022</title><link>https://firebase.google.com/support/releases#november_07_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_324" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#10.1.0"&gt;Firebase SDK for Unity
@@ -962,10 +965,10 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;/ul&gt;</description><pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate></item><item><title>November 17, 2022</title><link>https://firebase.google.com/support/releases#november_17_2022</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_320" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;
-have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
-For more details, check out the latest
-&lt;a href="/support/release-notes/android#2022-11-17"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been
+updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2022-11-17"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v31.1.0. Learn how to
@@ -1079,10 +1082,10 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, and
 &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
-have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
-For more details, check out the latest
-&lt;a href="/support/release-notes/android#2023-01-19"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been
+updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2023-01-19"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v31.2.0. Learn how to
@@ -1273,10 +1276,10 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;,
 &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, and Installations
-have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
-For more details, check out the latest
-&lt;a href="/support/release-notes/android#2023-03-02"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been
+updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2023-03-02"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v31.2.3. Learn how to
@@ -1287,11 +1290,12 @@ is now available. For more details, see the
 &lt;a href="/support/release-notes/js#9.17.2"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate></item><item><title>March 06, 2023</title><link>https://firebase.google.com/support/releases#march_06_2023</link><description>&lt;h3 data-text="App Distribution" id="appdistro-in-app-feedback-android-beta" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; now supports in-app feedback for Android (Beta),
-a feature that makes it easy for testers to send developers feedback about
-their apps (including screenshots). In-app feedback streamlines the tester
-workflow and helps developers get higher quality bug reports. To learn how
-to implement in-app feedback, see &lt;a href="/docs/app-distribution/collect-feedback-from-testers"&gt;Collect feedback from testers&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; now supports in-app feedback for Android
+(Beta), a feature that makes it easy for testers to send developers feedback
+about their apps (including screenshots). In-app feedback streamlines the
+tester workflow and helps developers get higher quality bug reports. To learn
+how to implement in-app feedback, see
+&lt;a href="/docs/app-distribution/collect-feedback-from-testers"&gt;Collect feedback from testers&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate></item><item><title>March 07, 2023</title><link>https://firebase.google.com/support/releases#march_07_2023</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_296" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#10.6.0"&gt;Firebase SDK for C++
 (v10.6.0)&lt;/a&gt; is now available.
@@ -1388,8 +1392,8 @@ To get started with Firebase in Android, see
 has been updated to v31.4.0. Learn how to
 &lt;a href="/docs/android/learn-more#bom"&gt;add SDKs to your app using the &lt;span class="notranslate"&gt;Firebase BoM&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution" id="app-distro-tester-search" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Tester search is now available in &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;. You can now
-search for testers in your Firebase project by name or email address.
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Tester search is now available in &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;. You can
+now search for testers in your Firebase project by name or email address.
 You can also add testers from the search results. To learn more, see &lt;a href="/docs/app-distribution/add-remove-search-testers"&gt;Add,
 remove, and search for testers in
 &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
@@ -2334,10 +2338,10 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, and
 &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;
-have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
-For more details, check out the latest
-&lt;a href="/support/release-notes/android#2023-10-26"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been
+updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2023-10-26"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v32.4.1. Learn how to
@@ -2662,10 +2666,10 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
-have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
-For more details, check out the latest
-&lt;a href="/support/release-notes/android#2024-02-08"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been
+updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2024-02-08"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v32.7.2. Learn how to
@@ -2675,12 +2679,11 @@ has been updated to v32.7.2. Learn how to
 for Android (v4.4.1) is now available. For more information, see the
 &lt;a href="/support/release-notes/android#google-services_plugin_v4-4-1"&gt;Firebase Android SDK Release Notes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Distribution" id="automated-tester" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; now provides a smoke testing capability via the
-Automated tester (beta) feature for Android apps. This beta feature
-allows you to run tests on your Android apps, using virtual and physical devices,
-at different API levels. To learn how to run an automated smoke test, see &lt;a href="/docs/app-distribution/android-automated-tester"&gt;Run an
-automated test for Android
-apps&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; now provides a smoke testing capability via
+the Automated tester (beta) feature for Android apps. This beta feature allows
+you to run tests on your Android apps, using virtual and physical devices, at
+different API levels. To learn how to run an automated smoke test, see
+&lt;a href="/docs/app-distribution/android-automated-tester"&gt;Run an automated test for Android apps&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate></item><item><title>February 13, 2024</title><link>https://firebase.google.com/support/releases#february_13_2024</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_217" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#11.7.0"&gt;Firebase SDK for Unity
 (v11.7.0)&lt;/a&gt; is now available. This
@@ -2735,10 +2738,10 @@ is now available. For more details, see the
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
-have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
-For more details, check out the latest
-&lt;a href="/support/release-notes/android#2024-02-28"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been
+updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2024-02-28"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v32.7.3. Learn how to
@@ -3101,13 +3104,12 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 &lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;, &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;, &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;,
-Installations, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;,
-and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
-have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin and &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle
-plugin have also been updated.
-For more details, check out the latest
-&lt;a href="/support/release-notes/android#2024-05-02"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+Installations, &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;, &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, and
+&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin
+and &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin have also been updated. For more details,
+check out the latest
+&lt;a href="/support/release-notes/android#2024-05-02"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v33.0.0. Learn how to
@@ -4326,10 +4328,10 @@ now provides insights for crashes and ANRs produced by Flutter and Unity apps.&l
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;, &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;
-have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
-For more details, check out the latest
-&lt;a href="/support/release-notes/android#2025-01-16"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been
+updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2025-01-16"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v33.8.0. Learn how to
@@ -4396,10 +4398,10 @@ To install this SDK, see
 &lt;/ul&gt;</description><pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate></item><item><title>February 06, 2025</title><link>https://firebase.google.com/support/releases#february_06_2025</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_130" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 Authentication, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, and &lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;
-have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin and &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle
-plugin have also been updated. For more details, check out the latest
-&lt;a href="/support/release-notes/android#2025-02-06"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin and &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;
+Gradle plugin have also been updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2025-02-06"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v33.9.0. Learn how to
@@ -5912,10 +5914,10 @@ your choice of MCP-capable AI-powered development tools (like
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;, &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;,
 &lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt;, and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;
-have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; Gradle
-plugin have also been updated. For more details, check out the latest
-&lt;a href="/support/release-notes/android#2025-10-30"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin and &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;
+Gradle plugin have also been updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2025-10-30"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v34.5.0. Learn how to
@@ -6417,10 +6419,10 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;/ul&gt;</description><pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate></item><item><title>February 05, 2026</title><link>https://firebase.google.com/support/releases#february_05_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_47" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, Firebase AI KSP, and &lt;span class="notranslate"&gt;App Check&lt;/span&gt;
-have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
-For more details, check out the latest
-&lt;a href="/support/release-notes/android#2026-02-05"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been
+updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2026-02-05"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v34.9.0. Learn how to
@@ -7184,10 +7186,10 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android"&gt;&lt;/span&gt; The Firebase Android SDKs for
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, &lt;span class="notranslate"&gt;App Check&lt;/span&gt;, &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;,
 &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;, Installations, and &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;
-have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been updated.
-For more details, check out the latest
-&lt;a href="/support/release-notes/android#2026-06-16"&gt;Android Release Notes&lt;/a&gt;.
-To get started with Firebase in Android, see
+have been updated. The &lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; Gradle plugin has also been
+updated. For more details, check out the latest
+&lt;a href="/support/release-notes/android#2026-06-16"&gt;Android Release Notes&lt;/a&gt;. To get
+started with Firebase in Android, see
 &lt;a href="/docs/android/setup"&gt;Add Firebase to your Android Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-android-bom"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;)
 has been updated to v34.15.0. Learn how to
