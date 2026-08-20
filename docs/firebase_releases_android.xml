@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 19 Aug 2026 21:20:42 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 20 Aug 2026 00:58:17 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -8283,4 +8283,61 @@ by the server upon connection.
 SDK type metadata (core vs. generated SDK), matching the behavior of standard
 query executions.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8356"&gt;#8356&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - July 30, 2026</title><link>https://firebase.google.com/support/release-notes/android#2026-07-30</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 34.17.0" id="bom_v34-17-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 34.17.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 17.15.0" id="ai_v17-15-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.15.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;RealtimeInputConfig&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;ActivityDetectionConfig&lt;/code&gt; to configure voice activity detection in the
+Live API. Added &lt;code dir="ltr" translate="no"&gt;sendStartActivityRealtime&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendStopActivityRealtime&lt;/code&gt;
+to &lt;code dir="ltr" translate="no"&gt;LiveSession&lt;/code&gt; for manual activity control.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8080"&gt;#8080&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;getOnDeviceModelName&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;GenerativeModel&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8247"&gt;#8247&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated &lt;code dir="ltr" translate="no"&gt;GenerativeBackend.vertexAI&lt;/code&gt; in favor of
+&lt;code dir="ltr" translate="no"&gt;GenerativeBackend.agentPlatform&lt;/code&gt; to reflect the renaming of Vertex AI to
+Gemini Enterprise Agent Platform.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8437"&gt;#8437&lt;/a&gt;)&lt;/p&gt;
+&lt;aside class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;span&gt; The only difference for &lt;code dir="ltr" translate="no"&gt;GenerativeBackend.agentPlatform&lt;/code&gt; is the default
+&lt;a href="https://firebase.google.com/docs/ai-logic/locations?api=vertex"&gt;location for accessing the model&lt;/a&gt;.
+The default location for &lt;code dir="ltr" translate="no"&gt;GenerativeBackend.agentPlatform&lt;/code&gt; is &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;,
+whereas the default location for &lt;code dir="ltr" translate="no"&gt;GenerativeBackend.vertexAI&lt;/code&gt; is
+&lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;. To use &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt; with &lt;code dir="ltr" translate="no"&gt;GenerativeBackend.agentPlatform&lt;/code&gt;,
+specify &lt;code dir="ltr" translate="no"&gt;GenerativeBackend.agentPlatform(location = "us-central1")&lt;/code&gt; when
+initializing the SDK. However, note that most new Gemini models do
+not support &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;getOnDeviceModelName&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;GenerativeModel&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8247"&gt;#8247&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check version 19.4.0" id="appcheck_v19-4-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 19.4.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added logging of the debug secret on every &lt;code dir="ltr" translate="no"&gt;DebugAppCheckProvider&lt;/code&gt;
+initialization.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8454"&gt;#8454&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Initialization now requires the reCAPTCHA site key to be
+passed as a parameter.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8457"&gt;#8457&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 26.5.0" id="firestore_v26-5-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 26.5.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Increased the default gRPC flow control window size from 64KB to
+256KB to speed up large document reads, and added support for configuring
+this window size via
+&lt;code dir="ltr" translate="no"&gt;FirebaseFirestoreSettings.Builder.setGrpcFlowControlWindow()&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8364"&gt;#8364&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase ML version 26.1.0" id="firebaseml-modeldownloader_v26-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt; version 26.1.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Firebase ML is deprecated and will be shut down on
+June 15, 2027. To host custom models, you must migrate to another solution.
+You can use Cloud Storage for Firebase as an alternative for hosting custom
+models. For more information about migration options, see the notification
+banner in the &lt;a href="/docs/ml"&gt;Firebase ML documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 17.3.3" id="data-connect_v17-3-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 17.3.3&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Realtime query subscriptions now retry connecting using an
+exponential backoff strategy.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8381"&gt;#8381&lt;/a&gt;),
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8421"&gt;#8421&lt;/a&gt;),
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8446"&gt;#8446&lt;/a&gt;),
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8456"&gt;#8456&lt;/a&gt;),
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8460"&gt;#8460&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

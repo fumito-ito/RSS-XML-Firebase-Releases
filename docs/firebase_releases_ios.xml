@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 19 Aug 2026 21:20:39 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 20 Aug 2026 00:58:14 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -5509,17 +5509,20 @@ allocator. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16121"&gt;
 that report a wrapped object's class. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16254"&gt;#16254&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.17.0 - July 28, 2026</title><link>https://firebase.google.com/support/release-notes/ios#version_12170_-_july_28_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai_v12_17_0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a stream leak in the Live API where the WebSocket connection
-would remain open indefinitely if the consumer canceled the stream. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16393"&gt;#16393&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated &lt;code dir="ltr" translate="no"&gt;Backend.vertexAI&lt;/code&gt; in favor of &lt;code dir="ltr" translate="no"&gt;Backend.agentPlatform&lt;/code&gt;
-to reflect the renaming of Vertex AI to the Agent Platform Gemini API.
+would remain open indefinitely if the consumer canceled the stream.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16393"&gt;#16393&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated &lt;code dir="ltr" translate="no"&gt;Backend.vertexAI&lt;/code&gt; in favor of
+&lt;code dir="ltr" translate="no"&gt;Backend.agentPlatform&lt;/code&gt; to reflect the renaming of Vertex AI to the Agent
+Platform Gemini API.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16372"&gt;#16372&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;The only difference for &lt;code dir="ltr" translate="no"&gt;Backend.agentPlatform&lt;/code&gt; is the default &lt;a href="https://firebase.google.com/docs/ai-logic/locations"&gt;location for
-accessing the model&lt;/a&gt;. The
-default location for &lt;code dir="ltr" translate="no"&gt;Backend.agentPlatform&lt;/code&gt; is &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;, whereas the default
-location for &lt;code dir="ltr" translate="no"&gt;Backend.vertexAI&lt;/code&gt; is &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;. To use &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt; with
-&lt;code dir="ltr" translate="no"&gt;Backend.agentPlatform&lt;/code&gt;, specify &lt;code dir="ltr" translate="no"&gt;FirebaseAI.firebaseAI(backend:
-.agentPlatform(location: "us-central1"))&lt;/code&gt; when initializing the SDK. However,
-note that most new Gemini models do not support &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+accessing the model&lt;/a&gt;.
+The default location for &lt;code dir="ltr" translate="no"&gt;Backend.agentPlatform&lt;/code&gt; is &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;, whereas the
+default location for &lt;code dir="ltr" translate="no"&gt;Backend.vertexAI&lt;/code&gt; is &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;. To use
+&lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt; with &lt;code dir="ltr" translate="no"&gt;Backend.agentPlatform&lt;/code&gt;, specify
+&lt;code dir="ltr" translate="no"&gt;FirebaseAI.firebaseAI(backend: .agentPlatform(location: "us-central1"))&lt;/code&gt;
+when initializing the SDK. However, note that most new Gemini models do not
+support &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_v12_17_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="App Check" id="appcheck_v12_17_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -5579,4 +5582,82 @@ concurrency compliance for &lt;code dir="ltr" translate="no"&gt;StorageTask&lt;/
 validation for HTTP download URLs provided to &lt;code dir="ltr" translate="no"&gt;Storage.reference(forURL:)&lt;/code&gt;. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16243"&gt;#16243&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="dataconnect_v12-17-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved caching performance especially for large result sets.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.18.0 - August 19, 2026</title><link>https://firebase.google.com/support/release-notes/ios#version_12180_-_august_19_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai_v12_18_0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed deprecated Imagen methods and types due to Imagen models
+being shut down in August 2026. As a replacement, you can &lt;a href="https://firebase.google.com/docs/ai-logic/imagen-models-migration"&gt;migrate your apps
+to use Gemini Image models (the "Nano Banana"
+models)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;RealtimeInputConfig&lt;/code&gt; in
+&lt;code dir="ltr" translate="no"&gt;LiveGenerationConfig&lt;/code&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16441"&gt;#16441&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;sendStartActivityRealtime&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;sendStopActivityRealtime&lt;/code&gt; in &lt;code dir="ltr" translate="no"&gt;LiveSession&lt;/code&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16441"&gt;#16441&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_v12_18_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a couple of race conditions that caused &lt;code dir="ltr" translate="no"&gt;session_start&lt;/code&gt;
+events to not report consistently on app launch.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="appcheck_v12_18_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Safely disable the reCAPTCHA provider when its Swift dependencies
+cannot be resolved to prevent &lt;code dir="ltr" translate="no"&gt;unknown receiver&lt;/code&gt; build failures that occur in
+unsupported &lt;code dir="ltr" translate="no"&gt;use_modular_headers!&lt;/code&gt; use cases.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16477"&gt;#16477&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the App Check debug token log message to include
+Firebase CLI registration commands and a link to the debug token guide.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="auth_v12_18_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug in &lt;code dir="ltr" translate="no"&gt;PhoneAuthProvider&lt;/code&gt; where the test mode logic would
+fail if multi-factor authentication was enabled.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16438"&gt;#16438&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where &lt;code dir="ltr" translate="no"&gt;verifyPhoneNumber&lt;/code&gt; could hit an infinite
+recursion and crash due to a Swift concurrency compiler bug in some
+toolchains. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16416"&gt;#16416&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;passwordDoesNotMeetRequirements&lt;/code&gt; error code for handling
+password policy requirement errors.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16462"&gt;#16462&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_v12_18_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removes unused integration with the now deprecated ObjC
+MetricKit API.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="database_v12_18_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where surrogate pair replacement ranges were
+incorrect in push ID generation.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16415"&gt;#16415&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential crash when receiving non-text WebSocket frames.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16414"&gt;#16414&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v12_18_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix an issue where new FCM registration processing was not invoked
+when &lt;code dir="ltr" translate="no"&gt;FirebaseMessagingInstallationIdEnabled&lt;/code&gt; was set to &lt;code dir="ltr" translate="no"&gt;YES&lt;/code&gt; and a legacy
+token existed in cache.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16429"&gt;#16429&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecate token-related APIs (&lt;code dir="ltr" translate="no"&gt;tokenWithCompletion:&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;deleteTokenWithCompletion:&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;retrieveFCMTokenForSenderID:completion:&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;deleteFCMTokenForSenderID:completion:&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;FCMToken&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;messaging:didReceiveRegistrationToken:&lt;/code&gt;, and
+&lt;code dir="ltr" translate="no"&gt;FIRMessagingRegistrationTokenRefreshedNotification&lt;/code&gt;) in favor of the new
+FID-based registration APIs.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16466"&gt;#16466&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v12_18_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash in &lt;code dir="ltr" translate="no"&gt;FPRMemoryGaugeCollector&lt;/code&gt; by collecting memory
+usage with &lt;code dir="ltr" translate="no"&gt;task_info(TASK_VM_INFO)&lt;/code&gt; instead of &lt;code dir="ltr" translate="no"&gt;malloc_zone_statistics()&lt;/code&gt;,
+which could abort the process inside the malloc subsystem on devices using
+the XZM allocator.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16121"&gt;#16121&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when Firebase Performance instruments NSProxy
+NSURLSession delegates that report a wrapped object's class.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16254"&gt;#16254&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="storage_v12_18_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Enforced stricter transport layer security when using the
+emulator: Auth and App Check tokens are no longer attached to outbound
+requests if the connection is made over HTTP to a non-loopback host.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16395"&gt;#16395&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;putFile&lt;/code&gt; could fail on the iOS Simulator
+with &lt;code dir="ltr" translate="no"&gt;POSIX errno 40&lt;/code&gt; (&lt;code dir="ltr" translate="no"&gt;EMSGSIZE&lt;/code&gt;) due to a QUIC bug in background sessions,
+and improved error formatting for &lt;code dir="ltr" translate="no"&gt;NSPOSIXErrorDomain&lt;/code&gt; errors.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16351"&gt;#16351&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition in Storage task cancellation and improved
+Swift 6 strict concurrency compliance for &lt;code dir="ltr" translate="no"&gt;StorageTask&lt;/code&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16353"&gt;#16353&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash that could occur when parsing malformed &lt;code dir="ltr" translate="no"&gt;gs://&lt;/code&gt;
+URLs, and improved validation for HTTP download URLs provided to
+&lt;code dir="ltr" translate="no"&gt;Storage.reference(forURL:)&lt;/code&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16243"&gt;#16243&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
