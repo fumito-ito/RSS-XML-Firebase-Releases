@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 20 Aug 2026 21:23:11 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 21 Aug 2026 01:01:51 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -5660,4 +5660,11 @@ Swift 6 strict concurrency compliance for &lt;code dir="ltr" translate="no"&gt;S
 URLs, and improved validation for HTTP download URLs provided to
 &lt;code dir="ltr" translate="no"&gt;Storage.reference(forURL:)&lt;/code&gt;.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16243"&gt;#16243&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect" id="dataconnect_v12-18-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add grpc request header for platform name and sdk version to
+enable metrics collection in cloud monitoring.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add grpc request header for SQL Connect server affinity, to
+improve server resource usage efficiency and performance.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where remote queries using &lt;code dir="ltr" translate="no"&gt;@refresh&lt;/code&gt; with long
+intervals (e.g., 5 minutes) would silently stop receiving updates.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
