@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 08 Sep 2026 18:15:49 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 08 Sep 2026 23:08:17 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -7691,7 +7691,50 @@ template lifecycle. To learn more, see
 &lt;a href="/docs/ab-testing/abtest-config"&gt;Create &lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt; experiments with &lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt;&lt;/a&gt;
 and the
 &lt;a href="/docs/ab-testing/faq-and-troubleshooting#troubleshooting-faq-rc"&gt;&lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt; troubleshooting and FAQ guide&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate></item><item><title>September 02, 2026</title><link>https://firebase.google.com/support/releases#september_02_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.29.0)" id="cli-v15.29.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.29.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate></item><item><title>September 02, 2026</title><link>https://firebase.google.com/support/releases#september_02_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3.8-flash-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; stable
+model &lt;code dir="ltr" translate="no"&gt;gemini-3.8-flash&lt;/code&gt;. You can
+&lt;a href="/docs/ai-logic/get-started"&gt;directly access this model in your mobile or web app&lt;/a&gt;
+via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; or the
+&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If you're using the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt;, accessing this model
+does &lt;em&gt;not&lt;/em&gt; require the pay-as-you-go Blaze pricing plan.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you're using the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt; with the legacy "Vertex AI"
+initialization syntax, make sure to
+&lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
+&lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you're migrating from previous models, note the following for this new
+model:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;No support for &lt;code dir="ltr" translate="no"&gt;MINIMAL&lt;/code&gt; thinking level&lt;/strong&gt;: &lt;code dir="ltr" translate="no"&gt;gemini-3.8-flash&lt;/code&gt; does
+&lt;em&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/em&gt; support the
+&lt;a href="/docs/ai-logic/thinking#supported-thinking-level-values"&gt;&lt;code dir="ltr" translate="no"&gt;MINIMAL&lt;/code&gt; thinking level&lt;/a&gt;.
+If you set the thinking level to &lt;code dir="ltr" translate="no"&gt;MINIMAL&lt;/code&gt; for this model, the request
+will &lt;em&gt;&lt;strong&gt;fail&lt;/strong&gt;&lt;/em&gt; with a 400 error.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Use thinking &lt;em&gt;levels&lt;/em&gt; instead of thinking &lt;em&gt;budgets&lt;/em&gt;&lt;/strong&gt;:
+Thinking budgets have been supported by &lt;span class='\"notranslate\"'&gt;Gemini 3.x&lt;/span&gt; models for
+backwards-compatibility. However, starting with &lt;code dir="ltr" translate="no"&gt;gemini-3.8-flash&lt;/code&gt;, they
+are strongly discouraged. If you haven't already, migrate to use
+&lt;a href="/docs/ai-logic/thinking#control-thinking-amount"&gt;thinking &lt;em&gt;levels&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Removed support for several parameters&lt;/strong&gt;: &lt;code dir="ltr" translate="no"&gt;gemini-3.8-flash&lt;/code&gt; does
+&lt;em&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/em&gt; support the following parameters: temperature, top-K, top-P,
+frequency penalty, presence penalty, and candidate count.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Temperature, top-K, or top-P:
+All the general-use &lt;span class='\"notranslate\"'&gt;Gemini 3.x&lt;/span&gt; will ignore them.&lt;/li&gt;
+&lt;li&gt;Frequency penalty, presence penalty, and candidate count:
+Starting with &lt;code dir="ltr" translate="no"&gt;gemini-3.7-flash&lt;/code&gt;, the request will &lt;em&gt;&lt;strong&gt;fail&lt;/strong&gt;&lt;/em&gt; with a
+400 error.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more deterministic responses, define system instructions with
+explicit rules for your specific use case.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Prefilled model turn validation&lt;/strong&gt;: Prefilling model turns is no longer
+supported. If the last non-empty turn in the request is a &lt;code dir="ltr" translate="no"&gt;model&lt;/code&gt; turn,
+the API returns a &lt;code dir="ltr" translate="no"&gt;400&lt;/code&gt; error.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v15.29.0)" id="cli-v15.29.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.29.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#15.29.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.29.0)&lt;/a&gt; is now
 available. This version adds support for the &lt;code dir="ltr" translate="no"&gt;FIREBASE_DEBUG_PATH&lt;/code&gt; environment
