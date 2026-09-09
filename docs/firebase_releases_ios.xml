@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 09 Sep 2026 18:16:15 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 09 Sep 2026 22:53:03 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -5667,4 +5667,101 @@ enable metrics collection in cloud monitoring.&lt;/li&gt;
 improve server resource usage efficiency and performance.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where remote queries using &lt;code dir="ltr" translate="no"&gt;@refresh&lt;/code&gt; with long
 intervals (e.g., 5 minutes) would silently stop receiving updates.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 12.19.0 - September 9, 2026</title><link>https://firebase.google.com/support/release-notes/ios#version_12190_-_september_9_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai_v12_19_0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;strong&gt;Public Preview&lt;/strong&gt;: Added &lt;code dir="ltr" translate="no"&gt;GeminiLanguageModel&lt;/code&gt;, allowing Gemini
+models to be used with Apple's Foundation Models framework. See the
+&lt;a href="https://firebase.google.com/docs/ai-logic/apple-foundation-models-framework/get-started"&gt;getting started guide&lt;/a&gt;
+for more details.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with a transitive import in the logger, which could
+cause a build error in explicit module mode.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16563"&gt;#16563&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; In 12.5.0, the &lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt; module was renamed to
+&lt;code dir="ltr" translate="no"&gt;FirebaseAILogic&lt;/code&gt;. In the upcoming Firebase 13.0.0 release, the &lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt;
+library will be removed. Ahead of the major release, imports should be changed
+to &lt;code dir="ltr" translate="no"&gt;import FirebaseAILogic&lt;/code&gt; and the &lt;code dir="ltr" translate="no"&gt;FirebaseAILogic&lt;/code&gt; Swift Package
+dependency should be selected. See the
+&lt;a href="https://firebase.google.com/docs/ai-logic/faq-and-troubleshooting#swift-module-name-change"&gt;Swift module name change&lt;/a&gt;
+FAQ entry for more details.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_v12_19_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;code dir="ltr" translate="no"&gt;GoogleAdsOnDeviceConversion&lt;/code&gt; error message to link to
+&lt;a class="external" href="https://github.com/googleads/google-ads-on-device-conversion-ios-sdk"&gt;version compatibility documentation&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="appcheck_v12_19_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the reCAPTCHA provider could cause build
+errors in binary environments, due to unsupported platforms.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16564"&gt;#16564&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="auth_v12_19_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a build error in app extensions introduced in 12.18.0, where
+&lt;code dir="ltr" translate="no"&gt;AuthNotificationManager&lt;/code&gt; referenced &lt;code dir="ltr" translate="no"&gt;UIApplication.shared&lt;/code&gt; directly.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16583"&gt;#16583&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a persistent crash when interacting with App Check under some
+Swift toolchains (like the Flutter SDK) by avoiding a compiler bug in Swift
+concurrency thunk generation.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16549"&gt;#16549&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue on iOS 15+ where users were randomly logged out
+during prewarming while the device was locked.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16498"&gt;#16498&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with a transitive import in the logger, which could
+cause a build error in explicit module mode.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16563"&gt;#16563&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Firebase 12.19.0 is the final planned minor release of 12.x and
+the final scheduled release published to CocoaPods. Future major versions
+(13.0.0+) will be distributed exclusively via Swift Package Manager and binary
+distributions. Existing CocoaPods releases will remain available as long as
+CocoaPods ecosystem support continues.
+See https://firebase.google.com/docs/ios/cocoapods-deprecation for details.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition where initializing Firebase in a
+multi-threaded environment could temporarily corrupt Foundation's locale and
+calendar caches, resulting in unexpected behavior (e.g., losing the user's
+"First Day of Week" override).
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16542"&gt;#16542&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="database_v12_19_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Reconnect after significant system clock changes so that
+&lt;code dir="ltr" translate="no"&gt;.info/serverTimeOffset&lt;/code&gt; is refreshed.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/363"&gt;#363&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore_v12_19_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;code dir="ltr" translate="no"&gt;minimum&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;maximum&lt;/code&gt; FieldValue operations
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16159"&gt;#16159&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="functions_v12_19_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Requests directed to the local emulator over a non-loopback HTTP
+connection when tokens are present will now explicitly fail with an
+&lt;code dir="ltr" translate="no"&gt;unauthenticated&lt;/code&gt; error instead of silently omitting the tokens and
+proceeding. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16536"&gt;#16536&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a DEBUG-only &lt;code dir="ltr" translate="no"&gt;allowInsecureTokenAttachment&lt;/code&gt; property on
+&lt;code dir="ltr" translate="no"&gt;Functions&lt;/code&gt; to allow insecure token attachment over HTTP for physical device
+testing. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16536"&gt;#16536&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v12_19_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Replaced the deprecated &lt;code dir="ltr" translate="no"&gt;UIApplication.keyWindow&lt;/code&gt; lookup used to
+measure the status bar height when laying out a banner. The height is now
+read from the foreground window scene the banner is rendered in, which is
+correct in multi-scene apps.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13068"&gt;#13068&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v12_19_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix an issue where &lt;code dir="ltr" translate="no"&gt;messaging:didReceiveRegistrationToken:&lt;/code&gt; was no
+longer called at app launch when a token was cached.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16581"&gt;#16581&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix an issue where cached FCM registration tokens were falsely
+invalidated due to locale changes when
+&lt;code dir="ltr" translate="no"&gt;FirebaseMessagingInstallationIdEnabled&lt;/code&gt; was set to &lt;code dir="ltr" translate="no"&gt;YES&lt;/code&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16572"&gt;#16572&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix a potential crash when parsing malformed FCM payloads with
+unexpected non-numeric fields.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16533"&gt;#16533&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v12_19_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Revert to using &lt;code dir="ltr" translate="no"&gt;kFPRSlowFrameThreshold&lt;/code&gt; for slow frames on iOS to
+prevent falsely classifying 60 FPS frames as slow on ProMotion devices,
+while preserving dynamic frame rate support for tvOS.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash caused due to ISA swizzling weak ivars.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16469"&gt;#16469&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="storage_v12_19_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where constructing a download URL could fail or
+produce an invalid path if the storage bucket name contained special
+characters. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16529"&gt;#16529&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Requests directed to the local emulator over a non-loopback HTTP
+connection when tokens are present will now explicitly fail with an
+&lt;code dir="ltr" translate="no"&gt;unauthenticated&lt;/code&gt; error instead of silently omitting the tokens and
+proceeding. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16536"&gt;#16536&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a DEBUG-only &lt;code dir="ltr" translate="no"&gt;allowInsecureTokenAttachment&lt;/code&gt; property on
+&lt;code dir="ltr" translate="no"&gt;Storage&lt;/code&gt; to allow insecure token attachment over HTTP for physical device
+testing. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16536"&gt;#16536&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
