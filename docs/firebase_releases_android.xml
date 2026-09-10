@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 10 Sep 2026 07:49:26 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 10 Sep 2026 13:17:36 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -8340,4 +8340,65 @@ exponential backoff strategy.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8446"&gt;#8446&lt;/a&gt;),
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8456"&gt;#8456&lt;/a&gt;),
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8460"&gt;#8460&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - August 19, 2026</title><link>https://firebase.google.com/support/release-notes/android#2026-08-19</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 34.18.0" id="bom_v34-18-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 34.18.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 17.16.0" id="ai_v17-16-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.16.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for on-device structured output generation using
+&lt;code dir="ltr" translate="no"&gt;generateObject&lt;/code&gt;
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8395"&gt;#8395&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Removed deprecated &lt;span class='\"notranslate\"'&gt;Imagen&lt;/span&gt; methods
+and types due to &lt;span class='\"notranslate\"'&gt;Imagen&lt;/span&gt; models being shut down in August 2026. As a
+replacement, you can
+&lt;a href="https://firebase.google.com/docs/ai-logic/imagen-models-migration"&gt;migrate your apps to use Gemini Image models (the "Nano Banana" models)&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Adjusted &lt;code dir="ltr" translate="no"&gt;LiveSession.isClosed&lt;/code&gt; to better reflect underlying
+connection closure state and not consume frames.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8511"&gt;#8511&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Replaced the &lt;code dir="ltr" translate="no"&gt;"function"&lt;/code&gt; conversational role with &lt;code dir="ltr" translate="no"&gt;"user"&lt;/code&gt; for 
+function response content.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8508"&gt;#8508&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for on-device structured output generation using
+&lt;code dir="ltr" translate="no"&gt;generateObject&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8395"&gt;#8395&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check version 19.4.1" id="appcheck_v19-4-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 19.4.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;App Check&lt;/span&gt; debug token log message to include
+&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI commands and &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console registration links.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8503"&gt;#8503&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep &lt;span class="notranslate"&gt;App Check&lt;/span&gt; SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 26.6.0" id="firestore_v26-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 26.6.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Implemented support for retrieving documents up to 16MB over gRPC.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8363"&gt;#8363&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Increased the gRPC max inbound message size to 17MB, to support
+16MB documents.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8363"&gt;#8363&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging version 25.1.2" id="messaging_v25-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 25.1.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration error due to
+&lt;code dir="ltr" translate="no"&gt;FID_ALREADY_USED&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8507"&gt;#8507&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging Direct Boot version 25.1.2" id="messaging-directboot_v25-1-2" tabindex="-1"&gt;Cloud Messaging Direct Boot version 25.1.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep messaging SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics Gradle plugin version 3.0.8" id="crashlytics_gradle_plugin_v3-0-8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin version 3.0.8&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an incompatibility between the &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin
+and Gradle &lt;em&gt;isolated projects&lt;/em&gt; when &lt;code dir="ltr" translate="no"&gt;nativeSymbolUploadEnabled&lt;/code&gt; is enabled.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8037"&gt;#8037&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where network failures during symbol uploads left
+orphaned files behind.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8157"&gt;#8157&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 17.4.0" id="data-connect_v17-4-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 17.4.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added gRPC request header for platform name and SDK version
+to enable metrics collection in &lt;span class="notranslate"&gt;Cloud Monitoring&lt;/span&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8486"&gt;#8486&lt;/a&gt;),
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8495"&gt;#8495&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added gRPC request header for &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; server
+affinity, to improve server resource usage efficiency and performance.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8499"&gt;#8499&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed to wait for 15 seconds before closing the realtime
+streaming connection with the backend after last subscriber unsubscribes
+(instead of closing the connection immediately).
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8481"&gt;#8481&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
