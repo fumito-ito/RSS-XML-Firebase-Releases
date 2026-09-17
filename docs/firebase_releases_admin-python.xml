@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-python</title><link>https://firebase.google.com/support/release-notes/admin/python</link><description>Latest updates and release notes for Firebase Admin-python.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 17 Sep 2026 16:07:44 +0000</lastBuildDate><item><title>Version 1.0.0 - April 04, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_100_-_april_04_2017</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-python</title><link>https://firebase.google.com/support/release-notes/admin/python</link><description>Latest updates and release notes for Firebase Admin-python.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 17 Sep 2026 20:54:24 +0000</lastBuildDate><item><title>Version 1.0.0 - April 04, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_100_-_april_04_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Admin Python SDK. See
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your Server&lt;/a&gt;
 to get started.&lt;/li&gt;
@@ -337,7 +337,7 @@ APIs.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression in the &lt;code dir="ltr" translate="no"&gt;listen()&lt;/code&gt; API that prevented its use in
 the v4.0.0 release.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.1.0 - 21 April, 2020</title><link>https://firebase.google.com/support/release-notes/admin/python#version_410_-_21_april_2020</link><description>&lt;h3 data-text="Firebase ML" id="firebase-ml_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.1.0 - 21 April, 2020</title><link>https://firebase.google.com/support/release-notes/admin/python#version_410_-_21_april_2020</link><description>&lt;h3 data-text="Firebase ML" id="firebase-ml_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;a href="/docs/reference/admin/python/firebase_admin.ml"&gt;&lt;code dir="ltr" translate="no"&gt;ml&lt;/code&gt;&lt;/a&gt;
 module for creating, updating, getting, listing, publishing, unpublishing, and
 deleting Firebase-hosted custom ML models.
@@ -357,7 +357,7 @@ create, retrieve, update and delete SAML auth provider configurations.&lt;/li&gt
 &lt;/ul&gt;</description></item><item><title>Version 4.3.0 - 14 May, 2020</title><link>https://firebase.google.com/support/release-notes/admin/python#version_430_-_14_may_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;get_users()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;delete_users()&lt;/code&gt; APIs for retrieving and
 deleting user accounts in bulk.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.4.0 - 15 September, 2020</title><link>https://firebase.google.com/support/release-notes/admin/python#version_440_-_15_september_2020</link><description>&lt;h3 data-text="Firebase ML" id="firebase-ml_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.4.0 - 15 September, 2020</title><link>https://firebase.google.com/support/release-notes/admin/python#version_440_-_15_september_2020</link><description>&lt;h3 data-text="Firebase ML" id="firebase-ml_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for creating, updating, getting, listing,
 publishing, unpublishing, and deleting Firebase-hosted custom ML models
 created with AutoML.&lt;/li&gt;
@@ -422,15 +422,15 @@ Python 3.7 or higher when deploying the Admin SDK.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.0.0 - 06 October, 2022</title><link>https://firebase.google.com/support/release-notes/admin/python#version_600_-_06_october_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped support for Python 3.6. Developers should use
 Python 3.7 or higher with the Admin SDK.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;app_check.verify_token()&lt;/code&gt; API to verify App Check
 tokens.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.0.1 - 17 October, 2022</title><link>https://firebase.google.com/support/release-notes/admin/python#version_601_-_17_october_2022</link><description>&lt;h3 data-text="App Check" id="app-check_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.0.1 - 17 October, 2022</title><link>https://firebase.google.com/support/release-notes/admin/python#version_601_-_17_october_2022</link><description>&lt;h3 data-text="App Check" id="app-check_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Included &lt;code dir="ltr" translate="no"&gt;PyJWT&lt;/code&gt; dependency in the distribution artifacts.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.1.0 - 02 February, 2023</title><link>https://firebase.google.com/support/release-notes/admin/python#version_610_-_02_february_2023</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;google-cloud-firestore&lt;/code&gt; dependency to &lt;code dir="ltr" translate="no"&gt;v2.9.1&lt;/code&gt; to
 support the &lt;code dir="ltr" translate="no"&gt;COUNT&lt;/code&gt; queries API.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase ML" id="firebase-ml_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase ML" id="firebase-ml_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated AutoML model support. AutoML model support will be
 removed in the next major version.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.2.0 - 22 June, 2023</title><link>https://firebase.google.com/support/release-notes/admin/python#version_620_-_22_june_2023</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -449,7 +449,7 @@ deploying the Admin SDK.&lt;/li&gt;
 in the &lt;code dir="ltr" translate="no"&gt;verify_id_token()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;verify_session_cookie()&lt;/code&gt; APIs. Thanks
 &lt;a href="https://github.com/stillmatic"&gt;stillmatic&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-python/pull/714"&gt;contribution&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="app-check_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Add &lt;code dir="ltr" translate="no"&gt;PyJWKClientError&lt;/code&gt; to raised errors documentation and handle
 possible uncaught errors.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.4.0 - 23 January, 2024</title><link>https://firebase.google.com/support/release-notes/admin/python#version_640_-_23_january_2024</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -505,7 +505,7 @@ reducing the SDK's bundle size.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped support for &lt;code dir="ltr" translate="no"&gt;send_all()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;send_multicast()&lt;/code&gt; APIs. Use
 &lt;code dir="ltr" translate="no"&gt;send_each()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;send_each_for_multicast()&lt;/code&gt; APIs or their async counter
 parts &lt;code dir="ltr" translate="no"&gt;send_each_async()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;send_each_for_multicast_async()&lt;/code&gt; APIs instead.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase ML" id="firebase-ml" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase ML" id="firebase-ml_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped AutoML model support.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Replaced usage of deprecated &lt;code dir="ltr" translate="no"&gt;datetime.utcnow()&lt;/code&gt; with
@@ -545,4 +545,12 @@ and &lt;code dir="ltr" translate="no"&gt;fids&lt;/code&gt; parameter in &lt;code
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Updated the &lt;code dir="ltr" translate="no"&gt;send_each_for_multicast()&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;send_each_for_multicast_async()&lt;/code&gt; functions to support both &lt;code dir="ltr" translate="no"&gt;token&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;fid&lt;/code&gt;
 target types.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.6.0 - 17 September 2026</title><link>https://firebase.google.com/support/release-notes/admin/python#version_760_-_17_september_2026</link><description>&lt;h3 data-text="App Check" id="app-check" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for replay protection in the
+&lt;code dir="ltr" translate="no"&gt;app_check.verify_token()&lt;/code&gt; API.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase ML" id="firebase-ml" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated the &lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt; module and its associated
+classes and functions ahead of the service turndown on
+June 15, 2027. If you host custom models,
+&lt;a href="/docs/ml/migrate-to-cloud-storage"&gt;migrate to &lt;span class="notranslate"&gt;Cloud Storage for Firebase&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
