@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 23 Sep 2026 15:59:35 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 23 Sep 2026 21:00:26 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2452,9 +2452,6 @@ Credentials (ADC) when no project is active
 &lt;code dir="ltr" translate="no"&gt;crashlytics:sourcemap:upload&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a typo in &lt;code dir="ltr" translate="no"&gt;loginPrototyper&lt;/code&gt; URL which caused issues during
 Firebase MCP server &lt;code dir="ltr" translate="no"&gt;firebase_login&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;appcheck:services:list&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;appcheck:services:get&lt;/code&gt; and
-&lt;code dir="ltr" translate="no"&gt;appcheck:services:set&lt;/code&gt; to read and change &lt;span class="notranslate"&gt;App Check&lt;/span&gt; enforcement per
-service.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed unenforced read-only isolation for Native SQL queries for
 &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 15.27.0 - August 13, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15270_-_august_13_2026</link><description>&lt;ul&gt;
@@ -2470,11 +2467,6 @@ functions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;outputSchema&lt;/code&gt; support for local MCP tools.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Skip functions lifecycle hooks during partial (filtered)
 deployments, and print instructions for running them manually.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;appcheck:providers:list&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;appcheck:providers:get&lt;/code&gt;
-and &lt;code dir="ltr" translate="no"&gt;appcheck:providers:set&lt;/code&gt; to configure &lt;span class="notranslate"&gt;App Check&lt;/span&gt; attestation
-providers for an app.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;appcheck:apps:list&lt;/code&gt; to show every app with its
-configured &lt;span class="notranslate"&gt;App Check&lt;/span&gt; providers.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added web app support for &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; MCP tools and
 prompts.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for forwarding custom HTTP headers (&lt;code dir="ltr" translate="no"&gt;Mcp-Param-*&lt;/code&gt;)
