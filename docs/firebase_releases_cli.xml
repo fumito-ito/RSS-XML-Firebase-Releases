@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 28 Sep 2026 21:02:01 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 29 Sep 2026 03:57:11 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2574,4 +2574,25 @@ generated Admin Node SDKs.&lt;/li&gt;
 overwritten instead of returning an error.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; source map uploads for Angular builds to
 strip out leading directory paths (e.g., &lt;code dir="ltr" translate="no"&gt;/dist/angular/browser/&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.32.0 - September 28, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15320_-_september_28_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Introduced function kits (&lt;code dir="ltr" translate="no"&gt;functions:kits:install&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;functions:kits:uninstall&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;functions:kits:list&lt;/code&gt;) to configure and run
+multiple instances of functions from the CLI.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for overriding the &lt;span class="notranslate"&gt;Secret Manager&lt;/span&gt; secret
+ID and version used to resolve a named secret parameter via
+&lt;code dir="ltr" translate="no"&gt;FIREBASE_SECRET_REF_&amp;lt;SECRET_NAME&amp;gt;&lt;/code&gt; in &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;.env&lt;/code&gt; files.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;ext:migrate&lt;/code&gt; and updated &lt;code dir="ltr" translate="no"&gt;ext:export&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;ext:list&lt;/code&gt; to
+assist with migrating &lt;span class="notranslate"&gt;Firebase Extensions&lt;/span&gt; to function kits.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Preselected the default values of list function params in
+multi-select prompts.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Honored boolean and integer defaults in &lt;code dir="ltr" translate="no"&gt;select&lt;/code&gt; prompts for
+function params instead of preselecting the first option.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Increased retries for IAM policy updates to further reduce
+deployment flakiness from service account propagation delays.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;ERR_REQUIRE_ESM&lt;/code&gt; crash (e.g. on &lt;code dir="ltr" translate="no"&gt;emulators:start&lt;/code&gt;) in the
+standalone binary and on Node.js versions earlier than 20.19 / 22.12
+(&lt;a href="https://github.com/firebase/firebase-tools/pull/11168"&gt;#11168&lt;/a&gt;
+{: .external}).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console link in the Terms of Service error
+to include &lt;code dir="ltr" translate="no"&gt;?forceCheckTos=true&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

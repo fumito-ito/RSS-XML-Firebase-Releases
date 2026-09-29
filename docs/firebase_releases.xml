@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 28 Sep 2026 21:01:53 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 29 Sep 2026 03:57:00 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -7441,7 +7441,7 @@ is now available. For more details, see the
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate></item><item><title>July 29, 2026</title><link>https://firebase.google.com/support/releases#july_29_2026</link><description>&lt;h3 data-text="Gemini API" id="gemini-2-5-models-shutdown-oct-2026" tabindex="-1"&gt;Gemini API&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; models
-will be shut down (retired) in October 2026.&lt;/p&gt;
+will be shut down (retired) as early as October 2026.&lt;/p&gt;
 &lt;p&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.5-pro&lt;/code&gt;&lt;br/&gt;
 &lt;code dir="ltr" translate="no"&gt;gemini-2.5-flash&lt;/code&gt;&lt;br/&gt;
 &lt;code dir="ltr" translate="no"&gt;gemini-2.5-flash-lite&lt;/code&gt;&lt;br/&gt;
@@ -7450,7 +7450,9 @@ will be shut down (retired) in October 2026.&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;For the general-use models, the date for shutdown depends on your chosen
 &lt;span class='\"notranslate\"'&gt;Gemini API&lt;/span&gt; provider:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; (Google AI): October 16, 2026&lt;/li&gt;
+&lt;li&gt;&lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; (Google AI): deprecated, but no shutdown
+date is announced yet (only previously active projects can continue
+using them)&lt;/li&gt;
 &lt;li&gt;&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;: October 20, 2026&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;For the image-generating model (Nano Banana), the date for shutdown is the
@@ -7890,7 +7892,16 @@ This release migrates topic subscription management in &lt;span class="notransla
 from the legacy Instance ID API to the &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; v1 API.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate></item><item><title>September 28, 2026</title><link>https://firebase.google.com/support/releases#september_28_2026</link><description>&lt;h3 data-text="Google AI Studio integration" id="ai-studio-android-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Google AI Studio&lt;/span&gt; integration&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate></item><item><title>September 28, 2026</title><link>https://firebase.google.com/support/releases#september_28_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.32.0)" id="cli-v15.32.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.32.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.32.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.32.0)&lt;/a&gt; is now
+available. This version introduces function kits, adds support for overriding
+&lt;span class="notranslate"&gt;Secret Manager&lt;/span&gt; secret IDs and versions in &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;.env&lt;/code&gt;
+files, adds migration tools for &lt;span class="notranslate"&gt;Firebase Extensions&lt;/span&gt;, and includes several
+fixes and improvements.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Google AI Studio integration" id="ai-studio-android-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Google AI Studio&lt;/span&gt; integration&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Firebase integration in
 &lt;a class="external" href="https://aistudio.google.com/apps"&gt;&lt;span class='\"notranslate\"'&gt;Google AI Studio&lt;/span&gt;&lt;/a&gt; now
 supports &lt;strong&gt;Android apps&lt;/strong&gt; in addition to web apps. You can automatically set
