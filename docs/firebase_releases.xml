@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 30 Sep 2026 09:15:13 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 30 Sep 2026 17:30:35 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -7909,4 +7909,12 @@ up and integrate &lt;strong&gt;&lt;span class="notranslate"&gt;Cloud Firestore&l
 &lt;strong&gt;&lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt;&lt;/strong&gt; into both Android and web apps.&lt;/p&gt;
 &lt;p&gt;To learn more, see
 &lt;a href="/docs/ai-assistance/ai-studio-integration"&gt;Add Firebase to your &lt;span class='\"notranslate\"'&gt;Google AI Studio&lt;/span&gt; app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate></item><item><title>September 30, 2026</title><link>https://firebase.google.com/support/releases#september_30_2026</link><description>&lt;h3 data-text="Firebase Test Lab" id="testlab-deprecation" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Firebase Test Lab&lt;/span&gt; is deprecated and will be fully shut
+down as of September 30, 2027. To maintain your testing workflows, you can
+migrate to the
+&lt;a href="https://cloud.google.com/products/developer-device-platform"&gt;&lt;span class="notranslate"&gt;Developer Device Platform&lt;/span&gt;&lt;/a&gt;
+on Google Cloud. See the &lt;a href="https://docs.cloud.google.com/developer-device-platform/device-run/migrate"&gt;Developer Device Platform migration
+guide&lt;/a&gt;
+and &lt;a href="/docs/test-lab/deprecation-faq"&gt;FAQ&lt;/a&gt; for more details.&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate></item></channel></rss>
