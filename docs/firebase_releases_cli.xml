@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 02 Oct 2026 17:20:56 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 02 Oct 2026 21:45:54 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2595,4 +2595,22 @@ standalone binary and on Node.js versions earlier than 20.19 / 22.12
 {: .external}).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console link in the Terms of Service error
 to include &lt;code dir="ltr" translate="no"&gt;?forceCheckTos=true&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.32.1 - September 30, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15321_-_september_30_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved the error message when &lt;span class="notranslate"&gt;Cloud Billing&lt;/span&gt; is not
+enabled.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash in &lt;code dir="ltr" translate="no"&gt;setEnqueuer&lt;/code&gt; when deploying &lt;span class="notranslate"&gt;Cloud Tasks&lt;/span&gt;
+functions whose IAM policy has no bindings
+(&lt;a href="https://github.com/firebase/firebase-tools/issues/11184"&gt;#11184&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated dependencies to address security vulnerabilities,
+including &lt;code dir="ltr" translate="no"&gt;protobufjs&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;tar&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;@grpc/grpc-js&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;express&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;undici&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;hono&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;tmp&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;form-data&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit to v3.4.22,
+which includes the following changes:
+&lt;ul&gt;
+&lt;li&gt;Disallowed using the GraphQL root operation type names (&lt;code dir="ltr" translate="no"&gt;Query&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;Mutation&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Subscription&lt;/code&gt;) as &lt;code dir="ltr" translate="no"&gt;@table&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;@view&lt;/code&gt; types.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;404&lt;/code&gt; errors during &lt;code dir="ltr" translate="no"&gt;crashlytics:sourcemap:upload&lt;/code&gt; when
+re-uploading a source map with the same obfuscated path across
+different app versions.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
