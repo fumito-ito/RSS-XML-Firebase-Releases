@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 05 Oct 2026 13:27:08 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 05 Oct 2026 21:47:08 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -7925,4 +7925,17 @@ migrate to the
 on Google Cloud. See the &lt;a href="https://docs.cloud.google.com/developer-device-platform/device-run/migrate"&gt;Developer Device Platform migration
 guide&lt;/a&gt;
 and &lt;a href="/docs/test-lab/deprecation-faq"&gt;FAQ&lt;/a&gt; for more details.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="function-kits-release" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Function kits are now available in &lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt;
+(2nd gen). You can use function kits to package, distribute on npm, and deploy
+multiple configurable instances of 2nd gen functions using the
+&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI. To learn more, see
+&lt;a href="/docs/extensions/migration-best-practices#using-kit-from-npm-without-migrating"&gt;Using a function kit from an npm package&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase Extensions" id="extensions-function-kits-migration" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Extensions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now migrate deprecated &lt;span class="notranslate"&gt;Firebase Extensions&lt;/span&gt; to
+&lt;a href="#function-kits-release"&gt;function kits&lt;/a&gt; in &lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; (2nd gen)
+ahead of the March 31, 2027 service shutdown. To learn more, see the
+&lt;a href="/docs/extensions/faq-and-troubleshooting"&gt;&lt;span class="notranslate"&gt;Firebase Extensions&lt;/span&gt; Deprecation FAQ&lt;/a&gt;
+and the &lt;a href="/docs/extensions/publishers/migrate"&gt;publisher&lt;/a&gt; and
+&lt;a href="/docs/extensions/users/migrate"&gt;user&lt;/a&gt; migration guides.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate></item></channel></rss>
