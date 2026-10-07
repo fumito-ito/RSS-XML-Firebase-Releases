@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 07 Oct 2026 09:42:13 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 07 Oct 2026 18:21:09 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -5771,4 +5771,159 @@ identical to 12.19.0.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.19.2 - September 17, 2026</title><link>https://firebase.google.com/support/release-notes/ios#version_12192_-_september_17_2026</link><description>&lt;p&gt;This release is available via Swift Package Manager only.&lt;/p&gt;&lt;h3 data-text="Analytics" id="analytics_v12_19_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Swift Package Manager only: Fixed unrecognized selector
 (&lt;a href="https://github.com/firebase/firebase-ios-sdk/issues/16634"&gt;#16634&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.0.0 - October 7, 2026</title><link>https://firebase.google.com/support/release-notes/ios#version_1300_-_october_7_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Firebase is no longer distributed through CocoaPods. Firebase
+13.0.0 and later releases are distributed exclusively through Swift Package
+Manager and binary distributions. Existing CocoaPods releases will remain
+available as long as CocoaPods ecosystem support continues. For more
+information, see the
+&lt;a href="/docs/ios/cocoapods-deprecation"&gt;CocoaPods deprecation guide&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Firebase's minimum supported versions have
+been updated for the following platforms:
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;Platform&lt;/th&gt;
+&lt;th&gt;Firebase 13&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;iOS&lt;/td&gt;
+&lt;td&gt;15.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tvOS&lt;/td&gt;
+&lt;td&gt;15.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;macOS&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;11.0&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;watchOS&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;8.0&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: FirebaseMLModelDownloader has been removed.
+For more information, see the &lt;a href="/docs/ml"&gt;Firebase ML documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: GoogleSignIn is no longer included in the
+Firebase zip and Carthage distributions.&lt;/p&gt;
+&lt;aside class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;span&gt; A Google Sign-In release compatible with Firebase 13 via Swift
+Package Manager isn't yet available and will follow in the coming weeks.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Removed the CocoaPods-generated umbrella
+headers (suffixed &lt;code dir="ltr" translate="no"&gt;-umbrella.h&lt;/code&gt;) from the zip and Carthage artifacts, in favor
+of &lt;code dir="ltr" translate="no"&gt;Firebase.h&lt;/code&gt; and framework-specific umbrella headers.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16540"&gt;#16540&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: The minimum supported version of
+&lt;code dir="ltr" translate="no"&gt;GTMSessionFetcher&lt;/code&gt; is now &lt;code dir="ltr" translate="no"&gt;4.0.0&lt;/code&gt; (support for &lt;code dir="ltr" translate="no"&gt;3.x&lt;/code&gt; has been dropped).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Bundle ID prefixes in the zip distribution
+are now properly scoped to &lt;code dir="ltr" translate="no"&gt;com.google.firebase&lt;/code&gt;, instead of
+&lt;code dir="ltr" translate="no"&gt;org.cocoapods.&lt;/code&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16678"&gt;#16678&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Firebase now requires Swift tools version 6.2.1 and the Swift
+6.2.3 compiler for the Swift Package. The package will no longer resolve in
+Xcode versions earlier than 26.2, which remains the minimum officially
+supported version for the SDK.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16696"&gt;#16696&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for Swift Package Traits (SE-0450) to let you opt
+out of unused features and prune heavy dependencies. To opt out of Firestore
+in Xcode, select your project &amp;gt; &lt;strong&gt;Package Dependencies&lt;/strong&gt;, and in the
+&lt;strong&gt;Traits&lt;/strong&gt; column for Firebase, clear &lt;code dir="ltr" translate="no"&gt;default&lt;/code&gt; and select only the ones you
+want, if any (it shows &lt;code dir="ltr" translate="no"&gt;None&lt;/code&gt; if no traits are enabled).
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16684"&gt;#16684&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="ai_v13_0_0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Renamed &lt;code dir="ltr" translate="no"&gt;Tool&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;GenerativeModel.Tool&lt;/code&gt; to
+avoid naming conflicts with Apple's Foundation Models &lt;code dir="ltr" translate="no"&gt;Tool&lt;/code&gt; type. Calls
+passing array literals (for example, &lt;code dir="ltr" translate="no"&gt;tools: [.googleSearch()]&lt;/code&gt;) continue to
+work unmodified.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16700"&gt;#16700&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Removed &lt;code dir="ltr" translate="no"&gt;GenerativeModelSession&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;SystemLanguageModel&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;HybridModel&lt;/code&gt;, and associated types and protocols that
+previously provided an interim integration with Apple's Foundation Models
+framework. Going forward, use &lt;code dir="ltr" translate="no"&gt;GeminiLanguageModel&lt;/code&gt; via
+&lt;code dir="ltr" translate="no"&gt;ai.geminiLanguageModel(name:)&lt;/code&gt; directly with Apple's native Foundation
+Models framework.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Removed the deprecated &lt;code dir="ltr" translate="no"&gt;Backend.vertexAI()&lt;/code&gt;
+and &lt;code dir="ltr" translate="no"&gt;Backend.vertexAI(location:)&lt;/code&gt; methods. Use
+&lt;code dir="ltr" translate="no"&gt;Backend.agentPlatform(location:)&lt;/code&gt; instead.
+The only difference for &lt;code dir="ltr" translate="no"&gt;Backend.agentPlatform&lt;/code&gt; is the default
+&lt;a href="/docs/ai-logic/locations?api=vertex"&gt;location for accessing the model&lt;/a&gt;.
+The default location for &lt;code dir="ltr" translate="no"&gt;Backend.agentPlatform&lt;/code&gt; is &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;, whereas the
+default location for &lt;code dir="ltr" translate="no"&gt;Backend.vertexAI&lt;/code&gt; was &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;. To use
+&lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt; with &lt;code dir="ltr" translate="no"&gt;Backend.agentPlatform&lt;/code&gt;, specify
+&lt;code dir="ltr" translate="no"&gt;FirebaseAI.firebaseAI(backend: .agentPlatform(location: "us-central1"))&lt;/code&gt;
+when initializing the SDK. However, note that most new Gemini models don't
+support &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16689"&gt;#16689&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Update imports to &lt;code dir="ltr" translate="no"&gt;import FirebaseAILogic&lt;/code&gt;
+and use the &lt;code dir="ltr" translate="no"&gt;FirebaseAILogic&lt;/code&gt; Swift Package dependency instead of
+&lt;code dir="ltr" translate="no"&gt;FirebaseAI&lt;/code&gt;, which has now been removed. For more information, see the
+&lt;a href="/docs/ai-logic/faq-and-troubleshooting#swift-module-name-change"&gt;Swift module name change&lt;/a&gt;
+FAQ entry.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;strong&gt;Public Preview&lt;/strong&gt;: Added support for multi-turn conversations
+(&lt;code dir="ltr" translate="no"&gt;TemplateChat&lt;/code&gt;) and function calling (&lt;code dir="ltr" translate="no"&gt;TemplateTool&lt;/code&gt;) with Server Prompt
+Templates. For more information, see the
+&lt;a href="/docs/ai-logic/server-prompt-templates/get-started"&gt;getting started guide&lt;/a&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16740"&gt;#16740&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the default function calling mode to &lt;code dir="ltr" translate="no"&gt;VALIDATED&lt;/code&gt; and
+updated guided generation to use &lt;code dir="ltr" translate="no"&gt;responseJsonSchema&lt;/code&gt; in
+&lt;code dir="ltr" translate="no"&gt;GeminiLanguageModel&lt;/code&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16649"&gt;#16649&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated model tuning parameters (&lt;code dir="ltr" translate="no"&gt;temperature&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;topP&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;topK&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;candidateCount&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;presencePenalty&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;frequencyPenalty&lt;/code&gt;) in
+&lt;code dir="ltr" translate="no"&gt;GenerationConfig&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;LiveGenerationConfig&lt;/code&gt; as they're unsupported in
+Gemini 3.x and later models.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_v13_0_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential deadlock
+(&lt;a href="https://github.com/firebase/firebase-ios-sdk/issues/13888"&gt;#13888&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Hardened configuration parsing to safely handle missing or empty
+keys, preventing potential crashes from malformed data. (Note: The specific
+crash reported in
+&lt;a href="https://github.com/firebase/firebase-ios-sdk/issues/16728"&gt;#16728&lt;/a&gt; was fully
+resolved via a server-side update).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="auth_v13_0_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a timeout race in the APNs token manager that could leave
+concurrent phone authentication requests waiting indefinitely.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Replaced a force-unwrapped error with a safe fallback during Game
+Center authentication.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16136"&gt;#16136&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_v13_0_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Safely validate memory reads when executing &lt;code dir="ltr" translate="no"&gt;DW_OP_deref_size&lt;/code&gt;
+operations during DWARF stack unwinding
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16550"&gt;#16550&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue causing a crash while symbolicating stack frames if
+the binary image path is null.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16622"&gt;#16622&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore_v13_0_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Dropped C++14 support; Firestore requires C++17.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated gRPC dependency to 1.83.1.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated Abseil dependency to 1.20250512.2.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Prefixed internal Pipeline Objective-C bridge classes and
+&lt;code dir="ltr" translate="no"&gt;NS_SWIFT_NAME&lt;/code&gt; annotations with &lt;code dir="ltr" translate="no"&gt;__&lt;/code&gt; to hide them from IDE autocomplete and
+prevent them from appearing alongside public APIs.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the following new types: &lt;code dir="ltr" translate="no"&gt;MinKey&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;MaxKey&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;RegexValue&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Int32Value&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Decimal128Value&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;BSONObjectId&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;BSONTimestamp&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;BSONBinaryData&lt;/code&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16265"&gt;#16265&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;Firestore&lt;/code&gt; package trait to &lt;code dir="ltr" translate="no"&gt;Package.swift&lt;/code&gt;.
+Cloud Firestore support requires the trait to be enabled (it's enabled by
+default). You can opt out of the trait to avoid downloading Firestore's
+underlying dependencies (such as gRPC and Abseil).
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16684"&gt;#16684&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v13_0_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Scene delegates take priority over app
+delegates for universal link routing.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16083"&gt;#16083&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where universal links were not correctly routed in
+apps utilizing scene delegates.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16083"&gt;#16083&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v13_0_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Scene delegates take priority over app
+delegates for automatic deep link routing.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15987"&gt;#15987&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where deep links were not correctly routed in apps
+utilizing scene delegates.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15987"&gt;#15987&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;NSSecureCoding&lt;/code&gt; was not enforced when
+archiving and unarchiving registration tokens in the keychain.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16511"&gt;#16511&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
