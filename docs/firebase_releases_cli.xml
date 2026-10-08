@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 08 Oct 2026 09:52:47 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 08 Oct 2026 18:21:00 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2613,4 +2613,30 @@ which includes the following changes:
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;404&lt;/code&gt; errors during &lt;code dir="ltr" translate="no"&gt;crashlytics:sourcemap:upload&lt;/code&gt; when
 re-uploading a source map with the same obfuscated path across
 different app versions.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.33.0 - October 07, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15330_-_october_07_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase Hosting&lt;/span&gt; API requests to be project-scoped,
+eliminating site-scoped requests and the use of &lt;code dir="ltr" translate="no"&gt;-&lt;/code&gt; as a project identifier.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a check for a default &lt;span class="notranslate"&gt;Hosting&lt;/span&gt; site and an offer to
+create one during &lt;code dir="ltr" translate="no"&gt;firebase apps:create web&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a check for a default &lt;span class="notranslate"&gt;Hosting&lt;/span&gt; site and an offer to
+create one during &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; initialization (&lt;code dir="ltr" translate="no"&gt;firebase init auth&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Started reporting the GCFv2-to-GCFv1 downgrade error during
+validation instead of a misleading CPU error
+(&lt;a href="https://github.com/firebase/firebase-tools/issues/5461"&gt;#5461&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;functions:delete&lt;/code&gt; recreating an already-deleted
+&lt;span class="notranslate"&gt;Cloud Tasks&lt;/span&gt; queue for task queue functions
+(&lt;a href="https://github.com/firebase/firebase-tools/issues/9305"&gt;#9305&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Batched function deletions across instances when uninstalling a
+function kit
+(&lt;a href="https://github.com/firebase/firebase-tools/pull/11189"&gt;#11189&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where 2nd-gen functions with parameterized trigger
+event filters failed default region resolution
+(&lt;a href="https://github.com/firebase/firebase-tools/issues/11020"&gt;#11020&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;functions:lifecycle:list&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;functions:lifecycle:run&lt;/code&gt;
+failing to detect function kit instances
+(&lt;a href="https://github.com/firebase/firebase-tools/pull/11240"&gt;#11240&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed nested ternary Common Expression Language (CEL)
+expressions in function parameters, which previously failed to load or
+selected the wrong branch
+(&lt;a href="https://github.com/firebase/firebase-tools/issues/7755"&gt;#7755&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
