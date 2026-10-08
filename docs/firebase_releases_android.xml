@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 07 Oct 2026 18:21:12 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 08 Oct 2026 00:40:52 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -8401,4 +8401,33 @@ affinity, to improve server resource usage efficiency and performance.
 streaming connection with the backend after last subscriber unsubscribes
 (instead of closing the connection immediately).
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8481"&gt;#8481&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - September 09, 2026</title><link>https://firebase.google.com/support/release-notes/android#2026-09-09</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 34.19.0" id="bom_v34-19-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 34.19.0&lt;/h3&gt;&lt;h3 data-text="Firebase AI Logic version 17.17.0" id="ai_v17-17-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 17.17.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;turnComplete&lt;/code&gt; support in the &lt;code dir="ltr" translate="no"&gt;LiveSessionFutures&lt;/code&gt; Java API.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8550"&gt;#8550&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging version 25.1.3" id="messaging_v25-1-3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 25.1.3&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements for legacy infrastructure
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8551"&gt;#8551&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging Direct Boot version 25.1.3" id="messaging-directboot_v25-1-3" tabindex="-1"&gt;Cloud Messaging Direct Boot version 25.1.3&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep messaging SDK versions aligned.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage for Firebase version 22.0.2" id="storage_v22-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage for Firebase&lt;/span&gt; version 22.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements for legacy infrastructure
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8551"&gt;#8551&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics version 20.1.1" id="crashlytics_v20-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 20.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added consumer ProGuard rules to prevent R8 missing-class warnings
+for &lt;code dir="ltr" translate="no"&gt;ProfilingManager&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;ProfilingTrigger&lt;/code&gt; on older &lt;code dir="ltr" translate="no"&gt;compileSdk&lt;/code&gt; versions.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8567"&gt;#8567&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics NDK version 20.1.1" id="crashlytics-ndk_v20-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 20.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Enabled the Relocation Read-Only (RELRO) flag across
+&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK shared libraries. This change mitigates security exploits
+by making relocation sections read-only after loading.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8566"&gt;#8566&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase ML version 26.1.1" id="firebaseml-modeldownloader_v26-1-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase ML&lt;/span&gt; version 26.1.1&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements for legacy infrastructure
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8551"&gt;#8551&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the Firebase ML deprecation message to link to the
+&lt;a href="https://firebase.google.com/docs/ml"&gt;Firebase ML documentation&lt;/a&gt; for
+migration options.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database version 22.0.2" id="realtime-database_v22-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; version 22.0.2&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements for legacy infrastructure
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8551"&gt;#8551&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
