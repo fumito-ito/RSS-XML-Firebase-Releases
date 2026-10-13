@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 13 Oct 2026 10:02:12 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 13 Oct 2026 18:47:57 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -7972,4 +7972,69 @@ has been updated to v35.0.0. Learn how to
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#13.0.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate></item><item><title>October 13, 2026</title><link>https://firebase.google.com/support/releases#october_13_2026</link><description>&lt;h3 data-text="Google AI Studio integration" id="ai-studio-ai-logic-app-check" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Google AI Studio&lt;/span&gt; integration&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Firebase integration in
+&lt;a class="external" href="https://aistudio.google.com/apps"&gt;&lt;span class='\"notranslate\"'&gt;Google AI Studio&lt;/span&gt;&lt;/a&gt; now
+automatically sets up and integrates &lt;strong&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/strong&gt; and
+&lt;strong&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/strong&gt; when you build Android apps with generative AI
+features. This integration lets your Android app securely call Gemini models
+directly without exposing API keys. The app uses debug tokens for testing and
+&lt;span class="notranslate"&gt;reCAPTCHA Enterprise&lt;/span&gt; for production releases on &lt;span class="notranslate"&gt;Google Play&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;To learn more, see
+&lt;a href="/docs/ai-assistance/ai-studio-integration#ai-logic-app-check"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; and &lt;span class="notranslate"&gt;App Check&lt;/span&gt; for Android apps&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-4-argon-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; stable
+model &lt;code dir="ltr" translate="no"&gt;gemini-4-argon&lt;/code&gt;. You can
+&lt;a href="/docs/ai-logic/get-started"&gt;directly access this model in your mobile or web app&lt;/a&gt;
+via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; or the
+&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Accessing &lt;code dir="ltr" translate="no"&gt;gemini-4-argon&lt;/code&gt; requires the &lt;a href="/pricing"&gt;pay-as-you-go Blaze pricing plan&lt;/a&gt; regardless
+of your &lt;span class='\"notranslate\"'&gt;Gemini API&lt;/span&gt; provider.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you're migrating from previous models, note the following for this new
+model:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Token limits&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Default and maximum output token limits: &lt;code dir="ltr" translate="no"&gt;32,768&lt;/code&gt; tokens for
+non-streaming requests and &lt;code dir="ltr" translate="no"&gt;65,536&lt;/code&gt; tokens for streaming requests.
+The input token limit is the same as the older &lt;span class='\"notranslate\"'&gt;Gemini 3.x&lt;/span&gt;
+models.&lt;/li&gt;
+&lt;li&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; does &lt;em&gt;not yet&lt;/em&gt; support the "long decode"
+capability, but that feature is coming soon!&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;No support for &lt;code dir="ltr" translate="no"&gt;MINIMAL&lt;/code&gt; thinking level or &lt;code dir="ltr" translate="no"&gt;thinkingBudget&lt;/code&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports the following
+&lt;a href="/docs/ai-logic/thinking#control-thinking-amount"&gt;thinking levels&lt;/a&gt;:
+&lt;code dir="ltr" translate="no"&gt;LOW&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;MEDIUM&lt;/code&gt; (default), and&lt;code dir="ltr" translate="no"&gt;HIGH&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Does &lt;em&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/em&gt; support setting thinking level of &lt;code dir="ltr" translate="no"&gt;MINIMAL&lt;/code&gt;. The
+request will &lt;em&gt;&lt;strong&gt;fail&lt;/strong&gt;&lt;/em&gt; with a 400 error.&lt;/li&gt;
+&lt;li&gt;Does &lt;em&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/em&gt; support using &lt;code dir="ltr" translate="no"&gt;thinkingBudget&lt;/code&gt; (there's no
+backwards-compatibility). The request will &lt;em&gt;&lt;strong&gt;fail&lt;/strong&gt;&lt;/em&gt; with a 400
+error.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Context caching&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports
+&lt;a href="/docs/ai-logic/context-caching#implicit-caching"&gt;&lt;em&gt;implicit&lt;/em&gt; caching&lt;/a&gt;
+by default (with a minimum of 4,096 input tokens on the
+&lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; and 6,144 input tokens on the
+&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;).&lt;/li&gt;
+&lt;li&gt;Does &lt;em&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/em&gt; support &lt;em&gt;explicit&lt;/em&gt; caching.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Unsupported parameters&lt;/strong&gt;: Does &lt;em&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/em&gt; support temperature, top-K,
+top-P, frequency penalty, presence penalty, or candidate count.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Temperature, top-K, or top-P: Ignored by the model.&lt;/li&gt;
+&lt;li&gt;Frequency penalty, presence penalty, and candidate count: The
+request will &lt;em&gt;&lt;strong&gt;fail&lt;/strong&gt;&lt;/em&gt; with a 400 error.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more deterministic responses, define system instructions with
+explicit rules for your specific use case.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Prefilled model turn validation&lt;/strong&gt;: Does &lt;em&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/em&gt; support prefilling
+model turns. If the last non-empty turn in the request is a &lt;code dir="ltr" translate="no"&gt;model&lt;/code&gt;
+turn, the request will &lt;em&gt;&lt;strong&gt;fail&lt;/strong&gt;&lt;/em&gt; with a 400 error.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>
