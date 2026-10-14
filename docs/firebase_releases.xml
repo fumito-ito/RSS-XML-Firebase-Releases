@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 14 Oct 2026 14:17:22 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 14 Oct 2026 19:08:28 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -7526,7 +7526,32 @@ login flow, automatically enables non-interactive mode for AI agents, and
 includes several fixes and improvements.&lt;/p&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate></item><item><title>August 06, 2026</title><link>https://firebase.google.com/support/releases#august_06_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases_14" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate></item><item><title>August 06, 2026</title><link>https://firebase.google.com/support/releases#august_06_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-agent-platform-syntax" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; To reflect the renaming of Vertex AI to Gemini Enterprise Agent
+Platform (or "Agent Platform"), the &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDKs added new
+"Agent Platform" initialization syntax (such as &lt;code dir="ltr" translate="no"&gt;agentPlatform&lt;/code&gt; or
+&lt;code dir="ltr" translate="no"&gt;AgentPlatformBackend&lt;/code&gt;) and deprecated the legacy "Vertex AI" initialization
+syntax (such as &lt;code dir="ltr" translate="no"&gt;vertexAI&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;VertexAIBackend&lt;/code&gt;).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The only difference for the new "Agent Platform" initialization syntax is
+the default
+&lt;a href="/docs/ai-logic/locations?api=vertex"&gt;location for accessing the model&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The default location for the "Agent Platform" syntax is &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;,
+whereas the default location for the legacy "Vertex AI" syntax is
+&lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;. Note that most new &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; models do not support
+&lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you want to use &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt; (or another location) with the new
+syntax, you can explicitly specify the location when initializing the
+backend service.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you use the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;, then &lt;strong&gt;we strongly recommend
+migrating your apps to use the new "Agent Platform" initialization syntax&lt;/strong&gt;,
+as the legacy "Vertex AI" syntax will be removed in the next breaking change
+release. For platform-specific code examples and full details, see the
+&lt;a href="/docs/ai-logic/faq-and-troubleshooting#changes-for-vertexai-rebrand-to-agent-platform"&gt;FAQ describing the required changes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases_14" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#13.15.0"&gt;Firebase SDK for Unity
 (v13.15.0)&lt;/a&gt; is now available. This
 release includes new features in Firebase AI, a bug fix in &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;,
