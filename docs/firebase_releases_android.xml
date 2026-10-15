@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 15 Oct 2026 13:52:08 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 15 Oct 2026 18:50:55 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -8430,4 +8430,178 @@ migration options.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database version 22.0.2" id="realtime-database_v22-0-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; version 22.0.2&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements for legacy infrastructure
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8551"&gt;#8551&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Update - October 07, 2026</title><link>https://firebase.google.com/support/release-notes/android#2026-10-07</link><description>&lt;h3 data-text="Firebase Android BoM (Bill of Materials) version 35.0.0" id="bom_v35-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Android BoM&lt;/span&gt; (&lt;span class="notranslate"&gt;Bill of Materials&lt;/span&gt;) version 35.0.0&lt;/h3&gt;&lt;h3 data-text="A/B Testing version 24.0.0" id="ab_testing_v24-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;A/B Testing&lt;/span&gt; version 24.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic version 18.0.0" id="ai_v18-0-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; version 18.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Removed deprecated
+&lt;code dir="ltr" translate="no"&gt;GenerativeBackend.vertexAI&lt;/code&gt; in favor of &lt;code dir="ltr" translate="no"&gt;GenerativeBackend.agentPlatform&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8437"&gt;#8640&lt;/a&gt;)&lt;/p&gt;
+&lt;aside class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;span&gt; The only difference for &lt;code dir="ltr" translate="no"&gt;GenerativeBackend.agentPlatform&lt;/code&gt; is the default
+&lt;a href="https://firebase.google.com/docs/ai-logic/locations?api=vertex"&gt;location for accessing the model&lt;/a&gt;.
+The default location for &lt;code dir="ltr" translate="no"&gt;GenerativeBackend.agentPlatform&lt;/code&gt; is &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;,
+whereas the default location for &lt;code dir="ltr" translate="no"&gt;GenerativeBackend.vertexAI&lt;/code&gt; was
+&lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;. To use &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt; with &lt;code dir="ltr" translate="no"&gt;GenerativeBackend.agentPlatform&lt;/code&gt;,
+specify &lt;code dir="ltr" translate="no"&gt;GenerativeBackend.agentPlatform(location = "us-central1")&lt;/code&gt; when
+initializing the SDK. However, note that most new Gemini models do
+not support &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Removed the deprecated &lt;code dir="ltr" translate="no"&gt;MediaData&lt;/code&gt; class
+along with &lt;code dir="ltr" translate="no"&gt;LiveSession.sendMediaStream&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;LiveSessionFutures.sendMediaStream&lt;/code&gt;. Use &lt;code dir="ltr" translate="no"&gt;sendAudioRealtime&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;sendVideoRealtime&lt;/code&gt;, or &lt;code dir="ltr" translate="no"&gt;sendTextRealtime&lt;/code&gt; with &lt;code dir="ltr" translate="no"&gt;InlineData&lt;/code&gt; instead for
+streaming realtime input during live sessions.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8563"&gt;#8563&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Removed deprecated classes and properties,
+including &lt;code dir="ltr" translate="no"&gt;Voices&lt;/code&gt; (use &lt;code dir="ltr" translate="no"&gt;Voice&lt;/code&gt; instead), &lt;code dir="ltr" translate="no"&gt;GroundingAttribution&lt;/code&gt; (use
+&lt;code dir="ltr" translate="no"&gt;GroundingChunk&lt;/code&gt; instead), &lt;code dir="ltr" translate="no"&gt;GenerativeModel.warmUp&lt;/code&gt; (use
+&lt;code dir="ltr" translate="no"&gt;onDeviceExtension?.warmUp()&lt;/code&gt; instead), and
+&lt;code dir="ltr" translate="no"&gt;CountTokensResponse.totalBillableCharacters&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8563"&gt;#8563&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Restricted public constructors on SDK-emitted
+response and status models to &lt;code dir="ltr" translate="no"&gt;internal&lt;/code&gt;, and converted stateless status
+classes &lt;code dir="ltr" translate="no"&gt;DownloadStatus.DownloadCompleted&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;LiveServerSetupComplete&lt;/code&gt; into
+singletons (&lt;code dir="ltr" translate="no"&gt;object&lt;/code&gt;). These classes are provided by the SDK and are not
+intended for direct instantiation by client applications.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8563"&gt;#8563&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated the &lt;code dir="ltr" translate="no"&gt;temperature&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;topK&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;topP&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;candidateCount&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;presencePenalty&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;frequencyPenalty&lt;/code&gt; parameters and setter methods in
+&lt;code dir="ltr" translate="no"&gt;GenerationConfig.Builder&lt;/code&gt; and the &lt;code dir="ltr" translate="no"&gt;generationConfig&lt;/code&gt; DSL, as they are
+unsupported in Gemini 3.x and later models.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8621"&gt;#8621&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed hybrid inference (&lt;code dir="ltr" translate="no"&gt;PREFER_ON_DEVICE&lt;/code&gt;) to fall back to the
+cloud model when non-text response modalities, unsupported prompt part types,
+or multiple image parts are requested.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8617"&gt;#8617&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated on-device inference to throw
+&lt;code dir="ltr" translate="no"&gt;FirebaseAIOnDeviceInvalidRequestException&lt;/code&gt; when unsupported prompt part types
+or multiple image parts are provided, instead of ignoring them.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8617"&gt;#8617&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics version 24.0.0" id="analytics_v24-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt; version 24.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check version 20.0.0" id="appcheck_v20-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt; version 20.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Distribution version 16.0.0-beta21" id="app-distro_v16-0-0-beta21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; version 16.0.0-beta21&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Distribution API version 16.0.0-beta21" id="app-distro-api_v16-0-0-beta21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Distribution&lt;/span&gt; API version 16.0.0-beta21&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication version 25.0.0" id="auth_v25-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt; version 25.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;code dir="ltr" translate="no"&gt;firebase-common&lt;/code&gt; dependency to v23.0.0, the
+&lt;code dir="ltr" translate="no"&gt;firebase-components&lt;/code&gt; dependency to v20.0.0, and the &lt;code dir="ltr" translate="no"&gt;firebase-annotations&lt;/code&gt;
+dependency to v18.0.0.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added
+&lt;a href="/docs/reference/android/com/google/firebase/auth/FirebaseAuthPasswordDoesNotMeetRequirementsException"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseAuthPasswordDoesNotMeetRequirementsException&lt;/code&gt;&lt;/a&gt;,
+which is thrown with the &lt;code dir="ltr" translate="no"&gt;ERROR_PASSWORD_DOES_NOT_MEET_REQUIREMENTS&lt;/code&gt; error
+code when a password doesn't meet the project's password policy requirements.
+Previously, this error was treated as an unknown error.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore version 27.0.0" id="firestore_v27-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; version 27.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Updated gRPC dependency to &lt;code dir="ltr" translate="no"&gt;1.84.0&lt;/code&gt; and
+Protocol Buffers to &lt;code dir="ltr" translate="no"&gt;4.36.1&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8580"&gt;#8580&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the following new types: &lt;code dir="ltr" translate="no"&gt;MinKey&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;MaxKey&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;RegexValue&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;Int32Value&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;BsonObjectId&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;BsonTimestamp&lt;/code&gt;, and subtype for
+&lt;code dir="ltr" translate="no"&gt;Blob&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8147"&gt;#8147&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Functions for Firebase Client SDK version 23.0.0" id="functions-client_v23-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt; version 23.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging version 26.0.0" id="messaging_v26-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 26.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging Direct Boot version 26.0.0" id="messaging-directboot_v26-0-0" tabindex="-1"&gt;Cloud Messaging Direct Boot version 26.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage for Firebase version 23.0.0" id="storage_v23-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage for Firebase&lt;/span&gt; version 23.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics version 21.0.0" id="crashlytics_v21-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; version 21.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Decorated OOM and MLK events with whether a heap dump was
+generated and heap dump collection is enabled.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8549"&gt;#8549&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed event timestamps on ANR events.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8612"&gt;#8612&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics NDK version 21.0.0" id="crashlytics-ndk_v21-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; NDK version 21.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Dynamic feature modules support version 16.0.0-beta05" id="dynamic-feature-modules-support_v16-0-0-beta05" tabindex="-1"&gt;Dynamic feature modules support version 16.0.0-beta05&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="In-App Messaging version 23.0.0" id="inappmessaging_v23-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; version 23.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Updated gRPC dependency to &lt;code dir="ltr" translate="no"&gt;1.84.0&lt;/code&gt; and
+Protocol Buffers to &lt;code dir="ltr" translate="no"&gt;4.36.1&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8580"&gt;#8580&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="In-App Messaging Display version 23.0.0" id="inappmessaging-display_v23-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;In-App Messaging&lt;/span&gt; Display version 23.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase installations version 20.0.0" id="installations_v20-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations version 20.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring version 23.0.0" id="performance_v23-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt; version 23.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Updated Protocol Buffers dependency to
+&lt;code dir="ltr" translate="no"&gt;4.36.1&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8580"&gt;#8580&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed the unused dependency on &lt;code dir="ltr" translate="no"&gt;protolite-well-known-types&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8580"&gt;#8580&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase PNV version 17.0.0" id="firebase-pnv_v17-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase PNV&lt;/span&gt; version 17.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Removed the deprecated
+&lt;code dir="ltr" translate="no"&gt;FirebasePhoneNumberVerification#getInstance(Context)&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;FirebasePhoneNumberVerification#getInstance(FirebaseApp, Context)&lt;/code&gt; methods.
+Use &lt;code dir="ltr" translate="no"&gt;getInstance()&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;getInstance(FirebaseApp)&lt;/code&gt; instead.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Removed the deprecated no-argument
+&lt;code dir="ltr" translate="no"&gt;FirebasePhoneNumberVerification#getVerifiedPhoneNumber()&lt;/code&gt; method. Use
+&lt;code dir="ltr" translate="no"&gt;getVerifiedPhoneNumber(Context)&lt;/code&gt; with an &lt;code dir="ltr" translate="no"&gt;Activity&lt;/code&gt; context instead.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;code dir="ltr" translate="no"&gt;firebase-common&lt;/code&gt; dependency to v23.0.0.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database version 23.0.0" id="realtime-database_v23-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; version 23.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config version 24.0.0" id="remote-config_v24-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt; version 24.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SQL Connect version 18.0.0" id="data-connect_v18-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt; version 18.0.0&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated &lt;code dir="ltr" translate="no"&gt;minSdkVersion&lt;/code&gt; to API level 24.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8638"&gt;#8638&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Added &lt;code dir="ltr" translate="no"&gt;AuthUserChangedException&lt;/code&gt; to enable
+reliably detecting when a realtime streaming connection fails due to a change
+in the Firebase Auth user.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8604"&gt;#8604&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Added &lt;code dir="ltr" translate="no"&gt;@SubclassOptInRequired&lt;/code&gt; to public
+interfaces such as &lt;code dir="ltr" translate="no"&gt;FirebaseDataConnect&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;OperationRef&lt;/code&gt;, requiring an
+opt-in to implement or extend these interfaces.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8603"&gt;#8603&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Replaced overloads in &lt;code dir="ltr" translate="no"&gt;DataConnectSettings&lt;/code&gt;
+and &lt;code dir="ltr" translate="no"&gt;QueryRef&lt;/code&gt; with default arguments and default interface implementations to
+provide a more idiomatic Kotlin API.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8605"&gt;#8605&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change:&lt;/strong&gt; Updated gRPC dependency to &lt;code dir="ltr" translate="no"&gt;1.84.0&lt;/code&gt; and
+Protocol Buffers to &lt;code dir="ltr" translate="no"&gt;4.36.1&lt;/code&gt;.
+(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8580"&gt;#8580&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
