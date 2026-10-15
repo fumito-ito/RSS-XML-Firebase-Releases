@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 14 Oct 2026 23:37:15 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 15 Oct 2026 02:57:36 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2639,4 +2639,48 @@ failing to detect function kit instances
 expressions in function parameters, which previously failed to load or
 selected the wrong branch
 (&lt;a href="https://github.com/firebase/firebase-tools/issues/7755"&gt;#7755&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.34.0 - October 15, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15340_-_october_15_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;hosting:clone&lt;/code&gt; failed to locate source
+sites in other projects
+(&lt;a href="https://github.com/firebase/firebase-tools/pull/11247"&gt;#11247&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Pub/Sub&lt;/span&gt; emulator to version 0.8.37.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where analytics timeouts could mask command errors
+or cause successful commands to exit with an error
+(&lt;a href="https://github.com/firebase/firebase-tools/issues/6989"&gt;#6989&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where unhandled exceptions during
+&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; deployment could be silently ignored and exit with
+code 0
+(&lt;a href="https://github.com/firebase/firebase-tools/issues/6989"&gt;#6989&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;crashlytics:heapdumps:{enable,disable,status}&lt;/code&gt; commands to
+manage &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Android heap dump collection
+(&lt;a href="https://github.com/firebase/firebase-tools/pull/11225"&gt;#11225&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed unused dependencies &lt;code dir="ltr" translate="no"&gt;proxy-agent&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;universal-analytics&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;@apphosting/common&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where throttled task queues stopped processing
+remaining tasks when a task exhausted its retries or timed out
+(&lt;a href="https://github.com/firebase/firebase-tools/issues/6989"&gt;#6989&lt;/a&gt;,
+&lt;a href="https://github.com/firebase/firebase-tools/issues/11040"&gt;#11040&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition in &lt;code dir="ltr" translate="no"&gt;SourceTokenScraper&lt;/code&gt; that could cause
+concurrent function deployments to stop responding when refreshing an
+expired source token
+(&lt;a href="https://github.com/firebase/firebase-tools/issues/6989"&gt;#6989&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where a function kit and a functions codebase
+sharing the same source directory failed &lt;code dir="ltr" translate="no"&gt;firebase.json&lt;/code&gt; validation
+(&lt;a href="https://github.com/firebase/firebase-tools/pull/11253"&gt;#11253&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; creation did not retry on
+HTTP 403 service account propagation errors
+(&lt;a href="https://github.com/firebase/firebase-tools/pull/11251"&gt;#11251&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; deployment to use existing apps from
+any platform before creating a default web app
+(&lt;a href="https://github.com/firebase/firebase-tools/pull/11250"&gt;#11250&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed unnecessary &lt;code dir="ltr" translate="no"&gt;TRUNCATE&lt;/code&gt; privileges from writer roles in
+&lt;code dir="ltr" translate="no"&gt;dataconnect:sql:migrate&lt;/code&gt;
+(&lt;a href="https://github.com/firebase/firebase-tools/pull/11276"&gt;#11276&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit to v3.4.23,
+which includes the following changes:
+&lt;ul&gt;
+&lt;li&gt;Updated the Golang dependency version to 1.26.9.&lt;/li&gt;
+&lt;li&gt;Improved Native SQL query validation, wrapper aliasing, and line-comment
+handling to support the SQL editor in &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
