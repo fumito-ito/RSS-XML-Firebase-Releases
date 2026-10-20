@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 20 Oct 2026 08:07:29 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 20 Oct 2026 23:35:29 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -6227,13 +6227,16 @@ To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your dev
 This release includes new features in &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; and &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;,
 changes to &lt;span class="notranslate"&gt;Analytics&lt;/span&gt;, and other changes.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate></item><item><title>November 20, 2025</title><link>https://firebase.google.com/support/releases#november_20_2025</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-nanobanana-pro-preview-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the &lt;span class='\"notranslate\"'&gt;Gemini 3 Pro Image&lt;/span&gt;
-(preview) model — aka &lt;em&gt;nano banana pro&lt;/em&gt;. You can
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest preview image-generating
+(&lt;span class="notranslate"&gt;Gemini Nano Banana&lt;/span&gt;) model:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class='\"notranslate\"'&gt;Gemini Nano Banana Pro&lt;/span&gt;: &lt;code dir="ltr" translate="no"&gt;gemini-3-pro-image-preview&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can
 &lt;a href="/docs/ai-logic/generate-images-gemini"&gt;directly access this image-generating model in your mobile or web app&lt;/a&gt;
 via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; or the
-&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt; using the model name
-&lt;code dir="ltr" translate="no"&gt;gemini-3-pro-image-preview&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Note that the pay-as-you-go Blaze plan is required to access preview models
+&lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Note that the pay-as-you-go Blaze pricing plan is required to access preview models
 (regardless of your Gemini API provider). Also, if you access the model via
 &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;, make sure to
 &lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
@@ -6611,12 +6614,16 @@ is now available. This release comes with a new feature in the
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate></item><item><title>February 26, 2026</title><link>https://firebase.google.com/support/releases#february_26_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3-1-flash-image-preview-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; model:
-&lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-image-preview&lt;/code&gt; (aka "Nano Banana 2"). You can
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest preview image-generating
+(&lt;span class="notranslate"&gt;Gemini Nano Banana&lt;/span&gt;) model:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class='\"notranslate\"'&gt;Gemini Nano Banana 2&lt;/span&gt;: &lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-image-preview&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can
 &lt;a href="/docs/ai-logic/generate-images-gemini"&gt;directly access this model in your mobile or web app&lt;/a&gt;
 via either the &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; or the
 &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;Note that the pay-as-you-go Blaze plan is required to access preview models
+&lt;p&gt;Note that the pay-as-you-go Blaze pricing plan is required to access preview models
 (regardless of your &lt;span class='\"notranslate\"'&gt;Gemini API&lt;/span&gt; provider). Also, if you access the model
 via &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;, make sure to
 &lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
@@ -6812,10 +6819,10 @@ shut down&lt;/strong&gt; as early as August 17, 2026 (note that this
 shutdown date has been extended from the previous June 30, 2026).&lt;/p&gt;
 &lt;p&gt;This shutdown date is applicable to both the
 &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; (Google AI) and the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;.
-As a replacement, you can migrate your apps to use a &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; Image
-model (like one of the "Nano Banana" models).&lt;/p&gt;
+As a replacement, you can migrate your apps to use a
+&lt;span class="notranslate"&gt;Gemini Nano Banana&lt;/span&gt; model.&lt;/p&gt;
 &lt;p&gt;If you use &lt;span class='\"notranslate\"'&gt;Imagen&lt;/span&gt; models via &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, you can
-&lt;strong&gt;&lt;a href="/docs/ai-logic/imagen-models-migration"&gt;migrate your apps to use a &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; Image model&lt;/a&gt;
+&lt;strong&gt;&lt;a href="/docs/ai-logic/imagen-models-migration"&gt;migrate your apps to use a &lt;span class="notranslate"&gt;Gemini Nano Banana&lt;/span&gt; model&lt;/a&gt;
 to avoid service disruption&lt;/strong&gt;. Models that are shut down are no longer
 accessible or supported by Google, and a request using a shutdown model name
 returns a 404 error.&lt;/p&gt;&lt;/li&gt;
@@ -6979,8 +6986,8 @@ To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your Jav
 &lt;/ul&gt;</description><pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate></item><item><title>April 21, 2026</title><link>https://firebase.google.com/support/releases#april_21_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-server-prompt-templates-history" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; server prompt templates now support
 &lt;a href="/docs/ai-logic/server-prompt-templates/multi-turn-interactions"&gt;multi-turn interactions&lt;/a&gt;
-(including chat, iterative editing of images with Gemini Image models, and
-function calling).&lt;/p&gt;
+(including chat, iterative editing of images with &lt;span class="notranslate"&gt;Gemini Nano Banana&lt;/span&gt;
+models, and function calling).&lt;/p&gt;
 &lt;p&gt;Server prompt templates allow you to store your prompt, schema, and
 configurations server-side. Then in the request from your app, you only
 provide the template's ID and any desired user-defined inputs. You can protect
@@ -7120,7 +7127,7 @@ To get started with Firebase in Android, see
 &lt;/ul&gt;</description><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate></item><item><title>May 15, 2026</title><link>https://firebase.google.com/support/releases#may_15_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-configure-image-gen" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now supports
 &lt;a href="/docs/ai-logic/generate-images-gemini#configure-image-generation"&gt;specifying aspect ratio and resolution of output images&lt;/a&gt;
-when using image-generating &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; models ("Nano Banana" models).&lt;/li&gt;
+when using image-generating (&lt;span class="notranslate"&gt;Gemini Nano Banana&lt;/span&gt;) models.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate></item><item><title>May 19, 2026</title><link>https://firebase.google.com/support/releases#may_19_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3-5-flash-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; stable
 model: &lt;code dir="ltr" translate="no"&gt;gemini-3.5-flash&lt;/code&gt;. You can
@@ -7190,15 +7197,13 @@ is now available. For more details, see the
 &lt;a href="/support/release-notes/js#12.14.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate></item><item><title>June 01, 2026</title><link>https://firebase.google.com/support/releases#june_01_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3.x-image-models-ga" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;span class='\"notranslate\"'&gt;Gemini 3.x Image&lt;/span&gt; models (aka "Nano Banana" models)
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The latest image-generating (&lt;span class="notranslate"&gt;Gemini Nano Banana&lt;/span&gt;) models
 are now available in stable versions. You can use these models to
 &lt;a href="/docs/ai-logic/generate-images-gemini"&gt;generate and edit images via &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;These are the new stable model names:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class='\"notranslate\"'&gt;Gemini 3.x Pro Image&lt;/span&gt;:
-&lt;code dir="ltr" translate="no"&gt;gemini-3-pro-image&lt;/code&gt; (aka "Nano Banana Pro")&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class='\"notranslate\"'&gt;Gemini 3.x Flash Image&lt;/span&gt;:
-&lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-image&lt;/code&gt; (aka "Nano Banana 2")&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class='\"notranslate\"'&gt;Gemini Nano Banana 2&lt;/span&gt;: &lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-image&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class='\"notranslate\"'&gt;Gemini Nano Banana Pro&lt;/span&gt;: &lt;code dir="ltr" translate="no"&gt;gemini-3-pro-image&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;With this release, the &lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-image&lt;/code&gt; model supports video input for
 image generation and editing.&lt;/p&gt;
@@ -7385,9 +7390,12 @@ calls to avoid &lt;code dir="ltr" translate="no"&gt;Premature close&lt;/code&gt;
 &lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
 &lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate></item><item><title>June 30, 2026</title><link>https://firebase.google.com/support/releases#june_30_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-3.1-flash-lite-image-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest stable
-&lt;span class='\"notranslate\"'&gt;Gemini 3.x Image&lt;/span&gt; model: &lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-lite-image&lt;/code&gt;
-(aka "Nano Banana 2 Lite"). You can use this model to
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest stable image-generating
+(&lt;span class="notranslate"&gt;Gemini Nano Banana&lt;/span&gt;) model:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class='\"notranslate\"'&gt;Gemini Nano Banana 2 Lite&lt;/span&gt;: &lt;code dir="ltr" translate="no"&gt;gemini-3.1-flash-lite-image&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use this model to
 &lt;a href="/docs/ai-logic/generate-images-gemini"&gt;generate and edit images via &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Note that if you're using the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;, make sure to
 &lt;a href="/docs/ai-logic/locations?api=vertex"&gt;set the location in your request&lt;/a&gt; to
@@ -7563,7 +7571,7 @@ will be shut down (retired) as early as October 2026.&lt;/p&gt;
 &lt;p&gt;&lt;code dir="ltr" translate="no"&gt;gemini-2.5-pro&lt;/code&gt;&lt;br/&gt;
 &lt;code dir="ltr" translate="no"&gt;gemini-2.5-flash&lt;/code&gt;&lt;br/&gt;
 &lt;code dir="ltr" translate="no"&gt;gemini-2.5-flash-lite&lt;/code&gt;&lt;br/&gt;
-&lt;code dir="ltr" translate="no"&gt;gemini-2.5-flash-image&lt;/code&gt; (aka "Nano Banana")&lt;/p&gt;
+&lt;code dir="ltr" translate="no"&gt;gemini-2.5-flash-image&lt;/code&gt; (Nano Banana)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;For the general-use models, the date for shutdown depends on your chosen
 &lt;span class='\"notranslate\"'&gt;Gemini API&lt;/span&gt; provider:&lt;/p&gt;
@@ -7576,7 +7584,7 @@ using them)&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;For the image-generating model (Nano Banana), the date for shutdown is the
 same regardless of your chosen &lt;span class='\"notranslate\"'&gt;Gemini API&lt;/span&gt; provider: October 02, 2026&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Note that other "Nano Banana" models and any
+&lt;p&gt;Note that other &lt;span class="notranslate"&gt;Gemini Nano Banana&lt;/span&gt; models and any
 stable &lt;span class="notranslate"&gt;Gemini Live API&lt;/span&gt; 2.5 models are not impacted.&lt;/p&gt;
 &lt;p&gt;If you use these models with &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, make sure to
 &lt;strong&gt;update to a newer model (like &lt;code dir="ltr" translate="no"&gt;gemini-3.6-flash&lt;/code&gt; or
@@ -7798,10 +7806,10 @@ extended from the previous June 30, 2026).&lt;/p&gt;
 &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDKs and documentation.&lt;/p&gt;
 &lt;p&gt;This shutdown date is applicable to both the
 &lt;span class='\"notranslate\"'&gt;Gemini Developer API&lt;/span&gt; (Google AI) and the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;.
-As a replacement, you can migrate your apps to use a &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; Image
-model (like one of the "Nano Banana" models).&lt;/p&gt;
+As a replacement, you can migrate your apps to use a
+&lt;span class="notranslate"&gt;Gemini Nano Banana&lt;/span&gt; model.&lt;/p&gt;
 &lt;p&gt;If you use &lt;span class='\"notranslate\"'&gt;Imagen&lt;/span&gt; models via &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;, you can
-&lt;strong&gt;&lt;a href="/docs/ai-logic/imagen-models-migration"&gt;migrate your apps to use a &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; Image model&lt;/a&gt;
+&lt;strong&gt;&lt;a href="/docs/ai-logic/imagen-models-migration"&gt;migrate your apps to use a &lt;span class="notranslate"&gt;Gemini Nano Banana&lt;/span&gt; model&lt;/a&gt;
 to restore service&lt;/strong&gt;. Models that are shut down are no longer
 accessible or supported by Google, and a request using a shutdown model name
 returns a 404 error.&lt;/p&gt;&lt;/li&gt;
@@ -8083,7 +8091,15 @@ ahead of the March 31, 2027 service shutdown. To learn more, see the
 &lt;a href="/docs/extensions/faq-and-troubleshooting"&gt;&lt;span class="notranslate"&gt;Firebase Extensions&lt;/span&gt; Deprecation FAQ&lt;/a&gt;
 and the &lt;a href="/docs/extensions/publishers/migrate"&gt;publisher&lt;/a&gt; and
 &lt;a href="/docs/extensions/users/migrate"&gt;user&lt;/a&gt; migration guides.&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate></item><item><title>October 07, 2026</title><link>https://firebase.google.com/support/releases#october_07_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.33.0)" id="cli-v15.33.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.33.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate></item><item><title>October 06, 2026</title><link>https://firebase.google.com/support/releases#october_06_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-nano-banana-2-1-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest stable image-generating
+(&lt;span class="notranslate"&gt;Gemini Nano Banana&lt;/span&gt;) model:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class='\"notranslate\"'&gt;Gemini Nano Banana 2.1&lt;/span&gt;: &lt;code dir="ltr" translate="no"&gt;gemini-nano-banana-2.1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use this model to
+&lt;a href="/docs/ai-logic/generate-images-gemini"&gt;generate and edit images via &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate></item><item><title>October 07, 2026</title><link>https://firebase.google.com/support/releases#october_07_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.33.0)" id="cli-v15.33.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.33.0)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
 &lt;a href="/support/release-notes/cli#15.33.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.33.0)&lt;/a&gt; is now
 available. This version updates &lt;span class="notranslate"&gt;Firebase Hosting&lt;/span&gt; API requests to be
@@ -8214,6 +8230,39 @@ and bug fixes in several products.&lt;/p&gt;&lt;/li&gt;
 (v14.0.0)&lt;/a&gt; is now available. This
 release includes changes to Authentication, Firebase AI, and &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;,
 as well as other changes.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v15.34.0)" id="cli-v15.34.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.34.0)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.34.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.34.0)&lt;/a&gt; is now
+available. This version adds commands to manage &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Android heap
+dump collection, updates &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; deployment to use existing apps
+from any platform, and includes several fixes and improvements.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="ai-logic-vertex-ai-syntax-removal" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; To reflect the renaming of Vertex AI to Gemini Enterprise Agent
+Platform (or "Agent Platform"), the legacy "Vertex AI" initialization syntax
+(such as &lt;code dir="ltr" translate="no"&gt;vertexAI&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;VertexAIBackend&lt;/code&gt;) has been removed from the
+&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; SDKs in favor of the new "Agent Platform"
+initialization syntax (such as &lt;code dir="ltr" translate="no"&gt;agentPlatform&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;AgentPlatformBackend&lt;/code&gt;).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The only difference for the new "Agent Platform" initialization syntax is
+the default
+&lt;a href="/docs/ai-logic/locations?api=vertex"&gt;location for accessing the model&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The default location for the "Agent Platform" syntax is &lt;code dir="ltr" translate="no"&gt;global&lt;/code&gt;,
+whereas the default location for the legacy "Vertex AI" syntax was
+&lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;. Note that most new &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; models do &lt;em&gt;not&lt;/em&gt;
+support &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you want to use &lt;code dir="ltr" translate="no"&gt;us-central1&lt;/code&gt; (or another location) with the new
+syntax, you can explicitly specify the location when initializing the
+backend service.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you use the &lt;span class='\"notranslate\"'&gt;&lt;span class='\"notranslate\"'&gt;Agent Platform&lt;/span&gt; Gemini API (formerly Vertex AI)&lt;/span&gt;, then &lt;strong&gt;you must update your
+apps to use the new "Agent Platform" initialization syntax if you upgrade
+to the latest versions of the SDKs&lt;/strong&gt;. For platform-specific code examples
+and full details, see the
+&lt;a href="/docs/ai-logic/faq-and-troubleshooting#changes-for-vertexai-rebrand-to-agent-platform"&gt;FAQ describing the required changes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Test Lab" id="testlab-deprecated-devices-2026-10-15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Test Lab&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The following devices are now deprecated and will be removed on
 2026-11-15:&lt;/p&gt;
@@ -8225,12 +8274,13 @@ as well as other changes.&lt;/p&gt;&lt;/li&gt;
 (for example, &lt;code dir="ltr" translate="no"&gt;MediumPhone.arm&lt;/code&gt;). See
 &lt;a href="/docs/test-lab/android/available-testing-devices#deprecated_devices"&gt;Deprecated devices&lt;/a&gt;
 for recommended replacements.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase CLI (v15.34.0)" id="cli-v15.34.0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.34.0)&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
-&lt;a href="/support/release-notes/cli#15.34.0"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.34.0)&lt;/a&gt; is now
-available. This version adds commands to manage &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Android heap
-dump collection, updates &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; deployment to use existing apps
-from any platform, and includes several fixes and improvements.&lt;/p&gt;
-&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
-&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate></item><item><title>October 19, 2026</title><link>https://firebase.google.com/support/releases#october_19_2026</link><description>&lt;h3 data-text="Cloud Firestore" id="firestore-search-ga" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;a href="/docs/firestore/enterprise/text-search-mongodb"&gt;Text search&lt;/a&gt;
+and &lt;a href="/docs/firestore/enterprise/geo-search-mongodb"&gt;Geospatial search&lt;/a&gt;
+for Firestore with MongoDB compatibility are now generally available
+(&lt;a href="https://cloud.google.com/products#product-launch-stages"&gt;GA&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;a href="/docs/firestore/enterprise/text-search"&gt;Text search&lt;/a&gt; and
+&lt;a href="/docs/firestore/enterprise/geospatial-search"&gt;Geospatial search&lt;/a&gt; for
+&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Enterprise edition are now generally available
+(&lt;a href="https://cloud.google.com/products#product-launch-stages"&gt;GA&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>
