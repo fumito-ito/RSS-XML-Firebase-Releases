@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 22 Oct 2026 16:31:43 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 22 Oct 2026 21:08:14 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -8283,7 +8283,21 @@ for Firestore with MongoDB compatibility are now generally available
 &lt;a href="/docs/firestore/enterprise/geospatial-search"&gt;Geospatial search&lt;/a&gt; for
 &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; Enterprise edition are now generally available
 (&lt;a href="https://cloud.google.com/products#product-launch-stages"&gt;GA&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate></item><item><title>October 21, 2026</title><link>https://firebase.google.com/support/releases#october_21_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate></item><item><title>October 22, 2026</title><link>https://firebase.google.com/support/releases#october_22_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.34.1)" id="cli-v15.34.1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.34.1)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.34.1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.34.1)&lt;/a&gt; is now
+available. This version ensures the &lt;span class="notranslate"&gt;Firebase Hosting&lt;/span&gt; API is enabled
+before running commands, updates the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local
+toolkit to v3.4.24, and includes several fixes and improvements.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore-dml-ga" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;a href="/docs/firestore/pipelines/dml"&gt;Data modification language (DML) operations&lt;/a&gt;
+are generally available (&lt;a href="https://cloud.google.com/products#product-launch-stages"&gt;GA&lt;/a&gt;).
+Added support for &lt;a href="/docs/firestore/pipelines/stages/output/insert"&gt;&lt;code dir="ltr" translate="no"&gt;insert&lt;/code&gt;&lt;/a&gt;
+and &lt;a href="/docs/firestore/pipelines/stages/output/upsert"&gt;&lt;code dir="ltr" translate="no"&gt;upsert&lt;/code&gt;&lt;/a&gt;.
+## October 21, 2026&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-ios"&gt;&lt;/span&gt; The
 &lt;a href="/support/release-notes/ios#13.1.0"&gt;Firebase Apple SDK (v13.1.0)&lt;/a&gt;
 is now available. For more details, see the
@@ -8294,4 +8308,4 @@ To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your ap
 is now available. For more details, see the
 &lt;a href="/support/release-notes/js#13.1.0"&gt;Firebase JavaScript SDK release notes&lt;/a&gt;.
 To install the SDK, see &lt;a href="/docs/web/setup"&gt;Add Firebase to your JavaScript Project&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>
