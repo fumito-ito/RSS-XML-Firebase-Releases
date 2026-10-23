@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 23 Oct 2026 16:21:33 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 23 Oct 2026 20:55:01 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -8341,8 +8341,23 @@ is now available. For more details, see the
 &lt;a href="/support/release-notes/ios#12.19.3"&gt;Firebase Apple SDK release notes&lt;/a&gt;.
 To install this SDK, see &lt;a href="/docs/ios/setup"&gt;Add Firebase to your app&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate></item><item><title>October 23, 2026</title><link>https://firebase.google.com/support/releases#october_23_2026</link><description>&lt;h3 data-text="SDK Releases" id="sdk_releases" tabindex="-1"&gt;SDK Releases&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v5-1-0"&gt;Firebase SDK for Flutter
+&lt;li&gt;&lt;p&gt;&lt;span class="release-flutter"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/flutter#bom-v5-1-0"&gt;Firebase SDK for Flutter
 (v5.1.0)&lt;/a&gt; is now available.
 This release includes changes in &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;,
-Core and &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;, and bug fixes in several products.&lt;/li&gt;
+Core and &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt;, and bug fixes in several products.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#14.1.0"&gt;Firebase SDK for C++
+(v14.1.0)&lt;/a&gt; is now available.
+This release includes a Firestore security update, a bug fix in
+Authentication, and other changes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cpp"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/cpp-relnotes#13.13.1"&gt;Firebase SDK for C++
+(v13.13.1)&lt;/a&gt; is now available.
+This release includes a Firestore security update and other
+changes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#14.1.0"&gt;Firebase SDK for Unity
+(v14.1.0)&lt;/a&gt; is now available. This
+release includes a &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; security update, changes in
+&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; and bug fixes in several products.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-unity"&gt;&lt;/span&gt; The &lt;a href="/support/release-notes/unity#13.17.1"&gt;Firebase SDK for Unity
+(v13.17.1)&lt;/a&gt; is now available. This
+release includes a &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; security update.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>
