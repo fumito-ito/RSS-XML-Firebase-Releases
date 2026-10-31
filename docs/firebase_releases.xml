@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 28 Oct 2026 03:45:11 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 31 Oct 2026 09:13:21 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -7734,6 +7734,13 @@ as an attestation provider for mobile apps (in Preview), specifically for
 &lt;a href="/docs/app-check/ios/recaptcha-enterprise-provider"&gt;Apple platforms&lt;/a&gt;,
 &lt;a href="/docs/app-check/android/recaptcha-enterprise-provider"&gt;Android&lt;/a&gt;, and
 &lt;a href="/docs/app-check/flutter/recaptcha-enterprise-provider"&gt;Flutter&lt;/a&gt; apps.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase Authentication" id="auth-helper-fix" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; A security fix has been deployed to some of the helper code used
+by Authentication. No action is required for most users; however, if you rehost the
+helper code (as in Option 4 on the
+&lt;a href="/docs/auth/web/redirect-best-practices#self-host-helper-code"&gt;Redirect Best Practices&lt;/a&gt;
+page), you should re-synchronize the helper code to ensure you are using the
+latest version.&lt;/li&gt;
 &lt;/ul&gt;</description><pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate></item><item><title>August 19, 2026</title><link>https://firebase.google.com/support/releases#august_19_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-hybrid-android-structured-output" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; now supports
 &lt;a href="/docs/ai-logic/hybrid/android/generate-structured-output"&gt;generating structured output&lt;/a&gt;
@@ -8396,4 +8403,13 @@ don't yet have &lt;span class="notranslate"&gt;App Check&lt;/span&gt; implemente
 &lt;a href="/docs/ai-logic/faq-and-troubleshooting#app-check-delay-auto-enforcement"&gt;temporarily delay auto-enforcement&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Learn more about this upcoming
 &lt;a href="/docs/ai-logic/faq-and-troubleshooting#security-app-check"&gt;auto-enforcement of &lt;span class="notranslate"&gt;App Check&lt;/span&gt; for &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate></item><item><title>October 28, 2026</title><link>https://firebase.google.com/support/releases#october_28_2026</link><description>&lt;h3 data-text="Firebase CLI (v15.34.2)" id="cli-v15.34.2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.34.2)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-cli"&gt;&lt;/span&gt; The latest
+&lt;a href="/support/release-notes/cli#15.34.2"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI (v15.34.2)&lt;/a&gt; is now
+available. This version fixes an issue with the &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; emulator
+watching rules files, fixes the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; MCP server environment
+command, updates the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit to v3.4.25, and
+includes dependency and security updates.&lt;/p&gt;
+&lt;p&gt;To use the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI in your development environment,
+&lt;a href="/docs/cli#setup_update_cli"&gt;set up or update the CLI&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>

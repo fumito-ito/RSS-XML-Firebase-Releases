@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 28 Oct 2026 03:45:22 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Sat, 31 Oct 2026 09:13:31 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2706,4 +2706,16 @@ to the &lt;span class="notranslate"&gt;Eventarc&lt;/span&gt;
 (&lt;code dir="ltr" translate="no"&gt;metadata.createTime&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;providerData[].uid&lt;/code&gt;, and removing &lt;code dir="ltr" translate="no"&gt;tenantId&lt;/code&gt; from
 nested user data)
 (&lt;a href="https://github.com/firebase/firebase-tools/pull/11323"&gt;#11323&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.34.2 - October 28, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15342_-_october_28_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;code dir="ltr" translate="no"&gt;chokidar&lt;/code&gt; dependency to &lt;code dir="ltr" translate="no"&gt;^4.0.3&lt;/code&gt; to remove the
+vulnerable &lt;code dir="ltr" translate="no"&gt;braces&lt;/code&gt; dependency
+(&lt;a href="https://github.com/firebase/firebase-tools/issues/11308"&gt;#11308&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; MCP server referred to
+&lt;code dir="ltr" translate="no"&gt;update_firebase_environment&lt;/code&gt; instead of &lt;code dir="ltr" translate="no"&gt;firebase_update_environment&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit to v3.4.25,
+which includes internal improvements and bug fixes.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed CVE-2026-111181 by updating the &lt;code dir="ltr" translate="no"&gt;body-parser&lt;/code&gt; dependency.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; emulator exited when it
+could not watch the rules file for changes. It now logs a warning instead
+(&lt;a href="https://github.com/firebase/firebase-tools/issues/4298"&gt;#4298&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
