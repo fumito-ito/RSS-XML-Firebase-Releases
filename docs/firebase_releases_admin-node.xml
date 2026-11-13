@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-node</title><link>https://firebase.google.com/support/release-notes/admin/node</link><description>Latest updates and release notes for Firebase Admin-node.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 04 Nov 2026 19:16:33 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_400_-_november_7_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-node</title><link>https://firebase.google.com/support/release-notes/admin/node</link><description>Latest updates and release notes for Firebase Admin-node.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 13 Nov 2026 13:51:03 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_400_-_november_7_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Admin Node.js SDK (available on npm as &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt;) is a
 new SDK which replaces and expands the admin capabilities of the standard
 &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt; npm module. See
@@ -23,7 +23,7 @@ method allows you to authenticate the SDK with a Google OAuth2 refresh token.&lt
 &lt;a href="/docs/reference/admin/node/admin.credential#.applicationDefault"&gt;&lt;code dir="ltr" translate="no"&gt;admin.credential.applicationDefault()&lt;/code&gt;&lt;/a&gt;
 method allows you to authenticate the SDK with Google Application Default
 Credentials.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_53" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_54" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new Admin API for managing your &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; users is now
 available. This API lets you manage your users without using their existing
 credentials, and without worrying about client-side rate limiting. The new
@@ -53,10 +53,10 @@ of the first argument to
 caused the app to still have full admin access. Now, passing this value has
 the expected behavior: the app has unauthenticated access to the
 &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, and behaves as if no user is logged into the app.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_52" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_53" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused an &lt;code dir="ltr" translate="no"&gt;auth/invalid-uid&lt;/code&gt; error to
 be thrown for valid &lt;code dir="ltr" translate="no"&gt;uid&lt;/code&gt; values passed to several &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; methods.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.0.4 - December 6, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_404_-_december_6_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_51" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.0.4 - December 6, 2016</title><link>https://firebase.google.com/support/release-notes/admin/node#version_404_-_december_6_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_52" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused several &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; methods to throw
 an error when provided with inputs containing Unicode characters.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.0.5 - January 17, 2017</title><link>https://firebase.google.com/support/release-notes/admin/node#version_405_-_january_17_2017</link><description>&lt;ul&gt;
@@ -68,7 +68,7 @@ incomplete type information have been resolved.&lt;/li&gt;
 with a credential that generated invalid access tokens. The most common cause
 of this was using a credential whose access had been revoked. Now, an error
 will be logged to the console in this scenario.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_50" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_51" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The error message for an &lt;code dir="ltr" translate="no"&gt;auth/internal-error&lt;/code&gt; error now includes
 the raw server response to more easily debug and track down unhandled errors.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused an &lt;code dir="ltr" translate="no"&gt;auth/internal-error&lt;/code&gt; error to be
@@ -106,11 +106,11 @@ methods.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.1.1 - February 14, 2017</title><link>https://firebase.google.com/support/release-notes/admin/node#version_411_-_february_14_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added in missing TypeScript typings for the &lt;code dir="ltr" translate="no"&gt;FirebaseError.toJSON()&lt;/code&gt;
 method.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_49" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_50" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue with
 &lt;a href="/docs/reference/admin/node/admin.auth.Auth#createUser"&gt;&lt;code dir="ltr" translate="no"&gt;createUser()&lt;/code&gt;&lt;/a&gt;
 which sometimes caused multiple users to share the same email.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.1.2 - March 2, 2017</title><link>https://firebase.google.com/support/release-notes/admin/node#version_412_-_march_2_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_48" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.1.2 - March 2, 2017</title><link>https://firebase.google.com/support/release-notes/admin/node#version_412_-_march_2_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_49" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved input validation and error messages for all user
 management methods.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt;
@@ -145,7 +145,7 @@ that cannot generate valid access tokens.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved how the &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; reports errors when provided with
 various types of invalid credentials.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 4.1.4 - March 28, 2017</title><link>https://firebase.google.com/support/release-notes/admin/node#version_414_-_march_28_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_47" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 4.1.4 - March 28, 2017</title><link>https://firebase.google.com/support/release-notes/admin/node#version_414_-_march_28_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_48" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Cleaned up a number of types to improve the log output, thereby
 making debugging easier.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -171,7 +171,7 @@ type has been removed in favor of the &lt;code dir="ltr" translate="no"&gt;crede
 results in an exception.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Initializing the SDK with a malformed private key string
 results in an exception.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_46" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_47" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;createdAt&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;lastSignedInAt&lt;/code&gt; properties in
 &lt;a href="/docs/reference/admin/node/admin.auth.UserMetadata"&gt;&lt;code dir="ltr" translate="no"&gt;admin.auth.UserMetadata&lt;/code&gt;&lt;/a&gt;
 have been renamed to &lt;code dir="ltr" translate="no"&gt;creationTime&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;lastSignInTime&lt;/code&gt;. Also these
@@ -180,10 +180,10 @@ properties now provide UTC formatted strings instead of &lt;code dir="ltr" trans
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved the error messages thrown in the case of network and RPC
 errors. These errors now include outgoing HTTP request details that make
 it easier to localize and debug issues.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_45" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_46" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Implemented support in the user management API for handling photo
 URLs with special characters.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.1.0 - July 25, 2017</title><link>https://firebase.google.com/support/release-notes/admin/node#version_510_-_july_25_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_44" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.1.0 - July 25, 2017</title><link>https://firebase.google.com/support/release-notes/admin/node#version_510_-_july_25_2017</link><description>&lt;h3 data-text="Authentication" id="authentication_45" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the method
 &lt;a href="/docs/reference/admin/node/admin.auth.Auth#getUserByPhoneNumber"&gt;&lt;code dir="ltr" translate="no"&gt;getUserByPhoneNumber()&lt;/code&gt;&lt;/a&gt;
 to the &lt;a href="/docs/reference/admin/node/admin.auth"&gt;&lt;code dir="ltr" translate="no"&gt;admin.auth&lt;/code&gt;&lt;/a&gt; interface. This method
@@ -204,7 +204,7 @@ identity provider.&lt;/li&gt;
 that facilitates accessing Google Cloud Storage buckets using the
 &lt;a href="https://cloud.google.com/nodejs/docs/reference/storage/2.3.x"&gt;&lt;code dir="ltr" translate="no"&gt;@google-cloud/storage&lt;/code&gt;&lt;/a&gt;
 library.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_43" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_44" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; New type definitions for the arguments of &lt;code dir="ltr" translate="no"&gt;createUser()&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;updateUser()&lt;/code&gt; methods.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -215,7 +215,7 @@ instead of overloading.&lt;/li&gt;
 SDK (&lt;code dir="ltr" translate="no"&gt;index.d.ts&lt;/code&gt;) has been fixed.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.3.0 - September 27, 2017</title><link>https://firebase.google.com/support/release-notes/admin/node#version_530_-_september_27_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; SDK now retries outbound HTTP calls on all low-level I/O errors.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_43" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/node/admin.auth.Auth#setCustomUserClaims"&gt;&lt;code dir="ltr" translate="no"&gt;setCustomUserClaims()&lt;/code&gt;&lt;/a&gt;
 method for setting custom claims on user accounts. Custom claims set via this
 method become available on the ID tokens of the corresponding users when they
@@ -270,7 +270,7 @@ Firebase projects.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the TypeScript typings for &lt;code dir="ltr" translate="no"&gt;admin.AppOptions&lt;/code&gt; to reflect the
 introduction of the &lt;code dir="ltr" translate="no"&gt;projectId&lt;/code&gt; option.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed some unused third party dependencies.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.7.0 - January 04, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_570_-_january_04_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_41" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.7.0 - January 04, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_570_-_january_04_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_42" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/node/admin.auth.Auth#revokeRefreshTokens"&gt;&lt;code dir="ltr" translate="no"&gt;revokeRefreshTokens()&lt;/code&gt;&lt;/a&gt;
 method for revoking refresh tokens issued to a user.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/node/admin.auth.Auth#verifyIdToken"&gt;&lt;code dir="ltr" translate="no"&gt;verifyIdToken()&lt;/code&gt;&lt;/a&gt;
@@ -282,7 +282,7 @@ method can now be invoked without any arguments. This initializes an app
 using Google Application Default Credentials, and other
 &lt;a href="/docs/reference/admin/node/admin.app.AppOptions"&gt;&lt;code dir="ltr" translate="no"&gt;AppOptions&lt;/code&gt;&lt;/a&gt; loaded from
 the &lt;code dir="ltr" translate="no"&gt;FIREBASE_CONFIG&lt;/code&gt; environment variable.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_40" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_41" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;jsonwebtoken&lt;/code&gt; library to 8.1.0.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.8.1 - January 17, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_581_-_january_17_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt;  Upgraded Firestore dependency version from 0.10.0 to 0.11.1.
@@ -311,11 +311,11 @@ provides the ability to call
 with an existing reference as the argument.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded the Cloud Firestore client from 0.12.0 to
 &lt;a href="https://github.com/googleapis/nodejs-firestore/releases/tag/v0.13.0"&gt;0.13.0&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.11.0 - March 15, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_5110_-_march_15_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_39" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.11.0 - March 15, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_5110_-_march_15_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_40" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/node/admin.auth.Auth#importUsers"&gt;&lt;code dir="ltr" translate="no"&gt;auth.importUsers()&lt;/code&gt;&lt;/a&gt;
 method for &lt;a href="/docs/auth/admin/import-users"&gt;importing users&lt;/a&gt; to Firebase Auth
 in bulk.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.12.0 - April 05, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_5120_-_april_05_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.12.0 - April 05, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_5120_-_april_05_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_39" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/node/admin.auth.Auth#createSessionCookie"&gt;&lt;code dir="ltr" translate="no"&gt;auth.createSessionCookie()&lt;/code&gt;&lt;/a&gt;
 method for creating a session cookie from a Firebase ID token.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/node/admin.auth.Auth#verifySessionCookie"&gt;&lt;code dir="ltr" translate="no"&gt;auth.verifySessionCookie()&lt;/code&gt;&lt;/a&gt;
@@ -340,7 +340,7 @@ variables.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded the Cloud Firestore client from 0.14.0 to
 &lt;a href="https://github.com/googleapis/nodejs-firestore/releases/tag/v0.15.2"&gt;0.15.2&lt;/a&gt;.
 This version of the Firestore client changes how date values are handled.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_37" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_38" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Admin SDK can now create custom tokens without being
 initialized with service account credentials.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The SDK accepts a new &lt;code dir="ltr" translate="no"&gt;serviceAccountId&lt;/code&gt;
@@ -373,7 +373,7 @@ This version contains a new &lt;code dir="ltr" translate="no"&gt;array-contains&
 &lt;/ul&gt;</description></item><item><title>Version 6.1.0 - October 22, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_610_-_october_22_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded the Cloud Firestore client from 0.16.0 to
 &lt;a href="https://github.com/googleapis/nodejs-firestore/releases/tag/v0.18.0"&gt;0.18.0&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.2.0 - November 19, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_620_-_november_19_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_36" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.2.0 - November 19, 2018</title><link>https://firebase.google.com/support/release-notes/admin/node#version_620_-_november_19_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_37" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the email action link generation APIs for creating links
 for password reset, email verification and email link sign-in via
 &lt;code dir="ltr" translate="no"&gt;auth.generatePasswordResetLink()&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;auth.generateEmailVerificationLink()&lt;/code&gt;
@@ -423,7 +423,7 @@ field when sending messages to Android O clients.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.5.0 - January 9, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_650_-_january_9_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;code dir="ltr" translate="no"&gt;shaCertificate()&lt;/code&gt; method for creating instances of
 &lt;a href="/docs/reference/admin/node/admin.projectManagement.ShaCertificate"&gt;&lt;code dir="ltr" translate="no"&gt;admin.projectManagement.ShaCertificate&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_36" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed how the SDK parses the error codes sent by auth backend
 servers.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Correctly marked optional fields in the
@@ -443,7 +443,7 @@ for more details and migration instructions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the Google Cloud Storage client to v2.3.0. This contains breaking changes.
 Refer to the Cloud Storage &lt;a href="https://github.com/googleapis/nodejs-storage/releases/tag/v2.0.0"&gt;release notes&lt;/a&gt;
 for more details and migration instructions.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_35" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;verifyIdToken()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;verifySessionCookie()&lt;/code&gt; methods now return
 &lt;code dir="ltr" translate="no"&gt;auth/id-token-expired&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;auth/session-cookie-expired&lt;/code&gt; error codes for expired JWTs.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Credentials-related errors are now reported with additional helpful details.&lt;/li&gt;
@@ -454,7 +454,7 @@ API for sending a message to a list of device registration tokens.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
 &lt;a href="/docs/reference/admin/node/admin.messaging.Messaging#sendAll"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.sendAll()&lt;/code&gt;&lt;/a&gt;
 API for sending a list of messages as a single batch.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved typings of the &lt;code dir="ltr" translate="no"&gt;auth.UpdateRequest&lt;/code&gt; interface to clearly
 specify the nullable fields.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud_firestore_4" tabindex="-1"&gt;Cloud Firestore&lt;/h3&gt;&lt;ul&gt;
@@ -469,7 +469,7 @@ correctly handling some message parameters like &lt;code dir="ltr" translate="no
 This upgrade exposes the &lt;code dir="ltr" translate="no"&gt;v1beta&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;v1&lt;/code&gt; clients, which provide direct access
 to the underlying Firestore and Firestore Admin RPCs. Please note that you
 must provide your Firebase credentials directly to these clients.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 7.3.0 - April 17, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_730_-_april_17_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 7.3.0 - April 17, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_730_-_april_17_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new APIs for managing SAML and OIDC provider
 configurations. These APIs support CRUD operations on auth provider
 configurations:
@@ -532,7 +532,7 @@ parsed JSON object.&lt;/li&gt;
 method to update &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt; rules.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Downgraded the dependency on the &lt;code dir="ltr" translate="no"&gt;@firebase/app&lt;/code&gt; package
 to a dev dependency.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Implemented additional argument validation in the
 &lt;code dir="ltr" translate="no"&gt;admin.auth().importUsers()&lt;/code&gt; API.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -544,7 +544,7 @@ this does not have a noticeable impact on users of the Admin SDK.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for specifying &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; labels for notifications.
 Thanks &lt;a href="https://github.com/chemidy"&gt;chemidy&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-node/pull/597"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.5.0 - 05 September, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_850_-_05_september_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.5.0 - 05 September, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_850_-_05_september_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added multi-tenancy support to the authentication service (Google
 Cloud Identity Platform project required). Tenant related APIs are exposed via
 &lt;a href="/docs/reference/admin/node/admin.auth.Auth#tenantManager"&gt;&lt;code dir="ltr" translate="no"&gt;tenantManager()&lt;/code&gt;&lt;/a&gt; on
@@ -575,7 +575,7 @@ methods for creating new rulesets and applying them to &lt;span class="notransla
 methods for managing the lifecycle of a ruleset.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new APIs for specifying an image URL in notifications.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.6.1 - 16 October, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_861_-_16_october_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.6.1 - 16 October, 2019</title><link>https://firebase.google.com/support/release-notes/admin/node#version_861_-_16_october_2019</link><description>&lt;h3 data-text="Authentication" id="authentication_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;UserRecord&lt;/code&gt; no longer exposes password hashes that are
 redacted due to lack of permissions in the service account credentials.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the typings of the &lt;code dir="ltr" translate="no"&gt;setCustomUserClaims()&lt;/code&gt; API to accept
@@ -594,7 +594,7 @@ notes&lt;/a&gt; of the
 dependency for more information. Thanks &lt;a href="https://github.com/arjunyel"&gt;arjunyel&lt;/a&gt;
 for the
 &lt;a href="https://github.com/firebase/firebase-admin-node/pull/702"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;verifyIdToken()&lt;/code&gt; method now correctly uses the &lt;code dir="ltr" translate="no"&gt;http.Agent&lt;/code&gt;
 configured during SDK initialization.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -611,13 +611,13 @@ details.&lt;/li&gt;
 sending a message to multiple recipients.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;@firebase/database&lt;/code&gt; dependency to v0.5.17.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.9.1 - 15 January, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_891_-_15_january_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.9.1 - 15 January, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_891_-_15_january_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the inability to discover the project ID when running on GCP
 managed environments.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.9.2 - 23 January, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_892_-_23_january_2020</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a credential loading issue that prevented some functions
 from being deployed via the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; CLI.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.10.0 - 12 March, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_8100_-_12_march_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.10.0 - 12 March, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_8100_-_12_march_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added multi-factor authentication support with SMS for &lt;a href="https://cloud.google.com/identity-platform/docs/how-to#mfa"&gt;Google
 Cloud Identity Platform&lt;/a&gt;.
 Existing APIs like &lt;code dir="ltr" translate="no"&gt;createUser()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;updateUser()&lt;/code&gt; now
@@ -629,7 +629,7 @@ indexing by string keys. Thanks &lt;a href="https://github.com/wSedlacek"&gt;wSe
 the &lt;a href="https://github.com/firebase/firebase-admin-node/pull/768"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a timestamp rounding error in the &lt;code dir="ltr" translate="no"&gt;revokeRefreshTokens()&lt;/code&gt; API
 that caused some race conditions.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.11.0 - 22 April, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_8110_-_22_april_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.11.0 - 22 April, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_8110_-_22_april_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Exposed &lt;code dir="ltr" translate="no"&gt;email&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;email_verified&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;phone_number&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;picture&lt;/code&gt;
 fields from the &lt;code dir="ltr" translate="no"&gt;DecodedIdToken&lt;/code&gt; type.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -644,15 +644,15 @@ custom ML models.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;admin.remoteConfig()&lt;/code&gt; API. This API enables Firebase
 developers to programmatically manage the set of JSON-formatted parameters and
 conditions known as the Remote Config template.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.12.0 - 06 May, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_8120_-_06_may_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.12.0 - 06 May, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_8120_-_06_may_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;getUsers()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;deleteUsers()&lt;/code&gt; APIs for retrieving and
 deleting user accounts in bulk.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the typings of the &lt;code dir="ltr" translate="no"&gt;customClaims&lt;/code&gt; attribute on &lt;code dir="ltr" translate="no"&gt;UserRecord&lt;/code&gt;
 and &lt;code dir="ltr" translate="no"&gt;UserImportRecord&lt;/code&gt; interfaces.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.12.1 - 08 May, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_8121_-_08_may_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.12.1 - 08 May, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_8121_-_08_may_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the typings of the &lt;code dir="ltr" translate="no"&gt;UserMetadata&lt;/code&gt; type to avoid a potentially
 breaking change.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 8.13.0 - 29 June, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_8130_-_29_june_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 8.13.0 - 29 June, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_8130_-_29_june_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a timestamp parsing issue in the
 &lt;code dir="ltr" translate="no"&gt;UserMetadata.lastRefreshTime&lt;/code&gt; field.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;lastRefreshTime&lt;/code&gt; field has been removed from
@@ -671,7 +671,7 @@ support has been discontinued.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded dependency on the &lt;code dir="ltr" translate="no"&gt;@google-cloud/firestore&lt;/code&gt; package to
 v4.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded dependency on the &lt;code dir="ltr" translate="no"&gt;@google-cloud/storage&lt;/code&gt; package to v5.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.1.0 - 13 August, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_910_-_13_august_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.1.0 - 13 August, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_910_-_13_august_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the ability to enable/disable multi-factor authentication
 with SMS on a Google Cloud Identity Platform tenant. Existing APIs like
 &lt;code dir="ltr" translate="no"&gt;createTenant()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;updateTenant()&lt;/code&gt; now support configuring multi-factor
@@ -685,7 +685,7 @@ authentication and testing phone number/code pairs on a specified tenant.&lt;/li
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for creating, updating, getting, listing,
 publishing, unpublishing, and deleting Firebase-hosted custom ML models
 created with AutoML.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.3.0 - 22 October, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_930_-_22_october_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.3.0 - 22 October, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_930_-_22_october_2020</link><description>&lt;h3 data-text="Authentication" id="authentication_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for generating unsigned custom tokens for testing.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for verifying test ID tokens.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.4.0 - 12 November, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_940_-_12_november_2020</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -694,7 +694,7 @@ created with AutoML.&lt;/li&gt;
 Newly exposed types include &lt;code dir="ltr" translate="no"&gt;GrpcStatus&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;FirestoreDataConverter&lt;/code&gt;,
 &lt;code dir="ltr" translate="no"&gt;UpdateData&lt;/code&gt;, and more.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;@google-cloud/firestore&lt;/code&gt; dependency to v4.5.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that was causing credential lookup errors when invoking
 some APIs against the emulator.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.4.1 - 13 November, 2020</title><link>https://firebase.google.com/support/release-notes/admin/node#version_941_-_13_november_2020</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -707,7 +707,7 @@ API operations to fail.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded dependencies &lt;code dir="ltr" translate="no"&gt;@firebase/database&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;@firebase/database-types&lt;/code&gt; to the latest available versions. This resolves an
 inconsistency in the published typings of the Database API.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.5.0 - 10 February, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_950_-_10_february_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.5.0 - 10 February, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_950_-_10_february_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new &lt;code dir="ltr" translate="no"&gt;getUserByProviderUid()&lt;/code&gt; method to look up user
 accounts by their providers.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;updateUser()&lt;/code&gt; method now supports linking a federated ID with
@@ -741,7 +741,7 @@ variable.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;@types/node&lt;/code&gt; dependency to v12.12.47.
 Thanks &lt;a href="https://github.com/nikhilag"&gt;nikhilag&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-node/pull/1258"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The method &lt;code dir="ltr" translate="no"&gt;generatePasswordResetLink()&lt;/code&gt; now throws
 an &lt;code dir="ltr" translate="no"&gt;auth/email-not-found&lt;/code&gt; error code if no user exists for the
 specified email address.&lt;/li&gt;
@@ -753,7 +753,7 @@ users.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added Firebase abuse reduction support APIs.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.9.0 - 26 May, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_990_-_26_may_2021</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The Admin SDK now requires Node.js 10.13.0 or higher.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Made multi-factor authentication &lt;code dir="ltr" translate="no"&gt;uid&lt;/code&gt; optional for &lt;code dir="ltr" translate="no"&gt;updateUser&lt;/code&gt;
 operations.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for configuring the authorization code flow for
@@ -762,7 +762,7 @@ OIDC providers (previously only supported the &lt;code dir="ltr" translate="no"&
 OIDC provider flow.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;INVALID_OAUTH_RESPONSETYPE&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;MISSING_OAUTH_CLIENT_SECRET&lt;/code&gt; error codes.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.10.0 - 24 June, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_9100_-_24_june_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.10.0 - 24 June, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_9100_-_24_june_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Redefined &lt;code dir="ltr" translate="no"&gt;AuthProviderConfig&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;CreateMultiFactorInfoRequest&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;UpdateMultiFactorInfoRequest&lt;/code&gt; interfaces as TypeScript union types. This
 enables simpler and more idiomatic use of these types in developer
@@ -776,7 +776,7 @@ deleting Firebase instance IDs and installation IDs.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.11.0 - 15 July, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_9110_-_15_july_2021</link><description>&lt;h3 data-text="Firebase App Check" id="firebase-app-check_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;createToken()&lt;/code&gt; API now supports configuring the &lt;code dir="ltr" translate="no"&gt;TTL&lt;/code&gt; of the
 returned Firebase App Check token.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 9.11.1 - 19 August, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_9111_-_19_august_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 9.11.1 - 19 August, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_9111_-_19_august_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; When &lt;code dir="ltr" translate="no"&gt;checkRevoked&lt;/code&gt; is set to &lt;code dir="ltr" translate="no"&gt;true&lt;/code&gt;, the &lt;code dir="ltr" translate="no"&gt;verifyIdToken()&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;verifySessionCookie()&lt;/code&gt; APIs now throw an error if the user record is disabled.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 9.12.0 - 28 September, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_9120_-_28_september_2021</link><description>&lt;h3 data-text="Firebase Remote Config" id="firebase-remote-config_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -799,7 +799,7 @@ You can enable the native ESM support on a server running Node.js 12+ by
 setting the &lt;code dir="ltr" translate="no"&gt;type: "module"&lt;/code&gt; parameter in your project's &lt;code dir="ltr" translate="no"&gt;package.json&lt;/code&gt; file.
 See &lt;a href="https://nodejs.org/api/packages.html#packages_modules_packages"&gt;Node.js documentation&lt;/a&gt;
 for more details.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.0.1 - 15 December, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1001_-_15_december_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.0.1 - 15 December, 2021</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1001_-_15_december_2021</link><description>&lt;h3 data-text="Authentication" id="authentication_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;createSessionCookie()&lt;/code&gt; API now correctly parses and maps
 &lt;code dir="ltr" translate="no"&gt;USER_DISABLED&lt;/code&gt; server errors.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed request body from the &lt;code dir="ltr" translate="no"&gt;deleteTenant()&lt;/code&gt; API.&lt;/li&gt;
@@ -820,7 +820,7 @@ GitHub &lt;a class="external" href="//github.com/advisories/GHSA-gf8q-jrpm-jvxq"
 &lt;/ul&gt;</description></item><item><title>Version 10.2.0 - 05 May, 2022</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1020_-_05_may_2022</link><description>&lt;h3 data-text="Firebase App Check" id="firebase-app-check_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt; APIs to use the &lt;code dir="ltr" translate="no"&gt;v1&lt;/code&gt; service
 endpoint instead of the &lt;code dir="ltr" translate="no"&gt;v1beta&lt;/code&gt; endpoint.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the email action link generation APIs for creating links for
 the request type &lt;code dir="ltr" translate="no"&gt;VERIFY_AND_CHANGE_EMAIL&lt;/code&gt; via
 &lt;code dir="ltr" translate="no"&gt;auth.generateVerifyAndChangeEmailLink()&lt;/code&gt;.&lt;/li&gt;
@@ -843,14 +843,14 @@ This contains breaking changes. Refer to the Cloud Storage &lt;a href="https://g
 &lt;/ul&gt;</description></item><item><title>Version 11.0.1 - 28 July, 2022</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1101_-_28_july_2022</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;admin.securityRules()&lt;/code&gt; API now creates a new Security Rules
 release if one does not already exist.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;toJSON()&lt;/code&gt; method in &lt;code dir="ltr" translate="no"&gt;UserMetadata&lt;/code&gt; now includes
 &lt;code dir="ltr" translate="no"&gt;lastRefreshTime&lt;/code&gt; in the returned JSON output.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.1.0 - 06 October, 2022</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1110_-_06_october_2022</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;@google-cloud/firestore&lt;/code&gt; dependency to v6.3.0.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;@google-cloud/storage&lt;/code&gt; dependency to v6.5.2.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.2.0 - 17 October, 2022</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1120_-_17_october_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.2.0 - 17 October, 2022</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1120_-_17_october_2022</link><description>&lt;h3 data-text="Authentication" id="authentication_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added SMS region config support for tenant and project
 configuration.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -886,13 +886,13 @@ impersonation in Application Default Credentials. Thanks
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a caching issue in the &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; API when
 initialized with the &lt;code dir="ltr" translate="no"&gt;preferRest&lt;/code&gt; setting to force the use of REST transport.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.6.0 - 06 April, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1160_-_06_april_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.6.0 - 06 April, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1160_-_06_april_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;TOTP&lt;/code&gt; as a multi-factor option in project and tenant
 configuration.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated &lt;code dir="ltr" translate="no"&gt;sendToDevice&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendToDeviceGroup&lt;/code&gt; methods and
 their response classes. These methods are removed in the next major version.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.7.0 - 18 April, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1170_-_18_april_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.7.0 - 18 April, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1170_-_18_april_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added reCAPTCHA configuration support.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;sendEach()&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;sendEachForMulticast()&lt;/code&gt; APIs.&lt;/p&gt;&lt;/li&gt;
@@ -901,7 +901,7 @@ Use &lt;code dir="ltr" translate="no"&gt;sendEach()&lt;/code&gt; and &lt;code di
 &lt;/ul&gt;</description></item><item><title>Version 11.8.0 - 04 May, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1180_-_04_may_2023</link><description>&lt;h3 data-text="Firebase App Check" id="firebase-app-check_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added replay protection feature in the App Check &lt;code dir="ltr" translate="no"&gt;verifyToken()&lt;/code&gt;
 API.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.9.0 - 30 May, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1190_-_30_may_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.9.0 - 30 May, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1190_-_30_may_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for configuring password policy in project and tenant
 configurations.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -923,7 +923,7 @@ the context/event object.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for multiple named databases. This feature is
 currently in public preview.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;TotpInfo&lt;/code&gt; field to the &lt;code dir="ltr" translate="no"&gt;UserRecord&lt;/code&gt; type.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a memory leak in the internal &lt;code dir="ltr" translate="no"&gt;http&lt;/code&gt; timeout handling code
 that affected the &lt;code dir="ltr" translate="no"&gt;listUsers()&lt;/code&gt; API. Thanks
@@ -932,7 +932,7 @@ that affected the &lt;code dir="ltr" translate="no"&gt;listUsers()&lt;/code&gt; 
 &lt;/ul&gt;</description></item><item><title>Version 11.10.1 - 13 July, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_11101_-_13_july_2023</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue which caused the incompatibility in &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;
 types in version &lt;a href="#11.10.0"&gt;&lt;code dir="ltr" translate="no"&gt;11.10.0&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 11.11.0 - 28 September, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_11110_-_28_september_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 11.11.0 - 28 September, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_11110_-_28_september_2023</link><description>&lt;h3 data-text="Authentication" id="authentication_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added email privacy support in project and tenant configuration.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 11.11.1 - 23 November, 2023</title><link>https://firebase.google.com/support/release-notes/admin/node#version_11111_-_23_november_2023</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded the &lt;code dir="ltr" translate="no"&gt;google-cloud/firestore&lt;/code&gt; dependency to v6.8.0 to
@@ -1002,7 +1002,7 @@ to perform administrative queries and mutations on a &lt;span class="notranslate
 service.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the &lt;code dir="ltr" translate="no"&gt;DATA_CONNECT_EMULATOR_HOST&lt;/code&gt; environment
 variable.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Use &lt;code dir="ltr" translate="no"&gt;Math.floor()&lt;/code&gt; when setting &lt;code dir="ltr" translate="no"&gt;validDuration&lt;/code&gt; variable in
 the &lt;code dir="ltr" translate="no"&gt;createSessionCookie()&lt;/code&gt; API.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 12.7.0 - 24 October, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1270_-_24_october_2024</link><description>&lt;ul&gt;
@@ -1010,7 +1010,7 @@ the &lt;code dir="ltr" translate="no"&gt;createSessionCookie()&lt;/code&gt; API.
 and &lt;code dir="ltr" translate="no"&gt;@firebase/database-types&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;v1.0.5&lt;/code&gt; to maintain compatibility with
 Node.js 14 and 16. Node.js 14 and 16 support is deprecated and Node.js 18+
 will be required in the next major version.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added reCAPTCHA SMS toll fraud protection configuration support
 for phone authentication.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="cloud-functions_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1038,10 +1038,10 @@ across future SDK versions.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 13.0.1 - 20 November, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1301_-_20_november_2024</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that occurred when initializing the SDK with the
 &lt;code dir="ltr" translate="no"&gt;ServiceAccount&lt;/code&gt; type.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.0.2 - 19 December, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1302_-_19_december_2024</link><description>&lt;h3 data-text="Authentication" id="authentication_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.0.2 - 19 December, 2024</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1302_-_19_december_2024</link><description>&lt;h3 data-text="Authentication" id="authentication_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a credentials issue in the &lt;code dir="ltr" translate="no"&gt;createCustomToken()&lt;/code&gt; API
 when the SDK is initialized with Google Application Default Credentials.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.1.0 - 05 February, 2025</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1310_-_05_february_2025</link><description>&lt;h3 data-text="Authentication" id="authentication_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.1.0 - 05 February, 2025</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1310_-_05_february_2025</link><description>&lt;h3 data-text="Authentication" id="authentication_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;UpdateProjectConfigRequest.mobileLinksConfig&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;ActionCodeSettings.linkDomain&lt;/code&gt;, allowing you to switch between
 Firebase Dynamic Link and Firebase Hosting domains for out-of-band
@@ -1148,7 +1148,7 @@ for more advanced error handling logic. See the
 &lt;code dir="ltr" translate="no"&gt;MessagingOptions&lt;/code&gt;,&lt;code dir="ltr" translate="no"&gt;MessagingPayload&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;NotificationMessagePayload&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mapped the topic subscription &lt;code dir="ltr" translate="no"&gt;RESOURCE_EXHAUSTED&lt;/code&gt; server code to
 a more accurate &lt;code dir="ltr" translate="no"&gt;TOPICS_SUBSCRIPTION_RATE_EXCEEDED&lt;/code&gt; SDK error code.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Decoupled &lt;code dir="ltr" translate="no"&gt;CreateRequest&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;UpdateRequest&lt;/code&gt; interfaces to correct
 misleading valid parameter types for each request type.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Skipped project config resource name check when running in emulator.
@@ -1215,4 +1215,15 @@ subscription API.&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;unsubscribeFromTopicLegacy()&lt;/code&gt; methods, which continue to call the legacy
 Instance ID API. These methods are deprecated and will be removed in a future
 release.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 14.5.1 - 11 November 2026</title><link>https://firebase.google.com/support/release-notes/admin/node#version_1451_-_11_november_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Prevented prototype pollution in the internal &lt;code dir="ltr" translate="no"&gt;deepExtend()&lt;/code&gt;
+utility when merging nested objects.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mapped the &lt;code dir="ltr" translate="no"&gt;PASSWORD_DOES_NOT_MEET_REQUIREMENTS&lt;/code&gt; server error code
+to the &lt;code dir="ltr" translate="no"&gt;auth/password-does-not-meet-requirements&lt;/code&gt; SDK error code
+(&lt;code dir="ltr" translate="no"&gt;AuthErrorCode.PASSWORD_DOES_NOT_MEET_REQUIREMENTS&lt;/code&gt;). Thanks
+&lt;a href="https://github.com/sean0407"&gt;sean0407&lt;/a&gt; for the
+&lt;a href="https://github.com/firebase/firebase-admin-node/pull/3291"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Validated &lt;code dir="ltr" translate="no"&gt;tenantId&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;providerId&lt;/code&gt; resource identifiers against
+URL path traversal before constructing &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; REST API requests.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

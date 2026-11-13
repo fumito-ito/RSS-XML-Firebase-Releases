@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 04 Nov 2026 19:16:36 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Fri, 13 Nov 2026 13:51:08 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2718,4 +2718,53 @@ which includes internal improvements and bug fixes.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; emulator exited when it
 could not watch the rules file for changes. It now logs a warning instead
 (&lt;a href="https://github.com/firebase/firebase-tools/issues/4298"&gt;#4298&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.35.0 - November 04, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15350_-_november_04_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed high query latency on Linux in the &lt;span class="notranslate"&gt;SQL Connect&lt;/span&gt;
+PGlite emulator by enabling &lt;code dir="ltr" translate="no"&gt;TCP_NODELAY&lt;/code&gt; on sockets
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/11402"&gt;#11402&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the emulators startup message showed
+&lt;code dir="ltr" translate="no"&gt;127.0.0.1&lt;/code&gt; for the &lt;span class="notranslate"&gt;Emulator Suite UI&lt;/span&gt; when listening on &lt;code dir="ltr" translate="no"&gt;0.0.0.0&lt;/code&gt;. It now
+also prints the address they listen on
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/6222"&gt;#6222&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue on Windows where starting Java-based emulators
+(&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, &lt;span class="notranslate"&gt;Pub/Sub&lt;/span&gt;, &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;) could open extra
+console windows or leave orphaned &lt;code dir="ltr" translate="no"&gt;java.exe&lt;/code&gt; processes running after exit
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/3871"&gt;#3871&lt;/a&gt;,
+&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/11261"&gt;#11261&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; MCP &lt;code dir="ltr" translate="no"&gt;get_report&lt;/code&gt; tool to dynamically
+validate report names via &lt;code dir="ltr" translate="no"&gt;listReports&lt;/code&gt; and support optional time
+&lt;code dir="ltr" translate="no"&gt;granularity&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.36.0 - November 11, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15360_-_november_11_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;span class="notranslate"&gt;Hosting&lt;/span&gt; commands failed when unable to
+ensure the &lt;span class="notranslate"&gt;Firebase Hosting&lt;/span&gt; API was enabled. A warning is now logged
+instead
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/11335"&gt;#11335&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;firebase init hosting&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;firebase init hosting:github&lt;/code&gt; to ensure the &lt;span class="notranslate"&gt;Firebase Hosting&lt;/span&gt; API is
+enabled during setup.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an optional &lt;code dir="ltr" translate="no"&gt;filterExpression&lt;/code&gt; parameter to the
+&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; MCP &lt;code dir="ltr" translate="no"&gt;list_events&lt;/code&gt; tool to filter events by custom keys.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; filter validation rejected
+web app version names without a build number.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator startup time by compiling validation
+schemas lazily
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/pull/11176"&gt;#11176&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit to v3.4.26,
+which includes internal improvements and bug fixes.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the emulators startup message showed
+&lt;code dir="ltr" translate="no"&gt;127.0.0.1&lt;/code&gt; for the &lt;span class="notranslate"&gt;Emulator Suite UI&lt;/span&gt; when listening on &lt;code dir="ltr" translate="no"&gt;0.0.0.0&lt;/code&gt;. It now
+also prints the address they listen on
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/6222"&gt;#6222&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition across a second boundary during
+&lt;code dir="ltr" translate="no"&gt;accounts:signUp&lt;/code&gt; in the &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; emulator where &lt;code dir="ltr" translate="no"&gt;validSince&lt;/code&gt; could exceed
+&lt;code dir="ltr" translate="no"&gt;auth_time&lt;/code&gt;
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/11413"&gt;#11413&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added local machine configuration persistence to
+&lt;code dir="ltr" translate="no"&gt;appcheck:debugtokens:create&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;--local&lt;/code&gt; support to
+&lt;code dir="ltr" translate="no"&gt;appcheck:debugtokens:list&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;appcheck:debugtokens:prune&lt;/code&gt; to clean up
+stale local &lt;span class="notranslate"&gt;App Check&lt;/span&gt; debug tokens.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;database:import&lt;/code&gt; failed with an unhandled
+promise rejection when a batch write failed in &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where emulators crashed when a &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; rules
+reload or emulator HTTP handler threw an error.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
