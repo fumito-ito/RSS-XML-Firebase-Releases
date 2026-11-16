@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 16 Nov 2026 10:33:37 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes</title><link>https://firebase.google.com/support/releases</link><description>Latest updates and release notes for Firebase.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Mon, 16 Nov 2026 21:33:42 +0000</lastBuildDate><item><title>April 11, 2022</title><link>https://firebase.google.com/support/releases#april_11_2022</link><description>&lt;h3 data-text="Release Notes Roundup" id="fwru-2022-04-11" tabindex="-1"&gt;Release Notes Roundup&lt;/h3&gt;&lt;p&gt;&lt;section class="firebase-release-roundup"&gt;&lt;/section&gt;&lt;/p&gt;&lt;p&gt;Even as the updates to Firebase for Google I/O are getting finished all around
 us, there are still many non-I/O launches coming out, too. Here are some of our
 favorites from the past few weeks:&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;🧾 &lt;strong&gt;Connect to Merchant Center to improve ecommerce reporting&lt;/strong&gt;&lt;br/&gt;
@@ -8695,7 +8695,18 @@ To install this SDK, see
 This release includes fixes in Authentication and &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;.
 To install this SDK, see
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your server&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate></item><item><title>November 12, 2026</title><link>https://firebase.google.com/support/releases#november_12_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-4-hydrogen-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description><pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate></item><item><title>November 12, 2026</title><link>https://firebase.google.com/support/releases#november_12_2026</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics-web-preview" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Firebase Crashlytics&lt;/span&gt; now supports web apps (in Preview). You
+can automatically capture browser exceptions and framework errors for
+Angular, Next.js, and React, &lt;a href="/docs/crashlytics/web/get-deobfuscated-reports"&gt;upload source maps&lt;/a&gt;
+for de-obfuscated stack traces,
+&lt;a href="/docs/crashlytics/web/customize-crash-reports"&gt;customize crash reports&lt;/a&gt;
+with handled exceptions and custom keys,
+&lt;a href="/docs/crashlytics/alerts"&gt;configure alerts&lt;/a&gt;, and debug issues using
+&lt;a href="/docs/crashlytics/ai-assistance-mcp"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; MCP tools&lt;/a&gt;. To get
+started, see
+&lt;a href="/docs/crashlytics/web/get-started"&gt;Get started with &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; for web apps&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase AI Logic" id="ai-logic-gemini-4-hydrogen-support" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt; supports the latest &lt;span class='\"notranslate\"'&gt;Gemini&lt;/span&gt; stable
 model &lt;code dir="ltr" translate="no"&gt;gemini-4-hydrogen&lt;/code&gt;. You can
 &lt;a href="/docs/ai-logic/get-started"&gt;directly access this model in your mobile or web app&lt;/a&gt;
