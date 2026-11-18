@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-go</title><link>https://firebase.google.com/support/release-notes/admin/go</link><description>Latest updates and release notes for Firebase Admin-go.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 18 Nov 2026 11:00:57 +0000</lastBuildDate><item><title>Version 1.0.0 - August 30, 2017</title><link>https://firebase.google.com/support/release-notes/admin/go#version_100_-_august_30_2017</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-go</title><link>https://firebase.google.com/support/release-notes/admin/go</link><description>Latest updates and release notes for Firebase Admin-go.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 18 Nov 2026 19:53:41 +0000</lastBuildDate><item><title>Version 1.0.0 - August 30, 2017</title><link>https://firebase.google.com/support/release-notes/admin/go#version_100_-_august_30_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Admin Go SDK. See
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your Server&lt;/a&gt; to get
 started.&lt;/li&gt;
@@ -66,7 +66,8 @@ from the &lt;code dir="ltr" translate="no"&gt;FIREBASE_CONFIG&lt;/code&gt; envir
 type is now set to the constant value &lt;code dir="ltr" translate="no"&gt;firebase&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 2.5.0 - February 14, 2018</title><link>https://firebase.google.com/support/release-notes/admin/go#version_250_-_february_14_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="https://godoc.org/firebase.google.com/go/messaging"&gt;&lt;code dir="ltr" translate="no"&gt;messaging&lt;/code&gt;&lt;/a&gt;
-package for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages and managing topic subscriptions.&lt;/li&gt;
+package for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages and managing
+topic subscriptions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="https://godoc.org/firebase.google.com/go/messaging#Client.Send"&gt;&lt;code dir="ltr" translate="no"&gt;Send()&lt;/code&gt;&lt;/a&gt;
 function for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="https://godoc.org/firebase.google.com/go/messaging#Client.SubscribeToTopic"&gt;&lt;code dir="ltr" translate="no"&gt;SubscribeToTopic()&lt;/code&gt;&lt;/a&gt;

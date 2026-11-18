@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-java</title><link>https://firebase.google.com/support/release-notes/admin/java</link><description>Latest updates and release notes for Firebase Admin-java.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 18 Nov 2026 11:00:56 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/java#version_400_-_november_7_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-java</title><link>https://firebase.google.com/support/release-notes/admin/java</link><description>Latest updates and release notes for Firebase Admin-java.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 18 Nov 2026 19:53:40 +0000</lastBuildDate><item><title>Version 4.0.0 - November 7, 2016</title><link>https://firebase.google.com/support/release-notes/admin/java#version_400_-_november_7_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The Admin Java SDK (available on Maven as &lt;code dir="ltr" translate="no"&gt;firebase-admin&lt;/code&gt;)
 replaces the pre-existing &lt;code dir="ltr" translate="no"&gt;firebase-server-sdk&lt;/code&gt; Maven package, which is now
 deprecated. See
@@ -249,9 +249,10 @@ loaded from the &lt;code dir="ltr" translate="no"&gt;FIREBASE_CONFIG&lt;/code&gt
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/auth/FirebaseAuth"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseAuth&lt;/code&gt;&lt;/a&gt;
 class. These operations now throw exceptions with well-defined
 &lt;a href="/docs/auth/admin/errors"&gt;error codes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.9.0 - February 14, 2018</title><link>https://firebase.google.com/support/release-notes/admin/java#version_590_-_february_14_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.9.0 - February 14, 2018</title><link>https://firebase.google.com/support/release-notes/admin/java#version_590_-_february_14_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/FirebaseMessaging"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseMessaging&lt;/code&gt;&lt;/a&gt;
-API for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages and managing topic subscriptions.&lt;/li&gt;
+API for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages and managing
+topic subscriptions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/FirebaseMessaging#sendAsync(com.google.firebase.messaging.Message)"&gt;&lt;code dir="ltr" translate="no"&gt;sendAsync()&lt;/code&gt;&lt;/a&gt;
 method for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages.&lt;/li&gt;
@@ -295,7 +296,7 @@ class. These methods enable configuring timeouts
 for outgoing HTTP requests made by the SDK. These settings affect all
 requests except for the requests made to Firebase Realtime Database and
 Cloud Firestore.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;setMutableContent()&lt;/code&gt; method to the
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/Aps.Builder"&gt;&lt;code dir="ltr" translate="no"&gt;Aps.Builder&lt;/code&gt;&lt;/a&gt;
 class. This can be used to set the &lt;code dir="ltr" translate="no"&gt;mutable-content&lt;/code&gt; property when sending
@@ -363,7 +364,7 @@ which can be used to set just the client email of a service account.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; When deployed in an environment managed by Google (e.g. Google
 App Engine), the SDK can auto discover a service account ID without
 any explicit configuration.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.4.0 - August 28, 2018</title><link>https://firebase.google.com/support/release-notes/admin/java#version_640_-_august_28_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.4.0 - August 28, 2018</title><link>https://firebase.google.com/support/release-notes/admin/java#version_640_-_august_28_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/WebpushNotification"&gt;&lt;code dir="ltr" translate="no"&gt;WebpushNotification&lt;/code&gt;&lt;/a&gt;
 type now provides a &lt;code dir="ltr" translate="no"&gt;Builder&lt;/code&gt; API, and supports arbitrary key-value
 pairs in its payload.&lt;/li&gt;
@@ -390,7 +391,7 @@ migrated to the new Identity Toolkit REST endpoint. A project ID
 is now required to use &lt;code dir="ltr" translate="no"&gt;FirebaseAuth&lt;/code&gt;. Developers using service
 account credentials or deploying to managed Google runtimes like
 App Engine will not notice a difference.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;ApsAlert&lt;/code&gt; class now supports specyfing a subtitle.
 Thanks &lt;a href="https://github.com/chemidy"&gt;chemidy&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-java/pull/219"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
@@ -406,7 +407,7 @@ for password reset, email verification, and email link sign-in via
 and &lt;code dir="ltr" translate="no"&gt;generateSignInWithEmailLink()&lt;/code&gt;.
 See &lt;a href="/docs/auth/admin/email-action-links"&gt;documentation&lt;/a&gt; for more
 details and code samples.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/Aps"&gt;&lt;code dir="ltr" translate="no"&gt;Aps&lt;/code&gt;&lt;/a&gt;
 class now supports configuring a critical sound. A new
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/CriticalSound"&gt;&lt;code dir="ltr" translate="no"&gt;CriticalSound&lt;/code&gt;&lt;/a&gt;
@@ -415,14 +416,14 @@ class has been introduced for this purpose.&lt;/li&gt;
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/AndroidNotification.Builder"&gt;&lt;code dir="ltr" translate="no"&gt;AndroidNotification.Builder&lt;/code&gt;&lt;/a&gt;
 API for setting the Android
 notification channel ID (new in Android O).&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.8.0 - March 14, 2019</title><link>https://firebase.google.com/support/release-notes/admin/java#version_680_-_march_14_2019</link><description>&lt;h3 data-text="Firebase Cloud Messaging" id="firebase-cloud-messaging_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.8.0 - March 14, 2019</title><link>https://firebase.google.com/support/release-notes/admin/java#version_680_-_march_14_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/FirebaseMessaging#sendMulticast(com.google.firebase.messaging.MulticastMessage)"&gt;&lt;code dir="ltr" translate="no"&gt;sendMulticast()&lt;/code&gt;&lt;/a&gt;
 API for sending a message to a list of device registration tokens.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/FirebaseMessaging#sendAll(java.util.List%3Ccom.google.firebase.messaging.Message%3E)"&gt;&lt;code dir="ltr" translate="no"&gt;sendAll()&lt;/code&gt;&lt;/a&gt;
 API for sending a list of messages as a single batch.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 6.8.1 - April 24, 2019</title><link>https://firebase.google.com/support/release-notes/admin/java#version_681_-_april_24_2019</link><description>&lt;h3 data-text="Firebase Cloud Messaging" id="firebase-cloud-messaging_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 6.8.1 - April 24, 2019</title><link>https://firebase.google.com/support/release-notes/admin/java#version_681_-_april_24_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The SDK now automatically retries FCM API calls failing due to
 HTTP 500 and 503 errors.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -433,7 +434,7 @@ serializing POJOs with non-standard numeric objects.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded Cloud Storage client version to 1.79.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded Google API client version to 1.30.1.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Upgraded Guava dependency version to 26.0-android.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Firebase Cloud Messaging" id="firebase-cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/FcmOptions"&gt;&lt;code dir="ltr" translate="no"&gt;FcmOptions&lt;/code&gt;&lt;/a&gt;,
 &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/AndroidFcmOptions"&gt;&lt;code dir="ltr" translate="no"&gt;AndroidFcmOptions&lt;/code&gt;&lt;/a&gt;
 and &lt;a href="/docs/reference/admin/java/reference/com/google/firebase/messaging/ApnsFcmOptions"&gt;&lt;code dir="ltr" translate="no"&gt;ApnsFcmOptions&lt;/code&gt;&lt;/a&gt;

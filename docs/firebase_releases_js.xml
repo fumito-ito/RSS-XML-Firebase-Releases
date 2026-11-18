@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 18 Nov 2026 11:00:52 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Js</title><link>https://firebase.google.com/support/release-notes/js</link><description>Latest updates and release notes for Firebase Js.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 18 Nov 2026 19:53:37 +0000</lastBuildDate><item><title>Legacy release notes</title><link>https://firebase.google.com/support/release-notes/js#legacy_release_notes</link><description>&lt;p&gt;&lt;a href="https://www.firebase.com/docs/web/changelog.html"&gt;Firebase 1.0 and 2.0 JavaScript Changelog&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Version 3.0.0 - May 18, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_300_-_may_18_2016</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Launch of new APIs and &lt;a class="link external gc-analytics-event" data-action="linkClick" data-category="console" href="https://console.firebase.google.com/"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_76" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The way you install and initialize the SDK has changed and several
@@ -154,11 +154,11 @@ such as &lt;code dir="ltr" translate="no"&gt;/move/run&lt;/code&gt;.&lt;/li&gt;
 and
 &lt;a href="/docs/reference/js/firebase.auth.GithubAuthProvider#setCustomParameters"&gt;&lt;code dir="ltr" translate="no"&gt;GithubAuthProvider.setCustomParameters()&lt;/code&gt;&lt;/a&gt;
 methods.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_34" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Introduction of
 &lt;a href="/docs/reference/js/firebase.messaging.Messaging"&gt;&lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt;&lt;/a&gt; for
 the JavaScript SDK.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 3.5.1 - October 19, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_351_-_october_19_2016</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 3.5.1 - October 19, 2016</title><link>https://firebase.google.com/support/release-notes/js#version_351_-_october_19_2016</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_33" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a check to validate the &lt;code dir="ltr" translate="no"&gt;gcm_sender_id&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a race condition that occurs when using the Firefox web
 browser.&lt;/li&gt;
@@ -552,7 +552,7 @@ times.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_63" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Allow users passing custom database URLs, to set the namespace via
 the &lt;code dir="ltr" translate="no"&gt;ns&lt;/code&gt; query parameter.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_32" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;usePublicVapidKey&lt;/code&gt; API to facilitate custom server application
 key usage.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.10.1 - February 22, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_4101_-_february_22_2018</link><description>&lt;ul&gt;
@@ -564,7 +564,7 @@ typescript APIs across the codebase (thanks
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where users were unintentionally receiving an "Invalid
 query string" warning (see &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/517"&gt;this
 issue&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_31" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where some users received duplicate notifications.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with a missing API in the typings.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.11.0 - March 8, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_4110_-_march_8_2018</link><description>&lt;h3 data-text="Realtime Database" id="realtime-database_61" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -607,7 +607,7 @@ seconds (rather than returning from cache immediately).&lt;/li&gt;
 where some NPM users were seeing large performance degradations on Edge.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where several APIs were missing from the firebase
 package typings.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_30" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved error messaging around the &lt;code dir="ltr" translate="no"&gt;useServiceWorker&lt;/code&gt; function to
 better communicate the intended use case.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 4.13.0 - April 19, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_4130_-_april_19_2018</link><description>&lt;ul&gt;
@@ -637,7 +637,7 @@ release. &lt;code dir="ltr" translate="no"&gt;Timestamp&lt;/code&gt; supports hi
 &lt;code dir="ltr" translate="no"&gt;Query.get()&lt;/code&gt; should fetch from server only, (by passing &lt;code dir="ltr" translate="no"&gt;{ source: 'server' }&lt;/code&gt;),
 cache only (by passing &lt;code dir="ltr" translate="no"&gt;{ source: 'cache' }&lt;/code&gt;), or attempt server and fall back
 to the cache (which was the only option previously, and is now the default).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_29" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;getToken&lt;/code&gt; was throwing errors in Worker
 environments.&lt;/li&gt;
 &lt;li&gt;General cleanup and hardening of the entire messaging codebase. added
@@ -698,13 +698,13 @@ typings that was preventing TypeScript apps from compiling.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.0.2 - May 10, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_502_-_may_10_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where some of the nested imports (e.g.
 &lt;code dir="ltr" translate="no"&gt;firebase/app&lt;/code&gt;) weren't exposing the proper types.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_28" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed a behavior where, if a VAPID key did not exist, an error
 was thrown.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.0.3 - May 17, 2018</title><link>https://firebase.google.com/support/release-notes/js#version_503_-_may_17_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression that was causing the
 &lt;code dir="ltr" translate="no"&gt;import * as firebase from 'firebase';&lt;/code&gt; syntax to fail.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the messaging types were inconsistent with
 our documentation.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_189" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -714,7 +714,7 @@ during &lt;code dir="ltr" translate="no"&gt;npm install&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Update the README.md files for our scoped packages on NPM (i.e.
 &lt;code dir="ltr" translate="no"&gt;@firebase/app&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;@firebase/auth&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;@firebase/database&lt;/code&gt;, etc) to properly
 reflect the officially supported API.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where VAPID keys weren't being handled correctly.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_188" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved the messaging when unable to connect to the backend
@@ -900,7 +900,7 @@ values safely without transactions.&lt;/li&gt;
 queries. While this feature is not yet available, all schema changes are
 included in this release. Once you upgrade, you will not be able to use an
 older version of the Firestore SDK with persistence enabled.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The SDK now does not send messages to Chrome Extension background
 pages, which previously caused notifications not to display.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_27" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -915,7 +915,7 @@ assert for Queries that use nested &lt;code dir="ltr" translate="no"&gt;Document
 &lt;/ul&gt;</description></item><item><title>Version 5.9.2 - Mar 28, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_592_-_mar_28_2019</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_167" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a missing type definition for
 &lt;code dir="ltr" translate="no"&gt;firestore.FieldValue.increment&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 5.9.3 - April 4, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_593_-_april_4_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 5.9.3 - April 4, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_593_-_april_4_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Refactored to use const enum for &lt;code dir="ltr" translate="no"&gt;ErrorCode&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.9.4 - April 11, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_594_-_april_11_2019</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an incorrect type definition in &lt;code dir="ltr" translate="no"&gt;UploadTask.on()&lt;/code&gt; params.&lt;/li&gt;
@@ -1036,7 +1036,7 @@ changes (airplane mode, Wi-Fi availability, etc.).&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where an environment check fails in Node.js environments.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_25" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the ability to list objects in a bucket.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated &lt;code dir="ltr" translate="no"&gt;requestPermission()&lt;/code&gt;. Use the native browser API
 &lt;code dir="ltr" translate="no"&gt;Notification.requestPermission()&lt;/code&gt; instead.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.1.1 - June 6, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_611_-_june_6_2019</link><description>&lt;ul&gt;
@@ -1145,7 +1145,7 @@ Firestore that could result in initial writes to the database being dropped.&lt;
 &lt;/ul&gt;</description></item><item><title>Version 7.0.0 - September 26, 2019</title><link>https://firebase.google.com/support/release-notes/js#version_700_-_september_26_2019</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: For TypeScript users, the required minimal
 TypeScript version is 2.8.0.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: version 7.0.0 introduces a new service
 related to client app instance registration. If you are currently using
 FCM for web and want to upgrade to SDK 7.0.0 or later, you must enable the
@@ -1162,10 +1162,11 @@ See &lt;a href="https://support.google.com/firebase/answer/7015592"&gt;how to ge
 is enabled, pre-7.0.0 apps will continue to function normally.&lt;/p&gt;
 &lt;p&gt;New projects adding the FCM SDK have this service enabled by default.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Version 7.0.0 introduces the targeting of web apps for
-&lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages sent from the Notifications composer. You can now
-target web notification messages by browser type and version as well as
-operating system. See
-&lt;a href="/docs/cloud-messaging/js/send-with-console"&gt;Send messages with the Firebase Console&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages sent from the Notifications
+composer. You can now target web notification messages by browser type and
+version as well as operating system. See
+&lt;a href="/docs/cloud-messaging/js/send-with-console"&gt;Send messages with the Firebase Console&lt;/a&gt;
+.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; on web apps.  See
 &lt;a href="/docs/analytics/get-started"&gt;Get started with Google Analytics&lt;/a&gt;.&lt;/li&gt;
@@ -1255,7 +1256,7 @@ queries. You can now use &lt;code dir="ltr" translate="no"&gt;withConverter()&lt
 converter that will convert between &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; data and your custom type.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added a stronger environment check that specifically checks for the existence of
 &lt;code dir="ltr" translate="no"&gt;process.env&lt;/code&gt;. Addresses &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/2404"&gt;Github issue #2404&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;getToken()&lt;/code&gt; now automatically requests notification permission
 if permission was set to "default".&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Temporarily suppressing errors occurring on reset of notifications
@@ -1317,7 +1318,7 @@ environments. See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a performance regression introduced by the addition of
 &lt;code dir="ltr" translate="no"&gt;Query.limitToLast(n: number)&lt;/code&gt; in Firestore 1.7.0 (Firebase 7.3.0).
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/2620"&gt;Github issue #2620&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix an issue where service workers do not reliably update
 after upgrading to a new version of Firebase. See
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/2590"&gt;Github issue #2590&lt;/a&gt;.&lt;/li&gt;
@@ -1380,7 +1381,7 @@ slow connections. See &lt;a href="https://github.com/firebase/firebase-js-sdk/is
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue causing &lt;code dir="ltr" translate="no"&gt;WriteBatch.commit()&lt;/code&gt; to resolve one loop
 later than &lt;code dir="ltr" translate="no"&gt;.set&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;.update&lt;/code&gt;.
 See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/2822"&gt;GitHub issue #2822&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue introduced in 7.7.0, when FCM switched to provide
 base64-encoded VAPID keys to &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/PushManager"&gt;PushManager&lt;/a&gt;
 for push subscription. For backward compatibility, the SDK has switched back to using VAPID keys in type
@@ -1405,7 +1406,7 @@ a worker environment. See &lt;a href="https://github.com/firebase/firebase-js-sd
 in IndexedDB. Previously, these errors crashed the client.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a source of IndexedDB-related crashes for tabs that receive
 multi-tab notifications while the file system is locked.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed to compare hostname instead of the entire URL to decide if there
 is a matching window client. See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/390"&gt;GitHub issue #390&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.14.3 - May 07, 2020</title><link>https://firebase.google.com/support/release-notes/js#version_7143_-_may_07_2020</link><description>&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_128" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1461,7 +1462,7 @@ without &lt;code dir="ltr" translate="no"&gt;btoa/atob&lt;/code&gt; polyfills.&l
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed internal wrapper around our public API that was meant to
 prevent incorrect SDK usage for JavaScript users, but caused the SDK to stop
 working in IE11. See &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/3305"&gt;GitHub issue #3305&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where we tried to update the token for every &lt;code dir="ltr" translate="no"&gt;getToken()&lt;/code&gt;
 call because we don't save the updated token in the &lt;code dir="ltr" translate="no"&gt;IndexedDB&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an RxJS incompatibility issue by adding support for &lt;code dir="ltr" translate="no"&gt;onMessage&lt;/code&gt;
@@ -1935,9 +1936,9 @@ package to make this migration easier. See the
 from version 8 or the &lt;a href="/docs/web/setup"&gt;setup guide&lt;/a&gt; for instructions for
 getting started from scratch with version 9+.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;FCM&lt;/span&gt; now provides delivery data export to BigQuery
-as an Alpha feature.
-See &lt;a href="/docs/cloud-messaging/understand-delivery#enable-message-delivery-data-export"&gt;Enable message delivery data export&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;FCM&lt;/span&gt; now provides delivery data
+export to BigQuery as an Alpha feature. See &lt;a href="/docs/cloud-messaging/understand-delivery#enable-message-delivery-data-export"&gt;Enable message delivery data
+export&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_85" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; This release introduces Firestore Lite,
 a lightweight, standalone REST-only
@@ -3585,7 +3586,7 @@ only when the initial user reload fails with a user invalidation error
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added DML stages (&lt;code dir="ltr" translate="no"&gt;delete&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;update&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;insert&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;upsert&lt;/code&gt;) and the
 &lt;code dir="ltr" translate="no"&gt;literals&lt;/code&gt; source stage to Pipelines, and added the &lt;code dir="ltr" translate="no"&gt;atomic&lt;/code&gt; option to
 &lt;code dir="ltr" translate="no"&gt;PipelineExecuteOptions&lt;/code&gt; for executing a pipeline in a single transaction.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 13.2.0 - October 30, 2026</title><link>https://firebase.google.com/support/release-notes/js#version_1320_-_october_30_2026</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.2.0 - October 30, 2026</title><link>https://firebase.google.com/support/release-notes/js#version_1320_-_october_30_2026</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; First release of the &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; SDK for public preview.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated the on-demand ID token expiration buffer
@@ -3631,7 +3632,7 @@ was assigned to the wrong property.&lt;/p&gt;&lt;/li&gt;
 (&lt;code dir="ltr" translate="no"&gt;onAuthStateChanged&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;authStateReady()&lt;/code&gt;) or clearing &lt;code dir="ltr" translate="no"&gt;currentUser&lt;/code&gt; in
 other tabs. See
 &lt;a href="https://github.com/firebase/firebase-js-sdk/issues/10540"&gt;GitHub Issue #10540&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; CDN bundle (&lt;code dir="ltr" translate="no"&gt;firebase-crashlytics.js&lt;/code&gt;),
 which imported Node.js built-in modules such as &lt;code dir="ltr" translate="no"&gt;fs&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;zlib&lt;/code&gt; and failed to
 load in browsers.&lt;/p&gt;&lt;/li&gt;
@@ -3657,4 +3658,24 @@ accented characters). See
 rendering (SSR) hydration is no longer supported, and server templates
 (&lt;code dir="ltr" translate="no"&gt;"firebase-server"&lt;/code&gt;) can't be fetched from client apps. These options will be
 removed in a future major release.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.4.0 - November 16, 2026</title><link>https://firebase.google.com/support/release-notes/js#version_1340_-_november_16_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; External scripts are now loaded through a single shared Trusted
+Types policy named &lt;code dir="ltr" translate="no"&gt;firebase-js-sdk-policy&lt;/code&gt;, so that &lt;span class="notranslate"&gt;Authentication&lt;/span&gt; (&lt;code dir="ltr" translate="no"&gt;gapi&lt;/code&gt; and
+reCAPTCHA scripts), &lt;span class="notranslate"&gt;Analytics&lt;/span&gt; (&lt;code dir="ltr" translate="no"&gt;gtag&lt;/code&gt;), and &lt;span class="notranslate"&gt;App Check&lt;/span&gt; (reCAPTCHA
+scripts) work on pages that enforce Trusted Types with
+&lt;code dir="ltr" translate="no"&gt;require-trusted-types-for 'script'&lt;/code&gt;. If the page's CSP restricts policy names
+with the &lt;code dir="ltr" translate="no"&gt;trusted-types&lt;/code&gt; directive, it must allow &lt;code dir="ltr" translate="no"&gt;firebase-js-sdk-policy&lt;/code&gt;; if
+it doesn't, an error explaining this is logged when a script fails to load.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded OpenTelemetry dependencies to 3.x, removing deprecated
+&lt;code dir="ltr" translate="no"&gt;@opentelemetry/api-logs&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;@opentelemetry/sdk-trace-base&lt;/code&gt;, and
+&lt;code dir="ltr" translate="no"&gt;@opentelemetry/sdk-trace-web&lt;/code&gt; dependencies, and updated public attribute
+types (&lt;code dir="ltr" translate="no"&gt;CrashlyticsOptions.customAttributes&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;log()&lt;/code&gt;, and &lt;code dir="ltr" translate="no"&gt;recordError()&lt;/code&gt;) to
+use &lt;code dir="ltr" translate="no"&gt;Attributes&lt;/code&gt; from &lt;code dir="ltr" translate="no"&gt;@opentelemetry/api&lt;/code&gt;. 3.x dependencies include
+&lt;code dir="ltr" translate="no"&gt;@opentelemetry/api&lt;/code&gt;
+1.10.0, SDKs 3.1.1, exporters and instrumentations 0.301.2,
+&lt;code dir="ltr" translate="no"&gt;@opentelemetry/browser-instrumentation&lt;/code&gt; 0.11.0,
+&lt;code dir="ltr" translate="no"&gt;@opentelemetry/instrumentation-document-load&lt;/code&gt; 0.70.0, and
+&lt;code dir="ltr" translate="no"&gt;@opentelemetry/semantic-conventions&lt;/code&gt; 1.45.0See
+&lt;a href="https://github.com/firebase/firebase-js-sdk/issues/10606"&gt;GitHub Issue #10606&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-python</title><link>https://firebase.google.com/support/release-notes/admin/python</link><description>Latest updates and release notes for Firebase Admin-python.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 18 Nov 2026 11:00:56 +0000</lastBuildDate><item><title>Version 1.0.0 - April 04, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_100_-_april_04_2017</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Admin-python</title><link>https://firebase.google.com/support/release-notes/admin/python</link><description>Latest updates and release notes for Firebase Admin-python.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 18 Nov 2026 19:53:40 +0000</lastBuildDate><item><title>Version 1.0.0 - April 04, 2017</title><link>https://firebase.google.com/support/release-notes/admin/python#version_100_-_april_04_2017</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Initial release of the Admin Python SDK. See
 &lt;a href="/docs/admin/setup"&gt;Add the Firebase Admin SDK to your Server&lt;/a&gt;
 to get started.&lt;/li&gt;
@@ -105,9 +105,10 @@ options loaded from the &lt;code dir="ltr" translate="no"&gt;FIREBASE_CONFIG&lt;
 method now accepts an optional &lt;code dir="ltr" translate="no"&gt;shallow&lt;/code&gt;
 argument. If set to &lt;code dir="ltr" translate="no"&gt;True&lt;/code&gt; this causes the SDK to execute a shallow read,
 which does not retrieve the child node values of the current reference.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 2.9.0 - February 14, 2018</title><link>https://firebase.google.com/support/release-notes/admin/python#version_290_-_february_14_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.9.0 - February 14, 2018</title><link>https://firebase.google.com/support/release-notes/admin/python#version_290_-_february_14_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.messaging"&gt;&lt;code dir="ltr" translate="no"&gt;firebase_admin.messaging&lt;/code&gt;&lt;/a&gt;
-module for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages and managing topic subscriptions.&lt;/li&gt;
+module for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages and managing
+topic subscriptions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#send"&gt;&lt;code dir="ltr" translate="no"&gt;send()&lt;/code&gt;&lt;/a&gt;
 function for sending &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#subscribe_to_topic"&gt;&lt;code dir="ltr" translate="no"&gt;subscribe_to_topic()&lt;/code&gt;&lt;/a&gt;
@@ -125,7 +126,7 @@ function to invalidate all tokens issued to a user.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new &lt;code dir="ltr" translate="no"&gt;tokens_valid_after_timestamp&lt;/code&gt; property has been added to the
 &lt;a href="/docs/reference/admin/python/firebase_admin.auth#userrecord"&gt;&lt;code dir="ltr" translate="no"&gt;UserRecord&lt;/code&gt;&lt;/a&gt;
 class to indicate the time before which tokens are not valid.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 2.9.1 - March 15, 2018</title><link>https://firebase.google.com/support/release-notes/admin/python#version_291_-_march_15_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.9.1 - March 15, 2018</title><link>https://firebase.google.com/support/release-notes/admin/python#version_291_-_march_15_2018</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_22" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved error handling in the &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#send"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.send()&lt;/code&gt;&lt;/a&gt;
 API. Exceptions raised by this API now contain the correct error codes
 as defined in the &lt;a href="/docs/cloud-messaging/admin/errors"&gt;documentation&lt;/a&gt;.&lt;/li&gt;
@@ -142,7 +143,7 @@ method for validating a given session cookie string.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;auth&lt;/code&gt; module now caches the public key certificates
 used to verify ID tokens and session cookies, thus avoiding a
 network call everytime a credential needs to be verified.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_21" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;mutable_content&lt;/code&gt; optional field to the
 &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#aps"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.Aps&lt;/code&gt;&lt;/a&gt;
 type. This can be used to set the &lt;code dir="ltr" translate="no"&gt;mutable-content&lt;/code&gt; property when sending
@@ -180,7 +181,7 @@ for the &lt;a href="https://github.com/firebase/firebase-admin-python/pull/183"&
 method now optionally takes a URL
 parameter. This can be used to access multiple Firebase Realtime Database
 instances in the same project more easily.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#webpushnotification"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.WebpushNotification&lt;/code&gt;&lt;/a&gt;
 type now supports additional parameters.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 2.14.0 - December 04, 2018</title><link>https://firebase.google.com/support/release-notes/admin/python#version_2140_-_december_04_2018</link><description>&lt;ul&gt;
@@ -198,7 +199,7 @@ APIs for updating individual apps.&lt;/li&gt;
 where it was taking a long time to process large RTDB nodes.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed how the SDK handles special characters in node
 names.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;messaging.AndroidNotification&lt;/code&gt; type now supports
 specifying a &lt;code dir="ltr" translate="no"&gt;channel_id&lt;/code&gt; when sending messages to Android O
 devices. Thanks &lt;a href="https://github.com/chemidy"&gt;chemidy&lt;/a&gt; for the
@@ -214,7 +215,7 @@ must use 3.4 or higher. Support for Python 2.7 has not changed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Declared a direct dependency on &lt;code dir="ltr" translate="no"&gt;google-api-core[grpc]&lt;/code&gt;
 in order to resolve some long-standing Firestore installation
 problems.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#aps"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.Aps&lt;/code&gt;&lt;/a&gt;
 class now supports configuring a
 critical alert sound. A new
@@ -244,7 +245,7 @@ details and code samples. Thanks &lt;a href="https://github.com/hardikns"&gt;har
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The user management API now uses the new Google Identity Toolkit
 REST API. Thanks &lt;a href="https://github.com/hardikns"&gt;hardikns&lt;/a&gt; for the
 &lt;a href="https://github.com/firebase/firebase-admin-python/pull/256"&gt;contribution&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 2.17.0 - May 23, 2019</title><link>https://firebase.google.com/support/release-notes/admin/python#version_2170_-_may_23_2019</link><description>&lt;h3 data-text="Firebase Cloud Messaging" id="firebase-cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 2.17.0 - May 23, 2019</title><link>https://firebase.google.com/support/release-notes/admin/python#version_2170_-_may_23_2019</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; A new
 &lt;a href="/docs/reference/admin/python/firebase_admin.messaging#send_multicast"&gt;&lt;code dir="ltr" translate="no"&gt;messaging.send_multicast()&lt;/code&gt;&lt;/a&gt;
 API for sending a message to a list of device registration tokens. Thanks

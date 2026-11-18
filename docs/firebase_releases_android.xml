@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 18 Nov 2026 11:00:51 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Android</title><link>https://firebase.google.com/support/release-notes/android</link><description>Latest updates and release notes for Firebase Android.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 18 Nov 2026 19:53:36 +0000</lastBuildDate><item><title>SDK Version 9.2 - June 27, 2016</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_92_-_june_27_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Minor improvements to error handling and error messages.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that caused apps that call &lt;code dir="ltr" translate="no"&gt;FirebaseCrash.log&lt;/code&gt;,
@@ -164,12 +164,14 @@ the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>SDK Version 10.2.1 - March 21, 2017</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_1021_-_march_21_2017</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The Firebase Android SDK (v10.2.1) includes updates to provide
 compatibility with Android O Developer Preview 1. The most significant updates
-are internal changes to the &lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt; (&lt;span class="notranslate"&gt;FCM&lt;/span&gt;) libraries
-and a change in the guaranteed lifecycle of &lt;span class="notranslate"&gt;FCM&lt;/span&gt; callbacks to 10
-seconds, after which Android O considers such callbacks eligible for
-termination. For more information on handling &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages on
+are internal changes to the &lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt;
+(&lt;span class="notranslate"&gt;FCM&lt;/span&gt;) libraries and a change in the guaranteed
+lifecycle of &lt;span class="notranslate"&gt;FCM&lt;/span&gt; callbacks to 10 seconds,
+after which Android O considers such callbacks eligible for termination. For
+more information on handling &lt;span class="notranslate"&gt;FCM&lt;/span&gt; messages on
 Android O, see
-&lt;a href="https://firebase.googleblog.com/2017/03/using-firebase-cloud-messaging-with.html"&gt;The Firebase Blog&lt;/a&gt;.&lt;/li&gt;
+&lt;a href="https://firebase.googleblog.com/2017/03/using-firebase-cloud-messaging-with.html"&gt;The Firebase Blog&lt;/a&gt;
+.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>SDK Version 10.2.4 - April 28, 2017</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_1024_-_april_28_2017</link><description>&lt;h3 data-text="Cloud Storage" id="cloud-storage_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;getParent()&lt;/code&gt; method now returns &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt; if called on the root
 of a &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; path, aligning the behavior of the Android SDK with
@@ -310,8 +312,8 @@ network request monitoring.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Reduced the resources required to initialize &lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>SDK Version 11.0.4 - July 26, 2017</title><link>https://firebase.google.com/support/release-notes/android#sdk_version_1104_-_july_26_2017</link><description>&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression causing apps running on secondary user profiles
-and Android For Work user profiles to not receive the &lt;span class="notranslate"&gt;FCM&lt;/span&gt;
-registration token.&lt;/li&gt;
+and Android For Work user profiles to not receive the
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration token.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed instances where app startup times included background thread
 time not caused by interactions.&lt;/li&gt;
@@ -364,9 +366,14 @@ the &lt;a href="/docs/firestore/quickstart"&gt;Quickstart&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added user metadata to &lt;a href="/docs/reference/android/com/google/firebase/auth/FirebaseUser"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseUser&lt;/code&gt;&lt;/a&gt; to help determine if the user is new.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the ability to get a &lt;a href="/docs/reference/android/com/google/firebase/auth/PhoneAuthCredential"&gt;&lt;code dir="ltr" translate="no"&gt;PhoneAuthCredential&lt;/code&gt;&lt;/a&gt; from a &lt;a href="/docs/reference/android/com/google/firebase/auth/FirebaseAuthUserCollisionException"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseAuthUserCollisionException&lt;/code&gt;&lt;/a&gt; if linking a phone number fails to prevent the need to send a second text message.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; If your app crashes or doesn't respond, &lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt; (&lt;span class="notranslate"&gt;FCM&lt;/span&gt;) now tries to redeliver missed messages after a short delay. This change is automatic, and doesn't require any updates to your code.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; If your app crashes or doesn't respond, &lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt;
+(&lt;span class="notranslate"&gt;FCM&lt;/span&gt;) now tries to redeliver missed messages
+after a short delay. This change is automatic, and doesn't require any updates
+to your code.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;FirebaseInstanceIdInternalReceiver&lt;/code&gt; has been removed from the SDK's automatically-merged AndroidManifest. If you weren't using Gradle or its manifest automerging feature and were adding this receiver manually, you can now remove it.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved &lt;span class="notranslate"&gt;FCM&lt;/span&gt; token fetch logic so that the &lt;span class="notranslate"&gt;FCM&lt;/span&gt; token is now created faster and with less battery drain.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved &lt;span class="notranslate"&gt;FCM&lt;/span&gt; token fetch logic so
+that the &lt;span class="notranslate"&gt;FCM&lt;/span&gt; token is now created faster and
+with less battery drain.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an undercounting issue where &lt;code dir="ltr" translate="no"&gt;dynamic_link_app_open&lt;/code&gt; wasn't being logged to Google Analytics when the app was opened after being updated due to a link.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated &lt;a href="/docs/reference/android/com/google/firebase/dynamiclinks/ShortDynamicLink.Warning#getCode()"&gt;&lt;code dir="ltr" translate="no"&gt;Warning.getCode()&lt;/code&gt;&lt;/a&gt;. &lt;a href="/docs/reference/android/com/google/firebase/dynamiclinks/ShortDynamicLink.Warning#getMessage()"&gt;&lt;code dir="ltr" translate="no"&gt;Warning.getMessage()&lt;/code&gt;&lt;/a&gt; now returns all necessary information about the warning and how to correct it.&lt;/li&gt;
@@ -409,7 +416,14 @@ To learn how, read &lt;a href="/docs/perf-mon/get-started-android#manual-network
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Play Games is now supported as a sign-in provider. See the
 &lt;a href="/docs/auth/android/play-games"&gt;integration guide&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;a href="/docs/reference/android/com/google/firebase/messaging/FirebaseMessaging#setAutoInitEnabled(boolean)"&gt;&lt;code dir="ltr" translate="no"&gt;setAutoInitEnabled()&lt;/code&gt;&lt;/a&gt; and &lt;a href="/docs/reference/android/com/google/firebase/messaging/FirebaseMessaging#isAutoInitEnabled()"&gt;&lt;code dir="ltr" translate="no"&gt;isAutoInitEnabled()&lt;/code&gt;&lt;/a&gt; methods to the &lt;a href="/docs/reference/android/com/google/firebase/messaging/FirebaseMessaging"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseMessaging&lt;/code&gt;&lt;/a&gt; class to set and check whether &lt;span class="notranslate"&gt;FCM&lt;/span&gt; auto-initializes. Also added &lt;code dir="ltr" translate="no"&gt;firebase_messaging_auto_init_enabled&lt;/code&gt; manifest metadata flag for setting auto-initialization preferences from the Android Manifest file.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the
+&lt;a href="/docs/reference/android/com/google/firebase/messaging/FirebaseMessaging#setAutoInitEnabled(boolean)"&gt;&lt;code dir="ltr" translate="no"&gt;setAutoInitEnabled()&lt;/code&gt;&lt;/a&gt; and
+&lt;a href="/docs/reference/android/com/google/firebase/messaging/FirebaseMessaging#isAutoInitEnabled()"&gt;&lt;code dir="ltr" translate="no"&gt;isAutoInitEnabled()&lt;/code&gt;&lt;/a&gt; methods to the
+&lt;a href="/docs/reference/android/com/google/firebase/messaging/FirebaseMessaging"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseMessaging&lt;/code&gt;&lt;/a&gt;
+class to set and check whether &lt;span class="notranslate"&gt;FCM&lt;/span&gt;
+auto-initializes. Also added &lt;code dir="ltr" translate="no"&gt;firebase_messaging_auto_init_enabled&lt;/code&gt; manifest
+metadata flag for setting auto-initialization preferences from the Android
+Manifest file.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a regression that caused custom notification icons to be rejected on Android 8.0.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Firestore now cleanly shuts down idle write streams.&lt;/li&gt;
@@ -2024,13 +2038,14 @@ notification title to be omitted.&lt;/p&gt;&lt;/li&gt;
 sure that push notifications still work as expected. Also, be aware of the
 following:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The &lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration tokens of installed instances of your apps
-might change once after updating dependencies to their latest versions. To
-learn if your apps are affected, review the
+&lt;li&gt;&lt;p&gt;The &lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration tokens of installed
+instances of your apps might change once after updating dependencies to
+their latest versions. To learn if your apps are affected, review the
 &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/blob/master/firebase-installations/FCM_TOKENS_CHANGE.md"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations documentation&lt;/a&gt;. Also,
 make sure to
 &lt;a href="/docs/cloud-messaging/android/client#monitor-token-generation"&gt;monitor
-&lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration token generation&lt;/a&gt; using the
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration token generation&lt;/a&gt;
+using the
 &lt;code dir="ltr" translate="no"&gt;#onNewToken&lt;/code&gt; implementation.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Apps that use the Firebase auto-initialization process and the Gradle plugin
 to convert &lt;code dir="ltr" translate="no"&gt;google-services.json&lt;/code&gt; into resources are unaffected. However,
@@ -2045,13 +2060,14 @@ instance of a Firebase app.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Several Firebase products transitively depend on the
 &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations SDK. Be aware of the following:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The &lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration tokens of installed instances of your apps
-might change once after updating dependencies to their latest versions. To
-learn if your apps are affected, review the
+&lt;li&gt;&lt;p&gt;The &lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration tokens of installed
+instances of your apps might change once after updating dependencies to
+their latest versions. To learn if your apps are affected, review the
 &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/blob/master/firebase-installations/FCM_TOKENS_CHANGE.md"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations documentation&lt;/a&gt;. Also,
 make sure to
 &lt;a href="/docs/cloud-messaging/android/client#monitor-token-generation"&gt;monitor
-&lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration token generation&lt;/a&gt; using the
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration token generation&lt;/a&gt;
+using the
 &lt;code dir="ltr" translate="no"&gt;#onNewToken&lt;/code&gt; implementation.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Apps that use the Firebase auto-initialization process and the Gradle plugin
 to convert &lt;code dir="ltr" translate="no"&gt;google-services.json&lt;/code&gt; into resources are unaffected. However,
@@ -2066,13 +2082,14 @@ issue, review the &lt;a class="external" href="//github.com/firebase/firebase-an
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Firebase Instance ID now depends on the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations SDK. Be
 aware of the following:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The &lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration tokens of installed instances of your apps
-might change once after updating dependencies to their latest versions. To
-learn if your apps are affected, review the
+&lt;li&gt;&lt;p&gt;The &lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration tokens of installed
+instances of your apps might change once after updating dependencies to
+their latest versions. To learn if your apps are affected, review the
 &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/blob/master/firebase-installations/FCM_TOKENS_CHANGE.md"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations documentation&lt;/a&gt;. Also,
 make sure to
 &lt;a href="/docs/cloud-messaging/android/client#monitor-token-generation"&gt;monitor
-&lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration token generation&lt;/a&gt; using the
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration token generation&lt;/a&gt;
+using the
 &lt;code dir="ltr" translate="no"&gt;#onNewToken&lt;/code&gt; implementation.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Apps that use the Firebase auto-initialization process and the Gradle plugin
 to convert &lt;code dir="ltr" translate="no"&gt;google-services.json&lt;/code&gt; into resources are unaffected. However,
@@ -3128,7 +3145,8 @@ SDKs.&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;firebase-inappmessaging-display&lt;/code&gt; library. The Kotlin extensions library has no
 additional updates.&lt;/p&gt;&lt;h3 data-text="Firebase Instance ID version 21.0.0" id="iid_v21-0-0" tabindex="-1"&gt;Firebase Instance ID version 21.0.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;firebase.iid&lt;/code&gt; package is now deprecated.&lt;/p&gt;
-&lt;p&gt;To retrieve &lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration tokens, use the equivalent methods in
+&lt;p&gt;To retrieve &lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration tokens, use the
+equivalent methods in
 the &lt;code dir="ltr" translate="no"&gt;FirebaseMessaging&lt;/code&gt; class. Specifically, call
 &lt;a href="/docs/reference/android/com/google/firebase/messaging/FirebaseMessaging#getToken()"&gt;&lt;code dir="ltr" translate="no"&gt;FirebaseMessaging.getToken()&lt;/code&gt;&lt;/a&gt;
 instead of &lt;code dir="ltr" translate="no"&gt;FirebaseInstanceId.getToken()&lt;/code&gt;.&lt;/p&gt;
@@ -3556,7 +3574,8 @@ additional updates.&lt;/p&gt;&lt;h3 data-text="Authentication version 20.0.4" id
 updates.&lt;/p&gt;&lt;h3 data-text="Cloud Messaging version 21.1.0" id="messaging_v21-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 21.1.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Migrated internal handling of new token callbacks and
 notification actions from Firebase Instance ID to &lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added functionality to generate &lt;span class="notranslate"&gt;FCM&lt;/span&gt; tokens from
+&lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added functionality to generate
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt; tokens from
 &lt;code dir="ltr" translate="no"&gt;FirebaseMessaging.getToken&lt;/code&gt;, while continuing to call through to Firebase
 Instance ID if it is present. This will allow &lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt; to
 remove its dependency on Firebase Instance ID in the future.&lt;/p&gt;&lt;/li&gt;
@@ -3571,12 +3590,14 @@ updates.&lt;/p&gt;&lt;h3 data-text="Cloud Messaging Direct Boot version 21.1.0" 
 SDK releases. For more details, refer to the
 &lt;a href="/support/release-notes/android#messaging_v21-1-0"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; v21.1.0 release notes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase Instance ID version 21.1.0" id="iid_v21-1-0" tabindex="-1"&gt;Firebase Instance ID version 21.1.0&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed the &lt;span class="notranslate"&gt;FCM&lt;/span&gt; new token and notification callback
-functionality and migrated it to &lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt;. For more
-information, refer to the
-&lt;a href="/support/release-notes/android#messaging_v21-0-0"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; v21.1.0 release notes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed the &lt;span class="notranslate"&gt;FCM&lt;/span&gt; new token and
+notification callback functionality and migrated it to
+&lt;span class="notranslate"&gt;Firebase Cloud Messaging&lt;/span&gt;. For more information, refer to the
+&lt;a href="/support/release-notes/android#messaging_v21-0-0"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; v21.1.0 release notes&lt;/a&gt;
+.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an inconsistency where only certain calls that generate a
-new &lt;span class="notranslate"&gt;FCM&lt;/span&gt; token for the app's default Firebase project triggered the
+new &lt;span class="notranslate"&gt;FCM&lt;/span&gt; token for the app's default Firebase
+project triggered the
 &lt;code dir="ltr" translate="no"&gt;FirebaseMessagingService.onNewToken&lt;/code&gt; hook.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Instance ID Interop version 17.1.0" id="iid-interop_v17-1-0" tabindex="-1"&gt;Instance ID Interop version 17.1.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal changes to ensure functionality alignment with other
@@ -3641,10 +3662,12 @@ updates.&lt;/p&gt;&lt;h3 data-text="Cloud Firestore version 23.0.0" id="firestor
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Cloud Messaging version 22.0.0" id="messaging_v22-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 22.0.0&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed dependency on the deprecated Firebase Instance ID SDK.&lt;/p&gt;
-&lt;aside class="caution"&gt;&lt;strong&gt;Caution:&lt;/strong&gt;&lt;span&gt; &lt;strong&gt;This is a breaking change for apps that use &lt;span class="notranslate"&gt;FCM&lt;/span&gt; and the
+&lt;aside class="caution"&gt;&lt;strong&gt;Caution:&lt;/strong&gt;&lt;span&gt; &lt;strong&gt;This is a breaking change for apps that use
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt; and the
 deprecated Firebase Instance ID API to manage registration tokens.&lt;/strong&gt;&lt;br/&gt;We
 strongly recommend
-&lt;a href="/docs/projects/manage-installations#fid-iid"&gt;migrating to &lt;span class="notranslate"&gt;FCM&lt;/span&gt;'s token APIs&lt;/a&gt;.
+&lt;a href="/docs/projects/manage-installations#fid-iid"&gt;migrating to &lt;span class="notranslate"&gt;FCM&lt;/span&gt;'s token
+APIs&lt;/a&gt;.
 If you're unable to migrate to the replacement APIs, add a direct dependency
 on the &lt;code dir="ltr" translate="no"&gt;firebase-iid&lt;/code&gt; library to your &lt;code dir="ltr" translate="no"&gt;build.gradle&lt;/code&gt; file.&lt;/span&gt;&lt;/aside&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Changed to open an &lt;code dir="ltr" translate="no"&gt;Activity&lt;/code&gt; directly when a notification is
@@ -4597,8 +4620,9 @@ updates.&lt;/p&gt;&lt;h3 data-text="Cloud Firestore version 24.2.0" id="firestor
 &lt;code dir="ltr" translate="no"&gt;firebase-firestore&lt;/code&gt; library. The Kotlin extensions library has no additional
 updates.&lt;/p&gt;&lt;h3 data-text="Cloud Messaging version 23.0.6" id="messaging_v23-0-6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 23.0.6&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;POST_NOTIFICATIONS&lt;/code&gt; permission to enable posting
-notifications when targeting SDK level 33. See &lt;span class="notranslate"&gt;FCM&lt;/span&gt; guidance
-on how to &lt;a href="/docs/cloud-messaging/android/client#request-permission13"&gt;request runtime notification permission on Android 13+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+notifications when targeting SDK level 33. See
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt; guidance on how to
+&lt;a href="/docs/cloud-messaging/android/client#request-permission13"&gt;request runtime notification permission on Android 13+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added an annotation to an internal class to fix a missing class
 warning.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;The Kotlin extensions library transitively includes the updated
@@ -8378,8 +8402,8 @@ function response content.
 (GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8363"&gt;#8363&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging version 25.1.2" id="messaging_v25-1-2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; version 25.1.2&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;span class="notranslate"&gt;FCM&lt;/span&gt; registration error due to
-&lt;code dir="ltr" translate="no"&gt;FID_ALREADY_USED&lt;/code&gt;.
-(GitHub &lt;a class="external" href="//github.com/firebase/firebase-android-sdk/issues/8507"&gt;#8507&lt;/a&gt;)&lt;/li&gt;
+&lt;code dir="ltr" translate="no"&gt;FID_ALREADY_USED&lt;/code&gt;. (GitHub
+&lt;a href="//github.com/firebase/firebase-android-sdk/issues/8507"&gt;#8507&lt;/a&gt; {: .external})&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging Direct Boot version 25.1.2" id="messaging-directboot_v25-1-2" tabindex="-1"&gt;Cloud Messaging Direct Boot version 25.1.2&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-unchanged"&gt;&lt;/span&gt; Updated to keep messaging SDK versions aligned.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crashlytics Gradle plugin version 3.0.8" id="crashlytics_gradle_plugin_v3-0-8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; Gradle plugin version 3.0.8&lt;/h3&gt;&lt;ul&gt;

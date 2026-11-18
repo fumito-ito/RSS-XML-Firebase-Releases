@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 18 Nov 2026 11:00:48 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 18 Nov 2026 19:53:33 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -19,7 +19,7 @@ other platforms.&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;FIRApp&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Firebase now logs a warning instead of throwing an exception
 when your database has exceeded its concurrency limit.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt; no longer registers for remote notifications
 on startup.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="cloud-storage_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -48,7 +48,7 @@ release.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>SDK Version 3.4.0 - August 1, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_340_-_august_1_2016</link><description>&lt;h3 data-text="Authentication" id="authentication_24" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug that causes a race condition that could crash an app
 running on iOS 9 with an exception from &lt;code dir="ltr" translate="no"&gt;NSURLSession&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_19" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;plist&lt;/code&gt; files used by &lt;code dir="ltr" translate="no"&gt;FIRMessaging&lt;/code&gt; are now stored in an
 &lt;code dir="ltr" translate="no"&gt;ApplicationSupport&lt;/code&gt; directory.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remote-config_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -116,10 +116,10 @@ logged.&lt;/p&gt;&lt;/li&gt;
 using the
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;
 class.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new API method, &lt;code dir="ltr" translate="no"&gt;-applicationReceivedRemoteMessage:&lt;/code&gt; to
-allow apps to receive data messages from &lt;span class="notranslate"&gt;FCM&lt;/span&gt; on devices running iOS 10
-and greater.&lt;/li&gt;
+allow apps to receive data messages from &lt;span class="notranslate"&gt;FCM&lt;/span&gt; on
+devices running iOS 10 and greater.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_23" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved the behavior of &lt;span class="notranslate"&gt;Firebase Authentication&lt;/span&gt; when testing apps using
 the iOS 10 simulator.&lt;/li&gt;
@@ -368,7 +368,7 @@ initialization error message.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved Xcode warnings.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added description for &lt;code dir="ltr" translate="no"&gt;FIRDynamicLink&lt;/code&gt; object.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_17" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Custom &lt;code dir="ltr" translate="no"&gt;UNNotificationCenterDelegates&lt;/code&gt; are swizzled properly when
 swizzling is enabled.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved issue in iOS 8.0 and 8.1 with scheduled notifications.&lt;/li&gt;
@@ -425,7 +425,7 @@ as a dependency.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved pending link retrieval process, especially when custom
 URL schemes are not set up correctly.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_16" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Introduced an improved interface for Swift 3 developers.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new properties and methods to simplify FCM token management.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;APNSToken&lt;/code&gt; property to simplify APNs token management.&lt;/li&gt;
@@ -501,7 +501,7 @@ locked.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a small memory leak that occurred when fetching a new token.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved and simplified both the token storage system and the
 queuing system for token fetches and deletes.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_15" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where setting
 &lt;a href="/docs/reference/ios/firebasemessaging/api/reference/Classes/FIRMessaging#shouldestablishdirectchannel"&gt;&lt;code dir="ltr" translate="no"&gt;shouldEstablishDirectChannel&lt;/code&gt;&lt;/a&gt;
 in a background thread was triggering a Main Thread Sanitizer warning in
@@ -531,7 +531,7 @@ stale instance.&lt;/li&gt;
 usage.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Instance ID" id="instance_id_10" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed a call that blocked the main thread during app startup.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed logic that saved the SDK version to &lt;code dir="ltr" translate="no"&gt;NSUserDefaults&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved open issues with &lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;.&lt;/li&gt;
@@ -555,9 +555,9 @@ versions.&lt;/li&gt;
 active database instances.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Instance ID" id="instance_id_9" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved a race condition where a token was not being generated on
-first start when &lt;span class="notranslate"&gt;FCM&lt;/span&gt; was included and the app didn’t register for
-remote notifications.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+first start when &lt;span class="notranslate"&gt;FCM&lt;/span&gt; was included and the app
+didn’t register for remote notifications.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Additional error code logging for errors thrown when creating or
 opening an internal database file.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -584,11 +584,11 @@ is now available. To learn more, see the
 is now available. To learn more, see the
 &lt;a href="/docs/firestore"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; documentation&lt;/a&gt; or go directly to
 the &lt;a href="/docs/firestore/quickstart"&gt;Quickstart&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved issues with &lt;span class="notranslate"&gt;FCM&lt;/span&gt; token associations to APNs device
-tokens.&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;FCM&lt;/span&gt; direct channel is now properly established on the
-first start 24 hours after being opened.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_12" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved issues with &lt;span class="notranslate"&gt;FCM&lt;/span&gt; token
+associations to APNs device tokens.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;FCM&lt;/span&gt; direct channel is now
+properly established on the first start 24 hours after being opened.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added infrastructure to more easily diagnose issues.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="realtime-database_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -610,7 +610,7 @@ specifications in XCode 9.&lt;/li&gt;
 Swift SDK.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed retain cycle in
 &lt;code dir="ltr" translate="no"&gt;FIRDocumentReference getDocumentWithCompletion:&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_11" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved logging of notification opens, by swizzling additional
 &lt;code dir="ltr" translate="no"&gt;UNUserNotificationCenterDelegate&lt;/code&gt; method.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved the handling of unimplemented
@@ -627,7 +627,8 @@ target iOS 8 or above. To see the breakdown of worldwide iOS versions,
 Firebase console using &lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;. Learn more about creating
 experiments with A/B Testing for
 &lt;a href="/docs/remote-config/abtest-config"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/a&gt; and
-&lt;a href="/docs/cloud-messaging/abtest-with-console"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;a href="/docs/cloud-messaging/abtest-with-console"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/a&gt;
+.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="authentication_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved open issues with &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -767,7 +768,7 @@ version 4.8.1 to prevent usage of the SDK with the issue.&lt;/li&gt;
 Server updates happen more efficiently when language changes.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved support for FCM token auto generation enable/disable
 functions.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_10" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new property &lt;code dir="ltr" translate="no"&gt;autoInitEnabled&lt;/code&gt; to enable and disable
 FCM token auto generation.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved an issue where notification delivery would fail after
@@ -804,7 +805,7 @@ user is detected.&lt;/li&gt;
 32 bit iOS devices with persistence enabled.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Addressed &lt;code dir="ltr" translate="no"&gt;CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF&lt;/code&gt; warnings that
 surface in newer versions of Xcode and CocoaPods.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_9" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved documentation on the usage of the &lt;code dir="ltr" translate="no"&gt;autoInitEnabled&lt;/code&gt;
 property.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -862,7 +863,7 @@ set to false an invalid argument exception is thrown.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Adds support for passing the deep link (which is embedded in the
 sign-in link sent via email) to the &lt;code dir="ltr" translate="no"&gt;signInWithEmail:link:completion:&lt;/code&gt; and
 &lt;code dir="ltr" translate="no"&gt;isSignInWithEmailLink:&lt;/code&gt; methods during an email/link sign-in flow.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_8" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new methods that provide completion handlers for topic
 subscription and unsubscription.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -903,9 +904,9 @@ breakdown of worldwide iOS versions, go to
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Ensure &lt;code dir="ltr" translate="no"&gt;Firebase/Core&lt;/code&gt; is included in your Podfile.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The minimum CocoaPods version required is now 1.4.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Authentication&lt;/span&gt;, &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;, Core, &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;, &lt;span class="notranslate"&gt;&lt;span class="notranslate"&gt;Cloud Functions for Firebase&lt;/span&gt; Client SDK&lt;/span&gt;,
-&lt;span class="notranslate"&gt;FCM&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; SDKs are now Source Pods. This means you can
-directly see the source code in your project and see the full call stack while
-debugging.&lt;/li&gt;
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt;, and &lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; SDKs are now Source Pods.
+This means you can directly see the source code in your project and see the
+full call stack while debugging.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase Core" id="firebase_core" tabindex="-1"&gt;Firebase Core&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed deprecated methods.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed UIKit import from FIRApp.h.&lt;/li&gt;
@@ -939,7 +940,7 @@ is replaced by &lt;code dir="ltr" translate="no"&gt;FIRDLMatchType&lt;/code&gt;.
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed deprecated method &lt;code dir="ltr" translate="no"&gt;setAPNSToken:type&lt;/code&gt; defined in FIRInstanceID, please use &lt;code dir="ltr" translate="no"&gt;setAPNSToken:type&lt;/code&gt; defined in FIRMessaging instead.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed deprecated enum &lt;code dir="ltr" translate="no"&gt;FIRInstanceIDAPNSTokenType&lt;/code&gt; defined in FIRInstanceID, please use &lt;code dir="ltr" translate="no"&gt;FIRMessagingAPNSTokenType&lt;/code&gt; defined in FIRMessaging instead.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved an issue that FCM scheduled messages were not tracked successfully.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed deprecated delegate property &lt;code dir="ltr" translate="no"&gt;remoteMessageDelegate&lt;/code&gt;,
 use &lt;code dir="ltr" translate="no"&gt;delegate&lt;/code&gt; instead.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed deprecated method
@@ -1011,7 +1012,7 @@ ML Kit for Firebase subspecs.&lt;/li&gt;
         dispatch queue, but this configuration would trigger an assertion
         failure. Passing a concurrent dispatch queue should now work
         correctly (#988).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_6" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Cleaned up some deprecation warnings.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title> Version 5.2.0 - Jun 6, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_520_-_jun_6_2018</link><description>&lt;h3 data-text="Authentication" id="authentication_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Restore 4.x level of support for extensions.&lt;/li&gt;
@@ -1023,7 +1024,7 @@ ML Kit for Firebase subspecs.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support to log a new customized label provided by developer.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="cloud-firestore_14" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_5" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a warning message when subscribing to topics with incorrect name formats.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Silenced a deprecation warning in FIRMessaging.&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title> Version 5.3.0 - Jun 20, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_530_-_jun_20_2018</link><description>&lt;ul&gt;
@@ -1069,7 +1070,7 @@ to non-anonymous when linked with passwordless email auth accounts.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add a constructor to set the region.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add a method to set a &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; emulator origin to use, for
 testing.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_4" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Client now properly suspends topic requests when a token is
 not available and resumes the topic operation when the token is generated.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Corrected the deprecation warning when subscribing to or
@@ -1107,12 +1108,14 @@ parsing failures during auth operations (&lt;a href="//github.com/firebase/fireb
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved message tracking sent by server API.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with InstanceID not properly compiling in app
 extensions.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added support for global Firebase data collection flag.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1219"&gt;#1219&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;span class="notranslate"&gt;FCM&lt;/span&gt; wouldn't properly unswizzle swizzled
-delegate methods. (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1481"&gt;#1481&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved an issue with &lt;span class="notranslate"&gt;FCM&lt;/span&gt; not compiling inside app extensions.
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;span class="notranslate"&gt;FCM&lt;/span&gt; wouldn't
+properly unswizzle swizzled delegate methods.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1481"&gt;#1481&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved an issue with &lt;span class="notranslate"&gt;FCM&lt;/span&gt; not
+compiling inside app extensions.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1503"&gt;#1503&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_3" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved SDK crashes.&lt;/li&gt;
@@ -1160,7 +1163,7 @@ For more information, &lt;a href="/docs/in-app-messaging"&gt;see the documentati
 &lt;/ul&gt;</description></item><item><title> Version 5.7.0 - August 28, 2018</title><link>https://firebase.google.com/support/release-notes/ios#version_570_-_august_28_2018</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Clarified wording in &lt;code dir="ltr" translate="no"&gt;FirebaseAnalytics not available&lt;/code&gt; log message.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1653"&gt;#1653&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_2" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Ensure &lt;code dir="ltr" translate="no"&gt;NSUserDefaults&lt;/code&gt; is persisted properly before app close.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1646"&gt;#1646&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Internal code cleanup.
@@ -1232,7 +1235,7 @@ it would make 2 attempts, to work around a backend bug.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Some SDK errors that represent common mistakes (such as permission
 denied or a missing index) will automatically be logged as a warning in
 addition to being surfaced via the API.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Now you can access the message ID of &lt;code dir="ltr" translate="no"&gt;FIRMessagingRemoteMessage&lt;/code&gt; object.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1861"&gt;#1861&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add a new boolean value &lt;code dir="ltr" translate="no"&gt;useFIRMessagingDelegateForDirectMessageDelivery&lt;/code&gt; if
@@ -1270,7 +1273,7 @@ from &lt;code dir="ltr" translate="no"&gt;detectInImage:completion:&lt;/code&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash caused by keychain operation when accessing default
 access group. (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1399"&gt;#1399&lt;/a&gt;,
 &lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1393"&gt;#1393&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="fcm" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where messages failed to be delivered to the
 recipient's time zone. (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1946"&gt;#1946&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance-monitoring_1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1424,7 +1427,7 @@ keychain is added, to make sure keychain access won't be blocked when device
 is locked. (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/1399"&gt;#1399&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where push notification is not working on release
 builds. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/2365"&gt;#2365&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v5-17-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v5-17-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup to improve better unit testing.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/2250"&gt;#2250&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 5.18.0 - March 5, 2019</title><link>https://firebase.google.com/support/release-notes/ios#version_5180_-_march_5_2019</link><description>&lt;ul&gt;
@@ -1454,7 +1457,7 @@ updates on in-app engagement (impression, click, display errors).
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v5-18-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Open Source Firebase InstanceID.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/186"&gt;#186&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v5-18-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v5-18-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Replaced &lt;code dir="ltr" translate="no"&gt;NSUserDefaults&lt;/code&gt; with &lt;code dir="ltr" translate="no"&gt;GULUserDefaults&lt;/code&gt; to avoid potential
 crashes.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/2443"&gt;#2443&lt;/a&gt;).&lt;/li&gt;
@@ -1504,7 +1507,7 @@ in this release.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v5-19-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash that occurred when integrating &lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;
 into NativeScript apps.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v5-19-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v5-19-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added community support for tvOS.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/2428"&gt;#2428&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v5-19-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
@@ -1635,7 +1638,7 @@ classification models trained by AutoML on custom images.&lt;/li&gt;
 monitoring download progress, and receiving notifications. To learn more,
 read &lt;a href="/docs/ml-kit"&gt;ML Kit for Firebase&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Upgraded TensorFlowLite dependency from 1.12.0 to 1.13.1.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed &lt;code dir="ltr" translate="no"&gt;useMessagingDelegateForDirectChannel&lt;/code&gt; property. All direct channels (non-APNS) messages will be handled in &lt;code dir="ltr" translate="no"&gt;FIRMessagingDelegate messaging:didReceiveMessage:&lt;/code&gt;.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/2711"&gt;#2711&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed deprecated API to connect direct channel. Use &lt;code dir="ltr" translate="no"&gt;shouldEstablishDirectChannel&lt;/code&gt; property instead.
@@ -1687,7 +1690,7 @@ event trigger
 memory for the instance once all references have been removed.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Renamed Swift values of &lt;code dir="ltr" translate="no"&gt;TranslateLanguage&lt;/code&gt; from uppercase to
 lowercase, e.g. from &lt;code dir="ltr" translate="no"&gt;TranslateLanguage.EN&lt;/code&gt; to &lt;code dir="ltr" translate="no"&gt;TranslateLanguage.en&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remove reflection call to get checkin info from Firebase Messaging and calling the private API directly.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/2825"&gt;#2825&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix race condition checkin is deleted before writing during app start. This cleans up the corrupted checkin which causes notifications failed to deliver.
@@ -1713,7 +1716,7 @@ Cloud Objective-C APIs in the same project.&lt;/li&gt;
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3018"&gt;#3018&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="ML Kit for Firebase" id="mlkit_v6-2-0" tabindex="-1"&gt;ML Kit for Firebase&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements and refactored code.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Disable data protection when opening the Rmq2PersistentStore.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/2963"&gt;#2963&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.3.0 - June 19, 2019</title><link>https://firebase.google.com/support/release-notes/ios#version_630_-_june_19_2019</link><description>&lt;h3 data-text="Analytics" id="analytics_v6-3-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1739,7 +1742,7 @@ present (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/3101"&gt;#3101&
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/2880"&gt;#2880&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Corrected timezone proto key.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/3132"&gt;#3132&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-3-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-3-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added macOS support for Messaging. You can now send push notifications to your mac app with Firebase Messaging.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/2880"&gt;#2880&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v6-3-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1772,7 +1775,7 @@ include bundle identifiers in their frameworks or apps
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v6-4-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Fixed an issue where fetching an instance ID wouldn't invoke the callback handler if the instance ID had not changed.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3229"&gt;#3229&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-4-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-4-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Fix Xcode 11 tvOS build issue
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/3216"&gt;#3216&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="ML Kit for Firebase" id="mlkit_v6-4-0" tabindex="-1"&gt;ML Kit for Firebase&lt;/h3&gt;&lt;ul&gt;
@@ -1866,7 +1869,7 @@ times successfully in a transaction.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash that could occur if InstanceID was shut down when
 fetching a new instance ID
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3439"&gt;#3439&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix hang when token is not available before topic subscription and
 unsubscription (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3438"&gt;#3438&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v6-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -1907,7 +1910,7 @@ also need to specify a namespace (&lt;code dir="ltr" translate="no"&gt;"http://&
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Minor internal refactoring.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore_v6-7-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-7-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-7-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Cleaned up documents, unused macros, and folders (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3490"&gt;#3490&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3537"&gt;#3537&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3556"&gt;#3556&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3498"&gt;#3498&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the header path to pod repo relative (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3527"&gt;#3527&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix singleton functionality after a FirebaseApp is deleted and recreated (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3411"&gt;#3411&lt;/a&gt;).&lt;/li&gt;
@@ -1938,7 +1941,7 @@ from disk.&lt;/li&gt;
 used going forward in custom UI display (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3545"&gt;#3545&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v6-8-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Moved two headers from internal to private for Remote Config open sourcing (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3621"&gt;#3621&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-8-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-8-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed notification open event is not logged when scheduling a local timezone message (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3670"&gt;#3670&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3638"&gt;#3638&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed FirebaseApp.delete() results in unusable Messaging singleton (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3411"&gt;#3411&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="ML Kit for Firebase" id="mlkit_v6-8-0" tabindex="-1"&gt;ML Kit for Firebase&lt;/h3&gt;&lt;ul&gt;
@@ -1969,7 +1972,7 @@ used going forward in custom UI display (&lt;a href="//github.com/firebase/fireb
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore_v6-9-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a memory access error discovered using the sanitizers in Xcode
 11.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-9-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-9-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mute FCM deprecated warnings with Xcode 11 and min iOS &amp;gt;= 10
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3857"&gt;#3857&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="ML Kit for Firebase" id="mlkit_v6-9-0" tabindex="-1"&gt;ML Kit for Firebase&lt;/h3&gt;&lt;ul&gt;
@@ -2005,7 +2008,7 @@ in sync with each other.&lt;/li&gt;
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3927"&gt;#3927&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed storyboard layout error in Xcode 11
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3748"&gt;#3748&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-10-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-10-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated Protobuf version to fix warnings in Xcode.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="ML Kit for Firebase" id="mlkit_v6-10-0" tabindex="-1"&gt;ML Kit for Firebase&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; An enhanced version of barcode scanner with better speed and
@@ -2094,7 +2097,7 @@ client initialization
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4025"&gt;#4025&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed migration logic from document folder to application folder
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4033"&gt;#4033&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-11-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-11-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed IID and Messaging container instantiation timing issue
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4030"&gt;#4030&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal cleanup and remove migration logic from document folder
@@ -2137,7 +2140,7 @@ if token is stale
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4167"&gt;#4167&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated deprecated keychain access level
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4172"&gt;#4172&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-12-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-12-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Moved reliable message queue database operation off main thread
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4053"&gt;#4053&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v6-12-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2159,7 +2162,7 @@ you're manually tracking dependencies, you may be able to remove it from your
 build (note, however, that other Firebase components may still require it).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added a dependency on the &lt;code dir="ltr" translate="no"&gt;abseil&lt;/code&gt; CocoaPod. If you're manually
 tracking dependencies, you need to add it to your build.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-13-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-13-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Moved message queue delete operation to a serial queue to avoid
 race conditions in unit tests
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4236"&gt;#4236&lt;/a&gt;).&lt;/li&gt;
@@ -2220,7 +2223,7 @@ FirebaseInAppMessaging when GoogleTagManager is also present
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v6-14-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added heartbeat support for InstanceID (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4323"&gt;#4323&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the documentations on a few random generation and hash methods to clarify its use case to avoid confusions. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4469"&gt;#4469&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4444"&gt;#4444&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4326"&gt;#4326&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-14-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-14-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix component startup time (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4137"&gt;#4137&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v6-14-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue related to app start trace being insanely long.
@@ -2267,7 +2270,7 @@ matching documents up to the given limit.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase installations service" id="installations_v6-15-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations service&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations service is an infrastructure service for Firebase services that creates unique identifiers and authentication tokens for Firebase clients (called "Firebase installations") enabling Firebase Targeting, i.e. interoperation between Firebase services.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations SDK introduces the &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; installations API. Developers that use API key restrictions may experience blocked requests (https://stackoverflow.com/questions/58495985/). This problem can be mitigated by following the instructions found &lt;a href="https://github.com/firebase/firebase-ios-sdk/blob/master/FirebaseInstallations/API_KEY_RESTRICTIONS.md"&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-15-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-15-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added watchOS community support for Firebase Messaging. This enables FCM push notification function on watch only app or independent watch app. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4016"&gt;#4016&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new transitive dependency on the Firebase Installations SDK. The Firebase Installations SDK introduces the &lt;a href="https://console.cloud.google.com/apis/library/firebaseinstallations.googleapis.com"&gt;Firebase Installations API&lt;/a&gt;. Developers that use API-restrictions for their API-Keys may experience blocked requests (https://stackoverflow.com/questions/58495985/). A solution is available &lt;a href="https://github.com/firebase/firebase-ios-sdk/blob/master/FirebaseInstallations/API_KEY_RESTRICTIONS.md"&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v6-15-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2313,7 +2316,7 @@ from the new location (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal improvements.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v6-17-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Instance ID no longer collects logging IDs (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4444"&gt;#4444&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-17-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-17-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;pod Firebase/Messaging&lt;/code&gt; subspec now supports watchOS (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4807"&gt;#4807&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed FIRMessagingExtensionHelper crashing in unit tests (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4689"&gt;#4689&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed FIRMessagingRmqManager crashing on devices with corrupted messaging database files (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4771"&gt;#4771&lt;/a&gt;).&lt;/li&gt;
@@ -2339,7 +2342,7 @@ symbol errors in the 6.14.0 through 6.16.0 binary release distributions (&lt;a h
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for data bundles for in-app messages. Data bundles are additional key-value pairs that can be sent along with an in-app message (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4922"&gt;#4922&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v6-18-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed unused files (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4881"&gt;#4881&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-18-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-18-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated FCM direct channel messaging via &lt;code dir="ltr" translate="no"&gt;shouldEstablishDirectChannel&lt;/code&gt;. Instead, use APNs for downstream message delivery. Add &lt;code dir="ltr" translate="no"&gt;content_available&lt;/code&gt; key to your payload if you want to continue use legacy APIs, but we strongly recommend HTTP v1 API as it provides full APNs support. The deprecated API will be removed in Firebase 7 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4710"&gt;#4710&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Deprecated upstream messaging API. For realtime updates, use Cloud Firestore, Realtime Database, or other services. The deprecated API will be removed in Firebase 7 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4710"&gt;#4710&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Use secure coding for Messaging's pending topics (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/3686"&gt;#3686&lt;/a&gt;).&lt;/li&gt;
@@ -2508,7 +2511,7 @@ without transactions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Keychain key-value storage refactored to &lt;code dir="ltr" translate="no"&gt;GoogleUtilities&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5329"&gt;#5329&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v6-23-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal cleanup and remove repetitive local notification (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5339"&gt;#5339&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-23-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-23-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that when a token is deleted, the token refresh notification and delegate is not triggered (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5338"&gt;#5338&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="storage_v6-23-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix a rare case where a StorageTask would call its completion callbacks more than
@@ -2539,7 +2542,7 @@ will perform when resolving inconsistencies in the local cache
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v6-24-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where GoogleUtilities wasn't explicitly listed as a
 dependency (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5282"&gt;#5282&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-24-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-24-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed the location of source under FirebaseMessaging folder to
 fit the current repository organization (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5476"&gt;#5476&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v6-24-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2561,7 +2564,7 @@ Objective-C or Swift users.&lt;/li&gt;
 &lt;code dir="ltr" translate="no"&gt;fieldNameConflict&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5520"&gt;#5520&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v6-25-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where clicks were counted for messages with no action URL (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5564"&gt;#5564&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-25-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-25-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated an error case with a failure reason to give more details on the error (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5511"&gt;#5511&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v6-25-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a bug where settings updates weren't applied before fetches (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4740"&gt;#4740&lt;/a&gt;).&lt;/li&gt;
@@ -2623,7 +2626,7 @@ to the backend immediately after a user signed in.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Standardize FirebaseCore import headers (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5758"&gt;#5758&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v6-27-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Standardize FirebaseCore import headers (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5758"&gt;#5758&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-27-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-27-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Use UNNotificationRequest to schedule local notification for local timezone notification for iOS 10 and above. This should also fix an issue where '%' was not properly shown in title and body (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5667"&gt;#5667&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed Maltese language key for language targeting (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5702"&gt;#5702&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v6-27-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -2670,7 +2673,7 @@ compaction (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5881"&gt;#
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Functionally neutral source reorganization (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5832"&gt;#5832&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v6-28-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Functionally neutral updated import references for dependencies (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5824"&gt;#5824&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-28-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-28-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix documentation warning exposed by Xcode 12 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5876"&gt;#5876&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Functionally neutral updated import references for dependencies (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5824"&gt;#5824&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="ML Kit for Firebase" id="mlkit_v6-28-0" tabindex="-1"&gt;ML Kit for Firebase&lt;/h3&gt;&lt;ul&gt;
@@ -2715,7 +2718,7 @@ with Boolean value &lt;code dir="ltr" translate="no"&gt;NO&lt;/code&gt; to your 
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Functionally neutral source reorganization for preliminary Swift Package Manager support (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6013"&gt;#6013&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v6-29-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remove FIRInstanceIDURLQueryItem in favor of NSURLQueryItem (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5835"&gt;#5835&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-29-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-29-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Remove logic that was executed for iOS 7 and below (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5835"&gt;#5835&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v6-29-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Functionally neutral source reorganization for preliminary Swift Package Manager support (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6013"&gt;#6013&lt;/a&gt;).&lt;/li&gt;
@@ -2792,7 +2795,7 @@ Manager support.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v6-31-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new notification for listening for FCM token refresh and updating the token cache in InstanceID (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6286"&gt;#6286&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where token refresh notification would not be triggered when using &lt;code dir="ltr" translate="no"&gt;tokenWithAuthorizedEntity:scope:options:handler&lt;/code&gt; to fetch the token (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6286"&gt;#6286&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-31-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-31-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where topic subscription did not work in watchOS (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6160"&gt;#6160&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved Xcode completion of public API completion handlers in Swift (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6278"&gt;#6278&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.31.0 Patch Release - August 27, 2020</title><link>https://firebase.google.com/support/release-notes/ios#version_6310_patch_release_-_august_27_2020</link><description>&lt;p&gt;This release is available via CocoaPods only. Changes listed in this section
@@ -2859,8 +2862,14 @@ present.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v6-33-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a new notification for listening for token refresh from Messaging and updated the token cache in InstanceID (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6286"&gt;#6286&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the token refresh notification was not triggered when using &lt;code dir="ltr" translate="no"&gt;tokenWithAuthorizedEntity:scope:options:handler&lt;/code&gt; to fetch the token (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6286"&gt;#6286&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-33-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new token APIs to get and delete the default FCM registration token asynchronously. Also added new &lt;code dir="ltr" translate="no"&gt;Messaging.deleteToken(completion:)&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Messaging.token(completion:)&lt;/code&gt; methods for managing registration tokens and checkin data. Existing &lt;span class="notranslate"&gt;FCM&lt;/span&gt; users should replace their InstanceID calls with the new methods to prepare for the coming deprecation of InstanceID. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6313"&gt;#6313&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-33-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new token APIs to get and delete the default FCM
+registration token asynchronously. Also added new
+&lt;code dir="ltr" translate="no"&gt;Messaging.deleteToken(completion:)&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;Messaging.token(completion:)&lt;/code&gt;
+methods for managing registration tokens and checkin data. Existing
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt; users should replace their InstanceID
+calls with the new methods to prepare for the coming deprecation of
+InstanceID. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6313"&gt;#6313&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 6.34.0 - October 6, 2020</title><link>https://firebase.google.com/support/release-notes/ios#version_6340_-_october_6_2020</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Removed warning related to missing Analytics framework for non-iOS builds since the
 framework isn't available on those platforms (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6500"&gt;#6500&lt;/a&gt;).&lt;/li&gt;
@@ -2879,7 +2888,7 @@ Objective-C or Swift users.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added additional &lt;code dir="ltr" translate="no"&gt;FIRInstallationsItem&lt;/code&gt; validation to catch potential storage issues (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6570"&gt;#6570&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v6-34-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated InstanceID. For app instance identity handling, use FirebaseInstallations. For FCM registration token handling, use FirebaseMessaging (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6585"&gt;#6585&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v6-34-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v6-34-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added macro to suppress InstanceID deprecation warning (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6585"&gt;#6585&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v6-34-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where URLSharedSession based network requests were
@@ -2990,7 +2999,7 @@ in Swift.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="InstanceID" id="instanceid_v7-0-0" tabindex="-1"&gt;InstanceID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Deprecated private &lt;code dir="ltr" translate="no"&gt;-[FIRInstanceID appInstanceID:]&lt;/code&gt; method was removed (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/4486"&gt;#4486&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the APNs token was not sent in the token request when iOS APNs token fetch was delayed (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6553"&gt;#6553&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v7-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v7-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-removed"&gt;&lt;/span&gt; Removed the deprecated FCM direct channel API and Upstream send API (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6430"&gt;#6430&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;messaging:didReceiveRegistrationToken:&lt;/code&gt; is able to return a null token. Updated the API parameter &lt;code dir="ltr" translate="no"&gt;fcmToken&lt;/code&gt; to be nullable (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/5339"&gt;#5339&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that downloading an image failed when there's no extension in the file name but MIME type is set (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6590"&gt;#6590&lt;/a&gt;).&lt;/li&gt;
@@ -3035,7 +3044,7 @@ accepted null and NaN for all operators, even though this isn't necessarily
 useful.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="functions_v7-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added a constructor to set a custom domain (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6787"&gt;#6787&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v7-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v7-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash on iOS 14 when multiple app delegate completion methods were called (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6863"&gt;#6863&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v7-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Add support for other Firebase products to integrate with Remote Config (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6692"&gt;#6692&lt;/a&gt;).&lt;/li&gt;
@@ -3164,7 +3173,7 @@ compensated snapshots.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v7-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed accessibility experience for in-app messages (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7445"&gt;#7445&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed conversion tracking for in-app messages with a conversion event but not a button / action URL (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7306"&gt;#7306&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v7-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v7-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed build warnings introduced with Xcode 12.5 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7433"&gt;#7433&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v7-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed build warnings introduced with Xcode 12.5 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7435"&gt;#7435&lt;/a&gt;).&lt;/li&gt;
@@ -3197,7 +3206,7 @@ decoding a &lt;code dir="ltr" translate="no"&gt;DocumentSnapshot&lt;/code&gt;.&l
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v7-7-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed accessibility experience for in-app messages (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7445"&gt;#7445&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed conversion tracking for in-app messages with a conversion event but not a button / action URL (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7306"&gt;#7306&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v7-7-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v7-7-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue in which, when checking storage size before writing to disk, the client was checking document folders that were no longer used (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7480"&gt;#7480&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v7-7-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add community-supported tvOS.&lt;/li&gt;
@@ -3254,7 +3263,7 @@ without reading documents from the backend.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Throw exception if projectID is missing from FirebaseOptions (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7725"&gt;#7725&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 7.11.0 - April 20, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_7110_-_april_20_2021</link><description>&lt;h3 data-text="Analytics" id="analytics_v7-11-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added Firebase/AnalyticsWithoutAdIdSupport subspec for developers of apps that aren’t using AdSupport or subject to AppTrackingTransparency.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v7-11-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v7-11-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed internal Messaging dependencies on InstanceID (though both libraries can still co-exist in one app). The InstanceID dependency will be removed in the next major version of Firebase (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7814"&gt;#7814&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v7-11-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed SPM resource inclusion for in-app messages (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7715"&gt;#7715&lt;/a&gt;).&lt;/li&gt;
@@ -3300,8 +3309,14 @@ GoogleDataTransport APIs directly.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed crashes on simulators targeting iOS versions below iOS 14 on Apple Silicon (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7989"&gt;#7989&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Functions" id="functions_v8-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added abuse reduction features (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7928"&gt;#7928&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v8-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed the Instance ID dependency from &lt;span class="notranslate"&gt;FCM&lt;/span&gt;. This is a breaking change for &lt;span class="notranslate"&gt;FCM&lt;/span&gt; users who use the deprecated Firebase Instance ID API to manage registration tokens. Users should migrate to &lt;span class="notranslate"&gt;FCM&lt;/span&gt;'s token APIs by following the &lt;a href="https://firebase.google.com/docs/projects/manage-installations#fid-iid"&gt;migration guide&lt;/a&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7836"&gt;#7836&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v8-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed the Instance ID dependency from
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt;. This is a breaking change for
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt; users who use the deprecated Firebase
+Instance ID API to manage registration tokens. Users should migrate to
+&lt;span class="notranslate"&gt;FCM&lt;/span&gt;'s token APIs by following the
+&lt;a href="https://firebase.google.com/docs/projects/manage-installations#fid-iid"&gt;migration guide&lt;/a&gt;
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7836"&gt;#7836&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v8-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed throttling issue when fetch fails due to no network (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6628"&gt;#6628&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed issue where sometimes the local config returned is empty (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7424"&gt;#7424&lt;/a&gt;).&lt;/li&gt;
@@ -3318,7 +3333,7 @@ for usage instructions.&lt;/p&gt;</description></item><item><title>Version 8.1.0
 FirebaseDatabaseSwift-Beta product for Swift Package Manager.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v8-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed bug where image-only messages had the wrong message type in message callbacks (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8081"&gt;#8081&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v8-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v8-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where notification open was not logged to Analytics correctly when the app is in a terminated state. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7707"&gt;#7707&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8128"&gt;#8128&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v8-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Firebase Performance logs now contain URLs to see the performance data on the Firebase console.&lt;/li&gt;
@@ -3348,7 +3363,7 @@ path will now result in a more readable error (&lt;a href="//github.com/firebase
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where factory class methods returned a new instance on every invocation, causing emulator settings to not persist between invocations (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/7783"&gt;#7783&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v8-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed missing constraints warnings in default UI storyboard (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8205"&gt;#8205&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v8-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v8-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where local scheduled notifications were not set correctly due to sound type (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8172"&gt;#8172&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v8-2-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated log messages with proper log levels.&lt;/li&gt;
@@ -3413,7 +3428,7 @@ Feedback appreciated about Firebase and &lt;code dir="ltr" translate="no"&gt;asy
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Refactored and added helper class (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8432"&gt;#8432&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v8-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Replaced conditionally-compiled APIs with &lt;code dir="ltr" translate="no"&gt;API_UNAVAILABLE&lt;/code&gt; annotations on unsupported platforms (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8480"&gt;#8480&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v8-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v8-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Removed iOS version check from &lt;code dir="ltr" translate="no"&gt;FIRMessagingExtensionHelper.h&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8492"&gt;#8492&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added new API &lt;code dir="ltr" translate="no"&gt;FIRMessagingExtensionHelper exportDeliveryMetricsToBigQuery&lt;/code&gt; that allows developers to enable notification delivery metrics that are exportable to BigQuery (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/6181"&gt;#6181&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue that delete token no longer works (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8491"&gt;#8491&lt;/a&gt;).&lt;/li&gt;
@@ -3529,7 +3544,7 @@ https://github.com/firebase/firebase-ios-sdk/blob/master/FirebaseFunctionsSwift/
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v8-11-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where an in-app message was shown every new session (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8907"&gt;#8907&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where duplicate messages could occur when two campaigns were triggered by different events (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/9070"&gt;#9070&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v8-11-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v8-11-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the FCM token was not correctly associated with the APNs token during app start (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8738"&gt;#8738&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 8.12.1 - February 10, 2022</title><link>https://firebase.google.com/support/release-notes/ios#version_8121_-_february_10_2022</link><description>&lt;h3 data-text="Analytics" id="analytics_v8-12-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for parsing new campaign parameters utm_id, utm_source_platform, utm_creative_format, and utm_marketing_tactic for &lt;a href="https://support.google.com/analytics/answer/11242870"&gt;traffic source dimensions&lt;/a&gt;.&lt;/li&gt;
@@ -3547,7 +3562,7 @@ help with future debugging (&lt;a href="//github.com/firebase/firebase-ios-sdk/i
 &lt;code dir="ltr" translate="no"&gt;Firestore.loadBundle()&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v8-12-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Includes a client-side fix for an issue where test messages incorrectly do not include &lt;code dir="ltr" translate="no"&gt;appData&lt;/code&gt;. The issue will be fully resolved once the backend is also updated (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/9126"&gt;#9126&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v8-12-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v8-12-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Improved reporting for SQLite errors when failing to open a local database (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8699"&gt;#8699&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v8-12-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Attempted to fix an issue where app start trace durations are not reliable on iOS 15. App start measurements are now made only for cold app starts (without pre-warming) (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/9026"&gt;#9026&lt;/a&gt;).&lt;/li&gt;
@@ -3918,7 +3933,7 @@ Xcode 14 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10372"&gt;#1
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed inconsistent sign in prompts in single scene apps (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8096"&gt;#8096&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="auth_v10-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix a bug where multi factor phone number returns &lt;code dir="ltr" translate="no"&gt;NULL&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10296"&gt;#10296&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v10-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v10-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The app bundle identifier is no longer incorrectly shortened for watchOS apps created on Xcode 14 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10147"&gt;#10147&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v10-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the previous CocoaPods release incorrectly missing the RemoteConfigProperty feature (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10371"&gt;#10371&lt;/a&gt;).&lt;/li&gt;
@@ -3951,7 +3966,7 @@ result (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10437"&gt;#104
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added multi-database support.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when there were nested data structures inside IN
 filters (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10507"&gt;#10507&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v10-3-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v10-3-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added notification support for iOS 16 simulators on Xcode 14. See the &lt;a class="external" href="//developer.apple.com/documentation/xcode-release-notes/xcode-14-release-notes"&gt;Xcode release notes&lt;/a&gt; for more details (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/9968"&gt;#9968&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="storage_v10-3-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Use dedicated serial queue for Storage uploads and downloads instead of a (concurrent) global queue.
@@ -3974,7 +3989,7 @@ the Firebase installations SDK in their data disclosure, review the
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore_v10-4-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix an issue that stops some performance optimization from being
 applied (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10579"&gt;#10579&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v10-4-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v10-4-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; On app startup, an APNs Token must be provided to FCM SDK before
 retrieving an FCM Token, otherwise an error will be returned as part of the
 completion.&lt;/li&gt;
@@ -3986,7 +4001,7 @@ is signed with a provisioning profile that has the Keychain Sharing
 capability enabled (see Firebase 9.6.0 release notes) (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10582"&gt;#10582&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore_v10-5-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Added &lt;code dir="ltr" translate="no"&gt;@discardableResult&lt;/code&gt; to the &lt;code dir="ltr" translate="no"&gt;addDocument&lt;/code&gt; API for easy handling of unused return values (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10640"&gt;#10640&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v10-5-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v10-5-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash for &lt;code dir="ltr" translate="no"&gt;strongSelf&lt;/code&gt; dereference (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10707"&gt;#10707&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="storage_v10-5-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added Storage API to limit upload chunk size (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10137"&gt;#10137&lt;/a&gt;).&lt;/li&gt;
@@ -4006,7 +4021,7 @@ This fixes an issue where it infinitely retries when FirebaseStorage returns a 5
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Integrated with Firebase sessions library to enable upcoming features related to session-based crash metrics. If your app uses the Crashlytics SDK, review Firebase's &lt;a href="https://firebase.google.com/docs/ios/app-store-data-collection"&gt;data disclosure page&lt;/a&gt; to make sure that your app's privacy details in the App Store are accurate and complete.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore_v10-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix a potential high memory usage issue.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v10-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v10-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; The configure flow now validates existence of an APNs token before fetching an FCM token (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10742"&gt;#10742&lt;/a&gt;). This also addresses the scenario mentioned in the &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10679#issuecomment-1402776795"&gt;issue comment&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v10-6-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Integrated with Firebase sessions library and replaced the session information associated with performance metrics with session details provided by the Firebase sessions library. If your app uses the Performance Monitoring SDK, review Firebase's &lt;a href="https://firebase.google.com/docs/ios/app-store-data-collection"&gt;data disclosure page&lt;/a&gt; to make sure that your app's privacy details in the App Store are accurate and complete.&lt;/li&gt;
@@ -4126,7 +4141,7 @@ To go back to using the binary distribution of Firestore, quit Xcode and
 open Xcode like normal, without the environment variable (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/11492"&gt;#11492&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for animations on the &lt;code dir="ltr" translate="no"&gt;@FirestoreQuery&lt;/code&gt; property wrapper.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v10-12-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v10-12-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Messaging now removes scoped tokens set by old FIAM SDK(s) from keychain if they exist.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v10-12-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Make Firebase Performance Monitoring compatible with Xcode 15.&lt;/li&gt;
@@ -4250,7 +4265,7 @@ migration instructions.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Made an optimization to the synchronization logic for resumed queries
 to only re-download locally-cached documents that are known to be out-of-sync.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12044"&gt;#12044&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v10-19-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v10-19-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Adopt NSSecureCoding for internal classes (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12075"&gt;#12075&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.19.1 - December 13, 2023</title><link>https://firebase.google.com/support/release-notes/ios#version_10191_-_december_13_2023</link><description>&lt;p&gt;This release is available via Swift Package Manager only. Changes in this
 version of Firebase will be available in future releases across all distribution
@@ -4262,7 +4277,7 @@ platform framework directory within a static xcframework no longer contains
 an &lt;code dir="ltr" translate="no"&gt;Info.plist&lt;/code&gt; file (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12243"&gt;#12243&lt;/a&gt;).&lt;/p&gt;&lt;h3 data-text="Analytics" id="analytics_v10-20-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Increased parameter value character limit for &lt;a href="https://support.google.com/analytics/answer/11202874"&gt;Google Analytics 360&lt;/a&gt; properties.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated module map of &lt;code dir="ltr" translate="no"&gt;GoogleAppMeasurementOnDeviceConversion&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v10-20-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v10-20-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a 10.19.0 regression where the FCM registration token was nil at first app start
 after update from 10.19.0 or earlier (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12245"&gt;#12245&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.21.0 - February 6, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_10210_-_february_6_2024</link><description>&lt;p&gt;Firebase now requires at least CocoaPods version 1.12.0 to enable privacy manifest support.&lt;/p&gt;&lt;h3 data-text="Analytics" id="analytics_v10-21-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4337,7 +4352,7 @@ caused by embedding an incomplete &lt;code dir="ltr" translate="no"&gt;Info.plis
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Update gRPC dependency to 1.62.* (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12098"&gt;#12098&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12021"&gt;#12021&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Firestore's binary Swift Package Manager distribution now uses
 XCFrameworks with code signatures (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12238"&gt;#12238&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v10-23-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v10-23-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; CocoaPods only: Fixed "no rule" warning when running &lt;code dir="ltr" translate="no"&gt;pod install&lt;/code&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12511"&gt;#12511&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v10-23-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added support for other Firebase products to integrate with Remote Config.&lt;/li&gt;
@@ -4424,7 +4439,7 @@ alternatives, see the
 &lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v10-27-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed crash at app start that affected CocoaPods users using static
 frameworks (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12882"&gt;#12882&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v10-27-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v10-27-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed bug preventing Messaging from working with a custom sqlite3
 dependency (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12900"&gt;#12900&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Vertex AI in Firebase" id="vertexai_v10-27-0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Vertex AI in Firebase&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -4451,7 +4466,7 @@ for more details (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/1309
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added community support for tvOS and visionOS (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13090"&gt;#13090&lt;/a&gt;, &lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13092"&gt;#13092&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Version 10.28.1 - June 24, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_10281_-_june_24_2024</link><description>&lt;h3 data-text="Crashlytics" id="crashlytics_v10-28-1" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Reverted "Add SIGTERM support (&lt;a href="//github.com/firebase/firebase-ios-sdk/pull/12881"&gt;#12881&lt;/a&gt;)" introduced in version 10.27.0 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13117"&gt;#13117&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Version 10.29.0 - July 8, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_10290_-_july_8_2024</link><description>&lt;h3 data-text="FCM" id="messaging_v10-29-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;</description></item><item><title>Version 10.29.0 - July 8, 2024</title><link>https://firebase.google.com/support/release-notes/ios#version_10290_-_july_8_2024</link><description>&lt;h3 data-text="Cloud Messaging" id="messaging_v10-29-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Renamed "initWithFileName" internal method that was causing submission issues for some
 users (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13134"&gt;#13134&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the APS Environment key on visionOS (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13173"&gt;#13173&lt;/a&gt;).&lt;/li&gt;
@@ -4514,7 +4529,7 @@ Note that &lt;code dir="ltr" translate="no"&gt;InAppMessagingDisplayRenderError&
 can be directly caught (instead of catching an &lt;code dir="ltr" translate="no"&gt;NSError&lt;/code&gt; and checking the
 error code).&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v11-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v11-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Completed Messaging's transition to NSSecureCoding (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12343"&gt;#12343&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v11-0-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;RemoteConfigValue.stringValue&lt;/code&gt; is now &lt;code dir="ltr" translate="no"&gt;nonnull&lt;/code&gt;. This may break some builds (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/10870"&gt;#10870&lt;/a&gt;).&lt;/li&gt;
@@ -4727,7 +4742,7 @@ will be included from 11.6.0 onwards (&lt;a href="//github.com/firebase/firebase
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Support for Swift 6 strict concurrency.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Logging within SDKs.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; SDK will throw errors if partial GraphQL errors are detected during operation execution.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v11-5-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v11-5-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improve token-fetch failure logging with detailed error info (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13997"&gt;#13997&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v11-5-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mark two internal properties as &lt;code dir="ltr" translate="no"&gt;atomic&lt;/code&gt; to prevent concurrency
@@ -4809,7 +4824,7 @@ that is used in out-of-band email action flows.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-deprecated"&gt;&lt;/span&gt; Deprecated &lt;code dir="ltr" translate="no"&gt;ActionCodeSettings.dynamicLinkDomain&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore_v11-8-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed use-after-free bug when internally formatting strings (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14306"&gt;#14306&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v11-8-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v11-8-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Don't cache FCM registration token operations (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14352"&gt;#14352&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v11-8-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mark completion handlers as Sendable in the RemoteConfig class.
@@ -4838,7 +4853,7 @@ this may expose a Thread Performance Checker Warning (&lt;a href="//github.com/f
 (&lt;code dir="ltr" translate="no"&gt;MISSING&lt;/code&gt;) and inauthentic (&lt;code dir="ltr" translate="no"&gt;INVALID&lt;/code&gt;) clients; see &lt;a href="https://firebase.google.com/docs/app-check/monitor-functions-metrics"&gt;Monitor App Check
 request metrics for Cloud Functions&lt;/a&gt;
 for more details.&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v11-9-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v11-9-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Migrate FCM codebase to new NSKeyedUnarchiver APIs (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14424"&gt;#14424&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v11-9-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Mark internal &lt;code dir="ltr" translate="no"&gt;fetchSession&lt;/code&gt; property as &lt;code dir="ltr" translate="no"&gt;atomic&lt;/code&gt; to prevent a concurrency
@@ -4959,7 +4974,7 @@ omitted; this occurs when the count is 0 (&lt;a href="//github.com/firebase/fire
 &lt;/ul&gt;&lt;h3 data-text="Authentication" id="auth_v11-14-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Synchronize internal &lt;code dir="ltr" translate="no"&gt;AuthKeychainServices&lt;/code&gt; class to prevent
 crashes from concurrent access (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14835"&gt;#14835&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v11-14-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v11-14-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix a potential SQL injection issue (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14846"&gt;#14846&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v11-14-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix build warning from comparison of different enumeration types.&lt;/li&gt;
@@ -5102,7 +5117,7 @@ for more information.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an Xcode 26 crash caused by a missing &lt;code dir="ltr" translate="no"&gt;NSUserActivityTypeBrowsingWeb&lt;/code&gt;
 symbol. Note that this fix isn't in the 12.1.0 zip and Carthage
 distributions, but will be included from 12.2.0 onwards (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15159"&gt;#15159&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v12-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v12-1-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix Xcode 26 crash from missing &lt;code dir="ltr" translate="no"&gt;NSUserActivityTypeBrowsingWeb&lt;/code&gt;
 symbol. Note that this fix isn't in the 12.1.0 zip and Carthage
 distributions, but will be included from 12.2.0 onwards (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15159"&gt;#15159&lt;/a&gt;).&lt;/li&gt;
@@ -5228,7 +5243,7 @@ models and onwards. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/1
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;Pipeline&lt;/code&gt; support is now available for the &lt;code dir="ltr" translate="no"&gt;Enterprise edition&lt;/code&gt; as a public preview feature. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15625"&gt;#15625&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the returned object in transaction blocks could not
 pass across actor boundaries in Swift 6 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15467"&gt;#15467&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v12-8-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v12-8-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix missing database crash on launch. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14880"&gt;#14880&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="FirebaseMLModelDownloader" id="firebasemlmodeldownloader" tabindex="-1"&gt;FirebaseMLModelDownloader&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Remove unused legacy telemetry along with the large swift-protobuf dependency.&lt;/li&gt;
@@ -5498,7 +5513,7 @@ NWPathMonitor API.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Installations" id="installations_v12-16-0" tabindex="-1"&gt;Installations&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Changed error message for missing &lt;code dir="ltr" translate="no"&gt;FirebaseApp.configure()&lt;/code&gt; to
 properly articulate supported methods. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16294"&gt;#16294&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v12-16-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v12-16-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Add support for the new FCM registration API. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16133"&gt;#16133&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v12-16-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash in &lt;code dir="ltr" translate="no"&gt;FPRMemoryGaugeCollector&lt;/code&gt; by collecting memory usage
@@ -5561,7 +5576,7 @@ limit to 17MB (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16206"&
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Enforced stricter transport layer security when using the emulator:
 Auth, FCM, and AppCheck tokens are no longer attached to outbound requests if
 the connection is made over HTTP to a non-loopback host. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16395"&gt;#16395&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v12_17_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v12_17_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Reject path separators in file extensions for downloaded image
 attachments. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16387"&gt;#16387&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v12_17_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -5623,7 +5638,7 @@ incorrect in push ID generation.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16415"&gt;#16415&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential crash when receiving non-text WebSocket frames.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16414"&gt;#16414&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v12_18_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v12_18_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix an issue where new FCM registration processing was not invoked
 when &lt;code dir="ltr" translate="no"&gt;FirebaseMessagingInstallationIdEnabled&lt;/code&gt; was set to &lt;code dir="ltr" translate="no"&gt;YES&lt;/code&gt; and a legacy
 token existed in cache.
@@ -5736,7 +5751,7 @@ measure the status bar height when laying out a banner. The height is now
 read from the foreground window scene the banner is rendered in, which is
 correct in multi-scene apps.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/13068"&gt;#13068&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v12_19_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v12_19_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fix an issue where &lt;code dir="ltr" translate="no"&gt;messaging:didReceiveRegistrationToken:&lt;/code&gt; was no
 longer called at app launch when a token was cached.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16581"&gt;#16581&lt;/a&gt;)&lt;/li&gt;
@@ -5916,7 +5931,7 @@ delegates for universal link routing.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where universal links were not correctly routed in
 apps utilizing scene delegates.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16083"&gt;#16083&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v13_0_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v13_0_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking change&lt;/strong&gt;: Scene delegates take priority over app
 delegates for automatic deep link routing.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/15987"&gt;#15987&lt;/a&gt;)&lt;/li&gt;
@@ -6050,7 +6065,7 @@ heartbeat emitted during long-running streaming functions.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Released the display gate and removed unconstructable messages so a
 card without images no longer blocks subsequent in-app messages.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16819"&gt;#16819&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3 data-text="FCM" id="messaging_v13_1_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;FCM&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="messaging_v13_1_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Reduced main-thread work when setting the APNs token: the APNs
 environment check no longer queries the App Store receipt, and the keychain is
 read once instead of up to twice.
