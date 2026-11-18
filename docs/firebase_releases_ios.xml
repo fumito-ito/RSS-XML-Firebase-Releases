@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Tue, 17 Nov 2026 18:05:12 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Wed, 18 Nov 2026 02:42:07 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -6095,4 +6095,187 @@ compromised eMudhra intermediate CAs from the embedded trust store.
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;strong&gt;Security Update:&lt;/strong&gt; Removed root certificates associated with
 compromised eMudhra intermediate CAs from the embedded trust store.
 (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16930"&gt;#16930&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 13.2.0 - November 16, 2026</title><link>https://firebase.google.com/support/release-notes/ios#version_1320_-_november_16_2026</link><description>&lt;h3 data-text="Firebase AI Logic" id="ai_v13_2_0" tabindex="-1"&gt;&lt;span class='\"notranslate\"'&gt;Firebase AI Logic&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;GeminiLanguageModel&lt;/code&gt; now supports image input (the &lt;code dir="ltr" translate="no"&gt;vision&lt;/code&gt;
+capability). Prompts can include image attachments created from a &lt;code dir="ltr" translate="no"&gt;CGImage&lt;/code&gt;, a
+&lt;code dir="ltr" translate="no"&gt;CIImage&lt;/code&gt;, a &lt;code dir="ltr" translate="no"&gt;CVPixelBuffer&lt;/code&gt;, or a file URL; images from remote URLs aren't
+supported yet. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16895"&gt;#16895&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; &lt;strong&gt;Breaking Change&lt;/strong&gt;: Updated the &lt;strong&gt;Public Preview&lt;/strong&gt; Live API voice
+activity types: renamed &lt;code dir="ltr" translate="no"&gt;VoiceActivityType.activityStart&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;activityEnd&lt;/code&gt; to
+&lt;code dir="ltr" translate="no"&gt;start&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;end&lt;/code&gt;, removed &lt;code dir="ltr" translate="no"&gt;VoiceActivityType.unknown&lt;/code&gt; from the public API,
+and made &lt;code dir="ltr" translate="no"&gt;LiveServerVoiceActivity.audioOffset&lt;/code&gt; a non-optional &lt;code dir="ltr" translate="no"&gt;TimeInterval&lt;/code&gt;
+(defaulting to &lt;code dir="ltr" translate="no"&gt;0&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash at launch on iOS 17 and earlier, and the corresponding
+macOS, tvOS, watchOS, and visionOS versions, in apps built with Xcode 27 when
+the app or a library (such as Realm) enumerated Objective-C classes with
+&lt;code dir="ltr" translate="no"&gt;objc_copyClassList&lt;/code&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/17024"&gt;#17024&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash in &lt;code dir="ltr" translate="no"&gt;GeminiLanguageModel&lt;/code&gt; when part of a prompt was
+served from the Gemini Developer API's implicit cache.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/17042"&gt;#17042&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;LanguageModelSession.streamResponse&lt;/code&gt; delivering a
+&lt;code dir="ltr" translate="no"&gt;GeminiLanguageModel&lt;/code&gt; response all at once, after it finished, when using the
+Agent Platform Gemini API.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/17040"&gt;#17040&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;GeminiLanguageModel&lt;/code&gt; to include reasoning tokens in the
+output and total token counts.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/17042"&gt;#17042&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_v13_2_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Internal code cleanup and optimizations.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="App Check" id="appcheck_v13_2_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;App Check&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;AppCheckDebugProvider&lt;/code&gt; now automatically uses a debug token
+provisioned by the Firebase CLI (&lt;code dir="ltr" translate="no"&gt;firebase appcheck:debugtokens:create&lt;/code&gt;) when
+running in a Simulator. The token is read for the app's Google App ID from
+&lt;code dir="ltr" translate="no"&gt;~/.config/configstore/firebase-appcheck.json&lt;/code&gt; on the host machine, so no
+manual token registration is needed. The &lt;code dir="ltr" translate="no"&gt;AppCheckDebugToken&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;FIRAAppCheckDebugToken&lt;/code&gt; environment variables still take priority.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/17017"&gt;#17017&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; When the &lt;code dir="ltr" translate="no"&gt;AppCheckDebugToken&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;FIRAAppCheckDebugToken&lt;/code&gt;
+environment variable is set, &lt;code dir="ltr" translate="no"&gt;AppCheckDebugProvider&lt;/code&gt; no longer generates an
+unused local debug token and logs registration instructions for it.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/17017"&gt;#17017&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Authentication" id="auth_v13_2_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Authentication&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a memory leak where removed auth state and ID token listeners,
+and the objects they captured, stayed in memory for as long as the &lt;code dir="ltr" translate="no"&gt;Auth&lt;/code&gt;
+instance existed. This also affected the &lt;code dir="ltr" translate="no"&gt;authStateChanges&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;idTokenChanges&lt;/code&gt; sequences.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16938"&gt;#16938&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Preserve newer in-flight token refreshes when an older refresh
+completes. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16765"&gt;#16765&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;checkActionCode&lt;/code&gt; returning an &lt;code dir="ltr" translate="no"&gt;ActionCodeInfo&lt;/code&gt; whose
+&lt;code dir="ltr" translate="no"&gt;operation&lt;/code&gt; was always &lt;code dir="ltr" translate="no"&gt;.unknown&lt;/code&gt;, a regression in 11.12.0.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16950"&gt;#16950&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash in &lt;code dir="ltr" translate="no"&gt;checkActionCode&lt;/code&gt; for email sign-in codes, a
+regression in 11.0.0. &lt;code dir="ltr" translate="no"&gt;ActionCodeInfo.email&lt;/code&gt; is empty for these codes, because
+the server doesn't return their email address.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16963"&gt;#16963&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a data race that could crash an app that reads &lt;code dir="ltr" translate="no"&gt;User.metadata&lt;/code&gt;
+or &lt;code dir="ltr" translate="no"&gt;User.multiFactor&lt;/code&gt; while a reload, link, or profile update finishes on
+another thread.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16975"&gt;#16975&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;User.multiFactor&lt;/code&gt; still listing enrolled factors after a
+reload when all of them were unenrolled on another device, a regression in
+11.0.0. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16976"&gt;#16976&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when enrolling or unenrolling a second factor on macOS
+for a user saved by a version earlier than 12.2.0.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16976"&gt;#16976&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Crashlytics" id="crashlytics_v13_2_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where Crashlytics API calls (&lt;code dir="ltr" translate="no"&gt;log&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;setCustomValue&lt;/code&gt;,
+&lt;code dir="ltr" translate="no"&gt;setUserID&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;recordError&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;recordExceptionModel&lt;/code&gt;, etc.) hopped onto the main
+thread instead of flushing off the main thread during initialization and
+executing on the caller's thread afterwards.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16926"&gt;#16926&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when processing a report whose binary image records
+contain a non-numeric &lt;code dir="ltr" translate="no"&gt;base&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;size&lt;/code&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16519"&gt;#16519&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a potential crash in the x86_64 crash handler's stack-scanning
+fallback when the captured stack pointer is unreadable.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16799"&gt;#16799&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved robustness when parsing malformed settings from the server
+or from the on-disk settings cache.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16728"&gt;#16728&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved robustness in Firebase Sessions when parsing malformed
+settings from the server, including &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt; values that could cause a crash
+when caching settings.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16728"&gt;#16728&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed the app executable's minimum OS and SDK versions being
+recorded as &lt;code dir="ltr" translate="no"&gt;0.0.0&lt;/code&gt; in report metadata for apps targeting iOS 12, macOS 10.14,
+tvOS 12, watchOS 5, or later.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16810"&gt;#16810&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Realtime Database" id="database_v13_2_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the &lt;code dir="ltr" translate="no"&gt;getData&lt;/code&gt; error said that the client was
+offline when the server rejected the request, for example because of security
+rules.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/11835"&gt;#11835&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where a completing &lt;code dir="ltr" translate="no"&gt;getData&lt;/code&gt; call marked an observed
+or &lt;code dir="ltr" translate="no"&gt;keepSynced&lt;/code&gt; query inactive in the persistence cache, allowing its cached
+data to be pruned or triggering an assertion failure on subsequent updates.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/17009"&gt;#17009&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;getData&lt;/code&gt; on a query with a limit or range
+could remove data from other listeners at or below the query's location, and
+from the disk cache.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8286"&gt;#8286&lt;/a&gt;,
+&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/14137"&gt;#14137&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;getData&lt;/code&gt; never completed if the connection
+dropped before the server responded.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16717"&gt;#16717&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where &lt;code dir="ltr" translate="no"&gt;getData&lt;/code&gt; on a child of an observed location
+returned the data of the observed location instead of the child.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12168"&gt;#12168&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where the client could stay offline for hours after a
+connection attempt timed out, for example after the device woke from sleep.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/9682"&gt;#9682&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Keep Realtime Database WebSocket keepalive timers and connection
+state on the worker queue to avoid cross-thread access.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16767"&gt;#16767&lt;/a&gt;,
+&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16971"&gt;#16971&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Firestore" id="firestore_v13_2_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Pipeline Search is now Generally Available (GA).
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16945"&gt;#16945&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for window functions in Pipelines, with the
+&lt;code dir="ltr" translate="no"&gt;addWindowFields&lt;/code&gt; stage for computing aggregates such as running totals and
+moving averages over partitioned and sorted frames of documents, and &lt;code dir="ltr" translate="no"&gt;over()&lt;/code&gt;
+for framing individual aggregates. Window functions are in preview until the
+backend launch is announced in the &lt;a href="https://docs.cloud.google.com/firestore/docs/release-notes"&gt;Firestore release
+notes&lt;/a&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16715"&gt;#16715&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;Firestore.Decoder&lt;/code&gt; reusing the &lt;code dir="ltr" translate="no"&gt;DocumentReference&lt;/code&gt; from a
+previous &lt;code dir="ltr" translate="no"&gt;decode(_:from:in:)&lt;/code&gt; call to populate &lt;code dir="ltr" translate="no"&gt;@DocumentID&lt;/code&gt; properties when a
+later call on the same decoder has no reference.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16789"&gt;#16789&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed pipelines created from a query with an inclusive cursor, such
+as &lt;code dir="ltr" translate="no"&gt;start(atDocument:)&lt;/code&gt; or &lt;code dir="ltr" translate="no"&gt;end(at:)&lt;/code&gt;, returning the wrong documents at the
+cursor boundary.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16795"&gt;#16795&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a memory leak where &lt;code dir="ltr" translate="no"&gt;@FirestoreQuery&lt;/code&gt; kept its snapshot
+listener active after the view that owned it went away.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Firebase In-App Messaging" id="inappmessaging_v13_2_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Firebase In-App Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved robustness when parsing malformed in-app messaging campaign
+fetch responses, cached campaigns, and persisted impressions.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16728"&gt;#16728&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where cached In-App Messaging engagement logs from a
+previous app session could be dropped instead of uploaded when the SDK
+started. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16803"&gt;#16803&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Installations" id="installations_v13_2_0" tabindex="-1"&gt;Installations&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Delete both legacy Firebase Instance ID keys during IID migration
+cleanup, and skip key deletion when the application tag is unavailable.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16777"&gt;#16777&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Performance Monitoring" id="performance_v13_2_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Performance Monitoring&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Prevent races when accessing global, trace, and HTTP metric custom
+attributes concurrently.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16761"&gt;#16761&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved robustness when parsing malformed Remote Config values for
+Performance Monitoring. Cached values of unexpected types and out-of-range
+rate limits, gauge frequencies and session durations now fall back to
+defaults. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16728"&gt;#16728&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Remote Config" id="remoteconfig_v13_2_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Remote Config&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when copying a &lt;code dir="ltr" translate="no"&gt;RemoteConfigValue&lt;/code&gt;
+(&lt;code dir="ltr" translate="no"&gt;FIRRemoteConfigValue&lt;/code&gt;). The copy now keeps the value's data and source.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16804"&gt;#16804&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a crash when an array or dictionary passed to &lt;code dir="ltr" translate="no"&gt;setDefaults&lt;/code&gt;
+contains values that can't be converted to JSON, such as dates or data. These
+defaults are now skipped and an error is logged.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16797"&gt;#16797&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Remote Config real-time updates are no longer missed when an update
+message is split across network reads or arrives in the same read as another
+message. (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16793"&gt;#16793&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; &lt;code dir="ltr" translate="no"&gt;@RemoteConfigProperty&lt;/code&gt; now uses the in-app default value, or its
+fallback value, after an activation removes its key, instead of keeping the
+previous remote value.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16816"&gt;#16816&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Cloud Storage" id="storage_v13_2_0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The &lt;code dir="ltr" translate="no"&gt;async&lt;/code&gt; APIs &lt;code dir="ltr" translate="no"&gt;data(maxSize:)&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;putDataAsync&lt;/code&gt;, &lt;code dir="ltr" translate="no"&gt;putFileAsync&lt;/code&gt;,
+and &lt;code dir="ltr" translate="no"&gt;writeAsync&lt;/code&gt; now cancel the underlying download or upload and throw
+&lt;code dir="ltr" translate="no"&gt;StorageError.cancelled&lt;/code&gt; when the calling Swift task is cancelled.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/11786"&gt;#11786&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Serialized Auth and App Check token header updates to avoid
+concurrent mutation of the request when using custom interop providers.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16766"&gt;#16766&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed a memory leak where &lt;code dir="ltr" translate="no"&gt;StorageUploadTask&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;StorageDownloadTask&lt;/code&gt; objects, and the data being uploaded, were never
+released after &lt;code dir="ltr" translate="no"&gt;cancel()&lt;/code&gt; or, for downloads, &lt;code dir="ltr" translate="no"&gt;pause()&lt;/code&gt;.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16841"&gt;#16841&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Prevented duplicate upload and download requests when resuming a
+task before its initial request setup has completed.
+(&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/16771"&gt;#16771&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
