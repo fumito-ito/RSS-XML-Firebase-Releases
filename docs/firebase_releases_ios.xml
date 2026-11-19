@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 19 Nov 2026 11:02:44 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Ios</title><link>https://firebase.google.com/support/release-notes/ios</link><description>Latest updates and release notes for Firebase Ios.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 19 Nov 2026 19:53:27 +0000</lastBuildDate><item><title>SDK Version 3.3.0 - June 29, 2016</title><link>https://firebase.google.com/support/release-notes/ios#sdk_version_330_-_june_29_2016</link><description>&lt;h3 data-text="Analytics" id="analytics_26" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; You can now attribute AdWords app conversions from search and
 display web clicks on Safari using
 &lt;a href="https://developer.apple.com/library/ios/documentation/SafariServices/Reference/SFSafariViewController_Ref/"&gt;&lt;code dir="ltr" translate="no"&gt;SFSafariViewController&lt;/code&gt;&lt;/a&gt;, an iOS API that supports data sharing between apps and the Safari browser on
@@ -220,11 +220,11 @@ size of a banner ad.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; In preparation for App Transport Security changes in 2017, apps should use this
 version of the SDK when building apps for iOS 10, and include both the
 &lt;code dir="ltr" translate="no"&gt;NSAllowsArbitraryLoadsInWebContent&lt;/code&gt; and &lt;code dir="ltr" translate="no"&gt;NSAllowsArbitraryLoads&lt;/code&gt; exceptions.&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;GADMediaView&lt;/code&gt; property to the &lt;code dir="ltr" translate="no"&gt;GADNativeContentAd&lt;/code&gt; and
-&lt;code dir="ltr" translate="no"&gt;GADNativeCustomTemplateAd&lt;/code&gt; classes.&lt;/p&gt;
-&lt;h3 data-text="Analytics" id="analytics_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Increased the maximum length of event names and parameter names to 40 characters,
-and the maximum length of string parameter values to 100 characters.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Added the &lt;code dir="ltr" translate="no"&gt;GADMediaView&lt;/code&gt; property to the &lt;code dir="ltr" translate="no"&gt;GADNativeContentAd&lt;/code&gt; and
+&lt;code dir="ltr" translate="no"&gt;GADNativeCustomTemplateAd&lt;/code&gt; classes.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_20" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Increased the maximum length of event names and parameter names to 40 characters,
+and the maximum length of string parameter values to 100 characters.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Crash Reporting" id="crash-reporting_7" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Crash Reporting&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Improved the automatic upload of symbol files.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Dynamic Links" id="dynamic-links_18" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Dynamic Links&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -556,7 +556,7 @@ active database instances.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Instance ID" id="instance_id_9" tabindex="-1"&gt;Instance ID&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Resolved a race condition where a token was not being generated on
 first start when &lt;span class="notranslate"&gt;FCM&lt;/span&gt; was included and the app
-didn’t register for remote notifications.&lt;/li&gt;
+didn't register for remote notifications.&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Cloud Messaging" id="cloud-messaging_13" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Cloud Messaging&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Additional error code logging for errors thrown when creating or
 opening an internal database file.&lt;/li&gt;
@@ -3473,7 +3473,7 @@ GoogleDataTransport to be updated to latest bug-fix versions
 &lt;/ul&gt;</description></item><item><title>Version 8.9.0 - October 28, 2021</title><link>https://firebase.google.com/support/release-notes/ios#version_890_-_october_28_2021</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Firebase introduces beta support for tvOS, macOS, and Catalyst.
 watchOS continues to be available with community support. Individual product
-details are available &lt;a href="https://firebase.google.com/docs/ios/learn-more#firebase_library_support_by_platform"&gt;here&lt;/a&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/583"&gt;#583&lt;/a&gt;).&lt;/li&gt;
+details are available on &lt;a href="https://firebase.google.com/docs/ios/learn-more#library-support-by-platform"&gt;Understand Firebase on Apple platforms&lt;/a&gt; (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/583"&gt;#583&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; The minimum supported tvOS version is now 12.0.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Forced GoogleUtilities and GoogleDataTransport CocoaPods dependencies
 to be updated to latest minor versions (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8733"&gt;#8733&lt;/a&gt;).&lt;/li&gt;
@@ -4367,7 +4367,7 @@ Xcode 15.3.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed validation issue for macOS and macCatalyst XCFrameworks related to
 framework directory structure (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12587"&gt;#12587&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Extend community watchOS support to zip and Carthage distributions. See our
-&lt;a href="/docs/ios/learn-more#firebase_library_support_by_platform"&gt;platform documentation&lt;/a&gt;
+&lt;a href="/docs/ios/learn-more#library-support-by-platform"&gt;platform documentation&lt;/a&gt;
 for more details for the Firebase products included (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/8731"&gt;#8731&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added code signatures to all of Firebase's binary artifacts (&lt;a href="//github.com/firebase/firebase-ios-sdk/issues/12238"&gt;#12238&lt;/a&gt;).&lt;/li&gt;
 &lt;/ul&gt;&lt;h3 data-text="Analytics" id="analytics_v10-24-0" tabindex="-1"&gt;&lt;span class="notranslate"&gt;Analytics&lt;/span&gt;&lt;/h3&gt;&lt;ul&gt;

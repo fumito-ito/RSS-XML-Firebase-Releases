@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 19 Nov 2026 11:02:55 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Firebase Release Notes - Cli</title><link>https://firebase.google.com/support/release-notes/cli</link><description>Latest updates and release notes for Firebase Cli.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 19 Nov 2026 19:53:37 +0000</lastBuildDate><item><title>Version 11.26.0 - April 11, 2023</title><link>https://firebase.google.com/support/release-notes/cli#version_11260_-_april_11_2023</link><description>&lt;ul&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where functions shell failed to invoke
 event-triggered functions in debug mode.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue with the web frameworks proxy that could see
@@ -2767,4 +2767,56 @@ stale local &lt;span class="notranslate"&gt;App Check&lt;/span&gt; debug tokens.
 promise rejection when a batch write failed in &lt;span class="notranslate"&gt;Realtime Database&lt;/span&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed an issue where emulators crashed when a &lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; rules
 reload or emulator HTTP handler threw an error.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Version 15.37.0 - November 18, 2026</title><link>https://firebase.google.com/support/release-notes/cli#version_15370_-_november_18_2026</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Updated &lt;code dir="ltr" translate="no"&gt;@modelcontextprotocol/sdk&lt;/code&gt; to 1.32.2, &lt;code dir="ltr" translate="no"&gt;undici&lt;/code&gt; to
+6.29.1, and &lt;code dir="ltr" translate="no"&gt;proxy-addr&lt;/code&gt; to 2.0.8 to resolve critical and high severity
+security advisories.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added support for the Node.js 26 runtime (Preview) for
+&lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/11393"&gt;#11393&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;firebase deploy --dry-run&lt;/code&gt; creating a missing
+&lt;span class="notranslate"&gt;Cloud Firestore&lt;/span&gt; database. A dry run now reports which database a deploy
+would create, and where
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/11491"&gt;#11491&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-feature"&gt;&lt;/span&gt; Added an optional &lt;code dir="ltr" translate="no"&gt;filterExpression&lt;/code&gt; parameter to the
+&lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; MCP &lt;code dir="ltr" translate="no"&gt;get_report&lt;/code&gt; tool to filter reports by custom keys.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed 2nd gen &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt; staying uncallable after
+their first deploy failed because later deploys never set the invoker
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/8984"&gt;#8984&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated &lt;span class="notranslate"&gt;Pub/Sub&lt;/span&gt; emulator to version 0.8.38.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;crashlytics:heapdumps&lt;/code&gt; commands accepting &lt;code dir="ltr" translate="no"&gt;--app&lt;/code&gt; IDs that
+don't belong to the target &lt;span class="notranslate"&gt;Firebase&lt;/span&gt; project.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;crashlytics:heapdumps:enable&lt;/code&gt; bypassing the confirmation
+prompt without &lt;code dir="ltr" translate="no"&gt;--force&lt;/code&gt; in non-interactive environments.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Warned when &lt;code dir="ltr" translate="no"&gt;crashlytics:heapdumps:enable&lt;/code&gt; reuses an existing
+&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; bucket whose location differs from &lt;code dir="ltr" translate="no"&gt;--location&lt;/code&gt; instead of
+silently ignoring the requested location.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;crashlytics:heapdumps:status --json&lt;/code&gt; omitting
+&lt;code dir="ltr" translate="no"&gt;heapDumpCollectionEnabled&lt;/code&gt; when disabled, removed duplicated default
+location text in &lt;code dir="ltr" translate="no"&gt;crashlytics:heapdumps:enable --help&lt;/code&gt;, and surfaced
+&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; API error details when bucket creation fails.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed &lt;code dir="ltr" translate="no"&gt;crashlytics:heapdumps:enable&lt;/code&gt; printing an invalid
+&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; console &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; URL by linking to
+&lt;code dir="ltr" translate="no"&gt;/crashlytics/app/android:&amp;lt;packageName&amp;gt;/issues&lt;/code&gt; instead of the
+&lt;span class="notranslate"&gt;Firebase&lt;/span&gt; App ID.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Scoped &lt;span class="notranslate"&gt;Crashlytics&lt;/span&gt; service agent
+&lt;code dir="ltr" translate="no"&gt;roles/storage.objectCreator&lt;/code&gt; access to the dedicated heap dump
+&lt;span class="notranslate"&gt;Cloud Storage&lt;/span&gt; bucket, enabled uniform bucket-level access, and enforced
+public access prevention in &lt;code dir="ltr" translate="no"&gt;crashlytics:heapdumps:enable&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Updated the &lt;span class="notranslate"&gt;Firebase SQL Connect&lt;/span&gt; local toolkit to v3.4.28,
+which includes the following changes:
+&lt;ul&gt;
+&lt;li&gt;Fixed a bug where singular lookup queries using server value key
+expressions (such as &lt;code dir="ltr" translate="no"&gt;id_expr&lt;/code&gt;) did not trigger realtime subscription
+updates or client-side cache tracking when returning &lt;code dir="ltr" translate="no"&gt;null&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Declared and exported enums selected only inside nested relations in
+generated JS and Admin Node SDKs.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-fixed"&gt;&lt;/span&gt; Fixed deploying a 2nd gen scheduled function to a region without
+&lt;span class="notranslate"&gt;Cloud Scheduler&lt;/span&gt;. The deploy now fails before creating the function,
+and &lt;code dir="ltr" translate="no"&gt;functions:delete&lt;/code&gt; can remove a function left behind by an earlier
+deploy
+(&lt;a class="external" href="https://github.com/firebase/firebase-tools/issues/11453"&gt;#11453&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;span class="release-changed"&gt;&lt;/span&gt; Restricted cross-origin access on the &lt;span class="notranslate"&gt;Cloud Functions&lt;/span&gt;
+emulator &lt;code dir="ltr" translate="no"&gt;/backends&lt;/code&gt; endpoint to the active &lt;span class="notranslate"&gt;Emulator Suite UI&lt;/span&gt; origin.&lt;/li&gt;
 &lt;/ul&gt;</description></item></channel></rss>
